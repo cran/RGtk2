@@ -1,0 +1,12 @@
+\alias{gdkDisplayGetDefault}
+\name{gdkDisplayGetDefault}
+\title{gdkDisplayGetDefault}
+\description{Gets the default \code{\link{GdkDisplay}}. This is a convenience
+function for:
+\preformatted{  gdk\_display\_manager\_get\_default\_display (  \link{gdkDisplayManagerGet}  )}}
+\usage{gdkDisplayGetDefault()}
+\details{  Since  2.2}
+\value{[\code{\link{GdkDisplay}}]  a \code{\link{GdkDisplay}}, or \code{NULL} if there is no default
+  display.}
+\author{Derived by RGtkGen from GTK+ documentation}
+\keyword{internal}
