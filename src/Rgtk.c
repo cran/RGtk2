@@ -41,6 +41,7 @@ R_gtkInit(long *rargc, char **rargv)
 
     argc = (int) *rargc;
 
+    gtk_disable_setlocale();
     gtk_init_check(&argc, &rargv);
 
 #ifndef G_OS_WIN32
@@ -52,4 +53,6 @@ R_gtkInit(long *rargc, char **rargv)
 #else
     R_tcldo = R_gtk_handle_events;
 #endif
+
+  r_gtk_sexp_get_type();
 }

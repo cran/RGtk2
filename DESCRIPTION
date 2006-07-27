@@ -1,5 +1,5 @@
 Package: RGtk2
-Version: 2.8.6
+Version: 2.8.7
 Date:    2006/7/27
 Title: R bindings for Gtk 2.0
 Author:  Duncan Temple Lang <duncan@wald.ucdavis.edu> and Michael Lawrence <lawremi@iastate.edu>
@@ -9,4 +9,4 @@ Description: Facilities in the R language for programming
   graphical interfaces using Gtk, the Gimp Tool Kit.
 License: GPL
 URL:  http://www.ggobi.org/rgtk2,  http://www.omegahat.org
-Packaged: Thu Jul 27 11:28:41 2006; larman
+Packaged: Wed Jan 24 22:18:16 2007; larman
