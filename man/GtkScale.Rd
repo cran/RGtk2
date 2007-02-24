@@ -14,12 +14,13 @@
 
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkRange}
-                     +----GtkScale
-                           +----\link{GtkHScale}
-                           +----\link{GtkVScale}}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkRange}
+                           +----GtkScale
+                                 +----\link{GtkHScale}
+                                 +----\link{GtkVScale}}}
 \section{Interfaces}{GtkScale implements
  AtkImplementorIface.}
 \section{Detailed Description}{A \code{\link{GtkScale}} is a slider control used to select a numeric value.
@@ -63,6 +64,8 @@ format_value_callback <- function(scale, value)
 \item{\code{arg1}}{[numeric] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [character] allocated string representing \code{value}
 
 }}}
 \section{Properties}{\describe{

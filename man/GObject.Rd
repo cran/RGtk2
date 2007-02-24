@@ -14,29 +14,44 @@
 \alias{gObjectGetSignals}
 \alias{[.GObject}
 \alias{[<-.GObject}
+\alias{$.GObject}
+\alias{$<-.GObject}
+\alias{[[.GObject}
+\alias{[[<-.GObject}
 \alias{interface.GObject}
+\alias{gObjectParentClass}
+\alias{gTypeGetPropInfo}
 \description{
 GObject is the fundamental type providing the common attributes and 
 methods for all object types in GTK+, Pango and other libraries based on GObject.
 It provides facilities for object construction, properties, and signals.
 }
 \usage{
-gObjectGet(obj, ...)
+gObjectGet(obj, ..., drop = T)
 "[.GObject"(obj, value, ...)
 gObjectSet(obj, ...)
 "[<-.GObject"(obj, propNames, value)
+"[[.GObject"(obj, member)
+"[[<-.GObject"(obj, member, value)
+"$.GObject"(x, member)
+"$<-.GObject"(obj, member, value)
 gObject(type, ...)
 gObjectNew(type, ...)
 gObjectSetData(obj, key, data = NULL) 
 gObjectGetData(obj, key)
 gObjectGetSignals(obj)
-gObjectGetPropInfo(obj, parents = TRUE, collapse = FALSE)
+gObjectGetPropInfo(obj, parents = TRUE, collapse = TRUE)
+gTypeGetPropInfo(type)
 names.GObject(x)
 interface.GObject(obj)
+gObjectParentClass(obj)
 }
 \arguments{
 \item{obj}{an instance of a \code{GObject}}
-\item{type}{the type of \code{GObject} to create}
+\item{drop}{when retrieving the value of a single property, \code{TRUE} to
+return the element from the list, instead of the list with just that element.}
+\item{member}{the name of a member in an R-defined (custom) GObject class}
+\item{type}{the type of \code{GObject}}
 \item{key}{the unique identifier under which the data is stored}
 \item{data}{the data to store with the \code{GObject}}
 \item{...}{named arguments of properties to set or names of properties to retrieve}
@@ -49,9 +64,12 @@ interface.GObject(obj)
 \value{
 Properties and data for \code{gObjectGet} and \code{gObjectGetData}, respectively. 
 \code{gObjectNew} returns a new instance of the specified \code{type}.
-\code{gObjectGetPropInfo} returns a named list of property info pertaining to a \code{GObject} type, 
-including the types of the properties and their flags (read-only, read-write, construct, etc). 
+\code{gObjectGetPropInfo} and \code{gTypeGetPropInfo} return a named list 
+(or list of lists if \code{collapse} is \code{FALSE}) of 
+properties (\code{\link{GParamSpec}}s) belonging to the \code{GObject} type and 
+its parents (unless \code{parents} is \code{FALSE}).
 \code{gObjectGetSignals} gets a list of signal ids with names for the signals supported by the object.
+\code{gObjectParentClass} returns a pointer to the parent class of the object.
 }
 \details{
 Every \code{GObject} has a type, known as a \code{\link{GType}}. Like all 
@@ -73,15 +91,32 @@ and set using \code{gObjectGet} and \code{gObjectSet}, respectively.
 Whenever specifying properties as arguments in RGtk2, name the arguments with 
 the property name and give the desired property value as the actual argument. 
 For example, \code{gObjectSet(window, modal = T)} to make a window modal. For 
-convenience, the \code{[} operator may be used to get/set properties. For example, 
-\code{window["modal"] <- T}. Properties at least partly describe the state of an 
-object and are convenient for many reasons, including the capability of 
-notification upon property changes. 
+convenience, the \code{[.GObject} and \code{[<-.GObject} functions may be used 
+to get and set properties, respectively. For example, 
+\code{window["modal"] <- T}. Properties help describe the state of an 
+object and are convenient for many reasons, including the ability to register
+handlers that are invoked when a property changes. They are also associated
+with metadata that describe their purpose and allow runtime checking of
+constraints, such as the data type or range in the case of a numeric type.
 
 This notification occurs via \code{GObject} signals, which are named hooks for 
 which callbacks may be registered. The event driven system of GTK+ depends on 
 signals for coordinating objects in response to both user and programmatic events. 
 You can use \code{\link{gSignalConnect}} to connect an R function to a signal.
+
+When new GObject classes are defined in R, they may provide additional fields
+and methods. \code{[[.GObject} and \code{[[<-.GObject} get and set, respectively, 
+those members, depending on permissions: private members are only available
+to methods of the defining class, and protected only to subclasses of the
+defining class. If \code{[[} fails to find an R-defined member, it searches
+for a C field and then a GObject property. \code{[[<-} first tries to set a 
+GObject property before looking
+for an R member to ensure that properties are set through the proper channel.
+Note that the bindings of public fields and public and protected methods are
+locked, so they cannot be changed using \code{[[<-}. \code{$<-.GObject} serves
+as a synonym of \code{[[<-.GObject}, but \code{$.GObject} first checks for a
+function (see \code{\link{$.RGtkObject}}) before falling back to the behavior 
+of \code{[[.GObject}.
 
 Finally, arbitrary R objects can be stored in a \code{GObject} under a specific key 
 for later retrieval. This can be achieved with \code{gObjectSetData} and 

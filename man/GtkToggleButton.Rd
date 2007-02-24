@@ -17,13 +17,14 @@
 \code{gtkToggleButton(label, show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----\link{GtkButton}
-                                 +----GtkToggleButton
-                                       +----\link{GtkCheckButton}}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----\link{GtkButton}
+                                       +----GtkToggleButton
+                                             +----\link{GtkCheckButton}}}
 \section{Interfaces}{GtkToggleButton implements
  AtkImplementorIface.}
 \section{Detailed Description}{A \code{\link{GtkToggleButton}} is a \code{\link{GtkButton}} which will remain 'pressed-in' when
@@ -75,6 +76,7 @@ Should be connected if you wish to perform an action whenever the
 \item{\code{togglebutton}}{[\code{\link{GtkToggleButton}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }}}
 \section{Properties}{\describe{

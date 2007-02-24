@@ -1,7 +1,4 @@
-#include "RGtk2.h"
-#include "conversion.h"
-#include "glib.h"
-#include "utils.h"
+#include "RGtk2/gobject.h"
 
 /* Transparents */
 
@@ -14,13 +11,28 @@ asCGTimeVal(USER_OBJECT_ s_timeval)
     return(timeval);
 }
 
+USER_OBJECT_
+asRGTimeVal(const GTimeVal *timeval)
+{
+  USER_OBJECT_ s_timeval;
+  
+  PROTECT(s_timeval = NEW_LIST(2));
+  
+  SET_VECTOR_ELT(s_timeval, 0, asRNumeric(timeval->tv_sec));
+  SET_VECTOR_ELT(s_timeval, 1, asRNumeric(timeval->tv_usec));
+  
+  UNPROTECT(1);
+  
+  return s_timeval;
+}
+
 GString*
 asCGString(USER_OBJECT_ s_string) {
     return(g_string_new(CHAR_DEREF(STRING_ELT(s_string, 0))));
 }
 
 GList*
-asCGList(USER_OBJECT_ s_list)
+toCGList(USER_OBJECT_ s_list, gboolean dup)
 {
     GList* list = NULL;
     int i;
@@ -28,9 +40,15 @@ asCGList(USER_OBJECT_ s_list)
     for (i = 0; i < GET_LENGTH(s_list); i++) {
         SEXP s_element = VECTOR_ELT(s_list, i);
         gpointer element;
-        if (IS_CHARACTER(s_element))
+        if (IS_CHARACTER(s_element)) {
             element = CHAR_DEREF(STRING_ELT(s_element, 0));
-        else element = (gpointer)getPtrValue(s_element);
+            if (dup && element) element = g_strdup(element);
+        } else if (IS_INTEGER(s_element))
+            element = GINT_TO_POINTER(INTEGER(s_element)[0]);
+        else {
+          element = (gpointer)getPtrValue(s_element);
+          if (dup && G_IS_OBJECT(element)) g_object_ref(G_OBJECT(element));
+        }
         list = g_list_append(list, element);
     }
     return(list);
@@ -51,20 +69,6 @@ asRGListWithRef(GList *glist, const gchar* type)
 	}
 		
 	return(asRGListWithFinalizer(glist, type, g_object_unref));
-}
-USER_OBJECT_
-asRGListWithSink(GList *glist, const gchar* type)
-{
-	USER_OBJECT_ list;
-    GList * cur = glist;
-    int size = g_list_length(glist), i;
-    PROTECT(list = NEW_LIST(size));
-    for (i = 0; i < size; i++) {
-        SET_VECTOR_ELT(list, i, toRPointerWithSink(cur->data, type));
-        cur = g_list_next(cur);
-    }
-    UNPROTECT(1);
-    return list;
 }
 USER_OBJECT_
 asRGListWithFinalizer(GList *glist, const gchar* type, RPointerFinalizer finalizer) {
@@ -94,7 +98,7 @@ asRGListConv(GList *glist, ElementConverter converter) {
 }
 
 GSList*
-asCGSList(USER_OBJECT_ s_list)
+toCGSList(USER_OBJECT_ s_list, gboolean dup)
 {
     GSList* list = NULL;
     int i;
@@ -102,9 +106,15 @@ asCGSList(USER_OBJECT_ s_list)
     for (i = 0; i < GET_LENGTH(s_list); i++) {
         SEXP s_element = VECTOR_ELT(s_list, i);
         gpointer element;
-        if (IS_CHARACTER(s_element))
+        if (IS_CHARACTER(s_element)) {
             element = CHAR_DEREF(STRING_ELT(s_element, 0));
-        else element = (gpointer)getPtrValue(s_element);
+            if (dup && element) element = g_strdup(element);
+        } else if (IS_INTEGER(s_element))
+            element = GINT_TO_POINTER(INTEGER(s_element)[0]);
+        else {
+          element = (gpointer)getPtrValue(s_element);
+          if (dup && G_IS_OBJECT(element)) g_object_ref(G_OBJECT(element));
+        }
         list = g_slist_append(list, element);
     }
 
@@ -126,21 +136,6 @@ asRGSListWithRef(GSList *gslist, const gchar* type)
 	}
 		
 	return(asRGSListWithFinalizer(gslist, type, g_object_unref));
-}
-USER_OBJECT_
-asRGSListWithSink(GSList *gslist, const gchar* type) { 
-    USER_OBJECT_ list;
-    GSList * cur = gslist;
-    int l = g_slist_length(gslist), i;
-    PROTECT(list = NEW_LIST(l));
-    for (i = 0; i < l; i++) {
-        USER_OBJECT_ element;
-        element = toRPointerWithSink(cur->data, type);
-        SET_VECTOR_ELT(list, i, element);
-        cur = g_slist_next(cur);
-    }
-    UNPROTECT(1);
-    return list;
 }
 USER_OBJECT_
 asRGSListWithFinalizer(GSList *gslist, const gchar* type, RPointerFinalizer finalizer) { 
@@ -214,6 +209,20 @@ asRGQuark(GQuark val)
   UNPROTECT(1);
 
   return(ans);
+}
+
+GError *
+asCGError(USER_OBJECT_ s_error)
+{
+  GError *error;
+  
+  if (s_error == NULL_USER_OBJECT)
+    return NULL;
+  
+  error = g_error_new(asCNumeric(VECTOR_ELT(s_error, 0)),
+    asCInteger(VECTOR_ELT(s_error, 1)), asCString(VECTOR_ELT(s_error, 2)));
+  
+  return error;
 }
 
 USER_OBJECT_
@@ -355,12 +364,6 @@ R_addGIdleHandler(USER_OBJECT_ sfunc, USER_OBJECT_ data, USER_OBJECT_ useData)
     SET_CLASS(ans, asRString("GIdleId"));
     UNPROTECT(1);
     return(ans);
-}
-
-/* Utils */
-
-void free_g_string(GString* string) {
-    g_string_free(string, (gboolean)1);
 }
 
 /* The G_FILE_ERROR quark */

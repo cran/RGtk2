@@ -5,8 +5,8 @@
 # currently just converts type name to GType object, if x isn't one already
 as.GType <- function(x)
 {
-	mapping <- c("integer" = "gint", "character" = "gchararray", "logical" = "gboolean",
-		"numeric" = "gdouble", "raw" = "guchar", "externalptr" = "gpointer") 
+  mapping <- c("integer" = "gint", "character" = "gchararray", "logical" = "gboolean",
+    "numeric" = "gdouble", "raw" = "guchar", "externalptr" = "gpointer") 
   type <- x
   if (is.character(type)) {
     if (type %in% names(mapping))
@@ -18,9 +18,9 @@ as.GType <- function(x)
         type <- do.call(func, list())
       }
   }
-	if (!inherits(type, "GType"))
-		stop("Cannot convert ", x, " to GType")
-	type
+  if (!inherits(type, "GType"))
+    stop("Cannot convert ", x, " to GType")
+  type
 }
 
 interface.GObject <-
@@ -33,14 +33,24 @@ gTypeGetAncestors <-
 function(type)
 {
   type <- as.GType(type)
-  .Call("R_getGTypeHierarchy", type, PACKAGE = "RGtk2")
+  .Call("R_getGTypeAncestors", type, PACKAGE = "RGtk2")
+}
+
+gTypeGetInterfaces <-
+function(type)
+{
+  type <- as.GType(type)
+  .Call("R_getInterfaces", type, PACKAGE = "RGtk2")
 }
 
 gTypeGetClass <-
 function(type)
 {
-	type <- as.GType(type)
-	.Call("R_getGTypeClass", type, PACKAGE = "RGtk2")
+  type <- as.GType(type)
+  ancestors <- gTypeGetAncestors(type)
+  class_ptr <- .Call("R_getGTypeClass", type, PACKAGE = "RGtk2")
+  class(class_ptr) <- c(paste(ancestors, "Class", sep=""), class(class_ptr))
+  class_ptr
 }
 
 gTypeFromName <-
@@ -50,6 +60,17 @@ function(name)
 }
 
 # GSignal support
+
+GSignalFlags <- c(
+  "run-first"  = 1,
+  "run-last"  = 2,
+  "run-cleanup"  = 4,
+  "no-recurse"  = 8,
+  "detailed"  = 16,
+  "action"  = 32,
+  "no-hooks"  = 64
+)
+
 connectSignal <- gSignalConnect <-
 function(obj, signal, f, data = NULL, after = FALSE, user.data.first = FALSE)
 {
@@ -68,7 +89,7 @@ function(obj, signal, f, data = NULL, after = FALSE, user.data.first = FALSE)
   }
 
   .Call("R_connectGSignalHandler", obj, f, as.character(signal), data, useData, 
-  	as.logical(after), as.logical(user.data.first), PACKAGE = "RGtk2")
+    as.logical(after), as.logical(user.data.first), PACKAGE = "RGtk2")
 }
 
 gSignalHandlerDisconnect <-
@@ -95,9 +116,9 @@ function(obj, id)
 gSignalStopEmission <-
 function(obj, signal, detail = NULL)
 {
-	if (!is.null(detail))
-		signal <- paste(signal, detail, sep="::")
-	.Call("R_gSignalStopEmission", obj, signal, PACKAGE = "RGtk2")
+  if (!is.null(detail))
+    signal <- paste(signal, detail, sep="::")
+  .Call("R_gSignalStopEmission", obj, signal, PACKAGE = "RGtk2")
 }
 
 gObjectGetSignals <-
@@ -138,7 +159,7 @@ function(obj, signal, ..., detail = NULL)
   args <- list(...)
   signal <- as.character(signal)
   if (!is.null(detail))
-		signal <- paste(signal, detail, sep="::")
+    signal <- paste(signal, detail, sep="::")
   .RGtkCall("R_gSignalEmit", obj, signal, args, PACKAGE = "RGtk2")
 }
 
@@ -153,43 +174,49 @@ names.GObject <-
   #
 function(x)
 {
-  names(gObjectGetPropInfo(x, parents = TRUE, collapse = TRUE, strip = TRUE))
+  names(gObjectGetPropInfo(x, parents = TRUE, collapse = TRUE))
 }
 
 gObjectGetPropInfo <-
-function(obj, parents = TRUE, collapse = FALSE)
+function(obj, parents = TRUE, collapse = TRUE)
 {
   checkPtrType(obj, "GObject")
-  
-  type <- as.GType(class(obj)[1])
-  
-  v <- .Call("R_getGTypeParamSpecs", as.numeric(type), as.logical(parents), PACKAGE = "RGtk2")
-
-  if(collapse) {
-         # Merge into a new list (vals)
-         # making certain not to overwrite values in
-         # more specific classes with names
-    vals <- list()
-    sapply(v, function(x) {
-                  which <- is.na(match(names(x), names(vals)))
-                    Names <- names(x)[which]
-                  vals[Names] <<- x[which]
-              })
-    v <- vals
-    #
-    #unlist(v, recursive = FALSE)
-    # messes up the names.
-  }
-
-  v
+  real_classes <- class(obj)[-length(class(obj))]
+  props <- lapply(real_classes, gTypeGetPropInfo)
+  if (parents && collapse)
+    return(props[[1]])
+  # props is a list containing the properties for each class in the hierarchy
+  # as well as the parents of that class. We must remove the duplicates.
+  n_dups <- c(sapply(props, length), 0)
+  stripped <- lapply(1:length(props), function(ind) 
+    if (n_dups[ind+1] > 0)
+      props[[ind]][-(1:n_dups[ind+1])]
+    else props[[ind]])
+  names(stripped) <- real_classes
+  result <- stripped
+  if (!parents)
+    result <- stripped[[1]]
+  result
 }
 
+gTypeGetPropInfo <-
+function(type)
+{
+  type <- as.GType(type)
+  if (!("GObject" %in% gTypeGetAncestors(type)))
+    stop("Cannot retrieve properties, because type is not a GObject type")
+  
+  .RGtkCall("R_getGTypeParamSpecs", as.numeric(type))
+}
 
 gObjectGet <-
-function(obj, ...)
+function(obj, ..., drop = T)
 {
    checkPtrType(obj, "GObject")
-   .Call("R_getGObjectProps", obj, as.character(c(...)), PACKAGE = "RGtk2")
+   props <- .Call("R_getGObjectProps", obj, as.character(c(...)), PACKAGE = "RGtk2")
+   if (drop && length(props) == 1)
+     props[[1]]
+   else props
 }
 
 "[.GObject" <-
@@ -212,37 +239,133 @@ function(obj, ...)
 "[<-.GObject" <-
 function(obj, propNames, value)
 {
-	value <- list(value)
-	names(value) <- propNames
-	.RGtkCall("R_setGObjectProps", obj, value, PACKAGE = "RGtk2")
-	obj
+  value <- list(value)
+  names(value) <- propNames
+  .RGtkCall("R_setGObjectProps", obj, value, PACKAGE = "RGtk2")
+  obj
 }
 
 gObject <- gObjectNew <-
-function(type, ... = TRUE)
+function(type, ...)
 {
   args <- list(...)
   type <- as.GType(type)
   if (!("GObject" %in% gTypeGetAncestors(type)))
-	  stop("GType must inherit from GObject")
+    stop("GType must inherit from GObject")
   if(any(names(args) == ""))
     stop("All values must have a name")
 
   invisible(.RGtkCall("R_gObjectNew", type, args, PACKAGE = "RGtk2"))
 }
 
+## Parameter specifications
+
+GParamFlags <- c("readable" = 1, "writable" = 2, "construct" = 4, 
+  "construct-only" = 8, "lax-validation" = 16, "static-name" = 32,
+  "private" = 32, "static-nick" = 64, "static-blurb" = 128)
+  
+gParamSpec <-
+function(type, name, nick = NULL, blurb = NULL, flags = NULL, ...)
+{
+  # map type to param spec type, pass on the args
+  
+  spec <- list(name = name, nick = nick, blurb = blurb, flags = flags, ...)
+  
+  if (type == "integer")
+    param_type <- "GParamInt"
+  else if (type == "numeric")
+    param_type <- "GParamDouble"
+  else if (type == "logical")
+    param_type <- "GParamBoolean"
+  else if (type == "character")
+    param_type <- "GParamString"
+  else if (type == "raw")
+    param_type <- "GParamUChar"
+  else if (type == "R")
+    param_type <- "RGtkParamSexp"
+  else param_type <- type
+  
+  class(spec) <- c(param_type)
+  
+  as.GParamSpec(spec)
+}
+
 as.GParamSpec <- 
 function(x)
 {
-	x <- as.struct(x, "GParamSpec", c("param.type", "name", "nick", "blurb", "flags"))
-	x[[1]] <- as.GType(x[[1]])
-	x[[2]] <- as.character(x[[2]])
-	x[[3]] <- as.character(x[[3]])
-	x[[4]] <- as.character(x[[4]])
-	
-	return(x)
+  type <- sub(".*Param", "", class(x)[1])
+  
+  fields <- NULL
+  common_fields <- c("name", "nick", "blurb", "flags")
+  if (type %in% c("Boolean", "String", "Unichar"))
+    fields <- "default.value"
+  else if (type == "Flags")
+    fields <- c("flags.type", "default.value")
+  else if (type == "Enum")
+    fields <- c("enum.type", "default.value")
+  else if (type %in% c("Char", "UChar", "Int", "UInt", "ULong", "Long", "UInt64",
+      "Int64", "Float", "Double"))
+    fields <- c("minimum", "maximum", "default.value")
+  else if (type == "Param")
+    fields <- "param.type"
+  else if (type == "Boxed")
+    fields <- "boxed.type"
+  else if (type == "Object")
+    fields <- "object.type"
+  else if (type == "ValueArray")
+    fields <- "element.spec"
+  else if (type == "GType")
+    fields <- "is.a.type"
+  else if (type == "Sexp")
+    fields <- c("s.type", "default.value")
+  
+  x <- as.struct(x, c(class(x)[1], "GParamSpec"), c(common_fields, fields))
+
+  x[[1]] <- as.character(x[[1]])
+  x[[2]] <- as.character(x[[2]])
+  x[[3]] <- as.character(x[[3]])
+  
+  if (is.null(x[[4]]))
+    x[[4]] <- sum(GParamFlags[c("readable", "writable", "construct")])
+  
+  if (type == "Boolean")
+    x[[5]] <- ifelse(is.null(x[[5]]), F, as.logical(x[[5]]))
+  else if (type == "String")
+    x[[5]] <- ifelse(is.null(x[[5]]), "", as.character(x[[5]]))
+  else if (type == "Unichar")
+    x[[5]] <- ifelse(is.null(x[[5]]), as.integer(0), as.integer(x[[5]]))
+  else if (type %in% c("Flags", "Enum", "Param", "Boxed", "Object", "GType"))
+    x[[5]] <- as.GType(x[[5]])
+  else if (type %in% c("Char", "UChar")) {
+    x[[5]] <- ifelse(is.null(x[[5]]), 0, as.raw(x[[5]]))
+    x[[6]] <- as.raw(x[[6]])
+    x[[7]] <- as.raw(x[[7]])
+  } else if (type == "Int") {
+    x[[5]] <- ifelse(is.null(x[[5]]), 0, as.integer(x[[5]]))
+    x[[6]] <- as.integer(x[[6]])
+    x[[7]] <- as.integer(x[[7]])
+  } else if (type %in% c("UInt", "ULong", "Long", "UInt64", "Int64", "Float", "Double")) {
+    x[[5]] <- ifelse(is.null(x[[5]]), 0, as.numeric(x[[5]]))
+    x[[6]] <- as.numeric(x[[6]])
+    x[[7]] <- as.numeric(x[[7]])
+  } else if (type == "ValueArray")
+    x[[5]] <- as.GParamSpec(x[[5]])
+  else if (type == "Sexp") {
+    # if there's no type, try to get it from the default value
+    if (is.null(x[[5]]))
+      x[[5]] <- typeof(x[[6]])
+    # if there's no default value, create one given the type
+    if (is.null(x[[6]]))
+      x[[6]] <- new(as.character(x[[5]]))
+    # if type is numeric, assume it's a type code, otherwise assume it's a type 
+    # name and ask the C side to query the default value for the code
+    if (!is.numeric(x[[5]]))
+      x[[5]] <- .RGtkCall("getNumericType", x[[6]])
+  }
+  
+  return(x)
 }
-	
+  
 
 gObjectSetData <-
 function(obj, key, data = NULL)
@@ -267,16 +390,81 @@ function(obj, key)
 
 # Methods
 
+parentHandler <-
+function(method, obj = NULL, ...)
+{
+  # untested stuff
+  # chaining up is only allowed/makes sense from inside a GObject implementation
+  stopifnot(implements(obj, "SGObject"))
+  if (is.null(attr(obj, ".private")))
+    stop("Parent methods should only be invoked within the instance")
+  if (FALSE) { # stuff that might work some day
+  parent_call <- sys.call(sys.parent(1))
+  parent_frame <- parent.frame()
+  formal_args <- formals(parent_call[[1]])
+  if (missing(obj))
+    obj <- get(names(formal_args)[1], parent_frame)
+  args <- list(...)
+  formal_names <- names(formal_args)[-1]
+  missing_names <- formal_names[!(formal_names %in% names(args))]
+  unnamed <- sapply(names(args), nchar) == 0
+  names(args)[unnamed] <- missing_names[seq(along=unnamed)]
+  missing_names <- missing_names[!(missing_names %in% names(args))]
+  args[missing_args] <- lapply(missing_names, get, parent_frame)
+  parent <- .Call("S_g_object_parent", obj, PACKAGE = "RGtk2")
+  if (!is.null(parent) && is.function(try(parent[[method]], T)))
+    fun <- parent[[method]]
+  else { # fallback to calling a wrapper of the C virtual
+    fun <- eval(substitute(gTypeGetClass(class(obj)[2])$sym, list(sym=method)))
+    args <- c(obj, args)
+  }      
+  do.call(fun, args)
+  }
+  # assume looking for a function, does not make sense for fields
+  #function(...) {
+    # is this a function defined by a parent R class?
+    parent <- .Call("S_g_object_parent", obj, PACKAGE = "RGtk2")
+    if (!is.null(parent) && is.function(try(parent[[method]], T))) {
+      parent[[method]](...)
+    } else # fallback to calling a wrapper of the C virtual
+      eval(substitute(gTypeGetClass(class(obj)[2])$sym(obj, ...), 
+        list(obj=obj,sym=method)))
+  #}
+}
+
 "$.<invalid>" <-
 function(obj, name)
 {
-	stop("attempt to call '", name, "' on invalid reference '", deparse(substitute(obj)), "'", call.=FALSE)
+  stop("attempt to call '", name, "' on invalid reference '", deparse(substitute(obj)), "'", call.=FALSE)
 }
 
-"$.RGtkObject" <-
-function(x, method)
+"$.GObject" <- "$.RGtkObject" <-
+function(x, member)
+{ # try for a declared method first, else fall back to member
+ result <- try(.getAutoMethodByName(x, member), T)
+ if (inherits(result, "try-error"))
+   result <- x[[member]]
+ result
+}
+
+.getAutoMemberByName <- 
+function(obj, name)
 {
- .getAutoMethodByName(x, method)
+  # if we have an SGObject, try private env (includes protected) then public
+  stopifnot(implements(obj, "SGObject"))
+  attrs <- attributes(obj)
+  has_private <- ".private" %in% names(attrs)
+  if (has_private)
+    member <- try(get(name, attrs$.private), T)
+  if (!has_private || inherits(member, "try-error"))
+    member <- try(get(name, attrs$.public), T)
+  if (is.function(member)) {
+    # we need to add private env if it's not there
+    if (!has_private)
+      obj <- .Call("S_g_object_private", obj)
+    function(...) member(obj, ...)
+  }
+  else member
 }
 
 .getAutoMethodByName <-
@@ -303,10 +491,41 @@ function(obj, name)
 
 "==.RGtkObject" <-
 function(x, y) {
-	.ptrToNumeric(x) == .ptrToNumeric(y)
+  .ptrToNumeric(x) == .ptrToNumeric(y)
 }
 
 # Fields
+
+"$<-.GObject" <- "[[<-.GObject" <-
+function(obj, member, value)
+{ # first try for prop, then fall back to private env
+  # this encourages the setting of properties, rather than using the back door
+  result <- try(obj[member] <- value, T)
+  if (inherits(result, "try-error")) {
+    env <- attr(obj, ".private")
+    if (is.null(env))
+      stop("Cannot find '", member, "' to set in ", paste(class(obj),collapse=", "))
+    protected_env <- parent.env(env)
+    if (exists(member, protected_env))
+      env <- protected_env
+    assign(member, value, env)
+  }
+  obj
+}
+
+"[[.GObject" <-
+function(obj, member)
+{
+  # check SGObject environments first, then fall back to field/property
+  val <- try(.getAutoMemberByName(obj, member), T)
+  if (inherits(val, "try-error"))
+    val <- try(NextMethod("[["), T)
+  if (inherits(val, "try-error"))
+    val <- try(obj$get(member)[[1]], T)
+  if (inherits(val, "try-error"))
+    stop("Cannot find '", member, "' for classes ", paste(class(obj), collapse=", "))
+  val
+}
 
 "[[.RGtkObject" <-
   #
@@ -314,17 +533,14 @@ function(x, y) {
   #
 function(x, field)
 {
-  if(is.numeric(field)) {
-    return(x$getChildren()[[field]])
-  }
-  sym <- try(.getAutoElementByName(x, field, error = FALSE))
+  # check for C field (fast), then GObject prop
+  sym <- try(.getAutoElementByName(x, field, error = FALSE), T)
   if (!inherits(sym, "try-error"))
-	  val <- eval(substitute(sym(x), list(sym=sym)))
-  else if (inherits(x, "GObject")) {
-   val <- x$get(field)
-  } else val <- sym
+    val <- eval(substitute(sym(x), list(sym=sym)))
+  else stop("Cannot find '", field, "' for classes ", paste(class(x), collapse=", "))
   return(val)
 }
+# C field setting is not allowed
 if (FALSE) {
 "[[<-.RGtkObject" <-
   #
@@ -334,7 +550,7 @@ function(x, name, value)
 {
   sym <- try(.getAutoElementByName(x, name, op = "Set", error = FALSE))
   if (!inherits(sym, "try-error"))
-	  val <- eval(substitute(sym(x, value), list(sym=sym)))
+    val <- eval(substitute(sym(x, value), list(sym=sym)))
   else if(inherits(x, "GObject"))
    val <- x$set(name)
   else val <- sym
@@ -350,7 +566,7 @@ function(obj, name, op = "Get", error = TRUE)
  which <- sapply(sym, exists)
 
  if(!any(which)) {
-	 message <- paste("Could not", op, "element/property", name,"for classes", paste(class(obj), collapse=", "))
+   message <- paste("Could not", op, "field", name,"for classes", paste(class(obj), collapse=", "))
    if(error)
      stop(message)
    else {
@@ -369,11 +585,11 @@ function(obj, name, op = "Get", error = TRUE)
 as.GClosure <- 
 function(x)
 {
-	if (inherits(x, "GClosure"))
-		x <- toRGClosure(x)
-	else x <- as.function(x)
-	class(x) <- "RGClosure"
-	x
+  if (inherits(x, "GClosure"))
+    x <- toRGClosure(x)
+  else x <- as.function(x)
+  class(x) <- "RGClosure"
+  x
 }
 
 # This attempts to convert a C GClosure to an R closure 
@@ -381,10 +597,14 @@ function(x)
 toRGClosure <-
 function(c_closure)
 {
-	checkPtrType(c_closure, "GClosure")
-	closure <- function(...) {
-		.RGtkCall("R_g_closure_invoke", c_closure, c(...), PACKAGE = "RGtk2")
-	}
-	attr(closure, "ref") <- c_closure
-	closure
+  checkPtrType(c_closure, "GClosure")
+  closure <- function(...) {
+    .RGtkCall("R_g_closure_invoke", c_closure, c(...), PACKAGE = "RGtk2")
+  }
+  attr(closure, "ref") <- c_closure
+  closure
 }
+
+# virtuals for GObject
+assign("GObject", c("set_property", "get_property"), .virtuals)
+

@@ -21,16 +21,17 @@
 \code{gtkMenuItem(label, show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----\link{GtkItem}
-                                 +----GtkMenuItem
-                                       +----\link{GtkCheckMenuItem}
-                                       +----\link{GtkImageMenuItem}
-                                       +----\link{GtkSeparatorMenuItem}
-                                       +----\link{GtkTearoffMenuItem}}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----\link{GtkItem}
+                                       +----GtkMenuItem
+                                             +----\link{GtkCheckMenuItem}
+                                             +----\link{GtkImageMenuItem}
+                                             +----\link{GtkSeparatorMenuItem}
+                                             +----\link{GtkTearoffMenuItem}}}
 \section{Interfaces}{GtkMenuItem implements
  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkMenuItem}} widget and the derived widgets are the only valid
@@ -39,8 +40,11 @@ alignment, events and submenus.
   
 As it derives from \code{\link{GtkBin}} it can hold any valid child widget, altough
 only a few are really useful.}
-\section{Structures}{\describe{\item{\code{GtkMenuItem}}{\emph{undocumented
-}}}}
+\section{Structures}{\describe{\item{\code{GtkMenuItem}}{
+\emph{undocumented
+}
+
+}}}
 \section{Convenient Construction}{\code{gtkMenuItem} is the result of collapsing the constructors of \code{GtkMenuItem} (\code{\link{gtkMenuItemNew}}, \code{\link{gtkMenuItemNewWithLabel}}, \code{\link{gtkMenuItemNewWithMnemonic}}) and accepts a subset of its arguments matching the required arguments of one of its delegate constructors.}
 \section{Signals}{\describe{
 \item{\code{activate(menuitem, user.data)}}{
@@ -50,6 +54,7 @@ Emitted when the item is activated.
 \item{\code{menuitem}}{[\code{\link{GtkMenuItem}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{activate-item(menuitem, user.data)}}{
@@ -61,9 +66,11 @@ submenu. For normal applications, the relevant signal is "activate".
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{toggle-size-allocate(menuitem, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{menuitem}}{[\code{\link{GtkMenuItem}}] the object which received the signal.}
@@ -71,15 +78,18 @@ submenu. For normal applications, the relevant signal is "activate".
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{toggle-size-request(menuitem, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{menuitem}}{[\code{\link{GtkMenuItem}}] the object which received the signal.}
 \item{\code{arg1}}{[R object] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

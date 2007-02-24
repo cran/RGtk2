@@ -37,6 +37,8 @@
 \code{\link{gdkDisplayRequestSelectionNotification}(object, selection)}\cr
 \code{\link{gdkDisplaySupportsClipboardPersistence}(object)}\cr
 \code{\link{gdkDisplayStoreClipboard}(object, clipboard.window, targets)}\cr
+\code{\link{gdkDisplaySupportsShapes}(object)}\cr
+\code{\link{gdkDisplaySupportsInputShapes}(object)}\cr
 \code{gdkDisplay(display.name)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
@@ -73,6 +75,7 @@ system for \code{display} is closed.
 \item{\code{is.error}}{[logical]  \code{TRUE} if the display was closed due to an error}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }}}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/GdkDisplay.html}}

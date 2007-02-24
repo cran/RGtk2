@@ -3,7 +3,6 @@
 \alias{as.AtkTextRectangle}
 \alias{as.GClosure}
 \alias{as.GList}
-\alias{as.GParamSpec}
 \alias{as.GQuark}
 \alias{as.GSList}
 \alias{as.GString}
@@ -31,7 +30,10 @@
 \alias{as.GtkTargetEntry}
 \alias{as.GtkToggleActionEntry}
 \alias{as.PangoRectangle}
-\alias{as.struct}
+\alias{as.GError}
+\alias{as.GtkPageRange}
+\alias{as.GtkRecentData}
+\alias{as.GtkRecentFilterInfo}
 \name{coercion}
 \title{Coercion of R lists to C structures}
 \description{This function coerces an R list to the named C type. This helps form the basis

@@ -13,8 +13,9 @@
 \code{gtkAdjustment(value = NULL, lower = NULL, upper = NULL, step.incr = NULL, page.incr = NULL, page.size = NULL)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----GtkAdjustment}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----GtkAdjustment}}
 \section{Detailed Description}{The \code{\link{GtkAdjustment}} object represents a value which has an associated lower
 and upper bound, together with step and page increments, and a page size.
 It is used within several GTK+ widgets, including
@@ -57,6 +58,7 @@ other than the value field.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{value-changed(adjustment, user.data)}}{
 Emitted when the \code{\link{GtkAdjustment}} value field has been changed.
@@ -65,6 +67,7 @@ Emitted when the \code{\link{GtkAdjustment}} value field has been changed.
 \item{\code{adjustment}}{[\code{\link{GtkAdjustment}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

@@ -67,8 +67,8 @@ The GtkEntryCompletion struct contains only private data.
 \section{User Functions}{\describe{\item{\code{GtkEntryCompletionMatchFunc(completion, key, iter, user.data)}}{
 A function which decides whether the row indicated by \code{iter} matches a given 
 \code{key}, and should be displayed as a possible completion for \code{key}. Note that
-\code{key} is normalized and case-folded (see \code{g\Utf8\Normalize()} and 
-\code{g\Utf8\Casefold()}). If this is not appropriate, match functions have access
+\code{key} is normalized and case-folded (see \code{gUtf8Normalize()} and 
+\code{gUtf8Casefold()}). If this is not appropriate, match functions have access
 to the unmodified key via \code{gtk_entry_get_text (GTK_ENTRY (gtk_entry_completion_get_entry (}.
 
 \describe{
@@ -77,6 +77,8 @@ to the unmodified key via \code{gtk_entry_get_text (GTK_ENTRY (gtk_entry_complet
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}] a \code{\link{GtkTreeIter}} indicating the row to match}
 \item{\code{user.data}}{[R object] user data given to \code{\link{gtkEntryCompletionSetMatchFunc}}}
 }
+
+\emph{Returns:} [logical] \code{TRUE} if \code{iter} should be displayed as a possible completion for \code{key}
 
 }}}
 \section{Signals}{\describe{
@@ -90,6 +92,7 @@ Gets emitted when an action is activated.
 \item{\code{index}}{[integer]  the index of the activated action}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{insert-prefix(widget, prefix, user.data)}}{
@@ -110,6 +113,8 @@ next '/'.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical]  \code{TRUE} if the signal has been handled
+
 }
 \item{\code{match-selected(widget, model, iter, user.data)}}{
 Gets emitted when a match from the list is selected. 
@@ -125,6 +130,8 @@ pointed to by \code{iter}.
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  a \code{\link{GtkTreeIter}} positioned at the selected match}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical]  \code{TRUE} if the signal has been handled
 
 }
 }}

@@ -14,11 +14,12 @@
 \code{gtkHandleBox(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----GtkHandleBox}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----GtkHandleBox}}
 \section{Interfaces}{GtkHandleBox implements
  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkHandleBox}} widget allows a portion of a window to be "torn
@@ -73,6 +74,7 @@ handlebox are reattached to the main window.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{child-detached(handlebox, widget, user.data)}}{
 This signal is emitted when the contents of the
@@ -85,6 +87,7 @@ handlebox are detached from the main window.
           and is here only for backwards-compatibility)}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

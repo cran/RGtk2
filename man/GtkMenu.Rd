@@ -10,7 +10,7 @@
 \code{\link{gtkMenuSetScreen}(object, screen = NULL)}\cr
 \code{\link{gtkMenuReorderChild}(object, child, position)}\cr
 \code{\link{gtkMenuAttach}(object, child, left.attach, right.attach, top.attach, bottom.attach)}\cr
-\code{\link{gtkMenuPopup}(object, parent.menu.shell, parent.menu.item, func, data = NULL, button, activate.time)}\cr
+\code{\link{gtkMenuPopup}(object, parent.menu.shell = NULL, parent.menu.item = NULL, func = NULL, data = NULL, button, activate.time)}\cr
 \code{\link{gtkMenuSetAccelGroup}(object, accel.group)}\cr
 \code{\link{gtkMenuGetAccelGroup}(object)}\cr
 \code{\link{gtkMenuSetAccelPath}(object, accel.path)}\cr
@@ -30,11 +30,13 @@
 \code{gtkMenu(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkMenuShell}
-                           +----GtkMenu}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkMenuShell}
+                                 +----GtkMenu
+                                       +----\link{GtkRecentChooserMenu}}}
 \section{Interfaces}{GtkMenu implements
  AtkImplementorIface.}
 \section{Detailed Description}{A \code{\link{GtkMenu}} is a \code{\link{GtkMenuShell}} that implements a drop down menu consisting of
@@ -104,6 +106,7 @@ menu shall be drawn.  This is an output parameter.}
 parameter.}
 }
 
+
 }
 \item{\code{GtkMenuDetachFunc(attach.widget, menu)}}{
 A user function supplied when calling \code{\link{gtkMenuAttachToWidget}} which 
@@ -114,16 +117,19 @@ will be called when the menu is later detached from the widget.
 \item{\code{menu}}{[\code{\link{GtkMenu}}] the \code{\link{GtkMenu}} being detached.}
 }
 
+
 }
 }}
 \section{Signals}{\describe{\item{\code{move-scroll(menu, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{menu}}{[\code{\link{GtkMenu}}] the object which received the signal.}
 \item{\code{arg1}}{[\code{\link{GtkScrollType}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }}}
 \section{Properties}{\describe{
@@ -141,9 +147,19 @@ A title that may be displayed by the window manager when this menu is torn-off. 
 }
 }}
 \section{Style Properties}{\describe{
+\item{\code{double-arrows} [logical : Read]}{
+
+When scrolling, always show both arrows.  Default value: TRUE
+
+}
 \item{\code{horizontal-offset} [integer : Read]}{
 
 When the menu is a submenu, position it this number of pixels offset horizontally.  Default value: -2
+
+}
+\item{\code{horizontal-padding} [integer : Read]}{
+
+Extra space at the left and right edges of the menu.  Allowed values: >= 0  Default value: 0
 
 }
 \item{\code{vertical-offset} [integer : Read]}{

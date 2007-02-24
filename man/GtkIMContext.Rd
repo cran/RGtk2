@@ -20,11 +20,15 @@
    +----GtkIMContext
          +----\link{GtkIMContextSimple}
          +----\link{GtkIMMulticontext}}}
-\section{Structures}{\describe{\item{\code{GtkIMContext}}{\emph{undocumented
-}}}}
+\section{Structures}{\describe{\item{\code{GtkIMContext}}{
+\emph{undocumented
+}
+
+}}}
 \section{Signals}{\describe{
 \item{\code{commit(imcontext, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{imcontext}}{[\code{\link{GtkIMContext}}] the object which received the signal.}
@@ -32,9 +36,11 @@
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{delete-surrounding(imcontext, arg1, arg2, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{imcontext}}{[\code{\link{GtkIMContext}}] the object which received the signal.}
@@ -43,41 +49,50 @@
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{preedit-changed(imcontext, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{imcontext}}{[\code{\link{GtkIMContext}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{preedit-end(imcontext, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{imcontext}}{[\code{\link{GtkIMContext}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{preedit-start(imcontext, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{imcontext}}{[\code{\link{GtkIMContext}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{retrieve-surrounding(imcontext, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{imcontext}}{[\code{\link{GtkIMContext}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

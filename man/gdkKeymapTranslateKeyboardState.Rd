@@ -4,7 +4,7 @@
 \description{Translates the contents of a \code{\link{GdkEventKey}} into a keyval, effective
 group, and level. Modifiers that affected the translation and
 are thus unavailable for application use are returned in
-\code{consumed.modifiers}.  See \code{gdk\Keyval\Get\Keys()} for an explanation of
+\code{consumed.modifiers}.  See \code{gdkKeyvalGetKeys()} for an explanation of
 groups and levels.  The \code{effective.group} is the group that was
 actually used for the translation; some keys such as Enter are not
 affected by the active keyboard group. The \code{level} is derived from
@@ -29,10 +29,9 @@ be masked out.
 all_accels_mask <- GdkModifierType["control-mask"] | 
 	GdkModifierType["shift-mask"] | GdkModifierType["mod1-mask"]
 state <- gdkKeymapTranslateKeyboardState(keymap, event[["hardware_keycode"]],
-                                     event[["state"]], event[["group"]])
-if (state$keyval == .gdkPlus &&
-  as.flag(event[["state"]]) & !as.flag(state$consumed) & 
-  all_accels_mask == GdkModifierType["control-mask"])
+  event[["state"]], event[["group"]])
+unconsumed <- all_accels_mask & event[["state"]] & !as.flag(state$consumed) 
+if (state$keyval == .gdkPlus && unconsumed == GdkModifierType["control-mask"])
 	print("Control was pressed")
 }  
   
@@ -42,9 +41,8 @@ this allowed accelerators to be stored with irrelevant consumed
 modifiers, by doing:  
   \preformatted{
 # XXX Don't do this XXX
-if (state$keyval == accel_keyval &&
- (as.flag(event[["state"]]) & !as.flag(state$consumed) & all_accel_mask) == 
-  accel_mods & !as.flag(state$consumed))
+unconsumed <- all_accel_mask & event[["state"]] & !as.flag(state$consumed)
+if (state$keyval == accel_keyval && unconsumed == accel_mods & !as.flag(state$consumed))
  	print("Accellerator was pressed")
 }  
   

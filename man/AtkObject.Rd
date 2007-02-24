@@ -31,6 +31,7 @@
 \code{\link{atkObjectInitialize}(object, data)}\cr
 \code{\link{atkObjectAddRelationship}(object, relationship, target)}\cr
 \code{\link{atkObjectRemoveRelationship}(object, relationship, target)}\cr
+\code{\link{atkObjectGetAttributes}(object)}\cr
 \code{\link{atkRoleGetName}(role)}\cr
 \code{\link{atkRoleGetLocalizedName}(role)}\cr
 \code{\link{atkRoleForName}(name)}\cr
@@ -76,7 +77,7 @@ ATK\_ROLE\_LAST\_DEFINED is not necessarily an error.
 \describe{
 \item{\code{invalid}}{ Invalid role}
 \item{\code{accel-label}}{ A label which represents an accelerator}
-\item{\code{alert}}{ An object which is an alert to the user}
+\item{\code{alert}}{ An object which is an alert to the user. Assistive Technologies typically respond to ATK\_ROLE\_ALERT by reading the entire onscreen contents of containers advertising this role.  Should be used for warning dialogs, etc.}
 \item{\code{animation}}{ An object which is an animated image}
 \item{\code{arrow}}{ An arrow in one of the four cardinal directions}
 \item{\code{calendar}}{  An object that displays a calendar and allows the user to select a date}
@@ -147,11 +148,12 @@ ATK\_ROLE\_LAST\_DEFINED is not necessarily an error.
 \item{\code{footer}}{ An object that serves as a document footer.}
 \item{\code{paragraph}}{ An object which is contains a paragraph of text content.}
 \item{\code{ruler}}{ An object which describes margins and tab stops, etc. for text objects which it controls (should have CONTROLLER\_FOR relation to such).}
-\item{\code{application}}{ The object is an application object, which may contain \code{ATK.ROLE.FRAME} objects or other types of accessibles.}
+\item{\code{application}}{ The object is an application object, which may contain \code{ATK.ROLE.FRAME} objects or other types of accessibles.  The root accessible of any application's ATK hierarchy should have ATK\_ROLE\_APPLICATION.}
 \item{\code{autocomplete}}{ The object is a dialog or list containing items for insertion into an entry widget, for instance a list of words for completion of a text entry.}
 \item{\code{editbar}}{ The object is an editable text object in a toolbar}
 \item{\code{embedded}}{ The object is an embedded container within a document or panel.  This role is a grouping "hint" indicating that the contained objects share a context.}
-\item{\code{last-defined}}{ not a valid role, used for finding end of enumeration}
+\item{\code{form}}{ The object is a component whose textual content may be entered or modified by the user, provided \code{ATK.STATE.EDITABLE} is present.}
+\item{\code{last-defined}}{ The object is a graphical depiction of quantitative data. It may contain multiple subelements whose attributes and/or description may be queried to obtain both the quantitative data and information about how the data is being presented. The LABELLED\_BY relation is particularly important in interpreting objects of this type, as is the accessible-description property.}
 }
 
 }
@@ -180,7 +182,9 @@ determinations of when components occlude one another.
 An AtkFunction is a function definition used for padding which has been added 
 to class and interface structures to allow for expansion in the future.
 
-\describe{\item{\code{data}}{[R object] }}
+\describe{\item{\code{data}}{[R object] a gpointer to parameter data.}}
+
+\emph{Returns:} [logical] Nothing useful, this is only a dummy prototype.
 
 }
 \item{\code{AtkPropertyChangeHandler(Param1, Param2)}}{
@@ -188,9 +192,10 @@ An AtkPropertyChangeHandler is a function which is executed when an AtkObject's 
 \code{\link{atkObjectConnectPropertyChangeHandler}}.
 
 \describe{
-\item{\code{Param1}}{[\code{\link{AtkObject}}] }
-\item{\code{Param2}}{[AtkPropertyValues] }
+\item{\code{Param1}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}
+\item{\code{Param2}}{[AtkPropertyValues]  an \code{AtkPropertyValues}}
 }
+
 
 }
 }}
@@ -207,6 +212,7 @@ in the table which has focus changes.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{children-changed(atkobject, arg1, arg2, user.data)}}{
 The signal "children-changed" is emitted when a child is added or
@@ -215,9 +221,10 @@ removed form an object. It supports two details: "add" and "remove"
 \describe{
 \item{\code{atkobject}}{[\code{\link{AtkObject}}] the object which received the signal.}
 \item{\code{arg1}}{[numeric] The index of the added or removed child}
-\item{\code{arg2}}{[R object] The child which was added or removed}
+\item{\code{arg2}}{[R object] A gpointer to the child AtkObject which was added or removed}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{focus-event(atkobject, arg1, user.data)}}{
@@ -228,6 +235,7 @@ The signal "focus-event" is emitted when an object gains or loses focus.
 \item{\code{arg1}}{[logical] A boolean value which indicates whether the object gained or lost focus.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{property-change(atkobject, arg1, user.data)}}{
@@ -241,6 +249,7 @@ value has changed.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{state-change(atkobject, arg1, arg2, user.data)}}{
 The "state-change" signal is emitted  when an object's state changes.
@@ -253,6 +262,7 @@ The detail value identifies the state type which has changed.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{visible-data-changed(atkobject, user.data)}}{
 The "visible-data-changed" signal is emitted when the visual appearance of 
@@ -262,6 +272,7 @@ the object changed.
 \item{\code{atkobject}}{[\code{\link{AtkObject}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

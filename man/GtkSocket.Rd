@@ -11,10 +11,11 @@
 \code{gtkSocket(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----GtkSocket}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----GtkSocket}}
 \section{Interfaces}{GtkSocket implements
  AtkImplementorIface.}
 \section{Detailed Description}{Together with \code{\link{GtkPlug}}, \code{\link{GtkSocket}} provides the ability
@@ -89,6 +90,7 @@ added to the socket.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{plug-removed(socket, user.data)}}{
 This signal is emitted when a client is removed from the socket. The
@@ -99,6 +101,7 @@ reuse it you must add a signal handler that returns \code{TRUE}.
 \item{\code{socket}}{[\code{\link{GtkSocket}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

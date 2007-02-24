@@ -12,6 +12,7 @@
 \code{\link{gtkStyleDetach}(object)}\cr
 \code{\link{gtkStyleSetBackground}(object, window, state.type)}\cr
 \code{\link{gtkStyleApplyDefaultBackground}(object, window, set.bg, state.type, area = NULL, x, y, width, height)}\cr
+\code{\link{gtkStyleLookupColor}(object, color.name)}\cr
 \code{\link{gtkStyleLookupIconSet}(object, stock.id)}\cr
 \code{\link{gtkStyleRenderIcon}(object, source, direction, state, size, widget = NULL, detail = NULL)}\cr
 \code{\link{gtkStyleGetFont}(object)}\cr
@@ -66,7 +67,8 @@
    +----GtkStyle}}
 \section{Structures}{\describe{
 \item{\code{GtkStyle}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{fg}}{[\code{\link{GdkColor}}] }
@@ -96,18 +98,23 @@
 }
 
 }
-\item{\code{GtkBorder}}{\emph{undocumented
-}}
+\item{\code{GtkBorder}}{
+\emph{undocumented
+}
+
+}
 }}
 \section{Convenient Construction}{\code{gtkStyle} is the equivalent of \code{\link{gtkStyleNew}}.}
 \section{User Functions}{\describe{\item{\code{GtkRcPropertyParser(pspec, rc.string, property.value)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{pspec}}{[\code{\link{GParamSpec}}] }
 \item{\code{rc.string}}{[character] }
 \item{\code{property.value}}{[R object] }
 }
+
 
 }}}
 \section{Signals}{\describe{
@@ -124,6 +131,7 @@ deal with styles that have been already realized.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{unrealize(style, user.data)}}{
 Emitted when the aspects of the style specific to a particular colormap
@@ -137,6 +145,7 @@ This signal provides a convenient place to free such cached objects.
 \item{\code{style}}{[\code{\link{GtkStyle}}]  the object which received the signal}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

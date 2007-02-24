@@ -15,14 +15,15 @@
 \code{gtkRadioButton(group = NULL, label, show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----\link{GtkButton}
-                                 +----\link{GtkToggleButton}
-                                       +----\link{GtkCheckButton}
-                                             +----GtkRadioButton}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----\link{GtkButton}
+                                       +----\link{GtkToggleButton}
+                                             +----\link{GtkCheckButton}
+                                                   +----GtkRadioButton}}
 \section{Interfaces}{GtkRadioButton implements
  AtkImplementorIface.}
 \section{Detailed Description}{A single radio button performs the same basic function as a \code{\link{GtkCheckButton}},
@@ -99,6 +100,7 @@ of the group that a button belongs to changes.
 \item{\code{style}}{[\code{\link{GtkRadioButton}}]  the object which received the signal}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }}}
 \section{Properties}{\describe{\item{\code{group} [\code{\link{GtkRadioButton}} : Write]}{

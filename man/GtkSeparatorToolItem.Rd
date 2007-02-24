@@ -10,12 +10,13 @@
 \code{gtkSeparatorToolItem(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----\link{GtkToolItem}
-                                 +----GtkSeparatorToolItem}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----\link{GtkToolItem}
+                                       +----GtkSeparatorToolItem}}
 \section{Interfaces}{GtkSeparatorToolItem implements
  AtkImplementorIface.}
 \section{Detailed Description}{  A \code{GtkSeparatorItem} is a \code{\link{GtkToolItem}} that separates groups of other

@@ -11,11 +11,12 @@
 \code{gtkAlignment(xalign = NULL, yalign = NULL, xscale = NULL, yscale = NULL, show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----GtkAlignment}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----GtkAlignment}}
 \section{Interfaces}{GtkAlignment implements
  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkAlignment}} widget controls the alignment and size of its child widget.

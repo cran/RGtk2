@@ -37,12 +37,19 @@
     ask \command{gdk-pixbuf} what should be displayed at a given point in time. 
   }
 \section{Structures}{\describe{
-\item{\code{GdkPixbufAnimation}}{\emph{undocumented
-}}
-\item{\code{GdkPixbufAnimationIter}}{\emph{undocumented
-}}
-\item{\code{GdkPixbufSimpleAnim}}{\emph{undocumented
-}}
+\item{\code{GdkPixbufAnimation}}{
+And opaque struct representing an animation.
+
+}
+\item{\code{GdkPixbufAnimationIter}}{
+And opaque struct representing an iterator which points to a
+certain position in an animation.
+
+}
+\item{\code{GdkPixbufSimpleAnim}}{
+An
+
+}
 }}
 \section{Convenient Construction}{
 \code{gdkPixbufAnimation} is the equivalent of \code{\link{gdkPixbufAnimationNewFromFile}}.

@@ -1,4 +1,4 @@
-#include "conversion.h"
+#include "RGtk2/gtk.h"
 
 USER_OBJECT_
 asRGdkAtom(GdkAtom val)
@@ -47,15 +47,22 @@ asCGdkAtomArray(USER_OBJECT_ s_atoms)
 GdkWindowAttr*
 asCGdkWindowAttr(USER_OBJECT_ s_window_attr, GdkWindowAttributesType *mask)
 {
-	GdkWindowAttr* attr = (GdkWindowAttr*)R_alloc(1, sizeof(GdkWindowAttr));
-	
+	GdkWindowAttr* attr = (GdkWindowAttr*)S_alloc(1, sizeof(GdkWindowAttr));
+	*mask = 0;
+  
 	if (GET_LENGTH(VECTOR_ELT(s_window_attr, 0)) > 0) {
 		*mask |= GDK_WA_TITLE;
 		attr->title = asCString(VECTOR_ELT(s_window_attr, 0));
 	}
 	attr->event_mask = asCInteger(VECTOR_ELT(s_window_attr, 1));
-	attr->x = asCInteger(VECTOR_ELT(s_window_attr, 2));
-	attr->y = asCInteger(VECTOR_ELT(s_window_attr, 3));
+  if (GET_LENGTH(VECTOR_ELT(s_window_attr, 2)) > 0) {
+    *mask |= GDK_WA_X;
+    attr->x = asCInteger(VECTOR_ELT(s_window_attr, 2));
+  }
+  if (GET_LENGTH(VECTOR_ELT(s_window_attr, 3)) > 0) {
+    *mask |= GDK_WA_Y;
+    attr->y = asCInteger(VECTOR_ELT(s_window_attr, 3));
+  }
 	attr->width = asCInteger(VECTOR_ELT(s_window_attr, 4));
 	attr->height = asCInteger(VECTOR_ELT(s_window_attr, 5));
 	attr->wclass = asCEnum(VECTOR_ELT(s_window_attr, 6), GDK_TYPE_WINDOW_CLASS);
@@ -121,7 +128,13 @@ asCGdkGeometry(USER_OBJECT_ s_geom, GdkWindowHints *hints)
 }
 
 GdkGCValues*
-asCGdkGCValues(USER_OBJECT_ s_values, GdkGCValuesMask *mask)
+asCGdkGCValues(USER_OBJECT_ s_values)
+{
+  GdkGCValuesMask mask;
+  return asCGdkGCValuesWithMask(s_values, &mask);
+}
+GdkGCValues*
+asCGdkGCValuesWithMask(USER_OBJECT_ s_values, GdkGCValuesMask *mask)
 {
     GdkGCValues* values = (GdkGCValues*)R_alloc(1, sizeof(GdkGCValues));
     *mask = 0;
@@ -300,6 +313,26 @@ asCGdkSpan(USER_OBJECT_ s_span)
     return(span);
 }
 
+USER_OBJECT_
+asRGdkSpan(GdkSpan * obj)
+{
+  USER_OBJECT_ s_obj;
+  static gchar * names[] = { "x", "y", "width", NULL };
+
+  PROTECT(s_obj = allocVector(VECSXP, 3));
+
+  SET_VECTOR_ELT(s_obj, 0, asRInteger(obj->x));
+  SET_VECTOR_ELT(s_obj, 1, asRInteger(obj->y));
+  SET_VECTOR_ELT(s_obj, 2, asRInteger(obj->width));
+
+  SET_NAMES(s_obj, asRStringArray(names));
+  SET_CLASS(s_obj, asRString("GdkSpan"));
+
+  UNPROTECT(1);
+
+  return(s_obj);
+}
+
 GdkRgbCmap*
 asCGdkRgbCmap(USER_OBJECT_ s_cmap)
 {
@@ -398,6 +431,27 @@ asCGdkSegment(USER_OBJECT_ s_segment)
     return(segment);
 }
 
+USER_OBJECT_
+asRGdkSegment(GdkSegment * obj)
+{
+  USER_OBJECT_ s_obj;
+  static gchar * names[] = { "x1", "y1", "x2", "y2", NULL };
+
+  PROTECT(s_obj = allocVector(VECSXP, 4));
+
+  SET_VECTOR_ELT(s_obj, 0, asRInteger(obj->x1));
+  SET_VECTOR_ELT(s_obj, 1, asRInteger(obj->y1));
+  SET_VECTOR_ELT(s_obj, 2, asRInteger(obj->x2));
+  SET_VECTOR_ELT(s_obj, 3, asRInteger(obj->y2));
+
+  SET_NAMES(s_obj, asRStringArray(names));
+  SET_CLASS(s_obj, asRString("GdkSegment"));
+
+  UNPROTECT(1);
+
+  return(s_obj);
+}
+
 GdkColor*
 asCGdkColor(USER_OBJECT_ s_color)
 {
@@ -420,7 +474,7 @@ asCGdkColor(USER_OBJECT_ s_color)
     return(color);
 }
 USER_OBJECT_
-asRGdkColor(GdkColor* color)
+asRGdkColor(const GdkColor* color)
 {
     USER_OBJECT_ s_color;
 	static char *names[] = { "pixel", "red", "green", "blue", NULL };
@@ -459,14 +513,13 @@ asCGdkNativeWindow(USER_OBJECT_ s_window)
     #endif
 }
 
-/* determines the 'class' from the event type, optionally registering a finalizer */
+/* determines the 'class' from the event type, copying if we don't own it */
 USER_OBJECT_
-toRGdkEvent(GdkEvent *event, gboolean finalize)
+toRGdkEvent(GdkEvent *event, gboolean own)
 {
     char *type;
     /*USER_OBJECT_ classes;*/
     USER_OBJECT_ result;
-	RPointerFinalizer finalizer = NULL;
 
     switch(event->type) {
          case GDK_EXPOSE:
@@ -543,10 +596,10 @@ toRGdkEvent(GdkEvent *event, gboolean finalize)
             type = "GdkEventAny";
     }
 
-    if (finalize)
-        finalizer = (RPointerFinalizer)gdk_event_free;
-
-    PROTECT(result = toRPointerWithFinalizer(event, NULL, finalizer));
+    if (!own)
+      event = gdk_event_copy(event);
+    
+    PROTECT(result = toRPointerWithFinalizer(event, NULL, (RPointerFinalizer)gdk_event_free));
 
     char *classes[] = { type, "GdkEventAny", "GdkEvent", "RGtkObject" };
     SET_CLASS(result, asRStringArrayWithSize(classes, 4));
@@ -555,7 +608,7 @@ toRGdkEvent(GdkEvent *event, gboolean finalize)
 
     return(result);
 }
-/* makes a wrapped gdkEvent with finalizer (gdk_event_free) */
+/* makes a wrapped GdkEvent, assuming we own it */
 USER_OBJECT_
 asRGdkEvent(GdkEvent *event)
 {
@@ -583,4 +636,27 @@ asCGdkTrapezoid(USER_OBJECT_ s_trapezoid)
 	trapezoid->x22 = asCNumeric(VECTOR_ELT(s_trapezoid, 5));
 	
 	return(trapezoid);
+}
+
+USER_OBJECT_
+asRGdkTrapezoid(GdkTrapezoid * obj)
+{
+  USER_OBJECT_ s_obj;
+  static gchar * names[] = { "y1", "x11", "x21", "y2", "x12", "x22", NULL };
+
+  PROTECT(s_obj = allocVector(VECSXP, 6));
+
+  SET_VECTOR_ELT(s_obj, 0, asRNumeric(obj->y1));
+  SET_VECTOR_ELT(s_obj, 1, asRNumeric(obj->x11));
+  SET_VECTOR_ELT(s_obj, 2, asRNumeric(obj->x21));
+  SET_VECTOR_ELT(s_obj, 3, asRNumeric(obj->y2));
+  SET_VECTOR_ELT(s_obj, 4, asRNumeric(obj->x12));
+  SET_VECTOR_ELT(s_obj, 5, asRNumeric(obj->x22));
+
+  SET_NAMES(s_obj, asRStringArray(names));
+  SET_CLASS(s_obj, asRString("GdkTrapezoid"));
+
+  UNPROTECT(1);
+
+  return(s_obj);
 }

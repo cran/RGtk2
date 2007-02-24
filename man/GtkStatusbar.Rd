@@ -14,12 +14,13 @@
 \code{gtkStatusbar(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBox}
-                           +----\link{GtkHBox}
-                                 +----GtkStatusbar}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBox}
+                                 +----\link{GtkHBox}
+                                       +----GtkStatusbar}}
 \section{Interfaces}{GtkStatusbar implements
  AtkImplementorIface.}
 \section{Detailed Description}{A \code{\link{GtkStatusbar}} is usually placed along the bottom of an application's main
@@ -61,6 +62,7 @@ Is emitted whenever a new message is popped off a statusbar's stack.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{text-pushed(statusbar, context.id, text, user.data)}}{
 Is emitted whenever a new message gets pushed onto a statusbar's stack.
@@ -71,6 +73,7 @@ Is emitted whenever a new message gets pushed onto a statusbar's stack.
 \item{\code{text}}{[character] the message that was pushed.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

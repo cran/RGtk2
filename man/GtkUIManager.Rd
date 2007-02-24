@@ -41,28 +41,29 @@ roughly described by the following DTD.
 <!ELEMENT toolitem     (menu?) >
 <!ELEMENT separator    EMPTY >
 <!ELEMENT accelerator  EMPTY >
-<!ATTLIST menubar      name                  \#IMPLIED 
-                       action                \#IMPLIED >
-<!ATTLIST toolbar      name                  \#IMPLIED 
-                       action                \#IMPLIED >
-<!ATTLIST popup        name                  \#IMPLIED 
-                       action                \#IMPLIED >
-<!ATTLIST placeholder  name                  \#IMPLIED
-                       action                \#IMPLIED >
-<!ATTLIST separator    name                  \#IMPLIED
-                       action                \#IMPLIED
-                       expand   (true|false) \#IMPLIED >
-<!ATTLIST menu         name                  \#IMPLIED
-                       action                \#REQUIRED
-                       position (top|bot)    \#IMPLIED >
-<!ATTLIST menuitem     name                  \#IMPLIED
-                       action                \#REQUIRED
-                       position (top|bot)    \#IMPLIED >
-<!ATTLIST toolitem     name                  \#IMPLIED
-                       action                \#REQUIRED
-                       position (top|bot)    \#IMPLIED >
-<!ATTLIST accelerator  name                  \#IMPLIED
-                       action                \#REQUIRED >}
+<!ATTLIST menubar      name                  #IMPLIED 
+                       action                #IMPLIED >
+<!ATTLIST toolbar      name                  #IMPLIED 
+                       action                #IMPLIED >
+<!ATTLIST popup        name                  #IMPLIED 
+                       action                #IMPLIED >
+<!ATTLIST placeholder  name                  #IMPLIED
+                       action                #IMPLIED >
+<!ATTLIST separator    name                  #IMPLIED
+                       action                #IMPLIED
+                       expand   (true|false) #IMPLIED >
+<!ATTLIST menu         name                  #IMPLIED
+                       action                #REQUIRED
+                       position (top|bot)    #IMPLIED >
+<!ATTLIST menuitem     name                  #IMPLIED
+                       action                #REQUIRED
+                       position (top|bot)    #IMPLIED >
+<!ATTLIST toolitem     name                  #IMPLIED
+                       action                #REQUIRED
+                       position (top|bot)    #IMPLIED >
+<!ATTLIST accelerator  name                  #IMPLIED
+                       action                #REQUIRED >
+}
 There are some additional restrictions beyond those specified in the
 DTD, e.g. every toolitem must have a toolbar in its anchestry and
 every menuitem must have a menubar or popup in its anchestry. Since
@@ -100,7 +101,8 @@ to the &quot; entity.
       <separator/>
     </placeholder>
   </toolbar>
-</ui>}
+</ui>
+}
   
 The constructed widget hierarchy is very similar to the element tree
 of the XML, with the exception that placeholders are merged into their
@@ -193,6 +195,7 @@ changes.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{add-widget(merge, widget, user.data)}}{
 The add\_widget signal is emitted for each generated menubar and toolbar.
@@ -206,6 +209,7 @@ It is not emitted for generated popup menus, which can be obtained by
 \item{\code{widget}}{[\code{\link{GtkWidget}}]  the added widget}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{connect-proxy(uimanager, action, proxy, user.data)}}{
@@ -225,6 +229,7 @@ statusbar.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{disconnect-proxy(uimanager, action, proxy, user.data)}}{
 The disconnect\_proxy signal is emitted after disconnecting a proxy 
@@ -238,6 +243,7 @@ from an action in the group.
 \item{\code{proxy}}{[\code{\link{GtkWidget}}]  the proxy}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{post-activate(uimanager, action, user.data)}}{
@@ -255,6 +261,7 @@ just after any action is activated.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{pre-activate(uimanager, action, user.data)}}{
 The pre\_activate signal is emitted just before the \code{action}
@@ -270,6 +277,7 @@ just before any action is activated.
 \item{\code{action}}{[\code{\link{GtkAction}}]  the action}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}
@@ -287,7 +295,7 @@ menus never have tearoff menu items.
 }
 \item{\code{ui} [character : Read]}{
 
-An XML string describing the merged UI.  Default value: "<ui>\\n</ui>"
+An XML string describing the merged UI.  Default value: "<ui>\\n</ui>\\n"
 
 }
 }}

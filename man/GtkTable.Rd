@@ -8,7 +8,7 @@
 \section{Methods and Functions}{
 \code{\link{gtkTableNew}(rows = NULL, columns = NULL, homogeneous = NULL, show = TRUE)}\cr
 \code{\link{gtkTableResize}(object, rows, columns)}\cr
-\code{\link{gtkTableAttach}(object, child, left.attach, right.attach, top.attach, bottom.attach, xoptions = "GTK_EXPAND|GTK_FILL", yoptions = "GTK_EXPAND|GTK_FILL", xpadding = 0, ypadding = 0)}\cr
+\code{\link{gtkTableAttach}(object, child, left.attach, right.attach, top.attach, bottom.attach, xoptions = 5, yoptions = 5, xpadding = 0, ypadding = 0)}\cr
 \code{\link{gtkTableAttachDefaults}(object, widget, left.attach, right.attach, top.attach, bottom.attach)}\cr
 \code{\link{gtkTableSetRowSpacing}(object, row, spacing)}\cr
 \code{\link{gtkTableSetColSpacing}(object, column, spacing)}\cr
@@ -23,10 +23,11 @@
 \code{gtkTable(rows = NULL, columns = NULL, homogeneous = NULL, show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----GtkTable}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----GtkTable}}
 \section{Interfaces}{GtkTable implements
  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkTable}} functions allow the programmer to arrange widgets in rows and
@@ -65,7 +66,7 @@ The \code{GtkTable} structure holds the data for the actual table itself.
 }
 \item{\code{GtkTableChild}}{
 The \code{widget} field is a pointer to the widget that 
-this \code{GtkTableChild} structure is keeping track of.
+this \code{\link{GtkTableChild}} structure is keeping track of.
 The \code{left_attach},
 \code{right_attach},
 \code{top_attach}, and
@@ -117,7 +118,7 @@ The amount of space between two consecutive columns.  Default value: 0
 }
 \item{\code{homogeneous} [logical : Read / Write]}{
 
-If TRUE this means the table cells are all the same width/height.  Default value: FALSE
+If TRUE, the table cells are all the same width/height.  Default value: FALSE
 
 }
 \item{\code{n-columns} [numeric : Read / Write]}{

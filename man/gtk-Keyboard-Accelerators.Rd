@@ -52,7 +52,9 @@ An object representing and maintaining a group of accelerators.
 
 }
 \item{\code{GtkAccelKey}}{
-
+\emph{undocumented
+}
+\strong{\code{GtkAccelKey} is a \link{transparent-type}.}
 
 \describe{
 \item{\code{accelKey}}{[numeric] }
@@ -65,7 +67,8 @@ An object representing and maintaining a group of accelerators.
 \section{Convenient Construction}{\code{gtkAccelGroup} is the equivalent of \code{\link{gtkAccelGroupNew}}.}
 \section{User Functions}{\describe{
 \item{\code{GtkAccelGroupActivate(accel.group, acceleratable, keyval, modifier)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{accel.group}}{[\code{\link{GtkAccelGroup}}] }
@@ -73,6 +76,7 @@ An object representing and maintaining a group of accelerators.
 \item{\code{keyval}}{[numeric] }
 \item{\code{modifier}}{[\code{\link{GdkModifierType}}] }
 }
+
 
 }
 \item{\code{GtkAccelGroupFindFunc(key, closure, data)}}{
@@ -83,6 +87,7 @@ An object representing and maintaining a group of accelerators.
 \item{\code{closure}}{[\code{\link{GClosure}}] }
 \item{\code{data}}{[R object] }
 }
+
 
 }
 }}
@@ -98,6 +103,8 @@ The accel-activate signal is an implementation detail of
 \item{\code{modifier}}{[\code{\link{GdkModifierType}}]  the modifier combination of the accelerator}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical]  \code{TRUE} if the accelerator was activated
 
 }
 \item{\code{accel-changed(accel.group, keyval, modifier, accel.closure, user.data)}}{
@@ -115,6 +122,7 @@ their visual representation if the \code{accel.closure} is theirs.
 \item{\code{accel.closure}}{[\code{\link{GClosure}}]  the \code{\link{GClosure}} of the accelerator}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

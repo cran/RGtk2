@@ -18,13 +18,14 @@
 
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----GtkBox
-                           +----\link{GtkButtonBox}
-                           +----\link{GtkVBox}
-                           +----\link{GtkHBox}}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----GtkBox
+                                 +----\link{GtkButtonBox}
+                                 +----\link{GtkVBox}
+                                 +----\link{GtkHBox}}}
 \section{Interfaces}{GtkBox implements
  AtkImplementorIface.}
 \section{Detailed Description}{GtkBox is an abstract widget which encapsulates functionallity for a

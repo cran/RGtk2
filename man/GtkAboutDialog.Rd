@@ -40,13 +40,14 @@
 \code{gtkAboutDialog(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----\link{GtkWindow}
-                                 +----\link{GtkDialog}
-                                       +----GtkAboutDialog}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----\link{GtkWindow}
+                                       +----\link{GtkDialog}
+                                             +----GtkAboutDialog}}
 \section{Interfaces}{GtkAboutDialog implements
  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkAboutDialog}} offers a simple way to display information about
@@ -85,6 +86,7 @@ link is activated.
   with \code{\link{gtkAboutDialogSetEmailHook}} or 
   \code{\link{gtkAboutDialogSetUrlHook}}}
 }
+
 
 }}}
 \section{Properties}{\describe{
@@ -161,7 +163,7 @@ overrides the logo property.
 \item{\code{name} [character : Read / Write]}{
 
 The name of the program. 
-If this is not set, it defaults to \code{g\Get\Application\Name()}.  
+If this is not set, it defaults to \code{gGetApplicationName()}.  
 
   Default value: NULL  Since  2.6
 
@@ -207,11 +209,6 @@ Whether to wrap the text in the license dialog.
 
 }
 }}
-\section{Style Properties}{\describe{\item{\code{link-color} [\code{\link{GdkColor}} : Read]}{
-
-Color of hyperlinks.
-
-}}}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkAboutDialog.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

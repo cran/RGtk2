@@ -43,10 +43,11 @@
 \code{gtkToolbar(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----GtkToolbar}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----GtkToolbar}}
 \section{Interfaces}{GtkToolbar implements
  AtkImplementorIface.}
 \section{Detailed Description}{A toolbar is created with a call to \code{\link{gtkToolbarNew}}.
@@ -63,7 +64,7 @@ the "expand" property set to \code{TRUE} and the "draw" property set to
 toolbar.
   
 Creating a context menu for the toolbar can be done by connecting to
-the \code{\link{GtkToolbar}}::popup-context-menu signal.}
+the \code{GtkToolbar::popup-context-menu} signal.}
 \section{Structures}{\describe{\item{\code{GtkToolbar}}{
 The \code{\link{GtkToolbar}} struct only contains private data and should only be
 accessed through the function described below.
@@ -86,7 +87,8 @@ to a \code{\link{GtkToolbar}}.
 
 }
 \item{\code{GtkToolbarSpaceStyle}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{empty}}{\emph{undocumented
@@ -108,6 +110,8 @@ be used in application code
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical]  \code{TRUE} if the signal was handled, \code{FALSE} if not
+
 }
 \item{\code{move-focus(toolbar, dir, user.data)}}{
 A keybinding signal used internally by GTK+. This signal can't
@@ -119,6 +123,8 @@ be used in application code.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical]  \code{TRUE} if the signal was handled, \code{FALSE} if not
+
 }
 \item{\code{orientation-changed(toolbar, orientation, user.data)}}{
 Emitted when the orientation of the toolbar changes.  
@@ -128,6 +134,7 @@ Emitted when the orientation of the toolbar changes.
 \item{\code{orientation}}{[\code{\link{GtkOrientation}}]  the new \code{\link{GtkOrientation}} of the toolbar}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{popup-context-menu(toolbar, x, y, button, user.data)}}{
@@ -148,6 +155,8 @@ up using the keybaord, \code{button} is -1.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical]  return \code{TRUE} if the signal was handled, \code{FALSE} if not
+
 }
 \item{\code{style-changed(toolbar, style, user.data)}}{
 Emitted when the style of the toolbar changes.  
@@ -158,9 +167,30 @@ Emitted when the style of the toolbar changes.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 }}
 \section{Properties}{\describe{
+\item{\code{icon-size} [\code{\link{GtkIconSize}} : Read / Write]}{
+
+The size of the icons in a toolbar is normally determined by
+the toolbar-icon-size setting. When this property is set, it 
+overrides the setting. 
+  
+This should only be used for special-purpose toolbars, normal
+application toolbars should respect the user preferences for the
+size of icons.  
+
+  Default value: GTK\_ICON\_SIZE\_LARGE\_TOOLBAR  Since  2.10
+
+}
+\item{\code{icon-size-set} [logical : Read / Write]}{
+
+Is \code{TRUE} if the icon-size property has been set.  
+
+  Default value: FALSE  Since  2.10
+
+}
 \item{\code{orientation} [\code{\link{GtkOrientation}} : Read / Write]}{
 
 The orientation of the toolbar.  Default value: GTK\_ORIENTATION\_HORIZONTAL
@@ -193,6 +223,11 @@ Type of bevel around toolbar buttons.  Default value: GTK\_RELIEF\_NONE
 \item{\code{internal-padding} [integer : Read]}{
 
 Amount of border space between the toolbar shadow and the buttons.  Allowed values: >= 0  Default value: 0
+
+}
+\item{\code{max-child-expand} [integer : Read]}{
+
+Maximum amount of space an expandable item will be given.  Allowed values: >= 0  Default value: 2147483647
 
 }
 \item{\code{shadow-type} [\code{\link{GtkShadowType}} : Read]}{

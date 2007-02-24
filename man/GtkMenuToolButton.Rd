@@ -12,13 +12,14 @@
 \code{gtkMenuToolButton(icon.widget, label, show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----\link{GtkToolItem}
-                                 +----\link{GtkToolButton}
-                                       +----GtkMenuToolButton}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----\link{GtkToolItem}
+                                       +----\link{GtkToolButton}
+                                             +----GtkMenuToolButton}}
 \section{Interfaces}{GtkMenuToolButton implements
  AtkImplementorIface.}
 \section{Detailed Description}{  A \code{\link{GtkMenuToolButton}} is a \code{\link{GtkToolItem}} that contains a button and
@@ -35,12 +36,14 @@
 }}}
 \section{Convenient Construction}{\code{gtkMenuToolButton} is the equivalent of \code{\link{gtkMenuToolButtonNew}}.}
 \section{Signals}{\describe{\item{\code{show-menu(menutoolbutton, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{menutoolbutton}}{[\code{\link{GtkMenuToolButton}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }}}
 \section{Properties}{\describe{\item{\code{menu} [\code{\link{GtkMenu}} : Read / Write]}{

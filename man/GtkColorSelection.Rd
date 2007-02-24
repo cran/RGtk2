@@ -30,12 +30,13 @@
 \code{gtkColorSelection(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBox}
-                           +----\link{GtkVBox}
-                                 +----GtkColorSelection}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBox}
+                                 +----\link{GtkVBox}
+                                       +----GtkColorSelection}}
 \section{Interfaces}{GtkColorSelection implements
  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkColorSelection}} is a widget that is used to select 
@@ -51,12 +52,14 @@ and should be accessed using the functions below.
 \section{Convenient Construction}{\code{gtkColorSelection} is the equivalent of \code{\link{gtkColorSelectionNew}}.}
 \section{User Functions}{\describe{
 \item{\code{GtkColorSelectionChangePaletteFunc(colors, n.colors)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{colors}}{[\code{\link{GdkColor}}] }
 \item{\code{n.colors}}{[integer] }
 }
+
 
 }
 \item{\code{GtkColorSelectionChangePaletteWithScreenFunc(screen, colors, n.colors)}}{
@@ -68,6 +71,7 @@ and should be accessed using the functions below.
 \item{\code{n.colors}}{[integer] }
 }
 
+
 }
 }}
 \section{Signals}{\describe{\item{\code{color-changed(colorselection, user.data)}}{
@@ -78,6 +82,7 @@ according to its update policy.
 \item{\code{colorselection}}{[\code{\link{GtkColorSelection}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }}}
 \section{Properties}{\describe{

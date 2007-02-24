@@ -33,8 +33,11 @@ The GladeXML object can also be used to connect handlers to the named
 signals in the description.  Libglade also provides an interface by which
 it can look up the signal handler names in the program's symbol table and
 automatically connect as many handlers up as it can that way.}
-\section{Structures}{\describe{\item{\code{GladeXML}}{\emph{undocumented
-}}}}
+\section{Structures}{\describe{\item{\code{GladeXML}}{
+\emph{undocumented
+}
+
+}}}
 \section{Convenient Construction}{\code{gladeXML} is the result of collapsing the constructors of \code{GladeXML} (\code{\link{gladeXMLNew}}, \code{\link{gladeXMLNewFromBuffer}}) and accepts a subset of its arguments matching the required arguments of one of its delegate constructors.}
 \section{User Functions}{\describe{
 \item{\code{GladeXMLConnectFunc(handler.name, object, signal.name, signal.data, connect.object, after, user.data)}}{
@@ -54,6 +57,7 @@ connection process.
 \item{\code{user.data}}{[R object]  the user data argument.}
 }
 
+
 }
 \item{\code{GladeXMLCustomWidgetHandler(xml, func.name, name, string1, string2, int1, int2, user.data)}}{
 This prototype is for a function that creates custom widgets.  
@@ -68,6 +72,8 @@ This prototype is for a function that creates custom widgets.
 \item{\code{int2}}{[integer]  the int2 property.}
 \item{\code{user.data}}{[R object]  the data passed to \code{\link{gladeSetCustomHandler}}}
 }
+
+\emph{Returns:} [\code{\link{GtkWidget}}]  the GtkWidget.
 
 }
 }}

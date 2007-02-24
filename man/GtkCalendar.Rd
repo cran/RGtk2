@@ -20,9 +20,10 @@
 \code{gtkCalendar(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----GtkCalendar}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----GtkCalendar}}
 \section{Interfaces}{GtkCalendar implements
  AtkImplementorIface.}
 \section{Detailed Description}{\code{\link{GtkCalendar}} is a widget that displays a calendar, one month at a time. 
@@ -80,14 +81,17 @@ Emitted when the user selects a day.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{day-selected-double-click(calendar, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{calendar}}{[\code{\link{GtkCalendar}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{month-changed(calendar, user.data)}}{
@@ -99,41 +103,50 @@ calendar.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{next-month(calendar, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{calendar}}{[\code{\link{GtkCalendar}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{next-year(calendar, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{calendar}}{[\code{\link{GtkCalendar}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{prev-month(calendar, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{calendar}}{[\code{\link{GtkCalendar}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{prev-year(calendar, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{calendar}}{[\code{\link{GtkCalendar}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

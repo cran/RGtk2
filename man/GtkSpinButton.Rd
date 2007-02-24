@@ -33,10 +33,11 @@
 \code{gtkSpinButton(adjustment = NULL, climb.rate = NULL, digits = NULL, min, max, step, show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkEntry}
-                     +----GtkSpinButton}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkEntry}
+                           +----GtkSpinButton}}
 \section{Interfaces}{GtkSpinButton implements
  AtkImplementorIface,  \code{\link{GtkCellEditable}} and  \code{\link{GtkEditable}}.}
 \section{Detailed Description}{A \code{\link{GtkSpinButton}} is an ideal way to allow the user to set the value of some 
@@ -123,7 +124,8 @@ GTK\_SPIN\_USER\_DEFINED \tab The programmer must specify the exact amount to sp
 }}
 \section{Signals}{\describe{
 \item{\code{change-value(spinbutton, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{spinbutton}}{[\code{\link{GtkSpinButton}}] the object which received the signal.}
@@ -131,9 +133,11 @@ GTK\_SPIN\_USER\_DEFINED \tab The programmer must specify the exact amount to sp
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{input(spinbutton, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{spinbutton}}{[\code{\link{GtkSpinButton}}] the object which received the signal.}
@@ -141,23 +145,41 @@ GTK\_SPIN\_USER\_DEFINED \tab The programmer must specify the exact amount to sp
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{output(spinbutton, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{spinbutton}}{[\code{\link{GtkSpinButton}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{value-changed(spinbutton, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{spinbutton}}{[\code{\link{GtkSpinButton}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+
+}
+\item{\code{wrapped(spinbutton, user.data)}}{
+The wrapped signal is emitted right after the spinbutton wraps
+from its maximum to minimum value or vice-versa.  
+
+  Since  2.10
+
+\describe{
+\item{\code{spinbutton}}{[\code{\link{GtkSpinButton}}]  the object which received the signal}
+\item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
+}
+
 
 }
 }}

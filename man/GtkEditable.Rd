@@ -65,13 +65,14 @@ of the widget.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{delete-text(editable, start.pos, end.pos, user.data)}}{
 This signal is emitted when text is deleted from
 the widget by the user. The default handler for
 this signal will normally be responsible for inserting
 the text, so by connecting to this signal and then
-stopping the signal with \code{gtk\Signal\Emit\Stop()}, it
+stopping the signal with \code{gtkSignalEmitStop()}, it
 is possible to modify the inserted text, or prevent
 it from being inserted entirely. The \code{start.pos}
 and \code{end.pos} parameters are interpreted as for
@@ -84,13 +85,14 @@ and \code{end.pos} parameters are interpreted as for
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{insert-text(editable, new.text, new.text.length, position, user.data)}}{
 This signal is emitted when text is inserted into
 the widget by the user. The default handler for
 this signal will normally be responsible for inserting
 the text, so by connecting to this signal and then
-stopping the signal with \code{gtk\Signal\Emit\Stop()}, it
+stopping the signal with \code{gtkSignalEmitStop()}, it
 is possible to modify the inserted text, or prevent
 it from being inserted entirely.
 
@@ -105,6 +107,7 @@ it from being inserted entirely.
            point after the newly inserted text.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

@@ -42,8 +42,11 @@ Marks optionally have names; these can be convenient to avoid passing the
 \code{\link{GtkTextMark}} object around.
   
 Marks are typically created using the \code{\link{gtkTextBufferCreateMark}} function.}
-\section{Structures}{\describe{\item{\code{GtkTextMark}}{\emph{undocumented
-}}}}
+\section{Structures}{\describe{\item{\code{GtkTextMark}}{
+\emph{undocumented
+}
+
+}}}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkTextMark.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

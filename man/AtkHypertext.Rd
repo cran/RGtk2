@@ -11,6 +11,11 @@
    +----AtkHypertext}}
 \section{Implementations}{AtkHypertext is implemented by
  \code{\link{AtkNoOpObject}}.}
+\section{Detailed Description}{An interface used for objects which implement linking between multiple
+resource or content locations, or multiple 'markers' within a single
+document.  A Hypertext instance is associated with one or more Hyperlinks,
+which are associated with particular offsets within the Hypertext's included
+content.  While this interface is derived from Text, there is no requirement that Hypertext instances have textual content; they may implement Image as well, and Hyperlinks need not have non-zero text offsets.}
 \section{Structures}{\describe{\item{\code{AtkHypertext}}{
 The AtkHypertext structure does not contain any fields.
 
@@ -24,6 +29,7 @@ the hyperlinks associated with the object is selected.
 \item{\code{arg1}}{[integer] the index of the hyperlink which is selected}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }}}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk/AtkHypertext.html}}

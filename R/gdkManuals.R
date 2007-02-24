@@ -3,7 +3,7 @@ gdkBitmapCreateFromData <-
 function(drawable = NULL, data, width, height)
 {
 	if (!is.null( drawable )) checkPtrType(drawable, "GdkDrawable")
-	data <- as.list(as.integer(data))
+	data <- as.list(as.raw(data))
 	height <- as.integer(height)
 	width <- as.integer(width)
 	
@@ -145,6 +145,14 @@ function()
 
 	return(w)
 } 
+
+# these virtual wrappers have capitalization issues:
+gdkGCClassGetValues <- function(object.class, object) 
+  gdkGCclassGetValues(object.class, object) 
+gdkGCClassSetDashes <- function(object.class, object, values) 
+  gdkGCclassSetDashes(object.class, object, values) 
+gdkGCClassSetValues <- function(object.class, object, dash.list)
+  gdkGCclassSetValues(object.class, object, dash.list)
 
 gdkDisplaySetPointerHooks <-
 function(object, new.hooks)

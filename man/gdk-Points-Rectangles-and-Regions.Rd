@@ -72,8 +72,6 @@ Defines the position and size of a rectangle.
 }
 \item{\code{GdkRegion}}{
 A GdkRegion represents a set of pixels on the screen.
-The only user-visible field of the structure is the user\_data member, which
-can be used to attach arbitrary data to the \code{\link{GdkRegion}}.
 
 }
 \item{\code{GdkSpan}}{
@@ -121,6 +119,7 @@ This defines the type of the function passed to
 \item{\code{span}}{[\code{\link{GdkSpan}}] a \code{\link{GdkSpan}}.}
 \item{\code{data}}{[R object] the user data passed to \code{\link{gdkRegionSpansIntersectForeach}}.}
 }
+
 
 }}}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-Points-Rectangles-and-Regions.html}}

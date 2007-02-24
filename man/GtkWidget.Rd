@@ -81,6 +81,7 @@
 \code{\link{gtkWidgetSetDefaultDirection}(dir)}\cr
 \code{\link{gtkWidgetGetDefaultDirection}()}\cr
 \code{\link{gtkWidgetShapeCombineMask}(object, shape.mask, offset.x, offset.y)}\cr
+\code{\link{gtkWidgetInputShapeCombineMask}(object, shape.mask = NULL, offset.x, offset.y)}\cr
 \code{\link{gtkWidgetPath}(object)}\cr
 \code{\link{gtkWidgetClassPath}(object)}\cr
 \code{\link{gtkWidgetGetCompositeName}(object)}\cr
@@ -136,25 +137,28 @@
 \code{\link{gtkWidgetListMnemonicLabels}(object)}\cr
 \code{\link{gtkWidgetAddMnemonicLabel}(object, label)}\cr
 \code{\link{gtkWidgetRemoveMnemonicLabel}(object, label)}\cr
+\code{\link{gtkWidgetGetAction}(object)}\cr
+\code{\link{gtkWidgetIsComposited}(object)}\cr
 \code{\link{gtkRequisitionCopy}(object)}\cr
 \code{gtkWidget(type, ..., show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----GtkWidget
-               +----\link{GtkContainer}
-               +----\link{GtkMisc}
-               +----\link{GtkCalendar}
-               +----\link{GtkCellView}
-               +----\link{GtkDrawingArea}
-               +----\link{GtkEntry}
-               +----\link{GtkRuler}
-               +----\link{GtkRange}
-               +----\link{GtkSeparator}
-               +----\link{GtkInvisible}
-               +----\link{GtkOldEditable}
-               +----\link{GtkPreview}
-               +----\link{GtkProgress}}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----GtkWidget
+                     +----\link{GtkContainer}
+                     +----\link{GtkMisc}
+                     +----\link{GtkCalendar}
+                     +----\link{GtkCellView}
+                     +----\link{GtkDrawingArea}
+                     +----\link{GtkEntry}
+                     +----\link{GtkRuler}
+                     +----\link{GtkRange}
+                     +----\link{GtkSeparator}
+                     +----\link{GtkInvisible}
+                     +----\link{GtkOldEditable}
+                     +----\link{GtkPreview}
+                     +----\link{GtkProgress}}}
 \section{Interfaces}{GtkWidget implements
  AtkImplementorIface.}
 \section{Interface Derivations}{GtkWidget is required by
@@ -171,10 +175,11 @@ Use \code{\link{gtkWidgetClassInstallStyleProperty}} to install style properties
 a widget class, \code{\link{gtkWidgetClassFindStyleProperty}} or
 \code{\link{gtkWidgetClassListStyleProperties}} to get information about existing
 style properties and \code{\link{gtkWidgetStyleGetProperty}}, \code{\link{gtkWidgetStyleGet}} or
-\code{gtk\Widget\Style\Get\Valist()} to obtain the value of a style property.}
+\code{gtkWidgetStyleGetValist()} to obtain the value of a style property.}
 \section{Structures}{\describe{
 \item{\code{GtkWidget}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{style}}{[\code{\link{GtkStyle}}] The style for the widget. The style contains the colors the widget should be 
@@ -211,8 +216,11 @@ A \code{GtkRequisition} represents the desired size of a widget. See
 }
 
 }
-\item{\code{GtkSelectionData}}{\emph{undocumented
-}}
+\item{\code{GtkSelectionData}}{
+\emph{undocumented
+}
+
+}
 }}
 \section{Convenient Construction}{\code{gtkWidget} is the equivalent of \code{\link{gtkWidgetNew}}.}
 \section{Enums and Flags}{\describe{
@@ -271,7 +279,8 @@ Tells about certain properties of the widget.
 
 }
 \item{\code{GtkWidgetHelpType}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{tooltip}}{\emph{undocumented
@@ -282,7 +291,8 @@ Tells about certain properties of the widget.
 
 }
 \item{\code{GtkTextDirection}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{none}}{\emph{undocumented
@@ -304,35 +314,44 @@ the children of a container, see \code{\link{gtkContainerForeach}}.
 \item{\code{data}}{[R object] user-supplied data}
 }
 
+
 }}}
 \section{Signals}{\describe{
 \item{\code{accel-closures-changed(widget, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{button-press-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{event}}{[\code{\link{GdkEventButton}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
 
 }
 \item{\code{button-release-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{event}}{[\code{\link{GdkEventButton}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
 
 }
 \item{\code{can-activate-accel(widget, signal.id, returns, user.data)}}{
@@ -349,6 +368,7 @@ for determining whether an accelerator can be activated.
 \item{\code{user.data}}{user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{child-notify(widget, pspec, user.data)}}{
 The ::child-notify signal is emitted for each child property that has 
@@ -360,9 +380,11 @@ changed on an object. The signal's detail holds the property name.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{client-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -370,15 +392,31 @@ changed on an object. The signal's detail holds the property name.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
+}
+\item{\code{composited-changed(widget, user.data)}}{
+\emph{undocumented
+}
+
+\describe{
+\item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
+\item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
+}
+
+
 }
 \item{\code{configure-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{event}}{[\code{\link{GdkEventConfigure}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
 
 }
 \item{\code{delete-event(widget, event, user.data)}}{
@@ -394,6 +432,9 @@ it can later be shown again without reconstructing it.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical]  \code{TRUE} to stop other handlers from being invoked for the event. 
+  \code{FALSE} to propagate the event further.
+
 }
 \item{\code{destroy-event(widget, event, user.data)}}{
 The ::destroy-event signal is emitted when a \code{\link{GdkWindow}} is destroyed.
@@ -407,15 +448,20 @@ window at destroy time.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical]  \code{TRUE} to stop other handlers from being invoked for the event. 
+  \code{FALSE} to propagate the event further.
+
 }
 \item{\code{direction-changed(widget, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{arg1}}{[\code{\link{GtkTextDirection}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{drag-begin(widget, drag.context, user.data)}}{
@@ -429,12 +475,13 @@ A typical reason to connect to this signal is to set up a custom drag icon with
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{drag-data-delete(widget, drag.context, user.data)}}{
-The ::drag-data-delete signal is emitted on the drag source when a drag with the action
-\code{GDK_ACTION_MOVE} is successfully completed. The signal handler is responsible for deleting
-the data that has been dropped. What "delete" means, depends on the context of the drag
-operation.  
+The ::drag-data-delete signal is emitted on the drag source when a drag 
+with the action \code{GDK_ACTION_MOVE} is successfully completed. The signal 
+handler is responsible for deleting the data that has been dropped. What 
+"delete" means, depends on the context of the drag operation.  
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
@@ -442,12 +489,13 @@ operation.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{drag-data-get(widget, drag.context, data, info, time, user.data)}}{
-The ::drag-data-get signal is emitted on the drag source when the drop site requests
-the data which is dragged. It is the responsibility of the signal handler to fill \code{data}
-with the data in the format which is indicated by \code{info}. See \code{\link{gtkSelectionDataSet}} and 
-\code{\link{gtkSelectionDataSetText}}.  
+The ::drag-data-get signal is emitted on the drag source when the drop site 
+requests the data which is dragged. It is the responsibility of the signal 
+handler to fill \code{data} with the data in the format which is indicated by \code{info}. 
+See \code{\link{gtkSelectionDataSet}} and \code{\link{gtkSelectionDataSetText}}.  
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
@@ -458,110 +506,21 @@ with the data in the format which is indicated by \code{info}. See \code{\link{g
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{drag-data-received(widget, drag.context, x, y, data, info, time, user.data)}}{
-The ::drag-data-received signal is emitted on the drop site when the dragged data has been 
-received. If the data was received in order to determine whether the drop will be accepted, 
-the handler is expected to call \code{\link{gdkDragStatus}} and \emph{not} finish the drag. 
-If the data was received in response to a ::drag-drop signal (and this is the last target to be 
-received), the handler for this signal is expected to process the received data and then call 
-\code{\link{gtkDragFinish}}, setting the \code{success} parameter depending on whether the data was processed 
-successfully. 
+The ::drag-data-received signal is emitted on the drop site when the dragged 
+data has been received. If the data was received in order to determine whether 
+the drop will be accepted, the handler is expected to call \code{\link{gdkDragStatus}} 
+and \emph{not} finish the drag. If the data was received in 
+response to a ::drag-drop signal (and this is the last target to be received), 
+the handler for this signal is expected to process the received data and then 
+call \code{\link{gtkDragFinish}}, setting the \code{success} parameter depending on whether 
+the data was processed successfully. 
   
-The handler may inspect and modify \code{drag.context->action} before calling \code{\link{gtkDragFinish}}, 
-e.g. to implement \code{GDK_ACTION_ASK} as shown in the following example:
-\preformatted{
-drag_data_received <- function(widget, drag_context, x, y, data, info, time)
-{
-  if ((data[["length"]] >= 0) && (data[["format"]] == 8))
-    {
-      if (drag_context[["action"]] == "ask") 
-        {
-          dialog <- gtkMessageDialog(NULL, c("modal", "destroy-with-parent"),
-          				"info", "yes-no", "Move the data ?")
-          response <- dialog$run()
-          dialog$destroy()
-		  
-		  gtkDragFinish(drag_context, TRUE, response == "yes", time)
-		}
-    } else gtkDragFinish(drag_context, FALSE, FALSE, time)
-}
-
-}  
-
-\describe{
-\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
-\item{\code{drag.context}}{[\code{\link{GdkDragContext}}]  the drag context}
-\item{\code{x}}{[integer]  where the drop happened}
-\item{\code{y}}{[integer]  where the drop happened}
-\item{\code{data}}{[\code{\link{GtkSelectionData}}]  the received data}
-\item{\code{info}}{[numeric]  the info that has been registered with the target in the \code{\link{GtkTargetList}}.}
-\item{\code{time}}{[numeric]  the timestamp at which the data was received}
-\item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
-}
-
-}
-\item{\code{drag-drop(widget, drag.context, x, y, time, returns, user.data)}}{
-The ::drag-drop signal is emitted on the drop site when the user drops the data
-onto the widget. The signal handler must determine whether the cursor position is in 
-a drop zone or not. If it is not in a drop zone, it returns \code{FALSE} and no further 
-processing is necessary. Otherwise, the handler returns \code{TRUE}. In this case, the handler 
-must ensure that \code{\link{gtkDragFinish}} is called to let the source know that the drop is done.
-The call to \code{\link{gtkDragFinish}} can be done either directly or in a ::drag-data-received handler
-which gets triggered by calling \code{gtk\Drop\Get\Data()} to receive the data for one or more of the 
-supported targets.  
-
-\describe{
-\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
-\item{\code{drag.context}}{[\code{\link{GdkDragContext}}]  the drag context}
-\item{\code{x}}{[integer]  the x coordinate of the current cursor position}
-\item{\code{y}}{[integer]  the y coordinate of the current cursor position}
-\item{\code{time}}{[numeric]  the timestamp of the motion event}
-\item{\code{returns}}{[R object]  whether the cursor position is in a drop zone}
-\item{\code{user.data}}{user data set when the signal handler was connected.}
-}
-
-}
-\item{\code{drag-end(widget, drag.context, user.data)}}{
-The ::drag-end signal is emitted on the drag source when a drag is finished. 
-A typical reason to connect to this signal is to undo things done in ::drag-begin.  
-
-\describe{
-\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
-\item{\code{drag.context}}{[\code{\link{GdkDragContext}}]  the drag context}
-\item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
-}
-
-}
-\item{\code{drag-leave(widget, drag.context, time, user.data)}}{
-The ::drag-leave signal is emitted on the drop site when the cursor leaves the widget.
-A typical reason to connect to this signal is to undo things done in ::drag-motion, e.g.
-undo highlighting with \code{\link{gtkDragUnhighlight}}  
-
-\describe{
-\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
-\item{\code{drag.context}}{[\code{\link{GdkDragContext}}]  the drag context}
-\item{\code{time}}{[numeric]  the timestamp of the motion event}
-\item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
-}
-
-}
-\item{\code{drag-motion(widget, drag.context, x, y, time, returns, user.data)}}{
-The ::drag-motion signal is emitted on the drop site when the user moves the cursor over
-the widget during a drag. The signal handler must determine whether the cursor position is in 
-a drop zone or not. If it is not in a drop zone, it returns \code{FALSE} and no further processing is
-necessary. Otherwise, the handler returns \code{TRUE}. In this case, the handler is responsible for
-providing the necessary information for displaying feedback to the user, by calling
-\code{\link{gdkDragStatus}}. If the decision whether the drop will be accepted or rejected can't be made
-based solely on the cursor position and the type of the data, the handler may inspect the dragged 
-data by calling \code{\link{gtkDragGetData}} and defer the \code{\link{gdkDragStatus}} call to the ::drag-data-received 
-handler. 
-  
-Note that there is no ::drag-enter signal. The drag receiver has to keep track of whether
-he has received any ::drag-motion signals since the last ::drag-leave and if not, treat the
-::drag-motion signal as an "enter" signal. Upon an "enter", the handler will typically highlight 
-the drop site with \code{\link{gtkDragHighlight}}.
-  
+The handler may inspect and modify \code{drag.context->action} before calling 
+\code{\link{gtkDragFinish}}, e.g. to implement \code{GDK_ACTION_ASK} as shown in the following 
+example:
 \preformatted{
 drag_motion <- function(widget, context, x, y, time)
 {
@@ -617,6 +576,30 @@ drag_data_received <- function(widget, context, x, y, selection_data, info, time
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
 \item{\code{drag.context}}{[\code{\link{GdkDragContext}}]  the drag context}
+\item{\code{x}}{[integer]  where the drop happened}
+\item{\code{y}}{[integer]  where the drop happened}
+\item{\code{data}}{[\code{\link{GtkSelectionData}}]  the received data}
+\item{\code{info}}{[numeric]  the info that has been registered with the target in the \code{\link{GtkTargetList}}.}
+\item{\code{time}}{[numeric]  the timestamp at which the data was received}
+\item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
+}
+
+
+}
+\item{\code{drag-drop(widget, drag.context, x, y, time, returns, user.data)}}{
+The ::drag-drop signal is emitted on the drop site when the user drops the 
+data onto the widget. The signal handler must determine whether the cursor 
+position is in a drop zone or not. If it is not in a drop zone, it returns 
+\code{FALSE} and no further processing is necessary. Otherwise, the handler returns 
+\code{TRUE}. In this case, the handler must ensure that \code{\link{gtkDragFinish}} is called 
+to let the source know that the drop is done. The call to \code{\link{gtkDragFinish}} 
+can be done either directly or in a ::drag-data-received handler which gets 
+triggered by calling \code{gtkDropGetData()} to receive the data for one or more 
+of the supported targets.  
+
+\describe{
+\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
+\item{\code{drag.context}}{[\code{\link{GdkDragContext}}]  the drag context}
 \item{\code{x}}{[integer]  the x coordinate of the current cursor position}
 \item{\code{y}}{[integer]  the y coordinate of the current cursor position}
 \item{\code{time}}{[numeric]  the timestamp of the motion event}
@@ -624,9 +607,132 @@ drag_data_received <- function(widget, context, x, y, selection_data, info, time
 \item{\code{user.data}}{user data set when the signal handler was connected.}
 }
 
+
+}
+\item{\code{drag-end(widget, drag.context, user.data)}}{
+The ::drag-end signal is emitted on the drag source when a drag is finished. 
+A typical reason to connect to this signal is to undo things done in ::drag-begin.  
+
+\describe{
+\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
+\item{\code{drag.context}}{[\code{\link{GdkDragContext}}]  the drag context}
+\item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
+}
+
+
+}
+\item{\code{drag-leave(widget, drag.context, time, user.data)}}{
+The ::drag-leave signal is emitted on the drop site when the cursor 
+leaves the widget. A typical reason to connect to this signal is to 
+undo things done in ::drag-motion, e.g. undo highlighting with 
+\code{\link{gtkDragUnhighlight}}  
+
+\describe{
+\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
+\item{\code{drag.context}}{[\code{\link{GdkDragContext}}]  the drag context}
+\item{\code{time}}{[numeric]  the timestamp of the motion event}
+\item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
+}
+
+
+}
+\item{\code{drag-motion(widget, drag.context, x, y, time, returns, user.data)}}{
+The ::drag-motion signal is emitted on the drop site when the user 
+moves the cursor over the widget during a drag. The signal handler 
+must determine whether the cursor position is in a drop zone or not. 
+If it is not in a drop zone, it returns \code{FALSE} and no further processing 
+is necessary. Otherwise, the handler returns \code{TRUE}. In this case, the 
+handler is responsible for providing the necessary information for 
+displaying feedback to the user, by calling \code{\link{gdkDragStatus}}. If the 
+decision whether the drop will be accepted or rejected can't be made
+based solely on the cursor position and the type of the data, the handler 
+may inspect the dragged data by calling \code{\link{gtkDragGetData}} and defer the 
+\code{\link{gdkDragStatus}} call to the ::drag-data-received handler. 
+  
+Note that there is no ::drag-enter signal. The drag receiver has to keep 
+track of whether he has received any ::drag-motion signals since the last 
+::drag-leave and if not, treat the ::drag-motion signal as an "enter" signal. 
+Upon an "enter", the handler will typically highlight the drop site with 
+\code{\link{gtkDragHighlight}}.
+  
+\preformatted{ 
+static void
+drag_motion (GtkWidget *widget,
+      	  GdkDragContext *context,
+             gint x,
+             gint y,
+             guint time)
+{
+  GdkAtom target;
+ 
+  PrivateData *private_data = GET_PRIVATE_DATA (widget);
+ 
+  if (!private_data->drag_highlight) 
+   {
+     private_data->drag_highlight = 1;
+     gtk_drag_highlight (widget);
+   }
+ 
+  target = gtk_drag_dest_find_target (widget, context, NULL);
+  if (target == GDK_NONE)
+    gdk_drag_status (context, 0, time);
+  else 
+   {
+     private_data->pending_status = context->suggested_action;
+     gtk_drag_get_data (widget, context, target, time);
+   }
+ 
+  return TRUE;
+}
+  
+static void
+drag_data_received (GtkWidget        *widget,
+                    GdkDragContext   *context,
+                    gint              x,
+                    gint              y,
+                    GtkSelectionData *selection_data,
+                    guint             info,
+                    guint             time)
+{
+  PrivateData *private_data = GET_PRIVATE_DATA (widget);
+  
+  if (private_data->suggested_action) 
+   {
+     private_data->suggested_action = 0;
+     
+    /    * We are getting this data due to a request in drag_motion,
+     * rather than due to a request in drag_drop, so we are just
+     * supposed to call gdk_drag_status(    ), not actually paste in 
+     * the data.
+     *    /
+     str = gtk_selection_data_get_text (selection_data);
+     if (!data_is_acceptable (str)) 
+       gdk_drag_status (context, 0, time);
+     else
+       gdk_drag_status (context, private_data->suggested_action, time);
+   }
+  else
+   {
+     /    * accept the drop *    /
+   }
+}
+}  
+
+\describe{
+\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal.}
+\item{\code{drag.context}}{[\code{\link{GdkDragContext}}]  the drag context}
+\item{\code{x}}{[integer]  the x coordinate of the current cursor position}
+\item{\code{y}}{[integer]  the y coordinate of the current cursor position}
+\item{\code{time}}{[numeric]  the timestamp of the motion event}
+\item{\code{returns}}{[R object]  whether the cursor position is in a drop zone}
+\item{\code{user.data}}{user data set when the signal handler was connected.}
+}
+
+
 }
 \item{\code{enter-notify-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -634,19 +740,25 @@ drag_data_received <- function(widget, context, x, y, selection_data, info, time
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{event}}{[\code{\link{GdkEvent}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
 
 }
 \item{\code{event-after(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -654,9 +766,11 @@ drag_data_received <- function(widget, context, x, y, selection_data, info, time
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{expose-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -664,9 +778,12 @@ drag_data_received <- function(widget, context, x, y, selection_data, info, time
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{focus(widget, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -674,25 +791,33 @@ drag_data_received <- function(widget, context, x, y, selection_data, info, time
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{focus-in-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{event}}{[\code{\link{GdkEventFocus}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
 
 }
 \item{\code{focus-out-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{event}}{[\code{\link{GdkEventFocus}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
 
 }
 \item{\code{grab-broken-event(widget, event, user.data)}}{
@@ -711,33 +836,49 @@ application grabs the pointer or keyboard again.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical]  \code{TRUE} to stop other handlers from being invoked for the event. 
+  \code{FALSE} to propagate the event further.
+
 }
 \item{\code{grab-focus(widget, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
-}
-\item{\code{grab-notify(widget, arg1, user.data)}}{
 
+}
+\item{\code{grab-notify(widget, was.grabbed, user.data)}}{
+The ::grab-notify signal is emitted when a widget becomes
+shadowed by a GTK+ grab (not a pointer or keyboard grab) on 
+another widget, or when it becomes unshadowed due to a grab 
+being removed.
+  
+A widget is shadowed by a \code{\link{gtkGrabAdd}} when the topmost 
+grab widget in the grab stack of its window group is not 
+its ancestor.  
 
 \describe{
-\item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
-\item{\code{arg1}}{[logical] }
+\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object which received the signal}
+\item{\code{was.grabbed}}{[logical]  \code{FALSE} if the widget becomes shadowed, \code{TRUE}
+              if it becomes unshadowed}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{hide(widget, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{hierarchy-changed(widget, widget2, user.data)}}{
@@ -753,19 +894,24 @@ a widget changes from un-anchored to anchored or vice-versa.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{key-press-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{event}}{[\code{\link{GdkEventKey}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
 
 }
 \item{\code{key-release-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -773,9 +919,12 @@ a widget changes from un-anchored to anchored or vice-versa.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{leave-notify-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -783,18 +932,23 @@ a widget changes from un-anchored to anchored or vice-versa.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{map(widget, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{map-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -802,9 +956,12 @@ a widget changes from un-anchored to anchored or vice-versa.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{mnemonic-activate(widget, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -812,9 +969,11 @@ a widget changes from un-anchored to anchored or vice-versa.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{motion-notify-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -822,9 +981,12 @@ a widget changes from un-anchored to anchored or vice-versa.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{no-expose-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -832,15 +994,20 @@ a widget changes from un-anchored to anchored or vice-versa.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{parent-set(widget, old.parent, user.data)}}{
-
+The parent-set signal is emitted when a new parent has been set 
+on a widget.  
 
 \describe{
-\item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
-\item{\code{old.parent}}{[\code{\link{GtkObject}}] }
+\item{\code{widget}}{[\code{\link{GtkWidget}}]  the object on which the signal is emitted}
+\item{\code{old.parent}}{[\code{\link{GtkObject}}]  the previous parent, or \code{NULL} if the widget 
+  just got its initial parent.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{popup-menu(widget, returns, user.data)}}{
@@ -857,9 +1024,11 @@ example of how to use this signal.
 \item{\code{user.data}}{user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{property-notify-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -867,19 +1036,25 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{proximity-in-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{event}}{[\code{\link{GdkEventProximity}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
 
 }
 \item{\code{proximity-out-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -887,18 +1062,23 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{realize(widget, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{screen-changed(widget, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -906,9 +1086,11 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{scroll-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -916,9 +1098,12 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{selection-clear-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -926,9 +1111,12 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{selection-get(widget, data, info, time, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -938,9 +1126,11 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{selection-notify-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -948,9 +1138,12 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{selection-received(widget, data, time, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -959,9 +1152,11 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{selection-request-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -969,18 +1164,23 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{show(widget, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{show-help(widget, arg1, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -988,9 +1188,11 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{size-allocate(widget, allocation, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -998,9 +1200,11 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{size-request(widget, requisition, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -1008,15 +1212,18 @@ example of how to use this signal.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{state-changed(widget, state, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{state}}{[\code{\link{GtkStateType}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 \item{\code{style-set(widget, previous.style, user.data)}}{
@@ -1031,18 +1238,22 @@ on a widget. Note that style-modifying functions like
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{unmap(widget, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{unmap-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -1050,18 +1261,23 @@ on a widget. Note that style-modifying functions like
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{unrealize(widget, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{visibility-notify-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
@@ -1069,15 +1285,20 @@ on a widget. Note that style-modifying functions like
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
+
 }
 \item{\code{window-state-event(widget, event, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{widget}}{[\code{\link{GtkWidget}}] the object which received the signal.}
 \item{\code{event}}{[\code{\link{GdkEventWindowState}}] }
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
+\emph{Returns:} [logical] \code{TRUE} to stop other handlers from being invoked for the event. \code{FALSE} to propagate the event further.
 
 }
 }}
@@ -1186,7 +1407,10 @@ Color with which to draw insertion cursor.
 }
 \item{\code{draw-border} [\code{\link{GtkBorder}} : Read]}{
 
-Size of areas outside the widget's allocation to draw.
+The "draw-border" property defines the size of areas outside 
+the widget's allocation to draw.  
+
+  Since  2.8
 
 }
 \item{\code{focus-line-pattern} [character : Read]}{
@@ -1209,9 +1433,63 @@ Width, in pixels, between focus indicator and the widget 'box'.  Allowed values:
 Whether to draw the focus indicator inside widgets.  Default value: TRUE
 
 }
+\item{\code{link-color} [\code{\link{GdkColor}} : Read]}{
+
+The "link-color" property defines the color of unvisited links.  
+
+  Since  2.10
+
+}
+\item{\code{scroll-arrow-hlength} [integer : Read]}{
+
+The "scroll-arrow-hlength" property defines the length of 
+horizontal scroll arrows.  
+
+  Allowed values: >= 1  Default value: 16  Since  2.10
+
+}
+\item{\code{scroll-arrow-vlength} [integer : Read]}{
+
+The "scroll-arrow-vlength" property defines the length of 
+vertical scroll arrows.  
+
+  Allowed values: >= 1  Default value: 16  Since  2.10
+
+}
 \item{\code{secondary-cursor-color} [\code{\link{GdkColor}} : Read]}{
 
 Color with which to draw the secondary insertion cursor when editing mixed right-to-left and left-to-right text.
+
+}
+\item{\code{separator-height} [integer : Read]}{
+
+The "separator-height" property defines the height of separators.
+This property only takes effect if "wide-separators" is \code{TRUE}.  
+
+  Allowed values: >= 0  Default value: 0  Since  2.10
+
+}
+\item{\code{separator-width} [integer : Read]}{
+
+The "separator-width" property defines the width of separators.
+This property only takes effect if "wide-separators" is \code{TRUE}.  
+
+  Allowed values: >= 0  Default value: 0  Since  2.10
+
+}
+\item{\code{visited-link-color} [\code{\link{GdkColor}} : Read]}{
+
+The "visited-link-color" property defines the color of visited links.  
+
+  Since  2.10
+
+}
+\item{\code{wide-separators} [logical : Read]}{
+
+The "wide-separators" property defines whether separators have 
+configurable width and should be drawn using a box instead of a line.  
+
+  Default value: FALSE  Since  2.10
 
 }
 }}

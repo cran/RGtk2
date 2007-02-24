@@ -1,12 +1,4 @@
-#include "conversion.h"
-#include "gobject.h"
-
-USER_OBJECT_
-asCGenericData(USER_OBJECT_ obj)
-{
-    R_PreserveObject(obj);
-    return(obj);
-}
+#include "RGtk2/gobject.h"
 
 char **
 asCStringArray(USER_OBJECT_ svec)
@@ -19,7 +11,7 @@ asCStringArray(USER_OBJECT_ svec)
     if(n > 0) {
     els = (char **) R_alloc(n+1, sizeof(char*));
     for(i = 0; i < n; i++) {
-        els[i] = asCString(VECTOR_ELT(svec, i));
+        els[i] = asCString(STRING_ELT(svec, i));
     }
         els[n] = NULL;
     }
@@ -27,87 +19,29 @@ asCStringArray(USER_OBJECT_ svec)
     return(els);
 }
 
-gboolean
-asCLogical(USER_OBJECT_ s_log)
-{
-    if (GET_LENGTH(s_log) == 0)
-		return(FALSE);
-	return(LOGICAL_DATA(s_log)[0]);
-}
-int
-asCInteger(USER_OBJECT_ s_int)
-{
-	if (GET_LENGTH(s_int) == 0)
-		return(0);
-    return(INTEGER_DATA(s_int)[0]);
-}
-guchar
-asCRaw(USER_OBJECT_ s_raw)
-{
-	if (GET_LENGTH(s_raw) == 0)
-		return(0);
-    return(RAW(s_raw)[0]);
-}
-double
-asCNumeric(USER_OBJECT_ s_num)
-{
-	if (GET_LENGTH(s_num) == 0)
-		return(0);
-    return(NUMERIC_DATA(s_num)[0]);
-}
-char *
+gchar *
 asCString(USER_OBJECT_ s_str)
 {
- if (IS_VECTOR(s_str)) {
-   if (GET_LENGTH(s_str) == 0)
-     return(NULL);
-     s_str = STRING_ELT(s_str, 0);
-   } 
-   return(CHAR_DEREF(s_str));
-   /*return(CHAR_DEREF(STRING_ELT(s_str, 0)));*/
+  if (s_str == NULL_USER_OBJECT)
+    return(NULL);
+  if (IS_VECTOR(s_str)) {
+    if (GET_LENGTH(s_str) == 0)
+      return(NULL);
+    s_str = STRING_ELT(s_str, 0);
+  }
+  return(CHAR_DEREF(s_str));
+  /*return(CHAR_DEREF(STRING_ELT(s_str, 0)));*/
 }
-char
+gchar
 asCCharacter(USER_OBJECT_ s_char)
 {
-    return(asCString(s_char)[0]);
+  gchar c = '\0';
+  gchar *str = asCString(s_char);
+  if (str)
+    c = str[0];
+  return(c);
 }
 
-USER_OBJECT_
-asRLogical(Rboolean val)
-{
-  USER_OBJECT_ ans;
-  ans = NEW_LOGICAL(1);
-  LOGICAL_DATA(ans)[0] = val;
-
-  return(ans);
-}
-USER_OBJECT_
-asRRaw(guchar val)
-{
-  USER_OBJECT_ ans;
-  ans = NEW_RAW(1);
-  RAW(ans)[0] = val;
-
-  return(ans);
-}
-USER_OBJECT_
-asRInteger(int val)
-{
-  USER_OBJECT_ ans;
-  ans = NEW_INTEGER(1);
-  INTEGER_DATA(ans)[0] = val;
-
-  return(ans);
-}
-USER_OBJECT_
-asRNumeric(double val)
-{
-  USER_OBJECT_ ans;
-  ans = NEW_NUMERIC(1);
-  NUMERIC_DATA(ans)[0] = val;
-
-  return(ans);
-}
 USER_OBJECT_
 asRCharacter(char c)
 {
@@ -128,6 +62,13 @@ asRString(const char *val)
   UNPROTECT(1);
 
   return(ans);
+}
+
+/* for special case when converting elements of G[S]Lists */
+USER_OBJECT_
+asRUnsigned(guint num)
+{
+  return asRNumeric(num); /* implicit conversion to double */
 }
 
 USER_OBJECT_
@@ -156,11 +97,6 @@ asREnum(int value, GType etype)
 
     return(ans);
 }
-USER_OBJECT_
-R_createEnum(int value, const char *enumName)
-{
-    return(asREnum(value, g_type_from_name(enumName)));
-}
 
 USER_OBJECT_
 asRFlag(guint value, GType ftype)
@@ -178,15 +114,17 @@ asRFlag(guint value, GType ftype)
     return(ans);
 }
 
-USER_OBJECT_
-R_createFlag(int value, const char *flagName)
-{
-    return(asRFlag(value, g_type_from_name(flagName)));
+void RGtk_finalizer(USER_OBJECT_ extptr) {
+    void *ptr = getPtrValue(extptr);
+    /*Rprintf("finalizing a %s\n", asCString(GET_CLASS(extptr)));*/
+    if (ptr) {
+        ((RPointerFinalizer)getPtrValue(R_ExternalPtrTag(extptr)))(ptr);
+        R_ClearExternalPtr(extptr);
+    }
 }
 
-
 USER_OBJECT_
-toRPointerWithFinalizer(void *val, const gchar *typeName, RPointerFinalizer finalizer)
+toRPointerWithFinalizer(gconstpointer val, const gchar *typeName, RPointerFinalizer finalizer)
 {
     USER_OBJECT_ ans;
     USER_OBJECT_ r_finalizer = NULL_USER_OBJECT;
@@ -200,7 +138,7 @@ toRPointerWithFinalizer(void *val, const gchar *typeName, RPointerFinalizer fina
     if (finalizer) {
         PROTECT(r_finalizer = R_MakeExternalPtr(finalizer, NULL_USER_OBJECT, NULL_USER_OBJECT));
     }
-    PROTECT(ans = R_MakeExternalPtr(val, r_finalizer, NULL_USER_OBJECT));
+    PROTECT(ans = R_MakeExternalPtr((gpointer)val, r_finalizer, NULL_USER_OBJECT));
     if (finalizer) {
         R_RegisterCFinalizer(ans, RGtk_finalizer);
     }
@@ -211,7 +149,7 @@ toRPointerWithFinalizer(void *val, const gchar *typeName, RPointerFinalizer fina
             type = G_TYPE_FROM_INSTANCE(val);
         if (G_TYPE_IS_DERIVED(type)) {
             setAttrib(ans, install("interfaces"), R_internal_getInterfaces(type));
-            PROTECT(klass = R_internal_getGTypeHierarchy(type));
+            PROTECT(klass = R_internal_getGTypeAncestors(type));
         }
     }
     if (!klass && typeName) {
@@ -229,6 +167,11 @@ toRPointerWithFinalizer(void *val, const gchar *typeName, RPointerFinalizer fina
     SET_STRING_ELT(rgtk_class, i, COPY_TO_USER_STRING("RGtkObject"));
     SET_CLASS(ans, rgtk_class);
 
+    if (g_type_is_a(type, S_TYPE_G_OBJECT)) {
+      USER_OBJECT_ public_sym = install(".public");
+      setAttrib(ans, public_sym, findVar(public_sym, S_GOBJECT_GET_ENV(val)));
+    }
+        
     if (klass)
         UNPROTECT(1);
     if (finalizer)
@@ -239,32 +182,19 @@ toRPointerWithFinalizer(void *val, const gchar *typeName, RPointerFinalizer fina
 }
 
 USER_OBJECT_
-toRPointer(void *val, const char *type)
-{
-    return(toRPointerWithFinalizer(val, type, NULL));
-}
-USER_OBJECT_
-toRPointerWithRef(void *val, const char *type) {
+toRPointerWithRef(gconstpointer val, const char *type) {
     if (val)
         g_object_ref(G_OBJECT(val));
     return(toRPointerWithFinalizer(val, type, g_object_unref));
 }
 
-void RGtk_finalizer(USER_OBJECT_ extptr) {
-    void *ptr = getPtrValue(extptr);
-    /*Rprintf("finalizing a %s\n", asCString(GET_CLASS(extptr)));*/
-    if (ptr) {
-        ((RPointerFinalizer)getPtrValue(R_ExternalPtrTag(extptr)))(ptr);
-        R_ClearExternalPtr(extptr);
-    }
-}
 void *
-getPtrValue(USER_OBJECT_ sval)
+getPtrValueWithRef(USER_OBJECT_ sval)
 {
-  if(sval == NULL_USER_OBJECT)
-      return(NULL);
-
-  return(R_ExternalPtrAddr(sval));
+  void *val = getPtrValue(sval);
+  if (val)
+    g_object_ref(val);
+  return val;
 }
 
 /* enum and flag stuff - experimental */

@@ -9,14 +9,15 @@
 
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----GtkItem
-                                 +----\link{GtkMenuItem}
-                                 +----\link{GtkListItem}
-                                 +----GtkTreeItem}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----GtkItem
+                                       +----\link{GtkMenuItem}
+                                       +----\link{GtkListItem}
+                                       +----GtkTreeItem}}
 \section{Interfaces}{GtkItem implements
  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkItem}} widget is an abstract base class for \code{\link{GtkMenuItem}}, \code{\link{GtkListItem}}
@@ -35,6 +36,7 @@ Emitted when the item is deselected.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{select(item, user.data)}}{
 Emitted when the item is selected.
@@ -44,6 +46,7 @@ Emitted when the item is selected.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{toggle(item, user.data)}}{
 Emitted when the item is toggled.
@@ -52,6 +55,7 @@ Emitted when the item is toggled.
 \item{\code{item}}{[\code{\link{GtkItem}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

@@ -78,6 +78,7 @@ The "activate" signal is emitted when the action is activated.
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }}}
 \section{Properties}{\describe{
 \item{\code{action-group} [\code{\link{GtkActionGroup}} : Read / Write]}{
@@ -88,6 +89,16 @@ The GtkActionGroup this GtkAction is associated with, or NULL (for internal use)
 \item{\code{hide-if-empty} [logical : Read / Write]}{
 
 When TRUE, empty menu proxies for this action are hidden.  Default value: TRUE
+
+}
+\item{\code{icon-name} [character : Read / Write]}{
+
+The name of the icon from the icon theme. 
+Note that the stock icon is preferred, if
+the ::stock-id property holds the id of an
+existing stock icon.  
+
+  Default value: NULL  Since  2.10
 
 }
 \item{\code{is-important} [logical : Read / Write]}{

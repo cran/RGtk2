@@ -1,10 +1,7 @@
-#include "conversion.h"
-#include "gobject.h"
-#include "userfuncs.h"
-#include "utils.h"
+#include "RGtk2/gtk.h"
 #include "gtkFuncs.h"
 
-/* reason: needs to serve asC a finalizer for the user data to the clipboard user funcs */
+/* reason: needs to serve as a finalizer for the user data to the clipboard user funcs */
 void S_GtkClipboardClearFunc(GtkClipboard *clipboard, gpointer user_data_or_owner)
 {
     R_freeCBData(user_data_or_owner);
@@ -23,7 +20,7 @@ S_gtk_action_group_add_toggle_actions_full(USER_OBJECT_ s_action_group, USER_OBJ
 
     for (i = 0; i < GET_LENGTH(s_entries); i++) {
         GtkToggleAction *action;
-        USER_OBJECT_ s_entry = padVector(VECTOR_ELT(s_entries, i), 7), callback = VECTOR_ELT(s_entry, 5);
+        USER_OBJECT_ s_entry = VECTOR_ELT(s_entries, i), callback = VECTOR_ELT(s_entry, 5);
         const gchar* accel = gtk_action_group_translate_string(group, asCString(VECTOR_ELT(s_entry, 3)));
         const gchar* tooltip = gtk_action_group_translate_string(group, asCString(VECTOR_ELT(s_entry, 4)));
         action = gtk_toggle_action_new(asCString(VECTOR_ELT(s_entry, 0)), asCString(VECTOR_ELT(s_entry, 2)),
@@ -45,7 +42,7 @@ S_gtk_action_group_add_toggle_actions(USER_OBJECT_ s_action_group, USER_OBJECT_ 
     return(S_gtk_action_group_add_toggle_actions_full(s_action_group, s_entries, s_user_data));
 }
 
-/* reason: same asC above basically
+/* reason: same as above basically
 */
 USER_OBJECT_
 S_gtk_action_group_add_radio_actions_full(USER_OBJECT_ s_action_group, USER_OBJECT_ s_entries, USER_OBJECT_ s_value, USER_OBJECT_ s_on_change, USER_OBJECT_ s_user_data)
@@ -60,7 +57,7 @@ S_gtk_action_group_add_radio_actions_full(USER_OBJECT_ s_action_group, USER_OBJE
 
     for (i = 0; i < GET_LENGTH(s_entries); i++) {
 
-        USER_OBJECT_ s_entry = padVector(VECTOR_ELT(s_entries, i), 6);
+        USER_OBJECT_ s_entry = VECTOR_ELT(s_entries, i);
         const gchar* accel = gtk_action_group_translate_string(group, asCString(VECTOR_ELT(s_entry, 3)));
         const gchar* tooltip = gtk_action_group_translate_string(group, asCString(VECTOR_ELT(s_entry, 4)));
         action = gtk_radio_action_new(asCString(VECTOR_ELT(s_entry, 0)), asCString(VECTOR_ELT(s_entry, 2)),
@@ -225,7 +222,7 @@ USER_OBJECT_
 {
          GtkItemFactory* object = GTK_ITEM_FACTORY(getPtrValue(s_object)) ;
          GtkItemFactoryEntry* entry;
-         GClosure* callback_data = R_createGClosure(VECTOR_ELT(s_entry, 3), s_callback_data) ;
+         R_CallbackData* callback_data = R_createCBData(VECTOR_ELT(s_entry, 3), s_callback_data) ;
          guint callback_type = (guint)NUMERIC_DATA(s_callback_type)[0] ;
 
          USER_OBJECT_ _result = NULL_USER_OBJECT;
@@ -242,7 +239,7 @@ USER_OBJECT_
          GtkItemFactory* object = GTK_ITEM_FACTORY(getPtrValue(s_object)) ;
          guint n_entries = GET_LENGTH(s_entries) ;
          GtkItemFactoryEntry* entries;
-         GClosure* callback_data = R_createGClosure(VECTOR_ELT(s_entries, 3), s_callback_data) ;
+         R_CallbackData* callback_data = R_createCBData(VECTOR_ELT(s_entries, 3), s_callback_data) ;
          guint callback_type = (guint)NUMERIC_DATA(s_callback_type)[0] ;
 
          USER_OBJECT_ _result = NULL_USER_OBJECT;
@@ -298,16 +295,44 @@ USER_OBJECT_
 			 
         USER_OBJECT_ _result = NULL_USER_OBJECT;
 
-         GtkTreeIter* iter = ( GtkTreeIter* )g_malloc(sizeof( GtkTreeIter )) ;
-          gtk_list_store_insert_with_valuesv ( object, iter, position, columns, values, n_values );
+         GtkTreeIter iter;
+          gtk_list_store_insert_with_valuesv ( object, &iter, position, columns, values, n_values );
 
-        _result = retByVal(_result, "iter", toRPointerWithFinalizer ( iter, "GtkTreeIter", (RPointerFinalizer)gtk_tree_iter_free ), NULL);
+        _result = retByVal(_result, "iter", toRPointerWithFinalizer ( gtk_tree_iter_copy(&iter), "GtkTreeIter", (RPointerFinalizer)gtk_tree_iter_free ), NULL);
 
 		for (i = 0; i < n_values; i++)
 			g_value_unset(&values[i]);
 		g_free(values);
 		
         return(_result);
+}
+USER_OBJECT_
+ S_gtk_tree_store_insert_with_valuesv ( USER_OBJECT_ s_object, USER_OBJECT_ s_parent, USER_OBJECT_ s_position, USER_OBJECT_ s_columns, USER_OBJECT_ s_values )
+{
+ GtkTreeStore* object = GTK_TREE_STORE(getPtrValue(s_object)) ;
+ GtkTreeIter *parent = (GtkTreeIter *)getPtrValue(s_parent);
+ gint position = INTEGER_DATA(s_position)[0] ;
+ gint* columns = INTEGER_DATA(s_columns) ;
+ gint n_values = GET_LENGTH(s_values), i;
+		 
+ GValue* values = (GValue*)g_new0(GValue, n_values);
+ for (i = 0; i < n_values; i++) {
+   g_value_init(&values[i], gtk_tree_model_get_column_type(GTK_TREE_MODEL(object), columns[i]));
+   R_setGValueFromSValue(&values[i], VECTOR_ELT(s_values, i));
+ }
+			 
+ USER_OBJECT_ _result = NULL_USER_OBJECT;
+
+ GtkTreeIter iter;
+ gtk_tree_store_insert_with_valuesv ( object, &iter, parent, position, columns, values, n_values );
+
+ _result = retByVal(_result, "iter", toRPointerWithFinalizer ( gtk_tree_iter_copy(&iter), "GtkTreeIter", (RPointerFinalizer)gtk_tree_iter_free ), NULL);
+
+ for (i = 0; i < n_values; i++)
+    g_value_unset(&values[i]);
+ g_free(values);
+		
+ return(_result);
 }
 
 /* reason: need to set mask on the fly - also, handle object pool */
@@ -321,7 +346,7 @@ USER_OBJECT_
      GdkGC* ans ;
     USER_OBJECT_ _result = NULL_USER_OBJECT;
 
-    values = asCGdkGCValues(s_values, &values_mask) ;
+    values = asCGdkGCValuesWithMask(s_values, &values_mask) ;
      ans =  gtk_gc_get ( depth, colormap, values, values_mask );
     _result = toRPointerWithFinalizer ( ans, "GdkGC", (RPointerFinalizer)gtk_gc_release );
 
@@ -413,7 +438,7 @@ USER_OBJECT_
 S_gtk_file_chooser_dialog_new_with_backend(USER_OBJECT_ s_title, USER_OBJECT_ s_parent, USER_OBJECT_ s_action, USER_OBJECT_ s_backend, USER_OBJECT_ s_labels, USER_OBJECT_ s_responses)
 {
   const gchar* title = (const gchar*)asCString(s_title);
-  GtkWindow* parent = GTK_WINDOW(getPtrValue(s_parent));
+  GtkWindow* parent = s_parent == NULL_USER_OBJECT ? NULL : GTK_WINDOW(getPtrValue(s_parent));
   GtkFileChooserAction action = (GtkFileChooserAction)asCEnum(s_action, GTK_TYPE_FILE_CHOOSER_ACTION);
   const gchar* backend = (const gchar*)asCString(s_backend);
 
@@ -424,6 +449,26 @@ S_gtk_file_chooser_dialog_new_with_backend(USER_OBJECT_ s_title, USER_OBJECT_ s_
     "file-system-backend", backend, NULL);
   if (parent)
     gtk_window_set_transient_for(GTK_WINDOW(ans), parent);
+
+  _result = PROTECT(toRPointerWithSink(ans, "GtkWidget"));
+
+  S_gtk_dialog_add_buttons(_result, s_labels, s_responses);
+  
+  UNPROTECT(1);
+
+  return(_result);
+}
+USER_OBJECT_
+S_gtk_recent_chooser_dialog_new_for_manager(USER_OBJECT_ s_title, USER_OBJECT_ s_parent, USER_OBJECT_ s_manager, USER_OBJECT_ s_labels, USER_OBJECT_ s_responses)
+{
+  const gchar* title = (const gchar*)asCString(s_title);
+  GtkWindow* parent = s_parent == NULL_USER_OBJECT ? NULL : GTK_WINDOW(getPtrValue(s_parent));
+  GtkRecentManager *manager = s_manager == NULL_USER_OBJECT ? NULL : GTK_RECENT_MANAGER(getPtrValue(s_manager));
+
+  GtkWidget* ans;
+  USER_OBJECT_ _result = NULL_USER_OBJECT;
+
+  ans = gtk_recent_chooser_dialog_new_for_manager(title, parent, manager, NULL);
 
   _result = PROTECT(toRPointerWithSink(ans, "GtkWidget"));
 
@@ -864,7 +909,7 @@ S_gtk_tree_path_get_indices(USER_OBJECT_ s_object)
 /* reason: discard text length parameter and handle in-out position
 	it's probably too much trouble to add automatic in-out support, especially
 	because it only affects primitive types
-	- why couldn't they just return that by value? */
+	- why couldn't they just return that by value? C-level convenience.. */
 USER_OBJECT_
 S_gtk_editable_insert_text(USER_OBJECT_ s_object, USER_OBJECT_ s_new_text, USER_OBJECT_ s_position)
 {
@@ -1118,6 +1163,69 @@ S_GtkSignalFunc(GtkWidget* s_child, gpointer s_data)
 	S_GtkCallback(s_child, s_data);
 }
 
+/* need to return the length of the serialized data */
+
+guint8*
+S_GtkTextBufferSerializeFunc(GtkTextBuffer* s_register_buffer, GtkTextBuffer* s_content_buffer, GtkTextIter* s_start, GtkTextIter* s_end, gsize* s_length, gpointer s_user_data)
+{
+  USER_OBJECT_ e;
+  USER_OBJECT_ tmp;
+  USER_OBJECT_ s_ans;
+  PROTECT(e = allocVector(LANGSXP, 6));
+  tmp = e;
+
+  SETCAR(tmp, ((R_CallbackData *)s_user_data)->function);
+  tmp = CDR(tmp);
+
+  SETCAR(tmp, toRPointerWithRef(s_register_buffer, "GtkTextBuffer"));
+  tmp = CDR(tmp);
+  SETCAR(tmp, toRPointerWithRef(s_content_buffer, "GtkTextBuffer"));
+  tmp = CDR(tmp);
+  SETCAR(tmp, toRPointerWithFinalizer(gtk_text_iter_copy(s_start), "GtkTextIter", (RPointerFinalizer) gtk_text_iter_free));
+  tmp = CDR(tmp);
+  SETCAR(tmp, toRPointerWithFinalizer(gtk_text_iter_copy(s_end), "GtkTextIter", (RPointerFinalizer) gtk_text_iter_free));
+  tmp = CDR(tmp);
+  SETCAR(tmp, ((R_CallbackData *)s_user_data)->data);
+  tmp = CDR(tmp);
+
+  s_ans = eval(e, R_GlobalEnv);
+
+  *s_length = GET_LENGTH(s_ans);
+  
+  UNPROTECT(1);
+  return(((guint8*)asCArray(s_ans, guint8, asCRaw)));
+}
+
+/* need to return the x, y, and in_push params */
+
+gint
+S_GtkMenuPositionFunc(GtkMenu* s_menu, gint* s_x, gint* s_y, gboolean* s_push_in, gpointer s_user_data)
+{
+  USER_OBJECT_ e;
+  USER_OBJECT_ tmp;
+  USER_OBJECT_ s_ans;
+
+  PROTECT(e = allocVector(LANGSXP, 3));
+  tmp = e;
+
+  SETCAR(tmp, ((R_CallbackData *)s_user_data)->function);
+  tmp = CDR(tmp);
+
+  SETCAR(tmp, toRPointerWithSink(s_menu, "GtkMenu"));
+  tmp = CDR(tmp);
+  SETCAR(tmp, ((R_CallbackData *)s_user_data)->data);
+  tmp = CDR(tmp);
+
+  s_ans = eval(e, R_GlobalEnv);
+
+  *s_x = asCInteger(VECTOR_ELT(s_ans, 1));
+  *s_y = asCInteger(VECTOR_ELT(s_ans, 2));
+  *s_push_in = asCLogical(VECTOR_ELT(s_ans, 3));
+  
+  UNPROTECT(1);
+  return(((gint)asCInteger(VECTOR_ELT(s_ans, 0))));
+}
+
 /* This provides a quick way to convert GtkTreePaths to indices.
    Such an operation is necessary when interpreting selections, for example.
 */
@@ -1338,4 +1446,29 @@ S_gtk_tree_model_unload(USER_OBJECT_ s_model, USER_OBJECT_ s_rows, USER_OBJECT_ 
 	UNPROTECT(1);
 
 	return(result);
+}
+
+/* problem: the user data in the GtkTreeIter must be statically allocated */
+/* there's no way to 'free' a GtkTreeIter, so we will leak memory if
+   we PreserveObject() here. unfortunately, we crash otherwise. */
+/* thus, we just pass an integer.. which can serve as an index into some
+   structure in the R environment */
+USER_OBJECT_
+S_gtk_tree_iter_set_id(USER_OBJECT_ s_iter, USER_OBJECT_ s_data)
+{
+  GtkTreeIter *iter = getPtrValue(s_iter);
+  gint index = asCInteger(s_data);
+  iter->user_data2 = GINT_TO_POINTER(R_GTK_TYPE_SEXP);
+  iter->user_data = GINT_TO_POINTER(index);
+  return NULL_USER_OBJECT;
+}
+USER_OBJECT_
+S_gtk_tree_iter_get_id(USER_OBJECT_ s_iter)
+{
+  GtkTreeIter *iter = getPtrValue(s_iter);
+  /* this serves as a flag to try to ensure people don't get data from the
+     wrong iter */
+  if (GPOINTER_TO_INT(iter->user_data2) == R_GTK_TYPE_SEXP)
+    return asRInteger(GPOINTER_TO_INT(iter->user_data));
+  return NULL_USER_OBJECT;
 }

@@ -11,14 +11,15 @@
 \code{gtkToggleToolButton(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----\link{GtkToolItem}
-                                 +----\link{GtkToolButton}
-                                       +----GtkToggleToolButton
-                                             +----\link{GtkRadioToolButton}}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----\link{GtkToolItem}
+                                       +----\link{GtkToolButton}
+                                             +----GtkToggleToolButton
+                                                   +----\link{GtkRadioToolButton}}}
 \section{Interfaces}{GtkToggleToolButton implements
  AtkImplementorIface.}
 \section{Detailed Description}{  A \code{\link{GtkToggleToolButton}} is a \code{\link{GtkToolItem}} that contains a toggle
@@ -40,6 +41,7 @@ Emitted whenever the toggle tool button changes state.
 \item{\code{toggle.tool.button}}{[\code{\link{GtkToggleToolButton}}]  the object that emitted the signal}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }}}
 \section{Properties}{\describe{\item{\code{active} [logical : Read / Write]}{

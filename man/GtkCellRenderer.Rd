@@ -10,18 +10,20 @@
 \code{\link{gtkCellRendererActivate}(object, event, widget, path, background.area, cell.area, flags)}\cr
 \code{\link{gtkCellRendererStartEditing}(object, event, widget, path, background.area, cell.area, flags)}\cr
 \code{\link{gtkCellRendererEditingCanceled}(object)}\cr
+\code{\link{gtkCellRendererEditingCanceled}(object)}\cr
 \code{\link{gtkCellRendererStopEditing}(object, canceled)}\cr
 \code{\link{gtkCellRendererGetFixedSize}(object)}\cr
 \code{\link{gtkCellRendererSetFixedSize}(object, width, height)}\cr
 
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----GtkCellRenderer
-               +----\link{GtkCellRendererText}
-               +----\link{GtkCellRendererPixbuf}
-               +----\link{GtkCellRendererProgress}
-               +----\link{GtkCellRendererToggle}}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----GtkCellRenderer
+                     +----\link{GtkCellRendererText}
+                     +----\link{GtkCellRendererPixbuf}
+                     +----\link{GtkCellRendererProgress}
+                     +----\link{GtkCellRendererToggle}}}
 \section{Detailed Description}{The \code{\link{GtkCellRenderer}} is a base class of a set of objects used for
 rendering a cell to a \code{\link{GdkDrawable}}.  These objects are used primarily by
 the \code{\link{GtkTreeView}} widget, though they aren't tied to them in any
@@ -51,8 +53,11 @@ allows the user to edit the text using a \code{\link{GtkEntry}}.
 To make a cell renderer activatable or editable, you have to 
 implement the \code{activate} or \code{start.editing} virtual functions, 
 respectively.}
-\section{Structures}{\describe{\item{\code{GtkCellRenderer}}{\emph{undocumented
-}}}}
+\section{Structures}{\describe{\item{\code{GtkCellRenderer}}{
+\emph{undocumented
+}
+
+}}}
 \section{Enums and Flags}{\describe{
 \item{\code{GtkCellRendererState}}{
 Tells how a cell is to be rendererd.
@@ -97,6 +102,7 @@ See also: \code{\link{gtkCellRendererEditingCanceled}}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
 
+
 }
 \item{\code{editing-started(renderer, editable, path, user.data)}}{
 This signal gets emitted when a cell starts to be edited.
@@ -127,6 +133,7 @@ text_editing_started <- function(cell, editable, path, data)
 \item{\code{path}}{[character]  the path identifying the edited cell}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }
 }}

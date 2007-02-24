@@ -1,52 +1,54 @@
-TODO for CRAN
-----------------
-Either document stuff or mask it
-Make manual build
+==== TO DO =====
+- Support introspection, if/when it arrives
 
-Some current issues (bugs?) with RGtk2
+Adding support for extending GObjects
 ----------
 
-Specifics
----------
+In/Out issues:
+- GtkEditable (insert_text/do_insert_text)
+  -- this also affects the insert-text signal, so this is a good way around that
+    
+Some current issues/bugs with RGtk2
+----------
 
-- atkStreamableContentGetStream: need to map GIOChannel to R connection
-- implement GdkPixbufSaveFunc, cairo_read_t/write_t using R connections
+Stuff that can wait for introspection
+-------------------------------------
 - these functions SHOULD free a string parameter by ref: (but they don't)
 	pango_parse_markup, gtk_im_context_get_(preedit_string/surrounding), gtk_widget_(class)_path
-----> Wait introspection support
-- CTREE_NODE_NEXT and CTREE_NODE_PREV are missing
-- Problem with "destroy with parent" dialog that is explicitly destroyed
-	  
-General
+- PangoGlyphString: can only get first glyph from 'glyphs' array
+- perhaps we should make sure we 'own' stuff in signal callbacks and accessors
+--- the only 'stuff' we don't own is boxed types (and pointers)
+- field setting
+
+Low Priority Issues
 ---------
 
-Easy Fixes:
------------
-guchar * data should go to raw vector
-support translation of messages
+- atkStreamableContentGetStream: need to map GIOChannel to R connection - not doable right now
+- support translation of messages
+- should not send code to type cast macros (results in slight slowdown)
+- Returning *Funcs to R
+- GtkRcPropertyParser - can we return the GValue by ref?
+- allow specification of numeric precision on GtkCellRendererText
+- could throw custom signal in response to GError, instead of warning
+- could use new namespaced .Call mechanism (dll$foo) - better if cached
+- GTypeModule support (create bindings and add module arg to gClass)
+- R wrappers for callbacks so that return values are coerced
 
-Tough Fixes (questionable worth)
------------
-- GTK property parsing - needs better GParamSpec support, manual GValue initialization                                                                                                                                                                                                                                           xxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxx
-- Should the user be able to set fields on structures?
---- We would have to know whether or not the fields were "read only"
-- What about macros?
---- Should make defs for them if they are truly necessary or greatly enhance convenience
-
-GTK 2.10 changes
+Introspection?
 ----------------
 `-> Creating explicit bindings at runtime would be impractical
-`-> Cairo and probably GtkMozEmbed would not support introspection 
+`-> Cairo would not support introspection 
 	`-> Should cairo be made a separate package? - It has little utility outside of GTK
-	`-> GtkMozEmbed could be a separate package, but it's not convenient
 `-> Syntax tricks like the '$' and '[' operators could allow us to bind to 
 	methods and fields at runtime
-	`-> What about constructors? Need a "gNew" function?
+	`-> What about constructors? There's gObjectNew...
 	`-> What about ordinary functions - relatively few in number, 
 		could be explicitly bound at runtime
-`-> I think that, in general, we could generate some R bindings at build time,
-	then have those tied into the type libraries on the C side, thus there are
-	no compilation requirements on a certain GTK version.
+  `-> Could use RObjectTables-like functionality here
+`-> Verdict: compiled bindings will always be faster, so for often used libraries,
+    there should be a set of generated bindings. Other libraries can be bound
+    on the fly with introspection. Introspection could help even in the compiled
+    case. For example, parent handlers for virtuals could be invoked dynamically.
 		
 Unsupported funcs
 -----------------
@@ -87,39 +89,8 @@ These 25 functions fall into 3 categories:
 2) undocumented/extremely low-level (10): The R programmer should not need these things. Never supported.
 3) callbacks sans user data (9): need to record callbacks in an attribute on the R object then have
 	one closure that calls the rest or if the callback scope is a function call something similar
-	could be done as long as the calls aren't nested... May be supported.
-
-- there are three categories of unsupported user functions (* will not be supported):
-	1) No GType for a structure:
-		This may be resolved when GLib introspection arrives. They need everything with GTypes.
-		A lot of times this just requires a cast by the user. We could wrap these with R closures.
-	2) Arrays as parameters:
-		While it would be possible to create GValues holding arrays, it wouldn't be feasible
-		with large arrays of primitives (like raw data). This one, and the one above,
-		are related and could be solved by implementing everything outside of the GClosure system.
-	3) Need to return a value by reference:
-		The user function would be asked to return a list with those fields. This is doable manually.
-
-	[1] GtkAccelGroupFindFunc: need to manually cast "key" and "closure" is just a pointer (still useable)
-	[2] GtkClipboardTargetsReceivedFunc: only clipboard (and userdata) are valid, but the rest may be 
-		retrieved with gtkClipboardWaitForTargets()
-	[*] GtkCTreeGNodeFunc: This wouldn't be useful anyway due to lack of "GNode" objects in R...
-		But still, you just have to manually cast the GNode and then well.. use it somehow..
-		Note that the entire CTree widget is deprecated and this is a very obscure feature for it...
-	[1] GtkFileFilterFunc: You'll need to manually cast "filter_info"
-	[1] GtkKeySnoopFunc: Need to cast "event"
-	[3] GtkMenuPositionFunc: This needs to be manually implemented so that the "x", "y", and "push_in" can be returned
-	[2,3] GdkPixbufSaveFunc: This can't return an error.. we *could* manually implement this to allow error returning
-	[*] GdkFilterFunc: The user will have to cast "xevent" to the native event type and then somehow use it...
-		this would require supplemental C code for handling native events.. not likely it would be used
-	[1] AtkKeySnoopFunc: Need to cast "event"
-	[3] cairo_read_func_t: Needs manual implementation to return read data
-	[2] cairo_write_func_t: Cannot convert array of data to write
-	
-	In my opinion, these are either not of much use or take just a little effort to use.
-	Why maintain more code? Many of these would be very slow, like reading and writing of data
-	and file filtering. Some seem almost useless (GtkMenuPositionFunc) while the rest
-	are of some use but have simple workarounds (casting, calling some other function, etc).
+	could be done as long as the calls aren't nested... May be supported, but probably not.
+  See the dynamic variables package by Luke Tierney for possible solution.
 	
 Problems with defs files (as provided by pygtk)
 --------------------

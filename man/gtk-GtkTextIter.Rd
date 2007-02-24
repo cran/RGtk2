@@ -100,10 +100,14 @@
 conceptual overview which gives an overview of all the objects and data
 types related to the text widget and how they work together.
   }
-\section{Structures}{\describe{\item{\code{GtkTextIter}}{\emph{undocumented
-}}}}
-\section{Enums and Flags}{\describe{\item{\code{GtkTextSearchFlags}}{
+\section{Structures}{\describe{\item{\code{GtkTextIter}}{
+\emph{undocumented
+}
 
+}}}
+\section{Enums and Flags}{\describe{\item{\code{GtkTextSearchFlags}}{
+\emph{undocumented
+}
 
 \describe{
 \item{\code{visible-only}}{\emph{undocumented
@@ -114,12 +118,14 @@ types related to the text widget and how they work together.
 
 }}}
 \section{User Functions}{\describe{\item{\code{GtkTextCharPredicate(ch, user.data)}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{ch}}{[numeric] }
 \item{\code{user.data}}{[R object] }
 }
+
 
 }}}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/gtk-GtkTextIter.html}}

@@ -110,6 +110,36 @@ function(title = NULL, parent = NULL, action, ..., show = TRUE)
 
         return(w)
 }
+gtkRecentChooserDialogNewForManager <-
+function(title = NULL, parent = NULL, manager, ..., show = TRUE)
+{
+  title <- as.character(title)
+  checkPtrType(parent, "GtkWindow", nullOk = T)
+  checkPtrType(manager, "GtkRecentManager", nullOk = T)
+        
+  args <- list(...)
+		
+  labels <- NULL
+  responses <- NULL
+  if (length(args) > 1) {
+    labels <- as.character(args[seq(1,length(args),by=2)])
+    responses <- args[seq(2,length(args),by=2)]
+  }
+
+  w <- .RGtkCall("S_gtk_recent_chooser_dialog_new_for_manager", title, parent, manager, labels, responses)
+
+  if(show)
+    gtkWidgetShowAll(w)
+
+  return(w)
+}
+gtkRecentChooserDialogNew <-
+function(title = NULL, parent = NULL, ..., show = TRUE)
+{
+        w <- gtkRecentChooserDialogNewForManager(title, parent, NULL, ..., show=show)
+
+        return(w)
+}
 
 # reason: var-args - not yet ready for primetime
 
@@ -343,13 +373,27 @@ function(object, targets, get.func, owner = NULL)
 gtkListStoreInsertWithValuesv <-
 function(object, position, columns, values)
 {
-        checkPtrType(object, "GtkListStore")
-		position <- as.integer(position)
-        columns <- checkArrType(columns, function(x) { x <- as.integer(x); x })
+  checkPtrType(object, "GtkListStore")
+  position <- as.integer(position)
+  columns <- as.list(as.integer(columns))
+  values <- as.list(values)
 
-        w <- .RGtkCall("S_gtk_list_store_insert_with_valuesv", object, position, columns, values)
+  w <- .RGtkCall("S_gtk_list_store_insert_with_valuesv", object, position, columns, values)
 
-        return(invisible(w))
+  return(invisible(w))
+}
+gtkTreeStoreInsertWithValuesv <-
+function(object, parent, position, columns, values)
+{
+  checkPtrType(object, "GtkTreeStore")
+  checkPtrType(parent, "GtkTreeIter")
+  position <- as.integer(position)
+  columns <- as.list(as.integer(columns))
+  values <- as.list(values)
+
+  w <- .RGtkCall("S_gtk_tree_store_insert_with_valuesv", object, parent, position, columns, values, PACKAGE = "RGtk2")
+
+  return(invisible(w))
 }
 
 # reason: here are some functions where we just leave off the text length parameter for convenience
@@ -453,6 +497,21 @@ function(object, position, ...)
         w <- gtkListStoreInsertWithValuesv(object, position, columns, values)
 
         return(w)
+}
+gtkTreeStoreInsertWithValues <-
+function(object, parent, position, ...)
+{
+  checkPtrType(object, "GtkListStore")
+  checkPtrType(parenet, "GtkTreeIter")
+  position <- as.integer(position)
+
+  args <- list(...)
+  columns <- as.integer(args[seq(1,length(args),by=2)])
+  values <- args[seq(2,length(args),by=2)]
+		
+  w <- gtkTreeStoreInsertWithValuesv(object, parent, position, columns, values)
+
+  return(w)
 }
 # reason: user func has no userdata, so we can't support it... maybe in the future
 gtkMenuAttachToWidget <-
@@ -566,6 +625,15 @@ gtkRadioToolButtonNewFromWidget(group[[1]], show)
 gtkRadioToolButtonNewFromStock <-
 function(group = NULL, stock.id, show = TRUE) 
 gtkRadioToolButtonNewWithStockFromWidget(group[[1]], stock.id, show)
+
+# getting child widgets by index
+"[[.GtkContainer" <-
+function(x, field)
+{
+  if(is.numeric(field))
+    return(x$getChildren()[[field]])
+  else NextMethod("[[")
+}
 
 # EXPERIMENTAL TREE MODEL ACCESS
 # Currently deprecated in favor of custom RGtkDataFrame model
@@ -706,6 +774,21 @@ dimnames.GtkTreeModel <- function(x, ...)
 	list(x$getData("rownames"), x$getData("colnames"))
 }
 }
+
+# setting id's on GtkTreeIter's (for implementing new models)
+
+gtkTreeIterGetId <- function(iter)
+{
+  checkPtrType(iter, "GtkTreeIter")
+  .RGtkCall("S_gtk_tree_iter_get_id", iter)
+}
+gtkTreeIterSetId <- function(iter, id)
+{
+  checkPtrType(iter, "GtkTreeIter")
+  id <- as.integer(id)
+  .RGtkCall("S_gtk_tree_iter_set_id", iter, id)
+}
+
 # aliases for error domains
 GTK_ICON_THEME_ERROR <- gtkIconThemeErrorQuark
 GTK_FILE_CHOOSER_ERROR <- gtkFileChooserErrorQuark

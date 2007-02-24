@@ -7,16 +7,20 @@ function(x)
     x
 }
 
-# the first field ('pixel') is not always necessary
+# either 'pixel' or ('red', 'green', 'blue') must exist (may be combined) 
 as.GdkColor <-
 function(x)
 {
 	if (is.character(x))
 		return(gdkColorParse(x)$color)
-		
+	
+  if (length(x) == 1) # only one field, must be 'pixel'
+    fields <- "pixel"
+  else { # otherwise, must have 'rgb' and possibly 'pixel'
     fields <- c("red", "green", "blue")
-	if (length(x) > 3)
-		fields <- c("pixel", fields)
+    if (length(x) > 3)
+      fields <- c("pixel", fields)
+  }
 	
 	x <- as.struct(x, "GdkColor", fields)
     
@@ -130,22 +134,25 @@ as.GdkWindowAttr <-
 function(x)
 {
 	x <- as.struct(x, "GdkWindowAttr", c("title", "event.mask", "x", "y", "width", "height", "wclass",
-		"visual", "colormap", "window.type", "wmclass.name", "wmclass.class", "override.redirect"))
+		"visual", "colormap", "window.type", "cursor", "wmclass.name", "wmclass.class", "override.redirect"))
 	if (!is.null(x[[1]])) x[[1]] <- as.character(x[[1]])
 	x[[2]] <- as.integer(x[[2]])
-	x[[3]] <- as.integer(x[[3]])
-	x[[4]] <- as.integer(x[[4]])
+	if (!is.null(x[[3]]))
+    x[[3]] <- as.integer(x[[3]])
+	if (!is.null(x[[4]]))
+    x[[4]] <- as.integer(x[[4]])
 	x[[5]] <- as.integer(x[[5]])
 	x[[6]] <- as.integer(x[[6]])
 	# wclass
 	if (!is.null(x[[8]])) x[[8]] <- checkPtrType(x[[8]], "GdkVisual")
 	if (!is.null(x[[9]])) x[[9]] <- checkPtrType(x[[9]], "GdkColormap")
-	if (!is.null(x[[10]])) x[[10]] <- checkPtrType(x[[10]], "GdkCursor")
-	if (!is.null(x[[11]])) {
-		x[[11]] <- as.character(x[[11]])
+  # window.type
+	if (!is.null(x[[11]])) x[[11]] <- checkPtrType(x[[11]], "GdkCursor")
+	if (!is.null(x[[12]])) {
 		x[[12]] <- as.character(x[[12]])
+		x[[13]] <- as.character(x[[13]])
 	}
-	if (!is.null(x[[13]])) x[[13]] <- as.logical(x[[13]])
+	if (!is.null(x[[14]])) x[[14]] <- as.logical(x[[14]])
 	
 	return(x)
 }

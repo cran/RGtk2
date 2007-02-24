@@ -20,8 +20,9 @@
 \code{gtkFileFilter()}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----GtkFileFilter}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----GtkFileFilter}}
 \section{Detailed Description}{A GtkFileFilter can be used to restrict the files being shown
 in a \code{\link{GtkFileChooser}}. Files can be filtered based on their name
 (with \code{\link{gtkFileFilterAddPattern}}), on their mime type (with
@@ -54,9 +55,9 @@ to pass information about the tested file to
   are filled}
 \item{\code{filename}}{[character] the filename of the file being tested}
 \item{\code{uri}}{[character] the URI for the file being tested}
-\item{\code{display_name}}{[character] the string that will be used to display the file
+\item{\code{displayName}}{[character] the string that will be used to display the file
   in the file chooser}
-\item{\code{mime_type}}{[character] the mime type of the file}
+\item{\code{mimeType}}{[character] the mime type of the file}
 }
 
 }
@@ -84,6 +85,8 @@ see \code{\link{gtkFileFilterAddCustom}}.
   to the \code{needed} flags passed to \code{\link{gtkFileFilterAddCustom}}}
 \item{\code{data}}{[R object] user data passed to \code{\link{gtkFileFilterAddCustom}}}
 }
+
+\emph{Returns:} [logical] \code{TRUE} if the file should be displayed
 
 }}}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/gtk-gtkfilefilter.html}}

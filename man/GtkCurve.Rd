@@ -14,10 +14,11 @@
 \code{gtkCurve(show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkDrawingArea}
-                     +----GtkCurve}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkDrawingArea}
+                           +----GtkCurve}}
 \section{Interfaces}{GtkCurve implements
  AtkImplementorIface.}
 \section{Detailed Description}{\strong{PLEASE NOTE:}   
@@ -54,6 +55,7 @@ calling \code{\link{gtkCurveReset}} or \code{\link{gtkCurveSetGamma}}.
 \item{\code{curve}}{[\code{\link{GtkCurve}}] the object which received the signal.}
 \item{\code{user.data}}{[R object] user data set when the signal handler was connected.}
 }
+
 
 }}}
 \section{Properties}{\describe{

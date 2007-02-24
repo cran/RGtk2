@@ -9,18 +9,20 @@
 \code{\link{gtkMessageDialogNew}(parent = NULL, flags, type, buttons, ..., show = TRUE)}\cr
 \code{\link{gtkMessageDialogNewWithMarkup}(parent, flags, type, buttons, ..., show = TRUE)}\cr
 \code{\link{gtkMessageDialogSetMarkup}(object, str)}\cr
+\code{\link{gtkMessageDialogSetImage}(object, image)}\cr
 \code{\link{gtkMessageDialogFormatSecondaryText}(object, ...)}\cr
 \code{\link{gtkMessageDialogFormatSecondaryMarkup}(object, ...)}\cr
 \code{gtkMessageDialog(parent, flags, type, buttons, ..., show = TRUE)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
-   +----\link{GtkObject}
-         +----\link{GtkWidget}
-               +----\link{GtkContainer}
-                     +----\link{GtkBin}
-                           +----\link{GtkWindow}
-                                 +----\link{GtkDialog}
-                                       +----GtkMessageDialog}}
+   +----GInitiallyUnowned
+         +----\link{GtkObject}
+               +----\link{GtkWidget}
+                     +----\link{GtkContainer}
+                           +----\link{GtkBin}
+                                 +----\link{GtkWindow}
+                                       +----\link{GtkDialog}
+                                             +----GtkMessageDialog}}
 \section{Interfaces}{GtkMessageDialog implements
  AtkImplementorIface.}
 \section{Detailed Description}{\code{\link{GtkMessageDialog}} presents a dialog with an image representing the type of 
@@ -52,7 +54,8 @@ dialog <- gtkMessageDialog(main_application_window, "destroy-with-parent",
  gSignalConnect(dialog, "response", gtkWidgetDestroy)
 }}
 \section{Structures}{\describe{\item{\code{GtkMessageDialog}}{
-
+\emph{undocumented
+}
 
 \describe{
 \item{\code{image}}{[\code{\link{GtkWidget}}] }
@@ -95,9 +98,51 @@ then call \code{\link{gtkDialogAddButtons}}.
 The buttons shown in the message dialog.  Default value: GTK\_BUTTONS\_NONE
 
 }
+\item{\code{image} [\code{\link{GtkWidget}} : Read / Write]}{
+
+The image for this dialog.  
+
+  Since  2.10
+
+}
 \item{\code{message-type} [\code{\link{GtkMessageType}} : Read / Write / Construct]}{
 
-The type of message.  Default value: GTK\_MESSAGE\_INFO
+The type of the message. The type is used to determine
+the image that is shown in the dialog, unless the image is 
+explicitly set by the ::image property.  
+
+  Default value: GTK\_MESSAGE\_INFO
+
+}
+\item{\code{secondary-text} [character : Read / Write]}{
+
+The secondary text of the message dialog.  
+
+  Default value: NULL  Since  2.10
+
+}
+\item{\code{secondary-use-markup} [logical : Read / Write]}{
+
+\code{TRUE} if the secondary text of the dialog includes Pango markup. 
+See \code{\link{pangoParseMarkup}}.  
+
+  Default value: FALSE  Since  2.10
+
+}
+\item{\code{text} [character : Read / Write]}{
+
+The primary text of the message dialog. If the dialog has 
+a secondary text, this will appear as the title.  
+
+  Default value: NULL  Since  2.10
+
+}
+\item{\code{use-markup} [logical : Read / Write]}{
+
+\code{TRUE} if the primary text of the dialog includes Pango markup. 
+See \code{\link{pangoParseMarkup}}.  
+
+  Default value: FALSE  Since  2.10
 
 }
 }}
@@ -109,7 +154,10 @@ Width of border around the label and image in the message dialog.  Allowed value
 }
 \item{\code{use-separator} [logical : Read]}{
 
-Whether to put a separator between the message dialog's text and the buttons.  Default value: FALSE
+Whether to draw a separator line between the message label and the buttons
+in the dialog.  
+
+  Default value: FALSE  Since  2.4
 
 }
 }}

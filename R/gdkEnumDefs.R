@@ -1,4 +1,82 @@
-GdkCursorType<-c("gdk-cursor-is-pixmap" = 0)
+GdkCursorType<-c("x_cursor" = 0,
+	"arrow" = 2,
+	"based_arrow_down" = 4,
+	"based_arrow_up" = 6,
+	"boat" = 8,
+	"bogosity" = 10,
+	"bottom_left_corner" = 12,
+	"bottom_right_corner" = 14,
+	"bottom_side" = 16,
+	"bottom_tee" = 18,
+	"box_spiral" = 20,
+	"center_ptr" = 22,
+	"circle" = 24,
+	"clock	" = 26,
+	"coffee_mug" = 28,
+	"cross" = 30,
+	"cross_reverse" = 32,
+	"crosshair" = 34,
+	"diamond_cross" = 36,
+	"dot" = 38,
+	"dotbox" = 40,
+	"double_arrow" = 42,
+	"draft_large" = 44,
+	"draft_small" = 46,
+	"draped_box" = 48,
+	"exchange" = 50,
+	"fleur" = 52,
+	"gobbler" = 54,
+	"gumby" = 56,
+	"hand1" = 58,
+	"hand2" = 60,
+	"heart" = 62,
+	"icon" = 64,
+	"iron_cross" = 66,
+	"left_ptr" = 68,
+	"left_side" = 70,
+	"left_tee" = 72,
+	"leftbutton" = 74,
+	"ll_angle" = 76,
+	"lr_angle" = 78,
+	"man" = 80,
+	"middlebutton" = 82,
+	"mouse" = 84,
+	"pencil" = 86,
+	"pirate" = 88,
+	"plus" = 90,
+	"question_arrow" = 92,
+	"right_ptr" = 94,
+	"right_side" = 96,
+	"right_tee" = 98,
+	"rightbutton" = 100,
+	"rtl_logo" = 102,
+	"sailboat" = 104,
+	"sb_down_arrow" = 106,
+	"sb_h_double_arrow" = 108,
+	"sb_left_arrow" = 110,
+	"sb_right_arrow" = 112,
+	"sb_up_arrow" = 114,
+	"sb_v_double_arrow" = 116,
+	"shuttle" = 118,
+	"sizing" = 120,
+	"spider		" = 122,
+	"spraycan" = 124,
+	"star" = 126,
+	"target" = 128,
+	"tcross" = 130,
+	"top_left_arrow" = 132,
+	"top_left_corner" = 134,
+	"top_right_corner" = 136,
+	"top_side" = 138,
+	"top_tee" = 140,
+	"trek" = 142,
+	"ul_angle" = 144,
+	"umbrella" = 146,
+	"ur_angle" = 148,
+	"watch" = 150,
+	"xterm" = 152,
+	"last-cursor" = 153,
+	"gdk-cursor-is-pixmap" = -1)
 storage.mode(GdkCursorType) <- 'integer'
 class(GdkCursorType) <- 'enums' 
 
@@ -325,32 +403,32 @@ GdkDragAction<-c("default" = 1,
 	"private" = 16,
 	"ask" = 32)
 storage.mode(GdkDragAction) <- 'numeric'
-class(GdkDragAction) <- 'enums' 
+class(GdkDragAction) <- 'flags' 
 
-GdkEventMask<-c("exposure-mask" = 1,
-	"pointer-motion-mask" = 2,
-	"pointer-motion-hint-mask" = 4,
-	"button-motion-mask" = 8,
-	"button1-motion-mask" = 16,
-	"button2-motion-mask" = 32,
-	"button3-motion-mask" = 64,
-	"button-press-mask" = 128,
-	"button-release-mask" = 256,
-	"key-press-mask" = 512,
-	"key-release-mask" = 1024,
-	"enter-notify-mask" = 2048,
-	"leave-notify-mask" = 4096,
-	"focus-change-mask" = 8192,
-	"structure-mask" = 16384,
-	"property-change-mask" = 32768,
-	"visibility-notify-mask" = 65536,
-	"proximity-in-mask" = 131072,
-	"proximity-out-mask" = 262144,
-	"substructure-mask" = 524288,
-	"scroll-mask" = 1048576,
-	"all-events-mask" = 2097152)
+GdkEventMask<-c("exposure-mask" = 2,
+	"pointer-motion-mask" = 4,
+	"pointer-motion-hint-mask" = 8,
+	"button-motion-mask" = 16,
+	"button1-motion-mask" = 32,
+	"button2-motion-mask" = 64,
+	"button3-motion-mask" = 128,
+	"button-press-mask" = 256,
+	"button-release-mask" = 512,
+	"key-press-mask" = 1024,
+	"key-release-mask" = 2048,
+	"enter-notify-mask" = 4086,
+	"leave-notify-mask" = 8192,
+	"focus-change-mask" = 16384,
+	"structure-mask" = 32768,
+	"property-change-mask" = 65536,
+	"visibility-notify-mask" = 131072,
+	"proximity-in-mask" = 262144,
+	"proximity-out-mask" = 524288,
+	"substructure-mask" = 1048576,
+	"scroll-mask" = 2097152,
+	"all-events-mask" = 4194302)
 storage.mode(GdkEventMask) <- 'numeric'
-class(GdkEventMask) <- 'enums' 
+class(GdkEventMask) <- 'flags' 
 
 GdkWindowState<-c("withdrawn" = 1,
 	"iconified" = 2,
@@ -360,7 +438,7 @@ GdkWindowState<-c("withdrawn" = 1,
 	"above" = 32,
 	"below" = 64)
 storage.mode(GdkWindowState) <- 'numeric'
-class(GdkWindowState) <- 'enums' 
+class(GdkWindowState) <- 'flags' 
 
 GdkModifierType<-c("shift-mask" = 1,
 	"lock-mask" = 2,
@@ -378,7 +456,7 @@ GdkModifierType<-c("shift-mask" = 1,
 	"release-mask" = 8192,
 	"modifier-mask" = 16384)
 storage.mode(GdkModifierType) <- 'numeric'
-class(GdkModifierType) <- 'enums' 
+class(GdkModifierType) <- 'flags' 
 
 GdkWindowAttributesType<-c("title" = 1,
 	"x" = 2,
@@ -389,7 +467,7 @@ GdkWindowAttributesType<-c("title" = 1,
 	"wmclass" = 64,
 	"noredir" = 128)
 storage.mode(GdkWindowAttributesType) <- 'numeric'
-class(GdkWindowAttributesType) <- 'enums' 
+class(GdkWindowAttributesType) <- 'flags' 
 
 GdkWindowHints<-c("pos" = 1,
 	"min-size" = 2,
@@ -401,7 +479,7 @@ GdkWindowHints<-c("pos" = 1,
 	"user-pos" = 128,
 	"user-size" = 256)
 storage.mode(GdkWindowHints) <- 'numeric'
-class(GdkWindowHints) <- 'enums' 
+class(GdkWindowHints) <- 'flags' 
 
 GdkWMDecoration<-c("all" = 1,
 	"border" = 2,
@@ -411,7 +489,7 @@ GdkWMDecoration<-c("all" = 1,
 	"minimize" = 32,
 	"maximize" = 64)
 storage.mode(GdkWMDecoration) <- 'numeric'
-class(GdkWMDecoration) <- 'enums' 
+class(GdkWMDecoration) <- 'flags' 
 
 GdkWMFunction<-c("all" = 1,
 	"resize" = 2,
@@ -420,5 +498,5 @@ GdkWMFunction<-c("all" = 1,
 	"maximize" = 16,
 	"close" = 32)
 storage.mode(GdkWMFunction) <- 'numeric'
-class(GdkWMFunction) <- 'enums' 
+class(GdkWMFunction) <- 'flags' 
 
