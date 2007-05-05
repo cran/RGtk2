@@ -318,8 +318,20 @@ GType
 s_g_object_get_type(void)
 {
   static GType object_type = 0;
-  if (!object_type)
-    object_type = g_type_register_static_simple(G_TYPE_INTERFACE, "SGObject", 
-      sizeof(SGObjectIface), NULL, 0, NULL, 0);
+  if (!object_type) {
+    GTypeInfo info = {
+      sizeof(SGObjectIface),
+      NULL,
+      NULL,
+      NULL,
+      NULL,
+      NULL,
+      0,
+      0,
+      NULL,
+      NULL
+    };
+    object_type = g_type_register_static(G_TYPE_INTERFACE, "SGObject", &info, 0);
+  }
   return object_type;
 }

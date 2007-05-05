@@ -3428,29 +3428,6 @@ S_cairo_get_dash_count(USER_OBJECT_ s_cr)
 
   return(_result);
 }
- 
-
-USER_OBJECT_
-S_cairo_get_dash(USER_OBJECT_ s_cr, USER_OBJECT_ s_dashes)
-{
-  USER_OBJECT_ _result = NULL_USER_OBJECT;
-#if CAIRO_CHECK_VERSION(1, 4, 0)
-  cairo_t* cr = ((cairo_t*)getPtrValue(s_cr));
-  double* dashes = ((double*)asCArray(s_dashes, double, asCNumeric));
-
-  double offset;
-
-  cairo_get_dash(cr, dashes, &offset);
-
-
-  _result = retByVal(_result, "offset", asRNumeric(offset), NULL);
-#else
-  error("cairo_get_dash exists only in cairo >= 1.4.0");
-#endif
-
-  return(_result);
-}
- 
 
 USER_OBJECT_
 S_cairo_pattern_get_rgba(USER_OBJECT_ s_pattern)
