@@ -1174,7 +1174,9 @@ R_GClosureMarshal(GClosure *closure, GValue *return_value, guint n_param_values,
 
     val = R_tryEval(e, envir, &errorOccurred);
 
-    if(errorOccurred || !return_value || G_VALUE_TYPE(return_value) == G_TYPE_NONE) {
+    if(errorOccurred || !return_value || G_VALUE_TYPE(return_value) == G_TYPE_NONE ||
+       G_VALUE_TYPE(return_value) == G_TYPE_INVALID) 
+    {
         UNPROTECT(numProtects);
         return;
     }

@@ -50,19 +50,23 @@ function(parent, flags, type, buttons, ..., show = TRUE)
 gtkDialogNewWithButtons <-
 function(title = NULL, parent = NULL, flags = 0, ..., show = TRUE)
 {
-        title <- as.character(title)
-        checkPtrType(parent, "GtkWindow", nullOk = TRUE)
+    title <- as.character(title)
+    checkPtrType(parent, "GtkWindow", nullOk = TRUE)
 		
 		args <- list(...)
-		labels <- as.character(args[seq(1,length(args),by=2)])
-		responses <- args[seq(2,length(args),by=2)]
+    args <- args[!is.null(args)]
+    if (length(args) %% 2 != 0)
+      stop("Must have one stock ID for every response type")
+    args_split <- split(args, rep(c(1,2), length(args) / 2))
+		labels <- as.character(args_split[[1]])
+		responses <- as.integer(args_split[[2]])
 		
-        w <- .RGtkCall("S_gtk_dialog_new_with_buttons", title, parent, flags, labels, responses)
+    w <- .RGtkCall("S_gtk_dialog_new_with_buttons", title, parent, flags, labels, responses)
 
-        if(show)
-                gtkWidgetShowAll(w)
-
-        return(w)
+    if(show)
+      gtkWidgetShowAll(w)
+    
+    return(w)
 }
 gtkDialogAddButtons <-
 function(object, ...)

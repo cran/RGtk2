@@ -515,6 +515,9 @@ S_gtk_show_about_dialog(USER_OBJECT_ s_parent, USER_OBJECT_ s_props)
 
         g_signal_connect (dialog, "delete_event", G_CALLBACK (gtk_widget_hide_on_delete), NULL);
 
+        /* Close dialog on user response */
+        g_signal_connect (dialog, "response", G_CALLBACK (gtk_widget_hide), NULL);
+        
         PROTECT(s_dialog = toRPointer(dialog, "GtkAboutDialog"));
         R_setGObjectProps (s_dialog, s_props);
         UNPROTECT(1);
