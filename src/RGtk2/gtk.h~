@@ -13,6 +13,8 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gtk/gtk.h>
 
+#define GDK_CHECK_VERSION GTK_CHECK_VERSION
+
 #include <RGtk2/gdkClasses.h>
 #include <RGtk2/gdkUserFuncs.h>
 #include <RGtk2/gtkClasses.h>
@@ -59,7 +61,6 @@ USER_OBJECT_ toRGdkFont(GdkFont *font);
 GdkTrapezoid * asCGdkTrapezoid(USER_OBJECT_ s_trapezoid);
 USER_OBJECT_ asRGdkTrapezoid(GdkTrapezoid * obj);
 USER_OBJECT_ asRGdkGCValues(GdkGCValues *values);
-USER_OBJECT_ asRGdkEvent(GdkEvent *event);
 GdkSpan* asCGdkSpan(USER_OBJECT_ s_span);
 USER_OBJECT_ asRGdkSpan(GdkSpan * obj);
 

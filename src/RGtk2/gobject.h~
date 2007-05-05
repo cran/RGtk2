@@ -278,7 +278,7 @@ __extension__ \
 #define asCArrayRef(s, type, converter) \
 __extension__ \
 ({ \
-    asCArray(s, type, * converter); \
+    asCArray(s, type, * (type *)converter); \
 })
 #define asCArray(s_array, type, converter) \
 __extension__ \
@@ -329,6 +329,7 @@ gchar asCCharacter(USER_OBJECT_ s_char);
 #define asRInteger ScalarInteger
 #define asRNumeric ScalarReal
 #define asRRaw ScalarRaw
+USER_OBJECT_ asRUnsigned(guint num);
 
 USER_OBJECT_ asRCharacter(gchar c);
 USER_OBJECT_ asRString(const gchar *str);
