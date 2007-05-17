@@ -34,15 +34,18 @@ r_gtk_sexp_get_type (void)
   return our_type;
 }
 
-void
+Rboolean
 R_gtkInit(long *rargc, char **rargv)
 {
     int argc;
 
     argc = (int) *rargc;
 
-    gtk_disable_setlocale();
-    gtk_init_check(&argc, &rargv);
+    if (!gdk_display_get_default()) {
+      gtk_disable_setlocale();
+      if (!gtk_init_check(&argc, &rargv))
+        return FALSE;
+    }
 
 #ifndef G_OS_WIN32
     {
@@ -55,4 +58,6 @@ R_gtkInit(long *rargc, char **rargv)
 #endif
 
   r_gtk_sexp_get_type();
+  
+  return TRUE;
 }
