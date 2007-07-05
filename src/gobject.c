@@ -447,8 +447,9 @@ static gboolean
 param_sexp_validate(GParamSpec *pspec, GValue *value)
 {
   USER_OBJECT_ sexp = g_value_get_boxed(value);
+  SEXPTYPE type = ((RGtkParamSpecSexp *)pspec)->s_type;
   /* FIXME: Do we want to allow NULL here? */
-  if (!sexp || (/*sexp != NULL_USER_OBJECT && */TYPEOF(sexp) != ((RGtkParamSpecSexp *)pspec)->s_type)) {
+  if (!sexp || (/*sexp != NULL_USER_OBJECT && */TYPEOF(sexp) != type && type != ANYSXP)) {
     g_value_set_boxed(value, ((RGtkParamSpecSexp *)pspec)->default_value);
     return TRUE;
   }
@@ -633,9 +634,11 @@ asCGParamSpec(USER_OBJECT_ s_spec)
     else if (type == G_TYPE_PARAM_VALUE_ARRAY) {
       spec = g_param_spec_value_array(name, nick, blurb, asCGParamSpec(VECTOR_ELT(s_spec, 4)), flags);
     }
+    #if GLIB_CHECK_VERSION(2,10,0)
     else if (type == G_TYPE_PARAM_GTYPE) {
       spec = g_param_spec_gtype(name, nick, blurb, asCNumeric(VECTOR_ELT(s_spec, 4)), flags);
     }
+    #endif
     else if (type == R_GTK_TYPE_PARAM_SEXP) {
       USER_OBJECT_ default_value = VECTOR_ELT(s_spec, 5);
       R_PreserveObject(default_value);
@@ -815,12 +818,14 @@ asRGParamSpec(GParamSpec* spec)
       SET_STRING_ELT(s_names, 4, COPY_TO_USER_STRING("elementSpec"));
       SET_VECTOR_ELT(s_spec, 4, asRGParamSpec(G_PARAM_SPEC_VALUE_ARRAY(spec)->element_spec));
     }
+    #if GLIB_CHECK_VERSION(2,10,0)
     else if (type == G_TYPE_PARAM_GTYPE) {
       PROTECT(s_spec = NEW_LIST(5));
       PROTECT(s_names = NEW_CHARACTER(5));
       SET_STRING_ELT(s_names, 4, COPY_TO_USER_STRING("isAType"));
       SET_VECTOR_ELT(s_spec, 4, asRGType(G_PARAM_SPEC_GTYPE(spec)->is_a_type));
     }
+    #endif
     else if (type == R_GTK_TYPE_PARAM_SEXP) {
       PROTECT(s_spec = NEW_LIST(6));
       PROTECT(s_names = NEW_CHARACTER(6));
@@ -1644,7 +1649,7 @@ void R_g_initially_unowned_finalizer(USER_OBJECT_ extptr) {
 	}
 }
 
-/* All GInitiallyUnknown need to be sunk, because otherwise memory would leak if
+/* All GInitiallyUnowned need to be sunk, because otherwise memory would leak if
    it got "lost" before being added to a parent. By sinking it, we own it,
    so we have to add the first non-floating reference and then register it
    for finalization. We also need to connect to the "destroy" signal in case
@@ -1656,13 +1661,18 @@ void R_g_initially_unowned_finalizer(USER_OBJECT_ extptr) {
 */
 USER_OBJECT_
 toRPointerWithSink(void *val, const char *type) {
-	USER_OBJECT_ s_val;
-	if (val)
+	USER_OBJECT_ s_val = toRPointer(val, type);
+	if (val) {
+    #if GLIB_CHECK_VERSION(2,10,0)
 		g_object_ref_sink(G_INITIALLY_UNOWNED(val));
-	s_val = toRPointer(val, type);
+    #else
+    g_object_ref(G_OBJECT(val));
+    gtk_object_sink(GTK_OBJECT(val));
+    #endif
+    g_signal_connect(G_OBJECT(val), "destroy", 
+      G_CALLBACK(R_g_initially_unowned_destroyed), s_val);
+  }
 	R_RegisterCFinalizer(s_val, R_g_initially_unowned_finalizer);
-	g_signal_connect(G_OBJECT(val), "destroy", 
-    G_CALLBACK(R_g_initially_unowned_destroyed), s_val);
 	return(s_val);
 }
 

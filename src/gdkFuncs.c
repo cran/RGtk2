@@ -1487,18 +1487,20 @@ S_gdk_drag_find_window(USER_OBJECT_ s_object, USER_OBJECT_ s_drag_window, USER_O
  
 
 USER_OBJECT_
-S_gdk_drag_get_protocol_for_display(USER_OBJECT_ s_display, USER_OBJECT_ s_xid, USER_OBJECT_ s_protocol)
+S_gdk_drag_get_protocol_for_display(USER_OBJECT_ s_display, USER_OBJECT_ s_xid)
 {
   USER_OBJECT_ _result = NULL_USER_OBJECT;
   GdkDisplay* display = GDK_DISPLAY_OBJECT(getPtrValue(s_display));
   guint32 xid = ((guint32)asCNumeric(s_xid));
-  GdkDragProtocol* protocol = ((GdkDragProtocol*)asCEnum(s_protocol, GDK_TYPE_DRAG_PROTOCOL));
 
   guint32 ans;
+  GdkDragProtocol protocol;
 
-  ans = gdk_drag_get_protocol_for_display(display, xid, protocol);
+  ans = gdk_drag_get_protocol_for_display(display, xid, &protocol);
 
   _result = asRNumeric(ans);
+
+  _result = retByVal(_result, "protocol", asREnum(protocol, GDK_TYPE_DRAG_PROTOCOL), NULL);
 
   return(_result);
 }
@@ -2399,17 +2401,19 @@ S_gdk_event_get_time(USER_OBJECT_ s_object)
  
 
 USER_OBJECT_
-S_gdk_event_get_state(USER_OBJECT_ s_object, USER_OBJECT_ s_state)
+S_gdk_event_get_state(USER_OBJECT_ s_object)
 {
   USER_OBJECT_ _result = NULL_USER_OBJECT;
   GdkEvent* object = ((GdkEvent*)getPtrValue(s_object));
-  GdkModifierType* state = ((GdkModifierType*)asCFlag(s_state, GDK_TYPE_MODIFIER_TYPE));
 
   gboolean ans;
+  GdkModifierType state;
 
-  ans = gdk_event_get_state(object, state);
+  ans = gdk_event_get_state(object, &state);
 
   _result = asRLogical(ans);
+
+  _result = retByVal(_result, "state", asRFlag(state, GDK_TYPE_MODIFIER_TYPE), NULL);
 
   return(_result);
 }

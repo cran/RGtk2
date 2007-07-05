@@ -7,6 +7,11 @@
 #include <glib.h>
 #include <glib-object.h>
 
+#if !GLIB_CHECK_VERSION(2,10,0)
+#define G_TYPE_INITIALLY_UNOWNED GTK_TYPE_OBJECT
+#define GInitiallyUnowned GtkObject
+#endif
+
 typedef void (*RPointerFinalizer)(void *ptr);
 typedef void* (*ElementConverter)(void *element);
 
@@ -408,7 +413,7 @@ GType r_gtk_param_spec_sexp_get_type(void);
 
 typedef struct _RGtkParamSpecSexp {
   GParamSpec parent_instance;
-  guint s_type;
+  SEXPTYPE s_type;
   USER_OBJECT_ default_value;
 } RGtkParamSpecSexp;
 

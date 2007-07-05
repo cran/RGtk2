@@ -1951,12 +1951,12 @@ S_atk_state_set_contains_state(USER_OBJECT_ s_object, USER_OBJECT_ s_type)
  
 
 USER_OBJECT_
-S_atk_state_set_contains_states(USER_OBJECT_ s_object, USER_OBJECT_ s_types, USER_OBJECT_ s_n_types)
+S_atk_state_set_contains_states(USER_OBJECT_ s_object, USER_OBJECT_ s_types)
 {
   USER_OBJECT_ _result = NULL_USER_OBJECT;
   AtkStateSet* object = ATK_STATE_SET(getPtrValue(s_object));
-  AtkStateType* types = ((AtkStateType*)asCEnum(s_types, ATK_TYPE_STATE_TYPE));
-  gint n_types = ((gint)asCInteger(s_n_types));
+  AtkStateType* types = ((AtkStateType*)asCEnumArray(s_types, AtkStateType, ATK_TYPE_STATE_TYPE));
+  gint n_types = ((gint)GET_LENGTH(s_types));
 
   gboolean ans;
 

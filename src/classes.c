@@ -241,7 +241,8 @@ static void S_g_object_init(SGObjectIface *iface, gpointer data)
 USER_OBJECT_
 S_gobject_class_new(USER_OBJECT_ s_name, USER_OBJECT_ s_parent, USER_OBJECT_ s_interfaces, 
   USER_OBJECT_ s_class_init_sym, USER_OBJECT_ s_interface_init_syms, USER_OBJECT_ s_def,
-  USER_OBJECT_ s_props, USER_OBJECT_ s_prop_overrides, USER_OBJECT_ s_signals)
+  USER_OBJECT_ s_props, USER_OBJECT_ s_prop_overrides, USER_OBJECT_ s_signals, 
+  USER_OBJECT_ s_abstract)
 {
   GTypeQuery query;
   GTypeInfo type_info = {0, };
@@ -249,6 +250,7 @@ S_gobject_class_new(USER_OBJECT_ s_name, USER_OBJECT_ s_parent, USER_OBJECT_ s_i
   GType new_type, parent_type = g_type_from_name(asCString(s_parent));
   GObjectClass *c;
   gint i, j;
+  gboolean abstract = asCLogical(s_abstract);
   
   if (!_S_InstanceInit_symbol) { /* initialize globals */
     _S_InstanceInit_symbol = install(".initialize");
@@ -268,7 +270,8 @@ S_gobject_class_new(USER_OBJECT_ s_name, USER_OBJECT_ s_parent, USER_OBJECT_ s_i
   type_info.instance_size = query.instance_size + sizeof(SEXP);
   type_info.instance_init = (GInstanceInitFunc)S_gobject_instance_init;
   
-  new_type = g_type_register_static(parent_type, asCString(s_name), &type_info, 0);
+  new_type = g_type_register_static(parent_type, asCString(s_name), &type_info,
+    abstract ? G_TYPE_FLAG_ABSTRACT : 0);
   
   /* add interfaces */
   
