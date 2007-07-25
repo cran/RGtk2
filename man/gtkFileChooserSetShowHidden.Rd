@@ -8,6 +8,5 @@
 \item{\code{show.hidden}}{[logical]  \code{TRUE} if hidden files and folders should be displayed.}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}.}
 \item{\code{enable}}{[logical]  set to \code{FALSE} to disable the tooltips, or \code{TRUE} to enable them.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

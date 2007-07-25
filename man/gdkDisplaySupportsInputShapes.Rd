@@ -7,6 +7,5 @@ be used to modify the input shape of windows on \code{display}.}
 \arguments{\item{\code{object}}{[\code{\link{GdkDisplay}}]  a \code{\link{GdkDisplay}}}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if windows with modified input shape are supported }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

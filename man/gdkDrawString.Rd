@@ -14,6 +14,5 @@ Draws a string of characters in the given font or fontset.
 \item{\code{y}}{[integer]  the y coordinate of the baseline of the text.}
 \item{\code{string}}{[character]   the string of characters to draw.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

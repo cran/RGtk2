@@ -43,6 +43,5 @@ the stack, and pops the stack. All drawing operations affect only
 the topmost backing store in the stack. One matching call to
 \code{\link{gdkWindowEndPaint}} is required for each call to
 \code{\link{gdkWindowBeginPaintRegion}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,6 +14,5 @@ ATK\_ATTRIBUTE functions may also be set for certain text widgets.}
 }
 \value{[logical]  \code{TRUE} if attributes successfully set for the specified
 range, otherwise \code{FALSE}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

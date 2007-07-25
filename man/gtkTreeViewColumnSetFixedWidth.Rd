@@ -11,6 +11,5 @@ the actual size when displayed.}
 \item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}.}
 \item{\code{fixed.width}}{[integer]  The size to set \code{tree.column} to. Must be greater than 0.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

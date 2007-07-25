@@ -17,6 +17,5 @@ is set to expand or not (see \code{gtkPreviewExpand()})
 \item{\code{width}}{[integer] the new width.}
 \item{\code{height}}{[integer] the new height.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

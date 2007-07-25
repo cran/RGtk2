@@ -11,6 +11,5 @@ not incremented.}
 \usage{gtkIconSourceGetPixbuf(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconSource}}]  a \code{\link{GtkIconSource}}}}
 \value{[\code{\link{GdkPixbuf}}]  source pixbuf}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

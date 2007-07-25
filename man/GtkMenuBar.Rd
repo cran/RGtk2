@@ -73,7 +73,6 @@ Style of bevel around the menubar.  Default value: GTK\_SHADOW\_OUT
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkMenuBar.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

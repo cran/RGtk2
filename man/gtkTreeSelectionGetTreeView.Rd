@@ -5,6 +5,5 @@
 \usage{gtkTreeSelectionGetTreeView(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeSelection}}]  A \code{\link{GtkTreeSelection}}}}
 \value{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ render to any colormap and visual. So there's no need to call this
 function.}
 \usage{gdkRgbGetColormap()}
 \value{[\code{\link{GdkColormap}}]  the preferred colormap}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

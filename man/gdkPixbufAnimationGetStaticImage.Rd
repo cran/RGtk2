@@ -10,6 +10,5 @@ function will return \code{NULL}.}
 \usage{gdkPixbufAnimationGetStaticImage(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbufAnimation}}]  a \code{\link{GdkPixbufAnimation}}}}
 \value{[\code{\link{GdkPixbuf}}]  unanimated image representing the animation}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

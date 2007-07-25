@@ -17,6 +17,5 @@ in the \code{pixel} field,
 and the new value in the remaining fields.}
 }
 \value{[integer]  \code{TRUE} if the color was successfully changed.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

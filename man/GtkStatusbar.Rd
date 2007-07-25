@@ -96,7 +96,6 @@ Whether the statusbar has a grip for resizing the toplevel window.
 Style of bevel around the statusbar text.  Default value: GTK\_SHADOW\_IN
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkStatusbar.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

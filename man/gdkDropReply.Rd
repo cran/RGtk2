@@ -10,6 +10,5 @@
 }
 \details{This function is called by the drag destination in response
 to a drop initiated by the drag source.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

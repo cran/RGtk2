@@ -11,6 +11,5 @@ Sets whether the specified row is selectable or not.
 \item{\code{row}}{[integer] The row to affect.}
 \item{\code{selectable}}{[logical] \code{TRUE} or \code{FALSE}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -16,6 +16,5 @@ thus dropping any reference to the old modifier style. Add a reference
 to the modifier style if you want to keep it alive.  }
 \value{[\code{\link{GtkRcStyle}}]  the modifier style for the widget. If you want to keep a pointer to value this
   around.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

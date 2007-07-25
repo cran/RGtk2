@@ -19,6 +19,5 @@ since \code{\link{GtkAboutDialog}} will detect if "translator-credits" is untran
 and hide the tab.  
 
   Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

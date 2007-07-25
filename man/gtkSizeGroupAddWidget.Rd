@@ -13,6 +13,5 @@ depends on the mode of the size group. See \code{\link{gtkSizeGroupSetMode}}.}
 }
 \details{When the widget is destroyed or no longer referenced elsewhere, it will 
 be removed from the size group.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

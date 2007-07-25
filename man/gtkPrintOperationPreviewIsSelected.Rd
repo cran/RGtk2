@@ -10,6 +10,5 @@ have been selected for printing.}
 }
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the page has been selected for printing}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

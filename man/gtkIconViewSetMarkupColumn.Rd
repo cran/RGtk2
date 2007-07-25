@@ -11,6 +11,5 @@ the text column set by \code{\link{gtkIconViewSetTextColumn}}.}
 \item{\code{column}}{[integer]  A column in the currently used model, or -1 to display no text}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

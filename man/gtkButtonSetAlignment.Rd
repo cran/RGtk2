@@ -12,6 +12,5 @@ the child is a \code{\link{GtkMisc}} or a \code{GtkAligment}.}
   1.0 is bottom aligned}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

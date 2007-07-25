@@ -15,6 +15,5 @@
 \item{\code{y}}{[integer] }
 \item{\code{layout}}{[\code{\link{PangoLayout}}] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

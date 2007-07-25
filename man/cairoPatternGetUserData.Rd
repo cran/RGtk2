@@ -12,6 +12,5 @@ attached to}
 }
 \details{  Since  1.4}
 \value{[R object]  the user data previously attached or \code{NULL}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

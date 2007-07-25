@@ -11,6 +11,5 @@ column.}
 \item{\code{column}}{[integer]  column number to modify}
 \item{\code{value}}{[R object]  new value for the cell}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

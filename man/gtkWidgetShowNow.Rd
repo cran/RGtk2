@@ -8,6 +8,5 @@ because the main loop is running, anything can happen during
 this function.}
 \usage{gtkWidgetShowNow(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

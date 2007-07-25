@@ -10,6 +10,5 @@ is popped down again.
 \usage{gtkItemFactoryPopupData(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkItemFactory}}]  a \code{\link{GtkItemFactory}}}}
 \value{[R object]  \code{popup.data} associated with \code{ifactory}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

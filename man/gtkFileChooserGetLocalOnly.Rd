@@ -7,6 +7,5 @@ file selector. See \code{\link{gtkFileChooserSetLocalOnly}}}
 \arguments{\item{\code{object}}{[\code{\link{GtkFileChooser}}]  a \code{GtkFileChoosre}}}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if only local files can be selected.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

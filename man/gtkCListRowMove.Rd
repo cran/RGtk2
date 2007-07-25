@@ -12,6 +12,5 @@ list.
 \item{\code{source.row}}{[integer] The original position of the row to move.}
 \item{\code{dest.row}}{[integer] The position to which the row should be moved.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

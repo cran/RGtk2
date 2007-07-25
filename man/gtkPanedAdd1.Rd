@@ -9,6 +9,5 @@ to \code{gtk_paned_pack1 (paned, child, FALSE, TRUE)}.}
 \item{\code{object}}{[\code{\link{GtkPaned}}] a paned widget}
 \item{\code{child}}{[\code{\link{GtkWidget}}] the child to add}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

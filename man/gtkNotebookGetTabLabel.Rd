@@ -10,6 +10,5 @@ been set for \code{child}.}
 \item{\code{child}}{[\code{\link{GtkWidget}}]  the page}
 }
 \value{[\code{\link{GtkWidget}}]  the tab label}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

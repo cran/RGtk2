@@ -95,7 +95,6 @@ The resolution for fonts on the screen.  Default value: -1
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/GdkScreen.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

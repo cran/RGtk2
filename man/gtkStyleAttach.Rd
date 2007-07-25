@@ -18,6 +18,5 @@ in the following way:
   If the style is newly created, the style parameter
   will be unref'ed, and the new style will have
   a reference count belonging to the caller.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

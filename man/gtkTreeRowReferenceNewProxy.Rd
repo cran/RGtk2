@@ -27,6 +27,5 @@ This type of row reference is primarily meant by structures that need to
 carefully monitor exactly when a row reference updates itself, and is not
 generally needed by most applications.  }
 \value{[\code{\link{GtkTreeRowReference}}]  A newly allocated \code{\link{GtkTreeRowReference}}, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

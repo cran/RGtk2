@@ -8,6 +8,5 @@
 \item{\code{position}}{[integer]  pixel position of divider, a negative value means that the position
            is unset.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

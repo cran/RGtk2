@@ -9,6 +9,5 @@ For details, see the \code{:icons} property.}
 \item{\code{icons}}{[character]  a list of icon names}
 }
 \details{Since 2.12  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -21,6 +21,5 @@ A list containing the following elements:
 \item{retval}{[raw]  the serialized data, encoded as \code{format}}
 \item{\code{length}}{[numeric]  return location for the length of the serialized data}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

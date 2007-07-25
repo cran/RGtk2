@@ -18,6 +18,5 @@ label in the popup menu.}
 }
 \value{[integer]  the index (starting from 0) of the appended
 page in the notebook, or -1 if function fails}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

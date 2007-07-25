@@ -9,6 +9,5 @@
   return the property values, starting with the location for 
   \code{first.property.name}, terminated by \code{NULL}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

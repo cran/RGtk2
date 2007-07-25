@@ -9,6 +9,5 @@
 }
 \details{  Since  2.10}
 \value{[character]  the string value for \code{key}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

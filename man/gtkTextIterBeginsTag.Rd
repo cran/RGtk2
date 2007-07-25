@@ -13,6 +13,5 @@ that the \code{\link{gtkTextIterBeginsTag}} returns \code{TRUE} if \code{iter} i
 \item{\code{tag}}{[\code{\link{GtkTextTag}}]  a \code{\link{GtkTextTag}}, or \code{NULL}}
 }
 \value{[logical]  whether \code{iter} is the start of a range tagged with \code{tag}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

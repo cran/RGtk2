@@ -11,6 +11,5 @@ The way in which joins between lines are draw is determined by the
 \item{\code{gc}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}.}
 \item{\code{points}}{[\code{\link{GdkPoint}}]  a list of \code{\link{GdkPoint}} structures specifying the endpoints of the}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ if the child widget is revealed.}
 
   Since  2.4}
 \value{[logical]  the current state of the expander.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

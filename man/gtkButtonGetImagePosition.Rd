@@ -7,6 +7,5 @@ inside the button.}
 \arguments{\item{\code{object}}{[\code{\link{GtkButton}}]  a \code{\link{GtkButton}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkPositionType}}]  the position}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

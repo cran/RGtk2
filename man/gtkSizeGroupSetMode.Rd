@@ -12,6 +12,5 @@ or should all have the same requisition in both directions
 \item{\code{object}}{[\code{\link{GtkSizeGroup}}]  a \code{\link{GtkSizeGroup}}}
 \item{\code{mode}}{[\code{\link{GtkSizeGroupMode}}]  the mode to set for the size group.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

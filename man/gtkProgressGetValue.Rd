@@ -8,6 +8,5 @@ Returns the current progress complete value.
 \usage{gtkProgressGetValue(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkProgress}}] a \code{\link{GtkProgress}}.}}
 \value{[numeric] the current progress complete value.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

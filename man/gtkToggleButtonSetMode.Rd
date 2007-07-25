@@ -13,6 +13,5 @@ and label; if \code{FALSE}, draw the button like a normal button}
 \details{This function only affects instances of classes like \code{\link{GtkCheckButton}}
 and \code{\link{GtkRadioButton}} that derive from \code{\link{GtkToggleButton}},
 not instances of \code{\link{GtkToggleButton}} itself.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

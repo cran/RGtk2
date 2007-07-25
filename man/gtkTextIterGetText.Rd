@@ -12,6 +12,5 @@ byte offsets in the buffer. If you want offsets to correspond, see
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  iterator at end of a range}
 }
 \value{[character]  list of characters from the buffer}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

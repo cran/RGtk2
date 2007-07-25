@@ -11,6 +11,5 @@ Gets the currently set data for the specified row.
 \item{\code{row}}{[integer] The row to query.}
 }
 \value{[R object] The data set for the row.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

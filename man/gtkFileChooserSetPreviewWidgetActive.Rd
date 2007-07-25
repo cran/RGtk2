@@ -13,6 +13,5 @@ or it may display no preview at all. See
 \item{\code{active}}{[logical]  whether to display the user-specified preview widget}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

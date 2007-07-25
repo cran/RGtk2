@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}.}
 \item{\code{headers.visible}}{[logical]  \code{TRUE} if the headers are visible}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -69,7 +69,6 @@ The radio menu item whose group this widget belongs to.
   Since  2.8
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkRadioMenuItem.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

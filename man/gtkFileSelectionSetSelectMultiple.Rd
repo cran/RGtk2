@@ -12,6 +12,5 @@ Use \code{\link{gtkFileSelectionGetSelections}} to get the list of selected file
 \item{\code{select.multiple}}{[logical]  whether or not the user is allowed to select multiple
 files in the file list.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

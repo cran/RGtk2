@@ -9,6 +9,5 @@ last word of the list is a valid style option.}
 \usage{pangoFontDescriptionToString(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}}
 \value{[char] .}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

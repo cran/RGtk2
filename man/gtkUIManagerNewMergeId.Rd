@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkUIManager}}]  a \code{\link{GtkUIManager}}}}
 \details{  Since  2.4}
 \value{[numeric]  an unused merge id.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

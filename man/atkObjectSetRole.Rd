@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}
 \item{\code{role}}{[\code{\link{AtkRole}}]  an \code{\link{AtkRole}} to be set as the role}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

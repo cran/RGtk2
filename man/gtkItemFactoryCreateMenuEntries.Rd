@@ -7,6 +7,5 @@ Creates the menu items from the \code{entries}.
 }
 \usage{gtkItemFactoryCreateMenuEntries(entries)}
 \arguments{\item{\code{entries}}{[GtkMenuEntry]  a list of \code{GtkMenuEntry}s }}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,6 +18,5 @@ an error pattern in case of no memory.
 This function will always return a valid pointer, but if an error
 occurred the pattern status will be set to an error.  To inspect
 the status of a pattern use \code{\link{cairoPatternStatus}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

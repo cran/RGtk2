@@ -12,6 +12,5 @@ are displayed.
 \item{\code{func}}{[\code{\link{GtkTranslateFunc}}]  the \code{\link{GtkTranslateFunc}} function to be used to translate path elements }
 \item{\code{data}}{[R object]  data to pass to \code{func} and \code{notify}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

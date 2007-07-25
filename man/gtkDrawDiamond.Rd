@@ -17,6 +17,5 @@ parameters.
 \item{\code{width}}{[integer]  width of the rectangle to draw the diamond in}
 \item{\code{height}}{[integer]  height of the rectangle to draw the diamond in}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

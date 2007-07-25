@@ -10,6 +10,5 @@ A convenient way to sensitize/desensitize dialog buttons.}
 \item{\code{response.id}}{[integer]  a response ID}
 \item{\code{setting}}{[logical]  \code{TRUE} for sensitive}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

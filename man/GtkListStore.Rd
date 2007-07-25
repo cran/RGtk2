@@ -129,7 +129,6 @@ and common wisdom is to separate the two, as far as possible.
 
 }}}
 \section{Convenient Construction}{\code{gtkListStore} is the result of collapsing the constructors of \code{GtkListStore} (\code{\link{gtkListStoreNew}}, \code{\link{gtkListStoreNewv}}) and accepts a subset of its arguments matching the required arguments of one of its delegate constructors.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkListStore.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

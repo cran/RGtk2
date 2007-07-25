@@ -9,6 +9,5 @@ instead of this low-level function.}
 \item{\code{startup.id}}{[character]  a string with startup-notification identifier}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

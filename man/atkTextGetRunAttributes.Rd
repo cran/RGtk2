@@ -20,6 +20,5 @@ at \code{offset}.}
 \item{\code{start.offset}}{[integer]  the address to put the start offset of the range}
 \item{\code{end.offset}}{[integer]  the address to put the end offset of the range}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@ the display of the recently used resources.}
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentChooser}}]  a \code{\link{GtkRecentChooser}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkRecentFilter}}]  a \code{\link{GtkRecentFilter}} object.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

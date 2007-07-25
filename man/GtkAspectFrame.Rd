@@ -53,7 +53,6 @@ Y alignment of the child.  Allowed values: [0,1]  Default value: 0.5
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkAspectFrame.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

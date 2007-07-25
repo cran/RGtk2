@@ -6,6 +6,5 @@ See \code{gdkFixedSetHasWindow()}.}
 \usage{gtkFixedGetHasWindow(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkFixed}}]  a \code{\link{GtkWidget}}}}
 \value{[logical]  \code{TRUE} if \code{fixed} has its own window.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

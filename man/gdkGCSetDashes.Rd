@@ -15,6 +15,5 @@ be changed with \code{\link{gdkGCSetLineAttributes}}.)}
 \details{The \code{dash.offset} defines the phase of the pattern, 
 specifying how many pixels into the dash-list the pattern 
 should actually begin.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

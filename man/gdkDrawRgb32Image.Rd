@@ -19,6 +19,5 @@ blue byte, and a padding byte.}
 gains in practice. In my experience, the performance gain from having
 pixels aligned to 32-bit boundaries is cancelled out by the increased
 memory bandwidth.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,6 +6,5 @@ icon.}
 \usage{gtkDragSetIconDefault(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkDragContext}}]  the context for a drag. (This must be called 
              with a  context for the source side of a drag)}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

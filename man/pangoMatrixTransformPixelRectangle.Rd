@@ -18,6 +18,5 @@ original rectangle in Pango units and convert to pixels afterward
 using \code{\link{pangoExtentsToPixels}} as \code{ink.rect}.  
 
   Since  1.16}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

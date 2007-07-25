@@ -16,6 +16,5 @@ A list containing the following elements:
 \item{\code{x2}}{[numeric]  right of the resulting extents}
 \item{\code{y2}}{[numeric]  bottom of the resulting extents}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

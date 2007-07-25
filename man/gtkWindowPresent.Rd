@@ -18,6 +18,5 @@ where the user can see it.
   
 If you are calling this function in response to a user interaction,
 it is preferable to use \code{\link{gtkWindowPresentWithTime}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

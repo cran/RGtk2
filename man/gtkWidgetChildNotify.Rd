@@ -11,6 +11,5 @@ on \code{widget}.}
                  class of \code{widget}'s parent}
 }
 \details{This is the analogue of \code{gObjectNotify()} for child properties.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

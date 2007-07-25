@@ -18,6 +18,5 @@ started in the specified cell.  }
 Please note that editing can only happen when the widget is realized.  
 
   Since  2.8}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

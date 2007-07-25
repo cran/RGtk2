@@ -9,6 +9,5 @@ for the scrolled window. See \code{\link{gtkScrolledWindowSetPlacement}}.}
 
 See also \code{\link{gtkScrolledWindowSetPlacement}} and
 \code{\link{gtkScrolledWindowUnsetPlacement}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

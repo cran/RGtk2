@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkMenu}}] a \code{\link{GtkMenu}}.}}
 \value{[\code{\link{GtkWidget}}] the \code{\link{GtkMenuItem}} that was last selected in the menu.  If a 
 selection has not yet been made, the first menu item is selected.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ fill any extra space.}
 \item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}.}
 \item{\code{max.width}}{[integer]  The maximum width of the column in pixels, or -1.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

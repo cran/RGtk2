@@ -7,6 +7,5 @@ Shows the file operation buttons, if they have previously been hidden. The rest 
 }
 \usage{gtkFileSelectionShowFileopButtons(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkFileSelection}}] a \code{\link{GtkFileSelection}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

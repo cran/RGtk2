@@ -15,6 +15,5 @@ widget being finalized.}
 \details{In most cases, only toplevel widgets (windows) require explicit
 destruction, because when you destroy a toplevel its children will
 be destroyed as well.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@
 \item{\code{group.name}}{[character]  the group to add the settings to in \code{key.file}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

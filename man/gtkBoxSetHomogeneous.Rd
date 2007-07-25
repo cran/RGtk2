@@ -10,6 +10,5 @@ in the box.}
 \item{\code{homogeneous}}{[logical]  a boolean value, \code{TRUE} to create equal allotments,
   \code{FALSE} for variable allotments}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

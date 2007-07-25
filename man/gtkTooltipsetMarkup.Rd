@@ -10,6 +10,5 @@ If \code{markup} is \code{NULL}, the label will be hidden.}
 \item{\code{markup}}{[character]  a markup string (see Pango markup format) or \code{NULL}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

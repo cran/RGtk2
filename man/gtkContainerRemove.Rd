@@ -15,6 +15,5 @@ container and help break any circular reference count cycles.}
 \item{\code{object}}{[\code{\link{GtkContainer}}]  a \code{\link{GtkContainer}}}
 \item{\code{widget}}{[\code{\link{GtkWidget}}]  a current child of \code{container}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

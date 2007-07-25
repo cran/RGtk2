@@ -8,6 +8,5 @@ Creates a new file selection dialog box. By default it will contain a \code{\lin
 \usage{gtkFileSelectionNew(title = NULL, show = TRUE)}
 \arguments{\item{\code{title}}{[character] a message that will be placed in the file requestor's titlebar.}}
 \value{[\code{\link{GtkWidget}}] the new file selection.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

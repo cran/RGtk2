@@ -15,6 +15,5 @@ A list containing the following elements:
           corresponding to both the position before the first character
           and the position after the last character.)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

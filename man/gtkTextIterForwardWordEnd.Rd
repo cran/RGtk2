@@ -9,6 +9,5 @@ algorithms).}
 \usage{gtkTextIterForwardWordEnd(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}}
 \value{[logical]  \code{TRUE} if \code{iter} moved and is not the end iterator }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

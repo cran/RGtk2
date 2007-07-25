@@ -12,6 +12,5 @@ Sets a new default size for the children of a given button box.
 \item{\code{min.width}}{[integer] a default width for buttons in \code{widget}.}
 \item{\code{min.height}}{[integer] a default height for buttons in \code{widget}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

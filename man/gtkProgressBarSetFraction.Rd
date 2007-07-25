@@ -9,6 +9,5 @@ inclusive.}
 \item{\code{object}}{[\code{\link{GtkProgressBar}}]  a \code{\link{GtkProgressBar}}}
 \item{\code{fraction}}{[numeric]  fraction of the task that's been completed}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

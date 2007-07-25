@@ -16,6 +16,5 @@ offsets. See \code{\link{gdkDrawRgbImageDithalign}} for more details.}
 \item{\code{xdith}}{[integer]  X dither offset}
 \item{\code{ydith}}{[integer]  Y dither offset}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

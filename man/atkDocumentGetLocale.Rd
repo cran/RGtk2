@@ -11,6 +11,5 @@
 \value{[character]  a UTF-8 string indicating the POSIX-style LC\_MESSAGES
          locale of the document content as a whole, or NULL if
          the document content does not specify a locale.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ the red, green, and blue components respectively.}
 \arguments{\item{\code{object}}{[\code{\link{PangoColor}}]  a \code{\link{PangoColor}}}}
 \details{  Since  1.16}
 \value{[character] .}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

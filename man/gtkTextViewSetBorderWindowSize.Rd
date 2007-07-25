@@ -14,6 +14,5 @@ with \code{GTK_TEXT_WINDOW_WIDGET}, \code{GTK_TEXT_WINDOW_TEXT}, or
 \item{\code{type}}{[\code{\link{GtkTextWindowType}}]  window to affect}
 \item{\code{size}}{[integer]  width or height of the window}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

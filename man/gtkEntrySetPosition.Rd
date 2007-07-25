@@ -15,6 +15,5 @@ Sets the cursor position in an entry to the given value.
    be set after the last character in the entry. Note that this 
    position is in characters, not in bytes.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

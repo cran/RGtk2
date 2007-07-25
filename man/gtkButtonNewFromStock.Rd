@@ -9,6 +9,5 @@ Some stock ids have preprocessor functions like \code{GTK_STOCK_OK} and
 \details{If \code{stock.id} is unknown, then it will be treated as a mnemonic
 label (as for \code{\link{gtkButtonNewWithMnemonic}}).  }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkButton}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

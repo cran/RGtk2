@@ -32,7 +32,6 @@ the hyperlinks associated with the object is selected.
 
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk/AtkHypertext.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

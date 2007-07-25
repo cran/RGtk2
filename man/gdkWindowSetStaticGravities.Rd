@@ -11,6 +11,5 @@ windowing system. Don't worry about it unless you have to.}
 \item{\code{use.static}}{[logical]  \code{TRUE} to turn on static gravity}
 }
 \value{[logical]  \code{TRUE} if the server supports static gravity}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

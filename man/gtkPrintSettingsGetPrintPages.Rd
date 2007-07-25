@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkPrintSettings}}]  a \code{\link{GtkPrintSettings}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkPrintPages}}]  which pages to print}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

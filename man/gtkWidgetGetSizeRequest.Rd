@@ -15,6 +15,5 @@ A list containing the following elements:
 \item{\code{width}}{[integer]  return location for width, or \code{NULL}}
 \item{\code{height}}{[integer]  return location for height, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

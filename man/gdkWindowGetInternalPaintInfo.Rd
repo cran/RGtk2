@@ -23,6 +23,5 @@ A list containing the following elements:
            and the underlying window system primitive coordinates for
            *\code{real.drawable}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

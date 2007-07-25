@@ -11,6 +11,5 @@ is received.}
 \usage{gtkWidgetHideOnDelete(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \value{[logical]  \code{TRUE}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

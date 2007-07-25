@@ -16,6 +16,5 @@ in the tag is '-'.}
   canonicalized as by \code{\link{pangoLanguageFromString}}}
 }
 \value{[logical]  \code{TRUE} if a match was found.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

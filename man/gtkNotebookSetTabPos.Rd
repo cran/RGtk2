@@ -8,6 +8,5 @@ notebook are drawn.}
 \item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}.}
 \item{\code{pos}}{[\code{\link{GtkPositionType}}]  the edge to draw the tabs at.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

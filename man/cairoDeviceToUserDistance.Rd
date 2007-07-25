@@ -11,6 +11,5 @@ transforming (\code{dx},\code{dy}).}
 \item{\code{dx}}{[numeric]  X component of a distance vector (in/out parameter)}
 \item{\code{dy}}{[numeric]  Y component of a distance vector (in/out parameter)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

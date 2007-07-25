@@ -10,6 +10,5 @@ A list containing the following elements:
 \item{\code{x}}{[integer]  return location for X position of window frame}
 \item{\code{y}}{[integer]  return location for Y position of window frame}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

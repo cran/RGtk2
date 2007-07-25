@@ -7,6 +7,5 @@ view will be updated accordingly.}
 \usage{gtkEntryCompletionComplete(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkEntryCompletion}}]  A \code{\link{GtkEntryCompletion}}.}}
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

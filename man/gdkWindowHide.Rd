@@ -7,6 +7,5 @@ they won't be displayed. Normally done automatically as
 part of \code{\link{gtkWidgetHide}}.}
 \usage{gdkWindowHide(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

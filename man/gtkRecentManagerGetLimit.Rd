@@ -7,6 +7,5 @@ function should return.}
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentManager}}]  a \code{\link{GtkRecentManager}}}}
 \details{  Since  2.10}
 \value{[integer]  the number of items to return, or -1 for every item.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

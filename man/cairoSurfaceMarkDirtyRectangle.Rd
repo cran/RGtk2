@@ -15,6 +15,5 @@ for other parts of the surface.}
 \details{Any cached clip set on the surface will be reset by this function,
 to make sure that future cairo calls have the clip set that they
 expect.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

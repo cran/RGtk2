@@ -9,6 +9,5 @@ A list containing the following elements:
 \item{retval}{[logical]  TRUE if the window has decorations set, FALSE otherwise.}
 \item{\code{decorations}}{[\code{\link{GdkWMDecoration}}]  The window decorations will be written here}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

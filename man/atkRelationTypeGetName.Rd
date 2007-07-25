@@ -5,6 +5,5 @@
 \usage{atkRelationTypeGetName(type)}
 \arguments{\item{\code{type}}{[\code{\link{AtkRelationType}}]  The \code{\link{AtkRelationType}} whose name is required}}
 \value{[character]  the string describing the AtkRelationType}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

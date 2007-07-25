@@ -10,6 +10,5 @@ the layout's context is used.}
 \item{\code{desc}}{[\code{\link{PangoFontDescription}}]  the new \code{\link{PangoFontDescription}}, or \code{NULL} to unset the
        current font description}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

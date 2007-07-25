@@ -8,6 +8,5 @@ and a background color.}
 \arguments{\item{\code{object}}{[\code{\link{GdkDisplay}}]  a \code{\link{GdkDisplay}}}}
 \details{  Since  2.4}
 \value{[logical]  whether cursors can have multiple colors.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

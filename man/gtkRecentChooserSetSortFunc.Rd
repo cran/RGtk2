@@ -16,6 +16,5 @@ item comes before the second, zero if the two items are equal and
 a negative integer if the first item comes after the second.  
 
   Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

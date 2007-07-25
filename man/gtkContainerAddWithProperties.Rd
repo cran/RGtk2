@@ -10,6 +10,5 @@ See \code{\link{gtkContainerAdd}} and \code{\link{gtkContainerChildSet}} for mor
 \item{\code{...}}{ a list of property names and values, starting
           with \code{first.prop.name}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

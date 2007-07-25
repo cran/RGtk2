@@ -51,7 +51,6 @@ Whether the proxies for this action look like radio action proxies.  Default val
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkToggleAction.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

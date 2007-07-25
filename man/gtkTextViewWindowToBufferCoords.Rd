@@ -17,6 +17,5 @@ A list containing the following elements:
 \item{\code{buffer.x}}{[integer]  buffer x coordinate return location}
 \item{\code{buffer.y}}{[integer]  buffer y coordinate return location}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

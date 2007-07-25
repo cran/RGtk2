@@ -19,6 +19,5 @@ given style and orientation.}
 \item{\code{height}}{[integer]  the height of the rectangle in which to draw a slider}
 \item{\code{orientation}}{[\code{\link{GtkOrientation}}]  the orientation to be used}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

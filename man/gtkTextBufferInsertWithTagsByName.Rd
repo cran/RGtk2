@@ -10,6 +10,5 @@ to pass in tag names instead of tag objects.}
 \item{\code{text}}{[character]  UTF-8 text}
 \item{\code{...}}{ more tag names}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

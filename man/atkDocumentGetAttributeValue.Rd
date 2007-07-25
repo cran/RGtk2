@@ -12,6 +12,5 @@
 \value{[character]  a string value associated with the named attribute for this
    document, or NULL if a value for \code{attribute_name} has not been specified
    for this document.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

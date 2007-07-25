@@ -4,6 +4,5 @@
 \description{Creates a new \code{\link{GtkTearoffMenuItem}}.}
 \usage{gtkTearoffMenuItemNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}] a new \code{\link{GtkTearoffMenuItem}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

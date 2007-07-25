@@ -7,6 +7,5 @@ the functions from \code{\link{GtkScaleButton}}.}
 \usage{gtkVolumeButtonNew(show = TRUE)}
 \details{  Since  2.12}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkVolumeButton}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

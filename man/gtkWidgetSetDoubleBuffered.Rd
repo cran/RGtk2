@@ -23,6 +23,5 @@ Note: if you turn off double-buffering, you have to handle
 expose events, since even the clearing to the background color or 
 pixmap will not happen automatically (as it is done in 
 \code{gdkWindowBeginPaint()}).  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

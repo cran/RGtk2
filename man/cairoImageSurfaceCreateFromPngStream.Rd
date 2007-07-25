@@ -7,6 +7,5 @@ via the \code{read.func} function.}
 \value{[\code{\link{CairoSurface}}]  a new \code{\link{CairoSurface}} initialized with the contents
 of the PNG file or \code{NULL} if the data read is not a valid PNG image or
 memory could not be allocated for the operation.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

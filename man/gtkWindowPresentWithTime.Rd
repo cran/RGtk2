@@ -11,6 +11,5 @@ If you need to present a window without a timestamp, use
   button or key press event) which triggered this call}
 }
 \details{  Since  2.8}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

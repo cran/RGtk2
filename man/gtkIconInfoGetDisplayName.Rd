@@ -10,6 +10,5 @@ visible context like a list of icons.}
 \value{[character]  the display name for the icon or \code{NULL}, if
  the icon doesn't have a specified display name. This value
  is owned \code{icon.info} and must not be modified or free.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

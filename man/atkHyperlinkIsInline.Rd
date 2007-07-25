@@ -9,6 +9,5 @@ a *}
 \usage{atkHyperlinkIsInline(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkHyperlink}}]  an \code{\link{AtkHyperlink}}}}
 \value{[logical]  whether or not this link displays its content inline.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

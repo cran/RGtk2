@@ -7,6 +7,5 @@ pattern.}
 \arguments{\item{\code{pattern}}{[\code{\link{CairoPattern}}]  a \code{\link{CairoPattern}}}}
 \value{[\code{\link{CairoStatus}}]  \code{CAIRO_STATUS_SUCCESS}, \code{CAIRO_STATUS_NO_MEMORY}, or
 \code{CAIRO_STATUS_PATTERN_TYPE_MISMATCH}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

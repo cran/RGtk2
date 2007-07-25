@@ -10,6 +10,5 @@ know that the model emitted the "rows\_reordered" signal.}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  The iter pointing to the parent of the reordered}
 \item{\code{new.order}}{[integer]  The new order of rows}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

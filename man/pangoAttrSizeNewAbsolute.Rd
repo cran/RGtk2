@@ -6,6 +6,5 @@
 \arguments{\item{\code{size}}{[integer]  the font size, in \code{PANGO_SCALE}ths of a device unit.}}
 \details{  Since  1.8}
 \value{[\code{\link{PangoAttribute}}]  the newly allocated \code{\link{PangoAttribute}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

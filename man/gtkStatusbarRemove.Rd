@@ -9,6 +9,5 @@ The exact \code{context.id} and \code{message.id} must be specified.}
 \item{\code{context.id}}{[numeric]  a context identifier}
 \item{\code{message.id}}{[numeric]  a message identifier, as returned by \code{\link{gtkStatusbarPush}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

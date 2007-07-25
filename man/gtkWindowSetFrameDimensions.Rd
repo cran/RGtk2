@@ -15,6 +15,5 @@
 }
 \details{For windows with frames (see \code{\link{gtkWindowSetHasFrame}}) this function
 can be used to change the size of the frame border.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ Precursor of \code{\link{gObjectSet}}.
 \usage{gtkWidgetSet(obj, ...)}
 \arguments{\item{\code{...}}{ value of first property, followed by more properties, 
           \code{NULL}-terminated}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

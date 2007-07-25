@@ -15,6 +15,5 @@ call \code{\link{gtkActionGroupAddActionWithAccel}}.}
 }
 \details{  Since  2.4}
 \value{[\code{\link{GtkRadioAction}}]  a new \code{\link{GtkRadioAction}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

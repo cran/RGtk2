@@ -6,6 +6,5 @@
 \arguments{\item{\code{surface}}{[\code{\link{CairoSurface}}]  a \code{cairo_image_surface_t}}}
 \details{  Since  1.2}
 \value{[\code{\link{CairoFormat}}]  the format of the surface}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

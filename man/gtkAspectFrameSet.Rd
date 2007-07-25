@@ -15,6 +15,5 @@ to 1.0 (right aligned)}
 \item{\code{obey.child}}{[logical] If \code{TRUE}, \code{ratio} is ignored, and the aspect
     ratio is taken from the requistion of the child.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

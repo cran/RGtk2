@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkViewport}}]  a \code{\link{GtkViewport}}.}
 \item{\code{type}}{[\code{\link{GtkShadowType}}]  the new shadow type.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@ the frame) in root window coordinates, use \code{\link{gdkWindowGetOrigin}}.}
 A list containing the following elements:
 \item{\code{rect}}{[\code{\link{GdkRectangle}}]  rectangle to fill with bounding box of the window frame}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,6 +13,5 @@ A list containing the following elements:
   when it is no longer needed.}
 \item{\code{n.faces}}{[integer]  location to store number of elements in \code{faces}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

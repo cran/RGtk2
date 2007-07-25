@@ -10,6 +10,5 @@ should be done for this key event.}
 \item{\code{event}}{[\code{\link{GdkEventKey}}]  the key event}
 }
 \value{[logical]  \code{TRUE} if the input method handled the key event.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

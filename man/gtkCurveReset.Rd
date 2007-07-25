@@ -6,6 +6,5 @@ maximum x and y values (i.e. from the bottom-left to the top-right corners).
 The curve type is not changed.}
 \usage{gtkCurveReset(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCurve}}] a \code{\link{GtkCurve}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

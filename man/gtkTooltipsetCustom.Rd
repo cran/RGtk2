@@ -11,6 +11,5 @@ and \code{\link{gtkTooltipsetIcon}}.}
 \item{\code{custom.widget}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

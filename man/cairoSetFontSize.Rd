@@ -11,6 +11,5 @@ em-square being a \code{size} by \code{size} square in user space.)}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a \code{\link{Cairo}}}
 \item{\code{size}}{[numeric]  the new font size, in user space units}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

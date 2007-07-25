@@ -1,7 +1,7 @@
 \alias{gdkDrawGlyphs}
 \name{gdkDrawGlyphs}
 \title{gdkDrawGlyphs}
-\description{This is a low-level function; 99% of text rendering should be done
+\description{This is a low-level function; 99\% of text rendering should be done
 using \code{\link{gdkDrawLayout}} instead.}
 \usage{gdkDrawGlyphs(object, gc, font, x, y, glyphs)}
 \arguments{
@@ -17,6 +17,5 @@ glyphs.  To obtain a sequence of glyphs you have to understand a
 lot about internationalized text handling, which you don't want to
 understand; thus, use \code{\link{gdkDrawLayout}} instead of this function,
 \code{\link{gdkDrawLayout}} handles the details.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

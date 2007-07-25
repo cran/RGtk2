@@ -19,6 +19,5 @@ the background will be redrawn.
 \item{\code{width}}{[integer]  width of region to draw}
 \item{\code{height}}{[integer]  height of region to draw}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

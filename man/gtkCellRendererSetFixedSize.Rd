@@ -8,6 +8,5 @@
 \item{\code{width}}{[integer]  the width of the cell renderer, or -1}
 \item{\code{height}}{[integer]  the height of the cell renderer, or -1}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ Adds \code{items} to the end of the \code{list}.
 \item{\code{object}}{[\code{\link{GtkList}}] the list widget.}
 \item{\code{items}}{[list] the items.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

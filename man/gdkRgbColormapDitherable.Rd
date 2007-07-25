@@ -8,6 +8,5 @@ make sense to gray out or hide the corresponding UI widget.}
 \usage{gdkRgbColormapDitherable(colormap)}
 \arguments{\item{\code{colormap}}{[\code{\link{GdkColormap}}] a \code{\link{GdkColormap}}}}
 \value{[logical] \code{TRUE} if the visual associated with \code{cmap} is ditherable.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

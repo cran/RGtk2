@@ -10,6 +10,5 @@ number of points.}
     polygon overlaps itself.}
 }
 \value{[\code{\link{GdkRegion}}]  a new \code{\link{GdkRegion}} based on the given polygon}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

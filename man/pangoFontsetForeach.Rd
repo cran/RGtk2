@@ -10,6 +10,5 @@ each one. If \code{func} returns \code{TRUE}, that stops the iteration.}
 \item{\code{data}}{[R object]  data to pass to the callback function}
 }
 \details{  Since  1.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

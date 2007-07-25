@@ -8,6 +8,5 @@
 \item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  a \code{\link{GtkTreeViewColumn}}}
 \item{\code{cell.renderer}}{[\code{\link{GtkCellRenderer}}]  a \code{\link{GtkCellRenderer}} to clear the attribute mapping on.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

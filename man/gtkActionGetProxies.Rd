@@ -7,6 +7,5 @@ See also \code{\link{gtkWidgetGetAction}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkAction}}]  the action object}}
 \details{  Since  2.4}
 \value{[list]  a \code{list} of proxy widgets.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,6 +5,5 @@
 be copied to the clipboard.}
 \usage{gtkEditableCopyClipboard(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkEditable}}] a \code{\link{GtkEditable}} widget.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

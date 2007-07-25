@@ -9,6 +9,5 @@ mark exists in the buffer.}
 \item{\code{name}}{[character]  a mark name}
 }
 \value{[\code{\link{GtkTextMark}}]  a \code{\link{GtkTextMark}}, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkSizeGroup}}]  a \code{GtkSizeGrup}}
 \item{\code{widget}}{[\code{\link{GtkWidget}}]  the \code{\link{GtkWidget}} to remove}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

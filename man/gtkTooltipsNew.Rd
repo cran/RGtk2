@@ -7,6 +7,5 @@ Creates an empty group of tooltips. This function initialises a \code{\link{GtkT
 }
 \usage{gtkTooltipsNew()}
 \value{[\code{\link{GtkTooltips}}] a new \code{\link{GtkTooltips}} group for you to use.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

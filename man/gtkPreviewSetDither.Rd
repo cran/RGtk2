@@ -10,6 +10,5 @@ Set the dithering mode for the display.
 \item{\code{object}}{[\code{\link{GtkPreview}}] a \code{\link{GtkPreview}}.}
 \item{\code{dither}}{[\code{\link{GdkRgbDither}}] the dithering mode.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

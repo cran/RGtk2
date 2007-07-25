@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkTargetList}}]  a \code{\link{GtkTargetList}}}
 \item{\code{targets}}{[\code{\link{GtkTargetEntry}}]  the table of \code{\link{GtkTargetEntry}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

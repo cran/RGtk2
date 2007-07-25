@@ -97,7 +97,6 @@ Space between value text and the slider/trough area.  Allowed values: >= 0  Defa
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkScale.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@
 \item{\code{arrow.type}}{[\code{\link{GtkArrowType}}] a valid \code{\link{GtkArrowType}}.}
 \item{\code{shadow.type}}{[\code{\link{GtkShadowType}}] a valid \code{\link{GtkShadowType}}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,6 +5,5 @@
 \usage{pangoFontDescriptionCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}}
 \value{[\code{\link{PangoFontDescription}}]  the newly allocated \code{\link{PangoFontDescription}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

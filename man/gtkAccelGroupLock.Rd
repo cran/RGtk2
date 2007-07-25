@@ -11,6 +11,5 @@ within it to be changed during runtime. Refer to
 If called more than once, \code{accel.group} remains locked until
 \code{\link{gtkAccelGroupUnlock}} has been called an equivalent number
 of times.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ user to select multiple rows by dragging the mouse.}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  a \code{\link{GtkTreeView}}}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if rubber banding in \code{tree.view} is enabled.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

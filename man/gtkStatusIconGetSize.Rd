@@ -13,6 +13,5 @@ status icon is embedded (see \code{\link{gtkStatusIconIsEmbedded}}).
 
   Since  2.10}
 \value{[integer]  the size that is available for the image}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

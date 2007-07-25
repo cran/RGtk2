@@ -10,6 +10,5 @@ this interface, the row is assumed draggable.}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  row on which user is initiating a drag}
 }
 \value{[logical]  \code{TRUE} if the row can be dragged}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

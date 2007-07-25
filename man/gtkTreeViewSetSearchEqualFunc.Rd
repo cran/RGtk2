@@ -10,6 +10,5 @@ that somewhat like \code{strcmp()} returning 0 for equality
 \item{\code{search.equal.func}}{[\code{\link{GtkTreeViewSearchEqualFunc}}]  the compare function to use during the search}
 \item{\code{search.user.data}}{[R object]  user data to pass to \code{search.equal.func}, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

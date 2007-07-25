@@ -12,6 +12,5 @@ folder.
   Since  2.4}
 \value{[character]  The currently selected URI, or \code{NULL}
  if no file is selected}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

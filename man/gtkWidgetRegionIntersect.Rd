@@ -17,6 +17,5 @@ check.}
           relative to \code{widget->window} for \code{NO_WINDOW} widgets, and
           relative to the parent window of \code{widget->window} for
           widgets with their own window.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

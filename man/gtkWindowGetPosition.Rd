@@ -13,7 +13,7 @@ gets the position of the top-left corner of the window manager
 frame for the window. \code{\link{gtkWindowMove}} sets the position of this
 same top-left corner.
   
-\code{\link{gtkWindowGetPosition}} is not 100% reliable because the X Window System
+\code{\link{gtkWindowGetPosition}} is not 100\% reliable because the X Window System
 does not specify a way to obtain the geometry of the
 decorations placed on a window by the window manager.
 Thus GTK+ is using a "best guess" that works with most
@@ -43,6 +43,5 @@ A list containing the following elements:
 \item{\code{root.x}}{[integer]  return location for X coordinate of gravity-determined reference p\\oint}
 \item{\code{root.y}}{[integer]  return location for Y coordinate of gravity-determined reference p\\oint}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

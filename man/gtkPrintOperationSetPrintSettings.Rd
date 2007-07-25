@@ -10,6 +10,5 @@ see \code{\link{gtkPrintOperationRun}}.}
 \item{\code{print.settings}}{[\code{\link{GtkPrintSettings}}]  \code{\link{GtkPrintSettings}}, or \code{NULL}}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

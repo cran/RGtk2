@@ -6,6 +6,5 @@ count reaches zero, \code{info} is deallocated.}
 \usage{gtkRecentInfoUnref(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentInfo}}]  a \code{\link{GtkRecentInfo}}}}
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

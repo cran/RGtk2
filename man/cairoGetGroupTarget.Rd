@@ -13,6 +13,5 @@ rendering blocks, (that is, after the last balancing call to
   Since  1.2}
 \value{[\code{\link{CairoSurface}}]  the target group surface, or NULL if none. To keep a reference to it, you must call
 \code{\link{cairoSurfaceReference}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

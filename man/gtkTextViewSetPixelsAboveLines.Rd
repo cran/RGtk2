@@ -8,6 +8,5 @@ Tags in the buffer for \code{text.view} may override the defaults.}
 \item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}
 \item{\code{pixels.above.lines}}{[integer]  pixels above paragraphs}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

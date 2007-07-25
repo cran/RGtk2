@@ -25,6 +25,5 @@ tags from these buffers, because you know that your application can
 handle the newly created tags.  
 
   Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

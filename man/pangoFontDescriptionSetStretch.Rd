@@ -8,6 +8,5 @@ specifies how narrow or wide the font should be.}
 \item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}
 \item{\code{stretch}}{[\code{\link{PangoStretch}}]  the stretch for the font description}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

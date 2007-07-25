@@ -12,6 +12,5 @@ A nil surface is indicated by \code{\link{cairoSurfaceStatus}}
 \code{!=} \code{CAIRO_STATUS_SUCCESS}.  }
 \value{[\code{\link{CairoSurface}}]  the target surface. To
 keep a reference to it, you must call \code{\link{cairoSurfaceReference}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

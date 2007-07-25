@@ -12,6 +12,5 @@ or to the components top level window}
 }
 \value{[logical]  \code{TRUE} or \code{FALSE} indicating whether the specified point is within
 the extent of the \code{component} or not}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

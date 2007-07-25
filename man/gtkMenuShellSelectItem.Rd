@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkMenuShell}}] a \code{\link{GtkMenuShell}}.}
 \item{\code{menu.item}}{[\code{\link{GtkWidget}}] The \code{\link{GtkMenuItem}} to select.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

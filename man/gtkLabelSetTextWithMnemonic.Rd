@@ -11,6 +11,5 @@ automatically, or explicitly using \code{\link{gtkLabelSetMnemonicWidget}}.}
 \item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}
 \item{\code{str}}{[character]  a string}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

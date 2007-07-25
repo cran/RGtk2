@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \value{[\code{\link{GtkWindow}}]  the transient parent for this window, or \code{NULL}
    if no transient parent has been set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

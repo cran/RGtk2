@@ -17,6 +17,5 @@ A list containing the following elements:
          paper size, or \code{NULL} if an error occurred.}
 \item{\code{error}}{[\code{\link{GError}}]  return location for an error, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

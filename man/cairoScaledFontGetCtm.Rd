@@ -9,6 +9,5 @@
 A list containing the following elements:
 \item{\code{ctm}}{[\code{\link{CairoMatrix}}]  return value for the CTM}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

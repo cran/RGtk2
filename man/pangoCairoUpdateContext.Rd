@@ -12,6 +12,5 @@ layouts.}
 \item{\code{context}}{[\code{\link{PangoContext}}]  a \code{\link{PangoContext}}, from \code{\link{pangoCairoFontMapCreateContext}}}
 }
 \details{  Since  1.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@
 \item{\code{text.index}}{[integer]  byte index into the entry contents}
 }
 \value{[integer]  byte index into the entry layout text}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

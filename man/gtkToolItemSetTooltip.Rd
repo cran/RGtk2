@@ -15,6 +15,5 @@ to be used. See \code{\link{gtkTooltipsSetTip}}.
 \item{\code{tip.private}}{[character]  text to be used as private tooltip text}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

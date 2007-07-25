@@ -9,6 +9,5 @@ items are numbered from top to bottom, starting with 0.
 \usage{gtkOptionMenuGetHistory(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkOptionMenu}}]  a \code{\link{GtkOptionMenu}}}}
 \value{[integer]  index of the selected menu item, or -1 if there are no menu items}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

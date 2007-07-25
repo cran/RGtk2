@@ -8,6 +8,5 @@ to schedule the next update.}
 \usage{gdkPixbufAnimationIterGetDelayTime(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbufAnimationIter}}]  an animation iterator}}
 \value{[integer]  delay time in milliseconds (thousandths of a second)}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

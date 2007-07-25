@@ -6,6 +6,5 @@ resources associated with it (e.g. \code{\link{GdkWindow}}'s and strings).}
 \usage{gdkEventCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkEvent}}]  a \code{\link{GdkEvent}}}}
 \value{[\code{\link{GdkEvent}}]  a copy of \code{event}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

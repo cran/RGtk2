@@ -15,6 +15,5 @@ inserted text.}
 \item{\code{text}}{[character]  UTF-8 format text to insert}
 \item{\code{len}}{[integer]  length of text in bytes, or -1}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ A list containing the following elements:
 \item{\code{xalign}}{[numeric]  location to store X alignment of \code{misc}, or \code{NULL}}
 \item{\code{yalign}}{[numeric]  location to store Y alignment of \code{misc}, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

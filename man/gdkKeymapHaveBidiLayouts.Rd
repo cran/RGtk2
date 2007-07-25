@@ -8,6 +8,5 @@ languages are in use.}
 \details{\code{Returns}: \code{TRUE} if there are layouts in both directions, \code{FALSE} otherwise  
 
   Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

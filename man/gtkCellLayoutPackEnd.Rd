@@ -13,6 +13,5 @@ divided evenly between cells for which \code{expand} is \code{TRUE}.}
 \details{Note that reusing the same cell renderer is not supported.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

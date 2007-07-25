@@ -12,6 +12,5 @@ A list containing the following elements:
 pattern.}
 \item{\code{surface}}{[\code{\link{CairoSurface}}]  return value for surface of pattern, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

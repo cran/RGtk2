@@ -9,6 +9,5 @@
 \item{\code{x}}{[numeric]  the X coordinate of the new position}
 \item{\code{y}}{[numeric]  the Y coordinate of the new position}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

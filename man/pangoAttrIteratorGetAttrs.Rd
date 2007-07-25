@@ -8,6 +8,5 @@ iterator.}
 \details{  Since  1.2}
 \value{[list]  a list of all attributes for the current range.
   To free this value.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

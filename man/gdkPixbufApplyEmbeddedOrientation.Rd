@@ -15,6 +15,5 @@ is oriented correctly.}
 input pixbuf (with an increased reference count).
 
 Since 2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

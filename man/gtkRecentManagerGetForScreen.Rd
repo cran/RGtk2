@@ -21,6 +21,5 @@ users.
   screen. This recent manager is associated to the with the screen
   and can be used as long as the screen is open. Do not ref or
   unref it.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

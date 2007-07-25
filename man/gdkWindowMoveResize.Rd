@@ -13,6 +13,5 @@ move, then resize, if you don't use \code{\link{gdkWindowMoveResize}}.)}
 \item{\code{width}}{[integer]  new width}
 \item{\code{height}}{[integer]  new height}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkMenuItem}}] the menu item.}
 \item{\code{allocation}}{[integer] the allocation to use as signal data.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

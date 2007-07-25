@@ -8,6 +8,5 @@ Creates a new \code{\link{GtkProgressBar}} with an associated \code{\link{GtkAdj
 \usage{gtkProgressBarNewWithAdjustment(adjustment = NULL, show = TRUE)}
 \arguments{\item{\code{adjustment}}{[\code{\link{GtkAdjustment}}] a \code{\link{GtkAdjustment}}.}}
 \value{[\code{\link{GtkWidget}}] a \code{\link{GtkProgressBar}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

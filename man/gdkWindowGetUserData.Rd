@@ -9,6 +9,5 @@ that \code{window} belongs to. See \code{\link{gdkWindowSetUserData}}.}
 A list containing the following elements:
 \item{\code{user.data}}{[R object]  return location for user data}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

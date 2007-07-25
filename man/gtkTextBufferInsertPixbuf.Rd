@@ -15,6 +15,5 @@ not. e.g. see \code{\link{gtkTextBufferGetSlice}} and
 \item{\code{iter}}{[\code{\link{GtkTextIter}}]  location to insert the pixbuf}
 \item{\code{pixbuf}}{[\code{\link{GdkPixbuf}}]  a \code{\link{GdkPixbuf}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

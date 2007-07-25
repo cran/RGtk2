@@ -13,6 +13,5 @@ A list containing the following elements:
 \item{\code{width}}{[integer]  location to store drawable's width, or \code{NULL}}
 \item{\code{height}}{[integer]  location to store drawable's height, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,6 +14,5 @@ A list containing the following elements:
 \item{\code{new.width}}{[integer]  location to store resulting width}
 \item{\code{new.height}}{[integer]  location to store resulting height}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

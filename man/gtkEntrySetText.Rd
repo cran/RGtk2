@@ -8,6 +8,5 @@ value, replacing the current contents.}
 \item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}
 \item{\code{text}}{[character]  the new text}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@
 \item{\code{target}}{[\code{\link{AtkObject}}]  The \code{\link{AtkObject}} which is the target of the relation to be removed.}
 }
 \value{[logical] TRUE if the relationship is removed.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

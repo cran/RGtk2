@@ -9,6 +9,5 @@ the target list. All targets are added with the same \code{info}.}
 \item{\code{info}}{[numeric]  an ID that will be passed back to the application}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,6 +5,5 @@
 \usage{gtkIconSourceCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconSource}}]  a \code{\link{GtkIconSource}}}}
 \value{[\code{\link{GtkIconSource}}]  a new \code{\link{GtkIconSource}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

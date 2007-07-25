@@ -26,6 +26,5 @@ receiving buffer to deal with with pasting of arbitrary tags.
   Since  2.10}
 \value{[\code{\link{GdkAtom}}]  the \code{\link{GdkAtom}} that corresponds to the newly registered
               format's mime-type.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

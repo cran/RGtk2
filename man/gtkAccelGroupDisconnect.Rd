@@ -9,6 +9,5 @@
 \item{\code{closure}}{[\code{\link{GClosure}}]      the closure to remove from this accelerator group}
 }
 \value{[logical]      \code{TRUE} if the closure was found and got disconnected}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

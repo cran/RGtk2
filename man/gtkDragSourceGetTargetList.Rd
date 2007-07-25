@@ -7,6 +7,5 @@ drag-and-drop.}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkTargetList}}]  the \code{\link{GtkTargetList}}, or \code{NULL} if none}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

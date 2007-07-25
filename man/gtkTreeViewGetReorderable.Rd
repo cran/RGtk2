@@ -6,6 +6,5 @@
 \usage{gtkTreeViewGetReorderable(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  a \code{\link{GtkTreeView}}}}
 \value{[logical]  \code{TRUE} if the tree can be reordered.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

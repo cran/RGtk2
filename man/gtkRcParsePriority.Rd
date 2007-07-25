@@ -11,6 +11,5 @@ to store the result.}
 }
 \value{[numeric] \code{G_TOKEN_NONE} if parsing succeeded, otherwise the token
 that was expected but not found.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

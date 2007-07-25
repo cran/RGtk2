@@ -11,6 +11,5 @@ is not an immediate child of the root of the tree, this function returns
 \details{  Since  2.4}
 \value{[integer]  An integer which is the index of the currently active item, 
     or -1 if there's no active item.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

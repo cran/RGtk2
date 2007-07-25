@@ -11,6 +11,5 @@ also be used for purposes internal to the input method.}
 \item{\code{window}}{[\code{\link{GdkWindow}}]   the client window. This may be \code{NULL} to indicate
           that the previous client window no longer exists.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

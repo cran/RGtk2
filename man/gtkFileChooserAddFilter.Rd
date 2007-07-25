@@ -13,6 +13,5 @@ filter are displayed. }
 ref and sink it if you want to keep a reference.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

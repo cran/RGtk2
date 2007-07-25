@@ -96,7 +96,6 @@ This should not be accessed directly.  Use the accessor functions below.
 The model for the TreeModelSort to sort.
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkTreeModelSort.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

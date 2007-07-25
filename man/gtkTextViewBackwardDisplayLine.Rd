@@ -15,6 +15,5 @@ views, since they depend on the contents of the \code{\link{GtkTextBuffer}}.}
 \item{\code{iter}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}
 }
 \value{[logical]  \code{TRUE} if \code{iter} was moved and is not on the end iterator}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

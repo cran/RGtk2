@@ -15,6 +15,5 @@ filter$addPattern("*")
 
   Since  2.10}
 \value{[\code{\link{GtkRecentFilter}}]  a new \code{\link{GtkRecentFilter}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

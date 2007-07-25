@@ -18,6 +18,5 @@ is \code{FALSE}, then the (\code{r}, \code{g}, \code{b}) arguments will be ignor
 assigned zero opacity. That is, if you pass (255, 255, 255) for the
 substitute color, all white pixels will become fully transparent.  }
 \value{[\code{\link{GdkPixbuf}}]  A newly-created pixbuf with a reference count of 1.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

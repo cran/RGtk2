@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}
 \item{\code{handler.id}}{[numeric]  a guint which identifies the handler to be removed.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

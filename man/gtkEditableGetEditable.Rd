@@ -6,6 +6,5 @@
 \usage{gtkEditableGetEditable(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkEditable}}]  a \code{\link{GtkEditable}}}}
 \value{[logical]  \code{TRUE} if \code{editable} is editable.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,6 +18,5 @@ A list containing the following elements:
 \item{\code{end.offset}}{[integer]  passes back the end position of (e.g. offset immediately past) 
 the selected region}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

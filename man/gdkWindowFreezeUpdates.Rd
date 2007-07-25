@@ -8,6 +8,5 @@ has been called more than once, \code{\link{gdkWindowThawUpdates}} must be calle
 an equal number of times to begin processing exposes.}
 \usage{gdkWindowFreezeUpdates(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,6 +5,5 @@
 \usage{gdkDrawableGetVisual(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkDrawable}}]  a \code{\link{GdkDrawable}}}}
 \value{[\code{\link{GdkVisual}}]  a \code{\link{GdkVisual}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

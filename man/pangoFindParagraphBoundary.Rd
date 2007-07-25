@@ -20,6 +20,5 @@ A list containing the following elements:
 \item{\code{paragraph.delimiter.index}}{[integer]  return location for index of delimiter}
 \item{\code{next.paragraph.start}}{[integer]  return location for start of next paragraph}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

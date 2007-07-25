@@ -8,6 +8,5 @@
 \item{\code{spacing}}{[integer] the number of pixels to place by default between children.}
 }
 \value{[\code{\link{GtkWidget}}] a new GtkHBox.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

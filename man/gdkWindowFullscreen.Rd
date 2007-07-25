@@ -17,6 +17,5 @@ most standard window managers, and GDK makes a best effort to get
 it to happen.  
 
   Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

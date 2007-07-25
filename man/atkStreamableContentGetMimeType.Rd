@@ -10,6 +10,5 @@ type is at position 0, the second at position 1, and so on.}
 }
 \value{[character] : a gchar* representing the specified mime type; the caller
 should not free the character string.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

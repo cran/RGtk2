@@ -64,7 +64,6 @@ gdouble gamma; \tab the gamma correction value used by all previews (See   \code
 Whether the preview widget should take up the entire space it is allocated.  Default value: FALSE
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkPreview.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

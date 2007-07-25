@@ -10,6 +10,5 @@ used to construct the \code{buildable}.
 
   Since  2.12}
 \value{[character]  the name set with \code{\link{gtkBuildableSetName}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

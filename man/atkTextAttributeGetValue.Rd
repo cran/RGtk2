@@ -8,6 +8,5 @@
 \item{\code{index}}{[integer]  The index of the required value}
 }
 \value{[character] . }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

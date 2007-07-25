@@ -5,6 +5,5 @@
 \usage{cairoImageSurfaceGetWidth(surface)}
 \arguments{\item{\code{surface}}{[\code{\link{CairoSurface}}]  a \code{cairo_image_surface_t}}}
 \value{[integer]  the width of the surface in pixels.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

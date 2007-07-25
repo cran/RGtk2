@@ -8,6 +8,5 @@
 \item{\code{draw.as.radio}}{[logical]  whether \code{check.menu.item} is drawn like a \code{\link{GtkRadioMenuItem}}}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

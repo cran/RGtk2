@@ -11,6 +11,5 @@ returns 0.}
 \usage{gtkTextIterGetChar(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[numeric]  a Unicode character, or 0 if \code{iter} is not dereferenceable}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ aspect.
 \arguments{\item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to check.}}
 \value{[\code{\link{GtkAdjustment}}] A \code{\link{GtkAdjustment}} object, or NULL if none is currently
 being used.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ is GTK\_PIXELS.}
 \item{\code{object}}{[\code{\link{GtkRuler}}] the gtkruler}
 \item{\code{metric}}{[\code{\link{GtkMetricType}}] the unit of measurement}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

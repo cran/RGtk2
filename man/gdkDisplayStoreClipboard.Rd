@@ -13,6 +13,5 @@ http://www.org/Standards/clipboard-manager-spec (\url{http://www.org/Standards/c
                    if all available targets should be saved.}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

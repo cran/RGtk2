@@ -55,7 +55,6 @@ An
 \code{gdkPixbufAnimation} is the equivalent of \code{\link{gdkPixbufAnimationNewFromFile}}.
 \code{gdkPixbufSimpleAnim} is the equivalent of \code{\link{gdkPixbufSimpleAnimNew}}.
 }
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk-pixbuf/gdk-pixbuf-animation.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{\code{\link{GdkPixbufLoader}}}

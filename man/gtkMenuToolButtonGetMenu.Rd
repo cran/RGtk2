@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkMenuToolButton}}]  a \code{\link{GtkMenuToolButton}}}}
 \details{  Since  2.6}
 \value{[\code{\link{GtkWidget}}]  the \code{\link{GtkMenu}} associated with \code{\link{GtkMenuToolButton}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

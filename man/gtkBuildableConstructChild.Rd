@@ -13,6 +13,5 @@ specified in the UI definition.
 
   Since  2.12}
 \value{[\code{\link{GObject}}]  the constructed child}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

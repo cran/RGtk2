@@ -22,6 +22,5 @@ destruction of the ui manager.
   Since  2.4}
 \value{[\code{\link{GtkWidget}}]  the widget found by following the path, or \code{NULL} if no widget
   was found.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

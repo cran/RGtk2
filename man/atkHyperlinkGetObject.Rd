@@ -12,6 +12,5 @@ hyperlink etc. }
 }
 \details{Multiple anchors are primarily used by client-side image maps.  }
 \value{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}} associated with this hyperlinks i-th anchor}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

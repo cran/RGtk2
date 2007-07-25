@@ -9,6 +9,5 @@ This does not have any visible effects for lists.}
 \item{\code{enabled}}{[logical]  \code{TRUE} to enable tree line drawing, \code{FALSE} otherwise.}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

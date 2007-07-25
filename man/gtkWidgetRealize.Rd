@@ -20,6 +20,5 @@ need it, a better approach is to connect to a signal that will be
 called after the widget is realized automatically, such as
 GtkWidget::expose-event. Or simply \code{gSignalConnectAfter()} to the
 GtkWidget::realize signal.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

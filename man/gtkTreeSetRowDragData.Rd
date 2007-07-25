@@ -10,6 +10,5 @@ in a drag\_data\_get handler.}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  a row in \code{tree.model}}
 }
 \value{[logical]  \code{TRUE} if the \code{\link{GtkSelectionData}} had the proper target type to allow us to set a tree row}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

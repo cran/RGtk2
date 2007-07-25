@@ -11,6 +11,5 @@ acceptable return value for this string.}
 }
 \details{  Since  2.2}
 \value{[character]  A newly-allocated string.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

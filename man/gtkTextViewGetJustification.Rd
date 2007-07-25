@@ -6,6 +6,5 @@ Tags in the buffer may override the default.}
 \usage{gtkTextViewGetJustification(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}}
 \value{[\code{\link{GtkJustification}}]  default justification}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

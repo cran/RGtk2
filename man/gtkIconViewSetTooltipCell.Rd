@@ -11,6 +11,5 @@ the item pointed to by \code{path}. See also \code{\link{gtkTooltipsetTipArea}}.
 \item{\code{cell}}{[\code{\link{GtkCellRenderer}}]  a \code{\link{GtkCellRenderer}} or \code{NULL}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

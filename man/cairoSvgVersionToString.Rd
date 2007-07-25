@@ -8,6 +8,5 @@ for a way to get the list of valid version ids.}
 \arguments{\item{\code{version}}{[\code{\link{CairoSvgVersion}}]  a version id}}
 \details{  Since  1.2}
 \value{[char]  the string associated to given version.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

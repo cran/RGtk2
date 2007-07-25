@@ -11,6 +11,5 @@ All further configuration of the completion mechanism is done on
 \item{\code{completion}}{[\code{\link{GtkEntryCompletion}}]  The \code{\link{GtkEntryCompletion}} or \code{NULL}}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

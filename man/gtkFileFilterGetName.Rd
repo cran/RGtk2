@@ -7,6 +7,5 @@
 \details{  Since  2.4}
 \value{[character]  The human-readable name of the filter,
   or \code{NULL}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

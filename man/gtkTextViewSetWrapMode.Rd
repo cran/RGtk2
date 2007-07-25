@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}
 \item{\code{wrap.mode}}{[\code{\link{GtkWrapMode}}]  a \code{\link{GtkWrapMode}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

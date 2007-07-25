@@ -17,6 +17,5 @@ space allocated for the \code{\link{GtkAlignment}}.}
 unused space, from 0 to 1. The values are similar to \code{xscale}.}
 }
 \value{[\code{\link{GtkWidget}}] the new \code{\link{GtkAlignment}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -590,7 +590,6 @@ See also: \code{\link{gtkFileChooserSetPreviewWidget}},
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkFileChooser.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

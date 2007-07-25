@@ -39,6 +39,5 @@ windows in the same window group while the dialog is run), callbacks
 such as timeouts, IO channel watches, DND drops, etc, \emph{will} 
 be triggered during a \code{\link{gtkDialogRun}} call.  }
 \value{[integer]  response ID}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

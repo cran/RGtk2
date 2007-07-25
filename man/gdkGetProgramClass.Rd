@@ -7,6 +7,5 @@ commandline option, the default value is the program name (determined
 with \code{gGetPrgname()}) with the first character converted to uppercase. }
 \usage{gdkGetProgramClass()}
 \value{[char] the program class.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

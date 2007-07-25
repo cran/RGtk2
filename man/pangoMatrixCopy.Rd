@@ -7,6 +7,5 @@
 \details{  Since  1.6}
 \value{[\code{\link{PangoMatrix}}]  the newly allocated \code{\link{PangoMatrix}}, or \code{NULL} if
               \code{matrix} was \code{NULL}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

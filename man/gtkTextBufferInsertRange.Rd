@@ -15,6 +15,5 @@ images and tags. If \code{start} and \code{end} are in a different buffer from
 }
 \details{Implemented via emissions of the insert\_text and apply\_tag signals,
 so expect those.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@ see the docs for \env{GTK\_PATH} in
 .}
 \usage{gtkRcGetModuleDir()}
 \value{[character]  the directory}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

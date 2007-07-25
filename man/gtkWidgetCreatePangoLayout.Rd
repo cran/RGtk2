@@ -15,6 +15,5 @@ widget, you must call \code{\link{pangoLayoutContextChanged}} in response to
 the \code{::style-set} and \code{::direction-changed} signals 
 for the widget.  }
 \value{[\code{\link{PangoLayout}}]  the new \code{\link{PangoLayout}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

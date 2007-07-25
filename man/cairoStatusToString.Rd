@@ -5,6 +5,5 @@
 \usage{cairoStatusToString(status)}
 \arguments{\item{\code{status}}{[\code{\link{CairoStatus}}]  a cairo status}}
 \value{[char] a string representation of the status}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

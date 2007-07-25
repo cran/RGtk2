@@ -178,7 +178,6 @@ using \code{\link{pangoLayoutSetJustify}}, this only has effect for partial line
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/pango/pango-Layout-Objects.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

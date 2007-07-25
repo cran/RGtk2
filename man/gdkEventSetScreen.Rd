@@ -10,6 +10,5 @@ have been allocated by GTK+, for instance, by
 \item{\code{screen}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}}
 }
 \details{  Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

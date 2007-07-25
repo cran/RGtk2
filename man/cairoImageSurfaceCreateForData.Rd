@@ -29,6 +29,5 @@ occurs. You can use \code{\link{cairoSurfaceStatus}} to check for this.
 
 See \code{\link{cairoSurfaceSetUserData}} for a means of attaching a
 destroy-notification fallback to the surface if necessary.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

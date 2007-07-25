@@ -21,6 +21,5 @@ anything to avoid excess invalidations. If you set this flag on a
 you are responsible for invalidating both the old and new allocation 
 of the widget when the widget is moved and responsible for invalidating
 regions newly when the widget increases size.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

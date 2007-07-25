@@ -11,6 +11,5 @@ in only a substring of the item from \code{\link{pangoItemize}}.}
 \item{\code{analysis}}{[\code{\link{PangoAnalysis}}]   \code{\link{PangoAnalysis}} structure from \code{\link{pangoItemize}}}
 \item{\code{glyphs}}{[\code{\link{PangoGlyphString}}]     glyph string in which to store results}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

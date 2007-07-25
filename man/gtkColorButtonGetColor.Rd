@@ -8,6 +8,5 @@
 \item{\code{color}}{[\code{\link{GdkColor}}]  a \code{\link{GdkColor}} to fill in with the current color.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

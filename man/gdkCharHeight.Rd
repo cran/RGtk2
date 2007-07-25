@@ -14,6 +14,5 @@ relation to the baseline. See \code{\link{gdkTextExtents}}.
 \item{\code{character}}{[character]  the character to measure.}
 }
 \value{[integer]  the height of the character in pixels.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

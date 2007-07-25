@@ -8,6 +8,5 @@ for \code{\link{GtkIconSet}}.}
 \item{\code{object}}{[\code{\link{GtkIconSource}}]  a \code{\link{GtkIconSource}}}
 \item{\code{pixbuf}}{[\code{\link{GdkPixbuf}}]  pixbuf to use as a source}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

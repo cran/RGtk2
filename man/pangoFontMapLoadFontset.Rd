@@ -11,6 +11,5 @@ a font matching \code{desc}.}
 \item{\code{language}}{[\code{\link{PangoLanguage}}]  a \code{\link{PangoLanguage}} the fonts will be used for}
 }
 \value{[\code{\link{PangoFontset}}] the fontset, or \code{NULL} if no font matched.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

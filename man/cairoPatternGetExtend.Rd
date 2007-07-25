@@ -7,6 +7,5 @@ for details on the semantics of each extend strategy.}
 \arguments{\item{\code{pattern}}{[\code{\link{CairoPattern}}]  a \code{\link{CairoPattern}}}}
 \value{[\code{\link{CairoExtend}}]  the current extend strategy used for drawing the
 pattern.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

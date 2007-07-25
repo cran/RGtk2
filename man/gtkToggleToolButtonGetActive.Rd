@@ -7,6 +7,5 @@ Returns \code{TRUE} if the toggle button is pressed in and \code{FALSE} if it is
 \arguments{\item{\code{object}}{[\code{\link{GtkToggleToolButton}}]  a \code{\link{GtkToggleToolButton}}}}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the toggle tool button is pressed in, \code{FALSE} if not}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

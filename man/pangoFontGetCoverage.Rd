@@ -8,6 +8,5 @@
 \item{\code{language}}{[\code{\link{PangoLanguage}}]  the language tag}
 }
 \value{[\code{\link{PangoCoverage}}]  a newly-allocated \code{\link{PangoCoverage}} object.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

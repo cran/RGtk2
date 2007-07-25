@@ -6,6 +6,5 @@
 \usage{gtkTreeSelectionGetMode(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeSelection}}]  a \code{\link{GtkTreeSelection}}}}
 \value{[\code{\link{GtkSelectionMode}}]  the current selection mode}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

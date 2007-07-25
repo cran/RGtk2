@@ -56,7 +56,6 @@ Used to prevent need to enumerate all children in very large containers, like ta
 }
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk/atk-AtkState.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

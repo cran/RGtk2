@@ -9,6 +9,5 @@ title.}
 \item{\code{object}}{[\code{\link{GtkFrame}}]  a \code{\link{GtkFrame}}}
 \item{\code{label.widget}}{[\code{\link{GtkWidget}}]  the new label widget}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

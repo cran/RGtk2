@@ -12,6 +12,5 @@ columns are of type \code{GTK_TREE_VIEW_COLUMN_FIXED}.}
 \item{\code{enable}}{[logical]  \code{TRUE} to enable fixed height mode}
 }
 \details{  Since  2.6 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

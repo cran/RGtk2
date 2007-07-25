@@ -12,6 +12,5 @@ paragraph delimiter chars there.}
 \usage{gtkTextIterEndsLine(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[logical]  whether \code{iter} is at the end of a line}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

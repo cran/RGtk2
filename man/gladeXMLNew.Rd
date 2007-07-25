@@ -14,6 +14,5 @@ to speed up creating another GladeXML object for the same file}
 \item{\code{domain}}{[char]  the translation domain for the XML file (or \code{NULL} for default)}
 }
 \value{[\code{\link{GladeXML}}]  the newly created GladeXML object, or NULL on failure.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

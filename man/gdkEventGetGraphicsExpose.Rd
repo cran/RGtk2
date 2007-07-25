@@ -8,6 +8,5 @@ GraphicsExpose events are handled before the widget is scrolled.}
 \arguments{\item{\code{window}}{[\code{\link{GdkWindow}}]  the \code{\link{GdkWindow}} to wait for the events for.}}
 \value{[\code{\link{GdkEvent}}]   a \code{\link{GdkEventExpose}} if a GraphicsExpose was received, or \code{NULL} if a
 NoExpose event was received.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

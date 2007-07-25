@@ -9,6 +9,5 @@ the input focus. This function sets this hint.}
 \item{\code{setting}}{[logical]  \code{TRUE} to let this window receive input focus}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

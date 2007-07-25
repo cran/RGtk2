@@ -14,6 +14,5 @@ action gets activated when the proxy widget does.}
 first.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

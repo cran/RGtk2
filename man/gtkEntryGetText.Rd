@@ -8,6 +8,5 @@ See also \code{\link{gtkEditableGetChars}}.}
 \value{[character]  a pointer to the contents of the widget as a
      string, modified or
      stored.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

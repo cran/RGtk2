@@ -18,6 +18,5 @@ directory separator.
   
 The encoding of \code{filename} is preferred GLib file name encoding, which
 may not be UTF-8. See \code{gFilenameFromUtf8()}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

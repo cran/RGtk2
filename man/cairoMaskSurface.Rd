@@ -12,6 +12,5 @@ areas are not painted.)}
 \item{\code{surface.x}}{[numeric]  X coordinate at which to place the origin of \code{surface}}
 \item{\code{surface.y}}{[numeric]  Y coordinate at which to place the origin of \code{surface}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

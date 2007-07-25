@@ -12,6 +12,5 @@ handler for the GtkWidget::query-tooltip signal.}
 \details{See also the GtkWidget:tooltip-text property and \code{\link{gtkTooltipsetText}}.  
 
   Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

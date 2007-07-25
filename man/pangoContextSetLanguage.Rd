@@ -9,6 +9,5 @@ for the locale of the running process can be found using
 \item{\code{object}}{[\code{\link{PangoContext}}]  a \code{\link{PangoContext}}}
 \item{\code{language}}{[\code{\link{PangoLanguage}}]  the new language tag.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

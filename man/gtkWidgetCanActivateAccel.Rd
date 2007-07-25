@@ -15,6 +15,5 @@ its ancestors mapped.}
 }
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the accelerator can be activated.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

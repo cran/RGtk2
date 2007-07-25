@@ -13,6 +13,5 @@ key binding to bring up search popup. The enable-search property controls
 whether simply typing text will also start an interactive search.
   
 Note that \code{column} refers to a column of the model.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

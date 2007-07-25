@@ -10,6 +10,5 @@ is faded out using the alpha value.}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}
 \item{\code{alpha}}{[numeric]  alpha value, between 0 (transparent) and 1 (opaque)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

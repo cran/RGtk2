@@ -12,6 +12,5 @@ A list containing the following elements:
 \item{\code{dashes}}{[numeric]  return value for the dash list, or \code{NULL}}
 \item{\code{offset}}{[numeric]  return value for the current dash offset, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

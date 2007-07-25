@@ -11,6 +11,5 @@ FIXME: Needs a more precise definition of gamma.}
 \item{\code{object}}{[\code{\link{GtkCurve}}] a \code{\link{GtkCurve}}.}
 \item{\code{gamma}}{[numeric] the gamma value.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

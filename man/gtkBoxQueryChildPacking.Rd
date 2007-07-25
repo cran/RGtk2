@@ -14,6 +14,5 @@ A list containing the following elements:
 \item{\code{padding}}{[numeric]  pointer to return location for \code{:padding} child property }
 \item{\code{pack.type}}{[\code{\link{GtkPackType}}]  pointer to return location for \code{:pack-type} child property }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

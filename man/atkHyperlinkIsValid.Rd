@@ -7,6 +7,5 @@ respect to the document it references) and \code{FALSE} otherwise.}
 \usage{atkHyperlinkIsValid(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkHyperlink}}]  an \code{\link{AtkHyperlink}}}}
 \value{[logical]  whether or not this link is still valid}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

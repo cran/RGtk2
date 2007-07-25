@@ -8,6 +8,5 @@
 \item{\code{i}}{[integer]  a gint representing a position in the set, starting from 0.}
 }
 \value{[\code{\link{AtkRelation}}]  a \code{\link{AtkRelation}}, which is the relation at position i in the set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

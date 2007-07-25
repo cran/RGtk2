@@ -10,6 +10,5 @@ set, it will remove it before setting the new model.  If \code{model} is
 \item{\code{model}}{[\code{\link{GtkTreeModel}}]  a \code{\link{GtkTreeModel}}}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

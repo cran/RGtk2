@@ -16,6 +16,5 @@ precision of \code{step}. }
 is a power of ten. If the resulting precision is not suitable for your 
 needs, use \code{\link{gtkSpinButtonSetDigits}} to correct it.  }
 \value{[\code{\link{GtkWidget}}]  The new spin button as a \code{\link{GtkWidget}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

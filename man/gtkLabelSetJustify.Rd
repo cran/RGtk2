@@ -12,6 +12,5 @@ effect on labels containing only a single line.}
 \item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}
 \item{\code{jtype}}{[\code{\link{GtkJustification}}]  a \code{\link{GtkJustification}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

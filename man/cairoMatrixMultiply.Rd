@@ -13,6 +13,5 @@ coordinates.}
 \item{\code{b}}{[\code{\link{CairoMatrix}}]  a \code{\link{CairoMatrix}}}
 }
 \details{It is allowable for \code{result} to be identical to either \code{a} or \code{b}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

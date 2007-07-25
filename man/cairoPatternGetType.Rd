@@ -7,6 +7,5 @@ See \code{\link{CairoPatternType}} for available types.}
 \arguments{\item{\code{pattern}}{[\code{\link{CairoPattern}}]  a \code{\link{CairoPattern}}}}
 \details{  Since  1.2}
 \value{[\code{\link{CairoPatternType}}]  The type of \code{pattern}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

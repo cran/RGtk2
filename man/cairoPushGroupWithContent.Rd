@@ -18,6 +18,5 @@ function and \code{\link{cairoPushGroup}} which you should see for a more
 detailed description of group rendering.  
 
   Since  1.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -108,7 +108,6 @@ If set, an underline in the label property indicates that the next character sho
 Spacing in pixels between the icon and label.  Allowed values: >= 0  Default value: 0
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkToolButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

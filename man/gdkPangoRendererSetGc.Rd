@@ -12,6 +12,5 @@ original GC.}
 \item{\code{gc}}{[\code{\link{GdkGC}}]  the new GC to use for drawing, or \code{NULL}}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

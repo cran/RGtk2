@@ -10,6 +10,5 @@ the tree or selection from within this function. As a result,
 \item{\code{func}}{[\code{\link{GtkTreeSelectionForeachFunc}}]  The function to call for each selected node.}
 \item{\code{data}}{[R object]  user data to pass to the function.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

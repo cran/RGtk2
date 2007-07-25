@@ -9,6 +9,5 @@ This image is used for a drag icon.}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  a \code{\link{GtkTreePath}} in \code{tree.view}}
 }
 \value{[\code{\link{GdkPixmap}}]  a newly-allocated pixmap of the drag icon.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

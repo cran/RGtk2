@@ -12,6 +12,5 @@ scrollable area of the tree.}
 A list containing the following elements:
 \item{\code{visible.rect}}{[\code{\link{GdkRectangle}}]  rectangle to fill}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

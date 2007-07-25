@@ -12,6 +12,5 @@ is determined by the "stock\_id" property. If the "stock\_id" property is also
 \item{\code{label}}{[character]  a string that will be used as label, or \code{NULL}.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

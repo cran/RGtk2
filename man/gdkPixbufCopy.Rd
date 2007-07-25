@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbuf}}]  A pixbuf.}}
 \value{[\code{\link{GdkPixbuf}}]  A newly-created pixbuf with a reference count of 1, or \code{NULL} if
 not enough memory could be allocated.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -23,6 +23,5 @@ sufficently new version of the X Render extension.
 
   Since  2.4}
 \value{[\code{\link{GdkCursor}}]  a new \code{\link{GdkCursor}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

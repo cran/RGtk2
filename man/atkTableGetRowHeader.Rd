@@ -9,6 +9,5 @@
 }
 \value{[\code{\link{AtkObject}}]  a AtkObject* representing the specified row header, or
 \code{NULL} if value does not implement this interface.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

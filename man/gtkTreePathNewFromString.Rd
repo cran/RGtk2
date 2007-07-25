@@ -9,6 +9,5 @@ path string is passed in, \code{NULL} is returned.}
 \usage{gtkTreePathNewFromString(path)}
 \arguments{\item{\code{path}}{[character]  The string representation of a path.}}
 \value{[\code{\link{GtkTreePath}}]  A newly-created \code{\link{GtkTreePath}}, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

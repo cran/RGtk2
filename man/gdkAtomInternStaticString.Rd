@@ -15,6 +15,5 @@ GTK+ theme engines).
 
   Since  2.10}
 \value{[\code{\link{GdkAtom}}]  the atom corresponding to \code{atom.name}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,6 +12,5 @@ of the parameters.}
 \item{\code{fill}}{[logical]  whether the bookmark should fill the allocated area or not}
 \item{\code{pack.type}}{[\code{\link{GtkPackType}}]  the position of the bookmark}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

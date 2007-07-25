@@ -7,6 +7,5 @@ for a way to add it to a buffer again.}
 \usage{gtkTextMarkGetDeleted(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextMark}}]  a \code{\link{GtkTextMark}}}}
 \value{[logical]  whether the mark is deleted}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

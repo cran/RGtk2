@@ -13,6 +13,5 @@ already set will be replaced as well.}
   corresponding values from \code{desc.to.merge}, even if they
   are already exist.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,6 +13,5 @@ A list containing the following elements:
 \item{\code{ipad.x}}{[integer] the horizontal padding used by buttons in \code{widget}.}
 \item{\code{ipad.y}}{[integer] the vertical padding used by buttons in \code{widget}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -15,6 +15,5 @@ actual colors to the color indices.}
 \item{\code{buf}}{[raw] The pixel data, represented as 8-bit color indices.}
 \item{\code{cmap}}{[\code{\link{GdkRgbCmap}}] The \code{\link{GdkRgbCmap}} used to assign colors to the color indices.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

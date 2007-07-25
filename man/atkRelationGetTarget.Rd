@@ -5,6 +5,5 @@
 \usage{atkRelationGetTarget(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkRelation}}]  an \code{\link{AtkRelation}}}}
 \value{[GPtrArray]  the target list of \code{relation}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

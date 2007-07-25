@@ -6,6 +6,5 @@
 \usage{gtkRadioMenuItemGetGroup(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkRadioMenuItem}}] a \code{\link{GtkRadioMenuItem}}.}}
 \value{[list] the group of \code{radio.menu.item}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@
 \item{\code{data}}{[R object]  data to pass to \code{find.func}}
 }
 \value{[\code{\link{GtkAccelKey}}]  the key of the first entry passing \code{find.func}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

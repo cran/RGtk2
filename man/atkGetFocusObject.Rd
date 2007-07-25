@@ -7,6 +7,5 @@
 
   Since  ATK 1.6}
 \value{[\code{\link{AtkObject}}]  the currently focused object for the current application}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

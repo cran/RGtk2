@@ -10,6 +10,5 @@
 \item{\code{width}}{[integer]  width of rectangle to clear}
 \item{\code{height}}{[integer]  height of rectangle to clear}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

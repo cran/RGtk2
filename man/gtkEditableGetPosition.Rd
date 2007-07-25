@@ -10,6 +10,5 @@
            equal to the number of characters in the widget.
            Note that this position is in characters, not in
            bytes.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

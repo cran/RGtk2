@@ -18,6 +18,5 @@ might be joined together. Pango automatically calls this for
 changes to colors. (See \code{\link{pangoRendererSetColor}})  
 
   Since  1.8}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

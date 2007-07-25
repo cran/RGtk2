@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkClipboard}}]  a \code{\link{GtkClipboard}}}}
 \details{  Since  2.2}
 \value{[\code{\link{GdkDisplay}}]  the \code{\link{GdkDisplay}} associated with \code{clipboard}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

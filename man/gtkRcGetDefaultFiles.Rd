@@ -6,6 +6,5 @@ at the end of \code{\link{gtkInit}}.}
 \usage{gtkRcGetDefaultFiles()}
 \value{[character]  A list of filenames.
 If you want to store this information, you should make a copy.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

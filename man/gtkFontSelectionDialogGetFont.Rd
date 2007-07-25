@@ -8,6 +8,5 @@ Gets the currently-selected font.
 \usage{gtkFontSelectionDialogGetFont(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkFontSelectionDialog}}] a \code{\link{GtkFontSelectionDialog}}.}}
 \value{[\code{\link{GdkFont}}] the currently-selected font, or \code{NULL} if no font is selected.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

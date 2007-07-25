@@ -9,6 +9,5 @@ will be hidden. See also \code{\link{gtkTooltipsetMarkup}}.}
 \item{\code{text}}{[character]  a text string or \code{NULL}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

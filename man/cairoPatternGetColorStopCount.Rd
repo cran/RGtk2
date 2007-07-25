@@ -13,6 +13,5 @@ A list containing the following elements:
 pattern.}
 \item{\code{count}}{[integer]  return value for the number of color stops, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

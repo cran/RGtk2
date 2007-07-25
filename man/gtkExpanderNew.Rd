@@ -6,6 +6,5 @@
 \arguments{\item{\code{label}}{[character]  the text of the label}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkExpander}} widget.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

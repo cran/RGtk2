@@ -11,6 +11,5 @@
 A list containing the following elements:
 \item{\code{value}}{[R object]  location to return the property value }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

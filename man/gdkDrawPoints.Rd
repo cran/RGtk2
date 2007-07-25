@@ -9,6 +9,5 @@ attributes of the \code{\link{GdkGC}}.}
 \item{\code{gc}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}.}
 \item{\code{points}}{[\code{\link{GdkPoint}}]  a list of \code{\link{GdkPoint}} structures.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

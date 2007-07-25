@@ -11,6 +11,5 @@ Sets the current percentage completion for the \code{\link{GtkProgress}}.
 \item{\code{percentage}}{[numeric] the percentage complete which must be between 0.0
 and 1.0.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ positioned within the horizontal space available.}
 \item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}}
 \item{\code{alignment}}{[\code{\link{PangoAlignment}}]  the alignment}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

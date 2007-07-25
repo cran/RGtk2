@@ -22,6 +22,5 @@ If \code{path} points to a menuitem or toolitem, the new element will be inserte
 before or after this item, depending on \code{top}.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

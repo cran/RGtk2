@@ -17,6 +17,5 @@ A list containing the following elements:
 \item{\code{row}}{[integer] Pointer to a \code{integer} to store the row value.}
 \item{\code{column}}{[integer] Pointer to a \code{integer} to store the column value.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -40,7 +40,6 @@ to get a human-readable representation of an error message.
 }
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-Error-Handling.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,6 +5,5 @@
 \usage{gtkAccelGroupsFromObject(object)}
 \arguments{\item{\code{object}}{[\code{\link{GObject}}]         a \code{\link{GObject}}, usually a \code{\link{GtkWindow}} }}
 \value{[list]  a list of all accel groups which are attached to \code{object}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

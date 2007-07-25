@@ -296,7 +296,7 @@ containing the print settings in the format produced by
 The preview application is responsible for removing the pdf file
 and the print settings file when it is done.  
 
-  Default value: "evince --unlink-tempfile --preview --print-settings %s %f"  Since  2.10
+  Default value: "evince --unlink-tempfile --preview --print-settings \%s \%f"  Since  2.10
 
 }
 \item{\code{gtk-recent-files-limit} [integer : Read / Write]}{
@@ -430,7 +430,6 @@ Type of subpixel antialiasing; none, rgb, bgr, vrgb, vbgr.  Default value: NULL
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkSettings.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

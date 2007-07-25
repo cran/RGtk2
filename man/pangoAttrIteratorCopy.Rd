@@ -5,6 +5,5 @@
 \usage{pangoAttrIteratorCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoAttrIterator}}]  a \code{\link{PangoAttrIterator}}.}}
 \value{[\code{\link{PangoAttrIterator}}]  the newly allocated \code{\link{PangoAttrIterator}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

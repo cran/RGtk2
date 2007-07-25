@@ -20,6 +20,5 @@ motion events from a \code{GDK_MOTION_NOTIFY} event usually works like this:}
 }  
 
   Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

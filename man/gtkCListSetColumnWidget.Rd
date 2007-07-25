@@ -13,6 +13,5 @@ title, instead of the standard text.
 \item{\code{column}}{[integer] The column whose title should be a widget.}
 \item{\code{widget}}{[\code{\link{GtkWidget}}] A pointer to a previously create widget.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

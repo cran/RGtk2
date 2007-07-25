@@ -13,6 +13,5 @@ realized.}
 \item{\code{win}}{[\code{\link{GtkTextWindowType}}]  window to get}
 }
 \value{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

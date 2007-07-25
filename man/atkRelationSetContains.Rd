@@ -10,6 +10,5 @@ specified type.}
 }
 \value{[logical]  \code{TRUE} if \code{relationship} is the relationship type of a relation
 in \code{set}, \code{FALSE} otherwise}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -15,6 +15,5 @@
 \item{\code{points}}{[\code{\link{GdkPoint}}]  a list of \code{\link{GdkPoint}}s}
 \item{\code{fill}}{[logical]  \code{TRUE} if the polygon should be filled}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

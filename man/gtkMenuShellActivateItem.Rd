@@ -9,6 +9,5 @@
 \item{\code{force.deactivate}}{[logical] If TRUE, force the deactivation of the menu shell
 after the menu item is activated.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

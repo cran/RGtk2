@@ -8,6 +8,5 @@ the stock item indicated by \code{stock.id}.}
 \arguments{\item{\code{stock.id}}{[character]  the name of a stock item}}
 \details{  Since  2.6}
 \value{[\code{\link{GtkToolItem}}]  the new \code{\link{GtkMenuToolButton}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

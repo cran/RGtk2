@@ -18,6 +18,5 @@ the user chooses to print all pages, the last ::draw-page signal
 will be for page \code{n.pages} - 1.  
 
   Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

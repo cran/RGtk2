@@ -10,6 +10,5 @@ you want to allow editing of newlines on a single text line.}
 \item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}}
 \item{\code{setting}}{[logical]  new setting}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

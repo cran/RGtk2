@@ -7,6 +7,5 @@ to ignore the request, but normally will honor it. Using
 \usage{gdkWindowIconify(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a toplevel \code{\link{GdkWindow}}}}
 \details{This function only makes sense when \code{window} is a toplevel window.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

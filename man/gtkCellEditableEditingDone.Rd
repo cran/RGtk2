@@ -4,6 +4,5 @@
 \description{Emits the \code{\link{gtkCellEditableEditingDone}} signal.}
 \usage{gtkCellEditableEditingDone(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCellEditable}}]  A \code{GtkTreeEditable}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

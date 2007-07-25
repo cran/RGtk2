@@ -154,7 +154,7 @@ The fraction of total progress to move the bouncing block when pulsed.  Allowed 
 }
 \item{\code{text} [character : Read / Write]}{
 
-Text to be displayed in the progress bar.  Default value: "%P %%"
+Text to be displayed in the progress bar.  Default value: "\%P \%\%"
 
 }
 }}
@@ -170,7 +170,6 @@ Extra spacing applied to the height of a progress bar.  Allowed values: >= 0  De
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkProgressBar.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

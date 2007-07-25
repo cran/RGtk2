@@ -13,6 +13,5 @@ necessary.
 \item{\code{context}}{[\code{\link{PangoContext}}]  a \code{\link{PangoContext}}}
 \item{\code{colormap}}{[\code{\link{GdkColormap}}]  a \code{\link{GdkColormap}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

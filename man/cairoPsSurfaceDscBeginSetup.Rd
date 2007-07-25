@@ -13,6 +13,5 @@ and before any drawing is performed to the surface.
 See \code{\link{cairoPsSurfaceDscComment}} for more details.  
 
   Since  1.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

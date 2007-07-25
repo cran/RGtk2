@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkRange}}]  A \code{\link{GtkRange}}}}
 \details{  Since  2.12}
 \value{[logical]  \code{TRUE} if \code{range} is restricted to the fill level.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

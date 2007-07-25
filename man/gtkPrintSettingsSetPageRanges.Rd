@@ -9,6 +9,5 @@
 \item{\code{num.ranges}}{[integer]  the length of \code{page.ranges}}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

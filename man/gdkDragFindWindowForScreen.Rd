@@ -21,6 +21,5 @@ A list containing the following elements:
 \item{\code{dest.window}}{[\code{\link{GdkWindow}}]  location to store the destination window in.}
 \item{\code{protocol}}{[\code{\link{GdkDragProtocol}}]  location to store the DND protocol in.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

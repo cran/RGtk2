@@ -19,6 +19,5 @@ and draws it onto the given drawable, \code{window}.
 \item{\code{width}}{[integer] the width of the rectangular portion to draw.}
 \item{\code{height}}{[integer] the height of the rectangular portion to draw.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

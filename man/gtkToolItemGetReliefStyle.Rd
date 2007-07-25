@@ -10,6 +10,5 @@ relief style of buttons.}
 \details{  Since  2.4}
 \value{[\code{\link{GtkReliefStyle}}]  a \code{\link{GtkReliefStyle}} indicating the relief style used
 for \code{tool.item}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

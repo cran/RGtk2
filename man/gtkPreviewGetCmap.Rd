@@ -9,6 +9,5 @@ function is deprecated, and you should use
 }
 \usage{gtkPreviewGetCmap()}
 \value{[\code{\link{GdkColormap}}] the colormap for previews.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

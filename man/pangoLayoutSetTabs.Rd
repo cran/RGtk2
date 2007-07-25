@@ -10,6 +10,5 @@ free your copy of \code{tabs} yourself.}
 \item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}}
 \item{\code{tabs}}{[\code{\link{PangoTabArray}}]  a \code{\link{PangoTabArray}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

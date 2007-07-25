@@ -12,6 +12,5 @@ the buildable.}
 \item{\code{data}}{[R object]  user data that will be passed in to parser functions}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

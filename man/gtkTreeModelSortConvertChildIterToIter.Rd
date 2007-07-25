@@ -12,6 +12,5 @@ the row pointed at by \code{child.iter}.}
 A list containing the following elements:
 \item{\code{sort.iter}}{[\code{\link{GtkTreeIter}}]  An uninitialized \code{\link{GtkTreeIter}}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

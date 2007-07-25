@@ -12,6 +12,5 @@ window is used.}
 \item{\code{height}}{[integer] the height of the new pixmap in pixels.}
 }
 \value{[\code{\link{GdkBitmap}}] the \code{\link{GdkBitmap}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

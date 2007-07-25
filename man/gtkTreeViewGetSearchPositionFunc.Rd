@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkTreeViewSearchPositionFunc}}]  the currently used function for positioning the search dialog.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

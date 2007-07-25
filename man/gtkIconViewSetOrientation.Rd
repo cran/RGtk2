@@ -9,6 +9,5 @@ are drawn beside the icons instead of below.}
 \item{\code{orientation}}{[\code{\link{GtkOrientation}}]  the relative position of texts and icons }
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@
 \item{\code{sorted}}{[logical]  \code{TRUE} if \code{spans} is sorted wrt. the y coordinate}
 \item{\code{data}}{[R object]  data to pass to \code{function}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

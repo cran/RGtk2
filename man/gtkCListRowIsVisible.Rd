@@ -11,6 +11,5 @@ Checks how the specified row is visible.
 \item{\code{row}}{[integer] The row to query.}
 }
 \value{[\code{\link{GtkVisibility}}] A \code{\link{GtkVisibility}} value that tells you how the row is visible.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

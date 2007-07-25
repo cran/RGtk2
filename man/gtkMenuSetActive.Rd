@@ -9,6 +9,5 @@
 \item{\code{index}}{[numeric] the index of the menu item to select.  Index values are from
 0 to n-1.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

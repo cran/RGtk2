@@ -9,6 +9,5 @@
 }
 \details{This function is called by the drag source.  }
 \value{[\code{\link{GdkDragContext}}]  a newly created \code{\link{GdkDragContext}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

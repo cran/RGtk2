@@ -17,6 +17,5 @@ visual rather than logical (such as buttons for text justification).}
 }
 \details{If the direction is set to \code{GTK_TEXT_DIR_NONE}, then the value
 set by \code{\link{gtkWidgetSetDefaultDirection}} will be used.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

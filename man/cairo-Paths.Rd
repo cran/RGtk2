@@ -59,7 +59,6 @@ See \code{\link{CairoPathData}} for details.
 }
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-Paths.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@ when an object receives focus.}
 \arguments{\item{\code{focus.tracker}}{[AtkEventListener]  Function to be added to the list of functions to be called
 when an object receives focus.}}
 \value{[numeric]  added focus tracker id, or 0 on failure.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -23,6 +23,5 @@ This function is provided primarily to allow compatibility wrappers
 for older API's, and is not expected to be useful for applications.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

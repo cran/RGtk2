@@ -7,6 +7,5 @@ itself. Contrast with \code{\link{gdkWindowMergeChildShapes}} which includes
 the shape mask of \code{window} in the masks to be merged.}
 \usage{gdkWindowSetChildShapes(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

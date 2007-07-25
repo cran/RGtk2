@@ -13,6 +13,5 @@ effect if called at other times.}
        \code{text}.}
 \item{\code{cursor.index}}{[integer]  the byte index of the insertion cursor within \code{text}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

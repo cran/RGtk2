@@ -8,6 +8,5 @@
 \item{\code{object}}{[\code{\link{GtkScrolledWindow}}]  a \code{\link{GtkScrolledWindow}}}
 \item{\code{type}}{[\code{\link{GtkShadowType}}]  kind of shadow to draw around scrolled window contents}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

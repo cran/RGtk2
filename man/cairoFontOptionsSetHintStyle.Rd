@@ -10,6 +10,5 @@ See the documentation for \code{\link{CairoHintStyle}} for full details.}
 \item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}}
 \item{\code{hint.style}}{[\code{\link{CairoHintStyle}}]  the new hint style}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

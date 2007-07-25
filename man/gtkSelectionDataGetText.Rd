@@ -7,6 +7,5 @@
 \value{[raw]  if the selection data contained a recognized
   text type and it could be converted to UTF-8, a newly allocated
   string containing the converted text, otherwise \code{NULL}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

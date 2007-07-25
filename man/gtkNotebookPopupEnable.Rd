@@ -5,6 +5,5 @@
 the bookmarks, a menu with all the pages will be popped up.}
 \usage{gtkNotebookPopupEnable(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

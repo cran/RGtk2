@@ -12,6 +12,5 @@ will be used, if it is set.}
 \item{\code{sort.column.id}}{[integer]  the sort column id to set}
 \item{\code{order}}{[\code{\link{GtkSortType}}]  The sort order of the column}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

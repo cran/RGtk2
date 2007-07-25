@@ -18,6 +18,5 @@ define the metadata for the resource pointed by \code{uri}.
   Since  2.10}
 \value{[logical]  \code{TRUE} if the new item was successfully added
   to the recently used resources list}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

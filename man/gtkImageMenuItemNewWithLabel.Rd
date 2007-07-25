@@ -5,6 +5,5 @@
 \usage{gtkImageMenuItemNewWithLabel(label, show = TRUE)}
 \arguments{\item{\code{label}}{[character]  the text of the menu item.}}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImageMenuItem}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

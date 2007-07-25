@@ -19,7 +19,6 @@ GDK does not wrap the Cairo API, instead it allows to create Cairo
 contexts which can be used to draw on GDK drawables. Additional
 functions allow to convert GDK's rectangles and regions into
 Cairo paths and to use pixbufs as sources for drawing operations.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-Cairo-Interaction.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

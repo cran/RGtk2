@@ -6,6 +6,5 @@
 \usage{gtkAdjustmentGetValue(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkAdjustment}}]  a \code{\link{GtkAdjustment}}}}
 \value{[numeric]  The current value of the adjustment.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

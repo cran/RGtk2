@@ -5,6 +5,5 @@
 \usage{gtkLabelGetJustify(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}}
 \value{[\code{\link{GtkJustification}}]  \code{\link{GtkJustification}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

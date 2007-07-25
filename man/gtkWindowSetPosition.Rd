@@ -9,6 +9,5 @@ the window to be repositioned to satisfy the new constraint.}
 \item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}.}
 \item{\code{position}}{[\code{\link{GtkWindowPosition}}]  a position constraint.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

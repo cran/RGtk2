@@ -9,6 +9,5 @@ See \code{\link{pangoLayoutSetAutoDir}}.}
 \details{  Since  1.4}
 \value{[logical]  \code{TRUE} if the bidirectional base direction
   is computed from the layout's contents, \code{FALSE} otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

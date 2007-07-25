@@ -7,6 +7,5 @@ Causes all tooltips in \code{tooltips} to become inactive. Any widgets that have
 }
 \usage{gtkTooltipsDisable(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTooltips}}] a \code{\link{GtkTooltips}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

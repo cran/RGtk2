@@ -103,7 +103,6 @@ configuration should assign keyvals to all keys.
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkCellRendererAccel.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

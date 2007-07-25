@@ -19,6 +19,5 @@ path cannot be represented as a local filename.  This
 function will also return \code{NULL} if the file chooser was unable to load the
 last folder that was requested from it; for example, as would be for calling
 \code{\link{gtkFileChooserSetCurrentFolder}} on a nonexistent folder.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

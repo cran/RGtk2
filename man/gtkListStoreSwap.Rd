@@ -10,6 +10,5 @@ unsorted stores.}
 \item{\code{b}}{[\code{\link{GtkTreeIter}}]  Another \code{\link{GtkTreeIter}}.}
 }
 \details{  Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

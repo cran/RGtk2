@@ -5,6 +5,5 @@
 \usage{gtkEntryGetWidthChars(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}}
 \value{[integer]  number of chars to request space for, or negative if unset}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

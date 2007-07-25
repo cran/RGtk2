@@ -12,6 +12,5 @@ is intended principally for use in the implementation of
   Since  2.4}
 \value{[\code{\link{GtkFileFilterFlags}}]  bitfield of flags indicating needed fields when
   calling \code{\link{gtkFileFilterFilter}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

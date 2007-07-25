@@ -80,7 +80,6 @@ Whether to display an "inconsistent" state.  Default value: FALSE
 Size of check or radio indicator.  Allowed values: >= 0  Default value: 12
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkCheckMenuItem.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

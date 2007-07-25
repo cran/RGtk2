@@ -6,6 +6,5 @@
 \usage{gtkNotebookGetShowTabs(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}}
 \value{[logical]  \code{TRUE} if the tabs are shown}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

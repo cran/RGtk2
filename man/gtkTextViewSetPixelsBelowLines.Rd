@@ -9,6 +9,5 @@ by tags applied to \code{text.view}'s buffer.}
 \item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}
 \item{\code{pixels.below.lines}}{[integer]  pixels below paragraphs }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

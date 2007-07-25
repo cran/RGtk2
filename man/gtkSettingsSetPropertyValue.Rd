@@ -9,6 +9,5 @@
 \item{\code{name}}{[character] }
 \item{\code{svalue}}{[\code{\link{GtkSettingsValue}}] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

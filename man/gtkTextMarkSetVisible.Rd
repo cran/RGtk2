@@ -11,6 +11,5 @@ Marks are not visible by default.}
 \item{\code{object}}{[\code{\link{GtkTextMark}}]  a \code{\link{GtkTextMark}}}
 \item{\code{setting}}{[logical]  visibility of mark}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

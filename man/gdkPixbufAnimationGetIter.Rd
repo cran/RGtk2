@@ -38,6 +38,5 @@ area\_updated signal.
   
 A delay time of -1 is possible, indicating "infinite."  }
 \value{[\code{\link{GdkPixbufAnimationIter}}]  an iterator to move over the animation}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

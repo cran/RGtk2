@@ -16,6 +16,5 @@ A list containing the following elements:
 valid iterator pointing to a visible row in child model.}
 \item{\code{filter.iter}}{[\code{\link{GtkTreeIter}}]  An uninitialized \code{\link{GtkTreeIter}}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

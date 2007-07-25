@@ -10,6 +10,5 @@ given by \code{new.matrix} then applying the original transformation.}
 \item{\code{new.matrix}}{[\code{\link{PangoMatrix}}]  a \code{\link{PangoMatrix}}}
 }
 \details{  Since  1.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

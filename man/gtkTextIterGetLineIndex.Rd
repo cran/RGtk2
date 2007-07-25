@@ -9,6 +9,5 @@ number of bytes to represent.}
 \usage{gtkTextIterGetLineIndex(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[integer]  distance from start of line, in bytes}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

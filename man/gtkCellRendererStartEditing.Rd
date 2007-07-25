@@ -14,6 +14,5 @@
 \item{\code{flags}}{[\code{\link{GtkCellRendererState}}]  render flags}
 }
 \value{[\code{\link{GtkCellEditable}}]  A new \code{\link{GtkCellEditable}}, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

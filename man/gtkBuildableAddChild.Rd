@@ -11,6 +11,5 @@ describing how the child should be added.}
 \item{\code{type}}{[character]  kind of child or \code{NULL}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

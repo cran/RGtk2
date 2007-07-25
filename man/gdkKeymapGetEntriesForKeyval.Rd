@@ -21,6 +21,5 @@ A list containing the following elements:
 \item{\code{keys}}{[\code{\link{GdkKeymapKey}}]  return location for a list of \code{\link{GdkKeymapKey}}}
 \item{\code{n.keys}}{[integer]  return location for number of elements in returned list}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

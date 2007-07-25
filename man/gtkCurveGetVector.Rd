@@ -11,6 +11,5 @@
 A list containing the following elements:
 \item{\code{vector}}{[numeric] returns the points.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

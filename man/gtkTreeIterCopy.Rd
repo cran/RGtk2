@@ -7,6 +7,5 @@ the structs by value (\code{GtkTreeIter new_iter = iter;}).}
 \usage{gtkTreeIterCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeIter}}]  A \code{\link{GtkTreeIter}}.}}
 \value{[\code{\link{GtkTreeIter}}]  a newly-allocated copy of \code{iter}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

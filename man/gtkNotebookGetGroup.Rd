@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}}
 \details{  Since  2.12}
 \value{[R object]  the group identificator, or \code{NULL} if none is set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

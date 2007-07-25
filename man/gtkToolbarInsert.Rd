@@ -11,6 +11,5 @@ negative, the item is appended to the end of the toolbar.}
 \item{\code{pos}}{[integer]  the position of the new item}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,6 +6,5 @@ See \code{\link{gtkLabelSetLineWrap}}.}
 \usage{gtkLabelGetLineWrap(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}}
 \value{[logical]  \code{TRUE} if the lines of the label are automatically wrapped.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

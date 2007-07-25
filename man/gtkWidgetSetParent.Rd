@@ -12,6 +12,5 @@ to reflect its new location. The opposite function is
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{parent}}{[\code{\link{GtkWidget}}]  parent container}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

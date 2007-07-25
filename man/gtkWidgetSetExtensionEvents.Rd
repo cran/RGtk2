@@ -8,6 +8,5 @@ and \code{\link{gdkInputSetExtensionEvents}}.}
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{mode}}{[\code{\link{GdkExtensionMode}}]  bitfield of extension events to receive}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

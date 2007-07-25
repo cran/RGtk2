@@ -13,6 +13,5 @@ be optimized.}
 \item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}
 \item{\code{where}}{[\code{\link{GtkTextIter}}]  where to put the cursor}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

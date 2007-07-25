@@ -9,6 +9,5 @@ widget. See \code{\link{gtkFileChooserSetPreviewWidget}}.}
 \value{[char]  the filename to preview, or \code{NULL} if no file
  is selected, or if the selected file cannot be represented
  as a local filename}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

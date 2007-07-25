@@ -7,6 +7,5 @@ label. See \code{\link{gtkLabelSetMnemonicWidget}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}}
 \value{[\code{\link{GtkWidget}}]  the target of the label's mnemonic, or \code{NULL} if none
               has been set and the default algorithm will be used.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

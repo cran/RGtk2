@@ -12,6 +12,5 @@ explanations of the arguments.}
 \item{\code{cap.style}}{[\code{\link{GdkCapStyle}}]  the manner in which the ends of lines are drawn.}
 \item{\code{join.style}}{[\code{\link{GdkJoinStyle}}]  the in which lines are joined together.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -37,6 +37,5 @@ If you want a notebook to accept drags from other widgets,
 you will have to set your own DnD code to do it.  
 
   Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

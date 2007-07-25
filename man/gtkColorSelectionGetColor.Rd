@@ -12,6 +12,5 @@ Sets \code{color} to be the current color in the GtkColorSelection widget.
 A list containing the following elements:
 \item{\code{color}}{[numeric]  a list of 4 \code{numeric} to fill in with the current color.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

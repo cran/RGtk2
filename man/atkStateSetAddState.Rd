@@ -9,6 +9,5 @@ it is not already present.}
 \item{\code{type}}{[\code{\link{AtkStateType}}]  an \code{\link{AtkStateType}}}
 }
 \value{[logical]  \code{TRUE} if  the state for \code{type} is not already in \code{set}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

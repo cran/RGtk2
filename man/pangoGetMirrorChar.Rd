@@ -17,6 +17,5 @@ A list containing the following elements:
 filled in, \code{FALSE} otherwise}
 \item{\code{mirrored.ch}}{[numeric]  location to store the mirrored character}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

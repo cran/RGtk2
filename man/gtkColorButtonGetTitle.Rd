@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkColorButton}}]  a \code{\link{GtkColorButton}}}}
 \details{  Since  2.4}
 \value{[character]  An internal string, do not free the return value}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

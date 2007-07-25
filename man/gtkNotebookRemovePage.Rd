@@ -10,6 +10,5 @@ in the notebook.}
            from 0. If -1, the last page will
            be removed.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

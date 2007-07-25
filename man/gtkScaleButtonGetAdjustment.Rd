@@ -7,6 +7,5 @@ See \code{\link{gtkRangeGetAdjustment}} for details.}
 \arguments{\item{\code{object}}{[\code{\link{GtkScaleButton}}]  a \code{\link{GtkScaleButton}}}}
 \details{  Since  2.12}
 \value{[\code{\link{GtkAdjustment}}]  the adjustment associated with the scale}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

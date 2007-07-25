@@ -14,6 +14,5 @@ obtain the defaults from \code{\link{gtkTextViewGetDefaultAttributes}}.}
 effects of any tags present at \code{iter}. If any tags affected \code{values},
 the function returns \code{TRUE}.  }
 \value{[logical]  \code{TRUE} if \code{values} was modified}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

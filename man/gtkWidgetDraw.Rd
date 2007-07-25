@@ -17,6 +17,5 @@ a better choice if you want to draw a region of a widget.
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{area}}{[\code{\link{GdkRectangle}}]  area to draw}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

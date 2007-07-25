@@ -7,6 +7,5 @@ Allows the user to see your tooltips as they navigate your application.
 }
 \usage{gtkTooltipsEnable(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTooltips}}] a \code{\link{GtkTooltips}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -19,6 +19,5 @@ scrollbars. The default is \code{GTK_CORNER_TOP_LEFT}, meaning the child is
 in the top left, with the scrollbars underneath and to the right.
 Other values in \code{\link{GtkCornerType}} are \code{GTK_CORNER_TOP_RIGHT},
 \code{GTK_CORNER_BOTTOM_LEFT}, and \code{GTK_CORNER_BOTTOM_RIGHT}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

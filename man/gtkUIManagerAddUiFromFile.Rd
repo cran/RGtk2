@@ -17,6 +17,5 @@ A list containing the following elements:
   the return value is 0.}
 \item{\code{error}}{[\code{\link{GError}}]  return location for an error}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

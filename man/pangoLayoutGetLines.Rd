@@ -10,6 +10,5 @@ to modify the contents of the lines (glyphs, glyph widths, etc.).  }
 points to internal data of the \code{\link{PangoLayout}} and must be used with
 care. It will become invalid on any change to the layout's
 text or properties.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

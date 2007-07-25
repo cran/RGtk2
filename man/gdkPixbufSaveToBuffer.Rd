@@ -25,6 +25,5 @@ A list containing the following elements:
 \item{\code{buffer.size}}{[numeric]  location to receive the size of the new buffer.}
 \item{\code{error}}{[\code{\link{GError}}]  return location for error, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

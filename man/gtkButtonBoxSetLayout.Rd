@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkButtonBox}}] a \code{\link{GtkButtonBox}}.}
 \item{\code{layout.style}}{[\code{\link{GtkButtonBoxStyle}}] the new layout style.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

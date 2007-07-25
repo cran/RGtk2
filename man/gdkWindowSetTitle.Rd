@@ -11,6 +11,5 @@ user-readable strings in GDK/GTK+). \code{title} may not be \code{NULL}.}
 \item{\code{object}}{[\code{\link{GdkWindow}}]  a toplevel \code{\link{GdkWindow}}}
 \item{\code{title}}{[character]  title of \code{window}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,6 +12,5 @@ This does not have any visible effects for lists.}
 \item{\code{indentation}}{[integer]  the amount, in pixels, of extra indentation in \code{tree.view}.}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ instance with \code{\link{gtkPlugNew}}. }
 \details{The \code{\link{GtkSocket}} must have already be added into a toplevel window 
 before you can make this call.  }
 \value{[\code{\link{GdkNativeWindow}}]  the window ID for the socket}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

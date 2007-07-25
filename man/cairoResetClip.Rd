@@ -13,6 +13,5 @@ exact bounds of the target surface.}
 higher-level code which calls \code{\link{cairoClip}}. Consider using
 \code{\link{cairoSave}} and \code{\link{cairoRestore}} around \code{\link{cairoClip}} as a more
 robust means of temporarily restricting the clip region.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

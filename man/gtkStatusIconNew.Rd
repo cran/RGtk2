@@ -5,6 +5,5 @@
 \usage{gtkStatusIconNew()}
 \details{  Since  2.10}
 \value{[\code{\link{GtkStatusIcon}}]  a new \code{\link{GtkStatusIcon}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

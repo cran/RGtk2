@@ -8,6 +8,5 @@ path within the cairo context.}
 \usage{cairoFillPreserve(cr)}
 \arguments{\item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}}
 \details{See \code{\link{cairoSetFillRule}} and \code{\link{cairoFill}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

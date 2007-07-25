@@ -14,6 +14,5 @@ of the text.}
 \item{\code{end.pos}}{[integer] the end position.}
 }
 \value{[character] the characters in the indicated region.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

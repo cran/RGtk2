@@ -12,6 +12,5 @@ A list containing the following elements:
 \item{retval}{[logical]  \code{TRUE} if there was a state field in the event }
 \item{\code{state}}{[\code{\link{GdkModifierType}}]  return location for state}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

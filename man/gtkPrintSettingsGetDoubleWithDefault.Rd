@@ -14,6 +14,5 @@ if the value does not represent a floating point number.}
 
   Since  2.10}
 \value{[numeric]  the floating point number associated with \code{key}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

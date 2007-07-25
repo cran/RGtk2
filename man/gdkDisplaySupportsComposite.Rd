@@ -10,6 +10,5 @@ XDamage extensions available.
 
   Since  2.12}
 \value{[logical]  \code{TRUE} if windows may be composited.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

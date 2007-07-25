@@ -15,6 +15,5 @@ Sets the data for a portion of a row.
 \item{\code{y}}{[integer] the row to change.}
 \item{\code{w}}{[integer] the number of pixels in the row to change.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

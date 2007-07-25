@@ -5,6 +5,5 @@
 \usage{gtkTextTagGetPriority(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextTag}}]  a \code{\link{GtkTextTag}}}}
 \value{[integer]  The tag's priority.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

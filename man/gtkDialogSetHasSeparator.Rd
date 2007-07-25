@@ -8,6 +8,5 @@
 \item{\code{object}}{[\code{\link{GtkDialog}}]  a \code{\link{GtkDialog}}}
 \item{\code{setting}}{[logical]  \code{TRUE} to have a separator}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

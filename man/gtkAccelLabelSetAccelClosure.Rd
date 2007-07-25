@@ -8,6 +8,5 @@ must be connected to an accelerator group; see \code{\link{gtkAccelGroupConnect}
 \item{\code{object}}{[\code{\link{GtkAccelLabel}}]  a \code{\link{GtkAccelLabel}}}
 \item{\code{accel.closure}}{[\code{\link{GClosure}}]  the closure to monitor for accelerator changes.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

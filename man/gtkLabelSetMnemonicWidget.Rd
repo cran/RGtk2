@@ -19,6 +19,5 @@ set it explicitly using this function.}
 GtkWidget::mnemonic-activate signal on it. The default handler for 
 this signal will activate the widget if there are no mnemonic collisions 
 and toggle focus between the colliding widgets otherwise.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

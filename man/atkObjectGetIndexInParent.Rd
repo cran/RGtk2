@@ -6,6 +6,5 @@ accessible does not have an accessible parent.}
 \usage{atkObjectGetIndexInParent(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}}
 \value{[integer]  an integer which is the index of the accessible in its parent}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

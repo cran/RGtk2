@@ -21,6 +21,5 @@ So a full valid accelerator path may look like:
 \item{\code{accel.key}}{[numeric]   the accelerator key}
 \item{\code{accel.mods}}{[\code{\link{GdkModifierType}}]  the accelerator modifiers}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

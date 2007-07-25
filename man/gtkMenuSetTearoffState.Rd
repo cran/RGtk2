@@ -10,6 +10,5 @@ or reattached.}
 \item{\code{object}}{[\code{\link{GtkMenu}}] a \code{\link{GtkMenu}}.}
 \item{\code{torn.off}}{[logical] If \code{TRUE}, menu is displayed as a tearoff menu.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

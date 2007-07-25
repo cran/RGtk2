@@ -15,6 +15,5 @@ probably only used within the GTK+ library itself for menu items and such.
 \item{\code{string}}{[character] The string you want to parse for underlines.}
 }
 \value{[numeric] The lowercase keyval of the last character underlined.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

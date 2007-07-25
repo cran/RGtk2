@@ -12,6 +12,5 @@ the \code{\link{GdkGC}}.}
 \item{\code{x2}}{[integer]  the x coordinate of the end point.}
 \item{\code{y2}}{[integer]  the y coordinate of the end point.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

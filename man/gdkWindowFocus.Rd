@@ -8,6 +8,5 @@ should be used on a \code{\link{GtkWindow}}, rather than calling this function.}
 \item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}
 \item{\code{timestamp}}{[numeric]  timestamp of the event triggering the window focus}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

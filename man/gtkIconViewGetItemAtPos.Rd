@@ -20,6 +20,5 @@ A list containing the following elements:
 \item{\code{cell}}{[\code{\link{GtkCellRenderer}}]  Return location for the renderer responsible for the cell
   at (\code{x}, \code{y}), or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

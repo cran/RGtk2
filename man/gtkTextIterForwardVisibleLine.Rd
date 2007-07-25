@@ -9,6 +9,5 @@ already at the end of the buffer.}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \details{  Since  2.8}
 \value{[logical]  whether \code{iter} can be dereferenced}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

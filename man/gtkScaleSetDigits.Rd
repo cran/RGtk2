@@ -10,6 +10,5 @@ retrieved value matches the value the user saw.}
 \item{\code{digits}}{[integer] the number of decimal places to display, e.g. use 1 to display 1.0,
 2 to display 1.00 etc.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

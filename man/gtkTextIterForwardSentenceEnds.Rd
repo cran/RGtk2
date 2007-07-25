@@ -10,6 +10,5 @@ negative, moves backward instead of forward.}
 \item{\code{count}}{[integer]  number of sentences to move}
 }
 \value{[logical]  \code{TRUE} if \code{iter} moved and is not the end iterator}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

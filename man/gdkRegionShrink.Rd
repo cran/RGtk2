@@ -9,6 +9,5 @@ Positive values shrink the region. Negative values expand it.}
 \item{\code{dx}}{[integer]  the number of pixels to shrink the region horizontally}
 \item{\code{dy}}{[integer]  the number of pixels to shrink the region vertically}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

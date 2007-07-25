@@ -15,7 +15,6 @@
 \code{\link{cairoDeviceToUser}(cr, x, y)}\cr
 \code{\link{cairoDeviceToUserDistance}(cr, dx, dy)}\cr
 }
-\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-Transformations.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

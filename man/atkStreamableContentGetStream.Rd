@@ -9,6 +9,5 @@
 }
 \value{[GIOChannel]  A \code{GIOChannel} which contains the content in the specified mime
 type.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

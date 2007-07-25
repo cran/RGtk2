@@ -17,6 +17,5 @@ space allocated for the \code{\link{GtkAlignment}}.}
 \item{\code{yscale}}{[numeric] the amount that the child widget expands vertically to fill up
 unused space, from 0 to 1. The values are similar to \code{xscale}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

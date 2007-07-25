@@ -10,6 +10,5 @@ the iter at character offset 0.}
 A list containing the following elements:
 \item{\code{iter}}{[\code{\link{GtkTextIter}}]  iterator to initialize}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

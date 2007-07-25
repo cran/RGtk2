@@ -16,6 +16,5 @@ Creates a new \code{\link{GtkItemFactory}}.
 }
 \details{Beware that the returned object does not have a floating reference.  }
 \value{[\code{\link{GtkItemFactory}}]  a new \code{\link{GtkItemFactory}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

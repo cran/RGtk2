@@ -10,6 +10,5 @@ A list containing the following elements:
 \item{\code{min}}{[numeric]  location to store minimum allowed value, or \code{NULL}}
 \item{\code{max}}{[numeric]  location to store maximum allowed value, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -20,6 +20,5 @@ inherited icon themes.
   Since  2.12}
 \value{[\code{\link{GtkIconInfo}}]  a \code{\link{GtkIconInfo}} structure containing information
 about the icon, or \code{NULL} if the icon wasn't found}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

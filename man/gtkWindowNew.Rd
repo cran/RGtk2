@@ -14,6 +14,5 @@ On X11, popup windows are not controlled by the window manager.}
 \details{If you simply want an undecorated window (no window borders), use
 \code{\link{gtkWindowSetDecorated}}, don't use \code{GTK_WINDOW_POPUP}.  }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkWindow}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

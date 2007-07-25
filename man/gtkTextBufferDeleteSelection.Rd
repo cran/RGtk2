@@ -12,6 +12,5 @@ uneditable text).}
 \item{\code{default.editable}}{[logical]  whether the buffer is editable by default}
 }
 \value{[logical]  whether there was a non-empty selection to delete}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

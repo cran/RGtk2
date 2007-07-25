@@ -12,6 +12,5 @@ mnemonic for the button.}
         mnemonic character}
 }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkRadioButton}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

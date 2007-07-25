@@ -9,6 +9,5 @@ place between expander and the child.}
 \item{\code{spacing}}{[integer]  distance between the expander and child in pixels.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

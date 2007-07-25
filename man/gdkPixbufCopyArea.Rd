@@ -14,6 +14,5 @@ pixbuf formats is done automatically.}
 \item{\code{dest.x}}{[integer]  X coordinate within \code{dest.pixbuf}.}
 \item{\code{dest.y}}{[integer]  Y coordinate within \code{dest.pixbuf}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

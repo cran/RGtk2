@@ -5,6 +5,5 @@
 (non-functioning) \code{AtkObjects}.}
 \usage{atkNoOpObjectFactoryNew()}
 \value{[\code{\link{AtkObjectFactory}}]  an instance of an \code{\link{AtkObjectFactory}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

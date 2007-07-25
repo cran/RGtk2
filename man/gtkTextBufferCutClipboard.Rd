@@ -9,6 +9,5 @@ said text if it's editable.}
 \item{\code{clipboard}}{[\code{\link{GtkClipboard}}]  the \code{\link{GtkClipboard}} object to cut to}
 \item{\code{default.editable}}{[logical]  default editability of the buffer}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

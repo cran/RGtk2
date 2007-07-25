@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}.}
 \item{\code{parent.window}}{[\code{\link{GdkWindow}}]  the new parent window.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@
 \item{\code{min}}{[numeric]  minimum allowable value}
 \item{\code{max}}{[numeric]  maximum allowable value}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

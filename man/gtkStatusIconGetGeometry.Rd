@@ -29,6 +29,5 @@ A list containing the following elements:
    at the top or bottom of the screen is horizontal, a panel 
    at the left or right is vertical.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

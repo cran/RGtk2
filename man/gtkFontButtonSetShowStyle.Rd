@@ -8,6 +8,5 @@
 \item{\code{show.style}}{[logical]  \code{TRUE} if font style should be displayed in label.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

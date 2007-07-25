@@ -10,6 +10,5 @@ in the table.}
 }
 \details{\code{tag} must not be in a tag table already, and may not have
 the same name as an already-added tag.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -17,6 +17,5 @@ set of actions changes.}
 }
 \details{This function is called by the drag source.  }
 \value{[logical]  FIXME}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

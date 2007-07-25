@@ -13,6 +13,5 @@ complete.
 \item{\code{object}}{[\code{\link{GtkProgress}}] a \code{\link{GtkProgress}}.}
 \item{\code{activity.mode}}{[logical] a boolean, \code{TRUE} for activity mode.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

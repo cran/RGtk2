@@ -8,6 +8,5 @@ inspection or modification.}
 \details{  Since  1.2}
 \value{[char]  a pointer to the image data of this surface or NULL
 if \code{surface} is not an image surface.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

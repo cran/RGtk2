@@ -8,6 +8,5 @@ baseline of the top of the strikethrough.}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontMetrics}}]  a \code{\link{PangoFontMetrics}} structure}}
 \details{  Since  1.6}
 \value{[integer]  the suggested strikethrough position, in Pango units.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

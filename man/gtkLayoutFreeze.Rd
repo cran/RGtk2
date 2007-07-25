@@ -7,6 +7,5 @@ This is a deprecated function, it doesn't do anything useful.
 }
 \usage{gtkLayoutFreeze(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkLayout}}]  a \code{\link{GtkLayout}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ progress dialog during the print operation.}
 \item{\code{show.progress}}{[logical]  \code{TRUE} to show a progress dialog}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

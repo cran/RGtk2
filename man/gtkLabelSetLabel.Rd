@@ -10,6 +10,5 @@ on the values of the \code{:use-underline}" and
 \item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}
 \item{\code{str}}{[character]  the new text to set for the label}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@ increment the reference count of the returned object.}
 \details{  Since  2.12}
 \value{[\code{\link{GObject}}]  the object named \code{name} or \code{NULL} if it could not be 
    found in the object tree. }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

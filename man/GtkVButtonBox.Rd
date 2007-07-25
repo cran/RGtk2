@@ -43,7 +43,6 @@ GtkVButtonBox does not contain any public fields.
 
 }}}
 \section{Convenient Construction}{\code{gtkVButtonBox} is the equivalent of \code{\link{gtkVButtonBoxNew}}.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkVButtonBox.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

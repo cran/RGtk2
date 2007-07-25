@@ -8,6 +8,5 @@ provide an uri list.}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if \code{targets} include a suitable target for uri lists,
   otherwise \code{FALSE}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

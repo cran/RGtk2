@@ -34,7 +34,6 @@
     on the old pixbuf; the copy function will actually duplicate the
     pixel data in memory and create a new \code{\link{GdkPixbuf}} structure for it.
   }
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk-pixbuf/gdk-pixbuf-creating.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

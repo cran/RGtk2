@@ -8,6 +8,5 @@ and \code{\link{gtkRecentChooserGetUris}}.}
 \details{  Since  2.10}
 \value{[integer]  A positive integer, or -1 meaning that all items are
   returned.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

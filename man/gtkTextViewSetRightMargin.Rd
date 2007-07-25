@@ -8,6 +8,5 @@ Tags in the buffer may override the default.}
 \item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}
 \item{\code{right.margin}}{[integer]  right margin in pixels}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

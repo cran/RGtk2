@@ -10,6 +10,5 @@ and then reread all previously read RC files.}
 \item{\code{force.load}}{[logical]  load whether or not anything changed}
 }
 \value{[logical]  \code{TRUE} if the files were reread.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

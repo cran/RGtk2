@@ -7,6 +7,5 @@ this widget. See also \code{\link{gtkWidgetGetPangoContext}}.}
 \usage{gtkWidgetCreatePangoContext(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \value{[\code{\link{PangoContext}}]  the new \code{\link{PangoContext}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

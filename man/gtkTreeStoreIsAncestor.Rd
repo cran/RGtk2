@@ -10,6 +10,5 @@ parent (or grandparent or great-grandparent) of \code{descendant}.}
 \item{\code{descendant}}{[\code{\link{GtkTreeIter}}]  A valid \code{\link{GtkTreeIter}}}
 }
 \value{[logical]  \code{TRUE}, if \code{iter} is an ancestor of \code{descendant}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

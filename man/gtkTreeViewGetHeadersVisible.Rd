@@ -5,6 +5,5 @@
 \usage{gtkTreeViewGetHeadersVisible(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}.}}
 \value{[logical]  Whether the headers are visible or not.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

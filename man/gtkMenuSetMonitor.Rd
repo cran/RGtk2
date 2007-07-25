@@ -16,6 +16,5 @@ by a \code{\link{GtkMenuPositionFunc}}, since, for very long menus, these coordi
 may extend beyond the monitor boundaries or even the screen boundaries.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

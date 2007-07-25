@@ -228,7 +228,6 @@ Specify how resize events are handled.  Default value: GTK\_RESIZE\_PARENT
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkContainer.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ not have \code{GTK_DIALOG_DESTROY_WITH_PARENT} set.}
 \arguments{\item{\code{dialog}}{[\code{\link{GtkWidget}}]  the widget to use as dialog}}
 \details{  Since  2.6}
 \value{[\code{\link{GtkWidget}}]  a new button widget.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

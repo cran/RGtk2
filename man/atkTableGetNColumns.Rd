@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{AtkTable}}]  a GObject instance that implements AtkTableIface}}
 \value{[integer]  a gint representing the number of columns, or 0
 if value does not implement this interface.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

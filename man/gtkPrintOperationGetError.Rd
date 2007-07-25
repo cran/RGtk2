@@ -15,6 +15,5 @@ handler. The returned \code{\link{GError}} will contain more details on what wen
 A list containing the following elements:
 \item{\code{error}}{[\code{\link{GError}}]  return location for the error}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

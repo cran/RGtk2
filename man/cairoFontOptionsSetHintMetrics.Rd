@@ -10,6 +10,5 @@ See the documentation for \code{\link{CairoHintMetrics}} for full details.}
 \item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}}
 \item{\code{hint.metrics}}{[\code{\link{CairoHintMetrics}}]  the new metrics hinting mode}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

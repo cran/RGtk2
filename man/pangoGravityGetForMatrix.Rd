@@ -8,6 +8,5 @@ in a \code{\link{PangoMatrix}}.}
 \details{  Since  1.16}
 \value{[\code{\link{PangoGravity}}]  the gravity of \code{matrix}, which will never be
 \code{PANGO_GRAVITY_AUTO}, or \code{PANGO_GRAVITY_SOUTH} if \code{matrix} is \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

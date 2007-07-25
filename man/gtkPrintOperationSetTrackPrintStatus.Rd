@@ -14,6 +14,5 @@ and when the print job actually reaches the printer.}
 not be enabled unless needed.  
 
   Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

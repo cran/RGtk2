@@ -12,6 +12,5 @@ Use \code{\link{gtkDragSourceSetIconPixbuf}} instead.}
 \item{\code{pixmap}}{[\code{\link{GdkPixmap}}]  the image data for the icon}
 \item{\code{mask}}{[\code{\link{GdkBitmap}}]  the transparency mask for an image.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

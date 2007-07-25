@@ -6,6 +6,5 @@ was already at the end of the layout, returns \code{FALSE}.}
 \usage{pangoLayoutIterNextCluster(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoLayoutIter}}]  a \code{\link{PangoLayoutIter}}}}
 \value{[logical]  whether motion was possible.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

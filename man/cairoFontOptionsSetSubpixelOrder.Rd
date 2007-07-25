@@ -11,6 +11,5 @@ the display device when rendering with an antialiasing mode of
 \item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}}
 \item{\code{subpixel.order}}{[\code{\link{CairoSubpixelOrder}}]  the new subpixel order}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

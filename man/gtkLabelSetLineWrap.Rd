@@ -14,6 +14,5 @@ wrap at its parent container's width, because GTK+ widgets
 conceptually can't make their requisition depend on the parent
 container's size. For a label that wraps at a specific position,
 set the label's width using \code{\link{gtkWidgetSetSizeRequest}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

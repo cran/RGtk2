@@ -11,6 +11,5 @@ not respond to events, such as the user clicking on it.
 \item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}
 \item{\code{column}}{[integer] The column to make passive, counting from 0.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

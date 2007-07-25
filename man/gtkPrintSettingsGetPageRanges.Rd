@@ -9,6 +9,5 @@
 }
 \details{  Since  2.10}
 \value{[\code{\link{GtkPageRange}}]  a list of \code{\link{GtkPageRange}}s. }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

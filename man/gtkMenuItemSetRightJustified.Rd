@@ -12,6 +12,5 @@ or Arabic, right-justified-menu-items appear at the left.)}
 \item{\code{right.justified}}{[logical]  if \code{TRUE} the menu item will appear at the 
   far right if added to a menu bar.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

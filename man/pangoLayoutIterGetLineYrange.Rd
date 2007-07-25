@@ -15,6 +15,5 @@ A list containing the following elements:
 \item{\code{y0}}{[integer]  start of line}
 \item{\code{y1}}{[integer]  end of line}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,6 +5,5 @@
 \usage{gtkEntryGetHasFrame(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}}
 \value{[logical]  whether the entry has a beveled frame}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

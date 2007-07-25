@@ -8,6 +8,5 @@ itself.}
 \usage{gtkTextIterGetTags(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}}
 \value{[list]  list of \code{\link{GtkTextTag}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

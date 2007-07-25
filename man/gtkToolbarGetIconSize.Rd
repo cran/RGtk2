@@ -5,6 +5,5 @@
 \usage{gtkToolbarGetIconSize(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}}}
 \value{[\code{\link{GtkIconSize}}]  the current icon size for the icons on the toolbar.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

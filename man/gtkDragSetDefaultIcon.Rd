@@ -16,6 +16,5 @@ via the stock system by changing the stock pixbuf for \code{GTK_STOCK_DND}.
 \item{\code{hot.x}}{[integer]  The X offset within \code{widget} of the hotspot.}
 \item{\code{hot.y}}{[integer]  The Y offset within \code{widget} of the hotspot.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

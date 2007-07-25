@@ -13,6 +13,5 @@ not work in multihead environments.}
 \usage{gtkColorSelectionSetChangePaletteHook(func)}
 \arguments{\item{\code{func}}{[\code{\link{GtkColorSelectionChangePaletteFunc}}]  a function to call when the custom palette needs saving.}}
 \value{[\code{\link{GtkColorSelectionChangePaletteFunc}}]  the previous change palette hook (that was replaced).}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

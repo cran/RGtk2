@@ -52,7 +52,6 @@ Appearance of the shadow surrounding the arrow.  Default value: GTK\_SHADOW\_OUT
 Amount of space used up by arrow.  Allowed values: [0,1]  Default value: 0.7
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkArrow.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

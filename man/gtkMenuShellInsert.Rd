@@ -10,6 +10,5 @@ indicated by \code{position}. }
 \item{\code{position}}{[integer] The position in the item list where \code{child} is added.
 Positions are numbered from 0 to n-1.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

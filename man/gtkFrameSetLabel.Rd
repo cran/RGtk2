@@ -8,6 +8,5 @@ the current label is removed.}
 \item{\code{object}}{[\code{\link{GtkFrame}}]  a \code{\link{GtkFrame}}}
 \item{\code{label}}{[character]  the text to use as the label of the frame}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ Does \emph{not} destroy the widget, however.}
 \item{\code{proxy}}{[\code{\link{GtkWidget}}]  the proxy widget}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

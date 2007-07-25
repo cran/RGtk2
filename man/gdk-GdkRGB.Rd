@@ -69,9 +69,9 @@ rgb_example <- function()
   # Set up the RGB buffer.
   x <- rep(0:(IMAGE_WIDTH-1), IMAGE_HEIGHT)
   y <- rep(0:(IMAGE_HEIGHT-1), IMAGE_WIDTH, each = T)
-  red <- x - x %% 32
-  green <- (x / 32) * 4 + y - y %% 32
-  blue <- y - y %% 32
+  red <- x - x \%\% 32
+  green <- (x / 32) * 4 + y - y \%\% 32
+  blue <- y - y \%\% 32
   buf <- rbind(red, green, blue)
   
   # connect to expose event
@@ -114,7 +114,6 @@ only.}
 }
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-GdkRGB.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

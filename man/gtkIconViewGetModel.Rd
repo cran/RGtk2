@@ -7,6 +7,5 @@ model is unset.}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconView}}]  a \code{\link{GtkIconView}}}}
 \details{  Since  2.6 }
 \value{[\code{\link{GtkTreeModel}}]  A \code{\link{GtkTreeModel}}, or \code{NULL} if none is currently being used.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

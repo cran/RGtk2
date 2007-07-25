@@ -10,6 +10,5 @@ reused for future invocations of this function.}
 \item{\code{...}}{ value of first property, followed by more properties, \code{NULL}-terminated}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

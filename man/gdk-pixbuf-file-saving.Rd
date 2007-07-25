@@ -35,7 +35,6 @@ will fail with the same error.
 \emph{Returns:} [logical] \code{TRUE} if successful, \code{FALSE} (with \code{error} set) if failed.
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk-pixbuf/gdk-pixbuf-file-saving.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

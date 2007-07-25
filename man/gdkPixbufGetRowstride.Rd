@@ -6,6 +6,5 @@ and the start of the next row.}
 \usage{gdkPixbufGetRowstride(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbuf}}]  A pixbuf.}}
 \value{[integer]  Distance between row starts.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

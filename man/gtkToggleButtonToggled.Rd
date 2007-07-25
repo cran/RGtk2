@@ -6,6 +6,5 @@ signal on the \code{\link{GtkToggleButton}}. There is no good reason for an
 application ever to call this function.}
 \usage{gtkToggleButtonToggled(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkToggleButton}}] a \code{\link{GtkToggleButton}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

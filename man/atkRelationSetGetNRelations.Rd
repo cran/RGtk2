@@ -5,6 +5,5 @@
 \usage{atkRelationSetGetNRelations(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkRelationSet}}]  an \code{\link{AtkRelationSet}}}}
 \value{[integer]  an integer representing the number of relations in the set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

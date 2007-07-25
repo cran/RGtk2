@@ -13,6 +13,5 @@ A "changed" signal will be emitted if the value is changed.}
 \item{\code{lower}}{[numeric] the lower value.}
 \item{\code{upper}}{[numeric] the upper value.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

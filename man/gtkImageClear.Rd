@@ -5,6 +5,5 @@
 \usage{gtkImageClear(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkImage}}]  a \code{\link{GtkImage}}}}
 \details{  Since  2.8}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

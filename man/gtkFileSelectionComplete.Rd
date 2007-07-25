@@ -13,6 +13,5 @@ list those directories which have been partially matched.
 \item{\code{object}}{[\code{\link{GtkFileSelection}}] a \code{\link{GtkFileSelection}}.}
 \item{\code{pattern}}{[character] a string of characters which may or may not match any filenames in the current directory.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

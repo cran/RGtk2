@@ -5,6 +5,5 @@
 \usage{gtkSelectionDataCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkSelectionData}}]  a pointer to a \code{\link{GtkSelectionData}} structure.}}
 \value{[\code{\link{GtkSelectionData}}]  a pointer to a copy of \code{data}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,6 +18,5 @@ widgets were added to \code{box}.}
 the widget is packed into \code{box}.  A child widget at some position 
 in the list will be packed just after all other widgets of the 
 same packing type that appear earlier in the list.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

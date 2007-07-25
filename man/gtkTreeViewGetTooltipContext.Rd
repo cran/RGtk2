@@ -27,6 +27,5 @@ A list containing the following elements:
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  a pointer to receive a \code{\link{GtkTreePath}} or \code{NULL}}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  a pointer to receive a \code{\link{GtkTreeIter}} or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

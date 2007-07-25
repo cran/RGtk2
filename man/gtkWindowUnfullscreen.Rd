@@ -13,6 +13,5 @@ state. Just don't write code that crashes if not.}
 on \code{\link{GtkWidget}}.  
 
   Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

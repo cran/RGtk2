@@ -10,6 +10,5 @@
 
   Since  2.10}
 \value{[\code{\link{GtkPrintSettings}}]  the current print settings of \code{op}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

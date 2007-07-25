@@ -9,6 +9,5 @@ the users attention to the window. This function sets this hint.}
 \item{\code{setting}}{[logical]  \code{TRUE} to mark this window as urgent}
 }
 \details{  Since  2.8}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

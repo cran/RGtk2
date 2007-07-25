@@ -18,6 +18,5 @@ A list containing the following elements:
 \item{\code{right}}{[integer]  location to store the width of the frame at the returns, or \code{NULL}}
 \item{\code{bottom}}{[integer]  location to store the height of the frame at the bottom, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

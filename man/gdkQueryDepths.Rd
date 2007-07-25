@@ -12,6 +12,5 @@ A list containing the following elements:
 \item{\code{depths}}{[integer]  return location for available depths }
 \item{\code{count}}{[integer]  return location for number of available depths}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

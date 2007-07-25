@@ -9,6 +9,5 @@
 \item{\code{segs}}{[\code{\link{GdkSegment}}]  a list of \code{\link{GdkSegment}} structures specifying the start and 
   end points of the lines to be drawn.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

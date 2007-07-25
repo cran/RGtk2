@@ -7,6 +7,5 @@ override the defaults. The returned list will be \code{NULL} if
 \usage{gtkTextViewGetTabs(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}}
 \value{[\code{\link{PangoTabArray}}]  copy of default tab list.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

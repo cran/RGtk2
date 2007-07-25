@@ -8,6 +8,5 @@ count issues to avoid destroying the widget.}
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{new.parent}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkContainer}} to move the widget into}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

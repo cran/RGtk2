@@ -10,6 +10,5 @@ recently used item \code{info}.}
 }
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the group was found.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

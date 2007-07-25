@@ -12,6 +12,5 @@ the same as the current keyboard state.}
 \item{\code{key}}{[\code{\link{GdkKeymapKey}}]  a \code{\link{GdkKeymapKey}} with keycode, group, and level initialized}
 }
 \value{[numeric]  a keyval, or 0 if none was mapped to the given \code{key}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

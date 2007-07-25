@@ -12,6 +12,5 @@ moved to the end of the level.}
 \item{\code{position}}{[\code{\link{GtkTreeIter}}]  A \code{\link{GtkTreeIter}} or \code{NULL}.}
 }
 \details{  Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

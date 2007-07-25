@@ -11,6 +11,5 @@ Determines the width of a given wide-character string.
 \item{\code{text}}{[numeric]  the text to measure.}
 }
 \value{[integer]  the width of the string in pixels.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

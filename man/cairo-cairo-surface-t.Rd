@@ -98,7 +98,6 @@ New entries may be added in future versions.
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-cairo-surface-t.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

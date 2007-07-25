@@ -15,6 +15,5 @@ done.
 \item{\code{start}}{[integer] the index of the first item to remove.}
 \item{\code{end}}{[integer] the index of the lest item to remove plus one.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

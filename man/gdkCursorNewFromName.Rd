@@ -11,6 +11,5 @@ theme.}
 \details{  Since  2.8}
 \value{[\code{\link{GdkCursor}}]  a new \code{\link{GdkCursor}}, or \code{NULL} if there is no cursor with 
   the given name }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

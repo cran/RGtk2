@@ -9,6 +9,5 @@ again before your code which assumes deiconification gets to run.}
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \details{You can track iconification via the "window\_state\_event" signal
 on \code{\link{GtkWidget}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

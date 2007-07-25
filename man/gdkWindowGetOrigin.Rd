@@ -13,6 +13,5 @@ A list containing the following elements:
 \item{\code{x}}{[integer]  return location for X coordinate}
 \item{\code{y}}{[integer]  return location for Y coordinate}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -26,6 +26,5 @@ A list containing the following elements:
    zero, or the number of characters in the grapheme. 
    0 represents the trailing edge of the grapheme.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

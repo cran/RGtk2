@@ -5,6 +5,5 @@
 \usage{pangoLayoutGetText(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}}}
 \value{[char]  the text in the \code{layout}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

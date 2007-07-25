@@ -8,6 +8,5 @@ the spin button.}
 \item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}} }
 \item{\code{numeric}}{[logical]  flag indicating if only numeric entry is allowed. }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

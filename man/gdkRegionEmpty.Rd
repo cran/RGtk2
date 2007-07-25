@@ -5,6 +5,5 @@
 \usage{gdkRegionEmpty(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkRegion}}]  a \code{\link{GdkRegion}}}}
 \value{[logical]  \code{TRUE} if \code{region} is empty.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

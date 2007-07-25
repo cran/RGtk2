@@ -9,6 +9,5 @@ See \code{\link{gtkStatusIconNewFromFile}} for details.}
 \item{\code{filename}}{[character]  a filename}
 }
 \details{  Since  2.10 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

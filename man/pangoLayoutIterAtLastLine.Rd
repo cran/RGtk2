@@ -5,6 +5,5 @@
 \usage{pangoLayoutIterAtLastLine(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoLayoutIter}}]  a \code{\link{PangoLayoutIter}}}}
 \value{[logical]  \code{TRUE} if \code{iter} is on the last line.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

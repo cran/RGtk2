@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkWindowGroup}}]  a \code{\link{GtkWindowGroup}}}
 \item{\code{window}}{[\code{\link{GtkWindow}}]  the \code{\link{GtkWindow}} to add}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

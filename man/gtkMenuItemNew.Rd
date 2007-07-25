@@ -4,6 +4,5 @@
 \description{Creates a new \code{\link{GtkMenuItem}}.}
 \usage{gtkMenuItemNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}] the newly created \code{\link{GtkMenuItem}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

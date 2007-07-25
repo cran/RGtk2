@@ -17,6 +17,5 @@ choice.
 \item{\code{height}}{[integer]  height of area in \code{window}}
 }
 \value{[\code{\link{GdkImage}}]  a new \code{\link{GdkImage}} or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

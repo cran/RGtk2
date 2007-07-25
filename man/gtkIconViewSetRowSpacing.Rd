@@ -9,6 +9,5 @@ which is inserted between the rows of the icon view.}
 \item{\code{row.spacing}}{[integer]  the row spacing}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@
 \item{\code{visible}}{[logical]  \code{TRUE} to show the status icon, \code{FALSE} to hide it}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

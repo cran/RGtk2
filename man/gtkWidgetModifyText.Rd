@@ -14,6 +14,5 @@ for widgets such as \code{\link{GtkEntry}} and \code{\link{GtkTextView}}. See al
         or \code{NULL} to undo the effect of previous calls to
         of \code{\link{gtkWidgetModifyText}}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

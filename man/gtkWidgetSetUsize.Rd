@@ -26,6 +26,5 @@ translations into other languages, different fonts, and user action
 can all change the appropriate size for a given widget. So, it's
 basically impossible to hardcode a size that will always be
 correct.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

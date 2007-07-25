@@ -13,6 +13,5 @@ imageable area (i.e. inside the margins).}
 \item{\code{full.page}}{[logical]  \code{TRUE} to set up the \code{\link{GtkPrintContext}} for the full page}
 }
 \details{  Since  2.10 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

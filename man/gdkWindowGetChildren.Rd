@@ -10,6 +10,5 @@ it only returns windows an application created itself.}
 \details{, but the elements in the
 list need not be.  }
 \value{[list]  list of child windows inside \code{window}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

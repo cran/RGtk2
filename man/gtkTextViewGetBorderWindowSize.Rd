@@ -9,6 +9,5 @@
 \item{\code{type}}{[\code{\link{GtkTextWindowType}}]  window to return size from}
 }
 \value{[integer]  width of window}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

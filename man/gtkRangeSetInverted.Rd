@@ -10,6 +10,5 @@ on the bottom or left.}
 \item{\code{object}}{[\code{\link{GtkRange}}]  a \code{\link{GtkRange}}}
 \item{\code{setting}}{[logical]  \code{TRUE} to invert the range}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

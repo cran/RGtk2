@@ -7,6 +7,5 @@ the object implements \code{AtkObjectIface}}
 \arguments{\item{\code{object}}{[\code{\link{AtkImplementor}}]  The \code{\link{GObject}} instance which should implement \code{AtkImplementorIface}
 if a non-null return value is required.}}
 \value{[\code{\link{AtkObject}}]  a reference to an object's \code{\link{AtkObject}} implementation}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

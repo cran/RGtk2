@@ -14,6 +14,5 @@ moves backward by 0 - \code{count} lines.}
 \item{\code{count}}{[integer]  number of lines to move forward}
 }
 \value{[logical]  whether \code{iter} moved and is dereferenceable}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

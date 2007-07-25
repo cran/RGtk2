@@ -12,6 +12,5 @@ Create a new \code{\link{GtkCTree}} widget with the given titles for the columns
 \item{\code{titles}}{[character] The titles for the columns.}
 }
 \value{[\code{\link{GtkWidget}}] The \code{\link{GtkCTree}} widget.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

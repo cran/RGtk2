@@ -13,6 +13,5 @@ call \code{\link{gtkActionGroupAddActionWithAccel}}.}
 }
 \details{  Since  2.4}
 \value{[\code{\link{GtkToggleAction}}]  a new \code{\link{GtkToggleAction}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

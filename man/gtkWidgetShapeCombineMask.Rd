@@ -11,6 +11,5 @@ for more information.}
 \item{\code{offset.x}}{[integer]  X position of shape mask with respect to \code{window}}
 \item{\code{offset.y}}{[integer]  Y position of shape mask with respect to \code{window}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

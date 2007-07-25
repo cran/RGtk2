@@ -8,6 +8,5 @@
 \item{\code{label}}{[character]  the label to use, or \code{NULL} to use the default label}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

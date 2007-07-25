@@ -10,6 +10,5 @@ It is an error if \code{item} is not a child of the toolbar.}
 }
 \details{  Since  2.4}
 \value{[integer]  the position of item on the toolbar.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

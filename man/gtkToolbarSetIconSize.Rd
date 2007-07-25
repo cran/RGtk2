@@ -13,6 +13,5 @@ icon size.}
 \details{This should only be used for special-purpose toolbars, normal
 application toolbars should respect the user preferences for the
 size of icons.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -17,6 +17,5 @@ wildcarded sources, and will use an exact match when possible.
 \code{\link{GtkIconSet}} will normally scale wildcarded source images to produce
 an appropriate icon at a given size, but will not change the size
 of source images that match exactly.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

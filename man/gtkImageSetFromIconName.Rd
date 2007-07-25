@@ -9,6 +9,5 @@
 \item{\code{size}}{[\code{\link{GtkIconSize}}]  an icon size}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

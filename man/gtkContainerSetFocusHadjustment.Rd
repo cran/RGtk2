@@ -15,6 +15,5 @@ the vertical adjustment.}
 }
 \details{The adjustments have to be in pixel units and in the same coordinate 
 system as the allocation for immediate children of the container.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

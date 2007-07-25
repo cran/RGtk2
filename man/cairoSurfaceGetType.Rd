@@ -7,6 +7,5 @@ a surface. See \code{\link{CairoSurfaceType}} for available types.}
 \arguments{\item{\code{surface}}{[\code{\link{CairoSurface}}]  a \code{\link{CairoSurface}}}}
 \details{  Since  1.2}
 \value{[\code{\link{CairoSurfaceType}}]  The type of \code{surface}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

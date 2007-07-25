@@ -21,6 +21,5 @@ be removed in the future.}
 saving/restoring functionality provided by \code{\link{gtkAccelMapSave}} and
 \code{\link{gtkAccelMapLoad}}, even if they haven't been created by an item
 factory.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@
 \details{The base gravity is used in laying vertical text out.  
 
   Since  1.16}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

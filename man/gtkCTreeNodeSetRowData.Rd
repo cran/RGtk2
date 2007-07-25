@@ -11,6 +11,5 @@ Set the custom data associated with a node.
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] }
 \item{\code{data}}{[R object] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

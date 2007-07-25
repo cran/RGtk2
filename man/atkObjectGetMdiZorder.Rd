@@ -12,6 +12,5 @@ if the layer of the accessible is not ATK\_LAYER\_MDI.
 \value{[integer]  a gint which is the zorder of the accessible, i.e. the depth at 
 which the component is shown in relation to other components in the same 
 container.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,6 +14,5 @@ use style->font\_desc instead.
 \item{\code{font}}{[\code{\link{GdkFont}}]  a \code{\link{GdkFont}}, or \code{NULL} to use the \code{\link{GdkFont}} corresponding
   to style->font\_desc.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

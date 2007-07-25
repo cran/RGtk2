@@ -7,6 +7,5 @@ by GdkPixbuf.}
 \details{  Since  2.2}
 \value{[list]  A list of \code{\link{GdkPixbufFormat}}s describing the supported 
 image formats.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

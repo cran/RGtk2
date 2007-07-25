@@ -7,6 +7,5 @@ scheme of its URI.}
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentInfo}}]  a \code{\link{GtkRecentInfo}}}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the resource is local.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

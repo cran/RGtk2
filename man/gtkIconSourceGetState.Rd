@@ -7,6 +7,5 @@ wildcarded.}
 \usage{gtkIconSourceGetState(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconSource}}]  a \code{\link{GtkIconSource}}}}
 \value{[\code{\link{GtkStateType}}]  widget state this source matches}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

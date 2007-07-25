@@ -13,6 +13,5 @@ argument is \code{NULL}.)
 \item{\code{object}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}.}
 \item{\code{font}}{[\code{\link{GdkFont}}]  the new font. }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

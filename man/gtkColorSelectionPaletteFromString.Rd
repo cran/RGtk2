@@ -11,6 +11,5 @@ A list containing the following elements:
 \item{\code{colors}}{[\code{\link{GdkColor}}]  return location for allocated list of \code{\link{GdkColor}}.}
 \item{\code{n.colors}}{[integer]  return location for length of list.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

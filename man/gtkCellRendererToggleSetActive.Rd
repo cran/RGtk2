@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkCellRendererToggle}}]  a \code{\link{GtkCellRendererToggle}}.}
 \item{\code{setting}}{[logical]  the value to set.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

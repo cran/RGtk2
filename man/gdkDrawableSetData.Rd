@@ -12,6 +12,5 @@ the \code{\link{GObject}} variant should be used instead.
 \item{\code{key}}{[character]  name to store the data under}
 \item{\code{data}}{[R object]  arbitrary data}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

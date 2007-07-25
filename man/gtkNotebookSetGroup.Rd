@@ -11,6 +11,5 @@ not be able to exchange tabs with any other notebook.}
 \item{\code{group}}{[R object]  a pointer to identify the notebook group, or \code{NULL} to unset it}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

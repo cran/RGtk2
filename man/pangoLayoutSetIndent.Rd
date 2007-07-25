@@ -10,6 +10,5 @@ absolute value of \code{indent}.}
 \item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}.}
 \item{\code{indent}}{[integer]  the amount by which to indent.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -17,7 +17,6 @@ subclasses \code{\link{GtkHSeparator}} and \code{\link{GtkVSeparator}}.}
 The \code{\link{GtkSeparator}} struct contains private data only.
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkSeparator.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

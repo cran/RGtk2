@@ -16,6 +16,5 @@ event, you have to convert those to buffer coordinates with
 A list containing the following elements:
 \item{\code{iter}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

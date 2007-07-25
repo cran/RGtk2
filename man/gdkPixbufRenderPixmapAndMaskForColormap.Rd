@@ -25,6 +25,5 @@ A list containing the following elements:
 \item{\code{mask.return}}{[\code{\link{GdkBitmap}}]  Location to store a pointer to the created mask,
   or \code{NULL} if the mask is not needed.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

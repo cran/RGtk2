@@ -15,6 +15,5 @@ original rectangle)}
 \item{\code{height}}{[numeric]  Non-negative height of the rectangle}
 }
 \details{  Since  1.14}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

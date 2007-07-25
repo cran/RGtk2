@@ -11,6 +11,5 @@ Deletes all widgets constructed from the specified path.
   starts with a factory path}
 \item{\code{path}}{[character]  a path }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -21,6 +21,5 @@ A list containing the following elements:
 \item{\code{path}}{[character]  location to store allocated path string, or \code{NULL} }
 \item{\code{path.reversed}}{[character]  location to store allocated reverse path string, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,6 +13,5 @@ in custom buttons, as the \code{assistant} flow can be set with
            will be done.}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

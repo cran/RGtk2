@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkRange}}]  A \code{\link{GtkRange}}}}
 \details{  Since  2.12}
 \value{[numeric]  The current fill level}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

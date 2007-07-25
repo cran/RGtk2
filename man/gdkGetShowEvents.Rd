@@ -4,6 +4,5 @@
 \description{Gets whether event debugging output is enabled.}
 \usage{gdkGetShowEvents()}
 \value{[logical]  \code{TRUE} if event debugging output is enabled.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

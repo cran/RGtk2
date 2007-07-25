@@ -63,7 +63,6 @@ The URI bound to this button.
   Default value: "http://www.gtk.org"  Since  2.10
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkLinkButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{\code{\link{GtkButton}}}

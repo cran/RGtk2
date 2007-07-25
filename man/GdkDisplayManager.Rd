@@ -39,7 +39,6 @@ The ::display\_opened signal is emitted when a display is opened.
 The default display for GDK.
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/GdkDisplayManager.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@ when the style is \code{GTK_PROGRESS_DISCRETE}.
 \item{\code{object}}{[\code{\link{GtkProgressBar}}] a \code{\link{GtkProgressBar}}.}
 \item{\code{blocks}}{[numeric] number of individual blocks making up the bar.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

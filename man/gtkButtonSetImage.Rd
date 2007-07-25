@@ -11,6 +11,5 @@ image will be displayed or not, you don't have to call
 \item{\code{image}}{[\code{\link{GtkWidget}}]  a widget to set as the image for the button}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ specified by \code{style} for the given state.}
 \item{\code{window}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}
 \item{\code{state.type}}{[\code{\link{GtkStateType}}]  a state}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

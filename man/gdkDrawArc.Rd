@@ -18,6 +18,5 @@ of the ellipse to be drawn.}
 \item{\code{angle2}}{[integer]  the end angle of the arc, relative to \code{angle1}, in 1/64ths 
     of a degree.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

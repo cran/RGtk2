@@ -8,6 +8,5 @@ number of pixels to place between children of \code{box}.}
 \item{\code{object}}{[\code{\link{GtkBox}}]  a \code{\link{GtkBox}}}
 \item{\code{spacing}}{[integer]  the number of pixels to put between children}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@ A list containing the following elements:
   in \code{value}, \code{FALSE} otherwise.}
 \item{\code{value}}{[R object]  location to store the value of the setting.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

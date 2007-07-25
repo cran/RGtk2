@@ -79,7 +79,6 @@ The width of the layout.  Allowed values: <= G\_MAXINT  Default value: 100
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkLayout.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

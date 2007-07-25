@@ -12,6 +12,5 @@ that add tags.}
 \item{\code{start}}{[\code{\link{GtkTextIter}}]  one bound of range to be untagged}
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  other bound of range to be untagged}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

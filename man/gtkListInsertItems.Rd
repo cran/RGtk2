@@ -11,6 +11,5 @@ Inserts \code{items} into the \code{list} at the position \code{position}.
 \item{\code{items}}{[list] the items.}
 \item{\code{position}}{[integer] the position to insert \code{items}, starting at 0.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

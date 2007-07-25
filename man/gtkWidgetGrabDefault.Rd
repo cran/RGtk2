@@ -8,6 +8,5 @@ the user presses Enter in a window. Default widgets must be
 activatable, that is, \code{\link{gtkWidgetActivate}} should affect them.}
 \usage{gtkWidgetGrabDefault(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

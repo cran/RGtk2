@@ -13,6 +13,5 @@ You can register your own stock icon names, see
 \item{\code{size}}{[\code{\link{GtkIconSize}}]  a stock icon size}
 }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImage}} displaying the stock icon}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

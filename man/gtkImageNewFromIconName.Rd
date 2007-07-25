@@ -12,6 +12,5 @@ will be updated appropriately.}
 }
 \details{  Since  2.6}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImage}} displaying the themed icon}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

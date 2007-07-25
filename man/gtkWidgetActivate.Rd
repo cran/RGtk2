@@ -8,6 +8,5 @@ activatable, the function returns \code{FALSE}.}
 \usage{gtkWidgetActivate(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}} that's activatable}}
 \value{[logical]  \code{TRUE} if the widget was activatable}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

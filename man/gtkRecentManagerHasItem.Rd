@@ -10,6 +10,5 @@ with \code{uri} inside the recent manager.}
 }
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the resource was found, \code{FALSE} otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

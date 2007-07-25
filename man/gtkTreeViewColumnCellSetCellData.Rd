@@ -13,6 +13,5 @@ renderer.  This is used primarily by the \code{\link{GtkTreeView}}.}
 \item{\code{is.expander}}{[logical]  \code{TRUE}, if the row has children}
 \item{\code{is.expanded}}{[logical]  \code{TRUE}, if the row has visible children}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -25,6 +25,5 @@ On the Win32 platform, this functionality is not present and the
 function does nothing.  
 
   Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

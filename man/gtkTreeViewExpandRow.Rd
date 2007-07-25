@@ -9,6 +9,5 @@
 \item{\code{open.all}}{[logical]  whether to recursively expand, or just expand immediate children}
 }
 \value{[logical]  \code{TRUE} if the row existed and had children}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

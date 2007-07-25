@@ -12,6 +12,5 @@ indicating that they represent a keyboard accelerator called a mnemonic.}
 }
 \details{The mnemonic key can be used to activate another widget, chosen 
 automatically, or explicitly using \code{\link{gtkLabelSetMnemonicWidget}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

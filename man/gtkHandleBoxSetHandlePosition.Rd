@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkHandleBox}}] a \code{\link{GtkHandleBox}}}
 \item{\code{position}}{[\code{\link{GtkPositionType}}] the side of the handlebox where the handle should be drawn.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

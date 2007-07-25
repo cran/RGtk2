@@ -12,6 +12,5 @@ Set the text in a node.
 \item{\code{column}}{[integer] The column whose text to change.}
 \item{\code{text}}{[character] The new text.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

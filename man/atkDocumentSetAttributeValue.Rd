@@ -13,6 +13,5 @@
 \value{[logical]  TRUE if \code{value} is successfully associated with \code{attribute_name}
          for this document, FALSE otherwise (e.g. if the document does not
          allow the attribute to be modified).}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

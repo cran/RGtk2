@@ -14,6 +14,5 @@ default values for a newly created frame are 0.0 and 0.5.}
   0.0 or 1.0 the gap in the frame won't be painted because the label
   will be completely above or below the frame.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

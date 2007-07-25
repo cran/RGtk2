@@ -99,7 +99,7 @@ range of values.
 If there's only one icon name in the \code{icons} list, it will 
 be used for all the values. If only two icon names are in 
 the \code{icons} list, the first one will be used for the bottom 
-50% of the scale, and the second one for the top 50%.
+50\% of the scale, and the second one for the top 50\%.
   
 It is recommended to use at least 3 icons so that the 
 \code{\link{GtkScaleButton}} reflects the current value of the scale 
@@ -119,7 +119,6 @@ The value of the scale.  Default value: 0
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkScaleButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

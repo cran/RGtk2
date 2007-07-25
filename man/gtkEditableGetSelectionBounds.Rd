@@ -10,6 +10,5 @@ A list containing the following elements:
 \item{\code{start}}{[integer] location to store the starting position, or \code{NULL}.}
 \item{\code{end}}{[integer] location to store the end position, or \code{NULL}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

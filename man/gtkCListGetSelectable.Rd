@@ -11,6 +11,5 @@ Gets whether the specified row is selectable or not.
 \item{\code{row}}{[integer] The row to query.}
 }
 \value{[logical] A \code{logical} value.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

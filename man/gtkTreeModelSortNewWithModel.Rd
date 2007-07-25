@@ -5,6 +5,5 @@
 \usage{gtkTreeModelSortNewWithModel(child.model = NULL)}
 \arguments{\item{\code{child.model}}{[\code{\link{GtkTreeModel}}]  A \code{\link{GtkTreeModel}}}}
 \value{[\code{\link{GtkTreeModel}}]  A new \code{\link{GtkTreeModel}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

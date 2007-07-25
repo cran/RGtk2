@@ -8,6 +8,5 @@ will be returned.}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkEntry}}]  the entry currently in use as search entry.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

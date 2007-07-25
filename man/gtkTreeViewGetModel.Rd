@@ -6,6 +6,5 @@ model is unset.}
 \usage{gtkTreeViewGetModel(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  a \code{\link{GtkTreeView}}}}
 \value{[\code{\link{GtkTreeModel}}]  A \code{\link{GtkTreeModel}}, or \code{NULL} if none is currently being used.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

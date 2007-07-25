@@ -12,6 +12,5 @@ everything in the specified column.
 \item{\code{column}}{[integer] The column to check.}
 }
 \value{[integer] The required width in pixels for the column.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

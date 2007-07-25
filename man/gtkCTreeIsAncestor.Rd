@@ -12,6 +12,5 @@
 \item{\code{child}}{[\code{\link{GtkCTreeNode}}] }
 }
 \value{[logical] True is \code{node} is an ancestor of \code{child}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

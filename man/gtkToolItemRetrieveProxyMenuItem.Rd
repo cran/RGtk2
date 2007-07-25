@@ -9,6 +9,5 @@ that is going to appear in the overflow menu.}
 \details{  Since  2.4}
 \value{[\code{\link{GtkWidget}}]  The \code{\link{GtkMenuItem}} that is going to appear in the
 overflow menu for \code{tool.item}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ is selected}
 }
 \value{[logical]  a gboolean representing if the column is selected, or 0
 if value does not implement this interface.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

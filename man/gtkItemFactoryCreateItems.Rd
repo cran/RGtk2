@@ -12,6 +12,5 @@ Creates the menu items from the \code{entries}.
    must by of type \code{\link{GtkItemFactoryCallback1}}}
 \item{\code{callback.data}}{[R object]  data passed to the callback functions of all entries}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

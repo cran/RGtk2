@@ -10,6 +10,5 @@
 }
 \details{  Since  2.12}
 \value{[\code{\link{GObject}}]  the internal child of the buildable object }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -40,7 +40,6 @@ AtkSelection interface when the selection changes.
 
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk/AtkSelection.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{\code{\link{AtkText}}}

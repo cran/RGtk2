@@ -8,6 +8,5 @@ which determines whether calls to \code{\link{gtkWidgetShowAll}} and
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \details{  Since  2.4}
 \value{[logical]  the current value of the "no-show-all" property.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

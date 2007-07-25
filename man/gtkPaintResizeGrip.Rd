@@ -18,6 +18,5 @@ parameters.}
 \item{\code{width}}{[integer]  the width of the rectangle in which to draw the resize grip}
 \item{\code{height}}{[integer]  the height of the rectangle in which to draw the resize grip}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

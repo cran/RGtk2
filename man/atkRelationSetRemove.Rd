@@ -9,6 +9,5 @@ is another reference to it.}
 \item{\code{object}}{[\code{\link{AtkRelationSet}}]  an \code{\link{AtkRelationSet}}}
 \item{\code{relation}}{[\code{\link{AtkRelation}}]  an \code{\link{AtkRelation}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -29,6 +29,5 @@ is indeterminate).
   
 In no case will a cap style of CAIRO\_LINE\_CAP\_BUTT cause anything
 to be drawn in the case of either degenerate segments or sub-paths.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

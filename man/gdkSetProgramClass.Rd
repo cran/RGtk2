@@ -6,6 +6,5 @@ the class name part of the \code{WM_CLASS} property on
 toplevel windows; see the ICCCM.}
 \usage{gdkSetProgramClass(program.class)}
 \arguments{\item{\code{program.class}}{[char] a string.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

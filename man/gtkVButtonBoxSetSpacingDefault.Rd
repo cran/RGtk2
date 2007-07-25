@@ -8,6 +8,5 @@ vertical button box.
 }
 \usage{gtkVButtonBoxSetSpacingDefault(spacing)}
 \arguments{\item{\code{spacing}}{[integer] an integer value.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

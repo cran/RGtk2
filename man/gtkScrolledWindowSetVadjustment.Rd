@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkScrolledWindow}}] A \code{\link{GtkScrolledWindow}}.}
 \item{\code{hadjustment}}{[\code{\link{GtkAdjustment}}] Vertical scroll adjustment.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

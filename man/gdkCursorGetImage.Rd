@@ -10,6 +10,5 @@ case, \code{NULL} is returned.
 
   Since  2.8}
 \value{[\code{\link{GdkPixbuf}}]  a \code{\link{GdkPixbuf}} representing \code{cursor}, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

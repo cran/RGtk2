@@ -14,6 +14,5 @@ that not covered by the new position of \code{region} are invalidated.}
 \details{Child windows are not moved.  
 
   Since  2.8}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

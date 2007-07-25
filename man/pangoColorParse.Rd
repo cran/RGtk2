@@ -16,6 +16,5 @@ A list containing the following elements:
   otherwise false.}
 \item{\code{color}}{[\code{\link{PangoColor}}]  a \code{\link{PangoColor}} structure in which to store the result}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

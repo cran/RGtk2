@@ -13,6 +13,5 @@ should trigger the beginning of a drag-and-drop operation.}
 \item{\code{current.y}}{[integer]  current Y coordinate}
 }
 \value{[logical]  \code{TRUE} if the drag threshold has been passed.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

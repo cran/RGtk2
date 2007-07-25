@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{AtkEditableText}}]  an \code{\link{AtkEditableText}}}
 \item{\code{string}}{[character]  string to set for text contents of \code{text}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

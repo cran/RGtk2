@@ -17,6 +17,5 @@ A list containing the following elements:
 has been set to the resulting flags value.}
 \item{\code{property.value}}{[R object]  a \code{R object} which must hold flags values.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

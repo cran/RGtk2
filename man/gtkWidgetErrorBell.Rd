@@ -11,6 +11,5 @@ ways, depending on the windowing backend and the desktop environment
 or window manager that is used.  
 
   Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

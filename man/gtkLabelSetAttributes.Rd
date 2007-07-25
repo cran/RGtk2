@@ -10,6 +10,5 @@ are set to \code{TRUE}.}
 \item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}
 \item{\code{attrs}}{[\code{\link{PangoAttrList}}]  a \code{\link{PangoAttrList}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ the arrow.}
 \item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  a \code{\link{GtkTreeViewColumn}}}
 \item{\code{setting}}{[logical]  \code{TRUE} to display an indicator that the column is sorted}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

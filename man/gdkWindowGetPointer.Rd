@@ -18,6 +18,5 @@ pointer isn't known to GDK}
 \item{\code{mask}}{[\code{\link{GdkModifierType}}]  return location for modifier mask or \code{NULL} to not return the
      modifier mask}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

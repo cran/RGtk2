@@ -7,6 +7,5 @@
 \details{  Since  2.10}
 \value{[\code{\link{CairoFontOptions}}]  the current font options, or \code{NULL} if no default
  font options have been set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

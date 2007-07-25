@@ -10,6 +10,5 @@ to modify the contents of the line (glyphs, glyph widths, etc.).
 
   Since  1.16}
 \value{[\code{\link{PangoLayoutLine}}]  the current line, that should not be modified.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

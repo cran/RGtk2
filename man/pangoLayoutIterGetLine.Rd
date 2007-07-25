@@ -7,6 +7,5 @@
 \details{Use the faster \code{\link{pangoLayoutIterGetLineReadonly}} if you do not plan
 to modify the contents of the line (glyphs, glyph widths, etc.).  }
 \value{[\code{\link{PangoLayoutLine}}]  the current line.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

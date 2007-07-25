@@ -8,6 +8,5 @@
 \item{\code{object}}{[\code{\link{GtkStatusbar}}]  a \code{GtkStatusBar}}
 \item{\code{setting}}{[logical]  \code{TRUE} to have a resize grip}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

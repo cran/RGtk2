@@ -19,6 +19,5 @@ drops.}
        generally be the time received in a "drag\_data\_motion"
        or "drag\_data\_drop" signal.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

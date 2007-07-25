@@ -8,6 +8,5 @@
 \value{[\code{\link{PangoLayout}}]  the \code{\link{PangoLayout}} for this scale, or \code{NULL} 
    if the \code{:draw-value} property is \code{FALSE}.
   }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

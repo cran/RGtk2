@@ -7,6 +7,5 @@ For this to be meaningful, you must first initialize the cells with
 \usage{gtkTreeViewColumnCellIsVisible(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}}}
 \value{[logical]  \code{TRUE}, if any of the cells packed into the \code{tree.column} are currently visible}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

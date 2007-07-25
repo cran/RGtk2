@@ -7,6 +7,5 @@ via \code{\link{gtkWindowSetDeletable}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the window has been set to have a close button}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@
 A list containing the following elements:
 \item{\code{extents}}{[\code{\link{CairoFontExtents}}]  a \code{\link{CairoFontExtents}} which to store the retrieved extents.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

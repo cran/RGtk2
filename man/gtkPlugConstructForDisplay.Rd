@@ -12,6 +12,5 @@ This function will generally only be used by classes deriving from \code{\link{G
 \item{\code{socket.id}}{[\code{\link{GdkNativeWindow}}]  the XID of the socket's window.}
 }
 \details{  Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

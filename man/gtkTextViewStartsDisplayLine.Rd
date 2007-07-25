@@ -10,6 +10,5 @@ display lines vs. paragraphs.}
 \item{\code{iter}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}
 }
 \value{[logical]  \code{TRUE} if \code{iter} begins a wrapped line}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

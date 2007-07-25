@@ -8,6 +8,5 @@
 \item{\code{rows}}{[numeric] The new number of rows.}
 \item{\code{columns}}{[numeric] The new number of columns.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ initiated through programatic means.}
 \item{\code{object}}{[\code{\link{GtkCellEditable}}]  A \code{\link{GtkCellEditable}}}
 \item{\code{event}}{[\code{\link{GdkEvent}}]  A \code{\link{GdkEvent}}, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

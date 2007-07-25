@@ -28,6 +28,5 @@ widget and all its children.
 The advantage of adding to the invalidated region compared to
 simply drawing immediately is efficiency; using an invalid region
 ensures that you only have to redraw one time.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

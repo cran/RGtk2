@@ -10,6 +10,5 @@
   Since  2.10}
 \value{[list]  A newly allocated list of \code{\link{GtkRecentInfo}} objects.  You should
   use \code{\link{gtkRecentInfoUnref}} on every item of the list.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ Starts a selection (or part of selection) at the focused child. Only in
 }
 \usage{gtkListStartSelection(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkList}}] the list widget.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,6 +18,5 @@ screen for purposes of this function is reduced by a margin of size
 \item{\code{xalign}}{[numeric]  horizontal alignment of mark within visible area}
 \item{\code{yalign}}{[numeric]  vertical alignment of mark within visible area}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

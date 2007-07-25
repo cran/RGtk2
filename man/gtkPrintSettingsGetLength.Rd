@@ -11,6 +11,5 @@ as a length. The returned value is converted to \code{units}.}
 }
 \details{  Since  2.10}
 \value{[numeric]  the length value of \code{key}, converted to \code{unit}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

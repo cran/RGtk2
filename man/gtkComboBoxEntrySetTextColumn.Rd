@@ -9,6 +9,5 @@ to be \code{text.column}.}
 \item{\code{text.column}}{[integer]  A column in \code{model} to get the strings from.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

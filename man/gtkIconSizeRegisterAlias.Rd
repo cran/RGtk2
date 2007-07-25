@@ -9,6 +9,5 @@ will return \code{target}.}
 \item{\code{alias}}{[character]  an alias for \code{target}}
 \item{\code{target}}{[\code{\link{GtkIconSize}}]  an existing icon size}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

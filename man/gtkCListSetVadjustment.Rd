@@ -11,6 +11,5 @@ aspect of the \code{\link{GtkCList}} widget.
 \item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}
 \item{\code{adjustment}}{[\code{\link{GtkAdjustment}}] A pointer to a \code{\link{GtkAdjustment}} widget, or NULL.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

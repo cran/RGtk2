@@ -10,6 +10,5 @@ of the icon view.}
 \item{\code{margin}}{[integer]  the margin}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

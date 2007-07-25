@@ -9,6 +9,5 @@ details.}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the event box window is above the window
 of its child.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

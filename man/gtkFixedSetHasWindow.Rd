@@ -13,6 +13,5 @@ window is created.}
 }
 \details{This function was added to provide an easy migration path for
 older applications which may expect \code{\link{GtkFixed}} to have a separate window.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

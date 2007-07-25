@@ -16,6 +16,5 @@ to \code{\link{gtkEntrySetMaxLength}} instead. It is not
 expected that this function will be removed, but
 it would be better practice not to use it.  }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkEntry}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

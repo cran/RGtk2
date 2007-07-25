@@ -10,6 +10,5 @@ user interface if there is a selectable list of filters.}
 \item{\code{name}}{[character]  then human readable name of \code{filter}}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

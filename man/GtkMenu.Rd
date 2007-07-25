@@ -173,7 +173,6 @@ Extra space at the top and bottom of the menu.  Allowed values: >= 0  Default va
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkMenu.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

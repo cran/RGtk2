@@ -10,6 +10,5 @@ the \code{\link{GdkGC}}.}
 \item{\code{x}}{[integer]  the x coordinate of the point.}
 \item{\code{y}}{[integer]  the y coordinate of the point.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

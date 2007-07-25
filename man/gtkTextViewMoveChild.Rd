@@ -9,6 +9,5 @@
 \item{\code{xpos}}{[integer]  new X position in window coordinates}
 \item{\code{ypos}}{[integer]  new Y position in window coordinates}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

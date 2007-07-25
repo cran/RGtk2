@@ -13,6 +13,5 @@ user data is a \code{\link{GtkWidget}}, and forward the event to that widget.}
 \item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}
 \item{\code{user.data}}{[R object]  user data}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

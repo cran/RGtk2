@@ -17,6 +17,5 @@ function generating a window map event.}
 \details{This function is only useful on X11, not with other GTK+ targets.  
 
   Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

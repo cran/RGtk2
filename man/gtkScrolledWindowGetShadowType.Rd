@@ -6,6 +6,5 @@
 \usage{gtkScrolledWindowGetShadowType(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkScrolledWindow}}]  a \code{\link{GtkScrolledWindow}}}}
 \value{[\code{\link{GtkShadowType}}]  the current shadow type}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

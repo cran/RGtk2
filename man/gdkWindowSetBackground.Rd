@@ -14,6 +14,5 @@ implementing a custom widget.)}
 to allocate a color.
   
 See also \code{\link{gdkWindowSetBackPixmap}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

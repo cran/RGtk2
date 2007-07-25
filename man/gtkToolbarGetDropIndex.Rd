@@ -15,6 +15,5 @@ inserted.}
 
   Since  2.4}
 \value{[integer]  The position corresponding to the point (\code{x}, \code{y}) on the toolbar.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

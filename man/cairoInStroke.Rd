@@ -16,6 +16,5 @@ into account.}
 \code{\link{cairoStrokePreserve}}.  }
 \value{[logical]  A non-zero value if the point is inside, or zero if
 outside.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

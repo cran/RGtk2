@@ -8,6 +8,5 @@ submenu is passed.}
 \item{\code{object}}{[\code{\link{GtkMenuItem}}]  a \code{\link{GtkMenuItem}}}
 \item{\code{submenu}}{[\code{\link{GtkWidget}}]  the submenu, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

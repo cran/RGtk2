@@ -14,6 +14,5 @@ to modify the contents of the line (glyphs, glyph widths, etc.).  }
               index is out of range. This layout line can
               be ref'ed and retained, but will become invalid
               if changes are made to the \code{\link{PangoLayout}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ the state using wrapper functions such as \code{\link{gtkWidgetSetSensitive}}.}
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{state}}{[\code{\link{GtkStateType}}]  new state for \code{widget}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -24,6 +24,5 @@ manually.
   
 Note that although \code{x} and \code{y} can be individually unset, the position
 is not honoured unless both \code{x} and \code{y} are set.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

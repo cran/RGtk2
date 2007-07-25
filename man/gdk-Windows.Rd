@@ -165,7 +165,7 @@ transparent_expose <- function(widget, event)
 # The expose event handler for the window.
 # 
 # This function performs the actual compositing of the event box onto
-# the already-existing background of the window at 50% normal opacity.
+# the already-existing background of the window at 50\% normal opacity.
 # 
 # In this case we do not want app-paintable to be set on the widget
 # since we want it to draw its own (red) background. Because of this,
@@ -195,7 +195,7 @@ window_expose_event <- function(widget, event)
   gdkCairoRegion(cr, region)
   cr$clip()
 
-  # composite, with a 50% opacity
+  # composite, with a 50\% opacity
   cr$setOperator("over")
   cr$paintWithAlpha(0.5)
 
@@ -252,7 +252,7 @@ the toplevel \code{\link{GtkWindow}}). The expose handler for this widget is
 responsible for merging the changes back on the screen in the way
 that it wishes.
   
-In our case, we merge the contents with a 50% transparency. We
+In our case, we merge the contents with a 50\% transparency. We
 also set the background colour of the window to red. The effect is
 that the background shows through the button. }
 \section{Structures}{\describe{
@@ -585,7 +585,6 @@ continue, it should return \code{GDK_FILTER_TRANSLATE}.
 \emph{Returns:} [\code{\link{GdkFilterReturn}}] a \code{\link{GdkFilterReturn}} value.
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-Windows.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

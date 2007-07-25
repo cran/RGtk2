@@ -9,6 +9,5 @@ account.}
 \usage{gtkIconFactoryLookupDefault(stock.id)}
 \arguments{\item{\code{stock.id}}{[character]  an icon name}}
 \value{[\code{\link{GtkIconSet}}]  a \code{\link{GtkIconSet}}, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

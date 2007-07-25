@@ -14,6 +14,5 @@ be allocated for the operation or
 CAIRO\_STATUS\_SURFACE\_TYPE\_MISMATCH if the surface does not have
 pixel contents, or CAIRO\_STATUS\_WRITE\_ERROR if an I/O error occurs
 while attempting to write the file.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

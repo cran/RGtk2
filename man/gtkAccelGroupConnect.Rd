@@ -17,6 +17,5 @@ match those of this connection.}
   
 Note that, due to implementation details, a single closure can only be
 connected to one accelerator group.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

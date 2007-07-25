@@ -8,6 +8,5 @@ in the layout, if on the \code{NULL} run (see \code{\link{pangoLayoutIterGetRun}
 \usage{pangoLayoutIterGetIndex(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoLayoutIter}}]  a \code{\link{PangoLayoutIter}}}}
 \value{[integer]  current byte index.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

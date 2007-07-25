@@ -6,6 +6,5 @@
 \arguments{\item{\code{drawable}}{[\code{\link{GdkDrawable}}]  a \code{\link{GdkDrawable}}. The created GC must always be used
   with drawables of the same depth as this one.}}
 \value{[\code{\link{GdkGC}}]  the new graphics context.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -23,6 +23,5 @@ with it.
 This function always returns a valid pointer, but it will return a
 pointer to a "nil" surface if \code{other} is already in an error state
 or any other error occurs.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ this value is ignored.}
 \item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}.}
 \item{\code{title}}{[character]  The title of the \code{tree.column}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

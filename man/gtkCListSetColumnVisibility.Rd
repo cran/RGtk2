@@ -14,6 +14,5 @@ ignored.
 \item{\code{column}}{[integer] The column to set visibility.}
 \item{\code{visible}}{[logical] \code{TRUE} or \code{FALSE}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

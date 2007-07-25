@@ -17,6 +17,5 @@ in the given rectangle on \code{window} using the given parameters.
 \item{\code{width}}{[integer]  the width of the rectangle to draw the tab in}
 \item{\code{height}}{[integer]  the height of the rectangle to draw the tab in}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

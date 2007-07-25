@@ -14,6 +14,5 @@ use \code{\link{gtkWindowResize}} instead of this low-level GDK function.}
   
 If you're also planning to move the window, use \code{\link{gdkWindowMoveResize}}
 to both move and resize simultaneously, for a nicer visual effect.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

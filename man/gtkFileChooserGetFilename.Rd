@@ -13,6 +13,5 @@ folder.
 \value{[character]  The currently selected filename, or \code{NULL}
  if no file is selected, or the selected file can't
  be represented with a local filename.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -209,7 +209,6 @@ The representation being used for image data.  Default value: GTK\_IMAGE\_EMPTY
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkImage.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{\code{\link{GdkPixbuf}}}

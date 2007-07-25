@@ -13,6 +13,5 @@ algorithm; if the \code{direction} is \code{PANGO_DIRECTION_LTR} or
 direction in the Unicode bidirectional algorithm.  A value of
 \code{PANGO_DIRECTION_WEAK_LTR} or \code{PANGO_DIRECTION_WEAK_RTL} is used only
 for paragraphs that do not contain any strong characters themselves.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

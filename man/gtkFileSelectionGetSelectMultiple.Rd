@@ -10,6 +10,5 @@ the file list. See \code{\link{gtkFileSelectionSetSelectMultiple}}.
 \arguments{\item{\code{object}}{[\code{\link{GtkFileSelection}}]  a \code{\link{GtkFileSelection}}}}
 \value{[logical]  \code{TRUE} if the user is allowed to select multiple files in the
 file list}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

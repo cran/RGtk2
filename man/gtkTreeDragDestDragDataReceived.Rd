@@ -14,6 +14,5 @@ a \code{dest} no longer found in the model!}
 \item{\code{selection.data}}{[\code{\link{GtkSelectionData}}]  data to drop}
 }
 \value{[logical]  whether a new row was created before position \code{dest}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

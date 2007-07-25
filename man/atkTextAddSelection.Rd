@@ -9,6 +9,5 @@
 \item{\code{end.offset}}{[integer]  the offset of the first character after the selected region.}
 }
 \value{[logical]  \code{TRUE} if success, \code{FALSE} otherwise}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

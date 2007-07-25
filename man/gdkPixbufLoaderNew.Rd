@@ -4,6 +4,5 @@
 \description{Creates a new pixbuf loader object.}
 \usage{gdkPixbufLoaderNew()}
 \value{[\code{\link{GdkPixbufLoader}}]  A newly-created pixbuf loader.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

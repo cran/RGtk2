@@ -9,6 +9,5 @@
 \item{\code{year}}{[numeric]  the year the month is in.}
 }
 \value{[logical]  \code{TRUE}, always}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

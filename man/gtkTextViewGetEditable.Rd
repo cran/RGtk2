@@ -6,6 +6,5 @@ buffer may override this setting for some ranges of text.}
 \usage{gtkTextViewGetEditable(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}}
 \value{[logical]  whether text is editable by default}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

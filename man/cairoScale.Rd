@@ -11,6 +11,5 @@ space.}
 \item{\code{sx}}{[numeric]  scale factor for the X dimension}
 \item{\code{sy}}{[numeric]  scale factor for the Y dimension}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

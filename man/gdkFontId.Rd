@@ -8,6 +8,5 @@ Returns the X Font ID for the given font.
 \usage{gdkFontId(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkFont}}]  a \code{\link{GdkFont}}.}}
 \value{[integer]  the numeric X Font ID}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

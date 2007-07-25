@@ -7,6 +7,5 @@ text\_column * using \code{\link{gtkComboBoxEntrySetTextColumn}}.}
 \usage{gtkComboBoxEntryNew(show = TRUE)}
 \details{  Since  2.4}
 \value{[\code{\link{GtkWidget}}]  A new \code{\link{GtkComboBoxEntry}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

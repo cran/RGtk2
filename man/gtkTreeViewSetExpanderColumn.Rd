@@ -11,6 +11,5 @@ visible column.}
 }
 \details{If you do not want expander arrow to appear in your tree, set the 
 expander column to a hidden column.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

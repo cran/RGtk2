@@ -16,6 +16,5 @@ a \code{\link{GtkRecentChooserMenu}} widget bound to another \code{\link{GtkRece
 
   Since  2.10}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkRecentChooserMenu}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

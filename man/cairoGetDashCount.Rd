@@ -9,6 +9,5 @@ is not currently in effect).}
 
   Since  1.4}
 \value{[integer]  the length of the dash list, or 0 if no dash list set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

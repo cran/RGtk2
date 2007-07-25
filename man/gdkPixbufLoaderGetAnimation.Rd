@@ -10,6 +10,5 @@ return \code{NULL}.}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbufLoader}}]  A pixbuf loader}}
 \value{[\code{\link{GdkPixbufAnimation}}]  The \code{\link{GdkPixbufAnimation}} that the loader is loading, or \code{NULL} if
  not enough data has been read to determine the information.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

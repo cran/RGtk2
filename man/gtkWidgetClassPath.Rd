@@ -12,6 +12,5 @@ A list containing the following elements:
 \item{\code{path.reversed}}{[character]  location to store the reverse class path as an allocated 
    string, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

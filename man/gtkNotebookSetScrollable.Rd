@@ -8,6 +8,5 @@ there are too many tabs to fit in the area.}
 \item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}
 \item{\code{scrollable}}{[logical]  \code{TRUE} if scroll arrows should be added}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

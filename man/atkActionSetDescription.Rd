@@ -9,6 +9,5 @@
 \item{\code{desc}}{[character]  the description to be assigned to this action}
 }
 \value{[logical]  a gboolean representing if the description was successfully set;}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

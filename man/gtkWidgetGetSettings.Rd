@@ -9,6 +9,5 @@ settings, RC file information, etc) used for this widget.}
 is attached to a toplevel, since the settings object is specific
 to a particular \code{\link{GdkScreen}}.  }
 \value{[\code{\link{GtkSettings}}]  the relevant \code{\link{GtkSettings}} object}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

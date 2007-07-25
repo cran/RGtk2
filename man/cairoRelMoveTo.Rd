@@ -15,6 +15,5 @@ is logically equivalent to cairo\_move\_to (\code{cr}, x + \code{dx}, y + \code{
 It is an error to call this function with no current point. Doing
 so will cause \code{cr} to shutdown with a status of
 CAIRO\_STATUS\_NO\_CURRENT\_POINT.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

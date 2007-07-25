@@ -14,6 +14,5 @@ Where the clipboard data is stored is platform dependent,
 see \code{\link{gdkDisplayStoreClipboard}} for more information.  
 
   Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if tree lines are drawn in \code{tree.view}, \code{FALSE}
 otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@ themes work by replacing the \code{\link{GtkStyle}}. Instead, use
 \item{\code{style}}{[\code{\link{GtkStyle}}]  a \code{\link{GtkStyle}}, or \code{NULL} to remove the effect of a previous
         \code{\link{gtkWidgetSetStyle}} and go back to the default style}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ via drag and drop or not.}
 \item{\code{reorderable}}{[logical]  whether the tab is reorderable or not.}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

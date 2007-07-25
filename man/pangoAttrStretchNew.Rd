@@ -5,6 +5,5 @@
 \usage{pangoAttrStretchNew(stretch)}
 \arguments{\item{\code{stretch}}{[\code{\link{PangoStretch}}]  the stretch}}
 \value{[\code{\link{PangoAttribute}}]  the newly allocated \code{\link{PangoAttribute}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

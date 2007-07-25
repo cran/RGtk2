@@ -14,6 +14,5 @@ images with 8 bits per sample are supported.}
 \item{\code{rowstride}}{[integer]  Distance in bytes between row starts}
 }
 \value{[\code{\link{GdkPixbuf}}]  A newly-created \code{\link{GdkPixbuf}} structure with a reference count of 1.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

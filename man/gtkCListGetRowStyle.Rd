@@ -11,6 +11,5 @@ Gets the style set for the specified row.
 \item{\code{row}}{[integer] The row to query.}
 }
 \value{[\code{\link{GtkStyle}}] The \code{\link{GtkStyle}} of the row.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

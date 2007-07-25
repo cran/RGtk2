@@ -4,6 +4,5 @@
 \description{Creates a new \code{\link{GtkNotebook}} widget with no pages.}
 \usage{gtkNotebookNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}]  the newly created \code{\link{GtkNotebook}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

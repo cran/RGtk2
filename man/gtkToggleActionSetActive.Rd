@@ -8,6 +8,5 @@
 \item{\code{is.active}}{[logical]  whether the action should be checked or not}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

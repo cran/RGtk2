@@ -6,6 +6,5 @@
 \usage{gtkContainerGetBorderWidth(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkContainer}}]  a \code{\link{GtkContainer}}}}
 \value{[numeric]  the current border width}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

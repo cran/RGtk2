@@ -13,6 +13,5 @@ returned, but usually you don't need it.}
 \item{\code{response.id}}{[integer]  response ID for the button}
 }
 \value{[\code{\link{GtkWidget}}]  the button widget that was added}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

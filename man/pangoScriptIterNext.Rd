@@ -8,6 +8,5 @@ is returned.}
 \arguments{\item{\code{object}}{[\code{\link{PangoScriptIter}}]  a \code{\link{PangoScriptIter}}}}
 \details{  Since  1.4}
 \value{[logical]  \code{TRUE} if \code{iter} was successfully advanced.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

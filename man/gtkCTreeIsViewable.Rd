@@ -14,6 +14,5 @@ area of the window.
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] }
 }
 \value{[logical] Whether the node is viewable.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

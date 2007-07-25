@@ -12,6 +12,5 @@ but it can be overridden on a per-page basis by connecting
 to the \code{::request-page-setup} signal.  
 
   Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

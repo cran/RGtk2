@@ -16,6 +16,5 @@ modify function.}
 \item{\code{data}}{[R object]  User data to pass to the modify function, or \code{NULL}.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

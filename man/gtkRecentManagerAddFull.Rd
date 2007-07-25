@@ -29,6 +29,5 @@ applications that have registered it.
   Since  2.10}
 \value{[logical]  \code{TRUE} if the new item was successfully added to the
 recently used resources list, \code{FALSE} otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

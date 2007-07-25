@@ -32,6 +32,5 @@ would cause the pattern to appear at half of its default size.
   
 Also, please note the discussion of the user-space locking
 semantics of \code{\link{cairoSetSource}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

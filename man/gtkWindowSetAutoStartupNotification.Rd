@@ -13,6 +13,5 @@ temporarily, show your splash screen, then re-enable it so that
 showing the main window would automatically result in notification.  
 
   Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

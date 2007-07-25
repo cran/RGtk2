@@ -23,6 +23,5 @@ A list containing the following elements:
 \item{\code{value}}{[R object]  the \code{R object} to store the result in}
 \item{\code{error}}{[\code{\link{GError}}]  return location for an error, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

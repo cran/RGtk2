@@ -8,6 +8,5 @@ count is cached, so this function is very fast.}
 \usage{gtkTextBufferGetCharCount(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}} }}
 \value{[integer]  number of characters in the buffer}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

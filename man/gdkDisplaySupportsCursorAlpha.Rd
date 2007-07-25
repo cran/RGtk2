@@ -8,6 +8,5 @@ alpha (i.e. a mask).}
 \arguments{\item{\code{object}}{[\code{\link{GdkDisplay}}]  a \code{\link{GdkDisplay}}}}
 \details{  Since  2.4}
 \value{[logical]  whether cursors can have alpha channels.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

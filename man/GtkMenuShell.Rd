@@ -147,7 +147,6 @@ keyboard focus. See \code{\link{gtkMenuShellSetTakeFocus}} and
   Default value: TRUE  Since  2.8
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkMenuShell.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

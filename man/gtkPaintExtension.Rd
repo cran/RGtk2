@@ -18,6 +18,5 @@
 \item{\code{height}}{[integer]  width of the extension }
 \item{\code{gap.side}}{[\code{\link{GtkPositionType}}]  the side on to which the extension is attached}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

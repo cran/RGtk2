@@ -14,6 +14,5 @@ you can't place the same widget inside two different containers.}
 \item{\code{object}}{[\code{\link{GtkContainer}}]  a \code{\link{GtkContainer}}}
 \item{\code{widget}}{[\code{\link{GtkWidget}}]  a widget to be placed inside \code{container}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

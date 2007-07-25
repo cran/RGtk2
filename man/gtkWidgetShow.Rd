@@ -13,6 +13,5 @@ in addition to the widget itself, before it will appear onscreen.
 When a toplevel container is shown, it is immediately realized and
 mapped; other shown widgets are realized and mapped when their
 toplevel container is realized and mapped.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

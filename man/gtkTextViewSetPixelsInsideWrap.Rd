@@ -9,6 +9,5 @@ tags in \code{text.view}'s buffer.}
 \item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}
 \item{\code{pixels.inside.wrap}}{[integer]  default number of pixels between wrapped lines}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

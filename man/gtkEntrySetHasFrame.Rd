@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}
 \item{\code{setting}}{[logical]  new value}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

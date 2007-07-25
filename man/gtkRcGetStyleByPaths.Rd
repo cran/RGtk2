@@ -25,6 +25,5 @@ would be items inside a GNOME canvas widget.}
 \value{[\code{\link{GtkStyle}}]  A style created by matching with the supplied paths,
   or \code{NULL} if nothing matching was specified and the default style should
   be used.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

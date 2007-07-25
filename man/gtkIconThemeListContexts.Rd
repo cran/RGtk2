@@ -8,6 +8,5 @@ hierarchy of icon themes}
 \details{  Since  2.12}
 \value{[list]  a \code{list} list holding the names of all the
  contexts in the theme.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

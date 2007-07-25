@@ -5,6 +5,5 @@
 \usage{gdkPixbufGetHasAlpha(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbuf}}]  A pixbuf.}}
 \value{[logical]  \code{TRUE} if it has an alpha channel, \code{FALSE} otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

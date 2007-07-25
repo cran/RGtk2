@@ -14,6 +14,5 @@ A list containing the following elements:
 \item{\code{y}}{[integer]  location to store root window Y coordinate of pointer, or \code{NULL}.}
 \item{\code{mask}}{[\code{\link{GdkModifierType}}]  location to store current modifier mask, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,6 +6,5 @@
 \usage{gtkViewportGetShadowType(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkViewport}}]  a \code{\link{GtkViewport}}}}
 \value{[\code{\link{GtkShadowType}}]  the shadow type }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

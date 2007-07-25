@@ -8,6 +8,5 @@ by default.}
 \item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}
 \item{\code{resizable}}{[logical]  \code{TRUE} if the user can resize this window}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

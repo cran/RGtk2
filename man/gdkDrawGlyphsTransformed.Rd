@@ -22,6 +22,5 @@ transformation matrix to that passed in to this function.}
 \details{See also \code{\link{gdkDrawGlyphs}}, \code{\link{gdkDrawLayout}}.  
 
   Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

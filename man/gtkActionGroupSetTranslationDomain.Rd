@@ -13,6 +13,5 @@
 \code{\link{gtkActionGroupSetTranslateFunc}}.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

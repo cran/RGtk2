@@ -11,6 +11,5 @@ from the surface is used.}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a \code{\link{Cairo}}}
 \item{\code{options}}{[\code{\link{CairoFontOptions}}]  font options to use}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

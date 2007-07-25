@@ -9,6 +9,5 @@ See \code{\link{gtkWidgetSetTooltipMarkup}}.}
 \item{\code{markup}}{[character]  markup text to be used as tooltip for \code{tool.item}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ or a method on the \code{\link{GtkTreeModel}} interface is called.}
 \item{\code{object}}{[\code{\link{GtkTreeStore}}]  A \code{\link{GtkTreeStore}}}
 \item{\code{types}}{[\code{\link{GType}}]  An list of \code{\link{GType}} types, one for each column}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

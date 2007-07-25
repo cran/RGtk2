@@ -5,6 +5,5 @@
 \usage{atkStateTypeForName(name)}
 \arguments{\item{\code{name}}{[character]  a character string state name}}
 \value{[\code{\link{AtkStateType}}]  an \code{\link{AtkStateType}} corresponding to \code{name} }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

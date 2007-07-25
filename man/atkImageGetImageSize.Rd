@@ -11,6 +11,5 @@ A list containing the following elements:
 \item{\code{width}}{[integer]  filled with the image width, or -1 if the value cannot be obtained.}
 \item{\code{height}}{[integer]  filled with the image height, or -1 if the value cannot be obtained.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

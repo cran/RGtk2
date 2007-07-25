@@ -12,6 +12,5 @@ wrapped, or ellipsized.}
   the horizontal, in degrees, measured counterclockwise}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

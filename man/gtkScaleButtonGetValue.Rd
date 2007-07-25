@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkScaleButton}}]  a \code{\link{GtkScaleButton}}}}
 \details{  Since  2.12}
 \value{[numeric]  current value of the scale button}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

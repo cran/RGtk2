@@ -7,6 +7,5 @@ a \code{\link{GdkDisplay}} with this screen as the default screen.}
 \arguments{\item{\code{object}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}}}
 \details{  Since  2.2}
 \value{[character]  a newly allocated string}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

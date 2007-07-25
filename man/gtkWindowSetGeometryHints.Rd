@@ -11,6 +11,5 @@ character); aspect ratios; and more. See the \code{\link{GdkGeometry}} struct.}
 \item{\code{geometry.widget}}{[\code{\link{GtkWidget}}]  widget the geometry hints will be applied to}
 \item{\code{geometry}}{[\code{\link{GdkGeometry}}]  struct containing geometry information}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

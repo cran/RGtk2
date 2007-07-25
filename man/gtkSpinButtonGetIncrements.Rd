@@ -10,6 +10,5 @@ A list containing the following elements:
 \item{\code{step}}{[numeric]  location to store step increment, or \code{NULL}}
 \item{\code{page}}{[numeric]  location to store page increment, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

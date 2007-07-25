@@ -10,6 +10,5 @@ doesn't have an alpha channel.}
 \item{\code{pixel}}{[numeric]  RGBA pixel to clear to
         (0xffffffff is opaque white, 0x00000000 transparent black)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

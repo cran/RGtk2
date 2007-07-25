@@ -12,6 +12,5 @@ A list containing the following elements:
 \item{\code{val}}{[\code{\link{GdkImage}}] return location for a \code{\link{GdkImage}}}
 \item{\code{mask}}{[\code{\link{GdkBitmap}}] a \code{\link{GdkBitmap}} that indicates which parts of the image should be transparent.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

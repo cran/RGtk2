@@ -11,6 +11,5 @@ then applying the original transformation.}
 \item{\code{ty}}{[numeric]  amount to translate in the Y direction}
 }
 \details{  Since  1.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

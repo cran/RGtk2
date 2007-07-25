@@ -14,6 +14,5 @@ If this is not set, it defaults to \code{gGetApplicationName()}.
 \details{  Since  2.6
 
 @Deprecated: 2.12: Use gtk\_about\_dialog\_set\_program\_name() instead.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

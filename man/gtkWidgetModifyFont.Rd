@@ -9,6 +9,5 @@ untouched. See also \code{\link{gtkWidgetModifyStyle}}.}
 \item{\code{font.desc}}{[\code{\link{PangoFontDescription}}]  the font description to use, or \code{NULL} to undo
   the effect of previous calls to \code{\link{gtkWidgetModifyFont}}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

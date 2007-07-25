@@ -10,6 +10,5 @@ are made.
 \usage{gtkProgressGetCurrentText(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkProgress}}] a \code{\link{GtkProgress}}.}}
 \value{[character] the text indicating the current progress.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ time it is called.}
 \item{\code{object}}{[\code{\link{GtkColorSelection}}]  a \code{\link{GtkColorSelection}}.}
 \item{\code{color}}{[\code{\link{GdkColor}}]  a \code{\link{GdkColor}} to set the previous color with.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,6 +12,5 @@ on the screen.)}
 \item{\code{setting}}{[logical]  \code{TRUE} to keep this window from appearing in the pager}
 }
 \details{  Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

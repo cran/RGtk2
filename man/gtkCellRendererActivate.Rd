@@ -16,6 +16,5 @@ toggles when it gets a mouse click.}
 \item{\code{flags}}{[\code{\link{GtkCellRendererState}}]  render flags}
 }
 \value{[logical]  \code{TRUE} if the event was consumed/handled}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

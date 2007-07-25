@@ -7,6 +7,5 @@ See \code{\link{gtkToolItemSetVisibleVertical}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkToolItem}}]  a \code{\link{GtkToolItem}} }}
 \details{  Since  2.4}
 \value{[logical]  Whether \code{tool.item} is visible when the toolbar is docked vertically}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

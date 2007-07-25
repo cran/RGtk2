@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkAction}}]  the action object}}
 \details{  Since  2.4}
 \value{[character]  the name of the action.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

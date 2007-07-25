@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}}
 \details{  Since  2.6}
 \value{[integer]  the maximum width of the label in characters.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ a new icon theme object for scratch.}
 \usage{gtkIconThemeNew()}
 \details{  Since  2.4}
 \value{[\code{\link{GtkIconTheme}}]  the newly created \code{\link{GtkIconTheme}} object.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

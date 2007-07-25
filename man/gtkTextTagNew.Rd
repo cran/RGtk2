@@ -6,6 +6,5 @@ i.e. using \code{\link{gObjectSet}}.}
 \usage{gtkTextTagNew(name = NULL)}
 \arguments{\item{\code{name}}{[character]  tag name, or \code{NULL}}}
 \value{[\code{\link{GtkTextTag}}]  a new \code{\link{GtkTextTag}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

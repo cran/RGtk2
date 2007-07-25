@@ -14,6 +14,5 @@ A list containing the following elements:
 \item{\code{model}}{[\code{\link{GtkTreeModel}}]  A pointer to set to the \code{\link{GtkTreeModel}}, or NULL.}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  The \code{\link{GtkTreeIter}}, or NULL.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

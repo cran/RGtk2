@@ -28,7 +28,6 @@ should be accessed using the functions below.
 
 }}}
 \section{Convenient Construction}{\code{gtkHScale} is the result of collapsing the constructors of \code{GtkHScale} (\code{\link{gtkHScaleNew}}, \code{\link{gtkHScaleNewWithRange}}) and accepts a subset of its arguments matching the required arguments of one of its delegate constructors.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkHScale.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

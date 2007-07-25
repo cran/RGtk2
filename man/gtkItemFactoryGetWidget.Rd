@@ -15,6 +15,5 @@ submenu, then the submenu is returned. If you are interested in the menu
 item, use \code{\link{gtkItemFactoryGetItem}} instead.  }
 \value{[\code{\link{GtkWidget}}]  the widget for the given path, or \code{NULL} if \code{path} doesn't lead
   to a widget}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

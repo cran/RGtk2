@@ -10,6 +10,5 @@ derives from the target surface.}
 \item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}, or \code{NULL} to unset any previously set
           options. A copy is made.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

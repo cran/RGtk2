@@ -12,6 +12,5 @@ GTK+ to use built in icon images, you must pass the
  extra reference is added to the returned pixbuf, so if
  you want to keep it around.
  The returned image must not be modified.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

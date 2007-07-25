@@ -13,6 +13,5 @@ can't see the override redirect window at all.}
 \details{Override redirect should only be used for short-lived temporary
 windows, such as popup menus. \code{\link{GtkMenu}} uses an override redirect
 window in its implementation, for example.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

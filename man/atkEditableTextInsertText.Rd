@@ -10,6 +10,5 @@
 the position at which to insert the text. After the call it
 points at the position after the newly inserted text.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

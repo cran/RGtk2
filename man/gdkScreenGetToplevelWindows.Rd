@@ -10,6 +10,5 @@ A toplevel window is a child of the root window (see
 
   Since  2.2}
 \value{[list]  list of toplevel windows}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

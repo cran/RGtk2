@@ -6,6 +6,5 @@
 \usage{gtkContainerGetResizeMode(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkContainer}}]  a \code{\link{GtkContainer}}}}
 \value{[\code{\link{GtkResizeMode}}]  the current resize mode}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

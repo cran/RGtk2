@@ -133,7 +133,6 @@ The number of columns of the pixbuf.  Allowed values: >= 1  Default value: 1
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

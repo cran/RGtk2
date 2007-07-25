@@ -8,6 +8,5 @@
 \item{\code{vadjustment}}{[\code{\link{GtkAdjustment}}]  vertical adjustment.}
 }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkViewport}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

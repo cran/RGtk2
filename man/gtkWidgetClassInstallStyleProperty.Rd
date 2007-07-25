@@ -8,6 +8,5 @@ style property is determined by the value type of \code{pspec}.}
 \item{\code{klass}}{[\code{\link{GtkWidgetClass}}]  a \code{\link{GtkWidgetClass}}}
 \item{\code{pspec}}{[\code{\link{GParamSpec}}]  the \code{\link{GParamSpec}} for the property}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

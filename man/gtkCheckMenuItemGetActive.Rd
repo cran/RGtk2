@@ -6,6 +6,5 @@
 \usage{gtkCheckMenuItemGetActive(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCheckMenuItem}}]  a \code{\link{GtkCheckMenuItem}}}}
 \value{[logical]  \code{TRUE} if the menu item is checked.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

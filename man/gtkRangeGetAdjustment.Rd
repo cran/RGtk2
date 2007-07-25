@@ -8,6 +8,5 @@ be unreferenced.}
 \usage{gtkRangeGetAdjustment(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkRange}}]  a \code{\link{GtkRange}}}}
 \value{[\code{\link{GtkAdjustment}}]  a \code{\link{GtkAdjustment}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

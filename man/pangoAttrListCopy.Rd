@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{PangoAttrList}}]  a \code{\link{PangoAttrList}}}}
 \value{[\code{\link{PangoAttrList}}]  the newly allocated \code{\link{PangoAttrList}}, with a
               reference count of one.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

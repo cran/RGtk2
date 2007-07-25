@@ -9,6 +9,5 @@
 }
 \value{[integer]  a gint representing the row at the specified index,
 or -1 if the table does not implement this interface}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

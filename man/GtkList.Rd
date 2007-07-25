@@ -92,7 +92,6 @@ The child \code{widget} has just been unselected.
   Default value: GTK\_SELECTION\_NONE
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkList.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

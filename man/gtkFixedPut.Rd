@@ -9,6 +9,5 @@
 \item{\code{x}}{[integer] the horizontal position to place the widget at.}
 \item{\code{y}}{[integer] the vertical position to place the widget at.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ the next character should be used for the mnemonic accelerator key.}
 \item{\code{use.underline}}{[logical]  \code{TRUE} if underlines in the text indicate mnemonics}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

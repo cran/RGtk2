@@ -11,6 +11,5 @@ external data, you may need to escape it with \code{gMarkupEscapeText()} or
 \item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}
 \item{\code{str}}{[character]  a markup string (see Pango markup format)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

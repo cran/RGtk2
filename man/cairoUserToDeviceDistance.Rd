@@ -11,6 +11,5 @@ translation components of the CTM will be ignored when transforming
 \item{\code{dx}}{[numeric]  X component of a distance vector (in/out parameter)}
 \item{\code{dy}}{[numeric]  Y component of a distance vector (in/out parameter)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

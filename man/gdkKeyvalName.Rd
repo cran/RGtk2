@@ -8,6 +8,5 @@ but without the leading "GDK\_".}
 \arguments{\item{\code{keyval}}{[numeric] a key value.}}
 \value{[character] a string containing the name of the key, or \code{NULL} if \code{keyval} is not
 a valid key. The string should not be modified.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

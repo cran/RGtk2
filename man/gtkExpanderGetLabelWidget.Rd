@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkExpander}}]  a \code{\link{GtkExpander}}}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkWidget}}]  the label widget, or \code{NULL} if there is none.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

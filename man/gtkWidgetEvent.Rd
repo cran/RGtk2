@@ -16,6 +16,5 @@ window.}
 }
 \value{[logical]  return from the event signal emission (\code{TRUE} if 
               the event was handled)}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

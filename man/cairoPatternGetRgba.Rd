@@ -15,6 +15,5 @@ color pattern.}
 \item{\code{blue}}{[numeric]  return value for blue component of color, or \code{NULL}}
 \item{\code{alpha}}{[numeric]  return value for alpha component of color, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

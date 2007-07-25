@@ -19,6 +19,5 @@ so the \code{background.area} rectangles for all cells tile to cover the entire
 \item{\code{expose.area}}{[\code{\link{GdkRectangle}}]  area that actually needs updating}
 \item{\code{flags}}{[\code{\link{GtkCellRendererState}}]  flags that affect rendering}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

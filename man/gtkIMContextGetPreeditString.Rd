@@ -17,6 +17,5 @@ A list containing the following elements:
 \item{\code{cursor.pos}}{[integer]  location to store position of cursor (in characters)
              within the preedit string.  }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

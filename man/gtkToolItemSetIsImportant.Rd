@@ -12,6 +12,5 @@ effect known as "priority text"}
 \item{\code{is.important}}{[logical]  whether the tool item should be considered important}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

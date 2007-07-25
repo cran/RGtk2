@@ -8,6 +8,5 @@
 A list containing the following elements:
 \item{\code{value}}{[R object]  a \code{R object} representing the minimum accessible value}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

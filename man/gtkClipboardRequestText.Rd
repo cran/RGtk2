@@ -16,6 +16,5 @@ later received, it will be converted to UTF-8 if necessary, and
 the request succeeded, or \code{NULL} if it failed. This could happen for
 various reasons, in particular if the clipboard was empty or if the
 contents of the clipboard could not be converted into text form.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

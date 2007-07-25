@@ -6,6 +6,5 @@
 \arguments{\item{\code{model}}{[\code{\link{GtkTreeModel}}]  The model.}}
 \details{  Since  2.6 }
 \value{[\code{\link{GtkWidget}}]  A newly created \code{\link{GtkIconView}} widget.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

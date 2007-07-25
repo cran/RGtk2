@@ -15,6 +15,5 @@ group.
   Since  1.2}
 \value{[\code{\link{CairoPattern}}]  a newly created (surface) pattern containing the
 results of all drawing operations performed to the group.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

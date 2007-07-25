@@ -9,6 +9,5 @@ is \code{GDK_TILED}.}
 \item{\code{object}}{[\code{\link{GdkGC}}]   a \code{\link{GdkGC}}.}
 \item{\code{tile}}{[\code{\link{GdkPixmap}}]   the new tile pixmap.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

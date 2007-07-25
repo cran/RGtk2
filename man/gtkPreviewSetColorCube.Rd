@@ -14,6 +14,5 @@ display.
 \item{\code{nblue.shades}}{[numeric] ignored}
 \item{\code{ngray.shades}}{[numeric] ignored}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

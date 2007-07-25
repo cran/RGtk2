@@ -34,7 +34,6 @@ action for a <toolitem> element.}
 Whether the items should be displayed with a number.  Default value: FALSE
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkRecentAction.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@ Visuals with higher color depths are considered better. \code{NULL} may be retur
 \usage{gdkVisualGetBestWithType(visual.type)}
 \arguments{\item{\code{visual.type}}{[\code{\link{GdkVisualType}}]  a visual type}}
 \value{[\code{\link{GdkVisual}}]  best visual of the given type}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,6 +14,5 @@ insensitive or not.}
 
   Since  2.6}
 \value{[logical]  \code{TRUE} if the target is available, \code{FALSE} otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

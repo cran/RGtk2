@@ -11,6 +11,5 @@ using \code{\link{GtkIconSet}} directly. The one case where you'd use
 \code{\link{GtkIconSet}} is to create application-specific icon sets to place in
 a \code{\link{GtkIconFactory}}.  }
 \value{[\code{\link{GtkIconSet}}]  a new \code{\link{GtkIconSet}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

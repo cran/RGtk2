@@ -7,6 +7,5 @@
 \details{  Since  2.10}
 \value{[integer]  The index (starting from 0) of the current page in
 the \code{assistant}, if the \code{assistant} has no pages, -1 will be returned}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

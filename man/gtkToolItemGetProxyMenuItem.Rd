@@ -16,6 +16,5 @@ inadvertently change a menu item that they did not create.
   Since  2.4}
 \value{[\code{\link{GtkWidget}}]  The \code{\link{GtkMenuItem}} passed to
 \code{\link{gtkToolItemSetProxyMenuItem}}, if the \code{menu.item.id}s match.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

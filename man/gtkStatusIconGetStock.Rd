@@ -9,6 +9,5 @@ The storage type of the status icon must be \code{GTK_IMAGE_EMPTY} or
 \details{  Since  2.10}
 \value{[character]  stock id of the displayed stock icon,
   or \code{NULL} if the image is empty.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

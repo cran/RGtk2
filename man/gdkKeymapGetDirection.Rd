@@ -10,6 +10,5 @@
 
 \code{Returns}: \code{PANGO_DIRECTION_LTR} or \code{PANGO_DIRECTION_RTL} if determines the
 direction.  \code{PANGO_DIRECTION_NEUTRAL} otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

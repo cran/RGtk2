@@ -5,6 +5,5 @@
 \usage{cairoGetAntialias(cr)}
 \arguments{\item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}}
 \value{[\code{\link{CairoAntialias}}]  the current shape antialiasing mode.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

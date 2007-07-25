@@ -13,6 +13,5 @@ using \code{\link{gtkTreeViewScrollToCell}}.}
 \item{\code{tree.y}}{[integer]  Y coordinate of new top-left pixel of visible area, or -1}
 }
 \details{If either \code{tree.x} or \code{tree.y} are -1, then that direction isn't scrolled.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@
 \item{\code{flags}}{[numeric]  the flags for this target}
 \item{\code{info}}{[numeric]  an ID that will be passed back to the application}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

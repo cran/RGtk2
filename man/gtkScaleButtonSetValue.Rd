@@ -11,6 +11,5 @@ signal if the value changes.}
 \item{\code{value}}{[numeric]  new value of the scale button}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

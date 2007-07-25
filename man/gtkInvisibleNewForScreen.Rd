@@ -7,6 +7,5 @@
     the new \code{\link{GtkInvisible}} will be created.}}
 \details{  Since  2.2}
 \value{[\code{\link{GtkWidget}}]  a newly created \code{\link{GtkInvisible}} object}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -26,7 +26,7 @@ New entries may be added in future versions.
 \item{\code{argb32}}{ each pixel is a 32-bit quantity, with
   alpha in the upper 8 bits, then red, then green, then blue.
   The 32-bit quantities are stored native-endian. Pre-multiplied
-  alpha is used. (That is, 50% transparent red is 0x80800000,
+  alpha is used. (That is, 50\% transparent red is 0x80800000,
   not 0x80ff0000.)}
 \item{\code{rgb24}}{ each pixel is a 32-bit quantity, with
   the upper 8 bits unused. Red, Green, and Blue are stored
@@ -44,7 +44,6 @@ New entries may be added in future versions.
 }
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-Image-Surfaces.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

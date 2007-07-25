@@ -17,6 +17,5 @@
 \item{\code{y}}{[integer]  y origin}
 \item{\code{layout}}{[\code{\link{PangoLayout}}]  the layout to draw}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

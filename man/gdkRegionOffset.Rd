@@ -8,6 +8,5 @@
 \item{\code{dx}}{[integer]  the distance to move the region horizontally}
 \item{\code{dy}}{[integer]  the distance to move the region vertically}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

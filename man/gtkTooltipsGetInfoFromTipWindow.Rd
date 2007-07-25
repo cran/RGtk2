@@ -20,6 +20,5 @@ A list containing the following elements:
 \item{\code{current.widget}}{[\code{\link{GtkWidget}}]  the return location for the widget whose tooltips 
    are displayed, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

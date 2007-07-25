@@ -9,6 +9,5 @@ property \code{current.value}.}
 \item{\code{current.value}}{[integer]  the new value}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ they should use.}
 \details{  Since  2.4}
 \value{[\code{\link{GtkOrientation}}]  a \code{\link{GtkOrientation}} indicating the orientation
 used for \code{tool.item}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

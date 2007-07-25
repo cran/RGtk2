@@ -19,7 +19,6 @@ The RGtk binding to the Pango library consists of the following components:
 \item{\link{pango-Vertical-Text}}{Laying text out in vertical directions}
 }
 }
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/pango}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{interface}

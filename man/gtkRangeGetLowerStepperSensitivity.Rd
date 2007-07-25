@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkRange}}]  a \code{\link{GtkRange}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkSensitivityType}}]  The lower stepper's sensitivity policy.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

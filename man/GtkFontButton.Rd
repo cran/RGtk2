@@ -106,7 +106,6 @@ with the selected font size.
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkFontButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

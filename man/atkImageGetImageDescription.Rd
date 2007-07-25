@@ -5,6 +5,5 @@
 \usage{atkImageGetImageDescription(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkImage}}]  a \code{\link{GObject}} instance that implements AtkImageIface}}
 \value{[character]  a string representing the image description}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

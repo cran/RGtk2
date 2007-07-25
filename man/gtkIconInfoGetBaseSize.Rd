@@ -14,6 +14,5 @@ they are attached.}
 \details{  Since  2.4}
 \value{[integer]  the base size, or 0, if no base
  size is known for the icon.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

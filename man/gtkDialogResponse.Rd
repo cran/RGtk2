@@ -10,6 +10,5 @@ typically either you or \code{\link{gtkDialogRun}} will be monitoring the
 \item{\code{object}}{[\code{\link{GtkDialog}}]  a \code{\link{GtkDialog}}}
 \item{\code{response.id}}{[integer]  response ID }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

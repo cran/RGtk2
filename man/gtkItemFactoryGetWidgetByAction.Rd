@@ -16,6 +16,5 @@ with the given \code{action}.
 undefined.  }
 \value{[\code{\link{GtkWidget}}]  the widget which corresponds to the given action, or \code{NULL}
   if no widget was found}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

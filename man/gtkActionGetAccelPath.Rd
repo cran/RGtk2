@@ -7,6 +7,5 @@
 \details{  Since  2.6}
 \value{[character]  the accel path for this action, or \code{NULL}
   if none is set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

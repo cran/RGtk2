@@ -15,6 +15,5 @@
 \details{  Since  2.12}
 \value{[logical]  \code{TRUE} if a object has a custom implementation, \code{FALSE}
          if it doesn't.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

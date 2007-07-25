@@ -11,6 +11,5 @@
 \details{  Since  2.12}
 \value{[\code{\link{GType}}]  the \code{\link{GType}} found for \code{type.name} or \code{G_TYPE_INVALID} 
   if no type was found}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@ Controls whether progress text is shown.
 \item{\code{show.text}}{[logical] a boolean indicating whether the progress text
 is shown.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

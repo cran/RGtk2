@@ -36,6 +36,5 @@ clipboard, you might call it "\_FOO\_SPECIAL\_CLIPBOARD".
             clipboard already exists, a new one will
             be created. Once a clipboard object has
             been created, it is persistent and.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,6 +12,5 @@ widget in the toplevel, it is usually more convenient to use
 \item{\code{focus}}{[\code{\link{GtkWidget}}]  widget to be the new focus widget, or \code{NULL} to unset
   any focus widget for the toplevel window.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

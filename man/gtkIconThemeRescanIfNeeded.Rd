@@ -9,6 +9,5 @@ next time \code{icon.theme} is accessed.}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the icon theme has changed and needed
   to be reloaded.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

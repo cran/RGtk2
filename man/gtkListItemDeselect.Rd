@@ -7,6 +7,5 @@ Deselects the item, by emitting the item's "deselect" signal.
 }
 \usage{gtkListItemDeselect(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkListItem}}] a \code{\link{GtkListItem}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

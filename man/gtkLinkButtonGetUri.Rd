@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkLinkButton}}]  a \code{\link{GtkLinkButton}}}}
 \details{  Since  2.10}
 \value{[character]  a valid URI.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

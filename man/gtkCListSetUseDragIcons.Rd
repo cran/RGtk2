@@ -11,6 +11,5 @@ doing drag-and-drop operations.
 \item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}
 \item{\code{use.icons}}{[logical] \code{TRUE} or \code{FALSE}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

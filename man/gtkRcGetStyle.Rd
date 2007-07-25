@@ -12,6 +12,5 @@ created.)}
 \value{[\code{\link{GtkStyle}}]  the resulting style. No refcount is added
   to the returned style, so if you want to save this
   style around, you should add a reference yourself.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

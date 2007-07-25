@@ -13,6 +13,5 @@ the \code{\link{GtkProgress}}.
 \item{\code{min}}{[numeric] }
 \item{\code{max}}{[numeric] the maximum progress value.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

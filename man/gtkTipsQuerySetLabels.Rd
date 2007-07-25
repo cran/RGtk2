@@ -14,6 +14,5 @@ the pointer has no tooltip.
 \item{\code{label.no.tip}}{[character] the text to display when the query is running but the widget
 beneath the pointer has no tooltip.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

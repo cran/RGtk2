@@ -7,6 +7,5 @@ doesn't have a label. or uses a the label from a stock item.}
 \arguments{\item{\code{object}}{[\code{\link{GtkToolButton}}]  a \code{\link{GtkToolButton}}}}
 \details{  Since  2.4}
 \value{[character]  The label, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

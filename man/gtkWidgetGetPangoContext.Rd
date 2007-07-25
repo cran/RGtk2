@@ -12,7 +12,6 @@ deal with changes to the context by calling \code{\link{pangoLayoutContextChange
 on the layout in response to the \code{::style-set} and 
 \code{::direction-changed} signals for the widget.  }
 \value{[\code{\link{PangoContext}}]  the \code{\link{PangoContext}} for the widget.}
-\section{encoding}{UTF-8}
 \note{Unlike the context returned by \code{\link{gtkWidgetCreatePangoContext}}, 
 this context is owned by the widget (it can be used until the screen for 
 the widget changes or the widget is removed from its toplevel), and will 

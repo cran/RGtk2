@@ -11,6 +11,5 @@ Collapse a node and its children up to the depth given.
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] }
 \item{\code{depth}}{[integer] The (absolute) depth up to which to collapse nodes.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

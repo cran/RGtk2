@@ -10,6 +10,5 @@
 \item{\code{v.long}}{[numeric] }
 \item{\code{origin}}{[character] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

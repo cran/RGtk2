@@ -19,6 +19,5 @@ in.  }
 \value{[logical]  \code{TRUE} if setting the clipboard data succeeded. If setting
               the clipboard data failed the provided callback functions
               will be ignored.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

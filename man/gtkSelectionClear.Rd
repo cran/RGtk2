@@ -15,6 +15,5 @@ from any other context is illegal.}
 }
 \details{  Since  2.2}
 \value{[logical]  \code{TRUE} if the event was handled, otherwise false}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,6 +18,5 @@ the word is a word).}
 A list containing the following elements:
 \item{\code{log.attrs}}{[\code{\link{PangoLogAttr}}]  list with one \code{\link{PangoLogAttr}} per character in \code{text}, plus one extra, to be filled in}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

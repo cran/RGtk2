@@ -5,6 +5,5 @@
 \usage{atkTextGetCaretOffset(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkText}}]  an \code{\link{AtkText}}}}
 \value{[integer]  the offset position of the caret (cursor).}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

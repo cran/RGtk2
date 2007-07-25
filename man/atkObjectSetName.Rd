@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}
 \item{\code{name}}{[character]  a character string to be set as the accessible name}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

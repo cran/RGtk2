@@ -10,6 +10,5 @@ primitives.}
 \usage{gdkDrawableGetClipRegion(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkDrawable}}]  a \code{\link{GdkDrawable}}}}
 \value{[\code{\link{GdkRegion}}]  a \code{\link{GdkRegion}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

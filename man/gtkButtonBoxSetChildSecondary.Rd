@@ -19,6 +19,5 @@ of before/after depends on direction of the widget (see
 or \code{GTK_BUTTONBOX_END}, then the secondary children are aligned at
 the other end of the button box from the main children. For the
 other styles, they appear immediately next to the main children.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

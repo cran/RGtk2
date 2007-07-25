@@ -110,7 +110,6 @@ but otherwise will remain unchanged.
 }
 }}
 \section{Convenient Construction}{\code{cairoScaledFont} is the equivalent of \code{\link{cairoScaledFontCreate}}.}
-\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-Scaled-Fonts.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

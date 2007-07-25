@@ -7,6 +7,5 @@ to a \code{\link{PangoCoverage}}}
 \arguments{\item{\code{bytes}}{[raw]  binary data representing a \code{\link{PangoCoverage}}}}
 \value{[\code{\link{PangoCoverage}}]  a newly allocated \code{\link{PangoCoverage}}, or \code{NULL} if
               the data was invalid.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

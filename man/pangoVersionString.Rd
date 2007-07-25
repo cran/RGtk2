@@ -8,6 +8,5 @@ the version available at compile-time.}
 \details{  Since  1.16}
 \value{[char] value: A string containing the version of Pango library
   available at run time.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

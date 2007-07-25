@@ -25,6 +25,5 @@ cairo\_curve\_to (\code{cr}, x + \code{dx1}, y + \code{dy1}, x + \code{dx2}, y +
 It is an error to call this function with no current point. Doing
 so will cause \code{cr} to shutdown with a status of
 CAIRO\_STATUS\_NO\_CURRENT\_POINT.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

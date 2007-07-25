@@ -15,6 +15,5 @@ starting drags itself, and is not needed when
 \item{\code{event}}{[\code{\link{GdkEvent}}]  The event that triggered the start of the drag.}
 }
 \value{[\code{\link{GdkDragContext}}]  the context for this drag.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

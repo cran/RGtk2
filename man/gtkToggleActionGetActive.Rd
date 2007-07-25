@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkToggleAction}}]  the action object}}
 \details{  Since  2.4}
 \value{[logical]  the checked state of the toggle action}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

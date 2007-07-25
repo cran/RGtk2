@@ -6,6 +6,5 @@ indicates a hanging indentation.}
 \usage{pangoLayoutGetIndent(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}}}
 \value{[integer]  the indent.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

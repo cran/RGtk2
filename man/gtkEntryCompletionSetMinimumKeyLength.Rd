@@ -11,6 +11,5 @@ key takes a lot of time and will come up with meaningless results anyway
 \item{\code{length}}{[integer]  The minimum length of the key in order to start completing.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

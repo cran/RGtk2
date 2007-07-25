@@ -1717,7 +1717,6 @@ configurable width and should be drawn using a box instead of a line.
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkWidget.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

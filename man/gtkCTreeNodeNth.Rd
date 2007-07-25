@@ -11,6 +11,5 @@
 \item{\code{row}}{[numeric] }
 }
 \value{[\code{\link{GtkCTreeNode}}] The node corresponding to the \code{row} th row.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

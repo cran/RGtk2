@@ -12,6 +12,5 @@
 \item{\code{column}}{[integer] }
 }
 \value{[\code{\link{GtkCellType}}] The type of the given cell.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

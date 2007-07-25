@@ -5,6 +5,5 @@
 user preferences will be used to determine the icon size.}
 \usage{gtkToolbarUnsetIconSize(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

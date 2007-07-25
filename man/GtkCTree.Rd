@@ -362,7 +362,6 @@ The column in which the actual tree graphic appears.
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkCTree.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@ pixel positions, in combination with \code{\link{gtkLabelGetLayoutOffsets}}.}
 \usage{gtkLabelGetLayout(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}}
 \value{[\code{\link{PangoLayout}}]  the \code{\link{PangoLayout}} for this label}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

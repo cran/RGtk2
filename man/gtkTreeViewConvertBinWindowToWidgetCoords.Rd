@@ -15,6 +15,5 @@ A list containing the following elements:
 \item{\code{wx}}{[integer]  return location for widget X coordinate}
 \item{\code{wy}}{[integer]  return location for widget Y coordinate}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

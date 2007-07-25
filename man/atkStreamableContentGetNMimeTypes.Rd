@@ -5,6 +5,5 @@
 \usage{atkStreamableContentGetNMimeTypes(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkStreamableContent}}]  a GObject instance that implements AtkStreamableContentIface}}
 \value{[integer]  a gint which is the number of mime types supported by the object.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ grabbed by this application.}
 presses into account.  
   }
 \value{[logical]  \code{TRUE} if the pointer is currently grabbed by this application.* }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

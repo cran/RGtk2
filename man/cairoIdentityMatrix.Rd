@@ -7,6 +7,5 @@ axes will be aligned and one user-space unit will transform to one
 device-space unit.}
 \usage{cairoIdentityMatrix(cr)}
 \arguments{\item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

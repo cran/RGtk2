@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkProgressBar}}]  a \code{\link{GtkProgressBar}}}
 \item{\code{text}}{[character]  a UTF-8 string, or \code{NULL} }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

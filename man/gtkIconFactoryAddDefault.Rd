@@ -9,6 +9,5 @@ application that comes with icons. The default icon factories
 can be overridden by themes.}
 \usage{gtkIconFactoryAddDefault(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconFactory}}]  a \code{\link{GtkIconFactory}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

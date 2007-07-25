@@ -8,6 +8,5 @@
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  The \code{\link{GtkTreeIter}}.}
 }
 \value{[\code{\link{GtkTreePath}}]  a newly-created \code{\link{GtkTreePath}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

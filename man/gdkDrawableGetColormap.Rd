@@ -6,6 +6,5 @@
 \usage{gdkDrawableGetColormap(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkDrawable}}]  a \code{\link{GdkDrawable}}}}
 \value{[\code{\link{GdkColormap}}]  the colormap, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

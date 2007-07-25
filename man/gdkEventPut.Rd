@@ -6,6 +6,5 @@ queue for event->any.window's display, or the default event
 queue if event->any.window is \code{NULL}. See \code{\link{gdkDisplayPutEvent}}.}
 \usage{gdkEventPut(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkEvent}}]  a \code{\link{GdkEvent}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

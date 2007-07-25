@@ -6,7 +6,6 @@
 The RGtk binding to the Libglade library consists of the following components:
 \describe{\item{\link{GladeXML}}{Allows dynamic loading of user interfaces from XML descriptions.}}
 }
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/libglade}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{interface}

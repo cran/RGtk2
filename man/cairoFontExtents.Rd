@@ -9,6 +9,5 @@ A list containing the following elements:
 \item{\code{extents}}{[\code{\link{CairoFontExtents}}]  a \code{\link{CairoFontExtents}} object into which the results
 will be stored.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

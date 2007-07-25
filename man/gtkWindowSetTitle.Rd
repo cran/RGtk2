@@ -14,6 +14,5 @@ document filename, for example.}
 \item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}
 \item{\code{title}}{[character]  title of the window}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

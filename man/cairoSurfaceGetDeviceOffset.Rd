@@ -11,6 +11,5 @@ A list containing the following elements:
 \item{\code{x.offset}}{[numeric]  the offset in the X direction, in device units}
 \item{\code{y.offset}}{[numeric]  the offset in the Y direction, in device units}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

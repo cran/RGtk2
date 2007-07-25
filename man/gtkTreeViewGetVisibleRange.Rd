@@ -14,6 +14,5 @@ A list containing the following elements:
 \item{\code{start.path}}{[\code{\link{GtkTreePath}}]  Return location for start of region, or \code{NULL}.}
 \item{\code{end.path}}{[\code{\link{GtkTreePath}}]  Return location for end of region, or \code{NULL}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

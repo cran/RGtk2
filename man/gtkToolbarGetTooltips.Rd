@@ -6,6 +6,5 @@
 \usage{gtkToolbarGetTooltips(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}}}
 \value{[logical]  \code{TRUE} if tooltips are enabled}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

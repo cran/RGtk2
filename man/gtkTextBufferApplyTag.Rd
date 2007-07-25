@@ -11,6 +11,5 @@ handler for the signal applies \code{tag} to the given range.
 \item{\code{start}}{[\code{\link{GtkTextIter}}]  one bound of range to be tagged}
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  other bound of range to be tagged}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,6 +12,5 @@ Allocates a single color from a colormap.
    \code{pixel} field will be filled in.}
 }
 \value{[integer]  \code{TRUE} if the allocation succeeded.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

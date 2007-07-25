@@ -4,6 +4,5 @@
 \description{Checks if any events are ready to be processed for any display.}
 \usage{gdkEventsPending()}
 \value{[logical]   \code{TRUE} if any events are pending.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

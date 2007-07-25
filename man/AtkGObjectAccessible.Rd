@@ -19,7 +19,6 @@ for GnomeCanvasItem in the GAIL library.}
 The AtkGObjectAccessible structure should not be accessed directly.
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk/AtkGObjectAccessible.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

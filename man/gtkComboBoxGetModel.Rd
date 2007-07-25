@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkComboBox}}]  A \code{\link{GtkComboBox}}}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkTreeModel}}]  A \code{\link{GtkTreeModel}} which was passed during construction.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

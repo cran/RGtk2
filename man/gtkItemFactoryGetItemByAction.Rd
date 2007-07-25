@@ -14,6 +14,5 @@ Obtains the menu item which was constructed from the first
 }
 \value{[\code{\link{GtkWidget}}]  the menu item which corresponds to the given action, or \code{NULL}
   if no menu item was found}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

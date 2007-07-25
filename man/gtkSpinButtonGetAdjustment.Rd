@@ -5,6 +5,5 @@
 \usage{gtkSpinButtonGetAdjustment(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}}}}
 \value{[\code{\link{GtkAdjustment}}]  the \code{\link{GtkAdjustment}} of \code{spin.button}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

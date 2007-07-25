@@ -12,6 +12,5 @@ function directly, so that themes are taken into account.}
 \item{\code{stock.id}}{[character]  an icon name}
 }
 \value{[\code{\link{GtkIconSet}}]  icon set of \code{stock.id}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

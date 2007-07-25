@@ -9,6 +9,5 @@ column.}
 \item{\code{column}}{[numeric] the column whose spacing should be changed.}
 \item{\code{spacing}}{[numeric] number of pixels that the spacing should take up.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

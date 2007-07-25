@@ -14,6 +14,5 @@ A list containing the following elements:
 \item{\code{min.width}}{[integer] the width of the buttons contained by \code{widget}.}
 \item{\code{min.height}}{[integer] the height of the buttons contained by \code{widget}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

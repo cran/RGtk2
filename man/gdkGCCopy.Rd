@@ -8,6 +8,5 @@ onto another graphics context.}
 \item{\code{object}}{[\code{\link{GdkGC}}]  the destination graphics context.}
 \item{\code{src.gc}}{[\code{\link{GdkGC}}]  the source graphics context.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

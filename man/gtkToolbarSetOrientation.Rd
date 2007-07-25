@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}.}
 \item{\code{orientation}}{[\code{\link{GtkOrientation}}]  a new \code{\link{GtkOrientation}}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

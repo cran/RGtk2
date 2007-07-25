@@ -7,6 +7,5 @@ to be in the same order as the child model only if the \code{\link{GtkTreeModelS
 is in 'unsorted' state.}
 \usage{gtkTreeModelSortResetDefaultSortFunc(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeModelSort}}]  A \code{\link{GtkTreeModelSort}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

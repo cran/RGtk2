@@ -9,6 +9,5 @@ not be \code{TRUE} for the widget.}
 \usage{gtkWindowGetFocus(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \value{[\code{\link{GtkWidget}}]  the currently focused widget, or \code{NULL} if there is none.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

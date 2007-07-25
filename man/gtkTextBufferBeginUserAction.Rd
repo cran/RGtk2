@@ -19,6 +19,5 @@ from other user actions.}
 user action around the buffer operations they perform, so there's
 no need to add extra calls if you user action consists solely of a
 single call to one of those functions.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

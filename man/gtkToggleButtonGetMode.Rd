@@ -7,6 +7,5 @@ and label. See \code{\link{gtkToggleButtonSetMode}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkToggleButton}}]  a \code{\link{GtkToggleButton}}}}
 \value{[logical]  \code{TRUE} if the togglebutton is drawn as a separate indicator
   and label.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

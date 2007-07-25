@@ -27,6 +27,5 @@ initiated the popup. If such an event is not available, use
   
 The operation of the \code{mouse.button} and the \code{time.} parameters is the same
 as the \code{button} and \code{activation.time} parameters for \code{\link{gtkMenuPopup}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

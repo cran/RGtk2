@@ -19,6 +19,5 @@ the background of such widgets, you have to set the background color
 on their parent; if you want to set the background of a rectangular 
 area around a label, try placing the label in a \code{\link{GtkEventBox}} widget 
 and setting the background color on that.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

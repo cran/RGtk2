@@ -5,6 +5,5 @@
 \usage{gdkPixbufGetBitsPerSample(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbuf}}]  A pixbuf.}}
 \value{[integer]  Number of bits per color sample.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

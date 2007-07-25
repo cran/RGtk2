@@ -9,6 +9,5 @@ A list containing the following elements:
 \item{retval}{[logical]      \code{TRUE} if \code{accel.path} is known, \code{FALSE} otherwise}
 \item{\code{key}}{[\code{\link{GtkAccelKey}}]          the accelerator key to be filled in (optional)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

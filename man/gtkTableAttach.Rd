@@ -18,6 +18,5 @@ and row numbers of the table. (Columns and rows are indexed from zero).}
 \item{\code{xpadding}}{[numeric] An integer value specifying the padding on the left and right of the widget being added to the table.}
 \item{\code{ypadding}}{[numeric] The amount of padding above and below the child widget.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

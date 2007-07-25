@@ -24,6 +24,5 @@ would be used to render the string, then the returned fonts would
 be a composite of the metrics for the fonts loaded for the
 individual families.  }
 \value{[\code{\link{PangoFontMetrics}}]  a \code{\link{PangoFontMetrics}} object.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

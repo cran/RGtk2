@@ -14,6 +14,5 @@
 \item{\code{actions}}{[\code{\link{GdkDragAction}}] a bitmask of possible actions for a drop onto this
  widget.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

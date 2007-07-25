@@ -11,6 +11,5 @@ A list containing the following elements:
 or zero if value does not implement this interface.}
 \item{\code{selected}}{[integer]  a \code{integer}** that is to contain the selected row numbers}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

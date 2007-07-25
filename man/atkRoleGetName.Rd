@@ -5,6 +5,5 @@
 \usage{atkRoleGetName(role)}
 \arguments{\item{\code{role}}{[\code{\link{AtkRole}}]  The \code{\link{AtkRole}} whose name is required}}
 \value{[character]  the string describing the AtkRole}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

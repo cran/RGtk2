@@ -13,6 +13,5 @@ to use for drawing.
 
   Since  2.6}
 \value{[\code{\link{PangoRenderer}}]  the default \code{\link{PangoRenderer}} for \code{screen}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

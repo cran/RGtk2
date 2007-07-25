@@ -8,6 +8,5 @@
 \arguments{\item{\code{ch}}{[numeric]  a Unicode character}}
 \value{[\code{\link{PangoDirection}}]  the direction of the character, as used in the
 Unicode bidirectional algorithm.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,6 +6,5 @@
 \arguments{\item{\code{rise}}{[integer]  the amount that the text should be displaced vertically,
        in Pango units. Positive values displace the text upwards.}}
 \value{[\code{\link{PangoAttribute}}]  the newly allocated \code{\link{PangoAttribute}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

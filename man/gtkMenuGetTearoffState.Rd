@@ -6,6 +6,5 @@
 \usage{gtkMenuGetTearoffState(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkMenu}}]  a \code{\link{GtkMenu}}}}
 \value{[logical]  \code{TRUE} if the menu is currently torn off.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

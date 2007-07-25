@@ -14,6 +14,5 @@
 \code{x} and \code{y} specify the position of the left edge of the baseline
 (left is in before-tranform user coordinates) in after-transform
 device coordinates.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

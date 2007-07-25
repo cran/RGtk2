@@ -9,6 +9,5 @@ should not be used. See \code{\link{gdkColorChange}}.
 }
 \usage{gdkColorsStore(object, colors)}
 \arguments{\item{\code{colors}}{[\code{\link{GdkColor}}]  the new color values.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

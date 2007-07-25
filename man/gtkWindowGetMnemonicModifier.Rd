@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \value{[\code{\link{GdkModifierType}}]  the modifier mask used to activate
               mnemonics on this window.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

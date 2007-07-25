@@ -12,6 +12,5 @@ ellipsized.
   Since  1.16}
 \value{[logical]  \code{TRUE} if any paragraphs had to be ellipsized, \code{FALSE}
 otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

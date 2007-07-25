@@ -5,6 +5,5 @@
 \usage{gtkAccelLabelNew(string = NULL, show = TRUE)}
 \arguments{\item{\code{string}}{[character] the label string. Must be non-\code{NULL}.}}
 \value{[\code{\link{GtkWidget}}] a new \code{\link{GtkAccelLabel}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

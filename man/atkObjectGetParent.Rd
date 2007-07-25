@@ -5,6 +5,5 @@
 \usage{atkObjectGetParent(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}}
 \value{[\code{\link{AtkObject}}]  a \code{\link{AtkObject}} representing the accessible parent of the accessible}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

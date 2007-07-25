@@ -13,6 +13,5 @@ the main loop runs, the paste data will be inserted.)}
                     at the cursor}
 \item{\code{default.editable}}{[logical]  whether the buffer is editable by default}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

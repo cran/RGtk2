@@ -10,6 +10,5 @@ using \code{\link{gtkTargetListAddRichTextTargets}} and
 \arguments{\item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkTargetList}}]  the \code{\link{GtkTargetList}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

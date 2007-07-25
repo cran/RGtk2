@@ -12,6 +12,5 @@ in the file list.
 \details{The filenames are in the GLib file name encoding. To convert to
 UTF-8, call \code{gFilenameToUtf8()} on each string.  }
 \value{[character]  a newly-allocated list of strings.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

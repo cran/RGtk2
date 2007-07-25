@@ -10,6 +10,5 @@ See also \code{\link{gtkTooltipsetTipArea}}.}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  a \code{\link{GtkTreePath}}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

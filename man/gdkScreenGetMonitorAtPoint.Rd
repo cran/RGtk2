@@ -11,6 +11,5 @@
 \details{  Since  2.2}
 \value{[integer]  the monitor number in which the point (\code{x},\code{y}) lies, or
   a monitor close to (\code{x},\code{y}) if the point is not in any monitor.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

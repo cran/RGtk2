@@ -11,6 +11,5 @@ Searches the children of \code{list} for the index of \code{child}.
 \item{\code{child}}{[\code{\link{GtkWidget}}] the child to look for.}
 }
 \value{[integer] the index of the child, -1 if not found.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

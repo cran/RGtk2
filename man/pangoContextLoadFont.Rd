@@ -9,6 +9,5 @@ that is the closest match for \code{desc}.}
 \item{\code{desc}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}} describing the font to load}
 }
 \value{[\code{\link{PangoFont}}] the font loaded, or \code{NULL} if no font matched.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

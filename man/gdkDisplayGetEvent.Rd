@@ -8,6 +8,5 @@ windowing system if necessary.}
 \details{  Since  2.2}
 \value{[\code{\link{GdkEvent}}]  the next \code{\link{GdkEvent}} to be processed, or \code{NULL} if no events
 are pending.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

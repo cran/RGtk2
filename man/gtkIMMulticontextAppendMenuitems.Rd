@@ -9,6 +9,5 @@ for the context and the global default input method.}
 \item{\code{object}}{[\code{\link{GtkIMMulticontext}}]  a \code{GtkIMMultiContext}}
 \item{\code{menushell}}{[\code{\link{GtkMenuShell}}]  a \code{\link{GtkMenuShell}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

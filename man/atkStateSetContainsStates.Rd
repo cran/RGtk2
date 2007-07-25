@@ -9,6 +9,5 @@ specified set.}
 \item{\code{types}}{[\code{\link{AtkStateType}}]  a list of \code{\link{AtkStateType}}}
 }
 \value{[logical]  \code{TRUE} if all the states for \code{type} are in \code{set}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@
 }
 \details{  Since  2.2}
 \value{[\code{\link{GdkScreen}}]  the \code{\link{GdkScreen}} object}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

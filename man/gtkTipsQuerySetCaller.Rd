@@ -12,6 +12,5 @@ automatically stopped.
 \item{\code{object}}{[\code{\link{GtkTipsQuery}}] a \code{\link{GtkTipsQuery}}.}
 \item{\code{caller}}{[\code{\link{GtkWidget}}] the widget which initiates the query.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

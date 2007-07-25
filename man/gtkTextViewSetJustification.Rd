@@ -8,6 +8,5 @@ Tags in the view's buffer may override the default.}
 \item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}
 \item{\code{justification}}{[\code{\link{GtkJustification}}]  justification}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

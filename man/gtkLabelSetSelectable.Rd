@@ -8,6 +8,5 @@ copy-and-paste.}
 \item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}
 \item{\code{setting}}{[logical]  \code{TRUE} to allow selecting text in the label}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

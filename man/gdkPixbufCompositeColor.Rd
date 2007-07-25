@@ -29,6 +29,5 @@ image.}
 }
 \details{See \code{\link{gdkPixbufCompositeColorSimple}} for a simpler variant of this
 function suitable for many tasks.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

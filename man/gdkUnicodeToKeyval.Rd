@@ -7,6 +7,5 @@
 \value{[numeric]  the corresponding GDK key symbol, if one exists.
               or, if there is no corresponding symbol, 
               wc | 0x01000000}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

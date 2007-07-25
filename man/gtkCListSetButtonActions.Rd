@@ -15,6 +15,5 @@ on the CList.
 \item{\code{button.actions}}{[raw] A logically OR'd value of \code{\link{GtkButtonAction}} values 
 for the button.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

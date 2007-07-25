@@ -9,6 +9,5 @@ callbacks that might destroy the widgets, you \emph{must} call
 then unref all the widgets afterwards.}
 \usage{gtkWindowListToplevels()}
 \value{[list]  list of toplevel widgets}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ the user can actually see the icon, see also
 \arguments{\item{\code{object}}{[\code{\link{GtkStatusIcon}}]  a \code{\link{GtkStatusIcon}}}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the status icon is visible}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

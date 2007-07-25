@@ -10,6 +10,5 @@ of \code{CAIRO_OPERATION_OVER}.}
 \item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}}
 \item{\code{other}}{[\code{\link{CairoFontOptions}}]  another \code{\link{CairoFontOptions}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

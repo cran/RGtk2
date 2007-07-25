@@ -9,6 +9,5 @@ This has the same effect as setting the value to \code{NULL}.}
 \item{\code{key}}{[character]  a key}
 }
 \details{  Since  2.10 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

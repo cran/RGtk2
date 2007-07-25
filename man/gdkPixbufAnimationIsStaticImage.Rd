@@ -8,6 +8,5 @@ the image.}
 \usage{gdkPixbufAnimationIsStaticImage(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbufAnimation}}]  a \code{\link{GdkPixbufAnimation}}}}
 \value{[logical]  \code{TRUE} if the "animation" was really just an image}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

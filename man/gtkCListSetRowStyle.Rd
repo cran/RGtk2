@@ -11,6 +11,5 @@ Sets the style for all cells in the specified row.
 \item{\code{row}}{[integer] The row to affect.}
 \item{\code{style}}{[\code{\link{GtkStyle}}] A pointer to a \code{\link{GtkStyle}} to set.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

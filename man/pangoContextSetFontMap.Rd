@@ -9,6 +9,5 @@ via one of the recommended methods should already have a suitable font map.}
 \item{\code{object}}{[\code{\link{PangoContext}}]  a \code{\link{PangoContext}}}
 \item{\code{font.map}}{[\code{\link{PangoFontMap}}]  the \code{\link{PangoFontMap}} to set.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

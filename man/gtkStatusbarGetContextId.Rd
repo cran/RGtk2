@@ -11,6 +11,5 @@ of the actual context. Note that the description is
                       the new message is being used in}
 }
 \value{[numeric]  an integer id}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

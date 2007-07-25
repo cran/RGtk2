@@ -10,6 +10,5 @@ to the last row in \code{list.store}.}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  A valid \code{\link{GtkTreeIter}}}
 }
 \value{[logical]  \code{TRUE} if \code{iter} is valid, \code{FALSE} if not.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

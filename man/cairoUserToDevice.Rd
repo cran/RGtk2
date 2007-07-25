@@ -10,6 +10,5 @@ multiplying the given point by the current transformation matrix
 \item{\code{x}}{[numeric]  X value of coordinate (in/out parameter)}
 \item{\code{y}}{[numeric]  Y value of coordinate (in/out parameter)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

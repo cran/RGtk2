@@ -5,6 +5,5 @@
 \usage{atkHypertextGetNLinks(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkHypertext}}]  an \code{\link{AtkHypertext}}}}
 \value{[integer]  the number of links within this hypertext document}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

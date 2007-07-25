@@ -9,6 +9,5 @@ intersection is empty.}
 \item{\code{compare.set}}{[\code{\link{AtkStateSet}}]  another \code{\link{AtkStateSet}}}
 }
 \value{[\code{\link{AtkStateSet}}]  a new \code{\link{AtkStateSet}} which is the intersection of the two sets.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

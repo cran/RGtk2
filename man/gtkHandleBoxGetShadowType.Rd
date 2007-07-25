@@ -6,6 +6,5 @@
 \usage{gtkHandleBoxGetShadowType(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkHandleBox}}]  a \code{\link{GtkHandleBox}}}}
 \value{[\code{\link{GtkShadowType}}]  the type of shadow currently drawn around the handle box.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

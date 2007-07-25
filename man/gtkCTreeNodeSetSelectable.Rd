@@ -11,6 +11,5 @@
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] }
 \item{\code{selectable}}{[logical] Whether this node can be selected by the user.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

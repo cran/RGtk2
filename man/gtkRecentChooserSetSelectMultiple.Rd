@@ -8,6 +8,5 @@
 \item{\code{select.multiple}}{[logical]  \code{TRUE} if \code{chooser} can select more than one item}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

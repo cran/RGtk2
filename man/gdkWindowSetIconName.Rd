@@ -10,6 +10,5 @@ with this function, if you like.}
 \item{\code{object}}{[\code{\link{GdkWindow}}]  a toplevel \code{\link{GdkWindow}}}
 \item{\code{name}}{[character]  name of window while iconified (minimized)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

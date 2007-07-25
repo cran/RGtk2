@@ -23,6 +23,5 @@ automatically.
 Even when you you aren't using \code{\link{GtkUIManager}}, if you only want to
 set up accelerators on menu items \code{\link{gtkMenuItemSetAccelPath}}
 provides a somewhat more convenient interface.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

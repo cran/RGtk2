@@ -10,6 +10,5 @@ the character specified by \code{char.index}.}
 }
 \value{[integer]  an index into the list of hyperlinks in \code{hypertext},
 or -1 if there is no hyperlink associated with this character.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

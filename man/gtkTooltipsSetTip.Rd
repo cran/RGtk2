@@ -12,6 +12,5 @@ Adds a tooltip containing the message \code{tip.text} to the specified \code{\li
 \item{\code{tip.text}}{[character] a string containing the tip itself.}
 \item{\code{tip.private}}{[character] a string of any further information that may be useful if the user gets stuck.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

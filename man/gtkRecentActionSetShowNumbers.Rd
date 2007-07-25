@@ -11,6 +11,5 @@ label. Only the first ten items get a number to avoid clashes.}
 \item{\code{show.numbers}}{[logical]  \code{TRUE} if the shown items should be numbered}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

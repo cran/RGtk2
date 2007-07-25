@@ -11,6 +11,5 @@
 \value{[\code{\link{PangoColor}}]  the color for the specified part, or \code{NULL}
  if it hasn't been set and should be inherited from the
  environment.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

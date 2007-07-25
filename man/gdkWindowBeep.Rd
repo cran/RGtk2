@@ -7,6 +7,5 @@ the display just as \code{\link{gdkDisplayBeep}}.}
 \usage{gdkWindowBeep(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a toplevel \code{\link{GdkWindow}}}}
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

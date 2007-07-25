@@ -8,6 +8,5 @@ icon for all windows in your app at once.}
 \usage{gtkWindowSetDefaultIconList(list)}
 \arguments{\item{\code{list}}{[list]  a list of \code{\link{GdkPixbuf}}}}
 \details{See \code{\link{gtkWindowSetIconList}} for more details.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

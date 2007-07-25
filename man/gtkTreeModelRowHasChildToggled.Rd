@@ -9,6 +9,5 @@ called by models after the child state of a node changes.}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  A \code{\link{GtkTreePath}} pointing to the changed row}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  A valid \code{\link{GtkTreeIter}} pointing to the changed row}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

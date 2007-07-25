@@ -9,6 +9,5 @@
 }
 \details{  Since  2.4}
 \value{[\code{\link{GtkAction}}]  the action, or \code{NULL} if no action by that name exists}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

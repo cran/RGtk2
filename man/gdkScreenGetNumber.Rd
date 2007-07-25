@@ -7,6 +7,5 @@ to which it belongs. (See \code{\link{gdkScreenGetDisplay}})}
 \arguments{\item{\code{object}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}}}
 \details{  Since  2.2}
 \value{[integer]  the index}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

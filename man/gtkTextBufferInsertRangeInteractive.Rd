@@ -15,6 +15,5 @@ enclosing \code{iter} affect editability. Typically the result of
 \item{\code{default.editable}}{[logical]  default editability of the buffer}
 }
 \value{[logical]  whether an insertion was possible at \code{iter}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

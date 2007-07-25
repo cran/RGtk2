@@ -26,6 +26,5 @@ Since you can't count on the windowing system doing the
 constraints for programmatic resizes, you should generally
 call \code{\link{gdkWindowConstrainSize}} yourself to determine
 appropriate sizes.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

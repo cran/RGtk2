@@ -6,6 +6,5 @@ See \code{\link{gtkMenuSetAccelGroup}}.}
 \usage{gtkMenuGetAccelGroup(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkMenu}}] a \code{\link{GtkMenu}}.}}
 \value{[\code{\link{GtkAccelGroup}}] the \code{\link{GtkAccelGroup}} associated with the menu.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -15,6 +15,5 @@ manager to restore window positions when loading a saved session.}
 \item{\code{wmclass.name}}{[character]  window name hint}
 \item{\code{wmclass.class}}{[character]  window class hint}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

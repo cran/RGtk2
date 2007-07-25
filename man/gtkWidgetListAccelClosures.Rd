@@ -10,6 +10,5 @@ by connecting to the \code{GtkAccelGroup}::accel-changed signal of the
 \usage{gtkWidgetListAccelClosures(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]   widget to list accelerator closures for}}
 \value{[list]  a newly allocated \code{list} of closures}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

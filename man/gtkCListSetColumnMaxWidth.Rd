@@ -12,6 +12,5 @@ the user from resizing it larger than that specified.
 \item{\code{column}}{[integer] The column to set the maximum width.}
 \item{\code{max.width}}{[integer] The width, in pixels.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@
 \details{  Since  2.10}
 \value{[\code{\link{GtkTreeViewGridLines}}]  a \code{\link{GtkTreeViewGridLines}} value indicating which grid lines
 are enabled.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

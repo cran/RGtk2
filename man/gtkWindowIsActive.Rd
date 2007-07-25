@@ -12,6 +12,5 @@ See \code{\link{gtkWindowHasToplevelFocus}}}
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the window part of the current active window.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

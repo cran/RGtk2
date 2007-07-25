@@ -10,6 +10,5 @@ changing the margins. See
 \item{\code{size}}{[\code{\link{GtkPaperSize}}]  a \code{\link{GtkPaperSize}} }
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

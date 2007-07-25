@@ -11,6 +11,5 @@ even those that would otherwise be sent to a child of \code{tool.item}.}
 \item{\code{use.drag.window}}{[logical]  Whether \code{tool.item} has a drag window.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

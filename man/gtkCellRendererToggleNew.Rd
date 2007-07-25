@@ -10,6 +10,5 @@ in the model, thus causing the check button to reflect the state of
 the model.}
 \usage{gtkCellRendererToggleNew()}
 \value{[\code{\link{GtkCellRenderer}}]  the new cell renderer}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@ end up unmaximized. Just don't write code that crashes if not.}
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \details{You can track maximization via the "window\_state\_event" signal
 on \code{\link{GtkWidget}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

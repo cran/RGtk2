@@ -6,6 +6,5 @@ width and height. (See \code{gtkTableSetHomogenous()})}
 \usage{gtkTableGetHomogeneous(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTable}}]  a \code{\link{GtkTable}}}}
 \value{[logical]  \code{TRUE} if the cells are all constrained to the same size}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

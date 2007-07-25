@@ -19,6 +19,5 @@ appropriate for this size.
 \item{\code{object}}{[\code{\link{GtkPreview}}] a \code{\link{GtkPreview}}.}
 \item{\code{expand}}{[logical] whether the preview's window should expand or not.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

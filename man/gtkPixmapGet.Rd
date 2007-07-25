@@ -12,6 +12,5 @@ A list containing the following elements:
 \item{\code{val}}{[\code{\link{GdkPixmap}}] returns the current \code{\link{GdkPixmap}}.}
 \item{\code{mask}}{[\code{\link{GdkBitmap}}] returns the current \code{\link{GdkBitmap}} mask.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -130,7 +130,6 @@ the desired size to which the image should be scaled.
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk-pixbuf/GdkPixbufLoader.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

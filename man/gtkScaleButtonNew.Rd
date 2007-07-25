@@ -15,6 +15,5 @@ a stepping of \code{step}.}
 }
 \details{  Since  2.12}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkScaleButton}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

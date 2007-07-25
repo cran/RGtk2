@@ -13,6 +13,5 @@ to the \code{\link{gtkWidgetDestroy}} signal or a weak notifier.}
 \item{\code{label}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}} that acts as a mnemonic label for \code{widget}}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

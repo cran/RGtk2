@@ -10,6 +10,5 @@ window at the top.}
 \details{  Since  2.2}
 \value{[logical]  \code{TRUE} if there is a \code{\link{GdkScreen}} associcated
   with the widget.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@
 \item{\code{y}}{[numeric]  Y coordinate of left edge of baseline of glyph}
 }
 \details{  Since  1.8}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

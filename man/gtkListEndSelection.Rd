@@ -8,6 +8,5 @@ Ends the selection. Used with \code{\link{gtkListExtendSelection}} and
 }
 \usage{gtkListEndSelection(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkList}}] the list widget.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

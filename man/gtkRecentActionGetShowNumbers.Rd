@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentAction}}]  a \code{\link{GtkRecentAction}}}}
 \details{  Since  2.12}
 \value{[logical]  \code{TRUE} if numbers should be shown.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

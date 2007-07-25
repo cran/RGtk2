@@ -12,6 +12,5 @@ A list containing the following elements:
 \item{\code{n.elements}}{[integer]  location to store number of elements
              in \code{path}, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

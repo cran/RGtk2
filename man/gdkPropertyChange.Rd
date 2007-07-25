@@ -20,6 +20,5 @@
         \code{gulong *}, depending on \code{format}), cast to a 
         \code{guchar *}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

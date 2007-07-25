@@ -10,6 +10,5 @@
 \details{  Since  2.4}
 \value{[logical]  Return value of \code{\link{gtkFontSelectionDialogSetFontName}} if the
 font selection dialog exists, otherwise \code{FALSE}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

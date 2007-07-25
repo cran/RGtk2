@@ -20,6 +20,5 @@ A list containing the following elements:
           to free this value, you must call \code{pangoAttributeDestroy()} on
           each member.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

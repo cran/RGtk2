@@ -12,6 +12,5 @@ Not all objects have explicit "name-value pair" \code{\link{AtkAttributeSet}} pr
   Since  ATK 1.12}
 \value{[\code{\link{AtkAttributeSet}}]  an \code{\link{AtkAttributeSet}} consisting of all explicit properties/annotations applied to 
 the object, or an empty set if the object has no name-value pair attributes assigned to it.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

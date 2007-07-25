@@ -12,6 +12,5 @@ Zero-terminates the stored data.}
 \item{\code{data}}{[raw]  pointer to the data (will be copied)}
 \item{\code{length}}{[integer]  length of the data}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

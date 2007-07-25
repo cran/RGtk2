@@ -20,6 +20,5 @@ results in a filled rectangle 20 pixels wide and 20 pixels high. Calling
 \code{gdk_draw_rectangle (window, gc, FALSE, 0, 0, 20, 20)} 
 results in an outlined rectangle with corners at (0, 0), (0, 20), (20, 20),
 and (20, 0), which makes it 21 pixels wide and 21 pixels high.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

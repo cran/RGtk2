@@ -10,6 +10,5 @@ take over an existing reference.}
 \usage{gtkTextViewNewWithBuffer(buffer = NULL, show = TRUE)}
 \arguments{\item{\code{buffer}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkTextView}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

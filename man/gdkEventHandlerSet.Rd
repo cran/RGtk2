@@ -11,6 +11,5 @@
 usually not useful for GTK+ applications. (Although an application
 can call this function then call \code{\link{gtkMainDoEvent}} to pass
 events to GTK+.)  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

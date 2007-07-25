@@ -8,6 +8,5 @@ windows of that window.}
 \item{\code{object}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}.}
 \item{\code{mode}}{[\code{\link{GdkSubwindowMode}}]  the subwindow mode.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

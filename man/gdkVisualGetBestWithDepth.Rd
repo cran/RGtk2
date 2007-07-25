@@ -7,6 +7,5 @@ over grayscale or fixed-colormap visuals. \code{NULL} may be returned if no visu
 \usage{gdkVisualGetBestWithDepth(depth)}
 \arguments{\item{\code{depth}}{[integer]  a bit depth}}
 \value{[\code{\link{GdkVisual}}]  best visual for the given depth}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

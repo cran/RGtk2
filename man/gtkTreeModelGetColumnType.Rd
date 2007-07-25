@@ -8,6 +8,5 @@
 \item{\code{index}}{[integer]  The column index.}
 }
 \value{[\code{\link{GType}}]  The type of the column.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ A list containing the following elements:
 \item{\code{rectangles}}{[\code{\link{GdkRectangle}}]  return location for a list of rectangles}
 \item{\code{n.rectangles}}{[integer]  length of returned list}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

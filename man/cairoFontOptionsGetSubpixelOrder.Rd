@@ -6,6 +6,5 @@ See the documentation for \code{\link{CairoSubpixelOrder}} for full details.}
 \usage{cairoFontOptionsGetSubpixelOrder(options)}
 \arguments{\item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}}}
 \value{[\code{\link{CairoSubpixelOrder}}]  the subpixel order for the font options object}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

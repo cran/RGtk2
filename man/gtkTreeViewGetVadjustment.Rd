@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}}}
 \value{[\code{\link{GtkAdjustment}}]  A \code{\link{GtkAdjustment}} object, or \code{NULL} if none is currently being
 used.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

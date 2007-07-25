@@ -8,6 +8,5 @@ a colormap, or if a colormap was set explicitely with
 \usage{gdkImageGetColormap(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkImage}}]  a \code{\link{GdkImage}}}}
 \value{[\code{\link{GdkColormap}}]  colormap for the image}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

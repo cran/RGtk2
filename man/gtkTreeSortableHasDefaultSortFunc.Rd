@@ -7,6 +7,5 @@ to the default state, or not.}
 \usage{gtkTreeSortableHasDefaultSortFunc(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeSortable}}]  A \code{\link{GtkTreeSortable}}}}
 \value{[logical]  \code{TRUE}, if the model has a default sort function}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

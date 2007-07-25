@@ -11,6 +11,5 @@ isn't a valid path in \code{model}, then \code{NULL} is returned.}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  A valid \code{\link{GtkTreePath}} to monitor}
 }
 \value{[\code{\link{GtkTreeRowReference}}]  A newly allocated \code{\link{GtkTreeRowReference}}, or \code{NULL}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

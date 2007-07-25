@@ -129,7 +129,6 @@ Whether buttons for creating/manipulating files should be displayed.  Default va
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkFileSelection.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

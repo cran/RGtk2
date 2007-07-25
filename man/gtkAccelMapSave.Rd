@@ -8,6 +8,5 @@ The file is written in a format suitable to be read back in by
 \usage{gtkAccelMapSave(file.name)}
 \arguments{\item{\code{file.name}}{[character]  the name of the file to contain accelerator specifications,
   in the GLib file name encoding}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

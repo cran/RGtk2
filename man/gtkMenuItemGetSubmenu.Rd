@@ -6,6 +6,5 @@
 \usage{gtkMenuItemGetSubmenu(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkMenuItem}}]  a \code{\link{GtkMenuItem}}}}
 \value{[\code{\link{GtkWidget}}]  submenu for this menu item, or \code{NULL} if none.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

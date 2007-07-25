@@ -25,6 +25,5 @@ A list containing the following elements:
 \item{\code{accel.char}}{[numeric]  return location for accelerator char, or \code{NULL}}
 \item{\code{error}}{[\code{\link{GError}}]  return location for errors, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

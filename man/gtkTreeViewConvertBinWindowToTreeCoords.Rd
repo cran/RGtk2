@@ -15,6 +15,5 @@ A list containing the following elements:
 \item{\code{tx}}{[integer]  return location for tree X coordinate}
 \item{\code{ty}}{[integer]  return location for tree Y coordinate}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

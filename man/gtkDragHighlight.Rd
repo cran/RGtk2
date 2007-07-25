@@ -7,6 +7,5 @@ will continue to be displayed until \code{\link{gtkDragUnhighlight}}
 is called.}
 \usage{gtkDragHighlight(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}] a widget to highlight}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

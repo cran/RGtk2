@@ -4,6 +4,5 @@
 \description{Creates a new entry.}
 \usage{gtkEntryNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkEntry}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

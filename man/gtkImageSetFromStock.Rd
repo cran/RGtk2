@@ -8,6 +8,5 @@
 \item{\code{stock.id}}{[character]  a stock icon name}
 \item{\code{size}}{[\code{\link{GtkIconSize}}]  a stock icon size}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,6 +5,5 @@
 \usage{gtkWidgetGetStyle(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \value{[\code{\link{GtkStyle}}]  the widget's \code{\link{GtkStyle}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

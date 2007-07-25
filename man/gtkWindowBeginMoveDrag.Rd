@@ -14,6 +14,5 @@ potentially not all that well, depending on the windowing system.}
 \item{\code{root.y}}{[integer]  Y position where the user clicked to initiate the drag}
 \item{\code{timestamp}}{[numeric]  timestamp from the click event that initiated the drag}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

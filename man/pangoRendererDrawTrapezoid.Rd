@@ -15,6 +15,5 @@ using the given \code{\link{PangoRenderer}}; coordinates are in device space.}
 \item{\code{x22}}{[numeric]  X coordinate of right end of bottom of trapezoid}
 }
 \details{  Since  1.8}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

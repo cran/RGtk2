@@ -12,6 +12,5 @@ so that the origin of \code{pixmap} is \code{pixmap.x}, \code{pixmap.y}}
 \item{\code{pixmap.y}}{[numeric]  Y coordinate of location to place upper left corner of \code{pixmap}}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

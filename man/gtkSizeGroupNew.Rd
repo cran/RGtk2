@@ -5,6 +5,5 @@
 \usage{gtkSizeGroupNew(mode = NULL)}
 \arguments{\item{\code{mode}}{[\code{\link{GtkSizeGroupMode}}]  the mode for the new size group.}}
 \value{[\code{\link{GtkSizeGroup}}]  a newly created \code{\link{GtkSizeGroup}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

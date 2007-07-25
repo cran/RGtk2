@@ -38,6 +38,5 @@ If the source drawable is a \code{\link{GdkWindow}} and partially offscreen
 or obscured, then the obscured portions of the returned image
 will contain undefined data.  }
 \value{[\code{\link{GdkImage}}]  a \code{\link{GdkImage}} containing the contents of \code{drawable}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

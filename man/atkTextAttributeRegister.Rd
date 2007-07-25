@@ -5,6 +5,5 @@
 \usage{atkTextAttributeRegister(name)}
 \arguments{\item{\code{name}}{[character]  a name string}}
 \value{[\code{\link{AtkTextAttribute}}]  an \code{\link{AtkTextAttribute}} associated with \code{name}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

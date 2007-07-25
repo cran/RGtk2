@@ -6,6 +6,5 @@ except that the widget is not invalidated.}
 \usage{gtkWidgetQueueResizeNoRedraw(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ This is true whether or not the windows are visible.}
 \details{If \code{window} is a toplevel, the window manager may choose to deny the
 request to move the window in the Z-order, \code{\link{gdkWindowRaise}} only
 requests the restack, does not guarantee it.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,6 +13,5 @@ columns with cell renderer properties).}
 \item{\code{object}}{[\code{\link{GtkCellRendererToggle}}]  a \code{\link{GtkCellRendererToggle}}}
 \item{\code{radio}}{[logical]  \code{TRUE} to make the toggle look like a radio button}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

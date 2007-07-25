@@ -15,6 +15,5 @@ they leave the space inside. The border is added on all sides of
 the container. To add space to only one side, one approach is to
 create a \code{\link{GtkAlignment}} widget, call \code{\link{gtkWidgetSetUsize}} to give
 it a size, and place it on the side of the container as a spacer.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

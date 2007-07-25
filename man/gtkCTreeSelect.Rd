@@ -10,6 +10,5 @@ Cause the given node to be selected and emit the appropriate signal.
 \item{\code{object}}{[\code{\link{GtkCTree}}] }
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

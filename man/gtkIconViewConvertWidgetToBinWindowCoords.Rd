@@ -15,6 +15,5 @@ A list containing the following elements:
 \item{\code{bx}}{[integer]  return location for bin\_window X coordinate}
 \item{\code{by}}{[integer]  return location for bin\_window Y coordinate}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

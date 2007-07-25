@@ -13,6 +13,5 @@ A list containing the following elements:
 \item{retval}{[logical]  \code{TRUE} if the specified axis was found, otherwise \code{FALSE}}
 \item{\code{value}}{[numeric]  location to store the value found}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

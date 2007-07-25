@@ -7,6 +7,5 @@ be needed by applications.}
 \usage{gtkAccelLabelGetAccelWidth(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkAccelLabel}}] a \code{\link{GtkAccelLabel}}.}}
 \value{[numeric] the width needed to display the accelerator key(s).}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

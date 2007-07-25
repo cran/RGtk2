@@ -8,6 +8,5 @@ widget. See \code{\link{gtkFileChooserSetPreviewWidget}}.}
 \details{  Since  2.4}
 \value{[char]  the URI for the file to preview, or \code{NULL} if no file is
 selected.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

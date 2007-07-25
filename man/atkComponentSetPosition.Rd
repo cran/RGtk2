@@ -11,6 +11,5 @@
 or to the components top level window}
 }
 \value{[logical]  \code{TRUE} or \code{FALSE} whether or not the position was set or not}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -19,6 +19,5 @@ on the start circle to the corresponding point on the end circle.}
 Note: If the pattern is not a gradient pattern, (eg. a linear or
 radial pattern), then the pattern will be put into an error status
 with a status of \code{CAIRO_STATUS_PATTERN_TYPE_MISMATCH}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

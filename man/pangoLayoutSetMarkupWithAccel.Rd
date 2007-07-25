@@ -22,6 +22,5 @@ literal \code{accel.marker} character.  }
 A list containing the following elements:
 \item{\code{accel.char}}{[numeric]  return location for first located accelerator, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

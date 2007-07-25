@@ -6,6 +6,5 @@ buffer, it it isn't there already.}
 \usage{gtkTextViewPlaceCursorOnscreen(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}}
 \value{[logical]  \code{TRUE} if the cursor had to be moved.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

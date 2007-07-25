@@ -9,6 +9,5 @@ use \code{\link{gtkTargetListAddUriTargets}} and
 \usage{gtkDragSourceAddUriTargets(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}} that's is a drag source}}
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

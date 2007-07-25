@@ -8,6 +8,5 @@
 \value{[\code{\link{PangoWeight}}]  the weight field for the font description. Use
   \code{\link{pangoFontDescriptionGetSetFields}} to find out if
   the field was explicitly set or not.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

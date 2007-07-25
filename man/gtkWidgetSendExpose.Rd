@@ -17,6 +17,5 @@ To cause the redraw to be done immediately, follow that call
 with a call to \code{\link{gdkWindowProcessUpdates}}.  }
 \value{[integer]  return from the event signal emission (\code{TRUE} if 
               the event was handled)}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

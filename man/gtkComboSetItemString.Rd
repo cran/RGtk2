@@ -12,6 +12,5 @@ selected. This is needed if the list item is not a simple label.
 \item{\code{item}}{[\code{\link{GtkItem}}] a \code{\link{GtkItem}}.}
 \item{\code{item.value}}{[character] the string to place in the \code{\link{GtkEntry}} when \code{item} is selected.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

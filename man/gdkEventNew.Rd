@@ -6,6 +6,5 @@
 \arguments{\item{\code{type}}{[\code{\link{GdkEventType}}]  a \code{\link{GdkEventType}} }}
 \details{  Since  2.2}
 \value{[\code{\link{GdkEvent}}]  a newly-allocated \code{\link{GdkEvent}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,6 +5,5 @@
 \usage{gtkToggleButtonGetInconsistent(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkToggleButton}}]  a \code{\link{GtkToggleButton}}}}
 \value{[logical]  \code{TRUE} if the button is displayed as inconsistent, \code{FALSE} otherwise}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

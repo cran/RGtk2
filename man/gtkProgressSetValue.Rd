@@ -12,6 +12,5 @@ underlying \code{\link{GtkAdjustment}}.
 \item{\code{object}}{[\code{\link{GtkProgress}}] a \code{\link{GtkProgress}}.}
 \item{\code{value}}{[numeric] the value indicating the current completed amount.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

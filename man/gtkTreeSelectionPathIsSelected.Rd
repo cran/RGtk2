@@ -9,6 +9,5 @@ does not point to a valid location, \code{FALSE} is returned}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  A \code{\link{GtkTreePath}} to check selection on.}
 }
 \value{[logical]  \code{TRUE} if \code{path} is selected.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

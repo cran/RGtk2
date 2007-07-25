@@ -245,7 +245,6 @@ Which kind of shadow to draw around the combo box.
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkComboBox.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

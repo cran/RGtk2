@@ -7,6 +7,5 @@ Unselects all rows in the CList.
 }
 \usage{gtkCListUnselectAll(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -25,6 +25,5 @@ bugzilla.gnome.org for status of fixing this issue.}
 \item{\code{xpos}}{[integer]  X position of child in window coordinates}
 \item{\code{ypos}}{[integer]  Y position of child in window coordinates}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

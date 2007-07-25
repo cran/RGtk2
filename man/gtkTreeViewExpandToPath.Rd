@@ -9,6 +9,5 @@
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  path to a row.}
 }
 \details{  Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

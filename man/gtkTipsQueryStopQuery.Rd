@@ -7,6 +7,5 @@ Stops a query.
 }
 \usage{gtkTipsQueryStopQuery(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTipsQuery}}] a \code{\link{GtkTipsQuery}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

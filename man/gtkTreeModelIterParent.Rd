@@ -15,6 +15,5 @@ A list containing the following elements:
 \item{retval}{[logical]  \code{TRUE}, if \code{iter} is set to the parent of \code{child}.}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  The new \code{\link{GtkTreeIter}} to set to the parent.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

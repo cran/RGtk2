@@ -41,6 +41,5 @@ that require entering license keys.
 \value{[logical]  \code{TRUE} if stopping keyboard navigation is fine, \code{FALSE}
               if the emitting widget should try to handle the keyboard
               navigation attempt in its parent container(s).}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

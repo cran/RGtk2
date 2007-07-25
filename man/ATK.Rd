@@ -40,7 +40,6 @@ row/column information.}
 select a value from a bounded range of values.}
 }
 }
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{interface}

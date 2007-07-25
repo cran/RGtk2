@@ -40,7 +40,6 @@ that case, the event box window is actually the ancestor of the
 descendant windows, not just at the same place on the screen.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \note{There is one unexpected issue for an invisible event box that has its
 window below the child. (See \code{\link{gtkEventBoxSetAboveChild}}.)
 Since the input-only window is not an ancestor window of any windows

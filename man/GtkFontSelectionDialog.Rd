@@ -49,7 +49,6 @@ by default but you can show/hide it}
 
 }}}
 \section{Convenient Construction}{\code{gtkFontSelectionDialog} is the equivalent of \code{\link{gtkFontSelectionDialogNew}}.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkFontSelectionDialog.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

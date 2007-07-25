@@ -103,7 +103,6 @@ will be laid out differently at different zoom factors.
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-Font-Options.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

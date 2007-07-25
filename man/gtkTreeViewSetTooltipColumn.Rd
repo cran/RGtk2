@@ -14,6 +14,5 @@ containing the tooltip texts, or -1 to disable this feature.}
 \code{tree.view} will connect a \code{::query-tooltip} signal handler.  
 
   Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

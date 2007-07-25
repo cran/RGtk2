@@ -8,6 +8,5 @@ pointed by \code{info}.}
 \details{  Since  2.10}
 \value{[integer]  a positive integer containing the number of days elapsed
   since the time this resource was last modified.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

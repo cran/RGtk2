@@ -8,6 +8,5 @@ a list of themes to the user.)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconTheme}}]  a \code{\link{GtkIconTheme}}}}
 \details{  Since  2.4}
 \value{[char]  the name of an example icon or \code{NULL}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -30,6 +30,5 @@ add the sources to the icon set does not matter.
   
 \code{\link{gtkIconSetNewFromPixbuf}} creates a new icon set with a
 default icon source based on the given pixbuf.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

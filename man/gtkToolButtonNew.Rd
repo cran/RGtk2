@@ -10,6 +10,5 @@ label.}
 }
 \details{  Since  2.4}
 \value{[\code{\link{GtkToolItem}}]  A new \code{\link{GtkToolButton}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

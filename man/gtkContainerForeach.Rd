@@ -11,6 +11,5 @@
 \item{\code{callback}}{[\code{\link{GtkCallback}}]  a callback}
 \item{\code{callback.data}}{[R object]  callback user data}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

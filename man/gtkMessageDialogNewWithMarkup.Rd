@@ -21,7 +21,7 @@ Usually this is what you want, but if you have an existing
 Pango markup string that you want to use literally as the
 label, then you need to use \code{\link{gtkMessageDialogSetMarkup}}
 instead, since you can't pass the markup string either
-as the format (it might contain '%' characters) or as a string
+as the format (it might contain '\%' characters) or as a string
 argument.
   
 \preformatted{
@@ -32,6 +32,5 @@ dialog$setMarkup(message)
 
   Since  2.4}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkMessageDialog}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

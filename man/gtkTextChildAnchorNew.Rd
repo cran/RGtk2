@@ -7,6 +7,5 @@ To perform the creation and insertion in one step, use the
 convenience function \code{\link{gtkTextBufferCreateChildAnchor}}.}
 \usage{gtkTextChildAnchorNew()}
 \value{[\code{\link{GtkTextChildAnchor}}]  a new \code{\link{GtkTextChildAnchor}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

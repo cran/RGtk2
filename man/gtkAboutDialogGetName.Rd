@@ -11,6 +11,5 @@ Returns the program name displayed in the about dialog.
 
 @Deprecated: 2.12: Use gtk\_about\_dialog\_get\_program\_name() instead.}
 \value{[character]  The program name.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

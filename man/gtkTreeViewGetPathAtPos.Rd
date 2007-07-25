@@ -29,6 +29,5 @@ A list containing the following elements:
 \item{\code{cell.x}}{[integer]  A pointer where the X coordinate relative to the cell can be placed, or \code{NULL}}
 \item{\code{cell.y}}{[integer]  A pointer where the Y coordinate relative to the cell can be placed, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

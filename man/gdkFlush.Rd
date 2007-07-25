@@ -5,6 +5,5 @@
 by the server. This is rarely needed by applications. It's main use is for
 trapping X errors with \code{gdkErrorTrapPush()} and \code{gdkErrorTrapPop()}.}
 \usage{gdkFlush()}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

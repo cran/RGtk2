@@ -5,6 +5,5 @@
 \usage{gdkRegionRectangle(rectangle)}
 \arguments{\item{\code{rectangle}}{[\code{\link{GdkRectangle}}]  a \code{\link{GdkRectangle}}}}
 \value{[\code{\link{GdkRegion}}]  a new region}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

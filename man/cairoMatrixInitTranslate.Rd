@@ -12,6 +12,5 @@
 A list containing the following elements:
 \item{\code{matrix}}{[\code{\link{CairoMatrix}}]  a cairo\_matrix\_t}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

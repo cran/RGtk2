@@ -7,6 +7,5 @@ member won't be incremented.}
 \usage{gtkWindowGetIconList(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \value{[list]  copy of window's icon list}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

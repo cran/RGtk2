@@ -9,6 +9,5 @@ See \code{\link{gtkIconThemeSetSearchPath}}.}
 \item{\code{path}}{[character]  directory name to prepend to the icon path}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

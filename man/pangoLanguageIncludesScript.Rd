@@ -19,6 +19,5 @@ applications in most circumstances.
   Since  1.4}
 \value{[logical]  \code{TRUE} if \code{script} is one of the scripts used
 to write \code{language}, or if nothing is known about \code{language}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

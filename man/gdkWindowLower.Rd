@@ -12,6 +12,5 @@ requests the restack, does not guarantee it.
   
 Note that \code{\link{gdkWindowShow}} raises the window again, so don't call this
 function before \code{\link{gdkWindowShow}}. (Try \code{\link{gdkWindowShowUnraised}}.)  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

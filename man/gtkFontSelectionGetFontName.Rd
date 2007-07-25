@@ -11,6 +11,5 @@ if you want to compare two font descriptions.}
 \arguments{\item{\code{object}}{[\code{\link{GtkFontSelection}}]  a \code{\link{GtkFontSelection}}}}
 \value{[character]  A string with the name of the current font, or \code{NULL} if no font
 is selected.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

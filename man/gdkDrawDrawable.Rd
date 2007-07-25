@@ -27,6 +27,5 @@ A common cause of this problem is an attempt to draw a bitmap to
 a color drawable. The way to draw a bitmap is to set the bitmap as 
 the stipple on the \code{\link{GdkGC}}, set the fill mode to \code{GDK_STIPPLED}, and 
 then draw the rectangle.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

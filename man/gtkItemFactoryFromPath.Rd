@@ -11,6 +11,5 @@ for \code{\link{gtkItemFactoryNew}}.
 \arguments{\item{\code{path}}{[character]  a string starting with a factory path of the form 
   \code{"<name>"}}}
 \value{[\code{\link{GtkItemFactory}}]  the \code{\link{GtkItemFactory}} created for the given factory path, or \code{NULL} }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

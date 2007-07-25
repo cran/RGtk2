@@ -8,6 +8,5 @@
 \item{\code{homogeneous}}{[logical] Set to \code{TRUE} to ensure all table cells are the same size. Set
 to \code{FALSE} if this is not your desired behaviour.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

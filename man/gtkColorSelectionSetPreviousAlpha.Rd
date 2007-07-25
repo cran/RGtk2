@@ -8,6 +8,5 @@ some hesitations, as it might seem confusing to have that alpha change.}
 \item{\code{object}}{[\code{\link{GtkColorSelection}}]  a \code{\link{GtkColorSelection}}.}
 \item{\code{alpha}}{[integer]  an integer between 0 and 65535.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

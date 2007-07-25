@@ -8,6 +8,5 @@
 \item{\code{other}}{[\code{\link{CairoFontOptions}}]  another \code{\link{CairoFontOptions}}}
 }
 \value{[logical]  \code{TRUE} if all fields of the two font options objects match}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

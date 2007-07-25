@@ -14,6 +14,5 @@ window it is embedded in.}
 \item{\code{domain}}{[char]  the translation domain to use for this interface (or \code{NULL})}
 }
 \value{[\code{\link{GladeXML}}]  the newly created GladeXML object, or NULL on failure.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

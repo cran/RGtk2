@@ -6,6 +6,5 @@
 \usage{gtkFrameGetLabelWidget(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkFrame}}]  a \code{\link{GtkFrame}}}}
 \value{[\code{\link{GtkWidget}}]  the label widget, or \code{NULL} if there is none.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

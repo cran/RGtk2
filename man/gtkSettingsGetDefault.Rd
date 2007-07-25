@@ -6,6 +6,5 @@ it if necessary. See \code{\link{gtkSettingsGetForScreen}}.}
 \usage{gtkSettingsGetDefault()}
 \value{[\code{\link{GtkSettings}}]  a \code{\link{GtkSettings}} object. If there is no default
  screen, then returns \code{NULL}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

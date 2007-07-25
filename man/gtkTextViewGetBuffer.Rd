@@ -7,6 +7,5 @@ of this function won't own a new reference.}
 \usage{gtkTextViewGetBuffer(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}}
 \value{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@ mnemonic. See \code{\link{gtkButtonSetUseUnderline}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkButton}}]  a \code{\link{GtkButton}}}}
 \value{[logical]  \code{TRUE} if an embedded underline in the button label
               indicates the mnemonic accelerator keys.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

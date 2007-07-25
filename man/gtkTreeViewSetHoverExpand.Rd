@@ -10,6 +10,5 @@ moves over them.}
 \item{\code{expand}}{[logical]  \code{TRUE} to enable hover selection mode}
 }
 \details{  Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

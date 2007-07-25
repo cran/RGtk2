@@ -9,6 +9,5 @@ previously selected.}
 \item{\code{object}}{[\code{\link{GtkTreeSelection}}]  A \code{\link{GtkTreeSelection}}.}
 \item{\code{type}}{[\code{\link{GtkSelectionMode}}]  The selection mode}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

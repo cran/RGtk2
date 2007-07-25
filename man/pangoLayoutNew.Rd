@@ -7,6 +7,5 @@ default values for a particular \code{\link{PangoContext}}.}
 \arguments{\item{\code{context}}{[\code{\link{PangoContext}}]  a \code{\link{PangoContext}}}}
 \value{[\code{\link{PangoLayout}}]  the newly allocated \code{\link{PangoLayout}}, with a reference
               count of one.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

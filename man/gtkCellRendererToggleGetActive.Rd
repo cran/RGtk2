@@ -6,6 +6,5 @@
 \usage{gtkCellRendererToggleGetActive(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCellRendererToggle}}]  a \code{\link{GtkCellRendererToggle}}}}
 \value{[logical]  \code{TRUE} if the cell renderer is active.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

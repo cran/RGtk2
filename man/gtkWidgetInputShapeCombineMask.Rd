@@ -12,6 +12,5 @@ windows which react to mouse click in a nonrectangular region, see
 \item{\code{offset.y}}{[integer]  Y position of shape mask with respect to \code{window}}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

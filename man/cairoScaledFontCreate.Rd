@@ -18,6 +18,5 @@ be used.}
           rendering with it.}
 }
 \value{[\code{\link{CairoScaledFont}}]  a newly created \code{\link{CairoScaledFont}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

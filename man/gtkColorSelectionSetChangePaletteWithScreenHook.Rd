@@ -9,6 +9,5 @@ the new palette contents, and update the GtkSettings property
 \arguments{\item{\code{func}}{[\code{\link{GtkColorSelectionChangePaletteWithScreenFunc}}]  a function to call when the custom palette needs saving.}}
 \details{  Since  2.2}
 \value{[\code{\link{GtkColorSelectionChangePaletteWithScreenFunc}}]  the previous change palette hook (that was replaced).}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

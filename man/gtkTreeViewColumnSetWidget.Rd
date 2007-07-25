@@ -8,6 +8,5 @@ header button is set with a \code{\link{GtkLabel}} set to the title of \code{tre
 \item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}.}
 \item{\code{widget}}{[\code{\link{GtkWidget}}]  A child \code{\link{GtkWidget}}, or \code{NULL}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

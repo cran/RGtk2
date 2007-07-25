@@ -13,6 +13,5 @@ Sets the \code{\link{GdkPixmap}} and \code{\link{GdkBitmap}} mask.
 transparent. This can be NULL, in which case none of the \code{pixmap} is
 transparent.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

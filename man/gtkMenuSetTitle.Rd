@@ -10,6 +10,5 @@ that menu item's label.}
 \item{\code{object}}{[\code{\link{GtkMenu}}]  a \code{\link{GtkMenu}}}
 \item{\code{title}}{[character]  a string containing the title for the menu.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@
 \item{\code{target}}{[\code{\link{AtkObject}}]  The \code{\link{AtkObject}} which is to be the target of the relation.}
 }
 \value{[logical] TRUE if the relationship is added.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -20,6 +20,5 @@ following for details on how they affect the current point:
 \code{\link{cairoCurveTo}}, \code{\link{cairoArc}}, \code{\link{cairoRelMoveTo}},
 \code{\link{cairoRelLineTo}}, \code{\link{cairoRelCurveTo}}, \code{\link{cairoArc}},
 \code{\link{cairoTextPath}}, \code{cairoStrokeToPath()}  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

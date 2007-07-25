@@ -6,6 +6,5 @@
 \usage{gtkSpinButtonGetSnapToTicks(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}}}}
 \value{[logical]  \code{TRUE} if values are snapped to the nearest step.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,6 +12,5 @@ keep \code{window} above \code{parent}.}
 }
 \details{See \code{\link{gtkWindowSetTransientFor}} if you're using \code{\link{GtkWindow}} or
 \code{\link{GtkDialog}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

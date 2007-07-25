@@ -7,6 +7,5 @@ Creates a new \code{\link{GtkOptionMenu}}.
 }
 \usage{gtkOptionMenuNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}] a new \code{\link{GtkOptionMenu}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

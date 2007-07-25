@@ -15,6 +15,5 @@ other window managers.}
 \item{\code{root.y}}{[integer]  root window Y coordinate of mouse click that began the drag}
 \item{\code{timestamp}}{[numeric]  timestamp of mouse click that began the drag}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

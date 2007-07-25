@@ -11,6 +11,5 @@ Sets data for the specified row.  This is the same as calling gtk\_clist\_set\_r
 \item{\code{row}}{[integer] The row to affect.}
 \item{\code{data}}{[R object] The data to set for the row.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

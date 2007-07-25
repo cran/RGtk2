@@ -9,6 +9,5 @@ and specifies the event mask for extension events.}
 \item{\code{mask}}{[integer] the event mask}
 \item{\code{mode}}{[\code{\link{GdkExtensionMode}}] the type of extension events that are desired.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

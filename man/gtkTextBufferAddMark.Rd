@@ -14,6 +14,5 @@ be another mark in the buffer with the same name.}
 placement.  
 
   Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

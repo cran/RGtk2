@@ -11,6 +11,5 @@ needed. You should use \code{\link{gtkRecentManagerGetDefault}} instead.
 
   Since  2.10}
 \value{[\code{\link{GtkRecentManager}}]  A newly created \code{\link{GtkRecentManager}} object.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

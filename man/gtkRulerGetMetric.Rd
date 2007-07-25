@@ -5,6 +5,5 @@
 \usage{gtkRulerGetMetric(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkRuler}}]  a \code{\link{GtkRuler}}}}
 \value{[\code{\link{GtkMetricType}}]  the units currently used for \code{ruler}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

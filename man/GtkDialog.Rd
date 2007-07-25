@@ -236,7 +236,6 @@ Width of border around the main dialog area.  Allowed values: >= 0  Default valu
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkDialog.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

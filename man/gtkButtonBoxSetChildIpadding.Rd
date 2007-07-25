@@ -13,6 +13,5 @@ box.
 \item{\code{ipad.x}}{[integer] the horizontal padding that should be used by each button in \code{widget}.}
 \item{\code{ipad.y}}{[integer] the vertical padding that should be used by each button in \code{widget}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ Remove the node and all nodes underneath it from the tree.
 \item{\code{object}}{[\code{\link{GtkCTree}}] The widget.}
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] The node to be removed.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

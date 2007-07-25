@@ -10,6 +10,5 @@ Removes a space from the specified position.
 \item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}.}
 \item{\code{position}}{[integer]  the index of the space to remove.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

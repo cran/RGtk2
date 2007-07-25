@@ -8,6 +8,5 @@ CList in "single" or "browse" selection mode.
 }
 \usage{gtkCListSelectAll(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

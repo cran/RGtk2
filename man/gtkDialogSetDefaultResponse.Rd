@@ -9,6 +9,5 @@ the default widget.}
 \item{\code{object}}{[\code{\link{GtkDialog}}]  a \code{\link{GtkDialog}}}
 \item{\code{response.id}}{[integer]  a response ID}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -15,6 +15,5 @@ A list containing the following elements:
 \item{retval}{[logical]  \code{TRUE} if data of the required type was provided }
 \item{\code{selection.data}}{[\code{\link{GtkSelectionData}}]  a \code{\link{GtkSelectionData}} to fill with data from the dragged row}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

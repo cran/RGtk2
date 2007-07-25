@@ -6,6 +6,5 @@ See the documentation for \code{\link{CairoHintStyle}} for full details.}
 \usage{cairoFontOptionsGetHintStyle(options)}
 \arguments{\item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}}}
 \value{[\code{\link{CairoHintStyle}}]  the hint style for the font options object}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

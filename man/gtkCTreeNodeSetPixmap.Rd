@@ -13,6 +13,5 @@ FIXME
 \item{\code{pixmap}}{[\code{\link{GdkPixmap}}] }
 \item{\code{mask}}{[\code{\link{GdkBitmap}}] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

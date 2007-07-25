@@ -9,6 +9,5 @@ the image will be displayed or not.}
 \item{\code{object}}{[\code{\link{GtkImageMenuItem}}]  a \code{\link{GtkImageMenuItem}}.}
 \item{\code{image}}{[\code{\link{GtkWidget}}]  a widget to set as the image for the menu item.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

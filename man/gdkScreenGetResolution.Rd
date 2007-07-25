@@ -8,6 +8,5 @@
 \details{  Since  2.10}
 \value{[numeric]  the current resolution, or -1 if no resolution
 has been set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

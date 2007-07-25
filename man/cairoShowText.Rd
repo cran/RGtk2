@@ -26,6 +26,5 @@ designers call the "toy" text API. It is convenient for short demos
 and simple programs, but it is not expected to be adequate for
 serious text-using applications. See \code{\link{cairoShowGlyphs}} for the
 "real" text display API in cairo.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

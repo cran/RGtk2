@@ -14,6 +14,5 @@ cast the object yourself.}
           \code{NULL}-terminated}
 }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkWidget}} of type \code{widget.type}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

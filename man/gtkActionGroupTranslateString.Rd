@@ -10,6 +10,5 @@ is mainly intended for language bindings.}
 }
 \details{  Since  2.6}
 \value{[character]  the translation of \code{string}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

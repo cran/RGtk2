@@ -5,6 +5,5 @@
 \usage{gtkScaleGetDigits(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkScale}}] a \code{\link{GtkScale}}.}}
 \value{[integer] the number of decimal places that are displayed.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

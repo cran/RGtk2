@@ -15,6 +15,5 @@ Initializes an item factory.
 \item{\code{accel.group}}{[\code{\link{GtkAccelGroup}}]  a \code{\link{GtkAccelGroup}} to which the accelerators for the
    menu items will be added, or \code{NULL} to create a new one}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

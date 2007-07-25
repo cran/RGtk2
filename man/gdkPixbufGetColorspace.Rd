@@ -5,6 +5,5 @@
 \usage{gdkPixbufGetColorspace(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbuf}}]  A pixbuf.}}
 \value{[\code{\link{GdkColorspace}}]  Color space.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

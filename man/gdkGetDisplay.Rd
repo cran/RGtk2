@@ -5,6 +5,5 @@
 environment variable or the \option{--display} command line option.}
 \usage{gdkGetDisplay()}
 \value{[character] the name of the display.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

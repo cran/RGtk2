@@ -12,6 +12,5 @@ the characters.}
 \item{\code{justify}}{[logical]  whether the lines in the layout should be justified.}
 }
 \details{Note that as of Pango-1.16, this functionality is not yet implemented.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

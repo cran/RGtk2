@@ -9,6 +9,5 @@ returned animation.}
 \usage{gtkImageGetAnimation(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkImage}}]  a \code{\link{GtkImage}}}}
 \value{[\code{\link{GdkPixbufAnimation}}]  the displayed animation, or \code{NULL} if the image is empty}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

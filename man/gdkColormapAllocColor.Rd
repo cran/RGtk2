@@ -15,6 +15,5 @@
    existing colors if the color cannot be allocated as requested.}
 }
 \value{[logical]  \code{TRUE} if the allocation succeeded.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

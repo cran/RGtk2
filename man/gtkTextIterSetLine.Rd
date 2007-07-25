@@ -9,6 +9,5 @@ buffer, moves \code{iter} to the start of the last line in the buffer.}
 \item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}
 \item{\code{line.number}}{[integer]  line number (counted from 0)}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

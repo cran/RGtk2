@@ -15,6 +15,5 @@ using the given style and state.
 \item{\code{y2}}{[integer]  the ending y coordinate}
 \item{\code{x}}{[integer]  the x coordinate}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,6 +12,5 @@ be copied if you plan to keep it around.
 \arguments{\item{\code{object}}{[\code{\link{GtkFileSelection}}]  a \code{\link{GtkFileSelection}}}}
 \details{If no file is selected then the selected directory path is returned.  }
 \value{[character]  currently-selected filename in the on-disk encoding.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

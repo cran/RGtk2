@@ -10,6 +10,5 @@
 \item{\code{object}}{[\code{\link{GtkLabel}}] The \code{\link{GtkLabel}} you want to set the pattern to.}
 \item{\code{pattern}}{[character] The pattern as described above.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

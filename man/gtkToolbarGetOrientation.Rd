@@ -6,6 +6,5 @@
 \usage{gtkToolbarGetOrientation(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}}}
 \value{[\code{\link{GtkOrientation}}]  the orientation}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

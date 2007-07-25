@@ -9,6 +9,5 @@ stipple will only be used if the fill mode is
 \item{\code{object}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}.}
 \item{\code{stipple}}{[\code{\link{GdkPixmap}}]  the new stipple bitmap.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

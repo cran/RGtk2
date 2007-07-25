@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkAssistant}}]  a \code{\link{GtkAssistant}}}}
 \details{  Since  2.10}
 \value{[integer]  The number of pages in the \code{assistant}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

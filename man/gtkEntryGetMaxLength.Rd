@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}}
 \value{[integer]  the maximum allowed number of characters
               in \code{\link{GtkEntry}}, or 0 if there is no maximum.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

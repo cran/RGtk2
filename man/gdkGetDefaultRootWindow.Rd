@@ -5,6 +5,5 @@
 for the default display and screen.}
 \usage{gdkGetDefaultRootWindow()}
 \value{[\code{\link{GdkWindow}}]  the default root window}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,6 +13,5 @@ call \code{\link{gtkCellLayoutClear}} yourself if you need to set up different
 cell renderers for the new model.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

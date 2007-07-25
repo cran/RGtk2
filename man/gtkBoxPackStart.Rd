@@ -22,6 +22,5 @@ to the start of \code{box}.}
   reference ends of \code{box}, then \code{padding} pixels are also put between 
   \code{child} and the reference edge of \code{box}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

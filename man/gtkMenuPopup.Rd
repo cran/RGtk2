@@ -24,6 +24,5 @@ a mouse button press, such as a mouse button release or a keypress,
 The \code{activate.time} parameter should be the time stamp of the event that
 initiated the popup. If such an event is not available, use
 \code{\link{gtkGetCurrentEventTime}} instead.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

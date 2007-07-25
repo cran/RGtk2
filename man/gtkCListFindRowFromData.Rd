@@ -11,6 +11,5 @@ Searches the CList for the row with the specified data.
 \item{\code{data}}{[R object] The data to search for a match.}
 }
 \value{[integer] The number of the matching row, or -1 if no match could be found.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ stock id to select the stock item for the button.}
 \item{\code{object}}{[\code{\link{GtkButton}}]  a \code{\link{GtkButton}}}
 \item{\code{use.stock}}{[logical]  \code{TRUE} if the button should use a stock item}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

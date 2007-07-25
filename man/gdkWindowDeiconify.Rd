@@ -8,6 +8,5 @@ you probably want to use \code{\link{gtkWindowPresent}}, which raises the window
 unminimizes it, and puts it on the current desktop.}
 \usage{gdkWindowDeiconify(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a toplevel \code{\link{GdkWindow}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

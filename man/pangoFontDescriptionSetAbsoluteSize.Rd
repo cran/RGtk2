@@ -11,6 +11,5 @@ exclusive with \code{\link{pangoFontDescriptionSetSize}}.}
   value of 10 * PANGO\_SCALE gives a 10 pixel font.}
 }
 \details{  Since  1.8}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

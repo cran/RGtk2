@@ -14,6 +14,5 @@ in response to the \code{\link{gtkCellEditableEditingDone}} signal of
 \code{\link{GtkCellEditable}}.  
 
   Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

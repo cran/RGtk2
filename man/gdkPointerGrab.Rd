@@ -45,6 +45,5 @@ If you set up anything at the time you take the grab that needs to be cleaned
 up when the grab ends, you should handle the \code{\link{GdkEventGrabBroken}} events that
 are emitted when the grab ends unvoluntarily.}
 \value{[\code{\link{GdkGrabStatus}}] \code{GDK_GRAB_SUCCESS} if the grab was successful.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

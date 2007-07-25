@@ -11,6 +11,5 @@
                  existance of an atom is as expensive as creating it.}
 }
 \value{[\code{\link{GdkAtom}}] the atom corresponding to \code{atom.name}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

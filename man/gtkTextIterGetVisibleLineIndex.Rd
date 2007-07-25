@@ -8,6 +8,5 @@ toggled on.}
 \usage{gtkTextIterGetVisibleLineIndex(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}}
 \value{[integer]  byte index of \code{iter} with respect to the start of the line}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

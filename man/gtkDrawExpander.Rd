@@ -14,6 +14,5 @@ Draws an expander as used in \code{\link{GtkTreeView}}.
 \item{\code{y}}{[integer]  the y position to draw the expander at}
 \item{\code{is.open}}{[\code{\link{GtkExpanderStyle}}]  the style to draw the expander in}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

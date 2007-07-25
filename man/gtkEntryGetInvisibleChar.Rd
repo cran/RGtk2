@@ -7,6 +7,5 @@ for entries with visibility set to false. See \code{\link{gtkEntrySetInvisibleCh
 \arguments{\item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}}
 \value{[numeric]  the current invisible char, or 0, if the entry does not
               show invisible text at all. }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

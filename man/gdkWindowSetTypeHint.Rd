@@ -11,6 +11,5 @@ of the window.}
 \item{\code{hint}}{[\code{\link{GdkWindowTypeHint}}]  A hint of the function this window will have}
 }
 \details{The hint must be set before the window is mapped.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

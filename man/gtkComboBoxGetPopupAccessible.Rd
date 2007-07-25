@@ -9,6 +9,5 @@ applications should have little use for it.
 
   Since  2.6}
 \value{[\code{\link{AtkObject}}]  the accessible object corresponding to the combo box's popup.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

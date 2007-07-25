@@ -7,6 +7,5 @@ Also see \code{\link{gtkPrintOperationGetStatusString}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkPrintOperation}}]  a \code{\link{GtkPrintOperation}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkPrintStatus}}]  the status of the print operation}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -16,6 +16,5 @@ When enabled, \code{::has-tooltip} will be set to \code{TRUE} and
 \code{icon.view} will connect a \code{::query-tooltip} signal handler.  
 
   Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

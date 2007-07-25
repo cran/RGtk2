@@ -11,6 +11,5 @@ Set the style of a row.
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] }
 \item{\code{style}}{[\code{\link{GtkStyle}}] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

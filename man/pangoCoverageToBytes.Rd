@@ -9,6 +9,5 @@ A list containing the following elements:
 \item{\code{bytes}}{[raw]  location to store result (must be freed with \code{gFree()})}
 \item{\code{n.bytes}}{[integer]  location to store size of result}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

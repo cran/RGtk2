@@ -16,6 +16,5 @@ A list containing the following elements:
     that was expected but not found}
 \item{\code{color}}{[\code{\link{GdkColor}}]  a pointer to a \code{GtkColor} structure in which to store the result}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

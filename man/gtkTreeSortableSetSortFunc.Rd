@@ -11,6 +11,5 @@ model will sort using this function.}
 \item{\code{sort.func}}{[\code{\link{GtkTreeIterCompareFunc}}]  The comparison function}
 \item{\code{user.data}}{[R object]  User data to pass to \code{sort.func}, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

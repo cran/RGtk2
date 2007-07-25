@@ -18,6 +18,5 @@ the anchor, so you can unref it after insertion.}
 \item{\code{iter}}{[\code{\link{GtkTextIter}}]  location to insert the anchor}
 \item{\code{anchor}}{[\code{\link{GtkTextChildAnchor}}]  a \code{\link{GtkTextChildAnchor}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ interface is called.}
 \item{\code{object}}{[\code{\link{GtkListStore}}]  A \code{\link{GtkListStore}}}
 \item{\code{types}}{[\code{\link{GType}}]  An list length n of \code{GTypes}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

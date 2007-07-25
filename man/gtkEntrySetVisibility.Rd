@@ -13,6 +13,5 @@ the text in the entry widget is copied elsewhere.}
 }
 \details{The default invisible char is the asterisk '*', but it can
 be changed with \code{\link{gtkEntrySetInvisibleChar}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

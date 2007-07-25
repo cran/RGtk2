@@ -9,6 +9,5 @@ running.}
 \arguments{\item{\code{object}}{[\code{\link{GdkDisplay}}]  a \code{\link{GdkDisplay}}}}
 \details{  Since  2.6}
 \value{[logical]  \code{TRUE} if the display supports clipboard persistance.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

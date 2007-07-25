@@ -10,6 +10,5 @@ user can't interact with them. Insensitive widgets are known as
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{sensitive}}{[logical]  \code{TRUE} to make the widget sensitive}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

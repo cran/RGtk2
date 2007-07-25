@@ -13,6 +13,5 @@ correspond to the script(s) used by that language.}
            font.}
 }
 \value{[\code{\link{PangoFontMetrics}}]  a \code{\link{PangoFontMetrics}} object.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

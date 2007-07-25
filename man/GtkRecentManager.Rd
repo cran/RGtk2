@@ -106,7 +106,7 @@ registering a recently used resource.
 \item{\code{appName}}{[character]  the name of the application that is registering this recently
   used resource;}
 \item{\code{appExec}}{[character]  command line used to launch this resource; may contain the
-  "%f" and "%u" escape characters which will be expanded 
+  "\%f" and "\%u" escape characters which will be expanded 
   to the resource file path and URI respectively when the command line 
   is retrieved;}
 \item{\code{groups}}{[character]  a vector of strings containing groups names;}
@@ -174,7 +174,6 @@ The size of the recently used resources list.
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkRecentManager.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

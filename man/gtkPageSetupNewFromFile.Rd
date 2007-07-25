@@ -15,6 +15,5 @@ A list containing the following elements:
 \item{retval}{[\code{\link{GtkPageSetup}}]  the restored \code{\link{GtkPageSetup}}}
 \item{\code{error}}{[\code{\link{GError}}]  return location for an error, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

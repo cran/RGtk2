@@ -11,6 +11,5 @@
 \item{\code{accel.mods}}{[\code{\link{GdkModifierType}}]    modifier key combination of the accelerator}
 }
 \value{[logical]       whether an accelerator was installed and could be removed}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

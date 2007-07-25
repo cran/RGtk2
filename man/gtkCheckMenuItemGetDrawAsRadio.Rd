@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkCheckMenuItem}}]  a \code{\link{GtkCheckMenuItem}}}}
 \details{  Since  2.4}
 \value{[logical]  Whether \code{check.menu.item} looks like a \code{\link{GtkRadioMenuItem}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

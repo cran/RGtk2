@@ -30,6 +30,5 @@ A list containing the following elements:
 \item{\code{height}}{[integer]  return location for height of window}
 \item{\code{depth}}{[integer]  return location for bit depth of window}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

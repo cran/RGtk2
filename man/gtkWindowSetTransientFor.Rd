@@ -14,6 +14,5 @@ functions in GTK+ will sometimes call
 }
 \details{On Windows, this function puts the child window on top of the parent, 
 much as the window manager would have done on X.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

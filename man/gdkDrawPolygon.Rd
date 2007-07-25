@@ -12,6 +12,5 @@
 \item{\code{points}}{[\code{\link{GdkPoint}}]  a list of \code{\link{GdkPoint}} structures specifying the points making 
     up the polygon.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

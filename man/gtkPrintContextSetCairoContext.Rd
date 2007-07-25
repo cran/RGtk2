@@ -15,6 +15,5 @@ since GTK+ itself creates a suitable cairo context in that
 case.  
 
   Since  2.10 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

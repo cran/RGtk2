@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}}}
 \item{\code{adjustment}}{[\code{\link{GtkAdjustment}}]  a \code{\link{GtkAdjustment}} to replace the existing adjustment}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

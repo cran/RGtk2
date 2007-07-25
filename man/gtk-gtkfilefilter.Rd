@@ -89,7 +89,6 @@ see \code{\link{gtkFileFilterAddCustom}}.
 \emph{Returns:} [logical] \code{TRUE} if the file should be displayed
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/gtk-gtkfilefilter.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{\code{\link{GtkFileChooser}}}

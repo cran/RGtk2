@@ -8,6 +8,5 @@
 \details{  Since  2.12}
 \value{[list]  a newly allocated list of newly 
    allocated \code{\link{GtkPaperSize}} objects}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

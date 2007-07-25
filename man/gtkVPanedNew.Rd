@@ -4,6 +4,5 @@
 \description{Create a new \code{\link{GtkVPaned}}}
 \usage{gtkVPanedNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}] the new \code{\link{GtkVPaned}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,6 +13,5 @@ then \code{\link{gtkTextBufferApplyTag}} on the inserted text;
 \item{\code{text}}{[character]  UTF-8 text}
 \item{\code{...}}{ list of tags to apply}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

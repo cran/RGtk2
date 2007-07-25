@@ -12,6 +12,5 @@ of the underlying value for which progress is shown.
 \item{\code{object}}{[\code{\link{GtkProgress}}] a \code{\link{GtkProgress}}.}
 \item{\code{adjustment}}{[\code{\link{GtkAdjustment}}] the \code{\link{GtkAdjustment}} to be associated with the \code{\link{GtkProgress}}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

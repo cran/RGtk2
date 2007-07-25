@@ -8,6 +8,5 @@ know that the model emitted the "row\_inserted" signal.}
 \item{\code{proxy}}{[\code{\link{GObject}}]  A \code{\link{GObject}}}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  The row position that was inserted}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

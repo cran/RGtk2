@@ -10,6 +10,5 @@ over it (you can't add/remove tags).}
 \item{\code{func}}{[\code{\link{GtkTextTagTableForeach}}]  a function to call on each tag}
 \item{\code{data}}{[R object]  user data}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

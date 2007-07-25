@@ -13,6 +13,5 @@ for the new pixmap. Can be \code{NULL}, if the depth is given.}
 \item{\code{bg}}{[\code{\link{GdkColor}}] the background color.}
 }
 \value{[\code{\link{GdkPixmap}}] the \code{\link{GdkPixmap}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -25,6 +25,5 @@ position.  If the cell is currently visible on the screen, nothing is done.
 This function only works if the model is set, and \code{path} is a valid row on the
 model.  If the model changes before the \code{tree.view} is realized, the centered
 path will be modified to reflect this change.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

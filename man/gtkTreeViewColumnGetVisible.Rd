@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}.}}
 \value{[logical]  whether the column is visible or not.  If it is visible, then
 the tree will show the column.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

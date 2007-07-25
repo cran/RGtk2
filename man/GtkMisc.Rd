@@ -67,7 +67,6 @@ The amount of space to add on the top and bottom of the widget, in pixels.  Allo
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkMisc.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkComboBox}}]  A \code{\link{GtkComboBox}}}}
 \details{  Since  2.6}
 \value{[integer]  the row span column.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

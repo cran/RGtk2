@@ -10,6 +10,5 @@ instead.
 }
 \usage{gtkComboDisableActivate(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCombo}}] a \code{\link{GtkCombo}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

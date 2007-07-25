@@ -8,6 +8,5 @@ fields will get back to their default values.}
 \item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}
 \item{\code{to.unset}}{[\code{\link{PangoFontMask}}]  bitmask of fields in the \code{desc} to unset.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

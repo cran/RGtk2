@@ -12,6 +12,5 @@ startup-notification identifier unless
 that feature.  
 
   Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

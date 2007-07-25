@@ -13,6 +13,5 @@ does \emph{not} have the tag applied to it.}
 \item{\code{toggled.on}}{[logical]  \code{TRUE} to get toggled-on tags}
 }
 \value{[list]  tags toggled at this point}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

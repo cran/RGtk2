@@ -9,6 +9,5 @@ in those previous versions. GdkRGB can now render to drawables with
 any visual.}
 \usage{gdkRgbGetVisual()}
 \value{[\code{\link{GdkVisual}}]  The \code{\link{GdkVisual}} chosen by GdkRGB.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

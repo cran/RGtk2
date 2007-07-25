@@ -8,6 +8,5 @@
 \item{\code{state}}{[numeric]  an \code{numeric} whose state is changed}
 \item{\code{value}}{[logical]  a gboolean which indicates whether the state is being set on or off}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

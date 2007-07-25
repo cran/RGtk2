@@ -11,6 +11,5 @@ drawables with any visual.}
 \arguments{\item{\code{object}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}}}
 \details{  Since  2.2}
 \value{[\code{\link{GdkVisual}}]  The \code{\link{GdkVisual}} chosen by GdkRGB.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

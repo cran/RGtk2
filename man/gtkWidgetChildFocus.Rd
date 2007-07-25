@@ -31,6 +31,5 @@ and focusable before calling \code{gtkContainerFocus()}.
 \code{\link{gtkWidgetChildFocus}} returns \code{FALSE} if the widget is not 
 currently in a focusable state, so there's no need for those checks.  }
 \value{[logical]  \code{TRUE} if focus ended up inside \code{widget}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

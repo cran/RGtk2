@@ -11,6 +11,5 @@ require GModule to function correctly.}
 \item{\code{user.data}}{[R object]  arbitrary data that will be passed to the connection function}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

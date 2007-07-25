@@ -13,6 +13,5 @@ need to notify the client program that an editing process was canceled
 and the changes were not committed.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

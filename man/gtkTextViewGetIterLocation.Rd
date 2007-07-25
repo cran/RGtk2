@@ -14,6 +14,5 @@ coordinates to coordinates for one of the windows in the text view.}
 A list containing the following elements:
 \item{\code{location}}{[\code{\link{GdkRectangle}}]  bounds of the character at \code{iter}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

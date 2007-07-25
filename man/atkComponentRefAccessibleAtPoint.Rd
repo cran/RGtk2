@@ -12,6 +12,5 @@ coordinate point specified by \code{x} and \code{y}.}
 or to the components top level window}
 }
 \value{[\code{\link{AtkObject}}]  a reference to the accessible child, if one exists}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

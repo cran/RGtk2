@@ -10,6 +10,5 @@ A list containing the following elements:
 \item{\code{x.root}}{[numeric]  location to put root window x coordinate}
 \item{\code{y.root}}{[numeric]  location to put root window y coordinate}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

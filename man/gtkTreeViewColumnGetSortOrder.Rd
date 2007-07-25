@@ -5,6 +5,5 @@
 \usage{gtkTreeViewColumnGetSortOrder(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  a \code{\link{GtkTreeViewColumn}}}}
 \value{[\code{\link{GtkSortType}}]  the sort order the sort indicator is indicating}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

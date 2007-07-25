@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkCellLayout}}]  a \code{\link{GtkCellLayout}}}}
 \details{  Since  2.12}
 \value{[list]  a list of cell renderers. The list.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

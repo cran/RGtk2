@@ -12,6 +12,5 @@ useful on a vertically docked toolbar. If \code{visible.vertical} is \code{FALSE
 is in vertical mode}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

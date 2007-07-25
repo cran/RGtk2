@@ -7,6 +7,5 @@ GtkWidget:has-tooltip for more information.}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \details{  Since  2.12}
 \value{[logical]  current value of has-tooltip on \code{widget}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

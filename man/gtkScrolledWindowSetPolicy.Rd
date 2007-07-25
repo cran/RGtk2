@@ -14,6 +14,5 @@ than the trough - the display is larger than the page size).}
 \item{\code{hscrollbar.policy}}{[\code{\link{GtkPolicyType}}] Policy for horizontal bar.}
 \item{\code{vscrollbar.policy}}{[\code{\link{GtkPolicyType}}] Policy for vertical bar.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

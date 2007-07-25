@@ -10,6 +10,5 @@ the tree interactively (this is sometimes called "typeahead find").}
 }
 \details{Note that even if this is \code{FALSE}, the user can still initiate a search 
 using the "start-interactive-search" key binding.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

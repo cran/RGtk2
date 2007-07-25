@@ -6,6 +6,5 @@
 \usage{gtkContainerGetChildren(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkContainer}}]  a \code{\link{GtkContainer}}}}
 \value{[list]  a newly-allocated list of the container's non-internal children.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

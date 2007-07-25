@@ -12,6 +12,5 @@
 \item{\code{child}}{[\code{\link{GtkCTreeNode}}] }
 }
 \value{[logical] True if \code{child} is on some level a child (grandchild...) of the \code{node}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

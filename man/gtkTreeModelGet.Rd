@@ -16,6 +16,5 @@ If appropriate.}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  a row in \code{tree.model}}
 \item{\code{...}}{ pairs of column number and value return locations, terminated by -1}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@
 \item{\code{index}}{[numeric] the index of the axis.}
 \item{\code{use}}{[\code{\link{GdkAxisUse}}] specifies how the axis is used.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

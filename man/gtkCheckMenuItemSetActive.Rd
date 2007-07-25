@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkCheckMenuItem}}] a \code{\link{GtkCheckMenuItem}}.}
 \item{\code{is.active}}{[logical] boolean value indicating whether the check box is active.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

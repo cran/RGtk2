@@ -35,6 +35,5 @@ the "natural" size request of the widget will be used instead.
   
 Widgets can't actually be allocated a size less than 1 by 1, but
 you can pass 0,0 to this function to mean "as small as possible."  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

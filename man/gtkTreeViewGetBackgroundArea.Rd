@@ -20,6 +20,5 @@ itself, excluding surrounding borders and the tree expander area.}
 A list containing the following elements:
 \item{\code{rect}}{[\code{\link{GdkRectangle}}]  rectangle to fill with cell background rect}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -4,6 +4,5 @@
 \description{Create a new empty attribute list with a reference count of one.}
 \usage{pangoAttrListNew()}
 \value{[\code{\link{PangoAttrList}}]  the newly allocated \code{\link{PangoAttrList}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -17,6 +17,5 @@ given style.}
 \item{\code{width}}{[integer]  the width of the rectangle around which to draw a focus indicator}
 \item{\code{height}}{[integer]  the height of the rectangle around which to draw a focus indicator}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

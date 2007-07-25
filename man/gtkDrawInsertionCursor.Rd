@@ -17,6 +17,5 @@ but merely a convenience function for drawing the standard cursor shape.}
        cursor. Should be \code{FALSE} unless the cursor is split.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

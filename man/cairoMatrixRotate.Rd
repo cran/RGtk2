@@ -14,6 +14,5 @@ the positive X axis toward the positive Y axis. With the default
 axis orientation of cairo, positive angles rotate in a clockwise
 direction.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

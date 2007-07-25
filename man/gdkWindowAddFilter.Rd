@@ -13,6 +13,5 @@ instead of events for a specific window.}
 }
 \details{See \code{\link{gdkDisplayAddClientMessageFilter}} if you are interested
 in X ClientMessage events.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

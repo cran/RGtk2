@@ -10,6 +10,5 @@
 A list containing the following elements:
 \item{\code{options}}{[\code{\link{CairoFontOptions}}]  return value for the font options}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

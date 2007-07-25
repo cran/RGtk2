@@ -8,6 +8,5 @@ dragging the header.}
 \item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}}
 \item{\code{reorderable}}{[logical]  \code{TRUE}, if the column can be reordered.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

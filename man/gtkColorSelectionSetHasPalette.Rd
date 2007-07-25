@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{GtkColorSelection}}]  a \code{\link{GtkColorSelection}}.}
 \item{\code{has.palette}}{[logical]  \code{TRUE} if palette is to be visible, \code{FALSE} otherwise.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,6 +7,5 @@ persist beyond the lifetime of the icon source.}
 \usage{gtkIconSourceGetFilename(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconSource}}]  a \code{\link{GtkIconSource}}}}
 \value{[character]  image filename.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

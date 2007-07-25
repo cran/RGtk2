@@ -9,6 +9,5 @@ is \code{NULL}, then the number of toplevel nodes is returned.}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  The \code{\link{GtkTreeIter}}, or \code{NULL}.}
 }
 \value{[integer]  The number of children of \code{iter}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

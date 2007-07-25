@@ -7,6 +7,5 @@ the group to which \code{action} belongs.}
 \arguments{\item{\code{object}}{[\code{\link{GtkRadioAction}}]  a \code{\link{GtkRadioAction}}}}
 \details{  Since  2.4}
 \value{[integer]  The value of the currently active group member}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

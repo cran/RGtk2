@@ -13,6 +13,5 @@ may return one of the following values:
 CAIRO\_STATUS\_NO\_MEMORY
 CAIRO\_STATUS\_FILE\_NOT\_FOUND
 CAIRO\_STATUS\_READ\_ERROR}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

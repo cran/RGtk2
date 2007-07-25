@@ -8,6 +8,5 @@
 \item{\code{start.pos}}{[integer]  start position}
 \item{\code{end.pos}}{[integer]  end position}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,6 +13,5 @@ this function returns "<Control>q". }
 \details{If you need to display accelerators in the user interface,
 see \code{\link{gtkAcceleratorGetLabel}}.  }
 \value{[character]  a newly-allocated accelerator name}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

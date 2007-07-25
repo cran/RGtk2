@@ -13,6 +13,5 @@ A list containing the following elements:
 \item{\code{padding.left}}{[numeric]  location to store the padding for the left of the widget, or \code{NULL}}
 \item{\code{padding.right}}{[numeric]  location to store the padding for the right of the widget, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

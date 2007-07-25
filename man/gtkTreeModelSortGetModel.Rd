@@ -5,6 +5,5 @@
 \usage{gtkTreeModelSortGetModel(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeModelSort}}]  a \code{\link{GtkTreeModelSort}}}}
 \value{[\code{\link{GtkTreeModel}}]  the "child model" being sorted}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,6 +6,5 @@ Should be called by implementations of the remove method
 on \code{\link{GtkContainer}}, to dissociate a child from the container.}
 \usage{gtkWidgetUnparent(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

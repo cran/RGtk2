@@ -10,6 +10,5 @@ brings in from offscreen areas are invalidated.}
 \item{\code{dx}}{[integer]  Amount to scroll in the X direction}
 \item{\code{dy}}{[integer]  Amount to scroll in the Y direction}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

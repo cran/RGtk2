@@ -8,6 +8,5 @@
 \item{\code{shadow.type}}{[\code{\link{GtkShadowType}}] a valid \code{\link{GtkShadowType}}.}
 }
 \value{[\code{\link{GtkWidget}}] the new \code{\link{GtkArrow}} widget.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

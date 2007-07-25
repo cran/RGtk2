@@ -11,6 +11,5 @@ on the semantics of each available fill rule.}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a \code{\link{Cairo}}}
 \item{\code{fill.rule}}{[\code{\link{CairoFillRule}}]  a fill rule, specified as a \code{\link{CairoFillRule}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

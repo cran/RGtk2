@@ -8,6 +8,5 @@
 \item{\code{child}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{anchor}}{[\code{\link{GtkTextChildAnchor}}]  a \code{\link{GtkTextChildAnchor}} in the \code{\link{GtkTextBuffer}} for \code{text.view}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

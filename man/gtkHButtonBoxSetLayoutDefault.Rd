@@ -7,6 +7,5 @@ Sets a new layout mode that will be used by all button boxes.
 }
 \usage{gtkHButtonBoxSetLayoutDefault(layout)}
 \arguments{\item{\code{layout}}{[\code{\link{GtkButtonBoxStyle}}] a new \code{\link{GtkButtonBoxStyle}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

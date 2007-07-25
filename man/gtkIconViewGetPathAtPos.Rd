@@ -15,6 +15,5 @@ widget coordinates to bin\_window coordinates.}
 \details{  Since  2.6 }
 \value{[\code{\link{GtkTreePath}}]  The \code{\link{GtkTreePath}} corresponding to the icon or \code{NULL}
 if no icon exists at that position.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

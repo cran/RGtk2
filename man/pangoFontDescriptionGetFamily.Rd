@@ -7,6 +7,5 @@
 \arguments{\item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}.}}
 \value{[char]  the family name field for the font description, or
               \code{NULL} if not previously set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

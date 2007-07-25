@@ -8,6 +8,5 @@ key press.}
 \usage{gtkTooltipTriggerTooltipQuery(display)}
 \arguments{\item{\code{display}}{[\code{\link{GdkDisplay}}]  a \code{\link{GdkDisplay}}}}
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkEntryCompletion}}]  A \code{\link{GtkEntryCompletion}}.}}
 \details{  Since  2.4}
 \value{[integer]  The currently used minimum key length.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -44,7 +44,6 @@ Recently used files are supported since GTK+ 2.10.}
 
 }}}
 \section{Convenient Construction}{\code{gtkRecentChooserDialog} is the equivalent of \code{\link{gtkRecentChooserDialogNew}}.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkRecentChooserDialog.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

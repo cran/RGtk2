@@ -10,6 +10,5 @@ occur.  Note that calls to \code{\link{gtkCListFreeze}} can be nested.
 }
 \usage{gtkCListFreeze(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to freeze.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

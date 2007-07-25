@@ -7,6 +7,5 @@
 \details{Use \code{\link{pangoLayoutIsWrapped}} to query whether any paragraphs
 were actually wrapped.  }
 \value{[\code{\link{PangoWrapMode}}]  active wrap mode.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

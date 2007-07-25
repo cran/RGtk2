@@ -15,6 +15,5 @@ widgets.
 }
 \usage{gtkPreviewSetGamma(gamma)}
 \arguments{\item{\code{gamma}}{[numeric] the new gamma value.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

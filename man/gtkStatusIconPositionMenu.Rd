@@ -16,6 +16,5 @@ A list containing the following elements:
 \item{\code{push.in}}{[logical]  whether the first menu item should be offset (pushed in) to be
           aligned with the menu popup position (only useful for GtkOptionMenu).}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

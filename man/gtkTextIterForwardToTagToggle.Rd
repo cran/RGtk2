@@ -14,6 +14,5 @@ if no toggle is found.}
 \item{\code{tag}}{[\code{\link{GtkTextTag}}]  a \code{\link{GtkTextTag}}, or \code{NULL}}
 }
 \value{[logical]  whether we found a tag toggle after \code{iter}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

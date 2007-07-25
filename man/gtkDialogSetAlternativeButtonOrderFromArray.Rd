@@ -15,6 +15,5 @@ response ids in \code{new.order}.}
 This function is for use by language bindings.  
 
   Since  2.6}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -66,7 +66,6 @@ A list containing the following elements:
 \item{\code{consumed.modifiers}}{[\code{\link{GdkModifierType}}]  return location for modifiers that were used to
     determine the group or level, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \note{\code{consumed.modifiers} gives modifiers that should be masked out
 from \code{state} when comparing this key press to a hot key. For
 instance, on a US keyboard, the \code{plus}

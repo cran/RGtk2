@@ -8,6 +8,5 @@
 \item{\code{accessible}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}} representing the summary description
 to set for \code{table}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

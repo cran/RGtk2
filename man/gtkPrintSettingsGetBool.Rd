@@ -13,6 +13,5 @@ string \code{FALSE}.
 
   Since  2.10}
 \value{[logical]  \code{TRUE}, if \code{key} maps to a true value.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

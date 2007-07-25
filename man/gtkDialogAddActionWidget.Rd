@@ -13,6 +13,5 @@ of the \code{\link{GtkDialog}} struct.}
 \item{\code{child}}{[\code{\link{GtkWidget}}]  an activatable widget}
 \item{\code{response.id}}{[integer]  response ID for \code{child}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

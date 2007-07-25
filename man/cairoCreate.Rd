@@ -18,6 +18,5 @@ maintain a separate reference to it.  }
  which \code{\link{cairoStatus}} returns \code{CAIRO_STATUS_NO_MEMORY}.
  You can use this object normally, but no drawing will
  be done.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

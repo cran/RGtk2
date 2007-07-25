@@ -6,6 +6,5 @@ are selected.}
 \usage{atkSelectionClearSelection(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkSelection}}]  a \code{\link{GObject}} instance that implements AtkSelectionIface}}
 \value{[logical]  TRUE if success, FALSE otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

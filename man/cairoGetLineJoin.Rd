@@ -5,6 +5,5 @@
 \usage{cairoGetLineJoin(cr)}
 \arguments{\item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}}
 \value{[\code{\link{CairoLineJoin}}]  the current line join style.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

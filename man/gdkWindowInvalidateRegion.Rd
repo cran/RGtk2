@@ -23,6 +23,5 @@ each child window that intersects \code{region} will also be invalidated.
 If \code{FALSE}, then the update area for child windows will remain
 unaffected. See gdk\_window\_invalidate\_maybe\_recurse if you need
 fine grained control over which children are invalidated.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

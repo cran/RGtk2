@@ -32,6 +32,5 @@ a cursor with no pixels in it.
 
   Since  2.2}
 \value{[\code{\link{GdkCursor}}]  a new \code{\link{GdkCursor}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

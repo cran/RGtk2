@@ -9,6 +9,5 @@
 }
 \value{[character]  a gchar* representing the row description, or \code{NULL}
 if value does not implement this interface.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

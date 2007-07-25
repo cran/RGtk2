@@ -14,6 +14,5 @@ is returned.}
 \item{\code{accel.mods}}{[\code{\link{GdkModifierType}}]     keyboard state mask from a key event}
 }
 \value{[logical]        \code{TRUE} if the accelerator was handled, \code{FALSE} otherwise}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

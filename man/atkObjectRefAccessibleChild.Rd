@@ -11,6 +11,5 @@ at index 0, the second at index 1 and so on.}
 }
 \value{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}} representing the specified accessible child
 of the accessible.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ to be placed between the buttons when they are arranged.
 }
 \usage{gtkHButtonBoxGetSpacingDefault()}
 \value{[integer] the default number of pixels between buttons.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

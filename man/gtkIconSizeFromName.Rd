@@ -5,6 +5,5 @@
 \usage{gtkIconSizeFromName(name)}
 \arguments{\item{\code{name}}{[character]  the name to look up.}}
 \value{[\code{\link{GtkIconSize}}]  the icon size with the given name.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

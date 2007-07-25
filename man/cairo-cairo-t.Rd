@@ -223,7 +223,6 @@ the line width from the joint point}
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-cairo-t.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

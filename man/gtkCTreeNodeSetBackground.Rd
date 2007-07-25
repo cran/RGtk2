@@ -11,6 +11,5 @@
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] }
 \item{\code{color}}{[\code{\link{GdkColor}}] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,6 +14,5 @@ of the model contains strings, you could have the "text" attribute of a
 \item{\code{column}}{[integer]  The column position on the model to get the attribute from.}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@
 }
 \details{  Since  2.10}
 \value{[integer]  the integer value of \code{key} }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

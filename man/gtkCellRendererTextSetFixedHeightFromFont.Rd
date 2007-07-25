@@ -13,6 +13,5 @@ the height is determined by the properties again.}
 \item{\code{object}}{[\code{\link{GtkCellRendererText}}]  A \code{\link{GtkCellRendererText}}}
 \item{\code{number.of.rows}}{[integer]  Number of rows of text each cell renderer is allocated, or -1}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

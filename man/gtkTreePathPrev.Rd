@@ -6,6 +6,5 @@ if it exists.}
 \usage{gtkTreePathPrev(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreePath}}]  A \code{\link{GtkTreePath}}.}}
 \value{[logical]  \code{TRUE} if \code{path} has a previous node, and the move was made.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

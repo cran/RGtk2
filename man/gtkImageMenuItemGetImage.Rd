@@ -6,6 +6,5 @@ See \code{\link{gtkImageMenuItemSetImage}}.}
 \usage{gtkImageMenuItemGetImage(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkImageMenuItem}}]  a \code{\link{GtkImageMenuItem}}.}}
 \value{[\code{\link{GtkWidget}}]  the widget set as image of \code{image.menu.item}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

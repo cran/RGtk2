@@ -10,6 +10,5 @@ window, it obeys the "gtk-scrolled-window-placement" XSETTING.}
 \code{\link{gtkScrolledWindowGetPlacement}}.  
 
   Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ A list containing the following elements:
 \item{\code{xpad}}{[integer]  location to store padding in the X direction, or \code{NULL}}
 \item{\code{ypad}}{[integer]  location to store padding in the Y direction, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

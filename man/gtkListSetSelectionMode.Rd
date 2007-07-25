@@ -21,6 +21,5 @@ Shift key to select between the focus and the child pointed to.}
 \item{\code{object}}{[\code{\link{GtkList}}] the list widget.}
 \item{\code{mode}}{[\code{\link{GtkSelectionMode}}] the new selection mode.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

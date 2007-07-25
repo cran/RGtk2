@@ -12,6 +12,5 @@ Finds a node in the tree under \code{node} that has the given user data pointer.
 \item{\code{data}}{[R object] }
 }
 \value{[\code{\link{GtkCTreeNode}}] The node, or \code{NULL} if not found.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

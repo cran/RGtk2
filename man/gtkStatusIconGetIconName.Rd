@@ -8,6 +8,5 @@ The storage type of the status icon must be \code{GTK_IMAGE_EMPTY} or
 \arguments{\item{\code{object}}{[\code{\link{GtkStatusIcon}}]  a \code{\link{GtkStatusIcon}}}}
 \details{  Since  2.10}
 \value{[character]  name of the displayed icon, or \code{NULL} if the image is empty.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@
 \item{\code{modifier}}{[\code{\link{GdkModifierType}}]  the modifiers }
 }
 \value{[logical]  \code{TRUE} if the activation is done. }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

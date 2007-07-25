@@ -9,6 +9,5 @@ object's selection.}
 \item{\code{i}}{[integer]  a \code{integer} specifying the child index.}
 }
 \value{[logical]  TRUE if success, FALSE otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

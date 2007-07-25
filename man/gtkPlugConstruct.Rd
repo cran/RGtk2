@@ -8,6 +8,5 @@
 \item{\code{object}}{[\code{\link{GtkPlug}}]  a \code{\link{GtkPlug}}.}
 \item{\code{socket.id}}{[\code{\link{GdkNativeWindow}}]  the XID of the socket's window.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

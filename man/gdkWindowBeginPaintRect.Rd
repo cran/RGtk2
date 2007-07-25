@@ -9,6 +9,5 @@ creates a rectangular region for you. See
 \item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}
 \item{\code{rectangle}}{[\code{\link{GdkRectangle}}]  rectangle you intend to draw to}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

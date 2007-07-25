@@ -5,6 +5,5 @@
 \usage{gtkMenuItemNewWithLabel(label, show = TRUE)}
 \arguments{\item{\code{label}}{[character] the text for the label}}
 \value{[\code{\link{GtkWidget}}] the newly created \code{\link{GtkMenuItem}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

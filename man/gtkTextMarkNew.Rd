@@ -17,6 +17,5 @@ side of the text you're typing).}
 }
 \details{  Since  2.12}
 \value{[\code{\link{GtkTextMark}}]  new \code{\link{GtkTextMark}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

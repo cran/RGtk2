@@ -12,6 +12,5 @@ A list containing the following elements:
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  A pointer to be filled with the current cursor path, or \code{NULL}}
 \item{\code{focus.column}}{[\code{\link{GtkTreeViewColumn}}]  A pointer to be filled with the current focus column, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

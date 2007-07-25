@@ -9,6 +9,5 @@ located within the currently-visible text area.}
 \item{\code{mark}}{[\code{\link{GtkTextMark}}]  a \code{\link{GtkTextMark}}}
 }
 \value{[logical]  \code{TRUE} if the mark moved (wasn't already onscreen)}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

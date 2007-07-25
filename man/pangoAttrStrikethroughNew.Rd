@@ -5,6 +5,5 @@
 \usage{pangoAttrStrikethroughNew(strikethrough)}
 \arguments{\item{\code{strikethrough}}{[logical]  \code{TRUE} if the text should be struck-through.}}
 \value{[\code{\link{PangoAttribute}}]  the newly allocated \code{\link{PangoAttribute}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

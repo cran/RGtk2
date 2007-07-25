@@ -14,6 +14,5 @@ a custom criterion.
 \item{\code{func}}{[GCompareFunc] The criterion function.}
 }
 \value{[list] A list of all nodes found.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

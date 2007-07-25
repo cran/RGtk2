@@ -22,6 +22,5 @@ can queue a resize itself.
   
 This function is only useful for container implementations and
 never should be called by an application.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@
 \item{\code{padding}}{[numeric]  the new value of the \code{:padding} child property}
 \item{\code{pack.type}}{[\code{\link{GtkPackType}}]  the new value of the \code{:pack-type} child property}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

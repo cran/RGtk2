@@ -10,6 +10,5 @@ are skipped by \code{\link{gtkAccelMapForeach}}.
 This function is intended for GTK+ modules that create their own
 menus, but don't want them to be saved into the applications accelerator
 map dump.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

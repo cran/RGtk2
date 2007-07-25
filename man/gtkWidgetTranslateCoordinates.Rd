@@ -20,6 +20,5 @@ A list containing the following elements:
 \item{\code{dest.x}}{[integer]  location to store X position relative to \code{dest.widget}}
 \item{\code{dest.y}}{[integer]  location to store Y position relative to \code{dest.widget}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

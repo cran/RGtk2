@@ -9,6 +9,5 @@ with native APIs. If the surface doesn't support direct access,
 then this function does nothing.}
 \usage{cairoSurfaceFlush(surface)}
 \arguments{\item{\code{surface}}{[\code{\link{CairoSurface}}]  a \code{\link{CairoSurface}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

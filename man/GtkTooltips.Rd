@@ -79,7 +79,6 @@ Holds information about a group of tooltips. Fields should be changed using the 
 }
 }}
 \section{Convenient Construction}{\code{gtkTooltips} is the equivalent of \code{\link{gtkTooltipsNew}}.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkTooltips.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

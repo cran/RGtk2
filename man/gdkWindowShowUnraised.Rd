@@ -9,6 +9,5 @@ to the top of the window stack.}
 \details{On the X11 platform, in Xlib terms, this function calls
 \code{xmapwindow()} (it also updates some internal GDK state, which means
 that you can't really use \code{xmapwindow()} directly on a GDK window).  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,6 +11,5 @@ get a number to avoid clashes.}
 \item{\code{show.numbers}}{[logical]  whether to show numbers}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

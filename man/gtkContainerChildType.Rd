@@ -8,6 +8,5 @@
 children can be added, e.g. for a \code{\link{GtkPaned}} which already has two 
 children.  }
 \value{[\code{\link{GType}}]  a \code{\link{GType}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

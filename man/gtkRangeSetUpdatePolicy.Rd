@@ -14,6 +14,5 @@ drag operation.}
 \item{\code{object}}{[\code{\link{GtkRange}}]  a \code{\link{GtkRange}}}
 \item{\code{policy}}{[\code{\link{GtkUpdateType}}]  update policy}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

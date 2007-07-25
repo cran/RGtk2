@@ -4,6 +4,5 @@
 \description{Creates a new \code{\link{GtkStyle}}.}
 \usage{gtkStyleNew()}
 \value{[\code{\link{GtkStyle}}]  a new \code{\link{GtkStyle}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,6 +14,5 @@ widget window }
 }
 \value{[integer]  the offset to the character which is located at
 the specified \code{x} and \code{y} coordinates.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

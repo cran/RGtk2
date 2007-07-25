@@ -11,6 +11,5 @@
 }
 \value{[numeric]  a message id that can be used with 
          \code{\link{gtkStatusbarRemove}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

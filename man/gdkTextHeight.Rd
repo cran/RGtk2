@@ -15,6 +15,5 @@ relation to the baseline. See \code{\link{gdkTextExtents}}.
 \item{\code{text.length}}{[integer]  the length of the text in bytes.}
 }
 \value{[integer]  the height of the string in pixels.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

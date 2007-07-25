@@ -6,6 +6,5 @@
 \arguments{\item{\code{screen}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}.}}
 \details{  Since  2.2}
 \value{[\code{\link{GtkSettings}}]  a \code{\link{GtkSettings}} object.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

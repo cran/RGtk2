@@ -10,6 +10,5 @@ cairo context.}
 \details{See \code{\link{cairoSetLineWidth}}, \code{\link{cairoSetLineJoin}},
 \code{\link{cairoSetLineCap}}, \code{\link{cairoSetDash}}, and
 \code{\link{cairoStrokePreserve}}.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

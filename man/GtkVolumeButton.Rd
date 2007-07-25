@@ -27,7 +27,6 @@ icons, tooltips and accessible labels.}
 
 }}}
 \section{Convenient Construction}{\code{gtkVolumeButton} is the equivalent of \code{\link{gtkVolumeButtonNew}}.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkVolumeButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

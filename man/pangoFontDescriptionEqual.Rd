@@ -13,6 +13,5 @@ being loaded, but still compare \code{FALSE}.)}
 }
 \value{[logical]  \code{TRUE} if the two font descriptions are identical,
 	 \code{FALSE} otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

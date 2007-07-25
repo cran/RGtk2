@@ -8,6 +8,5 @@ in \code{label} indicate the mnemonic for the menu item.}
 \arguments{\item{\code{label}}{[character]  the text of the menu item, with an underscore in front of the
         mnemonic character}}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImageMenuItem}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

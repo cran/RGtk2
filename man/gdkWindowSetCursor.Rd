@@ -12,6 +12,5 @@ its parent window. Most windows should use this default.}
 \item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}
 \item{\code{cursor}}{[\code{\link{GdkCursor}}]  a cursor}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

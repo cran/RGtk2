@@ -30,7 +30,6 @@ should be accessed using the functions below.
 
 }}}
 \section{Convenient Construction}{\code{gtkHSeparator} is the equivalent of \code{\link{gtkHSeparatorNew}}.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkHSeparator.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

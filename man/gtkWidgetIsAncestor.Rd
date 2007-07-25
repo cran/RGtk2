@@ -10,6 +10,5 @@ intermediate containers.}
 }
 \value{[logical]  \code{TRUE} if \code{ancestor} contains \code{widget} as a child, 
    grandchild, great grandchild, etc.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

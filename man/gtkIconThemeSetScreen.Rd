@@ -10,6 +10,5 @@ which might be different for different screens.}
 \item{\code{screen}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

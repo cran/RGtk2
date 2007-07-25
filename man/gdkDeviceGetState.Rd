@@ -13,6 +13,5 @@ A list containing the following elements:
   or \code{NULL}.}
 \item{\code{mask}}{[\code{\link{GdkModifierType}}] location to store the modifiers, or \code{NULL}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

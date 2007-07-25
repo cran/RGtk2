@@ -16,6 +16,5 @@ the row in relation to the viewable area of the CList's contents.}
 \item{\code{col.align}}{[numeric] A value between 0 and 1 that describes the positioning of 
 the column in relation to the viewable area of the CList's contents.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -19,6 +19,5 @@ A list containing the following elements:
 \item{\code{strong.pos}}{[\code{\link{PangoRectangle}}]  location to store the strong cursor position (may be \code{NULL})}
 \item{\code{weak.pos}}{[\code{\link{PangoRectangle}}]  location to store the weak cursor position (may be \code{NULL})}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

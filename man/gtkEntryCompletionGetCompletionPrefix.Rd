@@ -7,6 +7,5 @@ the completion or \code{NULL} if there's no completion ongoing.}
 \arguments{\item{\code{object}}{[\code{\link{GtkEntryCompletion}}]  a \code{\link{GtkEntryCompletion}}}}
 \details{  Since  2.12}
 \value{[character]  the prefix for the current completion}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

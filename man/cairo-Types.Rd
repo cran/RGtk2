@@ -13,7 +13,6 @@ would just use the a static \code{cairo_data_key_t} object.
 \describe{\item{\code{unused}}{[integer]  not used; ignore.}}
 
 }}}
-\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-Types.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

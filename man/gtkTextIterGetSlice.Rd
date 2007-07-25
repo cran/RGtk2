@@ -15,6 +15,5 @@ widget is in the buffer.}
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  iterator at end of a range}
 }
 \value{[character]  slice of text from the buffer}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

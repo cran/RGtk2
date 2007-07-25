@@ -8,6 +8,5 @@ whether the surface contains color and/or alpha information. See
 \arguments{\item{\code{surface}}{[\code{\link{CairoSurface}}]  a \code{\link{CairoSurface}}}}
 \details{  Since  1.2}
 \value{[\code{\link{CairoContent}}]  The content type of \code{surface}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

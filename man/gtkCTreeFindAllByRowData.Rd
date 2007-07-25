@@ -12,6 +12,5 @@ Finds all nodes in the tree under \code{node} that have the given user data poin
 \item{\code{data}}{[R object] }
 }
 \value{[list] A list of nodes that have the given data pointer.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

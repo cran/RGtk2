@@ -24,6 +24,5 @@ return value if you like.
 Emits the "mark\_set" signal as notification of the mark's initial
 placement.  }
 \value{[\code{\link{GtkTextMark}}]  the new \code{\link{GtkTextMark}} object}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

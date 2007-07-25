@@ -6,6 +6,5 @@ position has been made. This will typically cause the input
 method to clear the preedit state.}
 \usage{gtkIMContextReset(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIMContext}}]  a \code{\link{GtkIMContext}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

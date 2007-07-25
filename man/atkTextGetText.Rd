@@ -9,6 +9,5 @@
 \item{\code{end.offset}}{[integer]  end position}
 }
 \value{[character]  the text from \code{start.offset} up to, but not including \code{end.offset}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

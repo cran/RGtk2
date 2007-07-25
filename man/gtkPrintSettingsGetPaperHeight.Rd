@@ -10,6 +10,5 @@ converted to \code{unit}.}
 }
 \details{  Since  2.10}
 \value{[numeric]  the paper height, in units of \code{unit}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

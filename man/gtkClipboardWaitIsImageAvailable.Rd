@@ -14,6 +14,5 @@ the actual image data.
 
   Since  2.6}
 \value{[logical]  \code{TRUE} is there is an image available, \code{FALSE} otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

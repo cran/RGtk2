@@ -19,6 +19,5 @@ window.}
             clipboard already exists, a new one will
             be created. Once a clipboard object has
             been created, it is persistent for all time.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

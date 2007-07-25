@@ -15,6 +15,5 @@ call to \code{\link{gtkCListSetColumnAutoResize}}.
 \item{\code{column}}{[integer] The column on which to set resizeability.}
 \item{\code{resizeable}}{[logical] \code{TRUE} or \code{FALSE}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

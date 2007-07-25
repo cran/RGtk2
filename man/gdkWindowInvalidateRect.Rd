@@ -11,6 +11,5 @@ invalidates a rectangular region. See
      window}
 \item{\code{invalidate.children}}{[logical]  whether to also invalidate child windows}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

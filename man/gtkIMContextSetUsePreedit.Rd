@@ -10,6 +10,5 @@ feedback, such as displaying it in a child of the root window.}
 \item{\code{object}}{[\code{\link{GtkIMContext}}]  a \code{\link{GtkIMContext}}}
 \item{\code{use.preedit}}{[logical]  whether the IM context should use the preedit string.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

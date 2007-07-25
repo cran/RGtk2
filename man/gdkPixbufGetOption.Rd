@@ -16,6 +16,5 @@ chunk key/value pairs as options. Since 2.12, the TIFF and JPEG loaders
 return an "orientation" option string that corresponds to the embedded 
 TIFF/Exif orientation tag (if present).  }
 \value{[character]  the value associated with \code{key}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

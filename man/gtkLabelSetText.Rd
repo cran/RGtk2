@@ -9,6 +9,5 @@ was there before.  }
 \item{\code{str}}{[character]  The text you want to set}
 }
 \details{This will also clear any previously set mnemonic accelerators.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

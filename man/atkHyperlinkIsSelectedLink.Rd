@@ -12,6 +12,5 @@
 Please use ATK\_STATE\_SELECTED to indicate when a hyperlink within a
 Hypertext container is selected.}
 \value{[logical]  True is the AtkHyperlink is selected, False otherwise}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

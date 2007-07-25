@@ -12,6 +12,5 @@ to the start of \code{box}. }
 \details{Parameters for how to pack the child \code{widget}, \code{:expand}, 
 \code{:fill} and \code{:padding}, are given their default
 values, \code{TRUE}, \code{TRUE}, and 0, respectively.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

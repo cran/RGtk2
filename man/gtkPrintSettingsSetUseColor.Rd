@@ -8,6 +8,5 @@
 \item{\code{use.color}}{[logical]  whether to use color}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

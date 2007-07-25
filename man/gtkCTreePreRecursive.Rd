@@ -15,6 +15,5 @@ for its parent.
 \item{\code{func}}{[\code{\link{GtkCTreeFunc}}] The function to apply to each node.}
 \item{\code{data}}{[R object] A closure argument given to each invocation of the function.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

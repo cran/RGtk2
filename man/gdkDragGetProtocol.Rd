@@ -11,6 +11,5 @@ A list containing the following elements:
    support Drag and Drop.}
 \item{\code{protocol}}{[\code{\link{GdkDragProtocol}}]  location where the supported DND protocol is returned.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

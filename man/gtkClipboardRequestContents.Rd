@@ -15,6 +15,5 @@ will be called.}
             negative.}
 \item{\code{user.data}}{[R object]  user data to pass to \code{callback}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,6 +12,5 @@ widget. The widget must have a window.}
 \item{\code{actions}}{[\code{\link{GdkDragAction}}] the bitmask of possible actions for a drag from this
  widget.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ This action causes the toggled signal to be emitted.}
 \item{\code{is.active}}{[logical]  whether \code{button} should be active}
 }
 \details{  Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

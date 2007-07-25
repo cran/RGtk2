@@ -6,6 +6,5 @@ This causes all queued \code{\link{gtkWidgetChildNotify}} signals on \code{widge
 emitted.}
 \usage{gtkWidgetThawChildNotify(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

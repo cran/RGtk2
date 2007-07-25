@@ -7,6 +7,5 @@ Adds a new space to the end of the toolbar.
 }
 \usage{gtkToolbarAppendSpace(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

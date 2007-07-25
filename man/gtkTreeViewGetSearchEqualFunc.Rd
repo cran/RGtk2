@@ -5,6 +5,5 @@
 \usage{gtkTreeViewGetSearchEqualFunc(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}}}
 \value{[\code{\link{GtkTreeViewSearchEqualFunc}}]  the currently used compare function for the search code.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

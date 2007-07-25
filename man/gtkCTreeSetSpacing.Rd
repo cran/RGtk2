@@ -10,6 +10,5 @@ The spacing between the tree graphic and the actual node content.
 \item{\code{object}}{[\code{\link{GtkCTree}}] }
 \item{\code{spacing}}{[integer] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

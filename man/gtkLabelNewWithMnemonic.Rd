@@ -18,6 +18,5 @@ widget. For instance, if the label is inside a button or menu item,
 the button or menu item will automatically become the mnemonic widget 
 and be activated by the mnemonic.  }
 \value{[\code{\link{GtkWidget}}]  the new \code{\link{GtkLabel}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

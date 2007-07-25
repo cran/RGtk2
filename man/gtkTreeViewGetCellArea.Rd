@@ -20,6 +20,5 @@ realized.}
 A list containing the following elements:
 \item{\code{rect}}{[\code{\link{GdkRectangle}}]  rectangle to fill with cell rect}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

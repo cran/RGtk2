@@ -12,6 +12,5 @@ case, you should use \code{\link{gtkIconInfoGetBuiltinPixbuf}}.}
 \value{[character]  the filename for the icon, or \code{NULL}
  if \code{\link{gtkIconInfoGetBuiltinPixbuf}} should
  be used instead.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

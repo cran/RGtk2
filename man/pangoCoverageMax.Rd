@@ -9,6 +9,5 @@ the corresponding index in \code{other}.}
 \item{\code{object}}{[\code{\link{PangoCoverage}}]  a \code{\link{PangoCoverage}}}
 \item{\code{other}}{[\code{\link{PangoCoverage}}]  another \code{\link{PangoCoverage}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

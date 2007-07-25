@@ -17,6 +17,5 @@
 \item{\code{height}}{[integer] }
 \item{\code{orientation}}{[\code{\link{GtkOrientation}}] }
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

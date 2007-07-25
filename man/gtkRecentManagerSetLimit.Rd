@@ -10,6 +10,5 @@ items.}
 \item{\code{limit}}{[integer]  the maximum number of items to return, or -1.}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

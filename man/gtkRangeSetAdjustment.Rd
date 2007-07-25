@@ -13,6 +13,5 @@ The page size affects the size of the scrollbar slider.}
 \item{\code{object}}{[\code{\link{GtkRange}}]  a \code{\link{GtkRange}}}
 \item{\code{adjustment}}{[\code{\link{GtkAdjustment}}]  a \code{\link{GtkAdjustment}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

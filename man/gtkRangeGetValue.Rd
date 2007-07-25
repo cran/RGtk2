@@ -5,6 +5,5 @@
 \usage{gtkRangeGetValue(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkRange}}]  a \code{\link{GtkRange}}}}
 \value{[numeric]  current value of the range.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

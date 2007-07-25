@@ -8,6 +8,5 @@ See \code{\link{gtkEntrySetCursorHadjustment}}.}
 \details{  Since  2.12}
 \value{[\code{\link{GtkAdjustment}}]  the horizontal cursor adjustment, or \code{NULL} 
   if none has been set.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

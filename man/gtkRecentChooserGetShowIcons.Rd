@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentChooser}}]  a \code{\link{GtkRecentChooser}}}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the icons should be displayed, \code{FALSE} otherwise.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

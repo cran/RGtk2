@@ -9,6 +9,5 @@ successfully.  Otherwise, CAIRO\_STATUS\_NO\_MEMORY is returned if
 memory could not be allocated for the operation,
 CAIRO\_STATUS\_SURFACE\_TYPE\_MISMATCH if the surface does not have
 pixel contents.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

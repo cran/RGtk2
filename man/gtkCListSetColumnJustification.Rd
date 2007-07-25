@@ -12,6 +12,5 @@ column.
 \item{\code{column}}{[integer] The column which should be affected.}
 \item{\code{justification}}{[\code{\link{GtkJustification}}] A GtkJustification value for the column.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

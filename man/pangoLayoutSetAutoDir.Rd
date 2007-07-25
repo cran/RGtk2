@@ -24,6 +24,5 @@ base direction of the context, the interpretation of
 \code{PANGO_ALIGN_LEFT} and \code{PANGO_ALIGN_RIGHT} are swapped.  
 
   Since  1.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

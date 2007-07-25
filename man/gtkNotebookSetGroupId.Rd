@@ -14,6 +14,5 @@ not be able to exchange tabs with any other notebook.
 \item{\code{group.id}}{[integer]  a group identificator, or -1 to unset it}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

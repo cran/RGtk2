@@ -20,6 +20,5 @@ changes to be possible both the accelerator path and its \code{\link{GtkAccelGro
 have to be unlocked.  
 
   Since  2.4}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

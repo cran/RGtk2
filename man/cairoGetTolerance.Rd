@@ -5,6 +5,5 @@
 \usage{cairoGetTolerance(cr)}
 \arguments{\item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}}
 \value{[numeric]  the current tolerance value.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

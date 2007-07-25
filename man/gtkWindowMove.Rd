@@ -39,6 +39,5 @@ http://www.org/Standards/wm-spec (\url{http://www.org/Standards/wm-spec}) has a
 nice table of gravities in the "implementation notes" section.
   
 The \code{\link{gtkWindowGetPosition}} documentation may also be relevant.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

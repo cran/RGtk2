@@ -6,6 +6,5 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkFileChooserButton}}]  the button widget to examine.}}
 \details{  Since  2.6}
 \value{[integer]  an integer width (in characters) that the button will use to size itself.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ the \code{\link{GtkClipboard}} of type \code{GDK_SELECTION_PRIMARY} for a view o
 \item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}
 \item{\code{clipboard}}{[\code{\link{GtkClipboard}}]  a \code{\link{GtkClipboard}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

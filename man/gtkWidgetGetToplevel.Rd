@@ -28,6 +28,5 @@ if (toplevel$flags() & GtkWidgetFlags["toplevel"])
 }  }
 \value{[\code{\link{GtkWidget}}]  the topmost ancestor of \code{widget}, or \code{widget} itself 
    if there's no ancestor.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,6 +12,5 @@ tooltip window will be used.}
 \item{\code{custom.window}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}, or \code{NULL}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

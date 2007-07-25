@@ -10,6 +10,5 @@ strategy.}
 \item{\code{extend}}{[\code{\link{CairoExtend}}]  a \code{\link{CairoExtend}} describing how the area outside of the
 pattern will be drawn}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,6 +9,5 @@ path if filled, achieves an effect similar to that of
 \item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}
 \item{\code{glyphs}}{[\code{\link{CairoGlyph}}]  list of glyphs to show}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

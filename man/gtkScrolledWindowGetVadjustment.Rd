@@ -7,6 +7,5 @@ functionality.}
 \usage{gtkScrolledWindowGetVadjustment(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkScrolledWindow}}] A \code{\link{GtkScrolledWindow}}.}}
 \value{[\code{\link{GtkAdjustment}}] The vertical \code{\link{GtkAdjustment}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@ for those windows to support all the accelerators contained in this group.}
 \item{\code{object}}{[\code{\link{GtkMenu}}] a \code{\link{GtkMenu}}.}
 \item{\code{accel.group}}{[\code{\link{GtkAccelGroup}}] the \code{\link{GtkAccelGroup}} to be associated with the menu.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

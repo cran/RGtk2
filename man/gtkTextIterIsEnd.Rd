@@ -8,6 +8,5 @@ iterator.}
 \usage{gtkTextIterIsEnd(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[logical]  whether \code{iter} is the end iterator}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

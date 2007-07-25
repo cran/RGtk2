@@ -9,6 +9,5 @@ the window in the task bar. This function sets this hint.}
 \item{\code{setting}}{[logical]  \code{TRUE} to keep this window from appearing in the task bar}
 }
 \details{  Since  2.2}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

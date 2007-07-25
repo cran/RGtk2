@@ -12,6 +12,5 @@ used instead.
 \item{\code{key}}{[character]  name the data was stored under}
 }
 \value{[R object]  the data stored at \code{key}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

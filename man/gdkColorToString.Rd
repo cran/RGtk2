@@ -9,6 +9,5 @@ representing the red, green and blue components respectively.}
 \arguments{\item{\code{object}}{[\code{\link{GdkColor}}]  a \code{\link{GdkColor}}}}
 \details{  Since  2.12}
 \value{[character]  a newly-allocated text string}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

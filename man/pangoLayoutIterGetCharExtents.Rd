@@ -11,6 +11,5 @@ down to the level of clusters.}
 A list containing the following elements:
 \item{\code{logical.rect}}{[\code{\link{PangoRectangle}}]  rectangle to fill with logical extents}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

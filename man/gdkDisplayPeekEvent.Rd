@@ -10,6 +10,5 @@ that have already been moved to the GDK event queue.)}
 \details{  Since  2.2}
 \value{[\code{\link{GdkEvent}}]  a copy of the first \code{\link{GdkEvent}} on the event queue, or \code{NULL} 
 if no events are in the queue.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

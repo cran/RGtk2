@@ -7,6 +7,5 @@ added, so you do not need to unref it.}
 \usage{gtkBinGetChild(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkBin}}]  a \code{\link{GtkBin}}}}
 \value{[\code{\link{GtkWidget}}]  pointer to child of the \code{\link{GtkBin}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

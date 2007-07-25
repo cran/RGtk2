@@ -10,6 +10,5 @@ is pressed.}
 \item{\code{keyval}}{[numeric] the keyval to generate.}
 \item{\code{modifiers}}{[\code{\link{GdkModifierType}}] the modifiers to set.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

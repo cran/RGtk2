@@ -9,6 +9,5 @@ is no next \code{iter}, \code{FALSE} is returned and \code{iter} is set to be in
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  The \code{\link{GtkTreeIter}}.}
 }
 \value{[logical]  \code{TRUE} if \code{iter} has been changed to the next node.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -16,6 +16,5 @@ a single icon theme object will be shared between users.}
  the given screen. This icon theme is associated with
  the screen and can be used as long as the screen
  is open. Do not ref or unref it.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

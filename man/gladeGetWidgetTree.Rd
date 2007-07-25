@@ -5,6 +5,5 @@
 \usage{gladeGetWidgetTree(widget)}
 \arguments{\item{\code{widget}}{[\code{\link{GtkWidget}}]  the widget}}
 \value{[\code{\link{GladeXML}}]  the GladeXML object that built this widget.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

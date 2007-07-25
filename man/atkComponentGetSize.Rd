@@ -9,6 +9,5 @@ A list containing the following elements:
 \item{\code{width}}{[integer]  \code{integer} to put width of \code{component}}
 \item{\code{height}}{[integer]  \code{integer} to put height of \code{component}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

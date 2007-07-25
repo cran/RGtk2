@@ -8,6 +8,5 @@ using \code{\link{gtkWidgetSetTooltipWindow}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \details{  Since  2.12}
 \value{[\code{\link{GtkWindow}}]  The \code{\link{GtkWindow}} of the current tooltip.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

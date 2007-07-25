@@ -13,6 +13,5 @@ the user will be able to select to print only the current page.
 Note that this only makes sense for pre-paginated documents.  
 
   Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

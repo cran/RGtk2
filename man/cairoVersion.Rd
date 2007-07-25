@@ -16,6 +16,5 @@ or equal to version X.Y.Z could be performed as follows:
 See also \code{\link{cairoVersionString}} as well as the compile-time
 equivalents \code{CAIRO_VERSION} and \code{CAIRO_VERSION_STRING}.  }
 \value{[integer]  the encoded version.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

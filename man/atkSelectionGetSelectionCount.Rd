@@ -10,6 +10,5 @@ use type checking/interface checking functions or the
 \arguments{\item{\code{object}}{[\code{\link{AtkSelection}}]  a \code{\link{GObject}} instance that implements AtkSelectionIface}}
 \value{[integer]  a gint representing the number of items selected, or 0
 if \code{selection} does not implement this interface.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

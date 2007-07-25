@@ -5,6 +5,5 @@
 \usage{gtkFontSelectionGetPreviewText(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkFontSelection}}] a \code{\link{GtkFontSelection}}.}}
 \value{[character] the text displayed in the preview area.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

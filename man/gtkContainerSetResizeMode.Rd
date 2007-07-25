@@ -10,6 +10,5 @@
 \details{The resize mode of a container determines whether a resize request 
 will be passed to the container's parent, queued for later execution
 or executed immediately.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

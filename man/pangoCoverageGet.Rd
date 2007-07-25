@@ -8,6 +8,5 @@
 \item{\code{index}}{[integer]  the index to check}
 }
 \value{[\code{\link{PangoCoverageLevel}}]  the coverage level of \code{coverage} for character \code{index.}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

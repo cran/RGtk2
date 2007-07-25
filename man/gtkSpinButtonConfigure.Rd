@@ -9,6 +9,5 @@
 \item{\code{climb.rate}}{[numeric] the new climb rate.}
 \item{\code{digits}}{[numeric] the number of decimal places to display in the spin button.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

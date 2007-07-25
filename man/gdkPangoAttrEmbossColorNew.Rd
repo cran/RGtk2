@@ -6,6 +6,5 @@
 \arguments{\item{\code{color}}{[\code{\link{GdkColor}}]  a GdkColor representing the color to emboss with}}
 \details{  Since  2.12}
 \value{[\code{\link{PangoAttribute}}]  new \code{\link{PangoAttribute}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

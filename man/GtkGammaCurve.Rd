@@ -49,7 +49,6 @@ should be accessed using the functions below.
 
 }}}
 \section{Convenient Construction}{\code{gtkGammaCurve} is the equivalent of \code{\link{gtkGammaCurveNew}}.}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkGammaCurve.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

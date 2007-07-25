@@ -4,6 +4,5 @@
 \description{Create a new \code{\link{PangoGlyphString}}.}
 \usage{pangoGlyphStringNew()}
 \value{[\code{\link{PangoGlyphString}}]  the newly allocated \code{\link{PangoGlyphString}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

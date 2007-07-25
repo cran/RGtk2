@@ -22,6 +22,5 @@ The \code{child.func} parameter controls whether the region of
 each child window that intersects \code{region} will also be invalidated.
 Only children for which \code{child.func} returns TRUE will have the area
 invalidated.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,6 +10,5 @@
 }
 \value{[character] value: the text of the tab label, or \code{NULL} if the
                tab label widget is not a \code{\link{GtkLabel}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -23,6 +23,5 @@ with a 1-element list.
   
 See also \code{\link{gtkWindowSetDefaultIconList}} to set the icon
 for all windows in your application in one go.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

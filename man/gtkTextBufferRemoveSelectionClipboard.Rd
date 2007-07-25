@@ -9,6 +9,5 @@
 \item{\code{clipboard}}{[\code{\link{GtkClipboard}}]  a \code{\link{GtkClipboard}} added to \code{buffer} by 
             \code{\link{gtkTextBufferAddSelectionClipboard}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

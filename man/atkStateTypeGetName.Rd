@@ -5,6 +5,5 @@
 \usage{atkStateTypeGetName(type)}
 \arguments{\item{\code{type}}{[\code{\link{AtkStateType}}]  The \code{\link{AtkStateType}} whose name is required}}
 \value{[character]  the string describing the AtkStateType}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

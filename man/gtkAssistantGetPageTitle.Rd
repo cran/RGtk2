@@ -9,6 +9,5 @@
 }
 \details{  Since  2.10}
 \value{[character]  the title for \code{page}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

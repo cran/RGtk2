@@ -17,6 +17,5 @@ A list containing the following elements:
 \item{retval}{[logical]  \code{TRUE} if the mapping was found.}
 \item{\code{color}}{[\code{\link{GdkColor}}]  the \code{\link{GdkColor}} to fill in}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

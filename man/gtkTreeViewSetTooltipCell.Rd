@@ -14,6 +14,5 @@ area will be set to the full area covered by \code{column}.  See also
 \item{\code{cell}}{[\code{\link{GtkCellRenderer}}]  a \code{\link{GtkCellRendererText}} or \code{NULL}}
 }
 \details{  Since  2.12}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

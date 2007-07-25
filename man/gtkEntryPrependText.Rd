@@ -12,6 +12,5 @@ Prepends the given text to the contents of the widget.
 \item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}
 \item{\code{text}}{[character]  the text to prepend}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,5 @@ instance of that menu.}
 \arguments{\item{\code{object}}{[\code{\link{GtkAction}}]  a \code{\link{GtkAction}}}}
 \details{  Since  2.12}
 \value{[\code{\link{GtkWidget}}]  the menu item provided by the action, or \code{NULL}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

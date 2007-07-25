@@ -17,6 +17,5 @@ a drawable.}
 \item{\code{alpha.threshold}}{[integer]  Opacity values below this will be painted as zero; all
 other values will be painted as one.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

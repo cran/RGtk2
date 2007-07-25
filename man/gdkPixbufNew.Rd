@@ -14,6 +14,5 @@ you will have to fill it completely yourself.}
 }
 \value{[\code{\link{GdkPixbuf}}]  A newly-created \code{\link{GdkPixbuf}} with a reference count of 1, or 
 \code{NULL} if not enough memory could be allocated for the image buffer.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -15,6 +15,5 @@ Use \code{pangoLanguageGetDefault()} if you want to get the \code{\link{PangoLan
 the current locale of the process.  }
 \value{[\code{\link{PangoLanguage}}]  an opaque pointer to a \code{\link{PangoLanguage}} structure.
               this will be valid forever after.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

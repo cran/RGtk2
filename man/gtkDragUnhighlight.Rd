@@ -5,6 +5,5 @@
 a widget.}
 \usage{gtkDragUnhighlight(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}] a widget to remove the highlight from.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

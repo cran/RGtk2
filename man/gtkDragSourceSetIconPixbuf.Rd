@@ -9,6 +9,5 @@ release it when it is no longer needed.}
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{pixbuf}}{[\code{\link{GdkPixbuf}}]  the \code{\link{GdkPixbuf}} for the drag icon}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

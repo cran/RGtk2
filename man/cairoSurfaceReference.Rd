@@ -8,6 +8,5 @@
 \arguments{\item{\code{surface}}{[\code{\link{CairoSurface}}]  a \code{\link{CairoSurface}}}}
 \details{.  }
 \value{[\code{\link{CairoSurface}}]  the referenced \code{\link{CairoSurface}}.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

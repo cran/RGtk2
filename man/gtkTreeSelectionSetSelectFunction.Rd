@@ -11,6 +11,5 @@ and \code{FALSE} if the state of the node should be left unchanged.}
 \item{\code{func}}{[\code{\link{GtkTreeSelectionFunc}}]  The selection function.}
 \item{\code{data}}{[R object]  The selection function's data.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

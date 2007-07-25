@@ -11,6 +11,5 @@ A list containing the following elements:
 \item{\code{stock.id}}{[character]  place to store a stock icon name}
 \item{\code{size}}{[\code{\link{GtkIconSize}}]  place to store a stock icon size}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

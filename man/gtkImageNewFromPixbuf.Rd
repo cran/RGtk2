@@ -11,6 +11,5 @@ pixbuf; you still need to unref it if you own references.
 \code{\link{GtkImage}} created will not react to state changes. Should you want that, 
 you should use \code{\link{gtkImageNewFromIconSet}}.  }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImage}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

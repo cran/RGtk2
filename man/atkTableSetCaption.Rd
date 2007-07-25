@@ -7,6 +7,5 @@
 \item{\code{object}}{[\code{\link{AtkTable}}]  a GObject instance that implements AtkTableIface}
 \item{\code{caption}}{[\code{\link{AtkObject}}]  a \code{\link{AtkObject}} representing the caption to set for \code{table}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

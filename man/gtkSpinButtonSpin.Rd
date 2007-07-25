@@ -9,6 +9,5 @@ by a specified amount.}
 \item{\code{direction}}{[\code{\link{GtkSpinType}}]  a \code{\link{GtkSpinType}} indicating the direction to spin.}
 \item{\code{increment}}{[numeric]  step increment to apply in the specified direction.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

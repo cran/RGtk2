@@ -6,6 +6,5 @@ pass \code{NULL} to get an empty label widget.}
 \usage{gtkLabelNew(str = NULL, show = TRUE)}
 \arguments{\item{\code{str}}{[character]  The text of the label}}
 \value{[\code{\link{GtkWidget}}]  the new \code{\link{GtkLabel}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

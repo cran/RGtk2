@@ -14,6 +14,5 @@ if an exact match is not found.}
 \item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}
 \item{\code{style}}{[\code{\link{PangoStyle}}]  the style for the font description}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

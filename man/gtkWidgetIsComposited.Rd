@@ -14,6 +14,5 @@ window in its heirarchy (as set by
   Since  2.10}
 \value{[logical]  \code{TRUE} if the widget can rely on its alpha
 channel being drawn correctly.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

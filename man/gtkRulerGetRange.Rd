@@ -13,6 +13,5 @@ A list containing the following elements:
 \item{\code{max.size}}{[numeric]  location to store the maximum size of the ruler used when calculating
            the space to leave for the text, or \code{NULL}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

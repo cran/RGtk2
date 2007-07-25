@@ -12,6 +12,5 @@ All other style values are left untouched. See also
         or \code{NULL} to undo the effect of previous calls to
         of \code{\link{gtkWidgetModifyFg}}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

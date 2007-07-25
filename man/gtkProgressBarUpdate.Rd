@@ -11,6 +11,5 @@ This function is deprecated.  Please use \code{\link{gtkProgressSetValue}} or
 \item{\code{object}}{[\code{\link{GtkProgressBar}}] a \code{\link{GtkProgressBar}}.}
 \item{\code{percentage}}{[numeric] the new percent complete value.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

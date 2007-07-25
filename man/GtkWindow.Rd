@@ -230,7 +230,7 @@ If TRUE, users can expand the window beyond its minimum size.  Default value: TR
 }
 \item{\code{allow-shrink} [logical : Read / Write]}{
 
-If TRUE, the window has no mimimum size. Setting this to TRUE is 99% of the time a bad idea.  Default value: FALSE
+If TRUE, the window has no mimimum size. Setting this to TRUE is 99\% of the time a bad idea.  Default value: FALSE
 
 }
 \item{\code{decorated} [logical : Read / Write]}{
@@ -379,7 +379,6 @@ The initial position of the window.  Default value: GTK\_WIN\_POS\_NONE
 
 }
 }}
-\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkWindow.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

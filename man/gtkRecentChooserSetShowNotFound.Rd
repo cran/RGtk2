@@ -9,6 +9,5 @@ it didn't find.  This only applies to local resources.}
 \item{\code{show.not.found}}{[logical]  whether to show the local items we didn't find}
 }
 \details{  Since  2.10}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

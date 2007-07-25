@@ -58,6 +58,5 @@ A list containing the following elements:
   asynchronously, and will emit the ::done signal when done.}
 \item{\code{error}}{[\code{\link{GError}}]  Return location for errors, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

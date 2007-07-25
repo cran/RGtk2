@@ -8,6 +8,5 @@ For example, when you change the text in a \code{\link{GtkLabel}}, \code{\link{G
 queues a resize to ensure there's enough space for the new text.}
 \usage{gtkWidgetQueueResize(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

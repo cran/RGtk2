@@ -11,6 +11,5 @@ a GladeXML object, if it is needed.}
 \item{\code{domain}}{[char]  the translation domain (or \code{NULL} for the default)}
 }
 \value{[logical]  TRUE if the construction succeeded.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

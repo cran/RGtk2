@@ -9,6 +9,5 @@
 }
 \details{Containers requesting reallocation redraws get automatically
 redrawn if any of their children changed allocation.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

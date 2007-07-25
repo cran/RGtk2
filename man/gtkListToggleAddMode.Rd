@@ -8,6 +8,5 @@ in \code{GTK_SELECTION_EXTENDED}. Useful with \code{\link{gtkListExtendSelection
 }
 \usage{gtkListToggleAddMode(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkList}}] the list widget.}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

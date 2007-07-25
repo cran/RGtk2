@@ -12,6 +12,5 @@ with.}
 if the size is wildcarded. Therefore, you should usually
 call \code{\link{gtkIconSourceSetSizeWildcarded}} to un-wildcard it
 in addition to calling this function.  }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

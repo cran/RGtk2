@@ -9,6 +9,5 @@ function for:
 \details{  Since  2.2}
 \value{[\code{\link{GdkDisplay}}]  a \code{\link{GdkDisplay}}, or \code{NULL} if there is no default
   display.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

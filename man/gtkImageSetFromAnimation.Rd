@@ -8,6 +8,5 @@ nothing, if you set the animation to \code{NULL}).}
 \item{\code{object}}{[\code{\link{GtkImage}}]  a \code{\link{GtkImage}}}
 \item{\code{animation}}{[\code{\link{GdkPixbufAnimation}}]  the \code{\link{GdkPixbufAnimation}}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

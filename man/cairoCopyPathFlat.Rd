@@ -23,6 +23,5 @@ conditions hold:
 \item 
 }  }
 \value{[\code{\link{CairoPath}}]  the copy of the current path.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

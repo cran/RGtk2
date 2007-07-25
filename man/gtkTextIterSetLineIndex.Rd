@@ -10,6 +10,5 @@ encoded character.}
 \item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}
 \item{\code{byte.on.line}}{[integer]  a byte index relative to the start of \code{iter}'s current line}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -16,6 +16,5 @@ A list containing the following elements:
   rectangle coordinates; coordinates are only stored
   when this function returns \code{TRUE}.}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

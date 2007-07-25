@@ -8,6 +8,5 @@
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  The \code{\link{GtkTreeIter}} to test for children.}
 }
 \value{[logical]  \code{TRUE} if \code{iter} has children.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

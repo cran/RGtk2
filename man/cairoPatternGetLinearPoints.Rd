@@ -15,6 +15,5 @@ gradient pattern.}
 \item{\code{x1}}{[numeric]  return value for the x coordinate of the second point, or \code{NULL}}
 \item{\code{y1}}{[numeric]  return value for the y coordinate of the second point, or \code{NULL}}
 }
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

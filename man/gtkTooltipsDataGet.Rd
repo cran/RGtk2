@@ -8,6 +8,5 @@ Retrieves any \code{\link{GtkTooltipsData}} previously associated with the given
 \usage{gtkTooltipsDataGet(widget)}
 \arguments{\item{\code{widget}}{[\code{\link{GtkWidget}}] a \code{\link{GtkWidget}}.}}
 \value{[\code{\link{GtkTooltipsData}}] a \code{\link{GtkTooltipsData}} struct, or \code{NULL} if the widget has no tooltip.}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

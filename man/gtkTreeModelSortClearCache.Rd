@@ -9,6 +9,5 @@ unreffed access to nodes.  As a side effect of this function, all unreffed
 iters will be invalid.}
 \usage{gtkTreeModelSortClearCache(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeModelSort}}]  A \code{\link{GtkTreeModelSort}}}}
-\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}
