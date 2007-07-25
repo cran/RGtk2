@@ -16,5 +16,6 @@ that. For custom models, the mechanism will vary.
 The sort indicator changes direction to indicate normal sort or reverse sort.
 Note that you must have the sort indicator enabled to see anything when 
 calling this function; see \code{\link{gtkTreeViewColumnSetSortIndicator}}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

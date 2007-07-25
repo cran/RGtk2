@@ -10,5 +10,6 @@ A list containing the following elements:
            This list should be freed with \code{gFree()}.}
 \item{\code{n.families}}{[integer]  location to store the number of elements in \code{descs}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -137,6 +137,7 @@ in memory as 0x00, 0xcc, 0xee, 0xff.}
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-Visuals.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

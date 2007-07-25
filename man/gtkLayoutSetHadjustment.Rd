@@ -8,5 +8,6 @@
 \item{\code{adjustment}}{[\code{\link{GtkAdjustment}}]  new scroll adjustment}
 }
 \details{See \code{\link{GtkScrolledWindow}}, \code{\link{GtkScrollbar}}, \code{\link{GtkAdjustment}} for details.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

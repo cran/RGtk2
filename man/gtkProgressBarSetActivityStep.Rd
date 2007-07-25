@@ -13,5 +13,6 @@ each iteration.
 \item{\code{step}}{[numeric] the amount which the progress is incremented in activity
 mode.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

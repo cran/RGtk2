@@ -12,5 +12,6 @@ break notification loops for things like check or radio actions.}
 \details{This function is intended for use by action implementations.  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

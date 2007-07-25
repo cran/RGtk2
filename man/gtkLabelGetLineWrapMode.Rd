@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}}
 \details{  Since  2.10}
 \value{[\code{\link{PangoWrapMode}}]  \code{TRUE} if the lines of the label are automatically wrapped.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

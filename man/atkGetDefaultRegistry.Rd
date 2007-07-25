@@ -11,5 +11,6 @@ for whom accessibility information will be provided.}
 \usage{atkGetDefaultRegistry()}
 \value{[\code{\link{AtkRegistry}}]  a default implementation of the \code{\link{AtkObjectFactory}}/type
 registry}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -17,5 +17,6 @@ A list containing the following elements:
 has been set to the resulting \code{\link{GtkBorder}}.}
 \item{\code{property.value}}{[R object]  a \code{R object} which must hold boxed values.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

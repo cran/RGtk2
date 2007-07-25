@@ -11,5 +11,6 @@ size reverts to the default entry size.}
 \item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}
 \item{\code{n.chars}}{[integer]  width in chars}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,5 +9,6 @@
 }
 \details{  Since  2.2}
 \value{[\code{\link{GtkWidget}}]  the new \code{\link{GtkPlug}} widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

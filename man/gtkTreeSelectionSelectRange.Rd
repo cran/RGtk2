@@ -9,5 +9,6 @@
 \item{\code{start.path}}{[\code{\link{GtkTreePath}}]  The initial node of the range.}
 \item{\code{end.path}}{[\code{\link{GtkTreePath}}]  The final node of the range.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

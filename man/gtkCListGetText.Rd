@@ -12,5 +12,6 @@ A list containing the following elements:
 \item{retval}{[integer] 1 if the cell's text could be retrieved, 0 otherwise.}
 \item{\code{text}}{[character] A pointer to a pointer to store the text.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,5 +12,6 @@ Creates a new \code{\link{GtkPixmap}}, using the given GDK pixmap and mask.
 transparent.}
 }
 \value{[\code{\link{GtkWidget}}] a new \code{\link{GtkPixmap}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

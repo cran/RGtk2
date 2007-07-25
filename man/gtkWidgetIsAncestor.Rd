@@ -8,6 +8,8 @@ intermediate containers.}
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{ancestor}}{[\code{\link{GtkWidget}}]  another \code{\link{GtkWidget}}}
 }
-\value{[logical]  \code{TRUE} if \code{ancestor} contains \code{widget} as a child, grandchild, great grandchild, etc.}
+\value{[logical]  \code{TRUE} if \code{ancestor} contains \code{widget} as a child, 
+   grandchild, great grandchild, etc.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

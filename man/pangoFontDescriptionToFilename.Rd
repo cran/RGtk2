@@ -8,5 +8,6 @@ characters that are untypical in filenames, and in lower case only.}
 \usage{pangoFontDescriptionToFilename(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}}
 \value{[char] .}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

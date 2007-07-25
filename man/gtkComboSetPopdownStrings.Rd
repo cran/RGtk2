@@ -11,5 +11,6 @@ Convenience function to set all of the items in the popup list.
 \item{\code{object}}{[\code{\link{GtkCombo}}] a \code{\link{GtkCombo}}.}
 \item{\code{strings}}{[list] a list of strings, or \code{NULL} to clear the popup list}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

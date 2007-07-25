@@ -12,5 +12,6 @@ the list. This is on by default.
 \item{\code{val}}{[logical] \code{TRUE} if the arrow keys can be used to step through the items in 
      the list.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

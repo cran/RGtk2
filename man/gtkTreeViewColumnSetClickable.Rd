@@ -8,5 +8,6 @@ then it can take keyboard focus, and can be clicked.}
 \item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}.}
 \item{\code{active}}{[logical]  \code{TRUE} if the header is active.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

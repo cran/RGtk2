@@ -12,5 +12,6 @@ and might expect pixels to be in a certain format.}
   Since  2.2}
 \value{[list] , but not its 
 contents}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

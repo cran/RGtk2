@@ -8,5 +8,6 @@ gets replaced. The stock items are copied. Use
 copy the list.}
 \usage{gtkStockAdd(items)}
 \arguments{\item{\code{items}}{[\code{\link{GtkStockItem}}]  a \code{\link{GtkStockItem}} or list of items}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

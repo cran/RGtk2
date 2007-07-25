@@ -5,5 +5,6 @@
 used to be useful before \code{\link{gdkColormapGetVisual}} existed.}
 \usage{gtkWidgetGetDefaultVisual()}
 \value{[\code{\link{GdkVisual}}]  visual of the default colormap}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

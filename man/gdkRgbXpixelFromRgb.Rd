@@ -10,5 +10,6 @@ a \code{\link{GdkColor}} struct.
 \usage{gdkRgbXpixelFromRgb(rgb)}
 \arguments{\item{\code{rgb}}{[numeric] The color, represented as a 0xRRGGBB integer value.}}
 \value{[numeric] The X pixel value.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

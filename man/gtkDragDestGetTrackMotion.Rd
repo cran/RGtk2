@@ -7,5 +7,6 @@ emit ::drag-motion signals.}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}} that's a drag destination}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the widget always emits ::drag-motion events}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

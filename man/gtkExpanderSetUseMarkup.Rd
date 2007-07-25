@@ -9,5 +9,6 @@ language. See \code{\link{gtkLabelSetMarkup}}.}
 \item{\code{use.markup}}{[logical]  \code{TRUE} if the label's text should be parsed for markup}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

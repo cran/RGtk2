@@ -10,5 +10,6 @@ to reparent them.}
 \usage{gdkWindowGetParent(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}}
 \value{[\code{\link{GdkWindow}}]  parent of \code{window}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

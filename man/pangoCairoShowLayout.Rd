@@ -10,5 +10,6 @@ at the current point of the cairo context.}
 \item{\code{layout}}{[\code{\link{PangoLayout}}]  a Pango layout}
 }
 \details{  Since  1.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

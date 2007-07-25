@@ -6,5 +6,6 @@ then be packed into the radio button.}
 \usage{gtkRadioButtonNew(group = NULL, show = TRUE)}
 \arguments{\item{\code{group}}{[list] an existing radio button group, or \code{NULL} if you are creating a new group.}}
 \value{[\code{\link{GtkWidget}}] a new radio button.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

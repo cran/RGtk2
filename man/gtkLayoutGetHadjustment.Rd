@@ -9,5 +9,6 @@ between the horizontal scrollbar and \code{layout}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkLayout}}]  a \code{\link{GtkLayout}}}}
 \details{See \code{\link{GtkScrolledWindow}}, \code{\link{GtkScrollbar}}, \code{\link{GtkAdjustment}} for details.  }
 \value{[\code{\link{GtkAdjustment}}]  horizontal scroll adjustment}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

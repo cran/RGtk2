@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkIconView}}]  a \code{\link{GtkIconView}}}}
 \details{  Since  2.6}
 \value{[integer]  the space at the borders }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

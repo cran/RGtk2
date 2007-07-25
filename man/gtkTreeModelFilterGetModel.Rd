@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeModelFilter}}]  A \code{\link{GtkTreeModelFilter}}.}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkTreeModel}}]  A pointer to a \code{\link{GtkTreeModel}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

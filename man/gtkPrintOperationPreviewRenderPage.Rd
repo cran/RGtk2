@@ -2,7 +2,7 @@
 \name{gtkPrintOperationPreviewRenderPage}
 \title{gtkPrintOperationPreviewRenderPage}
 \description{Renders a page to the preview, using the print context that
-was passed to the GtkPrintOperation::preview handler together
+was passed to the \code{::preview} handler together
 with \code{preview}.}
 \usage{gtkPrintOperationPreviewRenderPage(object, page.nr)}
 \arguments{
@@ -13,5 +13,6 @@ with \code{preview}.}
 be associated with the print context.  
 
   Since  2.10 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

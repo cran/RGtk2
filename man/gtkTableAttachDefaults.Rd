@@ -11,5 +11,6 @@
 \item{\code{top.attach}}{[numeric] The row number to attach the top of the child widget to.}
 \item{\code{bottom.attach}}{[numeric] The row number to attach the bottom of the child widget to.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

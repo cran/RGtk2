@@ -17,5 +17,6 @@ sufficient to do this, since functions like
 }
 \details{Note that the offset affects drawing to the surface as well as
 using the surface in a source pattern.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

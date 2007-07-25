@@ -8,5 +8,6 @@
 \item{\code{pspec}}{[\code{\link{GParamSpec}}]  the \code{\link{GParamSpec}} for the style property}
 \item{\code{parser}}{[GtkRcPropertyParser]  the parser for the style property}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

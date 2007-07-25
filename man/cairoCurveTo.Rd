@@ -18,5 +18,6 @@ will be (\code{x3}, \code{y3}).}
 \details{If there is no current point before the call to \code{\link{cairoCurveTo}}
 this function will behave as if preceded by a call to
 cairo\_move\_to (\code{cr}, \code{x1}, \code{y1}).  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

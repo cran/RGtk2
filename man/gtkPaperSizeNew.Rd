@@ -2,7 +2,7 @@
 \name{gtkPaperSizeNew}
 \title{gtkPaperSizeNew}
 \description{Creates a new \code{\link{GtkPaperSize}} object by parsing a 
-PWG 5101.1-2002 PWG 
+PWG 5101.1-2002 (\url{ftp://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf})
 paper name. }
 \usage{gtkPaperSizeNew(name = NULL)}
 \arguments{\item{\code{name}}{[character]  a paper size name, or \code{NULL}}}
@@ -11,5 +11,6 @@ see \code{\link{gtkPaperSizeGetDefault}}.
 
   Since  2.10}
 \value{[\code{\link{GtkPaperSize}}]  a new \code{\link{GtkPaperSize}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

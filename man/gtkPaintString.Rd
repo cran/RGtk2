@@ -18,5 +18,6 @@ Draws a text string on \code{window} with the given parameters.
 \item{\code{y}}{[integer]  y origin}
 \item{\code{string}}{[character]  the string to draw}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

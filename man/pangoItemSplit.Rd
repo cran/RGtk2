@@ -18,5 +18,6 @@ length of the split items itself.}
 \item{\code{split.offset}}{[integer]  number of chars between start of \code{orig} and \code{split.index}}
 }
 \value{[\code{\link{PangoItem}}]  new item representing text before \code{split.index}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

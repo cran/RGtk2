@@ -10,5 +10,6 @@ A list containing the following elements:
 \item{\code{hscrollbar.policy}}{[\code{\link{GtkPolicyType}}]  location to store the policy for the horizontal scrollbar, or \code{NULL}.}
 \item{\code{vscrollbar.policy}}{[\code{\link{GtkPolicyType}}]  location to store the policy for the horizontal scrollbar, or \code{NULL}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

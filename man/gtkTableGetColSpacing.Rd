@@ -9,5 +9,6 @@ column \code{col} + 1. See \code{\link{gtkTableSetColSpacing}}.}
 \item{\code{column}}{[numeric]  a column in the table, 0 indicates the first column}
 }
 \value{[numeric]  the column spacing}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

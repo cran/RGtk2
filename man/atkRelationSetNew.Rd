@@ -4,5 +4,6 @@
 \description{Creates a new empty relation set.}
 \usage{atkRelationSetNew()}
 \value{[\code{\link{AtkRelationSet}}]  a new \code{\link{AtkRelationSet}} }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

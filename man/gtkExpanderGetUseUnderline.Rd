@@ -8,5 +8,6 @@ mnemonic. See \code{\link{gtkExpanderSetUseUnderline}}.}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if an embedded underline in the expander label
               indicates the mnemonic accelerator keys.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ saving during an accelerator map dump).}
 \item{\code{data}}{[R object]          data to be passed into \code{foreach.func}}
 \item{\code{foreach.func}}{[\code{\link{GtkAccelMapForeach}}]  function to be executed for each accel map entry}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

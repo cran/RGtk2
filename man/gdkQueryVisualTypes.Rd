@@ -12,5 +12,6 @@ A list containing the following elements:
 \item{\code{visual.types}}{[\code{\link{GdkVisualType}}]  return location for the available visual types}
 \item{\code{count}}{[integer]  return location for the number of available visual types}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

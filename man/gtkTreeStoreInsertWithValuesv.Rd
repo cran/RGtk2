@@ -13,5 +13,6 @@ function is mainly intended for language bindings.}
 \item{\code{values}}{[R object]  a list of GValues}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

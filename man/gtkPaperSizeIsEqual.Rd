@@ -10,5 +10,6 @@
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE}, if \code{size1} and \code{size2} 
 represent the same paper size}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -22,7 +22,7 @@
                +----\link{GtkWidget}
                      +----GtkCellView}}
 \section{Interfaces}{GtkCellView implements
- AtkImplementorIface and  \code{\link{GtkCellLayout}}.}
+ \code{\link{GtkBuildable}},  AtkImplementorIface and  \code{\link{GtkCellLayout}}.}
 \section{Detailed Description}{A \code{\link{GtkCellView}} displays a single row of a \code{\link{GtkTreeModel}}, using
 cell renderers just like \code{\link{GtkTreeView}}. \code{\link{GtkCellView}} doesn't support
 some of the more complex features of \code{\link{GtkTreeView}}, like cell editing
@@ -57,6 +57,7 @@ since 2.10
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkCellView.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,5 +5,6 @@
 a widget to be unmapped if it's currently mapped.}
 \usage{gtkWidgetUnmap(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

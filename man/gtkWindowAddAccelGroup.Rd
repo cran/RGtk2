@@ -9,5 +9,6 @@ in \code{accel.group}.}
 \item{\code{object}}{[\code{\link{GtkWindow}}]  window to attach accelerator group to}
 \item{\code{accel.group}}{[\code{\link{GtkAccelGroup}}]  a \code{\link{GtkAccelGroup}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

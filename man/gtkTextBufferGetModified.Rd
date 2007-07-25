@@ -8,5 +8,6 @@ editor.}
 \usage{gtkTextBufferGetModified(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}} }}
 \value{[logical]  \code{TRUE} if the buffer has been modified}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

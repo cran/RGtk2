@@ -20,5 +20,6 @@ theme engines can special-case rendering for that widget or code.}
 \details{The pixels in the returned \code{\link{GdkPixbuf}} are shared with the rest of
 the application and should not be modified.  }
 \value{[\code{\link{GdkPixbuf}}]  a new pixbuf, or \code{NULL} if the stock ID wasn't known}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

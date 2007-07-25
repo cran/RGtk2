@@ -10,5 +10,6 @@ registered using \code{\link{gtkTextBufferRegisterSerializeFormat}} or
 \item{\code{format}}{[\code{\link{GdkAtom}}]  a \code{\link{GdkAtom}} representing a registered rich text format.}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

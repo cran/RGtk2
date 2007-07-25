@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkCalendar}}]  a \code{\link{GtkCalendar}}}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkCalendarDisplayOptions}}]  the display options.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

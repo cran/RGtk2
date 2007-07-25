@@ -14,5 +14,6 @@ padding on the left.}
 \item{\code{padding.right}}{[numeric]  the padding at the right of the widget.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

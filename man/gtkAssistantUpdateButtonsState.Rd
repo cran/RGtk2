@@ -13,5 +13,6 @@ function is when changing a value on the current page
 affects the future page flow of the assistant.  
 
   Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

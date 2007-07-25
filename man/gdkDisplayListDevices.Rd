@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GdkDisplay}}]  a \code{\link{GdkDisplay}}}}
 \details{  Since  2.2}
 \value{[list]  a list of \code{\link{GdkDevice}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

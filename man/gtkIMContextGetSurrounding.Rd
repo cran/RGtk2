@@ -25,5 +25,6 @@ A list containing the following elements:
 \item{\code{cursor.index}}{[integer]  location to store byte index of the insertion cursor
        within \code{text}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,5 +5,6 @@
 \usage{gtkComboBoxGetAddTearoffs(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkComboBox}}]  a \code{\link{GtkComboBox}}}}
 \value{[logical]  the current value of the :add-tearoffs property.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

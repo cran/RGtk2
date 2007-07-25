@@ -2,7 +2,7 @@
 \name{gtkIconViewPathIsSelected}
 \title{gtkIconViewPathIsSelected}
 \description{Returns \code{TRUE} if the icon pointed to by \code{path} is currently
-selected. If \code{icon} does not point to a valid location, \code{FALSE} is returned.}
+selected. If \code{path} does not point to a valid location, \code{FALSE} is returned.}
 \usage{gtkIconViewPathIsSelected(object, path)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkIconView}}]  A \code{\link{GtkIconView}}.}
@@ -10,5 +10,6 @@ selected. If \code{icon} does not point to a valid location, \code{FALSE} is ret
 }
 \details{  Since  2.6}
 \value{[logical]  \code{TRUE} if \code{path} is selected.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

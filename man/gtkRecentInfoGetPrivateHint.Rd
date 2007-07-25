@@ -8,5 +8,6 @@ applications that have registered them.}
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentInfo}}]  a \code{\link{GtkRecentInfo}}}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the private flag was found, \code{FALSE} otherwise.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

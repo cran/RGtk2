@@ -23,5 +23,6 @@ image" icon will be returned instead.}
          will disable caching.}
 }
 \value{[\code{\link{GdkPixbuf}}]  a \code{\link{GdkPixbuf}} to be displayed}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

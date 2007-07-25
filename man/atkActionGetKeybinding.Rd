@@ -9,5 +9,6 @@
 }
 \value{[character] a string representing the keybinding, or \code{NULL}
 if there is no keybinding for this action.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

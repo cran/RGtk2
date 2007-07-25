@@ -10,5 +10,6 @@ is used.}
 \item{\code{label}}{[character]  a string}
 }
 \details{This will also clear any previously set labels.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

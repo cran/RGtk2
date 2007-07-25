@@ -12,5 +12,6 @@ toward the positive Y axis.}
 \item{\code{angle}}{[numeric]  angle (in radians) by which the user-space axes will be
 rotated}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

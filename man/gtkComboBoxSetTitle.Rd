@@ -5,8 +5,9 @@
 \usage{gtkComboBoxSetTitle(object, title)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkComboBox}}]  a \code{\link{GtkComboBox}} }
-\item{\code{title}}{[character]  a title for the menu in tearoff mode.}
+\item{\code{title}}{[character]  a title for the menu in tearoff mode}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

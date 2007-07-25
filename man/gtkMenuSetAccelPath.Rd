@@ -21,5 +21,6 @@ and their default setups can be found at \code{\link{gtkAccelMapAddEntry}}.}
 \item{\code{object}}{[\code{\link{GtkMenu}}]        a valid \code{\link{GtkMenu}}}
 \item{\code{accel.path}}{[character]  a valid accelerator path}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

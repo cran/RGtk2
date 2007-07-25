@@ -10,5 +10,6 @@ drawable. (See \code{\link{gdkDrawDrawable}}).}
 \item{\code{object}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}.}
 \item{\code{exposures}}{[logical]  if \code{TRUE}, exposure events will be generated.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

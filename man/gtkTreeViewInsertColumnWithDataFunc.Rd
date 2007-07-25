@@ -17,5 +17,6 @@ If \code{tree.view} has "fixed\_height" mode enabled, then the new column will h
 \item{\code{data}}{[R object]  data for \code{func}}
 }
 \value{[integer]  number of columns in the tree view post-insert}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

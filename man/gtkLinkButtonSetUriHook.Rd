@@ -11,5 +11,6 @@ for the "clicked" signal.}
 }
 \details{  Since  2.10}
 \value{[\code{\link{GtkLinkButtonUriFunc}}]  the previously set hook function.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

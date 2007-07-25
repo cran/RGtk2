@@ -5,5 +5,6 @@
 and \code{\link{gtkWindowUnstick}}.}
 \usage{gdkWindowUnstick(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a toplevel \code{\link{GdkWindow}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

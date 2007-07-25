@@ -3,8 +3,9 @@
 \title{gtkWidgetGetCompositeName}
 \description{Obtains the composite name of a widget.}
 \usage{gtkWidgetGetCompositeName(object)}
-\arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}.}}
+\arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \value{[character]  the composite name of \code{widget}, or \code{NULL} if \code{widget} is not
   a composite child.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

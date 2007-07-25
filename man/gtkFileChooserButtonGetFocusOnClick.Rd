@@ -8,5 +8,6 @@ See \code{\link{gtkFileChooserButtonSetFocusOnClick}}.}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the button grabs focus when it is clicked with
               the mouse.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

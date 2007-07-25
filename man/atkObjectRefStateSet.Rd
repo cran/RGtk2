@@ -7,5 +7,6 @@ unreference it when it is no longer needed.}
 \arguments{\item{\code{object}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}}
 \value{[\code{\link{AtkStateSet}}]  a reference to an \code{\link{AtkStateSet}} which is the state
 set of the accessible}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

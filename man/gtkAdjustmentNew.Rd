@@ -12,5 +12,6 @@
 \item{\code{page.size}}{[numeric] the page size.}
 }
 \value{[\code{\link{GtkObject}}] a new \code{\link{GtkAdjustment}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

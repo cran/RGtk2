@@ -11,5 +11,6 @@ path on the child model, then \code{NULL} is returned.}
 \item{\code{child.path}}{[\code{\link{GtkTreePath}}]  A \code{\link{GtkTreePath}} to convert}
 }
 \value{[\code{\link{GtkTreePath}}]  A newly allocated \code{\link{GtkTreePath}}, or \code{NULL}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

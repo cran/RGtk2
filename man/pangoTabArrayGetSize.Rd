@@ -5,5 +5,6 @@
 \usage{pangoTabArrayGetSize(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoTabArray}}]  a \code{\link{PangoTabArray}}}}
 \value{[integer]  the number of tab stops in the list.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

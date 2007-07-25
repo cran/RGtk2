@@ -20,5 +20,6 @@ the widget to use as the label in the popup menu.}
 }
 \value{[integer]  the index (starting from 0) of the inserted
 page in the notebook}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

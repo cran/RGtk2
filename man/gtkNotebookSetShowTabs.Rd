@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}
 \item{\code{show.tabs}}{[logical]  \code{TRUE} if the tabs should be shown.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

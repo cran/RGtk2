@@ -8,5 +8,6 @@
 \item{\code{object}}{[\code{\link{GtkProgressBar}}]  a \code{\link{GtkProgressBar}}}
 \item{\code{orientation}}{[\code{\link{GtkProgressBarOrientation}}]  orientation of the progress bar}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

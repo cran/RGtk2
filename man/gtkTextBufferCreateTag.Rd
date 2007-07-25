@@ -18,5 +18,6 @@ exist in the tag table for this buffer.
 The \code{first.property.name} argument and subsequent arguments are a list
 of properties to set on the tag, as with \code{\link{gObjectSet}}.  }
 \value{[\code{\link{GtkTextTag}}]  a new tag}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

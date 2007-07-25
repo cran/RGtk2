@@ -14,5 +14,6 @@ exclusive with \code{\link{pangoFontDescriptionSetAbsoluteSize}}.}
        pixel font. Use \code{\link{pangoFontDescriptionSetAbsoluteSize}} if you need
        a particular size in device units.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

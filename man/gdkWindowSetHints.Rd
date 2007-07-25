@@ -20,5 +20,6 @@ depending on what you're trying to do.
 \item{\code{flags}}{[integer]  logical OR of GDK\_HINT\_POS, GDK\_HINT\_MIN\_SIZE, and/or GDK\_HINT\_MAX\_SIZE}
 }
 \details{If using GDK directly, use \code{\link{gdkWindowSetGeometryHints}}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

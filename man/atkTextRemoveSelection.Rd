@@ -12,5 +12,6 @@ of the text region is assigned the number 0, etc.  Note that adding,
 moving or deleting a selected region can change the numbering.}
 }
 \value{[logical]  \code{TRUE} if success, \code{FALSE} otherwise}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

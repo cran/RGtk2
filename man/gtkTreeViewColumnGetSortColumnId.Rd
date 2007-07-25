@@ -8,5 +8,6 @@ See \code{\link{gtkTreeViewColumnSetSortColumnId}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  a \code{\link{GtkTreeViewColumn}}}}
 \value{[integer]  the current \code{sort.column.id} for this column, or -1 if
               this column can't be used for sorting.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

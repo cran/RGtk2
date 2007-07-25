@@ -7,5 +7,6 @@ underlines indicating mnemonics and Pango markup. (See
 \usage{gtkLabelGetLabel(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}}
 \value{[character]  the text of the label widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

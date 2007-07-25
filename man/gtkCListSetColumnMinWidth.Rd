@@ -12,5 +12,6 @@ the user from resizing it smaller than that specified.
 \item{\code{column}}{[integer] The column to set the minimum width.}
 \item{\code{min.width}}{[integer] The width, in pixels.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

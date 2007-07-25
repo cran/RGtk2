@@ -8,5 +8,6 @@ equal to \code{matrix}.}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}
 \item{\code{matrix}}{[\code{\link{CairoMatrix}}]  a transformation matrix from user space to device space}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

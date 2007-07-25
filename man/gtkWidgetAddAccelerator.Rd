@@ -18,5 +18,6 @@ user, use \code{\link{gtkAccelMapAddEntry}} and \code{\link{gtkWidgetSetAccelPat
 \item{\code{accel.mods}}{[\code{\link{GdkModifierType}}]    modifier key combination of the accelerator}
 \item{\code{accel.flags}}{[\code{\link{GtkAccelFlags}}]   flag accelerators, e.g. \code{GTK_ACCEL_VISIBLE}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

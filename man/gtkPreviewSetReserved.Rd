@@ -7,5 +7,6 @@ This function is deprecated and does nothing.
 }
 \usage{gtkPreviewSetReserved(nreserved)}
 \arguments{\item{\code{nreserved}}{[integer] ignored.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

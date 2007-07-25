@@ -7,5 +7,6 @@ since we refcount the structure. File a bug if you use it.)}
 \arguments{\item{\code{object}}{[\code{\link{PangoCoverage}}]  a \code{\link{PangoCoverage}}}}
 \value{[\code{\link{PangoCoverage}}]  the newly allocated \code{\link{PangoCoverage}},
               with a reference count of one.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

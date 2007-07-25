@@ -12,5 +12,6 @@ initialized to \code{CAIRO_STATUS_SUCCESS}.}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}
 \item{\code{path}}{[\code{\link{CairoPath}}]  path to be appended}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

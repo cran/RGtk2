@@ -21,5 +21,6 @@ A list containing the following elements:
 \item{\code{time.}}{[integer]  return location for the timestamp this item was last registered
    for this application}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

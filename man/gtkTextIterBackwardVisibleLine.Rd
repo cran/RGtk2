@@ -12,5 +12,6 @@ every iteration, if your first iteration is on line 0.)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \details{  Since  2.8}
 \value{[logical]  whether \code{iter} moved}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

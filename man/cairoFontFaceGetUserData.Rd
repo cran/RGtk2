@@ -11,5 +11,6 @@ function returns \code{NULL}.}
 attached to}
 }
 \value{[R object]  the user data previously attached or \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

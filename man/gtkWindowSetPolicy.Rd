@@ -59,5 +59,6 @@ shrink the window sufficiently. Perhaps you are calling \code{\link{gtkWidgetSet
 on a child widget, and forcing its size request to be too large. Instead of
 setting the child's usize, consider using \code{\link{gtkWindowSetDefaultSize}} so that
 the child gets a larger allocation than it requests.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

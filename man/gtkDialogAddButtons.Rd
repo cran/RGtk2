@@ -10,5 +10,6 @@ text and response ID.}
 \item{\code{object}}{[\code{\link{GtkDialog}}]  a \code{\link{GtkDialog}}}
 \item{\code{...}}{ response ID for first button, then more text-response\_id pairs}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

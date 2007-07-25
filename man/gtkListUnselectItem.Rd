@@ -12,5 +12,6 @@ emitted.
 \item{\code{object}}{[\code{\link{GtkList}}] the list widget.}
 \item{\code{item}}{[integer] the index of the child to unselect.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

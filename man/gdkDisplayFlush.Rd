@@ -13,5 +13,6 @@ from a thread other than the thread where the main loop is running.}
 handled synchronously, this function will do nothing.  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

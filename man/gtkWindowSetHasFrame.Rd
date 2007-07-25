@@ -18,5 +18,6 @@ frame\_event you can receive all events targeted at the frame.
 This function is used by the linux-fb port to implement managed
 windows, but it could conceivably be used by X-programs that
 want to do their own window decorations.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

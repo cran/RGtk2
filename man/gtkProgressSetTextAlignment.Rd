@@ -13,5 +13,6 @@ alignment of the progress text within the \code{\link{GtkProgress}}.}
 \item{\code{y.align}}{[numeric] a number between 0.0 and 1.0 indicating the vertical
 alignment of the progress text within the \code{\link{GtkProgress}}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

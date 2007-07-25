@@ -8,5 +8,6 @@ were added as a result of growing the list.}
 \item{\code{object}}{[\code{\link{PangoTabArray}}]  a \code{\link{PangoTabArray}}}
 \item{\code{new.size}}{[integer]  new size of the list}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

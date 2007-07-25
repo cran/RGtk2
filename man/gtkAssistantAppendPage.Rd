@@ -9,5 +9,6 @@
 }
 \details{  Since  2.10}
 \value{[integer]  the index (starting at 0) of the inserted page}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

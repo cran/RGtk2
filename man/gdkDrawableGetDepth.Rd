@@ -7,5 +7,6 @@ per pixel, 24 bits per pixel, etc.}
 \usage{gdkDrawableGetDepth(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkDrawable}}]  a \code{\link{GdkDrawable}}}}
 \value{[integer]  number of bits per pixel}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

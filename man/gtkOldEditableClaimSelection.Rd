@@ -12,5 +12,6 @@ Claims or gives up ownership of the selection.
   up ownership}
 \item{\code{time}}{[numeric]  timestamp for this operation}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

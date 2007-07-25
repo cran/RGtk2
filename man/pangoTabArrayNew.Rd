@@ -10,5 +10,6 @@ units. All stops are initially at position 0.}
 \item{\code{positions.in.pixels}}{[logical]  whether positions are in pixel units}
 }
 \value{[\code{\link{PangoTabArray}}]  the newly allocated \code{\link{PangoTabArray}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

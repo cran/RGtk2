@@ -6,5 +6,6 @@ but the pixbufs in the list have not had their reference count
 incremented.}
 \usage{gtkWindowGetDefaultIconList()}
 \value{[list]  copy of default icon list }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

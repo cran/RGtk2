@@ -9,5 +9,6 @@ parameters. This is equivalent to
 \item{\code{object}}{[\code{\link{GtkPaned}}] a paned widget}
 \item{\code{child}}{[\code{\link{GtkWidget}}] the child to add}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

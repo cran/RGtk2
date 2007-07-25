@@ -7,5 +7,6 @@
 \value{[\code{\link{AtkTextAttribute}}]  the \code{\link{AtkTextAttribute}} enumerated type corresponding to the specified
 name,
          or \code{ATK_TEXT_ATTRIBUTE_INVALID} if no matching text attribute is found.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

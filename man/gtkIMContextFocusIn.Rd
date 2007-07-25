@@ -7,5 +7,6 @@ may, for example, change the displayed feedback to reflect
 this change.}
 \usage{gtkIMContextFocusIn(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIMContext}}]  a \code{\link{GtkIMContext}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

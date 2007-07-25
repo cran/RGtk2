@@ -20,5 +20,6 @@ re-initialized to point to the location where text was deleted.
 
   Since  2.6}
 \value{[logical]  \code{TRUE} if the buffer was modified}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

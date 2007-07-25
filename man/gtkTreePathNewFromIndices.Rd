@@ -6,5 +6,6 @@
 \arguments{\item{\code{...}}{ list of integers terminated by -1}}
 \details{  Since  2.2}
 \value{[\code{\link{GtkTreePath}}]  A newly created \code{\link{GtkTreePath}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

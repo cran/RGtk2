@@ -16,5 +16,6 @@ within the enclosing containers.
 \item{\code{width}}{[integer] the width to request.}
 \item{\code{height}}{[integer] the height to request.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

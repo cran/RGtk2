@@ -6,5 +6,6 @@ already on the last line, returns \code{FALSE}.}
 \usage{pangoLayoutIterNextLine(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoLayoutIter}}]  a \code{\link{PangoLayoutIter}}}}
 \value{[logical]  whether motion was possible.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

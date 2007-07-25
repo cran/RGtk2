@@ -9,5 +9,6 @@ width as the entry.}
 \item{\code{popup.set.width}}{[logical]  \code{TRUE} to make the width of the popup the same as the entry}
 }
 \details{  Since  2.8}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@ how to cast this pointer.}
 \usage{atkDocumentGetDocument(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkDocument}}]  a \code{\link{GObject}} instance that implements AtkDocumentIface}}
 \value{[R object]  a \code{gpointer} that points to an instance of the DOM.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

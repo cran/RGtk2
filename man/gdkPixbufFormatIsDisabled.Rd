@@ -7,5 +7,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbufFormat}}]  a \code{\link{GdkPixbufFormat}}}}
 \details{  Since  2.6}
 \value{[logical]  whether this image format is disabled.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

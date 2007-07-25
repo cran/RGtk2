@@ -15,5 +15,6 @@ moves backward by 0 - \code{count} lines.}
 }
 \details{  Since  2.8}
 \value{[logical]  whether \code{iter} moved and is dereferenceable}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

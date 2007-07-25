@@ -11,5 +11,6 @@ column is created with this \code{FALSE}.}
 \item{\code{expand}}{[logical]  \code{TRUE} if the column should take available extra space, \code{FALSE} if not}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -4,5 +4,6 @@
 \description{Creates a new calendar, with the current date being selected.}
 \usage{gtkCalendarNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}]  a newly \code{\link{GtkCalendar}} widget}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

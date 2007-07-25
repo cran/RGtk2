@@ -15,5 +15,6 @@ by letting the user pick the "Print to PDF" item from the list
 of printers in the print dialog.  
 
   Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

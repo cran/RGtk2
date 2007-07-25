@@ -11,5 +11,6 @@
 \value{[integer]  a \code{integer} representing the index at specified position.
 The value -1 is returned if the object at row,column is not a child
 of table or table does not implement this interface.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

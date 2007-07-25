@@ -12,5 +12,6 @@ to create them for you.}
 \item{\code{vadjustment}}{[\code{\link{GtkAdjustment}}] Vertical adjustment.}
 }
 \value{[\code{\link{GtkWidget}}] New scrolled window.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

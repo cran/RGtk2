@@ -11,5 +11,6 @@ removes all occurrences of \code{tag} from the given range. \code{start} and
 \item{\code{start}}{[\code{\link{GtkTextIter}}]  one bound of range to be untagged}
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  other bound of range to be untagged}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

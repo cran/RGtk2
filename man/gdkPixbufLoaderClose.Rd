@@ -21,5 +21,6 @@ A list containing the following elements:
             passed out via the update\_area signal}
 \item{\code{error}}{[\code{\link{GError}}]  return location for a \code{\link{GError}}, or \code{NULL} to ignore errors}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

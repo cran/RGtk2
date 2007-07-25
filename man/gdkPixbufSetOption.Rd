@@ -12,5 +12,6 @@ ignored and \code{FALSE} is returned.}
 }
 \details{  Since  2.2}
 \value{[logical]  \code{TRUE} on success.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

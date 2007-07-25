@@ -7,5 +7,6 @@ See \code{\link{gtkProgressBarSetEllipsize}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkProgressBar}}]  a \code{\link{GtkProgressBar}}}}
 \details{  Since  2.6}
 \value{[\code{\link{PangoEllipsizeMode}}]  \code{\link{PangoEllipsizeMode}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

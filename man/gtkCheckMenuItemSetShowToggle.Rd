@@ -12,5 +12,6 @@ menu item is selected.
 \item{\code{object}}{[\code{\link{GtkCheckMenuItem}}] a \code{\link{GtkCheckMenuItem}}.}
 \item{\code{always}}{[logical] boolean value indicating whether to always show the check box.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

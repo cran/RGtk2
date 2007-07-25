@@ -6,5 +6,6 @@ depends on the current locale.}
 \usage{gtkPaperSizeGetDefault()}
 \details{  Since  2.10}
 \value{[character]  the name of the default paper size.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

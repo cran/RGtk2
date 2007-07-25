@@ -9,5 +9,6 @@ to a themed icon. See the docs for \code{\link{GtkIconTheme}} for more details.}
 \item{\code{icon.name}}{[character]  name of icon to use}
 }
 \details{  Since  2.8}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

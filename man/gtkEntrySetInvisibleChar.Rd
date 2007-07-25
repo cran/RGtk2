@@ -13,5 +13,6 @@ no text on the screen as they type.}
 \item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}
 \item{\code{ch}}{[numeric]  a Unicode character}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

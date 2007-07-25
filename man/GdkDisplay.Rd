@@ -39,6 +39,7 @@
 \code{\link{gdkDisplayStoreClipboard}(object, clipboard.window, targets)}\cr
 \code{\link{gdkDisplaySupportsShapes}(object)}\cr
 \code{\link{gdkDisplaySupportsInputShapes}(object)}\cr
+\code{\link{gdkDisplaySupportsComposite}(object)}\cr
 \code{gdkDisplay(display.name)}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
@@ -64,7 +65,7 @@ of an X display. All its fields are private and should not be accessed directly.
 
 }}}
 \section{Convenient Construction}{\code{gdkDisplay} is the equivalent of \code{\link{gdkDisplayOpen}}.}
-\section{Signals}{\describe{\item{\code{closed(display, is.error, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (display, is.error, user.data)}}{
 The ::closed signal is emitted when the connection to the windowing
 system for \code{display} is closed.  
 
@@ -78,6 +79,7 @@ system for \code{display} is closed.
 
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/GdkDisplay.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

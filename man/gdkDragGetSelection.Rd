@@ -5,5 +5,6 @@
 \usage{gdkDragGetSelection(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkDragContext}}]  a \code{\link{GdkDragContext}}.}}
 \value{[\code{\link{GdkAtom}}]  the selection atom.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

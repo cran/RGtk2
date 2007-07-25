@@ -8,5 +8,6 @@ typing.}
 \usage{gtkTextBufferGetInsert(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}}
 \value{[\code{\link{GtkTextMark}}]  insertion point mark}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

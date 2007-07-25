@@ -13,5 +13,6 @@ by gtk\_notebook\_set\_tab\_vborder (\code{notebook}, \code{border.width}).
 \item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}
 \item{\code{border.width}}{[numeric]  width of the border around the tab labels.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

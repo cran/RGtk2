@@ -10,5 +10,6 @@ folder cannot be represented as local filenames they will be ignored. (See
 \details{  Since  2.4}
 \value{[list]  a \code{list} containing the filenames of all selected
   files and subfolders in the current folder.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

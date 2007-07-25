@@ -8,5 +8,6 @@ destroyed, but the children's reference counts are not decremented.}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}}
 \details{Note that a window will not be destroyed automatically when its reference count
 reaches zero. You must call this function yourself before that happens.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkPrintSettings}}]  a \code{\link{GtkPrintSettings}}}}
 \details{  Since  2.10}
 \value{[character]  the printer name}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

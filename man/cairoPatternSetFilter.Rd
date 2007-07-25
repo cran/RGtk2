@@ -9,5 +9,6 @@ See \code{\link{CairoFilter}} for details on each filter.}
 \item{\code{filter}}{[\code{\link{CairoFilter}}]  a \code{\link{CairoFilter}} describing the filter to use for resizing
 the pattern}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

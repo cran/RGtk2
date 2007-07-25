@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkAction}}]  the action object}}
 \details{  Since  2.8}
 \value{[\code{\link{GClosure}}]  the accel closure for this action.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

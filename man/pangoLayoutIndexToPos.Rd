@@ -13,5 +13,6 @@ then \code{pos->width} will be negative.}
 \item{\code{index}}{[integer]  byte index within \code{layout}}
 \item{\code{pos}}{[\code{\link{PangoRectangle}}]  rectangle in which to store the position of the grapheme}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

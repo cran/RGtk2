@@ -10,5 +10,6 @@
 \item{\code{object}}{[\code{\link{GtkCTree}}] }
 \item{\code{indent}}{[integer] The number of pixels to shift the levels of the tree.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

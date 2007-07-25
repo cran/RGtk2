@@ -7,5 +7,6 @@ can later be plugged into a \code{\link{GtkSocket}} by  \code{\link{gtkSocketAdd
 \usage{gtkPlugNew(socket.id, show = TRUE)}
 \arguments{\item{\code{socket.id}}{[\code{\link{GdkNativeWindow}}]   the window ID of the socket, or 0.}}
 \value{[\code{\link{GtkWidget}}]  the new \code{\link{GtkPlug}} widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkFontButton}}]  a \code{\link{GtkFontButton}}}}
 \details{  Since  2.4}
 \value{[logical]  whether the selected size is used in the label.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

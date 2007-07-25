@@ -9,5 +9,6 @@ Gets the layer of the accessible.
 \arguments{\item{\code{object}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}}
 \details{Returns:  }
 \value{[\code{\link{AtkLayer}}]  an \code{\link{AtkLayer}} which is the layer of the accessible}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

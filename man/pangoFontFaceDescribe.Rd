@@ -8,5 +8,6 @@ will be unset.}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontFace}}]  a \code{\link{PangoFontFace}}}}
 \value{[\code{\link{PangoFontDescription}}]  a newly-created \code{\link{PangoFontDescription}} structure
  holding the description of the face.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -22,5 +22,6 @@ the display.
 The windowing system will normally fill a window with its background
 when the window is obscured then exposed, and when you call
 \code{\link{gdkWindowClear}}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ all signals in the GladeXML file with the given signal handler name.}
 \item{\code{handlername}}{[char]  the signal handler name}
 \item{\code{func}}{[GCallback]  the signal handler function}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

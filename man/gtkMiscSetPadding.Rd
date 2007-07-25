@@ -10,5 +10,6 @@ in pixels.}
 \item{\code{ypad}}{[integer] the amount of space to add on the top and bottom of the widget,
 in pixels.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

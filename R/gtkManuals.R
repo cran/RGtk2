@@ -779,7 +779,14 @@ dimnames.GtkTreeModel <- function(x, ...)
 }
 }
 
-# setting id's on GtkTreeIter's (for implementing new models)
+# creating a GtkTreeIter from scratch (for implementing new models)
+
+gtkTreeIter <- function(id, stamp)
+{
+  .RGtkCall("S_gtk_tree_iter", as.integer(id), as.integer(stamp))
+}
+
+# setting id's and stamps on GtkTreeIter's (for implementing new models)
 
 gtkTreeIterGetId <- function(iter)
 {
@@ -791,6 +798,18 @@ gtkTreeIterSetId <- function(iter, id)
   checkPtrType(iter, "GtkTreeIter")
   id <- as.integer(id)
   .RGtkCall("S_gtk_tree_iter_set_id", iter, id)
+}
+
+gtkTreeIterGetStamp <- function(iter)
+{
+  checkPtrType(iter, "GtkTreeIter")
+  .RGtkCall("S_gtk_tree_iter_get_stamp", iter)
+}
+gtkTreeIterSetStamp <- function(iter, stamp)
+{
+  checkPtrType(iter, "GtkTreeIter")
+  stamp <- as.integer(stamp)
+  .RGtkCall("S_gtk_tree_iter_set_stamp", iter, stamp)
 }
 
 # aliases for error domains

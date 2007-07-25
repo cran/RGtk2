@@ -10,5 +10,6 @@ Sets the width of the vertical border of tab labels.
 \item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}
 \item{\code{tab.vborder}}{[numeric]  width of the vertical border of tab labels.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

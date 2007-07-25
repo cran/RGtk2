@@ -8,5 +8,6 @@ displayed row. If no row is currently displayed,
 \arguments{\item{\code{object}}{[\code{\link{GtkCellView}}]  a \code{\link{GtkCellView}}}}
 \details{  Since  2.6}
 \value{[\code{\link{GtkTreePath}}]  the currently displayed row or \code{NULL}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

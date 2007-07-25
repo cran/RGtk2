@@ -2,7 +2,7 @@
 \name{gtkTextBufferInsertInteractive}
 \title{gtkTextBufferInsertInteractive}
 \description{Like \code{\link{gtkTextBufferInsert}}, but the insertion will not occur if
-\code{iter} is at a non-editable location in the buffer.  Usually you
+\code{iter} is at a non-editable location in the buffer. Usually you
 want to prevent insertions at ineditable locations if the insertion
 results from a user action (is interactive).}
 \usage{gtkTextBufferInsertInteractive(object, iter, text, default.editable)}
@@ -16,5 +16,6 @@ results from a user action (is interactive).}
 have a tag affecting editability applied to it. Typically the
 result of \code{\link{gtkTextViewGetEditable}} is appropriate here.  }
 \value{[logical]  whether text was actually inserted}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

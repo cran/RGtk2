@@ -12,5 +12,6 @@ determined by the "stock\_id" property is used as label. If
 \item{\code{label.widget}}{[\code{\link{GtkWidget}}]  the widget used as label, or \code{NULL}}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

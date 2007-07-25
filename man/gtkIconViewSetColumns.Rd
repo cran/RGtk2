@@ -11,5 +11,6 @@ to fill the available area.}
 \item{\code{columns}}{[integer]  the number of columns}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

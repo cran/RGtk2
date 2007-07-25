@@ -9,5 +9,6 @@ set the width to -1.}
 \item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}}
 \item{\code{wrap}}{[\code{\link{PangoWrapMode}}]  the wrap mode}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

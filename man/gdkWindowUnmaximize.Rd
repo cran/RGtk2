@@ -13,5 +13,6 @@ actually happening. But it will happen with most standard window
 managers, and GDK makes a best effort to get it to happen.
   
 On Windows, reliably unmaximizes the window.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

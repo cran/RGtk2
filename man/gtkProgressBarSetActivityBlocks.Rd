@@ -11,5 +11,6 @@ mode.  Larger numbers make the visible block smaller.
 \item{\code{object}}{[\code{\link{GtkProgressBar}}] a \code{\link{GtkProgressBar}}.}
 \item{\code{blocks}}{[numeric] number of blocks which can fit within the progress bar area.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

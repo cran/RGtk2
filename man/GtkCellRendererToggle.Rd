@@ -26,7 +26,7 @@ property. When activated, it emits the toggled signal.}
 
 }}}
 \section{Convenient Construction}{\code{gtkCellRendererToggle} is the equivalent of \code{\link{gtkCellRendererToggleNew}}.}
-\section{Signals}{\describe{\item{\code{toggled(cell.renderer, path, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (cell.renderer, path, user.data)}}{
 The ::toggled signal is emitted when the cell is toggled.  
 
 \describe{
@@ -65,6 +65,7 @@ Draw the toggle button as a radio button.  Default value: FALSE
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkCellRendererToggle.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

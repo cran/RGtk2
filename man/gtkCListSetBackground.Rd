@@ -11,5 +11,6 @@ Sets the background color for the specified row.
 \item{\code{row}}{[integer] The row to affect.}
 \item{\code{color}}{[\code{\link{GdkColor}}] A pointer to a \code{\link{GdkColor}} structure.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

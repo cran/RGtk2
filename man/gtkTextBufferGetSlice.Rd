@@ -19,5 +19,6 @@ widget is in the buffer.}
 \item{\code{include.hidden.chars}}{[logical]  whether to include invisible text}
 }
 \value{[character]  an allocated UTF-8 string}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

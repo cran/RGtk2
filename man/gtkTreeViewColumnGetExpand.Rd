@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  a \code{\link{GtkTreeViewColumn}}}}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE}, if the column expands}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

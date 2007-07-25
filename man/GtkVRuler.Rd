@@ -2,7 +2,7 @@
 \alias{gtkVRuler}
 \name{GtkVRuler}
 \title{GtkVRuler}
-\description{A vertical ruler.}
+\description{A vertical ruler}
 \section{Methods and Functions}{
 \code{\link{gtkVRulerNew}(show = TRUE)}\cr
 \code{gtkVRuler(show = TRUE)}
@@ -14,7 +14,7 @@
                      +----\link{GtkRuler}
                            +----GtkVRuler}}
 \section{Interfaces}{GtkVRuler implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{\strong{PLEASE NOTE:}   
  This widget is considered too specialized/little-used for
  GTK+, and will in the future be moved to some other package.  If
@@ -36,6 +36,7 @@ using the functions below.
 
 }}}
 \section{Convenient Construction}{\code{gtkVRuler} is the equivalent of \code{\link{gtkVRulerNew}}.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkVRuler.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

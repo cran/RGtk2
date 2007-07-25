@@ -8,5 +8,6 @@
 \item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}
 \item{\code{name}}{[character]  name of a mark in \code{buffer}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

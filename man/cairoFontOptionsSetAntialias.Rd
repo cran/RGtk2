@@ -8,5 +8,6 @@ specifies the type of antialiasing to do when rendering text.}
 \item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}}
 \item{\code{antialias}}{[\code{\link{CairoAntialias}}]  the new antialiasing mode}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

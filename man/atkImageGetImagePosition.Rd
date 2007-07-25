@@ -14,5 +14,6 @@ A list containing the following elements:
 \item{\code{x}}{[integer]  \code{integer} to put x coordinate position; otherwise, -1 if value cannot be obtained.}
 \item{\code{y}}{[integer]  \code{integer} to put y coordinate position; otherwise, -1 if value cannot be obtained.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

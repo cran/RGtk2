@@ -12,5 +12,6 @@ value that is suitable for programmatic use.
   Since  2.10}
 \value{[character]  a string representation of the status
    of the print operation}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

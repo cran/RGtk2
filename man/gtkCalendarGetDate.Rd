@@ -10,5 +10,6 @@ A list containing the following elements:
 \item{\code{month}}{[numeric]  location to store the month number (between 0 and 11), or \code{NULL}}
 \item{\code{day}}{[numeric]  location to store the day number (between 1 and 31), or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

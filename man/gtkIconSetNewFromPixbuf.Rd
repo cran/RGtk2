@@ -9,5 +9,6 @@ or make the icon look insensitive/prelighted.}
 \usage{gtkIconSetNewFromPixbuf(pixbuf)}
 \arguments{\item{\code{pixbuf}}{[\code{\link{GdkPixbuf}}]  a \code{\link{GdkPixbuf}}}}
 \value{[\code{\link{GtkIconSet}}]  a new \code{\link{GtkIconSet}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

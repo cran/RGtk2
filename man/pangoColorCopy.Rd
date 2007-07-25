@@ -7,5 +7,6 @@ by assignment in C).}
 \usage{pangoColorCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoColor}}]  color to copy}}
 \value{[\code{\link{PangoColor}}]  the newly allocated \code{\link{PangoColor}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

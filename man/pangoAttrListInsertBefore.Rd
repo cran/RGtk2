@@ -10,5 +10,6 @@ be inserted before all other attributes with a matching
 \item{\code{attr}}{[\code{\link{PangoAttribute}}]  the attribute to insert. Ownership of this value is
        assumed by the list.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

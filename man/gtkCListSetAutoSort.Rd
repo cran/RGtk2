@@ -10,5 +10,6 @@ Turns on or off auto sort of the \code{\link{GtkCList}}. If auto sort is on, the
 \item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}
 \item{\code{auto.sort}}{[logical] whether auto sort should be on or off}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

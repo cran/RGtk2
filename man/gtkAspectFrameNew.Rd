@@ -16,5 +16,6 @@ to 1.0 (right aligned)}
     ratio is taken from the requistion of the child.}
 }
 \value{[\code{\link{GtkWidget}}] the new \code{\link{GtkAspectFrame}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

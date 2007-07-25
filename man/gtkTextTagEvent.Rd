@@ -10,5 +10,6 @@
 \item{\code{iter}}{[\code{\link{GtkTextIter}}]  location where the event was received}
 }
 \value{[logical]  result of signal emission (whether the event was handled)}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -15,5 +15,6 @@ will be more convenient to use.}
 \item{\code{hot.x}}{[integer]  the X offset within \code{pixmap} of the hotspot.}
 \item{\code{hot.y}}{[integer]  the Y offset within \code{pixmap} of the hotspot.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

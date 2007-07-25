@@ -20,5 +20,6 @@ the parent-sibling notation, as explained in the introduction above.
 \item{\code{is.leaf}}{[logical] Whether this node is going to be a leaf.}
 \item{\code{expanded}}{[logical] Whether this node should start out expanded or not.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

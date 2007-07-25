@@ -5,5 +5,6 @@
 to any windows anymore, it is unrealized. See \code{\link{gtkStyleAttach}}.}
 \usage{gtkStyleDetach(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkStyle}}]  a \code{\link{GtkStyle}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

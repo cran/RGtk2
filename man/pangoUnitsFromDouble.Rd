@@ -7,5 +7,6 @@ it by \code{PANGO_SCALE} and rounds to nearest integer.}
 \arguments{\item{\code{d}}{[numeric]  double floating-point value}}
 \details{  Since  1.16}
 \value{[integer]  the value in Pango units.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

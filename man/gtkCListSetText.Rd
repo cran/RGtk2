@@ -7,5 +7,6 @@ Sets the displayed text in the specified cell.
 }
 \usage{gtkCListSetText(w, row, cols, values, zeroBased = TRUE)}
 \arguments{\item{\code{row}}{[integer] The row of the cell.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

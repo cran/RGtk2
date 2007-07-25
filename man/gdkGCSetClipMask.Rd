@@ -9,5 +9,6 @@ origin. (See \code{\link{gdkGCSetClipOrigin}}).}
 \item{\code{object}}{[\code{\link{GdkGC}}]  the \code{\link{GdkGC}}.}
 \item{\code{mask}}{[\code{\link{GdkBitmap}}]  a bitmap.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

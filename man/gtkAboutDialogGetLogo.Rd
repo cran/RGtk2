@@ -7,5 +7,6 @@
 \details{  Since  2.6}
 \value{[\code{\link{GdkPixbuf}}]  the pixbuf displayed as logo. If you want to keep a reference
   to it.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

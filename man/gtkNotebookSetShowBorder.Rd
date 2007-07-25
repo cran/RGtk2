@@ -9,5 +9,6 @@ See \code{\link{gtkNotebookSetShowTabs}}.}
 \item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}
 \item{\code{show.border}}{[logical]  \code{TRUE} if a bevel should be drawn around the notebook.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

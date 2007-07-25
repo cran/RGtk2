@@ -11,5 +11,6 @@ with text retrieved via \code{\link{pangoLayoutGetText}}).}
 \item{\code{layout.index}}{[integer]  byte index into the entry layout text}
 }
 \value{[integer]  byte index into the entry contents}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

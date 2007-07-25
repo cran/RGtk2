@@ -8,5 +8,6 @@ with the mouse. See \code{\link{gtkComboBoxSetFocusOnClick}}.}
 \details{  Since  2.6}
 \value{[logical]  \code{TRUE} if the combo box grabs focus when it is 
     clicked with the mouse.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

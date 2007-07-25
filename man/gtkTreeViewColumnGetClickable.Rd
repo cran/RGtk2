@@ -5,5 +5,6 @@
 \usage{gtkTreeViewColumnGetClickable(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  a \code{\link{GtkTreeViewColumn}}}}
 \value{[logical]  \code{TRUE} if user can click the column header.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

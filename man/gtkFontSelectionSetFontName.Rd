@@ -12,5 +12,6 @@ you call this function.}
 }
 \value{[logical]  \code{TRUE} if the font could be set successfully; \code{FALSE} if no such
 font exists or if the \code{fontsel} doesn't belong to a particular screen yet.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

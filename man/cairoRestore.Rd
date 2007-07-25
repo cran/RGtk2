@@ -6,5 +6,6 @@
 saved states.}
 \usage{cairoRestore(cr)}
 \arguments{\item{\code{cr}}{[\code{\link{Cairo}}]  a \code{\link{Cairo}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

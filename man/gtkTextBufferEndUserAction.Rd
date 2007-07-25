@@ -5,5 +5,6 @@
 See that function for a full explanation.}
 \usage{gtkTextBufferEndUserAction(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

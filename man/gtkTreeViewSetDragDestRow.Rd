@@ -8,5 +8,6 @@
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  The path of the row to highlight, or \code{NULL}.}
 \item{\code{pos}}{[\code{\link{GtkTreeViewDropPosition}}]  Specifies whether to drop before, after or into the row}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,5 +12,6 @@ using \code{\link{cairoScaledFontGetCtm}}.}
 \item{\code{scaled.font}}{[\code{\link{CairoScaledFont}}]  a \code{\link{CairoScaledFont}}}
 }
 \details{  Since  1.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

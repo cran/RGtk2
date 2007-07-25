@@ -8,5 +8,6 @@ correct fix would be to the Pango word break algorithms).}
 \usage{gtkTextIterInsideWord(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}}
 \value{[logical]  \code{TRUE} if \code{iter} is inside a word}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

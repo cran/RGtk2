@@ -21,5 +21,6 @@ A list containing the following elements:
 \item{\code{events}}{[\code{\link{GdkTimeCoord}}]  location to store a newly-allocated list of \code{\link{GdkTimeCoord}}, or \code{NULL}}
 \item{\code{n.events}}{[integer]  location to store the length of \code{events}, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

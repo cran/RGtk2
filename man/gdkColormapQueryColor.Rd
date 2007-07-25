@@ -19,5 +19,6 @@ implement the eyedropper feature in \code{\link{GtkColorSelection}}.  }
 A list containing the following elements:
 \item{\code{result}}{[\code{\link{GdkColor}}]  \code{\link{GdkColor}} with red, green, blue fields initialized}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ A list containing the following elements:
 \item{\code{lower}}{[numeric]  return location for lowercase version of \code{symbol}}
 \item{\code{upper}}{[numeric]  return location for uppercase version of \code{symbol}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

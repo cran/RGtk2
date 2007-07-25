@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{PangoGlyphString}}]     a \code{\link{PangoGlyphString}}.}
 \item{\code{new.len}}{[integer]    the new length of the string.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

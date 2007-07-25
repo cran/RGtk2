@@ -25,5 +25,6 @@ for user preferences and should not be used by applications e.g. for
 drawing attention to their dialogs.  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

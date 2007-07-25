@@ -18,5 +18,6 @@
 \item{\code{height}}{[integer]  height of the handle}
 \item{\code{orientation}}{[\code{\link{GtkOrientation}}]  the orientation of the handle}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

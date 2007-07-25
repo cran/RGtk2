@@ -15,5 +15,6 @@ the iterator.}
 \usage{gdkPixbufAnimationIterGetPixbuf(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbufAnimationIter}}]  an animation iterator}}
 \value{[\code{\link{GdkPixbuf}}]  the pixbuf to be displayed}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

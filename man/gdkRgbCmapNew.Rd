@@ -8,5 +8,6 @@ results, including possibly segfaults.}
 \usage{gdkRgbCmapNew(colors)}
 \arguments{\item{\code{colors}}{[numeric] The colors, represented as 0xRRGGBB integer values.}}
 \value{[\code{\link{GdkRgbCmap}}] The newly created \code{\link{GdkRgbCmap}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

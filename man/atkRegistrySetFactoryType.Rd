@@ -12,5 +12,6 @@ appropriate for \code{type}.}
 \item{\code{factory.type}}{[\code{\link{GType}}]  an \code{\link{AtkObjectFactory}} type to associate with \code{type}.  Must
 implement AtkObject appropriate for \code{type}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

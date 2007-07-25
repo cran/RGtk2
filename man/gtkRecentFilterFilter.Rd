@@ -16,5 +16,6 @@ is intended principally for use in the implementation of
 
   Since  2.10}
 \value{[logical]  \code{TRUE} if the file should be displayed}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,5 +9,6 @@
 \item{\code{num.versions}}{[integer]  list length}
 }
 \details{  Since  1.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

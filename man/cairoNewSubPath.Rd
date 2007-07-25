@@ -15,5 +15,6 @@ compute the arc's initial coordinates for a call to
 \code{\link{cairoMoveTo}}.  
 
   Since  1.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

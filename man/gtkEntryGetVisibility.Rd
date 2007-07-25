@@ -6,5 +6,6 @@
 \usage{gtkEntryGetVisibility(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}}
 \value{[logical]  \code{TRUE} if the text is currently visible}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

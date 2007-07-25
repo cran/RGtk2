@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkSizeGroup}}]  a \code{\link{GtkSizeGroup}}}}
 \details{  Since  2.8}
 \value{[logical]  \code{TRUE} if invisible widgets are ignored.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

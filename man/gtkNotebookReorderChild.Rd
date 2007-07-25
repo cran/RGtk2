@@ -11,5 +11,6 @@ of the list.}
 \item{\code{child}}{[\code{\link{GtkWidget}}]  the child to move}
 \item{\code{position}}{[integer]  the new position, or -1 to move to the end}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

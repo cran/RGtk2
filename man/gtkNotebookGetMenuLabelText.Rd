@@ -12,5 +12,6 @@
                widget does not have a menu label other than
                the default menu label, or the menu label widget
                is not a \code{\link{GtkLabel}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

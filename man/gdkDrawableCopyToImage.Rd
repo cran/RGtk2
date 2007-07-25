@@ -18,5 +18,6 @@ and copies into that. See \code{\link{gdkDrawableGetImage}} for further details.
 \details{  Since  2.4}
 \value{[\code{\link{GdkImage}}]  \code{image}, or a new a \code{\link{GdkImage}} containing the contents
               of \code{drawable}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

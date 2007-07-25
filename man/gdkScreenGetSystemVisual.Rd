@@ -7,5 +7,6 @@ This is the visual for the root window of the display.}
 \arguments{\item{\code{object}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}.}}
 \details{  Since  2.2}
 \value{[\code{\link{GdkVisual}}]  the system visual}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

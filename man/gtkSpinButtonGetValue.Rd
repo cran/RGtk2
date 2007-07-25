@@ -5,5 +5,6 @@
 \usage{gtkSpinButtonGetValue(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}}}}
 \value{[numeric]  the value of \code{spin.button}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

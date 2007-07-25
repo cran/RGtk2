@@ -6,5 +6,6 @@ means "largest," i.e. 32 preferred over 24 preferred over 8 bits
 per pixel.}
 \usage{gdkVisualGetBestDepth()}
 \value{[integer]  best available depth}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

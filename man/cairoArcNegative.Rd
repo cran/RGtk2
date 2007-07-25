@@ -17,5 +17,6 @@ until it is less than \code{angle1}.}
 }
 \details{See \code{\link{cairoArc}} for more details. This function differs only in the
 direction of the arc between the two angles.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

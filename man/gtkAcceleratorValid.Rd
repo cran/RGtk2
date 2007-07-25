@@ -12,5 +12,6 @@ as an accelerator.}
 \item{\code{modifiers}}{[\code{\link{GdkModifierType}}]  modifier mask}
 }
 \value{[logical]    \code{TRUE} if the accelerator is valid}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@ Auto-sizes all columns in the CList and returns the total width of the CList.
 \usage{gtkCListColumnsAutosize(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}}
 \value{[integer] The total width of the CList.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

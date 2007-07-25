@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkTable}}] a \code{\link{GtkTable}}.}
 \item{\code{spacing}}{[numeric] the number of pixels of space to place between every column in the table.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

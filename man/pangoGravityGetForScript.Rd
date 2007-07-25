@@ -15,5 +15,6 @@ pass \code{PANGO_GRAVITY_AUTO} and \code{PANGO_GRAVITY_HINT_STRONG} in.
 
   Since  1.16}
 \value{[\code{\link{PangoGravity}}]  resolved gravity suitable to use for a run of text}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

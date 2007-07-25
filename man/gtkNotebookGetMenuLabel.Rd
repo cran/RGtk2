@@ -10,5 +10,6 @@
 \value{[\code{\link{GtkWidget}}]  the menu label, or \code{NULL} if the
               notebook page does not have a menu label other
               than the default (the tab label).}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkUIManager}}]  a \code{\link{GtkUIManager}} object}}
 \details{  Since  2.4}
 \value{[list]  a \code{list} of action groups.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

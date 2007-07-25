@@ -10,5 +10,6 @@ user collapses a row, or a row is deleted.}
 \item{\code{func}}{[\code{\link{GtkTreeDestroyCountFunc}}]  Function to be called when a view row is destroyed, or \code{NULL}}
 \item{\code{data}}{[R object]  User data to be passed to \code{func}, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

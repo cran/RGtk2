@@ -9,5 +9,6 @@ function is deprecated, and you should use
 }
 \usage{gtkPreviewGetVisual()}
 \value{[\code{\link{GdkVisual}}] the visual for previews.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}}}
 \details{  Since  2.2}
 \value{[integer]  the height of \code{screen} in pixels.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

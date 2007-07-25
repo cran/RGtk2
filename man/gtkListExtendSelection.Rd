@@ -14,5 +14,6 @@ in \code{GTK_SELECTION_EXTENDED}.
 \item{\code{auto.start.selection}}{[logical] if \code{TRUE}, \code{\link{gtkListStartSelection}} is automatically
 carried out before extending the selection.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

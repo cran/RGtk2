@@ -11,5 +11,6 @@ are removed, and replaced with the new attributes.}
 \item{\code{cell.renderer}}{[\code{\link{GtkCellRenderer}}]  the \code{\link{GtkCellRenderer}} we're setting the attributes of}
 \item{\code{...}}{ A list of attributes.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

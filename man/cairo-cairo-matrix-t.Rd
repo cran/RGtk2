@@ -49,6 +49,7 @@ a point (x, y) is given by:
 }
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-cairo-matrix-t.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

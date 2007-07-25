@@ -6,5 +6,6 @@ accelerator specifications, and propagates them accordingly.}
 \usage{gtkAccelMapLoad(file.name)}
 \arguments{\item{\code{file.name}}{[character]  a file containing accelerator specifications,
   in the GLib file name encoding}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

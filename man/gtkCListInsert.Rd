@@ -12,5 +12,6 @@ Adds a row of text to the CList at the specified position.
 \item{\code{text}}{[character] An list of string to add.}
 }
 \value{[integer] The number of the row added.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

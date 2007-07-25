@@ -13,5 +13,6 @@ position.}
 have a tag affecting editability applied to it. Typically the
 result of \code{\link{gtkTextViewGetEditable}} is appropriate here.  }
 \value{[logical]  whether text was actually inserted}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,5 +13,6 @@ units high. (10 * 96. / 72. = 13.3).}
   means to use the resolution from the font map.}
 }
 \details{  Since  1.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

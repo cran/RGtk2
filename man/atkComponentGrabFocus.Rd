@@ -5,5 +5,6 @@
 \usage{atkComponentGrabFocus(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkComponent}}]  an \code{\link{AtkComponent}}}}
 \value{[logical]  \code{TRUE} if successful, \code{FALSE} otherwise.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

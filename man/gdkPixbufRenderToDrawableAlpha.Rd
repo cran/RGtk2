@@ -26,5 +26,6 @@ Otherwise a colormap must be set on them with gdk\_drawable\_set\_colormap.
 }
 \details{On older X servers, rendering pixbufs with an alpha channel involves round trips
 to the X server, and may be somewhat slow.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

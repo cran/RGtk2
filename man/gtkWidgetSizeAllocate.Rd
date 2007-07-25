@@ -8,5 +8,6 @@ and position to their child widgets.}
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{allocation}}{[\code{\link{GtkAllocation}}]  position and size to be allocated to \code{widget}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

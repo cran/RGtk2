@@ -11,5 +11,6 @@ will be at the current point of the cairo context.}
 \item{\code{glyphs}}{[\code{\link{PangoGlyphString}}]  a \code{\link{PangoGlyphString}}}
 }
 \details{  Since  1.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

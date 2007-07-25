@@ -5,5 +5,6 @@
 \usage{gtkTextMarkGetName(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextMark}}]  a \code{\link{GtkTextMark}}}}
 \value{[character]  mark name}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

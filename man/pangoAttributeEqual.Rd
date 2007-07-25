@@ -10,5 +10,6 @@ attributes apply to.}
 \item{\code{attr2}}{[\code{\link{PangoAttribute}}]  another \code{\link{PangoAttribute}}}
 }
 \value{[logical]  \code{TRUE} if the two attributes have the same value.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -21,5 +21,6 @@ for many historical scripts as well.
   Since  1.4}
 \value{[\code{\link{PangoLanguage}}]  a \code{\link{PangoLanguage}} that is representative
 of the script, or \code{NULL} if no such language exists.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

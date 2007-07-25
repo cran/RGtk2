@@ -10,5 +10,6 @@ functions to be executed when this object receives focus events
 \item{\code{handler.id}}{[numeric]  the handler id of the focus handler to be removed
 from \code{component}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

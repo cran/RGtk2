@@ -14,5 +14,6 @@
 A list containing the following elements:
 \item{\code{x.pos}}{[integer]  location to store the x\_offset (in \code{integer})}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

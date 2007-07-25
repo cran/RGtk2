@@ -11,5 +11,6 @@ will cause the \code{\link{GtkCList}} to update its visuals.
 \item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}
 \item{\code{type}}{[\code{\link{GtkShadowType}}] The GtkShadowType desired.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

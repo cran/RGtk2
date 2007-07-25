@@ -10,5 +10,6 @@
 \item{\code{hot.x}}{[integer]  the X offset within the icon of the hotspot.}
 \item{\code{hot.y}}{[integer]  the Y offset within the icon of the hotspot.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

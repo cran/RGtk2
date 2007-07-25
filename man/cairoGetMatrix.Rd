@@ -7,5 +7,6 @@
 \item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}
 \item{\code{matrix}}{[\code{\link{CairoMatrix}}]  return value for the matrix}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ reparented will be unmapped as a side effect.}
 \item{\code{x}}{[integer]  X location inside the new parent}
 \item{\code{y}}{[integer]  Y location inside the new parent}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

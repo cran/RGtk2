@@ -66,6 +66,7 @@ An list of the targets for the relation.
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk/AtkRelation.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

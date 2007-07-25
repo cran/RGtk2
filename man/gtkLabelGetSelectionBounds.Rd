@@ -11,5 +11,6 @@ A list containing the following elements:
 \item{\code{start}}{[integer]  return location for start of selection, as a character offset}
 \item{\code{end}}{[integer]  return location for end of selection, as a character offset}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

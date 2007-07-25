@@ -9,5 +9,6 @@
 \item{\code{column}}{[integer]  a \code{integer} representing a column in \code{table}}
 }
 \value{[\code{\link{AtkObject}}]  a AtkObject* representing the referred to accessible}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

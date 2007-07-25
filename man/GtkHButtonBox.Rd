@@ -20,7 +20,7 @@
                                  +----\link{GtkButtonBox}
                                        +----GtkHButtonBox}}
 \section{Interfaces}{GtkHButtonBox implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{A button box should be used to provide a consistent layout of buttons
 throughout your application. The layout/spacing can be altered by the
 programmer, or if desired, by the user to alter the 'feel' of a
@@ -43,6 +43,7 @@ GtkHButtonBox does not contain any public fields.
 
 }}}
 \section{Convenient Construction}{\code{gtkHButtonBox} is the equivalent of \code{\link{gtkHButtonBoxNew}}.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkHButtonBox.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

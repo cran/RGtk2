@@ -7,5 +7,6 @@ The first character on the line has offset 0.}
 \usage{gtkTextIterGetLineOffset(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[integer]  offset from start of line}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

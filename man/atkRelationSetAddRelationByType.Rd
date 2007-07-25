@@ -12,5 +12,6 @@ is added to the relation.}
 \item{\code{target}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}
 }
 \details{  Since  ATK 1.9}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

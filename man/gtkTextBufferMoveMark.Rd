@@ -9,5 +9,6 @@ as notification of the move.}
 \item{\code{mark}}{[\code{\link{GtkTextMark}}]  a \code{\link{GtkTextMark}}}
 \item{\code{where}}{[\code{\link{GtkTextIter}}]  new location for \code{mark} in \code{buffer}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

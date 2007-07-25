@@ -4,5 +4,6 @@
 \description{Creates a new \code{\link{GtkTreePath}}.  The string representation of this path is "0"}
 \usage{gtkTreePathNewFirst()}
 \value{[\code{\link{GtkTreePath}}]  A new \code{\link{GtkTreePath}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

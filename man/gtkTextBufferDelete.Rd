@@ -14,5 +14,6 @@ re-initialized to point to the location where text was deleted.}
 \item{\code{start}}{[\code{\link{GtkTextIter}}]  a position in \code{buffer}}
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  another position in \code{buffer}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

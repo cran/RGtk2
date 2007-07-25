@@ -17,7 +17,7 @@
                                  +----\link{GtkVBox}
                                        +----GtkRecentChooserWidget}}
 \section{Interfaces}{GtkRecentChooserWidget implements
- AtkImplementorIface and  \code{\link{GtkRecentChooser}}.}
+ \code{\link{GtkBuildable}},  AtkImplementorIface and  \code{\link{GtkRecentChooser}}.}
 \section{Detailed Description}{\code{\link{GtkRecentChooserWidget}} is a widget suitable for selecting recently used
 files.  It is the main building block of a \code{\link{GtkRecentChooserDialog}}.  Most
 applications will only need to use the latter; you can use
@@ -33,6 +33,7 @@ Recently used files are supported since GTK+ 2.10.}
 
 }}}
 \section{Convenient Construction}{\code{gtkRecentChooserWidget} is the equivalent of \code{\link{gtkRecentChooserWidgetNewForManager}}.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkRecentChooserWidget.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

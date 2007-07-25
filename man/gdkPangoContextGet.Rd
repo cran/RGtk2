@@ -15,5 +15,6 @@ change it will not be updated. Using \code{\link{gtkWidgetGetPangoContext}}
 is more convenient if you want to keep a context around and track
 changes to the screen's font rendering settings.  }
 \value{[\code{\link{PangoContext}}]  a new \code{\link{PangoContext}} for the default display}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

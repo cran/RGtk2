@@ -12,5 +12,6 @@ entry again.}
 \item{\code{entry}}{[\code{\link{GtkEntry}}]  the entry the interactive search code of \code{tree.view} should use or \code{NULL}}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

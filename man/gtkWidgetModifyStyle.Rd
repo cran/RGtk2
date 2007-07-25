@@ -22,5 +22,6 @@ make your modifications to the returned style, then call
 if you first call \code{\link{gtkWidgetModifyStyle}}, subsequent calls
 to such functions \code{\link{gtkWidgetModifyFg}} will have a cumulative
 effect with the initial modifications.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

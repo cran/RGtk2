@@ -9,5 +9,6 @@ if there is not enough space to render the entire string.}
 \item{\code{mode}}{[\code{\link{PangoEllipsizeMode}}]  a \code{\link{PangoEllipsizeMode}}}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

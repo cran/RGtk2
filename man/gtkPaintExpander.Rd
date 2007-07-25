@@ -25,5 +25,6 @@ expanded position.}
   whether the expander is collapsed, expanded, or in an
   intermediate state.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

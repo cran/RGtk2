@@ -8,5 +8,6 @@
 \item{\code{use.font}}{[logical]  If \code{TRUE}, font name will be written using font chosen.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

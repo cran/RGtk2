@@ -9,5 +9,6 @@
          determined by the widget the menu is attached to.}
 }
 \details{  Since  2.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

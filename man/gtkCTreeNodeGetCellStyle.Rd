@@ -11,5 +11,6 @@ Get the style of an individual cell.
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] }
 \item{\code{column}}{[integer] }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

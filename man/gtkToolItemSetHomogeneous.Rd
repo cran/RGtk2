@@ -10,5 +10,6 @@ the same width as the widest of the items.}
 \item{\code{homogeneous}}{[logical]  whether \code{tool.item} is the same size as other homogeneous items}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

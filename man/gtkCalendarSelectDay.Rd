@@ -8,5 +8,6 @@
 \item{\code{day}}{[numeric]  the day number between 1 and 31, or 0 to unselect 
   the currently selected day.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

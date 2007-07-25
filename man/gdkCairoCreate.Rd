@@ -6,5 +6,6 @@
 \arguments{\item{\code{drawable}}{[\code{\link{GdkDrawable}}]  a \code{\link{GdkDrawable}}}}
 \details{  Since  2.8}
 \value{[\code{\link{Cairo}}]  A newly created Cairo context.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

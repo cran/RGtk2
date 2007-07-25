@@ -9,5 +9,6 @@ This should be a short string of one or two lines.}
 \item{\code{copyright}}{[character]  the copyright string}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

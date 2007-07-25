@@ -7,5 +7,6 @@
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the recent chooser should show tooltips,
   \code{FALSE} otherwise.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -21,5 +21,6 @@ with native scrolling support should not be used with the \code{\link{GtkViewpor
 A widget supports scrolling natively if the
 set\_scroll\_adjustments\_signal field in \code{\link{GtkWidgetClass}} is non-zero,
 i.e. has been filled in with a valid signal identifier.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

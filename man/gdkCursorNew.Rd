@@ -8,5 +8,6 @@ See \code{\link{gdkCursorNewForDisplay}}.}
 \details{To make the cursor invisible, use \code{\link{gdkCursorNewFromPixmap}} to create
 a cursor with no pixels in it.  }
 \value{[\code{\link{GdkCursor}}]  a new \code{\link{GdkCursor}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

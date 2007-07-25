@@ -45,5 +45,6 @@ cr$scale(1 / (height / 2), 1 / (width / 2))
 cr$arc(0, 0, 1, 0, 2 * pi)
 cr$restore()
 }  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

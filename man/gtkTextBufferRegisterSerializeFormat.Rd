@@ -2,7 +2,7 @@
 \name{gtkTextBufferRegisterSerializeFormat}
 \title{gtkTextBufferRegisterSerializeFormat}
 \description{This function registers a rich text serialization \code{function} along with
-its \code{mime_type} with the passed \code{buffer}.}
+its \code{mime.type} with the passed \code{buffer}.}
 \usage{gtkTextBufferRegisterSerializeFormat(object, mime.type, fun, user.data)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}
@@ -12,5 +12,6 @@ its \code{mime_type} with the passed \code{buffer}.}
 \details{  Since  2.10}
 \value{[\code{\link{GdkAtom}}]  the \code{\link{GdkAtom}} that corresponds to the newly registered
               format's mime-type.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

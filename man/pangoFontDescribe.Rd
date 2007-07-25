@@ -7,5 +7,6 @@ size in device units.}
 \usage{pangoFontDescribe(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoFont}}]  a \code{\link{PangoFont}}}}
 \value{[\code{\link{PangoFontDescription}}]  a newly-allocated \code{\link{PangoFontDescription}} object.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

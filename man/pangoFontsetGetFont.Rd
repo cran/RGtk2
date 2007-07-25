@@ -10,5 +10,6 @@ Unicode character \code{wc}.}
 }
 \value{[\code{\link{PangoFont}}]  a \code{\link{PangoFont}}. The caller must call g\_object\_unref when finished
          with the font.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

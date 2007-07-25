@@ -15,5 +15,6 @@ signal handler for the ::size\_prepared signal.}
 emission of the ::size\_prepared signal.  
 
   Since  2.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

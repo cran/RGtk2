@@ -7,5 +7,6 @@ allocate a color cube at least as large as \code{min.colors}, it installs a
 private colormap.}
 \usage{gdkRgbSetMinColors(min.colors)}
 \arguments{\item{\code{min.colors}}{[integer] The minimum number of colors accepted.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

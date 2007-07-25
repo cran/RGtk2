@@ -12,5 +12,6 @@ in the wide-character encoding of the current locale).
 \item{\code{character}}{[numeric]  the character to measure.}
 }
 \value{[integer]  the width of the character in pixels.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

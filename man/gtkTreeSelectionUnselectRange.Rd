@@ -10,5 +10,6 @@ inclusive.}
 \item{\code{end.path}}{[\code{\link{GtkTreePath}}]  The initial node of the range.}
 }
 \details{  Since  2.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

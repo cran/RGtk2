@@ -7,5 +7,6 @@ Creates a new \code{GtkListitem}.
 }
 \usage{gtkListItemNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}] a new \code{\link{GtkListItem}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@ See \code{\link{gtkRecentFilterSetName}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentFilter}}]  a \code{\link{GtkRecentFilter}}}}
 \details{  Since  2.10}
 \value{[character]  the name of the filter, or \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

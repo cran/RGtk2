@@ -12,5 +12,6 @@ changes what it will do in response to the "create\_menu\_proxy"
 signal.  
 
   Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

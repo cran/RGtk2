@@ -5,5 +5,6 @@
 \usage{gtkTreeViewGetColumns(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}}}
 \value{[list]  A list of \code{\link{GtkTreeViewColumn}} s}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

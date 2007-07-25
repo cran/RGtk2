@@ -8,5 +8,6 @@ was last visited.}
 \details{  Since  2.10}
 \value{[integer]  the number of seconds elapsed from system's Epoch when
   the resource was last visited, or -1 on failure.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

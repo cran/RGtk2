@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkImage}}]  a \code{\link{GtkImage}}}}
 \details{  Since  2.6}
 \value{[integer]  the pixel size used for named icons.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

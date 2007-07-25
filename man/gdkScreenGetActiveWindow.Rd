@@ -15,5 +15,6 @@ it is implementable on that platform.
 
   Since  2.10}
 \value{[\code{\link{GdkWindow}}]  the currently active window, or \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

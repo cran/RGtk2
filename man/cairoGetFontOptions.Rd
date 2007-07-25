@@ -12,5 +12,6 @@ A list containing the following elements:
 \item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}} object into which to store
   the retrieved options. All existing values are overwritten}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,5 +13,6 @@ then use \code{GDK_IMAGE_NORMAL}.}
 \item{\code{height}}{[integer] the height of the image in pixels.}
 }
 \value{[\code{\link{GdkImage}}] a new \code{\link{GdkImage}}, or \code{NULL} if the image could not be created.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

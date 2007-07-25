@@ -11,5 +11,6 @@ should also be used with \code{\link{gtkToolItemGetProxyMenuItem}}.}
 \item{\code{menu.item}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkMenuItem}} to be used in the overflow menu}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

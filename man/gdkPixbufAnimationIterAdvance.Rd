@@ -25,5 +25,6 @@ display, assuming the display had been rendered prior to advancing;
 if \code{TRUE}, you need to call \code{gdkAnimationIterGetPixbuf()} and update the
 display with the new pixbuf.  }
 \value{[logical]  \code{TRUE} if the image may need updating}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

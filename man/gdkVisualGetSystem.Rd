@@ -5,5 +5,6 @@
 This is the visual for the root window of the display.}
 \usage{gdkVisualGetSystem()}
 \value{[\code{\link{GdkVisual}}]  system visual}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

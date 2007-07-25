@@ -12,5 +12,6 @@ pixmap or mask; you still need to unref them if you own references.
 \item{\code{mask}}{[\code{\link{GdkBitmap}}]  a \code{\link{GdkBitmap}}, or \code{NULL}}
 }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImage}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

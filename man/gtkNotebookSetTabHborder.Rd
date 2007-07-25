@@ -10,5 +10,6 @@ Sets the width of the horizontal border of tab labels.
 \item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}
 \item{\code{tab.hborder}}{[numeric]  width of the horizontal border of tab labels.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

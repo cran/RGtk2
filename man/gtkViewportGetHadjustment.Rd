@@ -5,5 +5,6 @@
 \usage{gtkViewportGetHadjustment(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkViewport}}]  a \code{\link{GtkViewport}}.}}
 \value{[\code{\link{GtkAdjustment}}]  the horizontal adjustment of \code{viewport}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

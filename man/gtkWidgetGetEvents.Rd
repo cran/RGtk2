@@ -7,5 +7,6 @@ will receive.}
 \usage{gtkWidgetGetEvents(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \value{[integer]  event mask for \code{widget}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

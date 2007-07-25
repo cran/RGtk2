@@ -10,5 +10,6 @@ is the bitwise OR of values from the \code{\link{GdkEventMask}} enumeration.}
 \item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}
 \item{\code{event.mask}}{[\code{\link{GdkEventMask}}]  event mask for \code{window}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

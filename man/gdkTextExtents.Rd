@@ -15,5 +15,6 @@ A list containing the following elements:
 \item{\code{ascent}}{[integer]  the ascent of the string.}
 \item{\code{descent}}{[integer]  the descent of the string.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

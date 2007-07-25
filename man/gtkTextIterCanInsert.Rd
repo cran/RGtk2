@@ -13,5 +13,6 @@ whether insertions are allowed at a given position.}
 \item{\code{default.editability}}{[logical]  \code{TRUE} if text is editable by default}
 }
 \value{[logical]  whether text inserted at \code{iter} would be editable}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

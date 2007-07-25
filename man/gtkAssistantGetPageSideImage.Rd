@@ -10,5 +10,6 @@
 \details{  Since  2.10}
 \value{[\code{\link{GdkPixbuf}}]  the side image for \code{page}, or \code{NULL}
 if there's no side image for the page.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

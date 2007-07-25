@@ -8,5 +8,6 @@
 \item{\code{keyval}}{[numeric]  the mnemonic}
 \item{\code{target}}{[\code{\link{GtkWidget}}]  the widget that gets activated by the mnemonic}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

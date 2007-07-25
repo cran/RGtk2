@@ -13,5 +13,6 @@ Creates the menu items from the \code{entries}.
 \item{\code{callback.type}}{[numeric]  1 if the callback functions in \code{entries} are of type
    \code{\link{GtkItemFactoryCallback1}}, 2 if they are of type \code{\link{GtkItemFactoryCallback2}} }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

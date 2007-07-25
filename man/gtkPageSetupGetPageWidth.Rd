@@ -13,5 +13,6 @@ See \code{\link{gtkPageSetupGetPaperWidth}}.
 
   Since  2.10}
 \value{[numeric]  the page width.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

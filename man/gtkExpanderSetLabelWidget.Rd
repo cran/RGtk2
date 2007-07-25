@@ -9,5 +9,6 @@ that will appear embedded alongside the expander arrow.}
 \item{\code{label.widget}}{[\code{\link{GtkWidget}}]  the new label widget}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

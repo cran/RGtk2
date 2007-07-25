@@ -9,5 +9,6 @@ moves it will display the tooltip of the widget beneath the mouse.
 }
 \usage{gtkTipsQueryStartQuery(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTipsQuery}}] a \code{\link{GtkTipsQuery}}.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

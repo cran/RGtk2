@@ -13,5 +13,6 @@ on a column explicity disallows user-resizing of the column.
 \item{\code{column}}{[integer] The column on which to set auto-resizing.}
 \item{\code{auto.resize}}{[logical] \code{TRUE} or \code{FALSE}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

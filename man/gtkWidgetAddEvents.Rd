@@ -8,5 +8,6 @@
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{events}}{[integer]  an event mask, see \code{\link{GdkEventMask}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

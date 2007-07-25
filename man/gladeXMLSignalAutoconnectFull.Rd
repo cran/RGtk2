@@ -12,5 +12,6 @@ require gmodule to function correctly.}
 \item{\code{func}}{[\code{\link{GladeXMLConnectFunc}}]  the function used to connect the signals.}
 \item{\code{user.data}}{[R object]  arbitrary data that will be passed to the connection function.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

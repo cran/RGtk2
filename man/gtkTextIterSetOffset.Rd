@@ -8,5 +8,6 @@ of the entire text buffer, starting with 0.}
 \item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}
 \item{\code{char.offset}}{[integer]  a character number}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ A list containing the following elements:
 \item{\code{width}}{[numeric]  location to store the width set on \code{layout}, or \code{NULL}}
 \item{\code{height}}{[numeric]  location to store the height set on \code{layout}, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

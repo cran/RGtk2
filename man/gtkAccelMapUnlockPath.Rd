@@ -6,5 +6,6 @@ Refer to \code{\link{gtkAccelMapLockPath}} for information about accelerator pat
 \usage{gtkAccelMapUnlockPath(accel.path)}
 \arguments{\item{\code{accel.path}}{[character]  a valid accelerator path}}
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

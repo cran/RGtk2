@@ -16,5 +16,6 @@ A list containing the following elements:
           stored here must be freed with \code{gFree()}.}
 \item{\code{n.targets}}{[integer]  location to store number of items in \code{targets}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

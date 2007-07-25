@@ -8,5 +8,6 @@ were not found.}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the resources not found should be displayed, and
   \code{FALSE} otheriwse.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

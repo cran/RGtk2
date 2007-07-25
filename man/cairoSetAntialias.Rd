@@ -12,5 +12,6 @@ a particular value.  At the current time, no backend supports
 }
 \details{Note that this option does not affect text rendering, instead see
 \code{\link{cairoFontOptionsSetAntialias}}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -17,7 +17,7 @@
                      +----\link{GtkMisc}
                            +----GtkPixmap}}
 \section{Interfaces}{GtkPixmap implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkPixmap}} widget displays a graphical image or icon.
 The icon is typically created using \code{\link{gdkPixmapColormapCreateFromXpm}}
 or \code{\link{gdkPixmapColormapCreateFromXpmD}}.
@@ -37,6 +37,7 @@ should be accessed using the functions below.
 
 }}}
 \section{Convenient Construction}{\code{gtkPixmap} is the equivalent of \code{\link{gtkPixmapNew}}.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkPixmap.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

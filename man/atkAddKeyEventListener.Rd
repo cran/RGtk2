@@ -11,5 +11,6 @@
        along with the event notification, when it occurs.  }
 }
 \value{[numeric]  added event listener id, or 0 on failure.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

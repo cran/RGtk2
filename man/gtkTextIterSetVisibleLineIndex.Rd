@@ -9,5 +9,6 @@ in the index.}
 \item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}
 \item{\code{byte.on.line}}{[integer]  a byte index}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

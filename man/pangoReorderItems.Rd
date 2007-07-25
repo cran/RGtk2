@@ -11,5 +11,6 @@ The original list is unmodified.}
 (Please open a bug if you use this function.
  It is not a particularly convenient interface, and the code
  is duplicated elsewhere in Pango for that reason.)}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

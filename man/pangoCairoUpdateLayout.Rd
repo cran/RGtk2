@@ -10,5 +10,6 @@ and target surface of a Cairo context.}
 \item{\code{layout}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}, from \code{\link{pangoCairoCreateLayout}}}
 }
 \details{  Since  1.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

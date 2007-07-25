@@ -15,5 +15,6 @@ this function is not recommended.
 }
 \details{The \code{\link{GtkSocket}} must have already be added into a toplevel window
  before you can make this call.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

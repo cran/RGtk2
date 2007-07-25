@@ -9,5 +9,6 @@ widget or not.}
 \item{\code{is.editable}}{[logical] \code{TRUE} if the user is allowed to edit the text
   in the widget.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

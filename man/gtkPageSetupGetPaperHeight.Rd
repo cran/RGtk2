@@ -13,5 +13,6 @@ See \code{\link{gtkPageSetupGetPageHeight}}.
 
   Since  2.10}
 \value{[numeric]  the paper height.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

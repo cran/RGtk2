@@ -28,7 +28,7 @@
                                              +----GtkCheckMenuItem
                                                    +----\link{GtkRadioMenuItem}}}
 \section{Interfaces}{GtkCheckMenuItem implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{A \code{\link{GtkCheckMenuItem}} is a menu item that maintains the state of a boolean 
 value in addition to a \code{\link{GtkMenuItem}}'s usual role in activating application
 code.
@@ -45,7 +45,7 @@ an application.)
 
 }}}
 \section{Convenient Construction}{\code{gtkCheckMenuItem} is the result of collapsing the constructors of \code{GtkCheckMenuItem} (\code{\link{gtkCheckMenuItemNew}}, \code{\link{gtkCheckMenuItemNewWithLabel}}, \code{\link{gtkCheckMenuItemNewWithMnemonic}}) and accepts a subset of its arguments matching the required arguments of one of its delegate constructors.}
-\section{Signals}{\describe{\item{\code{toggled(checkmenuitem, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (checkmenuitem, user.data)}}{
 This signal is emitted when the state of the check box is changed.
   
 A signal handler can examine the \code{active} 
@@ -80,6 +80,7 @@ Whether to display an "inconsistent" state.  Default value: FALSE
 Size of check or radio indicator.  Allowed values: >= 0  Default value: 12
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkCheckMenuItem.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

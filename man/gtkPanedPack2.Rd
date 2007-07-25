@@ -9,5 +9,6 @@
 \item{\code{resize}}{[logical] should this child expand when the paned widget is resized.}
 \item{\code{shrink}}{[logical] can this child be made smaller than its requisition.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

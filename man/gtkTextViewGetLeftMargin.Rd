@@ -6,5 +6,6 @@ Tags in the buffer may override the default.}
 \usage{gtkTextViewGetLeftMargin(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}}
 \value{[integer]  left margin in pixels}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,5 +9,6 @@ quickly the value changes when the spin button's arrows are activated.}
 \item{\code{step}}{[numeric]  increment applied for a button 1 press.}
 \item{\code{page}}{[numeric]  increment applied for a button 2 press.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

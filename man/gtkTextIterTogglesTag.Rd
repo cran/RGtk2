@@ -10,5 +10,6 @@
 \item{\code{tag}}{[\code{\link{GtkTextTag}}]  a \code{\link{GtkTextTag}}, or \code{NULL}}
 }
 \value{[logical]  whether \code{tag} is toggled on or off at \code{iter}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

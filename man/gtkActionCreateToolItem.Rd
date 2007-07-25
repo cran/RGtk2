@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkAction}}]  the action object}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkWidget}}]  a toolbar item connected to the action.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

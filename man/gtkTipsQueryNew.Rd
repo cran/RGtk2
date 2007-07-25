@@ -7,5 +7,6 @@ Creates a new \code{\link{GtkTipsQuery}}.
 }
 \usage{gtkTipsQueryNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}] a new \code{\link{GtkTipsQuery}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

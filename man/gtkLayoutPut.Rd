@@ -10,5 +10,6 @@
 \item{\code{x}}{[integer]  X position of child widget}
 \item{\code{y}}{[integer]  Y position of child widget}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

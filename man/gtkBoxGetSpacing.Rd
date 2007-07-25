@@ -5,5 +5,6 @@
 \usage{gtkBoxGetSpacing(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkBox}}]  a \code{\link{GtkBox}}}}
 \value{[integer]  spacing between children}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@ wildcarded.}
 \usage{gtkIconSourceGetDirection(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconSource}}]  a \code{\link{GtkIconSource}}}}
 \value{[\code{\link{GtkTextDirection}}]  text direction this source matches}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

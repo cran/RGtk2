@@ -20,5 +20,6 @@ A list containing the following elements:
 \item{\code{width}}{[integer]  location to store icon width}
 \item{\code{height}}{[integer]  location to store icon height}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

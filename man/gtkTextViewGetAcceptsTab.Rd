@@ -6,6 +6,8 @@
 \usage{gtkTextViewGetAcceptsTab(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextView}}]  A \code{\link{GtkTextView}}}}
 \details{  Since  2.4}
-\value{[logical]  \code{TRUE} if pressing the Tab key inserts a tab character, \code{FALSE} if pressing the Tab key moves the keyboard focus.}
+\value{[logical]  \code{TRUE} if pressing the Tab key inserts a tab character, 
+  \code{FALSE} if pressing the Tab key moves the keyboard focus.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

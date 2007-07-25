@@ -9,5 +9,6 @@ destroyed if there are no other references to it.}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a \code{\link{Cairo}}}
 \item{\code{font.face}}{[\code{\link{CairoFontFace}}]  a \code{\link{CairoFontFace}}, or \code{NULL} to restore to the default font}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

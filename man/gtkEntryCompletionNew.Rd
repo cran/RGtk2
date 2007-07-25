@@ -5,5 +5,6 @@
 \usage{gtkEntryCompletionNew()}
 \details{  Since  2.4}
 \value{[\code{\link{GtkEntryCompletion}}]  A newly created \code{\link{GtkEntryCompletion}} object.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,5 +12,6 @@ so that the origin of \code{pixbuf} is \code{pixbuf.x}, \code{pixbuf.y}}
 \item{\code{pixbuf.y}}{[numeric]  Y coordinate of location to place upper left corner of \code{pixbuf}}
 }
 \details{  Since  2.8}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

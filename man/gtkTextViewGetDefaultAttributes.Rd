@@ -10,5 +10,6 @@ attributes in effect at a given text position.}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}}
 \details{.  }
 \value{[\code{\link{GtkTextAttributes}}]  a new \code{\link{GtkTextAttributes}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

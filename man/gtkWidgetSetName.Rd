@@ -12,5 +12,6 @@ same page as the docs for \code{\link{GtkRcStyle}}).}
 }
 \details{Note that widget names are separated by periods in paths (see 
 \code{\link{gtkWidgetPath}}), so names with embedded periods may cause confusion.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

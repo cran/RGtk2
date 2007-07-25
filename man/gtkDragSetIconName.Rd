@@ -15,5 +15,6 @@ loaded at the symbolic size \code{GTK_ICON_SIZE_DND}), thus
 \item{\code{hot.y}}{[integer]  the Y offset of the hotspot within the icon}
 }
 \details{  Since  2.8}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

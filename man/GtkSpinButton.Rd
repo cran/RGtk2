@@ -39,7 +39,7 @@
                      +----\link{GtkEntry}
                            +----GtkSpinButton}}
 \section{Interfaces}{GtkSpinButton implements
- AtkImplementorIface,  \code{\link{GtkCellEditable}} and  \code{\link{GtkEditable}}.}
+ \code{\link{GtkBuildable}},  AtkImplementorIface,  \code{\link{GtkCellEditable}} and  \code{\link{GtkEditable}}.}
 \section{Detailed Description}{A \code{\link{GtkSpinButton}} is an ideal way to allow the user to set the value of some 
 attribute. Rather than having to directly type a number into a \code{\link{GtkEntry}}, 
 \code{\link{GtkSpinButton}} allows the user to click on one of two arrows to increment or 
@@ -123,7 +123,7 @@ GTK\_SPIN\_USER\_DEFINED \tab The programmer must specify the exact amount to sp
 }
 }}
 \section{Signals}{\describe{
-\item{\code{change-value(spinbutton, arg1, user.data)}}{
+\item{\code{The (spinbutton, arg1, user.data)}}{
 \emph{undocumented
 }
 
@@ -135,7 +135,7 @@ GTK\_SPIN\_USER\_DEFINED \tab The programmer must specify the exact amount to sp
 
 
 }
-\item{\code{input(spinbutton, arg1, user.data)}}{
+\item{\code{The (spinbutton, arg1, user.data)}}{
 \emph{undocumented
 }
 
@@ -147,7 +147,7 @@ GTK\_SPIN\_USER\_DEFINED \tab The programmer must specify the exact amount to sp
 
 
 }
-\item{\code{output(spinbutton, user.data)}}{
+\item{\code{The (spinbutton, user.data)}}{
 \emph{undocumented
 }
 
@@ -158,7 +158,7 @@ GTK\_SPIN\_USER\_DEFINED \tab The programmer must specify the exact amount to sp
 
 
 }
-\item{\code{value-changed(spinbutton, user.data)}}{
+\item{\code{The (spinbutton, user.data)}}{
 \emph{undocumented
 }
 
@@ -169,7 +169,7 @@ GTK\_SPIN\_USER\_DEFINED \tab The programmer must specify the exact amount to sp
 
 
 }
-\item{\code{wrapped(spinbutton, user.data)}}{
+\item{\code{The (spinbutton, user.data)}}{
 The wrapped signal is emitted right after the spinbutton wraps
 from its maximum to minimum value or vice-versa.  
 
@@ -231,6 +231,7 @@ the type of border that surrounds the arrows of a spin button.
   Default value: GTK\_SHADOW\_IN
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkSpinButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

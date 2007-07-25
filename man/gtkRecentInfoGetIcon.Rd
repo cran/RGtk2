@@ -9,5 +9,6 @@
 }
 \details{  Since  2.10}
 \value{[\code{\link{GdkPixbuf}}]  a \code{\link{GdkPixbuf}} containing the icon, or \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

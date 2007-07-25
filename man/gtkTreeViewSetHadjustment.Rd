@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}}
 \item{\code{adjustment}}{[\code{\link{GtkAdjustment}}]  The \code{\link{GtkAdjustment}} to set, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

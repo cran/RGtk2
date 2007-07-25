@@ -17,5 +17,6 @@ that should be distinguished for session management purposes, you
 should set the role on those windows. It doesn't matter what string
 you use for the role, as long as you have a different role for each
 non-interchangeable kind of window.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

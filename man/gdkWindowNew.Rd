@@ -12,5 +12,6 @@ display, \code{parent} must be specified.}
 \item{\code{attributes}}{[\code{\link{GdkWindowAttr}}]  attributes of the new window}
 }
 \value{[\code{\link{GdkWindow}}]  the new \code{\link{GdkWindow}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

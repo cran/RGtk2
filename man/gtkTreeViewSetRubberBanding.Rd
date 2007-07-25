@@ -10,5 +10,6 @@ multiple rows by dragging the mouse.}
 \item{\code{enable}}{[logical]  \code{TRUE} to enable rubber banding}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

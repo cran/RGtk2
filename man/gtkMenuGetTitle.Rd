@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkMenu}}]  a \code{\link{GtkMenu}}}}
 \value{[character]  the title of the menu, or \code{NULL} if the menu has no
 title set on it.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,5 +9,6 @@
 \item{\code{limit}}{[integer]  a positive integer, or -1 for all items}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

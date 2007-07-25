@@ -8,5 +8,6 @@ layout.}
 \item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}.}
 \item{\code{spacing}}{[integer]  the amount of spacing}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,5 +14,6 @@ column 2.}
 \item{\code{attribute}}{[character]  An attribute on the renderer}
 \item{\code{column}}{[integer]  The column position on the model to get the attribute from.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

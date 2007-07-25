@@ -21,7 +21,7 @@
                                              +----GtkToggleToolButton
                                                    +----\link{GtkRadioToolButton}}}
 \section{Interfaces}{GtkToggleToolButton implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{  A \code{\link{GtkToggleToolButton}} is a \code{\link{GtkToolItem}} that contains a toggle
   button.
   
@@ -34,7 +34,7 @@
 
 }}}
 \section{Convenient Construction}{\code{gtkToggleToolButton} is the equivalent of \code{\link{gtkToggleToolButtonNew}}.}
-\section{Signals}{\describe{\item{\code{toggled(toggle.tool.button, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (toggle.tool.button, user.data)}}{
 Emitted whenever the toggle tool button changes state.  
 
 \describe{
@@ -51,6 +51,7 @@ If the toggle tool button should be pressed in or not.
   Default value: FALSE  Since  2.8
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkToggleToolButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

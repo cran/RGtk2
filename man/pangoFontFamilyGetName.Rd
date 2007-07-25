@@ -7,5 +7,6 @@ to specify that a face from this family is desired.}
 \usage{pangoFontFamilyGetName(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontFamily}}]  a \code{\link{PangoFontFamily}}}}
 \value{[char]  the name of the family.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,7 +8,7 @@ window. The default is to use visible windows.}
 \item{\code{object}}{[\code{\link{GtkEventBox}}]  a \code{\link{GtkEventBox}}}
 \item{\code{visible.window}}{[logical]  boolean value}
 }
-\details{In an invisible window event box, the window that that the
+\details{In an invisible window event box, the window that the
 event box creates is a \code{GDK_INPUT_ONLY} window, which 
 means that it is invisible and only serves to receive
 events.
@@ -40,6 +40,7 @@ that case, the event box window is actually the ancestor of the
 descendant windows, not just at the same place on the screen.  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \note{There is one unexpected issue for an invisible event box that has its
 window below the child. (See \code{\link{gtkEventBoxSetAboveChild}}.)
 Since the input-only window is not an ancestor window of any windows

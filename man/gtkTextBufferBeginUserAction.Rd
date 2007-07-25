@@ -8,9 +8,10 @@ user-visible operation. The operations between
 \code{\link{gtkTextBufferEndUserAction}} can then be grouped when creating
 an undo stack. \code{\link{GtkTextBuffer}} maintains a count of calls to
 \code{\link{gtkTextBufferBeginUserAction}} that have not been closed with
-a call to \code{\link{gtkTextBufferEndUserAction}}, and emits the "begin\_user\_action"
-and "end\_user\_action" signals only for the outermost pair of calls.
-This allows you to build user actions from other user actions.}
+a call to \code{\link{gtkTextBufferEndUserAction}}, and emits the 
+"begin\_user\_action" and "end\_user\_action" signals only for the 
+outermost pair of calls. This allows you to build user actions 
+from other user actions.}
 \usage{gtkTextBufferBeginUserAction(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}}}}
 \details{The "interactive" buffer mutation functions, such as
@@ -18,5 +19,6 @@ This allows you to build user actions from other user actions.}
 user action around the buffer operations they perform, so there's
 no need to add extra calls if you user action consists solely of a
 single call to one of those functions.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

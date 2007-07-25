@@ -127,12 +127,12 @@ contains. (See also: \code{\link{GtkVButtonBox}} and \code{\link{GtkHButtonBox}}
 
 \describe{
 \item{\code{default-style}}{Default packing.}
-\item{\code{spread}}{Buttons are evenly spread across the ButtonBox.}
-\item{\code{edge}}{Buttons are placed at the edges of the ButtonBox.}
-\item{\code{start}}{Buttons are grouped towards the start of box, (on the
-left for a HBox, or the top for a VBox).}
-\item{\code{end}}{Buttons are grouped towards the end of a box, (on the
-right for a HBox, or the bottom for a VBox).}
+\item{\code{spread}}{Buttons are evenly spread across the box.}
+\item{\code{edge}}{Buttons are placed at the edges of the box.}
+\item{\code{start}}{Buttons are grouped towards the start of the box, 
+  (on the left for a HBox, or the top for a VBox).}
+\item{\code{end}}{Buttons are grouped towards the end of the box, 
+  (on the right for a HBox, or the bottom for a VBox).}
 }
 
 }
@@ -665,6 +665,7 @@ Determines the direction of a sort.
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/gtk-Standard-Enumerations.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

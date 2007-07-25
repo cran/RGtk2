@@ -5,5 +5,6 @@
 a set of properties on some text.}
 \usage{gtkTextAttributesNew()}
 \value{[\code{\link{GtkTextAttributes}}]  a new \code{\link{GtkTextAttributes}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

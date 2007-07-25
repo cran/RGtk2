@@ -6,5 +6,6 @@ column has the expander arrow drawn next to it.}
 \usage{gtkTreeViewGetExpanderColumn(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}}}
 \value{[\code{\link{GtkTreeViewColumn}}]  The expander column.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

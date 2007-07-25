@@ -17,5 +17,6 @@ A list containing the following elements:
 \item{\code{pixmap}}{[\code{\link{GdkPixmap}}] If nonnull, the pointer to the pixmap is returned through this.}
 \item{\code{mask}}{[\code{\link{GdkBitmap}}] If nonnull, the pointer to the mask is returned through this.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ with an inappropriate license, see \code{\link{gdkPixbufFormatGetLicense}}.}
 \item{\code{disabled}}{[logical]  \code{TRUE} to disable the format \code{format}}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

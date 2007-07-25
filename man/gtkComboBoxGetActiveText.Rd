@@ -6,8 +6,9 @@ is selected.  Note that you can only use this function with combo
 boxes constructed with \code{\link{gtkComboBoxNewText}} and with 
 \code{\link{GtkComboBoxEntry}}s.}
 \usage{gtkComboBoxGetActiveText(object)}
-\arguments{\item{\code{object}}{[\code{\link{GtkComboBox}}]  A \code{\link{GtkComboBox}} constructed with \code{\link{gtkComboBoxNewText}}.}}
+\arguments{\item{\code{object}}{[\code{\link{GtkComboBox}}]  A \code{\link{GtkComboBox}} constructed with \code{\link{gtkComboBoxNewText}}}}
 \details{  Since  2.6}
 \value{[character]  a newly allocated string containing the currently active text.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

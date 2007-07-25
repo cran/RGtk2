@@ -8,5 +8,6 @@ Obtains the item factory from which a widget was created.
 \usage{gtkItemFactoryFromWidget(widget)}
 \arguments{\item{\code{widget}}{[\code{\link{GtkWidget}}]  a widget}}
 \value{[\code{\link{GtkItemFactory}}]  the item factory from which \code{widget} was created, or \code{NULL}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@ coordinates (origin at top left of the entire layout).}
 \usage{pangoLayoutIterGetBaseline(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoLayoutIter}}]  a \code{\link{PangoLayoutIter}}}}
 \value{[integer]  baseline of current line.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

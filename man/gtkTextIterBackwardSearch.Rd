@@ -15,5 +15,6 @@ A list containing the following elements:
 \item{\code{match.start}}{[\code{\link{GtkTextIter}}]  return location for start of match, or \code{NULL}}
 \item{\code{match.end}}{[\code{\link{GtkTextIter}}]  return location for end of match, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -42,7 +42,7 @@
 
 
 }}}
-\section{Signals}{\describe{\item{\code{changed(object, accel.path, accel.key, accel.mods, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (object, accel.path, accel.key, accel.mods, user.data)}}{
 Notifies of a change in the global accelerator map.
 The path is also used as the detail for the signal,
 so it is possible to connect to
@@ -60,6 +60,7 @@ changed::\\var{accel\_path}.
 
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/gtk-Accelerator-Maps.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

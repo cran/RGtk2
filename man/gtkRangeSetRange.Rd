@@ -10,5 +10,6 @@ page size, it is clamped between \code{min} and \code{max} - page-size.)}
 \item{\code{min}}{[numeric]  minimum range value}
 \item{\code{max}}{[numeric]  maximum range value}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

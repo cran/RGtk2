@@ -7,5 +7,6 @@ Remove \code{cmap} with \code{\link{gtkWidgetPopColormap}}. There's little
 reason to use this function.}
 \usage{gtkWidgetPushColormap(cmap)}
 \arguments{\item{\code{cmap}}{[\code{\link{GdkColormap}}]  a \code{\link{GdkColormap}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

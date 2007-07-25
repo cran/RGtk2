@@ -13,5 +13,6 @@ provide a \code{\link{GdkPixbuf}}.}
 \details{  Since  2.6}
 \value{[logical]  \code{TRUE} if \code{selection.data} holds a list of targets,
   and a suitable target for images is included, otherwise \code{FALSE}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

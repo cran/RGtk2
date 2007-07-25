@@ -5,7 +5,8 @@
 \usage{gtkTextBufferCopyClipboard(object, clipboard)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}} }
-\item{\code{clipboard}}{[\code{\link{GtkClipboard}}]  the \code{\link{GtkClipboard}} object to copy to.}
+\item{\code{clipboard}}{[\code{\link{GtkClipboard}}]  the \code{\link{GtkClipboard}} object to copy to}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

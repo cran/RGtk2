@@ -10,5 +10,6 @@ for \code{window}. See \code{\link{gdkWindowShapeCombineMask}}.}
 \details{This function is distinct from \code{\link{gdkWindowSetChildShapes}}
 because it includes \code{window}'s shape mask in the set of shapes to
 be merged.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

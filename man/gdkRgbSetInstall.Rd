@@ -9,5 +9,6 @@ sufficient cube cannot be allocated.}
 \arguments{\item{\code{install}}{[logical] \code{TRUE} to set install mode.}}
 \details{A private colormap has more colors, leading to better quality display,
 but also leads to the dreaded "colormap flashing" effect.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

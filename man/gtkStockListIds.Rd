@@ -5,5 +5,6 @@
 or registered with \code{\link{gtkStockAdd}}.}
 \usage{gtkStockListIds()}
 \value{[list]  a list of known stock IDs}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

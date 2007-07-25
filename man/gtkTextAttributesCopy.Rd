@@ -5,5 +5,6 @@
 \usage{gtkTextAttributesCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextAttributes}}]  a \code{\link{GtkTextAttributes}} to be copied}}
 \value{[\code{\link{GtkTextAttributes}}]  a copy of \code{src}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

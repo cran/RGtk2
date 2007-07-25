@@ -10,5 +10,6 @@
 \item{\code{limit}}{[\code{\link{GtkTextIter}}]  search limit, or \code{NULL} for none}
 }
 \value{[logical]  whether a match was found}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

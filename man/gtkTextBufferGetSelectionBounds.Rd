@@ -15,5 +15,6 @@ A list containing the following elements:
 \item{\code{start}}{[\code{\link{GtkTextIter}}]  iterator to initialize with selection start}
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  iterator to initialize with selection end}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

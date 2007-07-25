@@ -16,5 +16,6 @@ the individual monitor within the entire screen area.}
 A list containing the following elements:
 \item{\code{dest}}{[\code{\link{GdkRectangle}}]  a \code{\link{GdkRectangle}} to be filled with the monitor geometry}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

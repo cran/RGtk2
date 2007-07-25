@@ -22,5 +22,6 @@ A list containing the following elements:
 \item{retval}{[\code{\link{GdkPixbufLoader}}]  A newly-created pixbuf loader.}
 \item{\code{error}}{[\code{\link{GError}}]  return location for an allocated \code{\link{GError}}, or \code{NULL} to ignore errors}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

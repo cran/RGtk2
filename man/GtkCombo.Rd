@@ -23,7 +23,7 @@
                                  +----\link{GtkHBox}
                                        +----GtkCombo}}
 \section{Interfaces}{GtkCombo implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkCombo}} widget consists of a single-line text entry field and a drop-down
 list. The drop-down list is displayed when the user clicks on a small arrow
 button to the right of the entry field.
@@ -114,6 +114,7 @@ Whether entered values must already be present in the list.  Default value: FALS
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkCombo.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

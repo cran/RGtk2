@@ -11,5 +11,6 @@ closest approximation, in the case of limited visuals).
 \item{\code{gc}}{[\code{\link{GdkGC}}] The \code{\link{GdkGC}} to modify.}
 \item{\code{rgb}}{[numeric] The color, represented as a 0xRRGGBB integer value.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

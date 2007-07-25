@@ -8,5 +8,6 @@ types a file name that already exists.}
 \details{  Since  2.8}
 \value{[logical]  \code{TRUE} if the file chooser will present a confirmation dialog;
 \code{FALSE} otherwise.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

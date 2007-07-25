@@ -274,6 +274,7 @@ the fonts in a fontset.
 \emph{Returns:} [logical]  if \code{TRUE}, stop iteration and return immediately.
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/pango/pango-Fonts.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,5 +9,6 @@
 \code{surface} is not an image surface). The stride is the distance in
 bytes from the beginning of one row of the image data to the
 beginning of the next row.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

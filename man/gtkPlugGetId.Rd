@@ -7,5 +7,6 @@ instance with \code{\link{gtkSocketAddId}}.}
 \usage{gtkPlugGetId(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkPlug}}]  a \code{\link{GtkPlug}}.}}
 \value{[\code{\link{GdkNativeWindow}}]  the window ID for the plug}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

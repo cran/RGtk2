@@ -64,8 +64,7 @@ The \command{gdk-pixbuf} interfaces needed for implementing modules are containe
 \file{gdk-pixbuf-animation.h} if the module supports animations).
 They are not covered by the same stability guarantees as the regular 
 \command{gdk-pixbuf} API. To underline this fact, they are protected by 
-\code{\emph{undocumented
-}}.}
+\code{#ifdef GDK_PIXBUF_ENABLE_BACKEND}.}
 \section{Structures}{\describe{\item{\code{GdkPixbufFormat}}{
 A \code{\link{GdkPixbufFormat}} contains information about the image format accepted by a
 module. Only modules should access the fields directly, applications should
@@ -168,6 +167,7 @@ signal.
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk-pixbuf/gdk-pixbuf-Module-Interface.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

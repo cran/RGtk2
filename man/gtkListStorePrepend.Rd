@@ -9,5 +9,6 @@ values, you need to call \code{\link{gtkListStoreSet}} or \code{\link{gtkListSto
 \item{\code{object}}{[\code{\link{GtkListStore}}]  A \code{\link{GtkListStore}}}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  An unset \code{\link{GtkTreeIter}} to set to the prepend row}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

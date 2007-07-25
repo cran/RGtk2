@@ -8,5 +8,6 @@
 \item{\code{descendant}}{[\code{\link{GtkTreePath}}]  another \code{\link{GtkTreePath}}}
 }
 \value{[logical]  \code{TRUE} if \code{descendant} is contained inside \code{path}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

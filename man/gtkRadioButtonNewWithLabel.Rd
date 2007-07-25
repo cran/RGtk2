@@ -9,5 +9,6 @@ group.}
 \item{\code{label}}{[character] the text label to display next to the radio button.}
 }
 \value{[\code{\link{GtkWidget}}] a new radio button.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

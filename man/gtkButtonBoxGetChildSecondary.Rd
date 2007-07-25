@@ -9,5 +9,6 @@
 }
 \details{  Since  2.4}
 \value{[logical]  whether \code{child} should appear in a secondary group of children.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

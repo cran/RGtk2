@@ -11,5 +11,6 @@ the target list. All targets are added with the same \code{info}.}
   how to convert a pixbuf into the format}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@ font options object}
 \usage{cairoFontOptionsStatus(options)}
 \arguments{\item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}}}
 \value{[\code{\link{CairoStatus}}]  \code{CAIRO_STATUS_SUCCESS} or \code{CAIRO_STATUS_NO_MEMORY}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

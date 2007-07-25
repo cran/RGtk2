@@ -10,5 +10,6 @@ See \code{\link{pangoLayoutSetEllipsize}}}
 
 Use \code{\link{pangoLayoutIsEllipsized}} to query whether any paragraphs
 were actually ellipsized.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,5 +13,6 @@ saving during an accelerator map dump).}
 \item{\code{foreach.func}}{[\code{\link{GtkAccelMapForeach}}]  function to be executed for each accel map entry which
                is not filtered out}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

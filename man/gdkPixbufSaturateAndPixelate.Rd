@@ -16,5 +16,6 @@ rowstride.}
 \item{\code{saturation}}{[numeric]  saturation factor}
 \item{\code{pixelate}}{[logical]  whether to pixelate}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

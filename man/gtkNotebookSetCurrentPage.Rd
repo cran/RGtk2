@@ -14,5 +14,6 @@
 to switch to a page unless the child widget is visible. 
 Therefore, it is recommended to show child widgets before
 adding them to a notebook.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

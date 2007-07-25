@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \details{  Since  2.8}
 \value{[logical]  \code{TRUE} if window is urgent}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

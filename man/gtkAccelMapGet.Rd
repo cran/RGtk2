@@ -8,5 +8,6 @@ other accelerator map functions.}
 \usage{gtkAccelMapGet()}
 \details{  Since  2.4}
 \value{[\code{\link{GtkAccelMap}}]  the global \code{\link{GtkAccelMap}} object}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

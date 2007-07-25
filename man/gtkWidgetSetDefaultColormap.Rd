@@ -6,5 +6,6 @@
 you only want to affect a few widgets, rather than all widgets.}
 \usage{gtkWidgetSetDefaultColormap(colormap)}
 \arguments{\item{\code{colormap}}{[\code{\link{GdkColormap}}]  a \code{\link{GdkColormap}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

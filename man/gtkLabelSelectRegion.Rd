@@ -11,5 +11,6 @@ this function has no effect. If \code{start.offset} or
 \item{\code{start.offset}}{[integer]  start offset (in characters not bytes)}
 \item{\code{end.offset}}{[integer]  end offset (in characters not bytes)}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

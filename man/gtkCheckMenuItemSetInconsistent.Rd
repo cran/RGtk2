@@ -14,5 +14,6 @@ visual appearance, it doesn't affect the semantics of the widget.}
 \item{\code{object}}{[\code{\link{GtkCheckMenuItem}}]  a \code{\link{GtkCheckMenuItem}}}
 \item{\code{setting}}{[logical]  \code{TRUE} to display an "inconsistent" third state check}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

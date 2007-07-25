@@ -13,5 +13,6 @@ to modify the contents of the run (glyphs, glyph widths, etc.).
 
   Since  1.16}
 \value{[PangoLayoutRun]  the current run, that should not be modified.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

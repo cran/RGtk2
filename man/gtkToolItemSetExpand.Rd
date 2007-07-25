@@ -11,5 +11,6 @@ and smaller when the toolbar gets smaller.}
 \item{\code{expand}}{[logical]  Whether \code{tool.item} is allocated extra space}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

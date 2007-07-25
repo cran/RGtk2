@@ -12,5 +12,6 @@ among multiple \code{\link{GtkRecentChooser}} widgets.
 
   Since  2.10}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkRecentChooserMenu}}, bound to \code{manager}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

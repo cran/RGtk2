@@ -12,5 +12,6 @@
 \item{\code{y}}{[integer] }
 }
 \value{[logical] True if the given coordinates lie on an expander button.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

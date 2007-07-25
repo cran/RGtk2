@@ -11,5 +11,6 @@ with text \code{text}. If you want the action item to have markup, use
 \item{\code{text}}{[character]  Text of the item to insert.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

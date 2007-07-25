@@ -8,5 +8,6 @@ widget.}
 \item{\code{object}}{[\code{\link{GtkWidget}}]     a \code{\link{GtkWidget}}}
 \item{\code{selection}}{[\code{\link{GdkAtom}}]  an atom representing a selection}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@
 \usage{gtkFrameGetShadowType(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkFrame}}]  a \code{\link{GtkFrame}}}}
 \value{[\code{\link{GtkShadowType}}]  the current shadow type of the frame.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

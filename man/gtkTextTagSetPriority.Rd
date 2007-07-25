@@ -17,5 +17,6 @@ automatically.}
 \item{\code{object}}{[\code{\link{GtkTextTag}}]  a \code{\link{GtkTextTag}}}
 \item{\code{priority}}{[integer]  the new priority}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

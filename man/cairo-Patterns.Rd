@@ -121,6 +121,7 @@ color. It may be opaque or translucent.}
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-Patterns.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

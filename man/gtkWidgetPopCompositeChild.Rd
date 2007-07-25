@@ -3,5 +3,6 @@
 \title{gtkWidgetPopCompositeChild}
 \description{Cancels the effect of a previous call to \code{\link{gtkWidgetPushCompositeChild}}.}
 \usage{gtkWidgetPopCompositeChild()}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

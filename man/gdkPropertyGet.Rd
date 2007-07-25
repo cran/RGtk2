@@ -41,6 +41,7 @@ A list containing the following elements:
        data should be freed with \code{gFree()} when you are finished
        using it.}
 }
+\section{encoding}{UTF-8}
 \note{The \code{xgetwindowproperty()} function that \code{\link{gdkPropertyGet}}
 uses has a very confusing and complicated set of semantics.  
 Unfortunately, \code{\link{gdkPropertyGet}} makes the situation

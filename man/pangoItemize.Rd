@@ -23,5 +23,6 @@ range before or containing \code{start.index}; \code{cached.iter} will be advanc
 the range covering the position just after \code{start.index} + \code{length}.
 (i.e. if itemizing in a loop, just keep passing in the same \code{cached.iter}).  }
 \value{[list]  a \code{list} of \code{\link{PangoItem}} structures.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

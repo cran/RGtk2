@@ -12,5 +12,6 @@ interested in whether there was an intersection.}
 \item{\code{intersection}}{[\code{\link{GdkRectangle}}]  rectangle to store intersection of \code{widget} and \code{area}}
 }
 \value{[logical]  \code{TRUE} if there was an intersection}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

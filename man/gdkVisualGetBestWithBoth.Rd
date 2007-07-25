@@ -8,5 +8,6 @@
 \item{\code{visual.type}}{[\code{\link{GdkVisualType}}]  a visual type}
 }
 \value{[\code{\link{GdkVisual}}]  best visual with both \code{depth} and \code{visual.type}, or \code{NULL} if none}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

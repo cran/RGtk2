@@ -19,5 +19,6 @@ A list containing the following elements:
 \item{\code{keyvals}}{[numeric]  return location for list of keyvals, or NULL}
 \item{\code{n.entries}}{[integer]  length of \code{keys} and \code{keyvals}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

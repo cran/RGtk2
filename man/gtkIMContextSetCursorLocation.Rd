@@ -9,5 +9,6 @@ window.}
 \item{\code{object}}{[\code{\link{GtkIMContext}}]  a \code{\link{GtkIMContext}}}
 \item{\code{area}}{[\code{\link{GdkRectangle}}]  new location}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

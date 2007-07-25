@@ -5,5 +5,6 @@
 \usage{gtkButtonBoxGetLayout(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkButtonBox}}] a \code{\link{GtkButtonBox}}.}}
 \value{[\code{\link{GtkButtonBoxStyle}}] the method used to layout buttons in \code{widget}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

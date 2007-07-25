@@ -18,5 +18,6 @@ A list containing the following elements:
 otherwise.  In the latter case, the \code{error} will be set as appropriate.}
 \item{\code{error}}{[\code{\link{GError}}]  location to store error, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

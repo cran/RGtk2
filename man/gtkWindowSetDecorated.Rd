@@ -16,5 +16,6 @@ already visible, so you should call it before calling \code{gtkWindowShow()}.}
 }
 \details{On Windows, this function always works, since there's no window manager
 policy involved.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

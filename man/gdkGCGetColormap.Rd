@@ -8,5 +8,6 @@ gdk\_gc\_set\_colormap.}
 \usage{gdkGCGetColormap(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}}}
 \value{[\code{\link{GdkColormap}}]  the colormap of \code{gc}, or \code{NULL} if \code{gc} doesn't have one.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@ currently loading image file.}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbufLoader}}]  A pixbuf loader.}}
 \details{  Since  2.2}
 \value{[\code{\link{GdkPixbufFormat}}]  A \code{\link{GdkPixbufFormat}} or \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

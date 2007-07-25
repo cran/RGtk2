@@ -19,7 +19,7 @@
                            +----\link{GtkBin}
                                  +----GtkEventBox}}
 \section{Interfaces}{GtkEventBox implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkEventBox}} widget is a subclass of \code{\link{GtkBin}} which also has its own window.
 It is useful since it allows you to catch events for widgets which do not
 have their own window.}
@@ -41,6 +41,7 @@ Whether the event box is visible, as opposed to invisible and only used to trap 
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkEventBox.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

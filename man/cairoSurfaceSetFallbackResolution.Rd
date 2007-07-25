@@ -29,5 +29,6 @@ there is currently no way to have more than one fallback resolution
 in effect on a single page.  
 
   Since  1.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

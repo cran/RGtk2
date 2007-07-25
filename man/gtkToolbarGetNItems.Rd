@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}}}
 \details{  Since  2.4}
 \value{[integer]  the number of items on the toolbar}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

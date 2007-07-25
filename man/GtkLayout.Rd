@@ -24,7 +24,7 @@
                      +----\link{GtkContainer}
                            +----GtkLayout}}
 \section{Interfaces}{GtkLayout implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{\code{\link{GtkLayout}} is similar to \code{\link{GtkDrawingArea}} in that it's a "blank slate"
 and doesn't do anything but paint a blank background by default. It's
 different in that it supports scrolling natively (you can add it to a
@@ -44,7 +44,7 @@ area.}
 
 }}}
 \section{Convenient Construction}{\code{gtkLayout} is the equivalent of \code{\link{gtkLayoutNew}}.}
-\section{Signals}{\describe{\item{\code{set-scroll-adjustments(layout, arg1, arg2, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (layout, arg1, arg2, user.data)}}{
 \emph{undocumented
 }
 
@@ -79,6 +79,7 @@ The width of the layout.  Allowed values: <= G\_MAXINT  Default value: 100
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkLayout.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

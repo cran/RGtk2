@@ -13,5 +13,6 @@ standard policy for its semantic type.}
 \item{\code{modal}}{[logical]  \code{TRUE} to skip the taskbar}
 }
 \details{  Since  2.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

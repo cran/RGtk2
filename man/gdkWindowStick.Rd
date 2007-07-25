@@ -11,5 +11,6 @@ support, so may have no effect with many window managers. However,
 GDK will do the best it can to convince the window manager to stick
 the window. For window managers that don't support this operation,
 there's nothing you can do to force it to happen.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -1,9 +1,11 @@
 \alias{gtkLabelGetLineWrap}
 \name{gtkLabelGetLineWrap}
 \title{gtkLabelGetLineWrap}
-\description{Returns whether lines in the label are automatically wrapped. See \code{\link{gtkLabelSetLineWrap}}.}
+\description{Returns whether lines in the label are automatically wrapped. 
+See \code{\link{gtkLabelSetLineWrap}}.}
 \usage{gtkLabelGetLineWrap(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}}
 \value{[logical]  \code{TRUE} if the lines of the label are automatically wrapped.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

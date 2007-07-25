@@ -15,5 +15,6 @@ cairo.}
 \item{\code{slant}}{[\code{\link{CairoFontSlant}}]  the slant for the font}
 \item{\code{weight}}{[\code{\link{CairoFontWeight}}]  the weight for the font}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

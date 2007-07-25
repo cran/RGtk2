@@ -5,5 +5,6 @@
 \usage{gtkRangeGetUpdatePolicy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkRange}}]  a \code{\link{GtkRange}}}}
 \value{[\code{\link{GtkUpdateType}}]  the current update policy}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

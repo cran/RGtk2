@@ -13,5 +13,6 @@ must not write to it.
 A list containing the following elements:
 \item{\code{str}}{[character] The reference to the pointer you want to point to the text.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

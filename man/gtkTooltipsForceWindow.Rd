@@ -1,10 +1,14 @@
 \alias{gtkTooltipsForceWindow}
 \name{gtkTooltipsForceWindow}
 \title{gtkTooltipsForceWindow}
-\description{Ensures that the window used for displaying the given \code{tooltips} is created.}
+\description{
+Ensures that the window used for displaying the given \code{tooltips} is created.
+\strong{WARNING: \code{gtk_tooltips_force_window} has been deprecated since version 2.12 and should not be used in newly-written code. }
+}
 \usage{gtkTooltipsForceWindow(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTooltips}}] a \code{GtkToolTips}}}
 \details{Applications should never have to call this function, since GTK+ takes
 care of this.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

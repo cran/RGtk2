@@ -7,5 +7,6 @@ compare to \code{event->window} to confirm that the event on
 \usage{gtkTreeViewGetBinWindow(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}}}
 \value{[\code{\link{GdkWindow}}]  A \code{\link{GdkWindow}}, or \code{NULL} when \code{tree.view} hasn't been realized yet}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

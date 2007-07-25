@@ -1,7 +1,9 @@
 \alias{gdkDisplayAddClientMessageFilter}
 \name{gdkDisplayAddClientMessageFilter}
 \title{gdkDisplayAddClientMessageFilter}
-\description{Adds a filter to be called when X ClientMessage events are received.}
+\description{Adds a filter to be called when X ClientMessage events are received.
+See \code{\link{gdkWindowAddFilter}} if you are interested in filtering other
+types of events.}
 \usage{gdkDisplayAddClientMessageFilter(object, message.type, func, data)}
 \arguments{
 \item{\code{object}}{[\code{\link{GdkDisplay}}]  a \code{\link{GdkDisplay}} for which this message filter applies}
@@ -12,5 +14,6 @@
 \item{\code{data}}{[R object]  user data to pass to \code{func}.}
 }
 \details{  Since  2.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

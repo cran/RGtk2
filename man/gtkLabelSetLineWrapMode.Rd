@@ -10,5 +10,6 @@ wrap on word boundaries.}
 \item{\code{wrap.mode}}{[\code{\link{PangoWrapMode}}]  the line wrapping mode}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

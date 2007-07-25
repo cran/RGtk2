@@ -10,6 +10,7 @@
 \code{\link{cairoPsSurfaceDscBeginPageSetup}(surface)}\cr
 \code{\link{cairoPsSurfaceDscComment}(surface, comment)}\cr
 }
+\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-PostScript-Surfaces.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

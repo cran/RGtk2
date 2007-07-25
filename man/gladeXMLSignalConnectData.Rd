@@ -14,5 +14,6 @@ all signals in the GladeXML file with the given signal handler name.}
 \details{It differs from glade\_xml\_signal\_connect since it allows you to
 specify the data parameter for the signal handler.  It is also a small
 demonstration of how to use glade\_xml\_signal\_connect\_full.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

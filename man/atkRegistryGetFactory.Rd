@@ -10,5 +10,6 @@ appropriate for \code{type}.}
 }
 \value{[\code{\link{AtkObjectFactory}}]  an \code{\link{AtkObjectFactory}} appropriate for creating \code{AtkObjects}
 appropriate for \code{type}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

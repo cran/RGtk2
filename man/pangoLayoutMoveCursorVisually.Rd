@@ -42,5 +42,6 @@ A list containing the following elements:
                of the preceding line. \code{new.index} is always on the line
                where the cursor should be displayed.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

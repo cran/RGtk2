@@ -11,5 +11,6 @@ Finds the node pointer given a \code{\link{GtkCTreeRow}} structure.
 \item{\code{ctree.row}}{[\code{\link{GtkCTreeRow}}] }
 }
 \value{[\code{\link{GtkCTreeNode}}] The node pointer.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

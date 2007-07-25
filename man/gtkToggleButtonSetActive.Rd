@@ -9,5 +9,6 @@ This action causes the toggled signal to be emitted.}
 \item{\code{object}}{[\code{\link{GtkToggleButton}}] a \code{\link{GtkToggleButton}}.}
 \item{\code{is.active}}{[logical] \code{TRUE} or \code{FALSE}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

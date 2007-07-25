@@ -30,5 +30,6 @@ A list containing the following elements:
  the icon. \code{NULL} if the icon isn't found.}
 \item{\code{error}}{[\code{\link{GError}}]  Location to store error information on failure, or \code{NULL}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -16,5 +16,6 @@ A list containing the following elements:
 \item{\code{logical.widths}}{[integer]  a list whose length is g\_utf8\_strlen (text, length)
                  to be filled in with the resulting character widths.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

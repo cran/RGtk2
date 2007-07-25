@@ -7,5 +7,6 @@ or \code{\link{gtkClipboardSetWithData}},
 and when the \code{clear.func} you supplied is called. Otherwise.}
 \usage{gtkClipboardClear(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkClipboard}}]   a \code{\link{GtkClipboard}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -21,5 +21,6 @@ to (\code{x2},\code{y2}) then (\code{x1}+\code{dx1},\code{y1}+\code{dy1}) will t
 (\code{x1}+\code{dx2},\code{y1}+\code{dy2}) for all values of \code{x1} and \code{x2}.  
 
   Since  1.16}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

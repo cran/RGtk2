@@ -14,5 +14,6 @@ the font description.}
 be set on a \code{\link{PangoContext}}.  
 
   Since  1.16}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

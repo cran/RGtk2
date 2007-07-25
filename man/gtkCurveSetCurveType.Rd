@@ -9,5 +9,6 @@ curve will be changed as little as possible.}
 \item{\code{object}}{[\code{\link{GtkCurve}}] a \code{\link{GtkCurve}}.}
 \item{\code{type}}{[\code{\link{GtkCurveType}}] the type of the curve.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

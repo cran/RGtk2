@@ -18,5 +18,6 @@ rightmost, uppermost and lower column and row numbers of the table.
 \details{Note that this function is not related to \code{\link{gtkMenuDetach}}.  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

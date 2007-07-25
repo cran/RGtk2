@@ -14,5 +14,6 @@ no text was deleted.}
 \item{\code{default.editable}}{[logical]  whether the buffer is editable by default}
 }
 \value{[logical]  whether some text was actually deleted}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

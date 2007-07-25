@@ -14,5 +14,6 @@ A list containing the following elements:
 \item{\code{x}}{[integer]  X coordinate of window}
 \item{\code{y}}{[integer]  Y coordinate of window}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

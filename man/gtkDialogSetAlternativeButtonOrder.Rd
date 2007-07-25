@@ -1,9 +1,10 @@
 \alias{gtkDialogSetAlternativeButtonOrder}
 \name{gtkDialogSetAlternativeButtonOrder}
 \title{gtkDialogSetAlternativeButtonOrder}
-\description{Sets an alternative button order. If the gtk-alternative-button-order 
-setting is set to \code{TRUE}, the dialog buttons are reordered according to 
-the order of the response ids passed to this function.}
+\description{Sets an alternative button order. If the 
+\code{:gtk-alternative-button-order} setting is set to \code{TRUE}, 
+the dialog buttons are reordered according to the order of the 
+response ids passed to this function.}
 \usage{gtkDialogSetAlternativeButtonOrder(object, ...)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkDialog}}]  a \code{\link{GtkDialog}}}
@@ -30,5 +31,6 @@ dialog$setAlternativeButtonOrder("ok", "cancel", "help")
 }  
 
   Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

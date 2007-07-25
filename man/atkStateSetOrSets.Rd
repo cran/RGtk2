@@ -9,5 +9,6 @@
 }
 \value{[\code{\link{AtkStateSet}}]  a new \code{\link{AtkStateSet}} which is the union of the two sets,
 returning \code{NULL} is empty.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

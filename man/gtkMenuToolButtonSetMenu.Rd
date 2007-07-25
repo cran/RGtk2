@@ -9,5 +9,6 @@ If \code{menu} is NULL, the arrow button becomes insensitive.}
 \item{\code{menu}}{[\code{\link{GtkWidget}}]  the \code{\link{GtkMenu}} associated with \code{\link{GtkMenuToolButton}}}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

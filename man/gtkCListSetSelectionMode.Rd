@@ -14,5 +14,6 @@ items in the \code{\link{GtkCList}} to become deselected.
 \item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}
 \item{\code{mode}}{[\code{\link{GtkSelectionMode}}] The GtkSelectionMode type to set for this CList.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

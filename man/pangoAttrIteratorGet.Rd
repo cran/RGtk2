@@ -13,5 +13,6 @@ is used.}
 \value{[\code{\link{PangoAttribute}}]  the current attribute of the given type, or \code{NULL}
               if no attribute of that type applies to the current
               location.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

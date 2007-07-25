@@ -12,5 +12,6 @@ an option to create a new folder might be shown if the action is
 \item{\code{action}}{[\code{\link{GtkFileChooserAction}}]  the action that the file selector is performing}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

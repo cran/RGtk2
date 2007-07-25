@@ -16,5 +16,6 @@ and receive events on the event box.}
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
 \item{\code{events}}{[integer]  event mask}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

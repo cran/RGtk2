@@ -8,5 +8,6 @@
 \value{[character]  if the selection data contains a list of
   URIs, a newly allocated string list
   containing the URIs, otherwise \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

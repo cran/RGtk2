@@ -9,5 +9,6 @@ then it will unset the old model.}
 \item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{GtkTreeNode}.}
 \item{\code{model}}{[\code{\link{GtkTreeModel}}]  The model.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

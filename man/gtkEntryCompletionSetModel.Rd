@@ -10,5 +10,6 @@ If model is \code{NULL}, then it will unset the model.}
 \item{\code{model}}{[\code{\link{GtkTreeModel}}]  The \code{\link{GtkTreeModel}}.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

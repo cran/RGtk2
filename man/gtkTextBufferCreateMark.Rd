@@ -17,12 +17,13 @@ side of the text you're typing).}
 \item{\code{where}}{[\code{\link{GtkTextIter}}]  location to place mark}
 \item{\code{left.gravity}}{[logical]  whether the mark has left gravity}
 }
-\details{The caller of this function does \emph{not} own a reference
-to the returned \code{\link{GtkTextMark}}, so you can ignore the return value
-if you like.
+\details{The caller of this function does \emph{not} own a 
+reference to the returned \code{\link{GtkTextMark}}, so you can ignore the 
+return value if you like.
   
 Emits the "mark\_set" signal as notification of the mark's initial
 placement.  }
 \value{[\code{\link{GtkTextMark}}]  the new \code{\link{GtkTextMark}} object}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

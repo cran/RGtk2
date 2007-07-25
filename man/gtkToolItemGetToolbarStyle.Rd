@@ -18,5 +18,6 @@ the toolbar is displayed and change themselves accordingly }
   Since  2.4}
 \value{[\code{\link{GtkToolbarStyle}}]  A \code{\link{GtkToolbarStyle}} indicating the toolbar style used
 for \code{tool.item}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

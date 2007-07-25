@@ -9,5 +9,6 @@ returned pixbuf.}
 \usage{gtkImageGetPixbuf(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkImage}}]  a \code{\link{GtkImage}}}}
 \value{[\code{\link{GdkPixbuf}}]  the displayed pixbuf, or \code{NULL} if the image is empty}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

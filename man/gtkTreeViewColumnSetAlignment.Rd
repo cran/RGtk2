@@ -9,5 +9,6 @@ for center, 1.0 for right.}
 \item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}.}
 \item{\code{xalign}}{[numeric]  The alignment, which is between [0.0 and 1.0] inclusive.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

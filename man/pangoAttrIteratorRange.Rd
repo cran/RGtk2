@@ -13,5 +13,6 @@ A list containing the following elements:
 \item{\code{start}}{[integer]  location to store the start of the range}
 \item{\code{end}}{[integer]  location to store the end of the range}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

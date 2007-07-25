@@ -22,7 +22,7 @@
                                        +----\link{GtkMenuItem}
                                              +----GtkImageMenuItem}}
 \section{Interfaces}{GtkImageMenuItem implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{A GtkImageMenuItem is a menu item which has an icon next to the text label.
   
 Note that the user can disable display of menu icons, so make sure to still
@@ -38,6 +38,7 @@ fill in the text label.}
 Child widget to appear next to the menu text.
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkImageMenuItem.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

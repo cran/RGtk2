@@ -7,5 +7,6 @@
 \details{  Since  1.2}
 \value{[\code{\link{CairoFontFace}}]  The \code{\link{CairoFontFace}} with which \code{scaled.font} was
 created.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

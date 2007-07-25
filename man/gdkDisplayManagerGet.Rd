@@ -6,5 +6,6 @@
 \usage{gdkDisplayManagerGet()}
 \details{  Since  2.2}
 \value{[\code{\link{GdkDisplayManager}}]  the singleton \code{\link{GdkDisplayManager}} object.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,5 +14,6 @@ a "selection\_received" signal will be generated.}
 \value{[logical]  \code{TRUE} if requested succeeded. \code{FALSE} if we could not process
          request. (e.g., there was already a request in process for
          this widget).}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

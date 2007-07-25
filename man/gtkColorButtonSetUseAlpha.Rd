@@ -8,5 +8,6 @@
 \item{\code{use.alpha}}{[logical]  \code{TRUE} if color button should use alpha channel, \code{FALSE} if not.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

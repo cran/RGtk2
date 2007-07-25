@@ -10,5 +10,6 @@
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  end of range}
 }
 \value{[logical]  \code{TRUE} if \code{iter} is in the range}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

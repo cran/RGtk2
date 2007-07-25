@@ -102,7 +102,7 @@ R_gObjectTypeName(USER_OBJECT_ sobj)
 USER_OBJECT_
 R_gTypeFromName(USER_OBJECT_ name)
 {
-    char *val;
+    const gchar *val;
     GType type;
     val = CHAR_DEREF(STRING_ELT(name, 0));
     type = g_type_from_name(val);
@@ -331,8 +331,8 @@ R_gObjectNew(USER_OBJECT_ stype, USER_OBJECT_ svals)
 	GParameter *params = g_new0(GParameter, n);
 	GObjectClass *class = g_type_class_ref(type);
 	GObject *ans;
-
-	USER_OBJECT_ result = NULL_USER_OBJECT;
+  
+  USER_OBJECT_ result = NULL_USER_OBJECT;
     
     for(i = 0; i < n; i++) {
 		params[i].name = CHAR_DEREF(STRING_ELT(argNames, i));
@@ -341,8 +341,9 @@ R_gObjectNew(USER_OBJECT_ stype, USER_OBJECT_ svals)
 
 	ans = g_object_newv(type, n, params);
 	g_free(params);
-  if (g_type_is_a(type, G_TYPE_INITIALLY_UNOWNED))
-    result = toRPointerWithSink(ans, "GInitiallyUnowned");
+  
+  if (g_type_is_a(type, g_type_from_name(UNOWNED_TYPE_NAME)))
+    result = toRPointerWithSink(ans, UNOWNED_TYPE_NAME);
 	else result = toRPointerWithFinalizer(ans, "GObject", g_object_unref);
 	
   g_type_class_unref(class);
@@ -448,7 +449,7 @@ param_sexp_validate(GParamSpec *pspec, GValue *value)
 {
   USER_OBJECT_ sexp = g_value_get_boxed(value);
   SEXPTYPE type = ((RGtkParamSpecSexp *)pspec)->s_type;
-  /* FIXME: Do we want to allow NULL here? */
+  /* FIXME: Need to check inheritance for S4 types */
   if (!sexp || (/*sexp != NULL_USER_OBJECT && */TYPEOF(sexp) != type && type != ANYSXP)) {
     g_value_set_boxed(value, ((RGtkParamSpecSexp *)pspec)->default_value);
     return TRUE;
@@ -962,7 +963,7 @@ R_gSignalEmit(USER_OBJECT_ sobj, USER_OBJECT_ signal, USER_OBJECT_ sargs)
     GQuark detail;
     USER_OBJECT_ ans = NULL_USER_OBJECT;
     guint sigId;
-    char *sigName;
+    const gchar *sigName;
     GSignalQuery query;
 
     obj = G_OBJECT(getPtrValue(sobj));
@@ -1482,7 +1483,7 @@ asRGValue(const GValue *value)
 
       case G_TYPE_OBJECT:
       case G_TYPE_INTERFACE:
-        if (G_VALUE_HOLDS(value, G_TYPE_INITIALLY_UNOWNED))
+        if (G_VALUE_HOLDS(value, g_type_from_name(UNOWNED_TYPE_NAME)))
           ans = toRPointerWithSink(g_value_get_object(value), G_VALUE_TYPE_NAME(value));
         else ans = toRPointerWithRef(g_value_get_object(value), G_VALUE_TYPE_NAME(value));
       break;
@@ -1632,11 +1633,11 @@ asCGValue(USER_OBJECT_ sval)
 }
 
 void 
-R_g_initially_unowned_destroyed(GInitiallyUnowned *val, USER_OBJECT_ s_val)
+R_g_initially_unowned_destroyed(GObject *val, USER_OBJECT_ s_val)
 {
 	SET_CLASS(s_val, asRString("<invalid>"));
 	R_ClearExternalPtr(s_val);
-	g_object_unref(G_OBJECT(val));
+	g_object_unref(val);
 }
 
 void R_g_initially_unowned_finalizer(USER_OBJECT_ extptr) {
@@ -1667,7 +1668,7 @@ toRPointerWithSink(void *val, const char *type) {
 		g_object_ref_sink(G_INITIALLY_UNOWNED(val));
     #else
     g_object_ref(G_OBJECT(val));
-    gtk_object_sink(GTK_OBJECT(val));
+    gtk_object_sink(val);
     #endif
     g_signal_connect(G_OBJECT(val), "destroy", 
       G_CALLBACK(R_g_initially_unowned_destroyed), s_val);

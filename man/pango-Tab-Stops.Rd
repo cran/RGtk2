@@ -28,6 +28,7 @@ A \code{\link{PangoTabAlign}} specifies where a tab stop appears relative to the
 \describe{\item{\code{left}}{the tab stop appears to the left of the text.}}
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/pango/pango-Tab-Stops.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

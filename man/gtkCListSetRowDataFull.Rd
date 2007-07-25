@@ -11,5 +11,6 @@ Sets the data for specified row, with a callback when the row is destroyed.
 \item{\code{row}}{[integer] The row to affect.}
 \item{\code{data}}{[R object] The data to set for the row.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

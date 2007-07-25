@@ -7,5 +7,6 @@ for the currently loaded RC file settings. }
 \usage{gtkWidgetResetRcStyles(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}] a \code{\link{GtkWidget}}.}}
 \details{This function is not useful for applications.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

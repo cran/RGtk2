@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{AtkTable}}]  a GObject instance that implements AtkTableInterface}}
 \value{[\code{\link{AtkObject}}]  a AtkObject* representing the table caption, or \code{NULL}
 if value does not implement this interface.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

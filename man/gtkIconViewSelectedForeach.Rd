@@ -10,5 +10,6 @@ selection cannot be modified from within this function.}
 \item{\code{data}}{[R object]  User data to pass to the function.}
 }
 \details{  Since  2.6 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

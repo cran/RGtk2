@@ -34,5 +34,6 @@ it had prior to hiding, rather than using the default size.
   
 Windows can't actually be 0x0 in size, they must be at least 1x1, but
 passing 0 for \code{width} and \code{height} is OK, resulting in a 1x1 default size.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

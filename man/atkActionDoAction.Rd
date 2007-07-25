@@ -8,5 +8,6 @@
 \item{\code{i}}{[integer]  the action index corresponding to the action to be performed }
 }
 \value{[logical]  \code{TRUE} if success, \code{FALSE} otherwise}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

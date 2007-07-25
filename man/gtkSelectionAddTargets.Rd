@@ -9,5 +9,6 @@ for a given widget and selection.}
 \item{\code{selection}}{[\code{\link{GdkAtom}}]  the selection}
 \item{\code{targets}}{[\code{\link{GtkTargetEntry}}]  a table of targets to add}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ for a particular name.}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if \code{icon.theme} includes an
  icon for \code{icon.name}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

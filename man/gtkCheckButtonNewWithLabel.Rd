@@ -5,5 +5,6 @@
 \usage{gtkCheckButtonNewWithLabel(label, show = TRUE)}
 \arguments{\item{\code{label}}{[character] the text for the check button.}}
 \value{[\code{\link{GtkWidget}}] a \code{\link{GtkWidget}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

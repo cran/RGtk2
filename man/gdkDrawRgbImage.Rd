@@ -28,5 +28,6 @@ In general, for 0 <= i < \code{width} and 0 <= j < height,
 the pixel (x + i, y + j) is colored with red value \code{rgb.buf}[\code{j} *
 \code{rowstride} + \code{i} * 3], green value \code{rgb.buf}[\code{j} * \code{rowstride} + \code{i} * 3 +
 1], and blue value \code{rgb.buf}[\code{j} * \code{rowstride} + \code{i} * 3 + 2].}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

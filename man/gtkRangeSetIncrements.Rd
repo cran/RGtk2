@@ -11,5 +11,6 @@ is used for example when moving via Page Up or Page Down keys.}
 \item{\code{step}}{[numeric]  step size}
 \item{\code{page}}{[numeric]  page size}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

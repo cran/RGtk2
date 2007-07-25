@@ -11,5 +11,6 @@ Gets the widget in the column header for the specified column.
 \item{\code{column}}{[integer] The column to query.}
 }
 \value{[\code{\link{GtkWidget}}] Pointer to a \code{\link{GtkWidget}} for the column header.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

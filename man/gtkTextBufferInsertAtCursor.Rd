@@ -9,5 +9,6 @@ cursor position as the insertion point.}
 \item{\code{text}}{[character]  some text in UTF-8 format}
 \item{\code{len}}{[integer]  length of text, in bytes}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

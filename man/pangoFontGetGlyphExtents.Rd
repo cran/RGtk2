@@ -20,5 +20,6 @@ A list containing the following elements:
 \item{\code{logical.rect}}{[\code{\link{PangoRectangle}}]  rectangle used to store the logical extents of the glyph
            or \code{NULL} to indicate that the result is not needed.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

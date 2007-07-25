@@ -9,5 +9,6 @@
 \item{\code{x}}{[integer]  X position to move to}
 \item{\code{y}}{[integer]  Y position to move to}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

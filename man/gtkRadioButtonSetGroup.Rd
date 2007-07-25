@@ -11,5 +11,6 @@ changes.}
 \item{\code{group}}{[list] an existing radio button group, such as one returned from
 \code{\link{gtkRadioButtonGetGroup}}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

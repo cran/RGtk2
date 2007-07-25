@@ -5,5 +5,6 @@
 \usage{gtkWidgetGetParent(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \value{[\code{\link{GtkWidget}}]  the parent container of \code{widget}, or \code{NULL}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,5 +12,6 @@ Gets the current style of the specified cell.
 \item{\code{column}}{[integer] The column of the cell.}
 }
 \value{[\code{\link{GtkStyle}}] A \code{\link{GtkStyle}} object.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

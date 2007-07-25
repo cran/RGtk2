@@ -10,5 +10,6 @@ Removes the specified row from the CList.
 \item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}
 \item{\code{row}}{[integer] The row to remove.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

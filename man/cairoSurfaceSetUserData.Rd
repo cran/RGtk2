@@ -12,5 +12,6 @@ for \code{data}.}
 }
 \value{[\code{\link{CairoStatus}}]  \code{CAIRO_STATUS_SUCCESS} or \code{CAIRO_STATUS_NO_MEMORY} if a
 slot could not be allocated for the user data.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@
 \item{\code{time.}}{[numeric]  a timestap (e.g. \code{GDK_CURRENT_TIME}).}
 }
 \details{  Since  2.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

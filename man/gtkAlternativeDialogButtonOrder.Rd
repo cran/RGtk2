@@ -14,5 +14,6 @@ notified if the button order setting changes.
 
   Since  2.6}
 \value{[logical]  Whether the alternative button order should be used}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

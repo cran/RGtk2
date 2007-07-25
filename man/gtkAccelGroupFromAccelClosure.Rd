@@ -6,5 +6,6 @@ see \code{\link{gtkAccelGroupConnect}}.}
 \usage{gtkAccelGroupFromAccelClosure(closure)}
 \arguments{\item{\code{closure}}{[\code{\link{GClosure}}]  a \code{\link{GClosure}}}}
 \value{[\code{\link{GtkAccelGroup}}]  the \code{\link{GtkAccelGroup}} to which \code{closure} is connected, or \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

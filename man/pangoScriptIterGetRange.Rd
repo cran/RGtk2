@@ -13,5 +13,6 @@ A list containing the following elements:
 \item{\code{end}}{[char]  location to store end position of the range, or \code{NULL}}
 \item{\code{script}}{[\code{\link{PangoScript}}]  location to store script for range, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

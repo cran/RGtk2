@@ -15,5 +15,6 @@ this function.
 
   Since  1.4}
 \value{[\code{\link{CairoRectangleList}}]  the current clip region as a list of rectangles in user coordinates.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,5 +9,6 @@ either \code{region} or \code{rect}.}
 \item{\code{object}}{[\code{\link{GdkRegion}}]  a \code{\link{GdkRegion}}.}
 \item{\code{rect}}{[\code{\link{GdkRectangle}}]  a \code{\link{GdkRectangle}}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

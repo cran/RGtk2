@@ -7,5 +7,6 @@ Causes the specified \code{\link{GtkCList}} to allow visual updates.
 }
 \usage{gtkCListThaw(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to thaw.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -19,5 +19,6 @@ The storage type (\code{\link{gtkImageGetStorageType}}) of the returned
 image is not defined, it will be whatever is appropriate for
 displaying the file.  }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImage}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

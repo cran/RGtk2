@@ -72,6 +72,10 @@
 \code{\link{gtkPrintSettingsSetFinishings}(object, finishings)}\cr
 \code{\link{gtkPrintSettingsGetOutputBin}(object)}\cr
 \code{\link{gtkPrintSettingsSetOutputBin}(object, output.bin)}\cr
+\code{\link{gtkPrintSettingsNewFromFile}(file.name, .errwarn = TRUE)}\cr
+\code{\link{gtkPrintSettingsNewFromKeyFile}(key.file, group.name, .errwarn = TRUE)}\cr
+\code{\link{gtkPrintSettingsToFile}(object, file.name, .errwarn = TRUE)}\cr
+\code{\link{gtkPrintSettingsToKeyFile}(object, key.file, group.name)}\cr
 \code{gtkPrintSettings()}
 }
 \section{Hierarchy}{\preformatted{  \link{GObject}
@@ -195,6 +199,7 @@ Printing support was added in GTK+ 2.10.}
 
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkPrintSettings.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

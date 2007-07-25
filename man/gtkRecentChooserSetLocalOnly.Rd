@@ -11,5 +11,6 @@ to be accessible through the operating system native file system.}
 \item{\code{local.only}}{[logical]  \code{TRUE} if only local files can be shown}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

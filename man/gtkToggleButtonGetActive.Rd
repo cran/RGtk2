@@ -6,5 +6,6 @@ the toggle button is pressed in and \code{FALSE} if it is raised.}
 \usage{gtkToggleButtonGetActive(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkToggleButton}}] a \code{\link{GtkToggleButton}}.}}
 \value{[logical] a \code{logical} value.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

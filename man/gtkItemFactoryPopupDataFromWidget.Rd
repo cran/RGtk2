@@ -12,5 +12,6 @@ is popped down again.
 \value{[R object]  \code{popup.data} associated with the item factory from
   which \code{widget} was created, or \code{NULL} if \code{widget} wasn't created
   by an item factory}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

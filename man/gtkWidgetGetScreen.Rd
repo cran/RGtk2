@@ -13,5 +13,6 @@ free those resources when the widget is unrealized.
 
   Since  2.2}
 \value{[\code{\link{GdkScreen}}]  the \code{\link{GdkScreen}} for the toplevel for this widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,5 +18,6 @@ changes to the screen's font rendering settings.
 
   Since  2.2}
 \value{[\code{\link{PangoContext}}]  a new \code{\link{PangoContext}} for \code{screen}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ call this function.}
 \arguments{\item{\code{object}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}.}}
 \details{  Since  2.2}
 \value{[\code{\link{GdkColormap}}]  the preferred colormap}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@ multiple selection.}
 \usage{gtkRecentChooserSelectAll(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentChooser}}]  a \code{\link{GtkRecentChooser}}}}
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

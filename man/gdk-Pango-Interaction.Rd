@@ -16,6 +16,7 @@
 \code{\link{gdkPangoContextGet}()}\cr
 \code{\link{gdkPangoContextGetForScreen}(screen)}\cr
 \code{\link{gdkPangoContextSetColormap}(context, colormap)}\cr
+\code{\link{gdkPangoAttrEmbossColorNew}(color)}\cr
 \code{\link{gdkPangoAttrEmbossedNew}(embossed)}\cr
 \code{\link{gdkPangoAttrStippleNew}(stipple)}\cr
 \code{\link{gdkPangoLayoutGetClipRegion}(layout, x.origin, index.ranges)}\cr
@@ -179,6 +180,7 @@ rendering the text.
 the GdkScreen for the renderer.
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-Pango-Interaction.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

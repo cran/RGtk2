@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentChooser}}]  a \code{\link{GtkRecentChooser}}}}
 \details{  Since  2.10}
 \value{[list]  A singly linked list of \code{\link{GtkRecentFilter}} objects.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

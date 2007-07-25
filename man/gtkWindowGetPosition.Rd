@@ -43,5 +43,6 @@ A list containing the following elements:
 \item{\code{root.x}}{[integer]  return location for X coordinate of gravity-determined reference p\\oint}
 \item{\code{root.y}}{[integer]  return location for Y coordinate of gravity-determined reference p\\oint}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

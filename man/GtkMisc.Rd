@@ -19,7 +19,7 @@
                            +----\link{GtkImage}
                            +----\link{GtkPixmap}}}
 \section{Interfaces}{GtkMisc implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkMisc}} widget is an abstract widget which is not useful itself, but
 is used to derive subclasses which have alignment and padding attributes.
   
@@ -67,6 +67,7 @@ The amount of space to add on the top and bottom of the widget, in pixels.  Allo
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkMisc.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,5 +9,6 @@ meaningless at other times.}
 \arguments{\item{\code{object}}{[\code{\link{GdkDragContext}}]  a \code{\link{GdkDragContext}}}}
 \details{  Since  2.6}
 \value{[logical]  \code{TRUE} if the drop was successful.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@ language. See \code{\link{gtkExpanderSetUseMarkup}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkExpander}}]  a \code{\link{GtkExpander}}}}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the label's text will be parsed for markup}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@
 \value{[\code{\link{AtkAttributeSet}}]  An AtkAttributeSet containing the explicitly
          set name-value-pair attributes associated with this document
          as a whole.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

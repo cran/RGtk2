@@ -8,5 +8,6 @@ they should use.}
 \arguments{\item{\code{object}}{[\code{\link{GtkToolItem}}]  a \code{\link{gtkToolItem}}}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkIconSize}}]  a \code{\link{GtkIconSize}} indicating the icon size used for \code{tool.item}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ See \code{\link{pangoFontDescriptionSetSize}}.}
   previously been set or it has been set to 0 explicitly.
   Use \code{\link{pangoFontDescriptionGetSetFields}} to
   find out if the field was explicitly set or not.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@
 \value{[\code{\link{PangoFontDescription}}]  a pointer to the layout's font description,
  or \code{NULL} if the font description from the layout's
  context is inherited.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

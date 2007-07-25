@@ -15,7 +15,7 @@
                            +----\link{GtkPaned}
                                  +----GtkHPaned}}
 \section{Interfaces}{GtkHPaned implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{The HPaned widget is a container widget with two
 children arranged horizontally. The division between
 the two panes is adjustable by the user by dragging
@@ -26,6 +26,7 @@ a handle. See \code{\link{GtkPaned}} for details.}
 
 }}}
 \section{Convenient Construction}{\code{gtkHPaned} is the equivalent of \code{\link{gtkHPanedNew}}.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkHPaned.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

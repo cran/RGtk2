@@ -8,5 +8,6 @@ See also \code{\link{gtkActionGetProxies}}.}
 \details{  Since  2.10}
 \value{[\code{\link{GtkAction}}]  the action that a widget is a proxy for, or
  \code{NULL}, if it is not attached to an action.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

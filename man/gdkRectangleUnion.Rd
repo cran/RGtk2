@@ -14,5 +14,6 @@ It is allowed for \code{dest} to be the same as either \code{src1} or \code{src2
 A list containing the following elements:
 \item{\code{dest}}{[\code{\link{GdkRectangle}}]  return location for the union of \code{src1} and \code{src2}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

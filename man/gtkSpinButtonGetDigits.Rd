@@ -5,5 +5,6 @@
 \usage{gtkSpinButtonGetDigits(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}}}}
 \value{[numeric]  the current precision}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

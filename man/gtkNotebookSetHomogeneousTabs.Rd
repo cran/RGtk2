@@ -10,5 +10,6 @@ Sets whether the tabs must have all the same size or not.
 \item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}
 \item{\code{homogeneous}}{[logical]  \code{TRUE} if all tabs should be the same size.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

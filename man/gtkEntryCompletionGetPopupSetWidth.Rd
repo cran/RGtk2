@@ -8,5 +8,6 @@ width of the entry.}
 \details{  Since  2.8}
 \value{[logical]  \code{TRUE} if the popup window will be resized to the width of 
   the entry}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

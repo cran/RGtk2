@@ -15,5 +15,6 @@ characters (discarding the high bytes) before output.
 \item{\code{x}}{[integer]  the x coordinate of the left edge of the text.}
 \item{\code{text}}{[numeric]  the wide characters to draw.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

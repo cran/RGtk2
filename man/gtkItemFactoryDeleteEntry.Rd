@@ -11,5 +11,6 @@ item factory.
 \item{\code{object}}{[\code{\link{GtkItemFactory}}]  a \code{\link{GtkItemFactory}}}
 \item{\code{entry}}{[\code{\link{GtkItemFactoryEntry}}]  a \code{\link{GtkItemFactoryEntry}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

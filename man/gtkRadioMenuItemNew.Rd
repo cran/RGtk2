@@ -5,5 +5,6 @@
 \usage{gtkRadioMenuItemNew(group = NULL, show = TRUE)}
 \arguments{\item{\code{group}}{[list] the group to which the radio menu item is to be attached}}
 \value{[\code{\link{GtkWidget}}] a new \code{\link{GtkRadioMenuItem}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

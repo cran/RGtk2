@@ -11,5 +11,6 @@ user-configured setting.}
 \item{\code{msec}}{[numeric]  double click time in milliseconds (thousandths of a second) }
 }
 \details{  Since  2.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

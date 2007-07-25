@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkComboBoxEntry}}]  A \code{\link{GtkComboBoxEntry}}.}}
 \details{  Since  2.4}
 \value{[integer]  A column in the data source model of \code{entry.box}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ then it has no inverse and this function will fail.}
 \details{Returns: If \code{matrix} has an inverse, modifies \code{matrix} to
  be the inverse matrix and returns \code{CAIRO_STATUS_SUCCESS}. Otherwise,  }
 \value{[\code{\link{CairoStatus}}] \code{CAIRO_STATUS_INVALID_MATRIX}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

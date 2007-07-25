@@ -15,5 +15,6 @@ creating a attribute list in order (potentially much slower
 for large lists). However, \code{\link{pangoAttrListInsert}} is not
 suitable for continually changing a set of attributes
 since it never removes or combines existing attributes.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

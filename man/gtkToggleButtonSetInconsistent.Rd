@@ -14,5 +14,6 @@ visual appearance, it doesn't affect the semantics of the button.}
 \item{\code{object}}{[\code{\link{GtkToggleButton}}]  a \code{\link{GtkToggleButton}}}
 \item{\code{setting}}{[logical]  \code{TRUE} if state is inconsistent}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

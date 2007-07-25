@@ -13,5 +13,6 @@ Inserts a widget in the toolbar at the given position.
 \item{\code{tooltip.private.text}}{[char]  used for context-sensitive help about this toolbar element.}
 \item{\code{position}}{[integer]  the number of widgets to insert this widget after.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

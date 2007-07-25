@@ -9,5 +9,6 @@ meaningful order.}
 \usage{gtkTextIterGetMarks(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[list]  list of \code{\link{GtkTextMark}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

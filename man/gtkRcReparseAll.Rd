@@ -6,5 +6,6 @@ default \code{\link{GtkSettings}} has changed, discard all style information
 and then reread all previously read RC files.}
 \usage{gtkRcReparseAll()}
 \value{[logical]   \code{TRUE} if the files were reread.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

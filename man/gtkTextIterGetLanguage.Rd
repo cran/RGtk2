@@ -8,5 +8,6 @@ language apply to \code{iter}, the return value is identical to that of
 \usage{gtkTextIterGetLanguage(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[\code{\link{PangoLanguage}}]  language in effect at \code{iter}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

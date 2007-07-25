@@ -8,5 +8,6 @@ window group.}
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}, or \code{NULL}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkWindowGroup}}]  the \code{\link{GtkWindowGroup}} for a window or the default group}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

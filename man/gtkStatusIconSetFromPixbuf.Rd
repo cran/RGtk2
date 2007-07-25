@@ -9,5 +9,6 @@ See \code{\link{gtkStatusIconNewFromPixbuf}} for details.}
 \item{\code{pixbuf}}{[\code{\link{GdkPixbuf}}]  a \code{\link{GdkPixbuf}} or \code{NULL}}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

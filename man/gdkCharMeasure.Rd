@@ -14,5 +14,6 @@ portion when drawing text in multiple pieces.
 \item{\code{character}}{[character]  the character to measure.}
 }
 \value{[integer]  the right bearing of the character in pixels.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

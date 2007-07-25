@@ -13,5 +13,6 @@ reason to use this facility.}
 \details{This function is not multihead safe. For multihead operation,
 see \code{\link{gdkDisplaySetPointerHooks}}.  }
 \value{[GdkPointerHooks]  the previous pointer hook table}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -15,5 +15,6 @@ A list containing the following elements:
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  Return location for the current cursor path, or \code{NULL}}
 \item{\code{cell}}{[\code{\link{GtkCellRenderer}}]  Return location the current focus cell, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

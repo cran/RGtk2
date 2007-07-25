@@ -11,5 +11,6 @@ pixel positions, in combination with \code{\link{gtkEntryGetLayoutOffsets}}.}
 \code{\link{gtkEntryTextIndexToLayoutIndex}} are needed to convert byte
 indices in the layout to byte indices in the entry contents.  }
 \value{[\code{\link{PangoLayout}}]  the \code{\link{PangoLayout}} for this entry}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

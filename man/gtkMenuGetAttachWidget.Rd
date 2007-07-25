@@ -5,5 +5,6 @@
 \usage{gtkMenuGetAttachWidget(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkMenu}}] a \code{\link{GtkMenu}}.}}
 \value{[\code{\link{GtkWidget}}] the \code{\link{GtkWidget}} that the menu is attached to.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,5 +13,6 @@ older one.}
 \item{\code{func}}{[\code{\link{GtkTreeCellDataFunc}}]  The \code{GtkTreeViewColumnFunc} to use. }
 \item{\code{func.data}}{[R object]  The user data for \code{func}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

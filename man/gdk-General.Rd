@@ -5,6 +5,7 @@
 \description{Library initialization and miscellaneous functions}
 \section{Methods and Functions}{
 \code{\link{gdkNotifyStartupComplete}()}\cr
+\code{\link{gdkNotifyStartupCompleteWithId}(id)}\cr
 \code{\link{gdkGetProgramClass}()}\cr
 \code{\link{gdkSetProgramClass}(program.class)}\cr
 \code{\link{gdkGetDisplay}()}\cr
@@ -38,6 +39,7 @@ success or the reason for the failure of the grab attempt.
 }
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-General.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

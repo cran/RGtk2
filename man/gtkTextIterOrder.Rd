@@ -12,5 +12,6 @@ that expect a pre-sorted range.}
 \item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}
 \item{\code{second}}{[\code{\link{GtkTextIter}}]  another \code{\link{GtkTextIter}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

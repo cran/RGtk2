@@ -5,5 +5,6 @@
 \usage{pangoCairoFontMapGetDefault()}
 \details{  Since  1.10}
 \value{[\code{\link{PangoFontMap}}]  the default Cairo fontmap for \code{\link{Pango}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

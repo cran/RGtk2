@@ -13,5 +13,6 @@ and Alt in any value you pass to this function.}
 \arguments{\item{\code{default.mod.mask}}{[\code{\link{GdkModifierType}}]  accelerator modifier mask}}
 \details{The default mod mask should be changed on application startup,
 before using any accelerator groups.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

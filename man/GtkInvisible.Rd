@@ -16,7 +16,7 @@
                +----\link{GtkWidget}
                      +----GtkInvisible}}
 \section{Interfaces}{GtkInvisible implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkInvisible}} widget is used internally in GTK+, and is probably not 
 very useful for application developers.
   
@@ -32,6 +32,7 @@ The \code{\link{GtkInvisible}} struct contains no public fields.
 The screen where this window will be displayed.
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkInvisible.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

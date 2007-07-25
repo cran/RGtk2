@@ -7,5 +7,6 @@ The hash value is independent of \code{desc->mask}.}
 \usage{pangoFontDescriptionHash(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}}
 \value{[numeric]  the hash value.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

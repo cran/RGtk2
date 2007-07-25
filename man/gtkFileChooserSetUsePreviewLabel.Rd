@@ -13,5 +13,6 @@ display the name themselves in their preview widget.}
 \details{See also: \code{\link{gtkFileChooserSetPreviewWidget}}  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

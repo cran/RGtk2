@@ -14,5 +14,6 @@ the move will reliably succeed.}
 }
 \details{If you're also planning to resize the window, use \code{\link{gdkWindowMoveResize}}
 to both move and resize simultaneously, for a nicer visual effect.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

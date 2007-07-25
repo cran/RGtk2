@@ -8,5 +8,6 @@
 \item{\code{overwrite}}{[logical]  \code{TRUE} to turn on overwrite mode, \code{FALSE} to turn it off}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

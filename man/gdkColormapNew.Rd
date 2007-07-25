@@ -10,5 +10,6 @@ a private colormap, and all colors in it will be
 allocated for the applications use.}
 }
 \value{[\code{\link{GdkColormap}}]  the new \code{\link{GdkColormap}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

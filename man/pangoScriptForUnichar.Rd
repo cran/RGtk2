@@ -9,5 +9,6 @@ result is undefined.}
 \arguments{\item{\code{ch}}{[numeric]  a Unicode character}}
 \details{  Since  1.4}
 \value{[\code{\link{PangoScript}}]  the \code{\link{PangoScript}} for the character.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

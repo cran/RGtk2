@@ -11,5 +11,6 @@ object type}
 }
 \value{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}} that implements an accessibility interface
 on behalf of \code{obj}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -24,5 +24,6 @@ pixel, subsequent draws to the window should have \code{ydith} = 1.
 Setting the dither alignment correctly allows updating of small parts
 of the screen while avoiding visible "seams" between the different
 dither textures.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

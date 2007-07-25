@@ -8,5 +8,6 @@ provide text.}
 \arguments{\item{\code{object}}{[\code{\link{GtkSelectionData}}]  a \code{\link{GtkSelectionData}} object}}
 \value{[logical]  \code{TRUE} if \code{selection.data} holds a list of targets,
   and a suitable target for text is included, otherwise \code{FALSE}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

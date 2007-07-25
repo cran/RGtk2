@@ -17,5 +17,6 @@ the toolbox back in the same place.
 If a window already has a unique title, you don't need to set the
 role, since the WM can use the title to identify the window when
 restoring the session.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

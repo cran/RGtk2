@@ -7,5 +7,6 @@ recently used resource represented by \code{info}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentInfo}}]  a \code{\link{GtkRecentInfo}}}}
 \details{  Since  2.10}
 \value{[character]  an application name.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ primarily for performance reasons.}
 }
 \details{For more information on what this means, see \code{\link{gtkTreeModelRefNode}}.
 Please note that nodes that are deleted are not unreffed.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

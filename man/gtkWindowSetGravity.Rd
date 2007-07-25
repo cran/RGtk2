@@ -11,5 +11,6 @@ more details.}
 }
 \details{The default window gravity is \code{GDK_GRAVITY_NORTH_WEST} which will
 typically "do what you mean."  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

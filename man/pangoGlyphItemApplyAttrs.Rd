@@ -26,5 +26,6 @@ as one of the elements in the list.
   Since  1.2}
 \value{[list]  a list of glyph items resulting from splitting
   \code{glyph.item}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

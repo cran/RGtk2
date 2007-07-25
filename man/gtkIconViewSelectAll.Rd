@@ -6,5 +6,6 @@ to \code{GTK_SELECTION_MULTIPLE}.}
 \usage{gtkIconViewSelectAll(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconView}}]  A \code{\link{GtkIconView}}.}}
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

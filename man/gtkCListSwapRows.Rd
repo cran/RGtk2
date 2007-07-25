@@ -11,5 +11,6 @@ Swaps the two specified rows with each other.
 \item{\code{row1}}{[integer] Number of the first row.}
 \item{\code{row2}}{[integer] Number of the second row.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

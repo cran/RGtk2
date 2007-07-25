@@ -17,5 +17,6 @@ with the new \code{icon.set}.}
 \item{\code{stock.id}}{[character]  icon name}
 \item{\code{icon.set}}{[\code{\link{GtkIconSet}}]  icon set}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

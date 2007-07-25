@@ -9,5 +9,6 @@
 \item{\code{y}}{[integer] the y coordinate of the pixel to set.}
 \item{\code{pixel}}{[numeric] the pixel value to set.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

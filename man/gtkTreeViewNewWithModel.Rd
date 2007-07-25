@@ -5,5 +5,6 @@
 \usage{gtkTreeViewNewWithModel(model = NULL, show = TRUE)}
 \arguments{\item{\code{model}}{[\code{\link{GtkTreeModel}}]  the model.}}
 \value{[\code{\link{GtkWidget}}]  A newly created \code{\link{GtkTreeView}} widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

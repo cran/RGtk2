@@ -8,5 +8,6 @@
 \item{\code{type}}{[\code{\link{AtkStateType}}]  an \code{\link{AtkStateType}}}
 }
 \value{[logical]  \code{TRUE} if \code{type} is the state type is in \code{set}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

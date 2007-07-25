@@ -6,5 +6,6 @@ in Pango units.}
 \usage{pangoTabArrayGetPositionsInPixels(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoTabArray}}]  a \code{\link{PangoTabArray}}}}
 \value{[logical]  whether positions are in pixels.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@
 \arguments{\item{\code{object}}{[\code{\link{AtkComponent}}]  an \code{\link{AtkComponent}}}}
 \details{  Since  ATK 1.12}
 \value{[numeric]  An alpha value from 0 to 1.0, inclusive.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

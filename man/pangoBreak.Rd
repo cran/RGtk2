@@ -13,5 +13,6 @@ purposes you may want to use \code{\link{pangoGetLogAttrs}}.}
 A list containing the following elements:
 \item{\code{attrs}}{[\code{\link{PangoLogAttr}}]      a list to store character information in}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ overflow menu.}
 \item{\code{show.arrow}}{[logical]  Whether to show an overflow menu}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

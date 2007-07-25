@@ -13,5 +13,6 @@ Sets the vertical and horizontal shift of the specified cell.
 \item{\code{vertical}}{[integer] The value to set for the vertical shift.}
 \item{\code{horizontal}}{[integer] The value to set for the vertical shift.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

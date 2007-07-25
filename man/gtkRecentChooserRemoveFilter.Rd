@@ -8,5 +8,6 @@
 \item{\code{filter}}{[\code{\link{GtkRecentFilter}}]  a \code{\link{GtkRecentFilter}}}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

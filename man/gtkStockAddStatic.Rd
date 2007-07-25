@@ -5,5 +5,6 @@
 \code{items} must persist until application exit.}
 \usage{gtkStockAddStatic(items)}
 \arguments{\item{\code{items}}{[\code{\link{GtkStockItem}}]  a \code{\link{GtkStockItem}} or list of \code{\link{GtkStockItem}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

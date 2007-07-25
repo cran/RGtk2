@@ -18,5 +18,6 @@ there was no loader for the file's format, there was not enough memory to
 allocate the image buffer, or the image file contained invalid data.}
 \item{\code{error}}{[\code{\link{GError}}]  return location for error}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

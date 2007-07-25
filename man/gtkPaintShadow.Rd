@@ -18,5 +18,6 @@ using the given style and state and shadow type.}
 \item{\code{width}}{[integer]  width of the rectangle }
 \item{\code{height}}{[integer]  width of the rectangle }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

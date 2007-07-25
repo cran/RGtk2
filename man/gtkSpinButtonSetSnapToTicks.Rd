@@ -8,5 +8,6 @@ increment when a spin button is activated after providing an invalid value.}
 \item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}} }
 \item{\code{snap.to.ticks}}{[logical]  a flag indicating if invalid values should be corrected.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

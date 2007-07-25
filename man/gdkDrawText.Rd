@@ -15,5 +15,6 @@ Draws a number of characters in the given font or fontset.
 \item{\code{text}}{[character]   the characters to draw.}
 \item{\code{text.length}}{[integer]  the number of characters of \code{text} to draw.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

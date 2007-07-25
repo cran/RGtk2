@@ -16,5 +16,6 @@ description will be set to 0.}
 \usage{pangoFontDescriptionFromString(str)}
 \arguments{\item{\code{str}}{[char]  string representation of a font description.}}
 \value{[\code{\link{PangoFontDescription}}]  a new \code{\link{PangoFontDescription}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

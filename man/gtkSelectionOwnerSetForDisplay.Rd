@@ -12,5 +12,6 @@ if \code{widget} is \code{NULL}, release ownership of the selection.}
 }
 \details{  Since  2.2}
 \value{[logical]  TRUE if the operation succeeded }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

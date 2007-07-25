@@ -8,5 +8,6 @@ A toplevel window is a child of the root window (see
 \usage{gdkWindowGetToplevels()}
 \details{.  }
 \value{[list]  list of toplevel windows}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

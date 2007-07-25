@@ -8,5 +8,6 @@
 \value{[\code{\link{GdkPixbuf}}]  if the selection data contained a recognized
   image type and it could be converted to a \code{\link{GdkPixbuf}}, a 
   newly allocated pixbuf is returned, otherwise \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@ size in points.}
 \arguments{\item{\code{object}}{[\code{\link{PangoFont}}]  a \code{\link{PangoFont}}}}
 \details{  Since  1.14}
 \value{[\code{\link{PangoFontDescription}}]  a newly-allocated \code{\link{PangoFontDescription}} object.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

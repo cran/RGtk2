@@ -6,5 +6,6 @@ returns \code{GDK_CURRENT_TIME}. If \code{event} is \code{NULL}, returns \code{G
 \usage{gdkEventGetTime(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkEvent}}]  a \code{\link{GdkEvent}}}}
 \value{[numeric]  time stamp field from \code{event}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

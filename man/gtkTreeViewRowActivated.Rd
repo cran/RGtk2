@@ -8,5 +8,6 @@
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  The \code{\link{GtkTreePath}} to be activated.}
 \item{\code{column}}{[\code{\link{GtkTreeViewColumn}}]  The \code{\link{GtkTreeViewColumn}} to be activated.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

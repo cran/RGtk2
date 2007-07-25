@@ -9,5 +9,6 @@ both \code{source1} and \code{source2}.}
 \item{\code{object}}{[\code{\link{GdkRegion}}]  a \code{\link{GdkRegion}}}
 \item{\code{source2}}{[\code{\link{GdkRegion}}]  another \code{\link{GdkRegion}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

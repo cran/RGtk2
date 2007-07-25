@@ -11,5 +11,6 @@ name in later groups.}
 \item{\code{pos}}{[integer]  the position at which the group will be inserted.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

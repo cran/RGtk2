@@ -14,5 +14,6 @@ You generally should only use the \code{\link{PangoFontMap}} and
 
   Since  1.10}
 \value{[\code{\link{PangoFontMap}}]  the newly allocated \code{\link{PangoFontMap}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

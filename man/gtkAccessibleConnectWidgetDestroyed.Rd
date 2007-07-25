@@ -5,5 +5,6 @@
 corresponding to a GtkAccessible is destroyed.}
 \usage{gtkAccessibleConnectWidgetDestroyed(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkAccessible}}]  a \code{\link{GtkAccessible}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

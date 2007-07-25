@@ -23,5 +23,6 @@ example). This can simplify path processing in some cases as it may
 not be necessary to save the "last move\_to point" during processing
 as the MOVE\_TO immediately after the CLOSE\_PATH will provide that
 point.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

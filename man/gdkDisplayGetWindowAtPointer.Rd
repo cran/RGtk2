@@ -14,5 +14,6 @@ A list containing the following elements:
 \item{\code{win.x}}{[integer]  return location for origin of the window under the pointer}
 \item{\code{win.y}}{[integer]  return location for origin of the window under the pointer}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

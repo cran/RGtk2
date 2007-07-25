@@ -45,7 +45,7 @@ for the "price" column could be one which returns
 
 
 }}}
-\section{Signals}{\describe{\item{\code{sort-column-changed(treesortable, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (treesortable, user.data)}}{
 \emph{undocumented
 }
 
@@ -56,6 +56,7 @@ for the "price" column could be one which returns
 
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkTreeSortable.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

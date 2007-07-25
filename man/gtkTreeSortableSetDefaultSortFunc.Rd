@@ -15,5 +15,6 @@ this function.}
 This means that once the model  has been sorted, it can't go back to the
 default state. In this case, when the current sort column id of \code{sortable} is
 GTK\_TREE\_SORTABLE\_DEFAULT\_SORT\_COLUMN\_ID, the model will be unsorted.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

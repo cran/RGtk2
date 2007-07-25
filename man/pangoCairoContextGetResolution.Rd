@@ -7,5 +7,6 @@
 \details{  Since  1.10}
 \value{[numeric]  the resolution in "dots per inch". A negative value will
  be returned if no resolution has previously been set.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

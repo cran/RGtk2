@@ -13,5 +13,6 @@ icon by a small amount or not at all.}
 \item{\code{object}}{[\code{\link{GdkWindow}}]  The \code{\link{GdkWindow}} toplevel window to set the icon of.}
 \item{\code{pixbufs}}{[list]  A list of pixbufs, of different sizes.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

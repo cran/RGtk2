@@ -86,7 +86,7 @@ S_gtk_action_group_add_radio_actions(USER_OBJECT_ s_action_group, USER_OBJECT_ s
     return(S_gtk_action_group_add_radio_actions_full(s_action_group, s_entries, s_value, s_on_change, s_user_data));
 }
 
-/* reason: same asC above
+/* reason: same as above
 */
 USER_OBJECT_
 S_gtk_action_group_add_actions_full(USER_OBJECT_ s_action_group, USER_OBJECT_ s_entries, USER_OBJECT_ s_user_data)
@@ -1203,7 +1203,7 @@ S_GtkTextBufferSerializeFunc(GtkTextBuffer* s_register_buffer, GtkTextBuffer* s_
 }
 
 /* need to return the x, y, and in_push params */
-
+/*
 gint
 S_GtkMenuPositionFunc(GtkMenu* s_menu, gint* s_x, gint* s_y, gboolean* s_push_in, gpointer s_user_data)
 {
@@ -1231,6 +1231,40 @@ S_GtkMenuPositionFunc(GtkMenu* s_menu, gint* s_x, gint* s_y, gboolean* s_push_in
   UNPROTECT(1);
   return(((gint)asCInteger(VECTOR_ELT(s_ans, 0))));
 }
+*/
+
+/* GBuilder helpers */
+#if GTK_CHECK_VERSION(2,12,0)
+void
+S_GtkBuilderConnectFuncDefault(GtkBuilder* builder, GObject* object, 
+  const gchar* signal_name, const gchar* handler_name, 
+  GObject* connect_object, guint flags, gpointer s_user_data)
+{	
+  USER_OBJECT_ s_func = Rf_findFun(install(handler_name), R_GlobalEnv);
+  GClosure *closure;
+  
+	if (connect_object) /* FIXME: we can't use g_signal_connect_object */
+		s_user_data = toRPointer(connect_object, "GObject");
+	
+  closure = R_createGClosure(s_func, s_user_data);
+	((R_CallbackData)closure->data)->userDataFirst = flags & G_CONNECT_SWAPPED;
+  
+  g_signal_connect_closure(object, signal_name, closure, flags & G_CONNECT_AFTER);
+}
+
+USER_OBJECT_
+S_gtk_builder_connect_signals(USER_OBJECT_ s_object, USER_OBJECT_ s_user_data)
+{
+  GtkBuilder* object = GTK_BUILDER(getPtrValue(s_object));
+  
+  USER_OBJECT_ _result = NULL_USER_OBJECT;
+  
+  gtk_builder_connect_signals_full(object, 
+    (GtkBuilderConnectFunc)S_GtkBuilderConnectFuncDefault, s_user_data);
+  
+  return(_result);
+}
+#endif
 
 /* This provides a quick way to convert GtkTreePaths to indices.
    Such an operation is necessary when interpreting selections, for example.
@@ -1454,6 +1488,23 @@ S_gtk_tree_model_unload(USER_OBJECT_ s_model, USER_OBJECT_ s_rows, USER_OBJECT_ 
 	return(result);
 }
 
+/* functions for creating and accessing GtkTreeIters */
+/* only to be used when implementing a custom GtkTreeModel */
+
+/* create a new GtkTreeIter */
+USER_OBJECT_
+S_gtk_tree_iter(USER_OBJECT_ id, USER_OBJECT_ stamp)
+{
+  USER_OBJECT_ ans;
+  GtkTreeIter iter;
+  
+  iter.stamp = asCInteger(stamp);
+  iter.user_data = GINT_TO_POINTER(asCInteger(id));
+  
+  return(toRPointerWithFinalizer(gtk_tree_iter_copy(&iter), "GtkTreeIter",
+    (RPointerFinalizer)gtk_tree_iter_free));
+}
+
 /* problem: the user data in the GtkTreeIter must be statically allocated */
 /* there's no way to 'free' a GtkTreeIter, so we will leak memory if
    we PreserveObject() here. unfortunately, we crash otherwise. */
@@ -1464,7 +1515,6 @@ S_gtk_tree_iter_set_id(USER_OBJECT_ s_iter, USER_OBJECT_ s_data)
 {
   GtkTreeIter *iter = getPtrValue(s_iter);
   gint index = asCInteger(s_data);
-  iter->user_data2 = GINT_TO_POINTER(R_GTK_TYPE_SEXP);
   iter->user_data = GINT_TO_POINTER(index);
   return NULL_USER_OBJECT;
 }
@@ -1472,9 +1522,21 @@ USER_OBJECT_
 S_gtk_tree_iter_get_id(USER_OBJECT_ s_iter)
 {
   GtkTreeIter *iter = getPtrValue(s_iter);
-  /* this serves as a flag to try to ensure people don't get data from the
-     wrong iter */
-  if (GPOINTER_TO_INT(iter->user_data2) == R_GTK_TYPE_SEXP)
-    return asRInteger(GPOINTER_TO_INT(iter->user_data));
+  return asRInteger(GPOINTER_TO_INT(iter->user_data));
+}
+
+/* GtkTreeIter stamping */
+/* not to be used unless one is implementing a GtkTreeModel */
+USER_OBJECT_
+S_gtk_tree_iter_set_stamp(USER_OBJECT_ s_iter, USER_OBJECT_ s_stamp)
+{
+  GtkTreeIter *iter = getPtrValue(s_iter);
+  iter->stamp = asCInteger(s_stamp);
   return NULL_USER_OBJECT;
+}
+USER_OBJECT_
+S_gtk_tree_iter_get_stamp(USER_OBJECT_ s_iter)
+{
+  GtkTreeIter *iter = getPtrValue(s_iter);
+  return asRInteger(iter->stamp);
 }

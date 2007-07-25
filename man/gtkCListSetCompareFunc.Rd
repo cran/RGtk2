@@ -13,5 +13,6 @@ by \code{\link{gtkCListSetSortColumn}}.
 \item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}
 \item{\code{cmp.func}}{[GtkCListCompareFunc] The \code{GtkCompareFunction} to use.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

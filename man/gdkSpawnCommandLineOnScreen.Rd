@@ -20,5 +20,6 @@ A list containing the following elements:
 \item{retval}{[logical]  \code{TRUE} on success, \code{FALSE} if error is set.}
 \item{\code{error}}{[\code{\link{GError}}]  return location for errors}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

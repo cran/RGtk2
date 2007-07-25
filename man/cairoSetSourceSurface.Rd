@@ -22,5 +22,6 @@ set to the default values as in \code{\link{cairoPatternCreateForSurface}}.
 The resulting pattern can be queried with \code{\link{cairoGetSource}} so
 that these attributes can be modified if desired, (eg. to create a
 repeating pattern with \code{\link{cairoPatternSetExtend}}).  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

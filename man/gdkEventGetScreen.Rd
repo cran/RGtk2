@@ -12,5 +12,6 @@ to which \code{event->motion.x_root} and
 \arguments{\item{\code{object}}{[\code{\link{GdkEvent}}]  a \code{\link{GdkEvent}}}}
 \details{  Since  2.2}
 \value{[\code{\link{GdkScreen}}]  the screen for the event}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

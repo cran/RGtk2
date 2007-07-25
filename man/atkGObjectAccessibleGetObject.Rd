@@ -5,5 +5,6 @@
 \usage{atkGObjectAccessibleGetObject(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkGObjectAccessible}}]  a \code{\link{AtkObject}}}}
 \value{[\code{\link{GObject}}]  a \code{\link{GObject}} which is the object for which \code{obj} is the accessible objedct}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

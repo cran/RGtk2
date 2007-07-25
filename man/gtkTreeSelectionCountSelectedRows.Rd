@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeSelection}}]  A \code{\link{GtkTreeSelection}}.}}
 \details{  Since  2.2}
 \value{[integer]  The number of rows selected.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

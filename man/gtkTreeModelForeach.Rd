@@ -10,5 +10,6 @@ If \code{func} returns \code{TRUE}, then the tree ceases to be walked, and
 \item{\code{func}}{[\code{\link{GtkTreeModelForeachFunc}}]  A function to be called on each row}
 \item{\code{user.data}}{[R object]  User data to passed to func.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

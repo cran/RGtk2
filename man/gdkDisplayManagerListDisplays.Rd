@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GdkDisplayManager}}]  a \code{\link{GdkDisplayManager}} }}
 \details{  Since  2.2}
 \value{[list]  a newly allocated \code{list} of \code{\link{GdkDisplay}} objects.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

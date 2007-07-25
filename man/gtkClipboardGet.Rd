@@ -10,5 +10,6 @@ See \code{\link{gtkClipboardGetForDisplay}} for complete details.}
             clipboard already exists, a new one will
             be created. Once a clipboard object has
             been created, it is persistent and.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

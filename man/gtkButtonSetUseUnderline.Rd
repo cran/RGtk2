@@ -8,5 +8,6 @@ the next character should be used for the mnemonic accelerator key.}
 \item{\code{object}}{[\code{\link{GtkButton}}]  a \code{\link{GtkButton}}}
 \item{\code{use.underline}}{[logical]  \code{TRUE} if underlines in the text indicate mnemonics}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

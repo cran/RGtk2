@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkPageSetup}}]  the \code{\link{GtkPageSetup}} to copy}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkPageSetup}}]  a copy of \code{other}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

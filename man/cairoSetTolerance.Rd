@@ -13,5 +13,6 @@ is unlikely to improve appearance significantly.)}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a \code{\link{Cairo}}}
 \item{\code{tolerance}}{[numeric]  the tolerance, in device units (typically pixels)}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

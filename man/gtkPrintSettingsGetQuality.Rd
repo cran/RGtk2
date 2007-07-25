@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkPrintSettings}}]  a \code{\link{GtkPrintSettings}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkPrintQuality}}]  the print quality}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,5 +18,6 @@ GDK\_WIN32\_CLIENT\_MESSAGE to all top-level windows. The amount of
 data is limited to one long, i.e. four bytes.  
 
   Since  2.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

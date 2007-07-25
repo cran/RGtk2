@@ -13,5 +13,6 @@
 \value{[\code{\link{GtkVisibility}}] True if the node is currently inside the bounds of the window.
 Note that this function can return true even if the node is not
 viewable, if the node's ancestor is visible.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

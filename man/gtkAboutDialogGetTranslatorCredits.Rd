@@ -7,5 +7,6 @@ in the translators tab of the secondary credits dialog.}
 \arguments{\item{\code{object}}{[\code{\link{GtkAboutDialog}}]  a \code{\link{GtkAboutDialog}}}}
 \details{  Since  2.6}
 \value{[character]  The translator credits string.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

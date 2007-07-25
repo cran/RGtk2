@@ -11,5 +11,6 @@ is less than the second character in the buffer.}
 \item{\code{rhs}}{[\code{\link{GtkTextIter}}]  another \code{\link{GtkTextIter}}}
 }
 \value{[integer]  -1 if \code{lhs} is less than \code{rhs}, 1 if \code{lhs} is greater, 0 if they are equal}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

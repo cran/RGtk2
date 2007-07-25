@@ -7,5 +7,6 @@ may be \code{NULL}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkPaperSize}}]  a \code{\link{GtkPaperSize}} object}}
 \details{  Since  2.10}
 \value{[character]  the PPD name of \code{size}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

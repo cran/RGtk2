@@ -11,5 +11,6 @@ Unselects the specified row.  Causes the "unselect-row" signal to be emitted for
 \item{\code{row}}{[integer] The row to select.}
 \item{\code{column}}{[integer] The column to select.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

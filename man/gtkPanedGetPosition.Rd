@@ -5,5 +5,6 @@
 \usage{gtkPanedGetPosition(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkPaned}}]  a \code{\link{GtkPaned}} widget}}
 \value{[integer]  position of the divider}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -17,5 +17,6 @@ already visible, so you should call it before calling \code{gtkWindowShow()}.}
 policy involved.  
 
   Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

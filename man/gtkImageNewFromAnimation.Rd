@@ -12,5 +12,6 @@ animation; you still need to unref it if you own references.
 keep in mind that the animation will only be shown if the main loop
 is not busy with something that has a higher priority.  }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImage}} widget}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

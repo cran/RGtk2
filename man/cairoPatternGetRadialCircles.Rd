@@ -18,5 +18,6 @@ gradient pattern.}
 \item{\code{y1}}{[numeric]  return value for the y coordinate of the center of the second circle, or \code{NULL}}
 \item{\code{r1}}{[numeric]  return value for the radius of the second circle, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

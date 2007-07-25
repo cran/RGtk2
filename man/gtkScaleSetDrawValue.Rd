@@ -8,5 +8,6 @@ slider.}
 \item{\code{object}}{[\code{\link{GtkScale}}] a \code{\link{GtkScale}}.}
 \item{\code{draw.value}}{[logical] a boolean.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

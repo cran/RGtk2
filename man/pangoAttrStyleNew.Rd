@@ -5,5 +5,6 @@
 \usage{pangoAttrStyleNew(style)}
 \arguments{\item{\code{style}}{[\code{\link{PangoStyle}}]  the slant style}}
 \value{[\code{\link{PangoAttribute}}]  the newly allocated \code{\link{PangoAttribute}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

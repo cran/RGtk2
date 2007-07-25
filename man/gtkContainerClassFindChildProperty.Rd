@@ -9,5 +9,6 @@
 }
 \value{[\code{\link{GParamSpec}}]  the \code{\link{GParamSpec}} of the child property or \code{NULL} if \code{class} has no
   child property with that name.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

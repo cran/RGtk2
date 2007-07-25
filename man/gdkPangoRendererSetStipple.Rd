@@ -14,5 +14,6 @@ directly, or in the 'prepare\_run' virtual function of a subclass of
 \item{\code{stipple}}{[\code{\link{GdkBitmap}}]  the new stipple value.}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

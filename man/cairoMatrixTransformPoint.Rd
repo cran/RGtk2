@@ -8,5 +8,6 @@
 \item{\code{x}}{[numeric]  X position. An in/out parameter}
 \item{\code{y}}{[numeric]  Y position. An in/out parameter}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

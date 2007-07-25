@@ -12,5 +12,6 @@ compositing \code{screen}.
   Since  2.10}
 \value{[logical]  Whether windows with RGBA visuals can reasonably be
 expected to have their alpha channels drawn correctly on the screen.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

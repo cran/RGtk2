@@ -19,5 +19,6 @@ windows it contains.
   Since  2.10}
 \value{[list]  a list of \code{\link{GdkWindow}}s for the current window stack,
               or \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

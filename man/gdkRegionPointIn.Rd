@@ -9,5 +9,6 @@
 \item{\code{y}}{[integer]  the y coordinate of a point}
 }
 \value{[logical]  \code{TRUE} if the point is in \code{region}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

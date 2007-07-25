@@ -4,5 +4,6 @@
 \description{Returns the \code{\link{GdkKeymap}} attached to the default display.}
 \usage{gdkKeymapGetDefault()}
 \value{[\code{\link{GdkKeymap}}]  the \code{\link{GdkKeymap}} attached to the default display.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@ on menu items on the overflow menu. See \code{\link{gtkToolButtonSetUseUnderline
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if underscores in the label property are used as
 mnemonics on menu items on the overflow menu.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

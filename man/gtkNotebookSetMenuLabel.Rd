@@ -8,5 +8,6 @@
 \item{\code{child}}{[\code{\link{GtkWidget}}]  the child widget}
 \item{\code{menu.label}}{[\code{\link{GtkWidget}}]  the menu label, or NULL for default}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

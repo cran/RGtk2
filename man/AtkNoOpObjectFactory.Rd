@@ -18,6 +18,7 @@ The AtkNoOpObjectFactory structure should not be accessed directly.
 
 }}}
 \section{Convenient Construction}{\code{atkNoOpObjectFactory} is the equivalent of \code{\link{atkNoOpObjectFactoryNew}}.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk/AtkNoOpObjectFactory.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

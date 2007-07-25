@@ -11,5 +11,6 @@ will coincide with this point.}
 \item{\code{x}}{[integer]  the x-coordinate of the origin.}
 \item{\code{y}}{[integer]  the y-coordinate of the origin.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -19,5 +19,6 @@ In many cases, you can avoid this whole issue by calling
 \code{\link{gdkGCSetRgbFgColor}} or \code{\link{gdkGCSetRgbBgColor}}, which
 do not expect \code{pixel} to be initialized in advance. If you use those
 functions, there's no need for \code{\link{gdkRgbFindColor}}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

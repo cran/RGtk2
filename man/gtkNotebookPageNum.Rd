@@ -10,5 +10,6 @@ widget.}
 }
 \value{[integer]  the index of the page containing \code{child}, or
   -1 if \code{child} is not in the notebook.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

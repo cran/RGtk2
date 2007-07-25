@@ -8,5 +8,6 @@
 \item{\code{region2}}{[\code{\link{GdkRegion}}]  a \code{\link{GdkRegion}}}
 }
 \value{[logical]  \code{TRUE} if \code{region1} and \code{region2} are equal.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

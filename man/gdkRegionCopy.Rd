@@ -5,5 +5,6 @@
 \usage{gdkRegionCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkRegion}}]  a \code{\link{GdkRegion}}}}
 \value{[\code{\link{GdkRegion}}]  a new region identical to \code{region}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

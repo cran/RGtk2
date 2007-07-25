@@ -14,5 +14,6 @@ return the "static image" of the animation
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbufLoader}}]  A pixbuf loader.}}
 \value{[\code{\link{GdkPixbuf}}]  The \code{\link{GdkPixbuf}} that the loader is creating, or \code{NULL} if not
 enough data has been read to determine how to create the image buffer.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

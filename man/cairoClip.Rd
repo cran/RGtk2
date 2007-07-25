@@ -19,5 +19,6 @@ temporary restriction of the clip region can be achieved by
 calling \code{\link{cairoClip}} within a \code{\link{cairoSave}}/\code{\link{cairoRestore}}
 pair. The only other means of increasing the size of the clip
 region is \code{\link{cairoResetClip}}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

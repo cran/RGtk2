@@ -8,5 +8,6 @@
 A list containing the following elements:
 \item{\code{color}}{[\code{\link{GdkColor}}]  a \code{\link{GdkColor}} to fill in with the current color.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,5 +13,6 @@ A list containing the following elements:
 \item{\code{pixmap}}{[\code{\link{GdkPixmap}}]  location to store the pixmap, or \code{NULL}}
 \item{\code{mask}}{[\code{\link{GdkBitmap}}]  location to store the mask, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

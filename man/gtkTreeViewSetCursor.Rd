@@ -16,5 +16,6 @@ can only happen when the widget is realized.}
 \item{\code{focus.column}}{[\code{\link{GtkTreeViewColumn}}]  A \code{\link{GtkTreeViewColumn}}, or \code{NULL}}
 \item{\code{start.editing}}{[logical]  \code{TRUE} if the specified cell should start being edited.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

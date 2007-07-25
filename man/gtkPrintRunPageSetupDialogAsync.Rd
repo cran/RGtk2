@@ -15,5 +15,6 @@ showing the page setup dialog on platforms that support this, and calls \code{do
 from a signal handler for the ::response signal of the dialog.  
 
   Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

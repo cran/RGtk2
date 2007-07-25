@@ -6,5 +6,6 @@
 \usage{gtkWidgetGetDirection(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \value{[\code{\link{GtkTextDirection}}]  the reading direction for the widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

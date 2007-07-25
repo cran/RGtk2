@@ -11,5 +11,6 @@ A list containing the following elements:
 \item{retval}{[\code{\link{GtkTargetEntry}}]  the new table.}
 \item{\code{n.targets}}{[integer]  return location for the number ot targets in the table}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

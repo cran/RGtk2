@@ -14,5 +14,6 @@ less typing.}
 for handling the selection, if you just want to know whether there's a
 selection and what its bounds are.  }
 \value{[\code{\link{GtkTextMark}}]  selection bound mark}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

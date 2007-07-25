@@ -11,5 +11,6 @@ requested format.}
 \item{\code{pixbuf}}{[\code{\link{GdkPixbuf}}]     a \code{\link{GdkPixbuf}} }
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

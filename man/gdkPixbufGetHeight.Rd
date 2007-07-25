@@ -5,5 +5,6 @@
 \usage{gdkPixbufGetHeight(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbuf}}]  A pixbuf.}}
 \value{[integer]  Height in pixels.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

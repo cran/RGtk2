@@ -21,5 +21,6 @@ enables this debug option at application startup time. That's
 usually more useful than calling \code{\link{gdkWindowSetDebugUpdates}}
 yourself, though you might want to use this function to enable
 updates sometime after application startup time.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

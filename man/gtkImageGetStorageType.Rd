@@ -7,5 +7,6 @@ the return value will be \code{GTK_IMAGE_EMPTY}.}
 \usage{gtkImageGetStorageType(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkImage}}]  a \code{\link{GtkImage}}}}
 \value{[\code{\link{GtkImageType}}]  image representation being used}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

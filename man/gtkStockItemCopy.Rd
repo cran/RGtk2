@@ -5,5 +5,6 @@
 \usage{gtkStockItemCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkStockItem}}]  a \code{\link{GtkStockItem}}}}
 \value{[\code{\link{GtkStockItem}}]  a new \code{\link{GtkStockItem}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

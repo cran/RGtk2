@@ -8,5 +8,6 @@ know that the model emitted the "row\_deleted" signal.}
 \item{\code{proxy}}{[\code{\link{GObject}}]  A \code{\link{GObject}}}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  The path position that was deleted}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,5 +5,6 @@
 \usage{atkRelationTypeRegister(name)}
 \arguments{\item{\code{name}}{[character]  a name string}}
 \value{[\code{\link{AtkRelationType}}]  an \code{\link{AtkRelationType}} associated with \code{name}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

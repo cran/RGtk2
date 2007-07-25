@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkAccelLabel}}]  a \code{\link{GtkAccelLabel}}}
 \item{\code{accel.widget}}{[\code{\link{GtkWidget}}]  the widget to be monitored.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,5 +9,6 @@ A list containing the following elements:
 \item{\code{sizes}}{[\code{\link{GtkIconSize}}]  return location for list of sizes}
 \item{\code{n.sizes}}{[integer]  location to store number of elements in returned list}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@
 \value{[character] a newly-allocated string containing the string
           corresponding to \code{atom}. When you are done
           with the return value.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

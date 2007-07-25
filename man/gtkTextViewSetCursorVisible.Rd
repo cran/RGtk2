@@ -9,5 +9,6 @@ the cursor off.}
 \item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}
 \item{\code{setting}}{[logical]  whether to show the insertion cursor}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

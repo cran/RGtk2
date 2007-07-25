@@ -8,5 +8,6 @@
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  A \code{\link{GtkTreePath}} to test expansion state.}
 }
 \value{[logical]  \code{TRUE} if \code{path} is expanded.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

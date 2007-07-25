@@ -12,5 +12,6 @@
 \details{  Since  2.4}
 \value{[list]  a newly-allocated of all toplevel widgets of the requested 
 types. }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

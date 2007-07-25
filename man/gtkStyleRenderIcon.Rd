@@ -16,5 +16,6 @@ pixbuf.}
 \item{\code{detail}}{[character]  a style detail}
 }
 \value{[\code{\link{GdkPixbuf}}]  a newly-created \code{\link{GdkPixbuf}} containing the rendered icon}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

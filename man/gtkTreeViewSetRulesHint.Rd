@@ -18,5 +18,6 @@ generally).}
 \item{\code{object}}{[\code{\link{GtkTreeView}}]  a \code{\link{GtkTreeView}}}
 \item{\code{setting}}{[logical]  \code{TRUE} if the tree requires reading across rows}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

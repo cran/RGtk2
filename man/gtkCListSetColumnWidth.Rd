@@ -12,5 +12,6 @@ a specified width.
 \item{\code{column}}{[integer] The column to set the width.}
 \item{\code{width}}{[integer] The width, in pixels.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

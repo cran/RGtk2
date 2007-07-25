@@ -11,5 +11,6 @@ for that.}
 \item{\code{sensitive}}{[logical]  \code{TRUE} to make the action sensitive}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

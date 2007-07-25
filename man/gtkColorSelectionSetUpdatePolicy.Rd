@@ -20,5 +20,6 @@ time.
 \item{\code{object}}{[\code{\link{GtkColorSelection}}] a \code{\link{GtkColorSelection}}.}
 \item{\code{policy}}{[\code{\link{GtkUpdateType}}] a \code{\link{GtkUpdateType}} value indicating the desired policy.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,5 +12,6 @@ the job (e.g. in monitoring applications like eggcups). }
 numbering successive print jobs.  
 
   Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -17,5 +17,6 @@ from the last added.}
 \details{The table must be sorted in dictionary order on the
 numeric value of the key symbol fields. (Values beyond
 the length of the sequence should be zero.)  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -15,5 +15,6 @@ signal is emitted with response IDs from \code{\link{GtkResponseType}}. See
 \item{\code{...}}{ arguments for \code{message.format}}
 }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkMessageDialog}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

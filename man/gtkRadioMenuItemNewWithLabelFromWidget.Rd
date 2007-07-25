@@ -10,5 +10,6 @@ The new \code{\link{GtkRadioMenuItem}} is added to the same group as \code{group
 }
 \details{  Since  2.4}
 \value{[\code{\link{GtkWidget}}]  The new \code{\link{GtkRadioMenuItem}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

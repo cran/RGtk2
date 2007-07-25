@@ -5,5 +5,6 @@
 \usage{gtkTreePathCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreePath}}]  A \code{\link{GtkTreePath}}.}}
 \value{[\code{\link{GtkTreePath}}]  A new \code{\link{GtkTreePath}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

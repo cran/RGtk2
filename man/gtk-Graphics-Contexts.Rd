@@ -11,6 +11,7 @@ When a new \code{\link{GdkGC}} is needed, \code{\link{gtkGcGet}} is called with 
 colormap and \code{\link{GdkGCValues}}. If a \code{\link{GdkGC}} with the required properties already
 exists then that is returned. If not, a new \code{\link{GdkGC}} is created.
 When the \code{\link{GdkGC}} is no longer needed, \code{\link{gtkGcRelease}} should be called.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/gtk-Graphics-Contexts.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

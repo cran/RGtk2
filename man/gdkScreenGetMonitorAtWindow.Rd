@@ -12,5 +12,6 @@ bounding rectangle of \code{window} resides.}
 \value{[integer]  the monitor number in which most of \code{window} is located,
           or if \code{window} does not intersect any monitors, a monitor,
           close to \code{window}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

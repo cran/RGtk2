@@ -9,5 +9,6 @@ row \code{row} + 1. See \code{\link{gtkTableSetRowSpacing}}.}
 \item{\code{row}}{[numeric]  a row in the table, 0 indicates the first row}
 }
 \value{[numeric]  the row spacing}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

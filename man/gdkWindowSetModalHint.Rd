@@ -12,5 +12,6 @@ way.}
 }
 \details{You should only use this on windows for which you have
 previously called \code{\link{gdkWindowSetTransientFor}}  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

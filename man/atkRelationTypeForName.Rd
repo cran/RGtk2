@@ -6,5 +6,6 @@
 \arguments{\item{\code{name}}{[character]  a string which is the (non-localized) name of an ATK relation type.}}
 \value{[\code{\link{AtkRelationType}}]  the \code{\link{AtkRelationType}} enumerated type corresponding to the specified name,
          or \code{ATK_RELATION_NULL} if no matching relation type is found.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

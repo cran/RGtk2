@@ -14,5 +14,6 @@ for the path.}
 \item{\code{closure}}{[\code{\link{GClosure}}]           closure to be executed upon accelerator activation}
 }
 \details{The signature used for the \code{closure} is that of \code{\link{GtkAccelGroupActivate}}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ one of the two sets.}
 }
 \value{[\code{\link{AtkStateSet}}]  a new \code{\link{AtkStateSet}} which contains the states which are 
 in exactly one of the two sets.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

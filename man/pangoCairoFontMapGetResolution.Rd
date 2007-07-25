@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{PangoCairoFontMap}}]  a \code{\link{PangoCairoFontMap}}}}
 \details{  Since  1.10}
 \value{[numeric]  the resolution in "dots per inch"}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ area of the assistant when \code{page} is the current page.}
 \item{\code{pixbuf}}{[\code{\link{GdkPixbuf}}]  the new header image \code{page}}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

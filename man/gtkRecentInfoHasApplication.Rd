@@ -10,5 +10,6 @@
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if an application with name \code{app.name} was found,
   \code{FALSE} otherwise.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

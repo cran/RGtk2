@@ -7,5 +7,6 @@ derived from \code{\link{GtkRcStyle}}.}
 \usage{gtkRcStyleCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkRcStyle}}]  the style to copy}}
 \value{[\code{\link{GtkRcStyle}}]  the resulting \code{\link{GtkRcStyle}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

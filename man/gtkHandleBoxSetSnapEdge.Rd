@@ -20,5 +20,6 @@ will be guessed from the handle position. If the
 handle position is \code{GTK_POS_RIGHT} or \code{GTK_POS_LEFT},
 then the snap edge will be \code{GTK_POS_TOP}, otherwise
 it will be \code{GTK_POS_LEFT}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

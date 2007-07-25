@@ -18,5 +18,6 @@ Adds a new button to the beginning (top or left edges) of the given toolbar.
 \details{\code{callback} must be a pointer to a function taking a \code{\link{GtkWidget}} and a gpointer as
 arguments. Use the \code{gtkSignalFunc()} to cast the function to \code{GtkSignalFunc}.  }
 \value{[\code{\link{GtkWidget}}]  the new toolbar item as a \code{\link{GtkWidget}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

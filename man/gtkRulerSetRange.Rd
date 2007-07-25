@@ -10,5 +10,6 @@
 \item{\code{position}}{[numeric] the mark on the ruler}
 \item{\code{max.size}}{[numeric] the maximum size of the ruler}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

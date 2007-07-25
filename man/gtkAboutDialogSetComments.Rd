@@ -10,5 +10,6 @@ two lines.}
 \item{\code{comments}}{[character]  a comments string}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

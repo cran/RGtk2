@@ -12,5 +12,6 @@
 A list containing the following elements:
 \item{\code{value}}{[R object]  An empty \code{R object} to set.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

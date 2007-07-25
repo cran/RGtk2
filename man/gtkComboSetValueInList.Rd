@@ -14,5 +14,6 @@ perform any other action until a valid value has been entered.
 \item{\code{ok.if.empty}}{[logical] \code{TRUE} if an empty value is considered valid.}
 }
 \details{If an empty field is acceptable, the \code{ok.if.empty} parameter should be \code{TRUE}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

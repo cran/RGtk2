@@ -12,5 +12,6 @@ will be (\code{x}, \code{y}).}
 }
 \details{If there is no current point before the call to \code{\link{cairoLineTo}}
 this function will behave as cairo\_move\_to (\code{cr}, \code{x}, \code{y}).  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

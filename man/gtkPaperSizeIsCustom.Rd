@@ -5,5 +5,6 @@
 \usage{gtkPaperSizeIsCustom(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkPaperSize}}]  a \code{\link{GtkPaperSize}} object}}
 \value{[logical]  whether \code{size} is a custom paper size.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

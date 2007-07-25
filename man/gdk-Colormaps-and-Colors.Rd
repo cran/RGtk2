@@ -21,6 +21,7 @@
 \code{\link{gdkColorParse}(spec)}\cr
 \code{\link{gdkColorAlloc}(object, color)}\cr
 \code{\link{gdkColorChange}(object, color)}\cr
+\code{\link{gdkColorToString}(object)}\cr
 \code{gdkColormap(visual, allocate)}
 }
 \section{Detailed Description}{These functions are used to modify colormaps.
@@ -38,7 +39,7 @@ with \code{\link{gdkColormapGetSystem}}) is the default
 colormap of the system. If you are using GdkRGB,
 there is another colormap that is important - the
 colormap in which GdkRGB works, retrieved with
-\code{\link{gdkRgbGetCmap}}. However, when using GdkRGB, 
+\code{\link{gdkRgbGetColormap}}. However, when using GdkRGB, 
 it is not generally necessary to allocate colors
 directly.
   
@@ -81,6 +82,7 @@ The colormap structure contains the following public fields.
 }
 }}
 \section{Convenient Construction}{\code{gdkColormap} is the equivalent of \code{\link{gdkColormapNew}}.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-Colormaps-and-Colors.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

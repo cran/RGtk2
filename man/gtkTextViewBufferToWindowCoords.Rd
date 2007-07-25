@@ -17,5 +17,6 @@ A list containing the following elements:
 \item{\code{window.x}}{[integer]  window x coordinate return location}
 \item{\code{window.y}}{[integer]  window y coordinate return location}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

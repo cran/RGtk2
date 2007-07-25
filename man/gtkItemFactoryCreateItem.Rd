@@ -13,5 +13,6 @@ Creates an item for \code{entry}.
 \item{\code{callback.type}}{[numeric]  1 if the callback function of \code{entry} is of type
    \code{\link{GtkItemFactoryCallback1}}, 2 if it is of type \code{\link{GtkItemFactoryCallback2}} }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

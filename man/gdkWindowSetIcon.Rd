@@ -13,5 +13,6 @@ want to fall back to \code{\link{gdkWindowSetIcon}}.}
 \item{\code{pixmap}}{[\code{\link{GdkPixmap}}]  a \code{\link{GdkPixmap}} to use as the icon, or \code{NULL} to unset}
 \item{\code{mask}}{[\code{\link{GdkBitmap}}]  a 1-bit pixmap (\code{\link{GdkBitmap}}) to use as mask for \code{pixmap}, or \code{NULL} to have none}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -20,5 +20,6 @@ it internally.)
   Since  1.2}
 \value{[\code{\link{PangoGlyphItem}}]  the newly allocated item representing text before
               \code{split.index}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

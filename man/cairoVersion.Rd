@@ -8,11 +8,14 @@ later versions compare greater than earlier versions.}
 \details{A run-time comparison to check that cairo's version is greater than
 or equal to version X.Y.Z could be performed as follows:
   
-\preformatted{if (  \link{cairoVersion}   >= CAIRO_VERSION_ENCODE(X,Y,Z)) {...}
+\preformatted{
+# This function is not that useful in R.
+# Instead, please use cairoVersionString() with compareVersion().
 }
   
 See also \code{\link{cairoVersionString}} as well as the compile-time
 equivalents \code{CAIRO_VERSION} and \code{CAIRO_VERSION_STRING}.  }
 \value{[integer]  the encoded version.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

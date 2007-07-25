@@ -11,5 +11,6 @@ convenient.}
 \item{\code{object}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}}
 \item{\code{values}}{[\code{\link{GdkGCValues}}]  struct containing the new values}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

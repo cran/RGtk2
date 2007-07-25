@@ -7,5 +7,6 @@
 \usage{gtkTextIterGetPixbuf(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[\code{\link{GdkPixbuf}}]  the pixbuf at \code{iter}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

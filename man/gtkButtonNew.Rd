@@ -5,5 +5,6 @@
 use \code{\link{gtkContainerAdd}}.}
 \usage{gtkButtonNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}] The newly created \code{\link{GtkButton}} widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

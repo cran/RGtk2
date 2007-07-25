@@ -10,5 +10,6 @@ restores the state from the matching paired \code{\link{cairoSave}}.}
 \usage{cairoSave(cr)}
 \arguments{\item{\code{cr}}{[\code{\link{Cairo}}]  a \code{\link{Cairo}}}}
 \details{.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

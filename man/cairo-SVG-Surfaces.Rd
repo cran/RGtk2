@@ -20,6 +20,7 @@ specification that a generated SVG file will conform to.
 }
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-SVG-Surfaces.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

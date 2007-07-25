@@ -6,5 +6,6 @@
 \arguments{\item{\code{keyval}}{[numeric] a key value.}}
 \value{[numeric] the lower case form of \code{keyval}, or \code{keyval} itself if it is already
 in lower case or it is not subject to case conversion.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

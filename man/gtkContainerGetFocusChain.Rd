@@ -18,5 +18,6 @@ has been set explicitly.}
                     no additional reference count is added to the
                     individual widgets in the focus chain.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

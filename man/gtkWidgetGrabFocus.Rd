@@ -7,5 +7,6 @@ something like \code{\link{GtkFrame}} won't work. (More precisely, it must have 
 \code{GTK_CAN_FOCUS} flag set.)}
 \usage{gtkWidgetGrabFocus(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

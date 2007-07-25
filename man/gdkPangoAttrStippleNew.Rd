@@ -6,5 +6,6 @@ rendering the text.}
 \usage{gdkPangoAttrStippleNew(stipple)}
 \arguments{\item{\code{stipple}}{[\code{\link{GdkBitmap}}]  a bitmap to be set as stipple}}
 \value{[\code{\link{PangoAttribute}}]  new \code{\link{PangoAttribute}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

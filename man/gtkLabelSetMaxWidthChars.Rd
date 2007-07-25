@@ -8,5 +8,6 @@
 \item{\code{n.chars}}{[integer]  the new desired maximum width, in characters.}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

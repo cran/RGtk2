@@ -20,5 +20,6 @@ the menu item.
   
 Note that you do need to set an accelerator on the parent menu with
 \code{\link{gtkMenuSetAccelGroup}} for this to work.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ associated with \code{type}.}
 subclass}
 }
 \value{[\code{\link{GType}}]  a \code{\link{GType}} associated with type \code{type}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

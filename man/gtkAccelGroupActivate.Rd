@@ -11,5 +11,6 @@
 \item{\code{accel.key}}{[numeric] }
 \item{\code{accel.mods}}{[\code{\link{GdkModifierType}}] }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

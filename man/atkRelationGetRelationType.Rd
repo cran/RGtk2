@@ -5,5 +5,6 @@
 \usage{atkRelationGetRelationType(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkRelation}}]  an \code{\link{AtkRelation}} }}
 \value{[\code{\link{AtkRelationType}}]  the type of \code{relation}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ get a \code{\link{GtkTextTag}}, then calls \code{\link{gtkTextBufferApplyTag}}.}
 \item{\code{start}}{[\code{\link{GtkTextIter}}]  one bound of range to be tagged}
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  other bound of range to be tagged}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

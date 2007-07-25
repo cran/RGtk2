@@ -8,5 +8,6 @@ rendering. See \code{\link{pangoRendererSetMatrix}}.}
 \details{  Since  1.8}
 \value{[\code{\link{PangoMatrix}}]  the matrix, or \code{NULL} if no matrix has been set
  (which is the same as the identity matrix).}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

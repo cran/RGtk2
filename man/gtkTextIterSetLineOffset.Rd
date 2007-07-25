@@ -12,5 +12,6 @@ a character offset.}
 \item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}} }
 \item{\code{char.on.line}}{[integer]  a character offset relative to the start of \code{iter}'s current line}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

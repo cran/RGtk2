@@ -14,5 +14,6 @@ A list containing the following elements:
 \item{retval}{[logical]  \code{TRUE}}
 \item{\code{requisition}}{[\code{\link{GtkRequisition}}]  return location for the size }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

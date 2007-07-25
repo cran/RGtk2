@@ -22,5 +22,6 @@ A list containing the following elements:
 \item{\code{is.leaf}}{[logical] }
 \item{\code{expanded}}{[logical] }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

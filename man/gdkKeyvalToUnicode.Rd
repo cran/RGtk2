@@ -7,5 +7,6 @@ character.}
 \arguments{\item{\code{keyval}}{[numeric]  a GDK key symbol }}
 \value{[numeric]  the corresponding unicode character, or 0 if there
               is no corresponding character.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

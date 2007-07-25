@@ -5,5 +5,6 @@
 \usage{gdkColormapGetVisual(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkColormap}}]  a \code{\link{GdkColormap}}.}}
 \value{[\code{\link{GdkVisual}}]  the visual of the colormap.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

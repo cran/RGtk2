@@ -11,5 +11,6 @@ are received. See \code{\link{gdkDisplayAddClientMessageFilter}}.}
 \item{\code{func}}{[\code{\link{GdkFilterFunc}}]  the function to call to process the event.}
 \item{\code{data}}{[R object]  user data to pass to \code{func}. }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

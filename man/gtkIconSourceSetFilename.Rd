@@ -8,5 +8,6 @@ icon variants for \code{\link{GtkIconSet}}. The filename must be absolute.}
 \item{\code{object}}{[\code{\link{GtkIconSource}}]  a \code{\link{GtkIconSource}}}
 \item{\code{filename}}{[character]  image file to use}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

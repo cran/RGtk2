@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}}
 \value{[\code{\link{PangoFontMask}}]  a bitmask with bits set corresponding to the
   fields in \code{desc} that have been set.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

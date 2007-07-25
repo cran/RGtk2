@@ -5,7 +5,7 @@
 allocation changes. By default, this setting is \code{TRUE} and
 the entire widget is redrawn on every size change. If your widget
 leaves the upper left unchanged when made bigger, turning this
-setting on will improve performance.}
+setting off will improve performance.}
 \usage{gtkWidgetSetRedrawOnAllocate(object, redraw.on.allocate)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}
@@ -21,5 +21,6 @@ anything to avoid excess invalidations. If you set this flag on a
 you are responsible for invalidating both the old and new allocation 
 of the widget when the widget is moved and responsible for invalidating
 regions newly when the widget increases size.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

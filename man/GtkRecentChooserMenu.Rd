@@ -19,7 +19,7 @@
                                  +----\link{GtkMenu}
                                        +----GtkRecentChooserMenu}}
 \section{Interfaces}{GtkRecentChooserMenu implements
- AtkImplementorIface and  \code{\link{GtkRecentChooser}}.}
+ \code{\link{GtkBuildable}},  AtkImplementorIface and  \code{\link{GtkRecentChooser}}.}
 \section{Detailed Description}{\code{\link{GtkRecentChooserMenu}} is a widget suitable for displaying recently used files
 inside a menu.  It can be used to set a sub-menu of a \code{\link{GtkMenuItem}} using
 \code{\link{gtkMenuItemSetSubmenu}}, or as the menu of a \code{\link{GtkMenuToolButton}}.
@@ -52,6 +52,7 @@ a number acting as a unique mnemonic.
   Default value: FALSE  Since  2.10
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkRecentChooserMenu.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{\code{\link{GtkRecentChooser}}}

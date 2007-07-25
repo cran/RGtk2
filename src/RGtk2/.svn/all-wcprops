@@ -99,29 +99,29 @@ svn:wc:ra_dav:version-url
 V 69
 /svn/projects/!svn/ver/194/rgtk2/trunk/RGtk2/inst/include/RGtk2/atk.h
 END
-pangoClasses.h
-K 25
-svn:wc:ra_dav:version-url
-V 78
-/svn/projects/!svn/ver/170/rgtk2/trunk/RGtk2/inst/include/RGtk2/pangoClasses.h
-END
 cairo-enums.h
 K 25
 svn:wc:ra_dav:version-url
 V 77
 /svn/projects/!svn/ver/170/rgtk2/trunk/RGtk2/inst/include/RGtk2/cairo-enums.h
 END
-gdkClasses.h
+pangoClasses.h
 K 25
 svn:wc:ra_dav:version-url
-V 76
-/svn/projects/!svn/ver/170/rgtk2/trunk/RGtk2/inst/include/RGtk2/gdkClasses.h
+V 78
+/svn/projects/!svn/ver/170/rgtk2/trunk/RGtk2/inst/include/RGtk2/pangoClasses.h
 END
 gtkUserFuncs.h
 K 25
 svn:wc:ra_dav:version-url
 V 78
 /svn/projects/!svn/ver/194/rgtk2/trunk/RGtk2/inst/include/RGtk2/gtkUserFuncs.h
+END
+gdkClasses.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/projects/!svn/ver/170/rgtk2/trunk/RGtk2/inst/include/RGtk2/gdkClasses.h
 END
 gtkClassImports.c
 K 25
@@ -147,17 +147,17 @@ svn:wc:ra_dav:version-url
 V 76
 /svn/projects/!svn/ver/194/rgtk2/trunk/RGtk2/inst/include/RGtk2/atkClasses.h
 END
-gtkClasses.h
-K 25
-svn:wc:ra_dav:version-url
-V 76
-/svn/projects/!svn/ver/194/rgtk2/trunk/RGtk2/inst/include/RGtk2/gtkClasses.h
-END
 pangoClassImports.c
 K 25
 svn:wc:ra_dav:version-url
 V 83
 /svn/projects/!svn/ver/172/rgtk2/trunk/RGtk2/inst/include/RGtk2/pangoClassImports.c
+END
+gtkClasses.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/projects/!svn/ver/194/rgtk2/trunk/RGtk2/inst/include/RGtk2/gtkClasses.h
 END
 pango.h
 K 25
@@ -177,17 +177,17 @@ svn:wc:ra_dav:version-url
 V 81
 /svn/projects/!svn/ver/184/rgtk2/trunk/RGtk2/inst/include/RGtk2/libgladeImports.c
 END
-gobject.h
-K 25
-svn:wc:ra_dav:version-url
-V 73
-/svn/projects/!svn/ver/194/rgtk2/trunk/RGtk2/inst/include/RGtk2/gobject.h
-END
 pangoImports.c
 K 25
 svn:wc:ra_dav:version-url
 V 78
 /svn/projects/!svn/ver/184/rgtk2/trunk/RGtk2/inst/include/RGtk2/pangoImports.c
+END
+gobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/projects/!svn/ver/198/rgtk2/trunk/RGtk2/inst/include/RGtk2/gobject.h
 END
 gdkImports.c
 K 25

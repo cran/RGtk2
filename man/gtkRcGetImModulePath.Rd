@@ -9,5 +9,6 @@ not be used by applications under normal circumstances.}
 \usage{gtkRcGetImModulePath()}
 \value{[character]  a newly-allocated string containing the path in which to 
    look for IM modules.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

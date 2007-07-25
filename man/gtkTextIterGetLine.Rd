@@ -7,5 +7,6 @@ line in the buffer.}
 \usage{gtkTextIterGetLine(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[integer]  a line number}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@ the function is very fast.}
 \usage{gtkTextBufferGetLineCount(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}} }}
 \value{[integer]  number of lines in the buffer}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

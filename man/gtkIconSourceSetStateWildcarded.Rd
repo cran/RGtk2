@@ -18,5 +18,6 @@ wildcarded sources, and will use an exact match when possible.
 produce an appropriate icon for a given state, for example
 lightening an image on prelight, but will not modify source images
 that match exactly.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

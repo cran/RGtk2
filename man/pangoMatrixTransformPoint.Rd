@@ -9,5 +9,6 @@
 \item{\code{y}}{[numeric]  in/out Y position}
 }
 \details{  Since  1.16}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

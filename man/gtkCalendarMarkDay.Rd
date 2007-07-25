@@ -8,5 +8,6 @@
 \item{\code{day}}{[numeric]  the day number to mark between 1 and 31.}
 }
 \value{[logical]  \code{TRUE}, always}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

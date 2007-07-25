@@ -7,5 +7,6 @@ Emits the ::changed signal on \code{old.editable}.
 }
 \usage{gtkOldEditableChanged(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkOldEditable}}]  a \code{\link{GtkOldEditable}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

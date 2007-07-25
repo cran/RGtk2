@@ -11,5 +11,6 @@ every iteration, if your first iteration is on line 0.)}
 \usage{gtkTextIterBackwardLine(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[logical]  whether \code{iter} moved}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

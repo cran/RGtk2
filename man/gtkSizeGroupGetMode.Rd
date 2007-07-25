@@ -5,5 +5,6 @@
 \usage{gtkSizeGroupGetMode(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkSizeGroup}}]  a \code{\link{GtkSizeGroup}}}}
 \value{[\code{\link{GtkSizeGroupMode}}]  the current mode of the size group.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

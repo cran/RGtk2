@@ -20,7 +20,7 @@
                                        +----\link{GtkGammaCurve}
                                        +----\link{GtkRecentChooserWidget}}}
 \section{Interfaces}{GtkVBox implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{GtkVBox is a container that organizes child widgets into a single column.
   
 Use the \code{\link{GtkBox}} packing interface to determine the arrangement,
@@ -33,6 +33,7 @@ All children are allocated the same width.}
 
 }}}
 \section{Convenient Construction}{\code{gtkVBox} is the equivalent of \code{\link{gtkVBoxNew}}.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkVBox.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

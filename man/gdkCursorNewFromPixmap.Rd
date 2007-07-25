@@ -48,5 +48,6 @@ cursor1mask_bits <- c(
  widget[["window"]]$setCursor(cursor)
 }  }
 \value{[\code{\link{GdkCursor}}]  a new \code{\link{GdkCursor}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

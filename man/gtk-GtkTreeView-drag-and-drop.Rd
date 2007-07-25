@@ -20,7 +20,7 @@
    +----GtkTreeDragDest
 }}
 \section{Implementations}{GtkTreeDragSource is implemented by
- \code{\link{GtkTreeModelSort}},  \code{\link{GtkTreeStore}},  \code{\link{GtkListStore}} and  \code{\link{GtkTreeModelFilter}}.  
+ \code{\link{GtkTreeModelFilter}},  \code{\link{GtkTreeModelSort}},  \code{\link{GtkTreeStore}} and  \code{\link{GtkListStore}}.  
 GtkTreeDragDest is implemented by
  \code{\link{GtkTreeStore}} and  \code{\link{GtkListStore}}.}
 \section{Detailed Description}{GTK+ supports Drag-and-Drop in tree views with a high-level and a low-level 
@@ -50,6 +50,7 @@ and auto-scroll, but your models have to implement the
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/gtk-GtkTreeView-drag-and-drop.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

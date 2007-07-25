@@ -9,5 +9,6 @@
 \item{\code{description}}{[character]  a \code{character} representing the description text
 to set for the specified \code{column} of the \code{table}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

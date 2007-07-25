@@ -14,5 +14,6 @@ to another, the colormaps should match.}
 \item{\code{object}}{[\code{\link{GdkDrawable}}]  a \code{\link{GdkDrawable}}}
 \item{\code{colormap}}{[\code{\link{GdkColormap}}]  a \code{\link{GdkColormap}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

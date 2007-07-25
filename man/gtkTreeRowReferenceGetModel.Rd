@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeRowReference}}]  A \code{\link{GtkTreeRowReference}}}}
 \details{  Since  2.8}
 \value{[\code{\link{GtkTreeModel}}]  the model}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

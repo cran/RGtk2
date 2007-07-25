@@ -9,5 +9,6 @@
 }
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if \code{page} is complete.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

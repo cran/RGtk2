@@ -6,5 +6,6 @@
 \usage{gtkSpinButtonGetUpdatePolicy(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}}}}
 \value{[\code{\link{GtkSpinButtonUpdatePolicy}}]  the current update policy}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

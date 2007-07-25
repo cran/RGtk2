@@ -5,5 +5,6 @@
 executed for the object.}
 \usage{atkFocusTrackerNotify(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

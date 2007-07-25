@@ -14,5 +14,6 @@ scrolling.
 \item{\code{row.align}}{[numeric] Where in the window the row should appear.}
 \item{\code{col.align}}{[numeric] Where in the window the column should appear.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

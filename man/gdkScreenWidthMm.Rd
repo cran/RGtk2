@@ -6,5 +6,6 @@ Note that on many X servers this value will not be correct.}
 \usage{gdkScreenWidthMm()}
 \value{[integer]  the width of the default screen in millimeters,
 though it is not always correct.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

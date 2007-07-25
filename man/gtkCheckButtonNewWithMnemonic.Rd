@@ -8,5 +8,6 @@ in \code{label} indicate the mnemonic for the check button.}
 \arguments{\item{\code{label}}{[character]  The text of the button, with an underscore in front of the
         mnemonic character}}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkCheckButton}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

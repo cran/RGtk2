@@ -10,5 +10,6 @@ Invisible text is usually invisible because a \code{\link{GtkTextTag}} with the
 \item{\code{end}}{[\code{\link{GtkTextIter}}]  iterator at end of range}
 }
 \value{[character]  string containing visible text in the range}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

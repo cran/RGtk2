@@ -8,5 +8,6 @@
 \item{\code{mime.type}}{[character]  name of a MIME type}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

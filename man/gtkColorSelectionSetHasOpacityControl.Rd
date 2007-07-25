@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkColorSelection}}]  a \code{\link{GtkColorSelection}}.}
 \item{\code{has.opacity}}{[logical]  \code{TRUE} if \code{colorsel} can set the opacity, \code{FALSE} otherwise.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

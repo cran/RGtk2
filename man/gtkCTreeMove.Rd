@@ -12,5 +12,6 @@ Move a node in the tree to another location.
 \item{\code{new.parent}}{[\code{\link{GtkCTreeNode}}] The new parent-to-be of the node.}
 \item{\code{new.sibling}}{[\code{\link{GtkCTreeNode}}] The new sibling-to-be of the node.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

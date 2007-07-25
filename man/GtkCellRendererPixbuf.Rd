@@ -82,6 +82,7 @@ The GtkIconSize value that specifies the size of the rendered icon.  Default val
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkCellRendererPixbuf.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -4,5 +4,6 @@
 \description{Removes the specified event listener}
 \usage{atkRemoveGlobalEventListener(listener.id)}
 \arguments{\item{\code{listener.id}}{[numeric]  the id of the event listener to remove}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

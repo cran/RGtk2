@@ -122,6 +122,7 @@ This defines the type of the function passed to
 
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-Points-Rectangles-and-Regions.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

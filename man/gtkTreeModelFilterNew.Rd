@@ -10,5 +10,6 @@ and \code{root} as the virtual root.}
 }
 \details{  Since  2.4}
 \value{[\code{\link{GtkTreeModel}}]  A new \code{\link{GtkTreeModel}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

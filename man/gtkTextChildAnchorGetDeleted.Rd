@@ -7,5 +7,6 @@ unreferenced when removed from the buffer.}
 \usage{gtkTextChildAnchorGetDeleted(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextChildAnchor}}]  a \code{\link{GtkTextChildAnchor}}}}
 \value{[logical]  \code{TRUE} if the child anchor has been deleted from its buffer}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

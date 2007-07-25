@@ -16,5 +16,6 @@ surface or immediately after completing a page with either
 \code{\link{cairoShowPage}} or \code{\link{cairoCopyPage}}.  
 
   Since  1.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

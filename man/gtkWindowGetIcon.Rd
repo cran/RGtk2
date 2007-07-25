@@ -7,5 +7,6 @@ the icon list).}
 \usage{gtkWindowGetIcon(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \value{[\code{\link{GdkPixbuf}}]  icon for window}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

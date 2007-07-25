@@ -6,5 +6,6 @@ notebook are drawn.}
 \usage{gtkNotebookGetTabPos(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkNotebook}}]  a \code{\link{GtkNotebook}}}}
 \value{[\code{\link{GtkPositionType}}]  the edge at which the tabs are drawn}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

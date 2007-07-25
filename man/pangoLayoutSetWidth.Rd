@@ -8,5 +8,6 @@
 \item{\code{width}}{[integer]  the desired width in Pango units, or -1 to indicate that no
         wrapping should be performed.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

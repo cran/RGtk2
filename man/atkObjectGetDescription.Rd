@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}}}}
 \value{[character]  a character string representing the accessible description
 of the accessible.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

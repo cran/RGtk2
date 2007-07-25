@@ -12,5 +12,6 @@ of the selection named by the given atom.}
 \details{  Since  2.6}
 \value{[logical]  whether \code{\link{GdkEventOwnerChange}} events will 
               be sent.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentChooserMenu}}]  a \code{\link{GtkRecentChooserMenu}}}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if numbers should be shown.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

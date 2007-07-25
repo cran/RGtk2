@@ -9,5 +9,6 @@ It defaults to the website URL.}
 \item{\code{website.label}}{[character]  the label used for the website link}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

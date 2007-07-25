@@ -12,5 +12,6 @@ units high. (10 * 96. / 72. = 13.3).}
   involved; the terminology is conventional.)}
 }
 \details{  Since  1.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

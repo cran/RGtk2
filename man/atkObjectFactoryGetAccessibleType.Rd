@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{AtkObjectFactory}}]  an \code{\link{AtkObjectFactory}} }}
 \value{[\code{\link{GType}}]  the type of the accessible which is created by the \code{factory}.
 The value G\_TYPE\_INVALID is returned if no type if found.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

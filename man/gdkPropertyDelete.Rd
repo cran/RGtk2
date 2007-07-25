@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GdkWindow}}] a \code{\link{GdkWindow}}.}
 \item{\code{property}}{[\code{\link{GdkAtom}}] the property to delete.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

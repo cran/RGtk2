@@ -44,6 +44,7 @@ terminology for \code{\link{AtkAction}} names.}
 The AtkAction structure does not contain any fields.
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk/AtkAction.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

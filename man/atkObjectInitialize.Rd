@@ -10,5 +10,6 @@ to create an instance of a subclass of \code{\link{AtkObject}}}
 \item{\code{object}}{[\code{\link{AtkObject}}]  a \code{\link{AtkObject}}}
 \item{\code{data}}{[R object]  a \code{R object} which identifies the object for which the AtkObject was created.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

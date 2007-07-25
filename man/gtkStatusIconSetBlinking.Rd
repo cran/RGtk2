@@ -11,5 +11,6 @@ this setting has no effect.}
 \item{\code{blinking}}{[logical]  \code{TRUE} to turn blinking on, \code{FALSE} to turn it off}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

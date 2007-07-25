@@ -10,5 +10,6 @@ of targets.}
  \code{\link{AtkRelation}}}
 }
 \value{[\code{\link{AtkRelation}}]  a pointer to a new \code{\link{AtkRelation}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

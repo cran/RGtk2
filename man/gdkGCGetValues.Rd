@@ -11,5 +11,6 @@ if you need them.}
 A list containing the following elements:
 \item{\code{values}}{[\code{\link{GdkGCValues}}]  the \code{\link{GdkGCValues}} structure in which to store the results.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

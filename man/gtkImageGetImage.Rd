@@ -13,5 +13,6 @@ A list containing the following elements:
 \item{\code{gdk.image}}{[\code{\link{GdkImage}}]  return location for a \code{\link{GtkImage}}}
 \item{\code{mask}}{[\code{\link{GdkBitmap}}]  return location for a \code{\link{GdkBitmap}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

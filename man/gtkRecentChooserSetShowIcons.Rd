@@ -9,5 +9,6 @@ displaying it.}
 \item{\code{show.icons}}{[logical]  whether to show an icon near the resource}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

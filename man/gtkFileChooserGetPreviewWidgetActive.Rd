@@ -8,5 +8,6 @@ should be shown for the current filename. See
 \arguments{\item{\code{object}}{[\code{\link{GtkFileChooser}}]  a \code{\link{GtkFileChooser}}}}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the preview widget is active for the current filename.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

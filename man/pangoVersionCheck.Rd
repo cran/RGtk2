@@ -25,5 +25,6 @@ For compile-time version checking use \code{pangoVersionCheck()}.
   Since  1.16}
 \value{[char]  \code{NULL} if the Pango library is compatible with the
   given version, or a string describing the version mismatch.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

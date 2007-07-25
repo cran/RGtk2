@@ -7,5 +7,6 @@
 \arguments{\item{\code{base.gravity}}{[\code{\link{PangoGravity}}]  gravity to query}}
 \details{  Since  1.16}
 \value{[numeric]  the rotation value corresponding to \code{gravity}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

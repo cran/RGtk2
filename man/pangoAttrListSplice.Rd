@@ -19,5 +19,6 @@ of each attribute in \code{other} in sequence (offset in position by \code{pos})
   
 This operation proves useful for, for instance, inserting
 a pre-edit string in the middle of an edit buffer.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

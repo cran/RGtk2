@@ -11,5 +11,6 @@ A list containing the following elements:
 \item{\code{alignments}}{[\code{\link{PangoTabAlign}}]  location to store a list of tab stop alignments, or \code{NULL}}
 \item{\code{locations}}{[integer]  location to store a list of tab positions, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

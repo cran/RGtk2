@@ -15,5 +15,6 @@ A list containing the following elements:
 \item{\code{accelerator.key}}{[numeric]   return location for accelerator keyval}
 \item{\code{accelerator.mods}}{[\code{\link{GdkModifierType}}]  return location for accelerator modifier mask}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

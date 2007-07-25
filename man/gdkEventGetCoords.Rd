@@ -10,5 +10,6 @@ A list containing the following elements:
 \item{\code{x.win}}{[numeric]  location to put event window x coordinate}
 \item{\code{y.win}}{[numeric]  location to put event window y coordinate}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

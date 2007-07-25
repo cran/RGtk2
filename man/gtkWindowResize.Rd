@@ -17,5 +17,6 @@ first time, it overrides any default size set with
 \code{\link{gtkWindowSetDefaultSize}}.
   
 Windows may not be resized smaller than 1 by 1 pixels.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

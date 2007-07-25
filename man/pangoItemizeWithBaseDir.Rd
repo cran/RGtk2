@@ -19,5 +19,6 @@ is specified explicitly rather than gotten from the \code{\link{PangoContext}}.}
 }
 \details{  Since  1.4}
 \value{[list]  a \code{list} of \code{\link{PangoItem}} structures.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

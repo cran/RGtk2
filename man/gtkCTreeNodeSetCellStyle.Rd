@@ -12,5 +12,6 @@ Set the style of an individual cell.
 \item{\code{column}}{[integer] }
 \item{\code{style}}{[\code{\link{GtkStyle}}] }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

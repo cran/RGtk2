@@ -8,5 +8,6 @@
 \item{\code{single.line.mode}}{[logical]  \code{TRUE} if the label should be in single line mode}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

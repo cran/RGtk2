@@ -12,5 +12,6 @@ Checks the type of cell at the location specified.
 \item{\code{column}}{[integer] The column of the cell.}
 }
 \value{[\code{\link{GtkCellType}}] A \code{\link{GtkCellType}} value describing the cell.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

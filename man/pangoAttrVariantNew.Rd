@@ -5,5 +5,6 @@
 \usage{pangoAttrVariantNew(variant)}
 \arguments{\item{\code{variant}}{[\code{\link{PangoVariant}}]  the variant}}
 \value{[\code{\link{PangoAttribute}}]  the newly allocated \code{\link{PangoAttribute}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

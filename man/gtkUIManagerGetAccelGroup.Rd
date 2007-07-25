@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkUIManager}}]  a \code{\link{GtkUIManager}} object}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkAccelGroup}}]  the \code{\link{GtkAccelGroup}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

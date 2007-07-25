@@ -7,5 +7,6 @@ the spacing that will be used for newly added rows.
 \usage{gtkTableGetDefaultRowSpacing(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTable}}]  a \code{\link{GtkTable}}}}
 \value{[numeric] value: the default row spacing}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

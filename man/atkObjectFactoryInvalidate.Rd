@@ -8,5 +8,6 @@ Note: primarily used for runtime replacement of \code{AtkObjectFactorys}
 in object registries.}
 \usage{atkObjectFactoryInvalidate(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkObjectFactory}}]  an \code{\link{AtkObjectFactory}} to invalidate}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

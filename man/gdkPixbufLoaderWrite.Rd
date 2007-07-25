@@ -19,5 +19,6 @@ A list containing the following elements:
 cannot parse the buffer.}
 \item{\code{error}}{[\code{\link{GError}}]  return location for errors}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,5 +18,6 @@ know whether a new character inserted at \code{iter} would be inside an
 editable range. Use \code{\link{gtkTextIterCanInsert}} to handle this
 case.  }
 \value{[logical]  whether \code{iter} is inside an editable range}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

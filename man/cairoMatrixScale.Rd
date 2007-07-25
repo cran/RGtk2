@@ -10,5 +10,6 @@ by \code{sx} and \code{sy}, then apply the original transformation to the coordi
 \item{\code{sx}}{[numeric]  scale factor in the X direction}
 \item{\code{sy}}{[numeric]  scale factor in the Y direction}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

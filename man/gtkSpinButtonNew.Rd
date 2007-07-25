@@ -9,5 +9,6 @@
 \item{\code{digits}}{[numeric] the number of decimal places to display.}
 }
 \value{[\code{\link{GtkWidget}}] The new spin button as a \code{\link{GtkWidget}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,5 +5,6 @@
 \code{\link{gtkGrabAdd}} only affect windows within the same \code{\link{GtkWindowGroup}}.}
 \usage{gtkWindowGroupNew()}
 \value{[\code{\link{GtkWindowGroup}}]  a new \code{\link{GtkWindowGroup}}. }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,5 +5,6 @@
 \usage{pangoAttrSizeNew(size)}
 \arguments{\item{\code{size}}{[integer]  the font size, in \code{PANGO_SCALE}ths of a point.}}
 \value{[\code{\link{PangoAttribute}}]  the newly allocated \code{\link{PangoAttribute}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

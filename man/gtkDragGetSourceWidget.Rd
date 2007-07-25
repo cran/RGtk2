@@ -6,5 +6,6 @@
 \arguments{\item{\code{context}}{[\code{\link{GdkDragContext}}] a (destination side) drag context.}}
 \value{[\code{\link{GtkWidget}}] if the drag is occurring within a single application,
           a pointer to the source widget. Otherwise, \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

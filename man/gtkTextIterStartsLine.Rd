@@ -9,5 +9,6 @@ the offset, it just has to see whether it's 0.}
 \usage{gtkTextIterStartsLine(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[logical]  whether \code{iter} begins a line}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,5 +12,6 @@ The current value for the \code{\link{GtkProgress}} remains unchanged.
 \item{\code{value}}{[numeric] an absolute progress value to use when formatting the progress text.}
 }
 \value{[character] a string indicating the progress.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

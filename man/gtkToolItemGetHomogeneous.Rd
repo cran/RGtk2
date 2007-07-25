@@ -8,5 +8,6 @@ items. See \code{\link{gtkToolItemSetHomogeneous}}.}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the item is the same size as other homogeneous
 item.s}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

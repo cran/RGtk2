@@ -10,5 +10,6 @@ into \code{cell.layout} for this to function properly.}
 \item{\code{position}}{[integer]  New position to insert \code{cell} at.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

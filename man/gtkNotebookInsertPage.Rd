@@ -13,5 +13,6 @@
 }
 \value{[integer]  the index (starting from 0) of the inserted
 page in the notebook, or -1 if function fails}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

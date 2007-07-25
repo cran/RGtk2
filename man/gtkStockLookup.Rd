@@ -10,5 +10,6 @@ A list containing the following elements:
 \item{retval}{[logical]  \code{TRUE} if \code{item} was initialized}
 \item{\code{item}}{[\code{\link{GtkStockItem}}]  stock item to initialize with values}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

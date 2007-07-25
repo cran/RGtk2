@@ -9,5 +9,6 @@
 }
 \value{[\code{\link{GtkTreeViewColumn}}]  The \code{\link{GtkTreeViewColumn}}, or \code{NULL} if the position is outside the
 range of columns.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

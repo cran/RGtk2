@@ -7,5 +7,6 @@ a scaled font. See \code{\link{CairoFontType}} for available types.}
 \arguments{\item{\code{scaled.font}}{[\code{\link{CairoScaledFont}}]  a \code{\link{CairoScaledFont}}}}
 \details{  Since  1.2}
 \value{[\code{\link{CairoFontType}}]  The type of \code{scaled.font}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -20,5 +20,6 @@ See also \code{\link{gtkWidgetGetChildRequisition}}.  }
 A list containing the following elements:
 \item{\code{requisition}}{[\code{\link{GtkRequisition}}]  a \code{\link{GtkRequisition}} to be filled in}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

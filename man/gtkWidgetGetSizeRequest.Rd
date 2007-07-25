@@ -2,7 +2,7 @@
 \name{gtkWidgetGetSizeRequest}
 \title{gtkWidgetGetSizeRequest}
 \description{Gets the size request that was explicitly set for the widget using
-\code{\link{gtkWidgetSetSizeRequest}}.  A value of -1 stored in \code{width} or
+\code{\link{gtkWidgetSetSizeRequest}}. A value of -1 stored in \code{width} or
 \code{height} indicates that that dimension has not been set explicitly
 and the natural requisition of the widget will be used intead. See
 \code{\link{gtkWidgetSetSizeRequest}}. To get the size a widget will
@@ -15,5 +15,6 @@ A list containing the following elements:
 \item{\code{width}}{[integer]  return location for width, or \code{NULL}}
 \item{\code{height}}{[integer]  return location for height, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

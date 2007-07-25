@@ -10,5 +10,6 @@ or, if \code{widget} is \code{NULL}, release ownership of the selection.}
 \item{\code{time}}{[numeric]  timestamp with which to claim the selection}
 }
 \value{[logical]  \code{TRUE} if the operation succeeded}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

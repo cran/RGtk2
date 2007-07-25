@@ -17,5 +17,6 @@ displayed by every current view.
   
 A model should be expected to be able to get an iter independent of its
 reffed state.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

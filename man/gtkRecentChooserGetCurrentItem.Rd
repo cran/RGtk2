@@ -7,5 +7,6 @@
 \details{  Since  2.10}
 \value{[\code{\link{GtkRecentInfo}}]  a \code{\link{GtkRecentInfo}}.  Use \code{\link{gtkRecentInfoUnref}} when
   when you have finished using it.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

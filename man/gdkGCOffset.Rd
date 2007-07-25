@@ -11,5 +11,6 @@ GC.}
 \item{\code{x.offset}}{[integer]  amount by which to offset the GC in the X direction}
 \item{\code{y.offset}}{[integer]  amount by which to offset the GC in the Y direction}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

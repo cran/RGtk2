@@ -13,5 +13,6 @@ A list containing the following elements:
 \item{retval}{[integer]  \code{TRUE} if the allocation succeeded.}
 \item{\code{color}}{[\code{\link{GdkColor}}]  the location to store the color.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

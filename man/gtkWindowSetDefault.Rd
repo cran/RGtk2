@@ -14,5 +14,6 @@ widget you'd like to make the default using \code{gtkWidgetSetFlags()}.}
 \item{\code{default.widget}}{[\code{\link{GtkWidget}}]  widget to be the default, or \code{NULL} to unset the
                  default widget for the toplevel.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

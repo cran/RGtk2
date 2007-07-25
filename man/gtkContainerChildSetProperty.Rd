@@ -9,5 +9,6 @@
 \item{\code{property.name}}{[character]  the name of the property to set}
 \item{\code{value}}{[R object]  the value to set the property to}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

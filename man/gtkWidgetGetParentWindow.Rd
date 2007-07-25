@@ -5,5 +5,6 @@
 \usage{gtkWidgetGetParentWindow(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}.}}
 \value{[\code{\link{GdkWindow}}]  the parent window of \code{widget}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

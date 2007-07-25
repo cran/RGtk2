@@ -6,5 +6,6 @@ pixel values being drawn are combined to produce
 the final pixel values.}
 \usage{gdkGCSetFunction(object, fun)}
 \arguments{\item{\code{object}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

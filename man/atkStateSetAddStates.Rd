@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{AtkStateSet}}]  an \code{\link{AtkStateSet}}}
 \item{\code{types}}{[\code{\link{AtkStateType}}]  a list of \code{\link{AtkStateType}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -20,5 +20,6 @@ allocated.}
   indicates whether the corresponding color in \code{colors} was
   successfully allocated or not.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

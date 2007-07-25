@@ -7,7 +7,7 @@ when obtaining the buffer contents as a string, will be represented
 by the Unicode "object replacement character" 0xFFFC. Note that the
 "slice" variants for obtaining portions of the buffer as a string
 include this character for child anchors, but the "text" variants do
-not. e.g. see \code{\link{gtkTextBufferGetSlice}} and
+not. E.g. see \code{\link{gtkTextBufferGetSlice}} and
 \code{\link{gtkTextBufferGetText}}. Consider
 \code{\link{gtkTextBufferCreateChildAnchor}} as a more convenient
 alternative to this function. The buffer will add a reference to
@@ -18,5 +18,6 @@ the anchor, so you can unref it after insertion.}
 \item{\code{iter}}{[\code{\link{GtkTextIter}}]  location to insert the anchor}
 \item{\code{anchor}}{[\code{\link{GtkTextChildAnchor}}]  a \code{\link{GtkTextChildAnchor}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

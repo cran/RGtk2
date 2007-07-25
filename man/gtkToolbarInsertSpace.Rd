@@ -10,5 +10,6 @@ Inserts a new space in the toolbar at the specified position.
 \item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}}
 \item{\code{position}}{[integer]  the number of widgets after which a space should be inserted.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

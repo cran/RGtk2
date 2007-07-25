@@ -11,5 +11,6 @@ Loads a fontset.
 \details{The fontset may be newly loaded or looked up in a cache. 
 You should make no assumptions about the initial reference count.  }
 \value{[\code{\link{GdkFont}}]  a \code{\link{GdkFont}}, or \code{NULL} if the fontset could not be loaded.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

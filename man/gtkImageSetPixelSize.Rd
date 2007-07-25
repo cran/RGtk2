@@ -10,5 +10,6 @@ to a value != -1, it is used instead of the icon size set by
 \item{\code{pixel.size}}{[integer]  the new pixel size}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

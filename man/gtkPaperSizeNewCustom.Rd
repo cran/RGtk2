@@ -13,5 +13,6 @@ given parameters.}
 }
 \details{  Since  2.10}
 \value{[\code{\link{GtkPaperSize}}]  a new \code{\link{GtkPaperSize}} object}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

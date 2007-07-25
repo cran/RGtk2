@@ -14,5 +14,6 @@ the list items is case sensitive.
 \details{This may be useful, for example, when you have called
 \code{\link{gtkComboSetValueInList}} to limit the values entered, but you are not
 worried about differences in case.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

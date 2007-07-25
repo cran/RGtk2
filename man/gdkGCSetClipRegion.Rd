@@ -9,5 +9,6 @@ The clip mask is interpreted relative to the clip origin. (See
 \item{\code{object}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}.}
 \item{\code{region}}{[\code{\link{GdkRegion}}]  the \code{\link{GdkRegion}}. }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

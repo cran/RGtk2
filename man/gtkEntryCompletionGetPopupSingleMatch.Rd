@@ -8,5 +8,6 @@ only a single match.}
 \details{  Since  2.8}
 \value{[logical]  \code{TRUE} if the popup window will appear regardless of the
    number of matches.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

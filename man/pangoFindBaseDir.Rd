@@ -11,5 +11,6 @@ direction, according to the Unicode bidirectional algorithm.}
 \details{  Since  1.4}
 \value{[\code{\link{PangoDirection}}]  The direction corresponding to the first strong character.
 If no such character is found, then \code{PANGO_DIRECTION_NEUTRAL} is returned.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@
 \item{\code{name}}{[character]  name of a tag}
 }
 \value{[\code{\link{GtkTextTag}}]  The tag, or \code{NULL} if none by that name is in the table.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

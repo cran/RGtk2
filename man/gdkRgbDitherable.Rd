@@ -7,5 +7,6 @@ dither mode is desired; if the display is not ditherable, it may make
 sense to gray out or hide the corresponding UI widget.}
 \usage{gdkRgbDitherable()}
 \value{[logical] \code{TRUE} if the preferred visual is ditherable.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

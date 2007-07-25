@@ -10,5 +10,6 @@ etc. Returns the integer value for the size.}
 \item{\code{height}}{[integer]  the icon height}
 }
 \value{[\code{\link{GtkIconSize}}]  integer value representing the size}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

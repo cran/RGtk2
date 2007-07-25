@@ -12,5 +12,6 @@ Adds a widget to the end of the given toolbar.
 \item{\code{tooltip.text}}{[char]  the element's tooltip.}
 \item{\code{tooltip.private.text}}{[char]  used for context-sensitive help about this toolbar element.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

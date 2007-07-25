@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{PangoContext}}]  a \code{\link{PangoContext}}}
 \item{\code{desc}}{[\code{\link{PangoFontDescription}}]  the new pango font description}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

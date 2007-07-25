@@ -66,5 +66,6 @@ converts the resulting image to a \code{\link{GdkPixbuf}}, so the
 documentation for \code{\link{gdkDrawableGetImage}} may also be relevant.  }
 \value{[\code{\link{GdkPixbuf}}]  The same pixbuf as \code{dest} if it was non-\code{NULL}, or a newly-created
 pixbuf with a reference count of 1 if no destination pixbuf was specified, or \code{NULL} on error}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

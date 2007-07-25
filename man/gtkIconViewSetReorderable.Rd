@@ -17,5 +17,6 @@ reordering is allowed.  If more control is needed, you should probably
 handle drag and drop manually.  
 
   Since  2.8}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

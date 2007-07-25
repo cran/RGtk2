@@ -21,5 +21,6 @@ A list containing the following elements:
             whether the user clicked on the leading or trailing
             edge of the character.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

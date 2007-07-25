@@ -8,5 +8,6 @@ or constructed by \code{\link{gtkButtonNewFromStock}}.}
 \arguments{\item{\code{object}}{[\code{\link{GtkButton}}]  a \code{\link{GtkButton}}}}
 \details{  Since  2.6}
 \value{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}} or \code{NULL} in case there is no image}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

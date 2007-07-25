@@ -10,5 +10,6 @@ functions can be called to create custom widgets.}
 \item{\code{handler}}{[\code{\link{GladeXMLCustomWidgetHandler}}]  the custom widget handler}
 \item{\code{user.data}}{[R object]  user data passed to the custom handler}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

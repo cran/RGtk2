@@ -5,5 +5,6 @@
 \usage{gtkTextTagTableGetSize(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextTagTable}}]  a \code{\link{GtkTextTagTable}}}}
 \value{[integer]  number of tags in \code{table}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

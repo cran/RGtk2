@@ -12,5 +12,6 @@ the operation status then tracks the print job status on the printer.
 
   Since  2.10}
 \value{[logical]  \code{TRUE}, if the print operation is finished.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

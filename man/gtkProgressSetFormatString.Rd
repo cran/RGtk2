@@ -19,5 +19,6 @@ current progress.  The string can contain the following substitution characters:
 \item{\code{format}}{[character] a string used to display progress text, or \code{NULL}
          to restore to the default format.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

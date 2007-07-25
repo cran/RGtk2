@@ -5,5 +5,6 @@
 \usage{gtkRangeGetInverted(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkRange}}]  a \code{\link{GtkRange}}}}
 \value{[logical]  \code{TRUE} if the range is inverted}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

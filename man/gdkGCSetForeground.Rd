@@ -10,5 +10,6 @@ color as red, green, blue components.}
 \item{\code{object}}{[\code{\link{GdkGC}}]  a \code{\link{GdkGC}}.}
 \item{\code{color}}{[\code{\link{GdkColor}}]  the new foreground color.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

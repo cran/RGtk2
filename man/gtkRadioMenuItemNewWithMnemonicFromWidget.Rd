@@ -14,5 +14,6 @@ indicate the mnemonic for the menu item.}
 
   Since  2.4}
 \value{[\code{\link{GtkWidget}}]  The new \code{\link{GtkRadioMenuItem}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

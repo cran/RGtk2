@@ -12,5 +12,6 @@ The function that implements both \code{\link{gtkCTreeSelectRecursive}} and
 \item{\code{node}}{[\code{\link{GtkCTreeNode}}] }
 \item{\code{state}}{[integer] True for selecting, false for unselecting.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

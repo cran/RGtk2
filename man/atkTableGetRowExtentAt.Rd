@@ -11,5 +11,6 @@ at a specified \code{row} and \code{column} in the \code{table}.}
 }
 \value{[integer]  a gint representing the row extent at specified position, or 0
 if value does not implement this interface.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

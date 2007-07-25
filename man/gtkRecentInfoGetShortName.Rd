@@ -8,5 +8,6 @@ menu or list.  For example, calling this function on an item that refers to
 \arguments{\item{\code{object}}{[\code{\link{GtkRecentInfo}}]  an \code{\link{GtkRecentInfo}}}}
 \details{  Since  2.10}
 \value{[character] .}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

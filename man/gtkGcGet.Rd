@@ -13,5 +13,6 @@ longer needed.}
 \item{\code{values}}{[\code{\link{GdkGCValues}}] a \code{\link{GdkGCValues}} struct containing settings for the \code{\link{GdkGC}}.}
 }
 \value{[\code{\link{GdkGC}}] a \code{\link{GdkGC}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,5 +18,6 @@ The \code{functions} argument is the logical OR of values from the
 then the other bits indicate which functions to disable; if
 it doesn't include \code{GDK_FUNC_ALL}, it indicates which functions to
 enable.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

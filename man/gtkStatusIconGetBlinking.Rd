@@ -7,5 +7,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkStatusIcon}}]  a \code{\link{GtkStatusIcon}}}}
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE} if the icon is blinking}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

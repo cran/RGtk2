@@ -10,5 +10,6 @@ hint.}
 \item{\code{setting}}{[logical]  \code{TRUE} to let this window receive input focus on map}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

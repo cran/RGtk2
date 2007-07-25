@@ -12,5 +12,6 @@ To do this, you can use \code{\link{gtkTreeRowReferenceNew}}.}
 
   Since  2.6}
 \value{[list]  A \code{list} containing a \code{\link{GtkTreePath}} for each selected row.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

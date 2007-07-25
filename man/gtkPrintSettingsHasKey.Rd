@@ -9,5 +9,6 @@
 }
 \details{  Since  2.10}
 \value{[logical]  \code{TRUE}, if \code{key} has a value}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

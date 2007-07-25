@@ -7,5 +7,6 @@ side of the menu bar.}
 \arguments{\item{\code{object}}{[\code{\link{GtkMenuItem}}]  a \code{\link{GtkMenuItem}}}}
 \value{[logical]  \code{TRUE} if the menu item will appear at the
   far right if added to a menu bar.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

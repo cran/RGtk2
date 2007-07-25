@@ -11,5 +11,6 @@ overriding the standard key handling for a toplevel window.}
 \item{\code{event}}{[\code{\link{GdkEventKey}}]    a \code{\link{GdkEventKey}}}
 }
 \value{[logical]  \code{TRUE} if a mnemonic or accelerator was found and activated.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

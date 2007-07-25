@@ -10,5 +10,6 @@ is otherwise not currently selected, does nothing.}
 \item{\code{uri}}{[char]  the URI to unselect}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

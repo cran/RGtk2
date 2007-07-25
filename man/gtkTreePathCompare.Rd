@@ -10,5 +10,6 @@ then 0 is returned.}
 \item{\code{b}}{[\code{\link{GtkTreePath}}]  A \code{\link{GtkTreePath}} to compare with.}
 }
 \value{[integer]  The relative positions of \code{a} and \code{b}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

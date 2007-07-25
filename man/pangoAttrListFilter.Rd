@@ -14,5 +14,6 @@ a new list.}
 \details{  Since  1.2}
 \value{[\code{\link{PangoAttrList}}]  the new \code{\link{PangoAttrList}} or \code{NULL} if
  no attributes of the given types were found.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

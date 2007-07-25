@@ -13,5 +13,6 @@ of the text.}
 \item{\code{start.pos}}{[integer] the starting position.}
 \item{\code{end.pos}}{[integer] the end position.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

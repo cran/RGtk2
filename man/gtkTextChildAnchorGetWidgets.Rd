@@ -5,5 +5,6 @@
 \usage{gtkTextChildAnchorGetWidgets(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextChildAnchor}}]  a \code{\link{GtkTextChildAnchor}}}}
 \value{[list]  list of widgets anchored at \code{anchor}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -353,6 +353,7 @@ Is used to notify that the value has changed.  Allowed values: >= 0  Default val
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/atk/AtkObject.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

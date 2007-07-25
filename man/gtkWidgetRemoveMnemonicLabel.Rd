@@ -12,5 +12,6 @@ must have previously been added to the list with
         \code{widget} with \code{\link{gtkWidgetAddMnemonicLabel}}.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

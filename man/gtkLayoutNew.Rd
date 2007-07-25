@@ -10,5 +10,6 @@ you'd like the layout to use for scrolling, pass \code{NULL} for
 \item{\code{vadjustment}}{[\code{\link{GtkAdjustment}}]  vertical scroll adjustment, or \code{NULL}}
 }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkLayout}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -16,5 +16,6 @@ bounding box (in device space) of the transformed layout.
   
 If you're using GTK+, the usual way to obtain a \code{\link{PangoLayout}}
 is \code{\link{gtkWidgetCreatePangoLayout}}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

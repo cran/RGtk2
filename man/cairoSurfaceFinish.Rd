@@ -15,5 +15,6 @@ error.}
 reference count to zero, cairo will call \code{\link{cairoSurfaceFinish}} if
 it hasn't been called already, before freeing the resources
 associated with the surface.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

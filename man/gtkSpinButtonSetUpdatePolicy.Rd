@@ -8,5 +8,6 @@ spin button is always updated or only when a valid value is set.}
 \item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}} }
 \item{\code{policy}}{[\code{\link{GtkSpinButtonUpdatePolicy}}]  a \code{\link{GtkSpinButtonUpdatePolicy}} value}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

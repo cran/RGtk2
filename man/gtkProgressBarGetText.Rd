@@ -8,5 +8,6 @@ if you change the text in the progress bar.}
 \usage{gtkProgressBarGetText(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkProgressBar}}]  a \code{\link{GtkProgressBar}}}}
 \value{[character]  text.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -16,5 +16,6 @@ specified \code{\link{PangoRenderer}}.}
 \code{\link{pangoRendererActivate}} to activate a renderer.  
 
   Since  1.8}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

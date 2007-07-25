@@ -10,5 +10,6 @@ associated with, for example.}
 \item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}
 \item{\code{setting}}{[logical]  whether to destroy \code{window} with its transient parent}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

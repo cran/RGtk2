@@ -14,5 +14,6 @@ A list containing the following elements:
 \item{retval}{[GtkAccelGroupEntry]           a list of \code{n.entries} \code{GtkAccelGroupEntry} elements, or \code{NULL}. }
 \item{\code{n.entries}}{[numeric]         location to return the number of entries found, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

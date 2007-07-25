@@ -7,5 +7,6 @@ The indentation may be negative.}
 \usage{gtkTextViewGetIndent(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextView}}]  a \code{\link{GtkTextView}}}}
 \value{[integer]  number of pixels of indentation}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

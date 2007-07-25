@@ -19,5 +19,6 @@ which decorations should be turned on.
   
 Most window managers honor a decorations hint of 0 to disable all decorations,
 but very few honor all possible combinations of bits.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

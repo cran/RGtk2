@@ -18,5 +18,6 @@ scrolls to the ratio \code{position}: 0 is top, 1 is bottom.
 \item{\code{scroll.type}}{[\code{\link{GtkScrollType}}] the scrolling type.}
 \item{\code{position}}{[numeric] the position if \code{scroll.type} is \code{GTK_SCROLL_JUMP}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

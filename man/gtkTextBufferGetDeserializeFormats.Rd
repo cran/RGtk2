@@ -13,5 +13,6 @@ A list containing the following elements:
               formats.}
 \item{\code{n.formats}}{[integer]  return location for the number of formats}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

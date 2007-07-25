@@ -14,5 +14,6 @@ models when their rows have been reordered.}
      to its old position before the re-ordering,
      i.e. \code{new.order}\code{[newpos] = oldpos}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

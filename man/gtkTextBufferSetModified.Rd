@@ -11,5 +11,6 @@ bit flips, the buffer emits a "modified\_changed" signal.}
 \item{\code{object}}{[\code{\link{GtkTextBuffer}}]  a \code{\link{GtkTextBuffer}} }
 \item{\code{setting}}{[logical]  modification flag setting}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

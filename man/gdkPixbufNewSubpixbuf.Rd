@@ -16,5 +16,6 @@ is finalized.}
 \item{\code{height}}{[integer]  height of region in \code{src.pixbuf}}
 }
 \value{[\code{\link{GdkPixbuf}}]  a new pixbuf }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

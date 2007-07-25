@@ -5,5 +5,6 @@
 end of \code{\link{gtkInit}}.}
 \usage{gtkRcSetDefaultFiles(filenames)}
 \arguments{\item{\code{filenames}}{[character]  A list of filenames.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

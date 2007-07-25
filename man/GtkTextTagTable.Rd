@@ -37,7 +37,7 @@ types related to the text widget and how they work together.
 
 }}}
 \section{Signals}{\describe{
-\item{\code{tag-added(texttagtable, arg1, user.data)}}{
+\item{\code{The (texttagtable, arg1, user.data)}}{
 \emph{undocumented
 }
 
@@ -49,7 +49,7 @@ types related to the text widget and how they work together.
 
 
 }
-\item{\code{tag-changed(texttagtable, arg1, arg2, user.data)}}{
+\item{\code{The (texttagtable, arg1, arg2, user.data)}}{
 \emph{undocumented
 }
 
@@ -62,7 +62,7 @@ types related to the text widget and how they work together.
 
 
 }
-\item{\code{tag-removed(texttagtable, arg1, user.data)}}{
+\item{\code{The (texttagtable, arg1, user.data)}}{
 \emph{undocumented
 }
 
@@ -75,6 +75,7 @@ types related to the text widget and how they work together.
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkTextTagTable.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

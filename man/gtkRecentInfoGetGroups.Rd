@@ -12,5 +12,6 @@ A list containing the following elements:
 \item{retval}{[character]  a newly allocated \code{NULL} terminated list of strings.}
 \item{\code{length}}{[numeric]  return location for the number of groups returned, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ Adds a row to the CList at the bottom.
 \item{\code{text}}{[character] An list of strings to add.}
 }
 \value{[integer] The number of the row added.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

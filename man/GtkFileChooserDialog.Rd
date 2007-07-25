@@ -18,7 +18,7 @@
                                        +----\link{GtkDialog}
                                              +----GtkFileChooserDialog}}
 \section{Interfaces}{GtkFileChooserDialog implements
- \code{\link{GtkFileChooser}} and  AtkImplementorIface.}
+ \code{\link{GtkBuildable}},  AtkImplementorIface and  \code{\link{GtkFileChooser}}.}
 \section{Detailed Description}{      \code{\link{GtkFileChooserDialog}} is a dialog box suitable for use with
       "File/Open" or "File/Save as" commands.  This widget works by
       putting a \code{\link{GtkFileChooserWidget}} inside a \code{\link{GtkDialog}}.  It exposes
@@ -93,6 +93,7 @@ dialog = gtk_file_chooser_dialog_new ("Open File",
 
 }}}
 \section{Convenient Construction}{\code{gtkFileChooserDialog} is the result of collapsing the constructors of \code{GtkFileChooserDialog} (\code{\link{gtkFileChooserDialogNew}}, \code{\link{gtkFileChooserDialogNewWithBackend}}) and accepts a subset of its arguments matching the required arguments of one of its delegate constructors.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkFileChooserDialog.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{

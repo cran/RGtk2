@@ -5,5 +5,6 @@
 \code{tree.column} is clickable.}
 \usage{gtkTreeViewColumnClicked(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeViewColumn}}]  a \code{\link{GtkTreeViewColumn}}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

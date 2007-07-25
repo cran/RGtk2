@@ -17,6 +17,7 @@ The RGtk binding to the GDK-Pixbuf library consists of the following components:
 \item{\link{gdk-pixbuf-util}}{Utility and miscellaneous convenience functions.}
 }
 }
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk-pixbuf}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{interface}

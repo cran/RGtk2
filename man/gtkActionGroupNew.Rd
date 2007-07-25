@@ -8,5 +8,6 @@ with the actions.}
 \arguments{\item{\code{name}}{[character]  the name of the action group.}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkActionGroup}}]  the new \code{\link{GtkActionGroup}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

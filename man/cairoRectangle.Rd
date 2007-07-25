@@ -19,5 +19,6 @@ cr$relLineTo(0, height)
 cr$relLineTo(-width, 0)
 cr$closePath()
 }  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

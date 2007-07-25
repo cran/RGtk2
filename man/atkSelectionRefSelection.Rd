@@ -15,5 +15,6 @@ ith selection as opposed to the ith child).}
 }
 \value{[\code{\link{AtkObject}}]  an \code{\link{AtkObject}} representing the selected accessible , or \code{NULL}
 if \code{selection} does not implement this interface.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

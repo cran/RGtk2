@@ -6,5 +6,6 @@ from the \code{\link{GdkWindowState}} enumeration.}
 \usage{gdkWindowGetState(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}}
 \value{[\code{\link{GdkWindowState}}]  window state bitfield}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

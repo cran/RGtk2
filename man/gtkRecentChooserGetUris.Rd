@@ -15,5 +15,6 @@ A list containing the following elements:
 \item{retval}{[character]  A newly allocated, \code{NULL} terminated list of strings.}
 \item{\code{length}}{[numeric]  return location for a the length of the URI list, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

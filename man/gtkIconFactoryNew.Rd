@@ -16,5 +16,6 @@ add a default icon factory with their icons, which will allow
 themes to override the icons for the application.}
 \usage{gtkIconFactoryNew()}
 \value{[\code{\link{GtkIconFactory}}]  a new \code{\link{GtkIconFactory}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

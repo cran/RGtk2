@@ -12,5 +12,6 @@ use \code{style->font.desc} instead.
 \arguments{\item{\code{object}}{[\code{\link{GtkStyle}}]  a \code{\link{GtkStyle}}}}
 \value{[\code{\link{GdkFont}}]  the \code{\link{GdkFont}} for the style. This font is owned
   by the style; if you want to keep around a copy.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

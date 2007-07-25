@@ -5,5 +5,6 @@
 \usage{gtkWindowActivateFocus(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWindow}}]  a \code{\link{GtkWindow}}}}
 \value{[logical]  \code{TRUE} if a widget got activated.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

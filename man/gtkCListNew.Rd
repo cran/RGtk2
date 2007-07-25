@@ -8,5 +8,6 @@ Creates a new \code{\link{GtkCList}} widget for use.
 \usage{gtkCListNew(columns = 1, show = TRUE)}
 \arguments{\item{\code{columns}}{[integer] The number of columns the \code{\link{GtkCList}} should have.}}
 \value{[\code{\link{GtkWidget}}] A pointer to a new GtkCList object.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

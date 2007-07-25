@@ -20,7 +20,7 @@
                                              +----GtkCheckButton
                                                    +----\link{GtkRadioButton}}}
 \section{Interfaces}{GtkCheckButton implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{A \code{\link{GtkCheckButton}} places a discrete \code{\link{GtkToggleButton}} next to a widget, (usually a \code{\link{GtkLabel}}). See the section on \code{\link{GtkToggleButton}} widgets for more information about toggle/check buttons.
   
 The important signal ('toggled') is also inherited from \code{\link{GtkToggleButton}}.}
@@ -41,6 +41,7 @@ Spacing around check or radio indicator.  Allowed values: >= 0  Default value: 2
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkCheckButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

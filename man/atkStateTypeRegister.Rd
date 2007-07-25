@@ -5,5 +5,6 @@
 \usage{atkStateTypeRegister(name)}
 \arguments{\item{\code{name}}{[character]  a character string describing the new state.}}
 \value{[\code{\link{AtkStateType}}]  an \code{numeric} value for the new state.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

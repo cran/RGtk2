@@ -6,8 +6,9 @@
 \usage{gtkComboBoxSetActiveIter(object, iter)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkComboBox}}]  A \code{\link{GtkComboBox}}}
-\item{\code{iter}}{[\code{\link{GtkTreeIter}}]  The \code{\link{GtkTreeIter}}.}
+\item{\code{iter}}{[\code{\link{GtkTreeIter}}]  The \code{\link{GtkTreeIter}}}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

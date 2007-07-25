@@ -21,5 +21,6 @@ into the default icon theme, which is called DEFAULT\_THEME\_NAME,
 rather than directly on the icon path.)  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

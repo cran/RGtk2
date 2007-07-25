@@ -12,5 +12,6 @@ Creates a new \code{\link{GtkCList}} widget with column titles for use.
 enough strings in the list for the specified number of columns.}
 }
 \value{[\code{\link{GtkWidget}}] A pointer to a new GtkCList object.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

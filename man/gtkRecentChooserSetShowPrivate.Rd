@@ -8,5 +8,6 @@
 \item{\code{show.private}}{[logical]  \code{TRUE} to show private items, \code{FALSE} otherwise}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

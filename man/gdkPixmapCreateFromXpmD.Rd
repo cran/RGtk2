@@ -18,5 +18,6 @@ A list containing the following elements:
 the transparency mask of the XPM file. Can be \code{NULL},
 in which case transparency will be ignored.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

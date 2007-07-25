@@ -8,5 +8,6 @@
 \item{\code{show.tips}}{[logical]  \code{TRUE} if tooltips should be shown}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

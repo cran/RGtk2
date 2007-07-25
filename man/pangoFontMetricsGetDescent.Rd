@@ -9,5 +9,6 @@ where the ink will be.)}
 \usage{pangoFontMetricsGetDescent(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontMetrics}}]  a \code{\link{PangoFontMetrics}} structure}}
 \value{[integer]  the descent, in Pango units. (1 point == \code{PANGO_SCALE} Pango units.)}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

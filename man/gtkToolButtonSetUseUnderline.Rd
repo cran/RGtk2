@@ -15,5 +15,6 @@ menu will have an underlined 'O'.}
 only affects the menu item on the overflow menu.  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

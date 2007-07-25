@@ -8,5 +8,6 @@
   valid pointer; if memory cannot be allocated, then a special
   error object is returned where all operations on the object do nothing.
   You can check for this with \code{\link{cairoFontOptionsStatus}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

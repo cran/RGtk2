@@ -13,5 +13,6 @@ the function does nothing and returns \code{FALSE}.}
 \item{\code{count}}{[integer]  number of characters to move}
 }
 \value{[logical]  whether \code{iter} moved and is dereferenceable}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

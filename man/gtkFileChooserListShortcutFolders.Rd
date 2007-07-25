@@ -8,5 +8,6 @@
 \details{  Since  2.4}
 \value{[list]  A list of folder filenames, or \code{NULL} if there are no shortcut
 folders.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

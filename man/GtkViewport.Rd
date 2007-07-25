@@ -21,14 +21,14 @@
                            +----\link{GtkBin}
                                  +----GtkViewport}}
 \section{Interfaces}{GtkViewport implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Structures}{\describe{\item{\code{GtkViewport}}{
 \emph{undocumented
 }
 
 }}}
 \section{Convenient Construction}{\code{gtkViewport} is the equivalent of \code{\link{gtkViewportNew}}.}
-\section{Signals}{\describe{\item{\code{set-scroll-adjustments(viewport, arg1, arg2, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (viewport, arg1, arg2, user.data)}}{
 \emph{undocumented
 }
 
@@ -58,6 +58,7 @@ The GtkAdjustment that determines the values of the vertical position for this v
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkViewport.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

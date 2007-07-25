@@ -14,5 +14,6 @@ A list containing the following elements:
 \item{\code{fill}}{[logical]  location to store the fill value (or NULL)}
 \item{\code{pack.type}}{[\code{\link{GtkPackType}}]  location to store the pack\_type (or NULL)}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

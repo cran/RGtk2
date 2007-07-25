@@ -21,5 +21,6 @@ ranges, not ink extents. So the drawn line may in fact touch areas out of
 the clip region.  The clip region is mainly useful for highlightling parts
 of text, such as when text is selected.  }
 \value{[\code{\link{GdkRegion}}]  a clip region containing the given ranges}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ be drawn at the current point of the cairo context.}
 \item{\code{line}}{[\code{\link{PangoLayoutLine}}]  a \code{\link{PangoLayoutLine}}}
 }
 \details{  Since  1.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -20,5 +20,6 @@ may display an internally generated preview of the current file or
 it may display no preview at all.  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

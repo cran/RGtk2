@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkToolbar}}]  a \code{\link{GtkToolbar}}.}
 \item{\code{style}}{[\code{\link{GtkToolbarStyle}}]  the new style for \code{toolbar}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

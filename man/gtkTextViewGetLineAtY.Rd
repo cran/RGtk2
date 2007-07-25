@@ -16,5 +16,6 @@ A list containing the following elements:
 \item{\code{target.iter}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}
 \item{\code{line.top}}{[integer]  return location for top coordinate of the line}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

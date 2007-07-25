@@ -30,5 +30,6 @@ on and off portions of the size specified by the single value in
 If any value in \code{dashes} is negative, or if all values are 0, then
 \code{cairo.t} will be put into an error state with a status of
 \code{CAIRO_STATUS_INVALID_DASH}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

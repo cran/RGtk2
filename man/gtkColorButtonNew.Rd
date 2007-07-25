@@ -9,5 +9,6 @@ the new color when the user finishes.}
 \usage{gtkColorButtonNew(show = TRUE)}
 \details{  Since  2.4}
 \value{[\code{\link{GtkWidget}}]  a new color button.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

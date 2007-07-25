@@ -1,9 +1,12 @@
 \alias{gtkFileSelectionSetFilename}
 \name{gtkFileSelectionSetFilename}
 \title{gtkFileSelectionSetFilename}
-\description{Sets a default path for the file requestor. If \code{filename} includes a
+\description{
+Sets a default path for the file requestor. If \code{filename} includes a
 directory path, then the requestor will open with that path as its
-current working directory.}
+current working directory.
+\strong{WARNING: \code{gtk_file_selection_set_filename} is deprecated and should not be used in newly-written code.}
+}
 \usage{gtkFileSelectionSetFilename(object, filename)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkFileSelection}}]  a \code{\link{GtkFileSelection}}.}
@@ -15,5 +18,6 @@ directory separator.
   
 The encoding of \code{filename} is preferred GLib file name encoding, which
 may not be UTF-8. See \code{gFilenameFromUtf8()}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

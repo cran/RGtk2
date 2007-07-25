@@ -8,5 +8,6 @@ for displaying to users.}
 \usage{pangoFontFaceGetFaceName(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontFace}}]  a \code{\link{PangoFontFace}}.}}
 \value{[char]  the face name for the face.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -23,7 +23,7 @@
                                              +----\link{GtkToggleToolButton}
                                                    +----GtkRadioToolButton}}
 \section{Interfaces}{GtkRadioToolButton implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{A \code{\link{GtkRadioToolButton}} is a \code{\link{GtkToolItem}} that contains a radio button,
 that is, a button that is part of a group of toggle buttons where only
 one button can be active at a time.
@@ -48,6 +48,7 @@ Sets a new group for a radio tool button.
   Since  2.4
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkRadioToolButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

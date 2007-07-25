@@ -9,5 +9,6 @@ See \code{\link{gtkTextBufferMoveMark}} for details.}
 \item{\code{name}}{[character]  name of a mark}
 \item{\code{where}}{[\code{\link{GtkTextIter}}]  new location for mark}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

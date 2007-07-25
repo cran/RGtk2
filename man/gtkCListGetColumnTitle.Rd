@@ -11,5 +11,6 @@ Gets the current title of the specified column
 \item{\code{column}}{[integer] The column to query.}
 }
 \value{[character] The title of the column.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

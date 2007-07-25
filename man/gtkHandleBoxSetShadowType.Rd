@@ -8,5 +8,6 @@ of the handle box.}
 \item{\code{object}}{[\code{\link{GtkHandleBox}}] a \code{\link{GtkHandleBox}}}
 \item{\code{type}}{[\code{\link{GtkShadowType}}] the shadow type.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@ if the layer of the component is not ATK\_LAYER\_MDI or ATK\_LAYER\_WINDOW.}
 \value{[integer]  a gint which is the zorder of the component, i.e. the depth at 
 which the component is shown in relation to other components in the same 
 container.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@ significance of widget names.}
 \usage{gtkWidgetGetName(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}}}}
 \value{[character]  name of the widget}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

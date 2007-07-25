@@ -11,5 +11,6 @@ that the data of the drag will no longer be required.}
       original data. (This should be \code{TRUE} for a move)}
 \item{\code{time}}{[numeric] the timestamp from the "drag\_data\_drop" signal.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

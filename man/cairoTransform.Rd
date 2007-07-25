@@ -9,5 +9,6 @@ user space takes place after any existing transformation.}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}
 \item{\code{matrix}}{[\code{\link{CairoMatrix}}]  a transformation to be applied to the user-space axes}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

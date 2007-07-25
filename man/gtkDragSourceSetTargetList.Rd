@@ -10,5 +10,6 @@ The widget must first be made into a drag source with
 \item{\code{target.list}}{[\code{\link{GtkTargetList}}]  list of draggable targets, or \code{NULL} for none}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

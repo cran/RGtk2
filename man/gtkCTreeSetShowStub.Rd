@@ -10,5 +10,6 @@
 \item{\code{object}}{[\code{\link{GtkCTree}}] }
 \item{\code{show.stub}}{[logical] }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

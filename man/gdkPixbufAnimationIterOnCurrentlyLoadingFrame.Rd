@@ -9,5 +9,6 @@ the updated area.}
 \usage{gdkPixbufAnimationIterOnCurrentlyLoadingFrame(object)}
 \arguments{\item{\code{object}}{[\code{\link{GdkPixbufAnimationIter}}]  a \code{\link{GdkPixbufAnimationIter}}}}
 \value{[logical]  \code{TRUE} if the frame we're on is partially loaded, or the last frame}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

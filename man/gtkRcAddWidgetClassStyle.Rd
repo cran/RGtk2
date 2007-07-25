@@ -15,5 +15,6 @@ statement in a RC file.
 \item{\code{object}}{[\code{\link{GtkRcStyle}}] the \code{\link{GtkRcStyle}} to use for widgets matching \code{pattern}}
 \item{\code{pattern}}{[character] the pattern}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

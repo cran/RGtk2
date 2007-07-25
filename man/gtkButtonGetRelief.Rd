@@ -5,5 +5,6 @@
 \usage{gtkButtonGetRelief(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkButton}}] The \code{\link{GtkButton}} you want the \code{\link{GtkReliefStyle}} from.}}
 \value{[\code{\link{GtkReliefStyle}}] The current \code{\link{GtkReliefStyle}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

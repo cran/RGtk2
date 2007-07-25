@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GdkColormap}}]  a \code{\link{GdkColormap}}.}
 \item{\code{colors}}{[\code{\link{GdkColor}}]  the colors to free.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

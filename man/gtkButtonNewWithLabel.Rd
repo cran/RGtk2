@@ -6,5 +6,6 @@ text.}
 \usage{gtkButtonNewWithLabel(label, show = TRUE)}
 \arguments{\item{\code{label}}{[character] The text you want the \code{\link{GtkLabel}} to hold.}}
 \value{[\code{\link{GtkWidget}}] The newly created \code{\link{GtkButton}} widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,5 +13,6 @@ removed.}
 handled synchronously, this function will do nothing.  
 
   Since  2.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -21,6 +21,7 @@
 \code{\link{gtkRcGetDefaultFiles}()}\cr
 \code{\link{gtkRcSetDefaultFiles}(filenames)}\cr
 \code{\link{gtkRcParseColor}(scanner, color)}\cr
+\code{\link{gtkRcParseColorFull}(scanner, style)}\cr
 \code{\link{gtkRcParseState}(scanner, state)}\cr
 \code{\link{gtkRcParsePriority}(scanner, priority)}\cr
 \code{\link{gtkRcFindModuleInPath}(module.file)}\cr
@@ -226,6 +227,7 @@ specific portions of a RC file.
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/gtk-Resource-Files.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

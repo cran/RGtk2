@@ -6,5 +6,6 @@ If \code{label} is \code{NULL}, the label is omitted.}
 \usage{gtkFrameNew(label = NULL, show = TRUE)}
 \arguments{\item{\code{label}}{[character]  the text to use as the label of the frame}}
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkFrame}} widget}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

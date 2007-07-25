@@ -25,5 +25,6 @@ examined by \code{\link{cairoStroke}}, \code{\link{cairoStrokeExtents}}, and
 construction.
   
 The default line width value is 2.0.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

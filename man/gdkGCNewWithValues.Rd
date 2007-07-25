@@ -9,5 +9,6 @@
 \item{\code{values}}{[\code{\link{GdkGCValues}}]  a structure containing initial values for the GC.}
 }
 \value{[\code{\link{GdkGC}}]  the new graphics context.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

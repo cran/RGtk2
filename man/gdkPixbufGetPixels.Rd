@@ -7,5 +7,6 @@
 \value{[raw]  A pointer to the pixbuf's pixel data.  Please see 
 for information about how the pixel data is stored in
 memory.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

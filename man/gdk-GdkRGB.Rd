@@ -47,6 +47,11 @@ of GdkRGB. Note, however, that setting it to 0 doesn't let you get
 away with ignoring the colormap and visual - a colormap is always
 created in grayscale and direct color modes, and the visual is changed
 in cases where a "better" visual than the default is available.
+  
+If GDK is built with the Sun mediaLib library, the GdkRGB functions are
+accelerated using mediaLib, which provides hardware acceleration on Intel,
+AMD, and Sparc chipsets.  If desired, mediaLib support can be turned off
+by setting the GDK\_DISABLE\_MEDIALIB environment variable.
   \preformatted{
 # Simple example of using GdkRGB with RGtk2
 
@@ -88,6 +93,11 @@ A private data structure which maps color indices to actual RGB
 colors. This is used only for \code{\link{gdkDrawIndexedImage}}.
 \strong{\code{GdkRgbCmap} is a \link{transparent-type}.}
 
+\describe{
+\item{\code{colors}}{[numeric] The colors, represented as 0xRRGGBB integer values.}
+\item{\code{n_colors}}{[integer] The number of colors in the cmap.}
+}
+
 }}}
 \section{Enums and Flags}{\describe{\item{\code{GdkRgbDither}}{
 Selects whether or not GdkRGB applies dithering
@@ -104,6 +114,7 @@ only.}
 }
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/gdk-GdkRGB.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,6 +8,7 @@ be invoked when the menu calls \code{\link{gtkMenuDetach}} during its destructio
 \item{\code{object}}{[\code{\link{GtkMenu}}] a \code{\link{GtkMenu}}.}
 \item{\code{attach.widget}}{[\code{\link{GtkWidget}}] the \code{\link{GtkWidget}} that the menu will be attached to.}
 }
+\section{encoding}{UTF-8}
 \note{This does not yet support the callback function, sorry.}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

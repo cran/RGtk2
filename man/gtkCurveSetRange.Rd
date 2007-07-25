@@ -11,5 +11,6 @@ The curve is also reset with a call to \code{\link{gtkCurveReset}}.}
 \item{\code{min.y}}{[numeric] the minimum y value.}
 \item{\code{max.y}}{[numeric] the maximum y value.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

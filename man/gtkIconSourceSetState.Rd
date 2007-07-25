@@ -12,5 +12,6 @@ with.}
 if the state is wildcarded. Therefore, you should usually
 call \code{\link{gtkIconSourceSetStateWildcarded}} to un-wildcard it
 in addition to calling this function.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

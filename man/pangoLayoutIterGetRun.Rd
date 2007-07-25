@@ -10,5 +10,6 @@ at least one run, even lines consisting of only a newline.}
 \details{Use the faster \code{\link{pangoLayoutIterGetRunReadonly}} if you do not plan
 to modify the contents of the run (glyphs, glyph widths, etc.).  }
 \value{[PangoLayoutRun]  the current run.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -16,5 +16,6 @@ A list containing the following elements:
            \code{tree.column}, may be \code{NULL}}
 \item{\code{width}}{[integer]  return location for the width of \code{cell}, may be \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

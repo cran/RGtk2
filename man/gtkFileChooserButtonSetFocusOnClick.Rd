@@ -11,5 +11,6 @@ application.}
 \item{\code{focus.on.click}}{[logical]  whether the button grabs focus when clicked with the mouse}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

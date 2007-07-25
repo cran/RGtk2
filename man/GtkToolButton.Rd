@@ -31,7 +31,7 @@
                                              +----\link{GtkMenuToolButton}
                                              +----\link{GtkToggleToolButton}}}
 \section{Interfaces}{GtkToolButton implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{\code{\link{GtkToolButton}}s are \code{GtkToolItems} containing buttons.
   
 Use \code{\link{gtkToolButtonNew}} to create a new \code{\link{GtkToolButton}}. Use
@@ -56,7 +56,7 @@ accessed with the function described below.
 
 }}}
 \section{Convenient Construction}{\code{gtkToolButton} is the equivalent of \code{\link{gtkToolButtonNew}}.}
-\section{Signals}{\describe{\item{\code{clicked(toolbutton, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (toolbutton, user.data)}}{
 This signal is emitted when the tool button is clicked with the mouse
 or activated with the keyboard.  
 
@@ -108,6 +108,7 @@ If set, an underline in the label property indicates that the next character sho
 Spacing in pixels between the icon and label.  Allowed values: >= 0  Default value: 0
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkToolButton.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

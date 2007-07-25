@@ -10,5 +10,6 @@ anything to the widget after loading.}
 \item{\code{name}}{[char]  the name of the widget.}
 }
 \value{[\code{\link{GtkWidget}}]  the widget matching \code{name}, or \code{NULL} if none exists.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

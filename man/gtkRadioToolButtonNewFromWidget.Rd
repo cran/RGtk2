@@ -6,5 +6,6 @@
 \arguments{\item{\code{group}}{[\code{\link{GtkRadioToolButton}}]  An existing \code{\link{GtkRadioToolButton}}}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkToolItem}}]  The new \code{\link{GtkRadioToolButton}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

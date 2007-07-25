@@ -12,5 +12,6 @@ If the file is not found, it outputs a warning message using
 \item{\code{pixmap.file}}{[character]  name of the pixmap file to locate.}
 }
 \value{[character]  the filename. }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

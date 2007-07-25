@@ -12,5 +12,6 @@ number of colors), a colorcube will be allocated in the colormap.}
 \item{\code{color}}{[\code{\link{GdkColor}}]  an unallocated \code{\link{GdkColor}}.}
 }
 \details{Calling this function for a GC without a colormap is an error.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

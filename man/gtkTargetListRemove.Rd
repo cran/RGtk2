@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkTargetList}}]  a \code{\link{GtkTargetList}}}
 \item{\code{target}}{[\code{\link{GdkAtom}}]  the interned atom representing the target}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

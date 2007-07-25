@@ -7,5 +7,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkHandleBox}}]  a \code{\link{GtkHandleBox}}}}
 \value{[\code{\link{GtkPositionType}}]  the edge used for determining reattachment, or (GtkPositionType)-1 if this
               is determined (as per default) from the handle position. }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

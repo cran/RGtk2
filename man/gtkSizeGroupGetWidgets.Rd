@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkSizeGroup}}]  a \code{GtkSizeGrup}}}
 \details{  Since  2.10}
 \value{[list]  a \code{list} of widgets.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

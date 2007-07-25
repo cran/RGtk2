@@ -9,5 +9,6 @@ is sensitive.}
 \arguments{\item{\code{object}}{[\code{\link{GtkActionGroup}}]  the action group}}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the group is sensitive.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

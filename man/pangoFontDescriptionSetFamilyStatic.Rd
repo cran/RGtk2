@@ -10,5 +10,6 @@ if \code{desc} is only needed temporarily.}
 \item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}
 \item{\code{family}}{[char]  a string representing the family name.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -24,5 +24,6 @@ will do nothing.
 On the Win32 platform the functionality is always present.
   
 This function works on both toplevel and child windows.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

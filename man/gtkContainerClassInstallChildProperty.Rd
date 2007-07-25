@@ -8,5 +8,6 @@
 \item{\code{property.id}}{[numeric]  the id for the property}
 \item{\code{pspec}}{[\code{\link{GParamSpec}}]  the \code{\link{GParamSpec}} for the property}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

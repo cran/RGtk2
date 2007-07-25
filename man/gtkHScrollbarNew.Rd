@@ -5,5 +5,6 @@
 \usage{gtkHScrollbarNew(adjustment = NULL, show = TRUE)}
 \arguments{\item{\code{adjustment}}{[\code{\link{GtkAdjustment}}] the \code{\link{GtkAdjustment}} to use, or \code{NULL} to create a new adjustment.}}
 \value{[\code{\link{GtkWidget}}] the new \code{\link{GtkHScrollbar}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -18,5 +18,6 @@ A list containing the following elements:
 \item{\code{tree.model}}{[\code{\link{GtkTreeModel}}]  a \code{\link{GtkTreeModel}}}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  row in \code{tree.model}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

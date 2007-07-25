@@ -16,5 +16,6 @@ appropriate path for the menu item, use \code{\link{gtkStockLookup}} to look up 
 standard accelerator for the stock item, and if one is found, call
 \code{\link{gtkAccelMapAddEntry}} to register it.  }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImageMenuItem}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

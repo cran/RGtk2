@@ -22,5 +22,6 @@ gap in one side.}
 \item{\code{gap.x}}{[integer]  starting position of the gap}
 \item{\code{gap.width}}{[integer]  width of the gap}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

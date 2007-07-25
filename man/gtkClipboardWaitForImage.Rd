@@ -13,5 +13,6 @@ timeouts, etc, may be dispatched during the wait.}
               could happen for various reasons, in particular 
               if the clipboard was empty or if the contents of 
               the clipboard could not be converted into an image.)}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

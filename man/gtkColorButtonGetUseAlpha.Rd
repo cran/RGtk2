@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkColorButton}}]  a \code{\link{GtkColorButton}}.}}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the color sample uses alpha channel, \code{FALSE} if not.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

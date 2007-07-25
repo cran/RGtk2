@@ -11,5 +11,6 @@ is \code{\link{gdkWindowHide}}.
   
 When implementing a \code{\link{GtkWidget}}, you should call this function on the widget's
 \code{\link{GdkWindow}} as part of the "map" method.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

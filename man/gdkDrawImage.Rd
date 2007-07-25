@@ -17,5 +17,6 @@ The depth of the \code{\link{GdkImage}} must match the depth of the \code{\link{
 \item{\code{height}}{[integer]  the height of the area to be copied, or -1 to make the area 
     extend to the bottom edge of \code{image}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

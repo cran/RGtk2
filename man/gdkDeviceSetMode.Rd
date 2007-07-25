@@ -10,5 +10,6 @@ entire screen or to a single window.}
 \item{\code{mode}}{[\code{\link{GdkInputMode}}] the input mode.}
 }
 \value{[logical] \code{TRUE} if the mode was successfully changed.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

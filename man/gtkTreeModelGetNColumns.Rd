@@ -5,5 +5,6 @@
 \usage{gtkTreeModelGetNColumns(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeModel}}]  A \code{\link{GtkTreeModel}}.}}
 \value{[integer]  The number of columns.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

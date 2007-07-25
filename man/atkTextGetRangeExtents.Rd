@@ -16,5 +16,6 @@
 A list containing the following elements:
 \item{\code{rect}}{[\code{\link{AtkTextRectangle}}]  A pointer to a AtkTextRectangle which is filled in by this function.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@ Retrieves the current layout used to arrange buttons in button box widgets.
 }
 \usage{gtkVButtonBoxGetLayoutDefault()}
 \value{[\code{\link{GtkButtonBoxStyle}}] the current \code{\link{GtkButtonBoxStyle}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,5 +12,6 @@ also set the original color to be \code{color} too.
 \item{\code{color}}{[numeric]  a list of 4 doubles specifying the red, green, blue and opacity 
   to set the current color to.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -9,5 +9,6 @@
 }
 \value{[logical]  a gboolean representing if row was successfully added to selection,
 or 0 if value does not implement this interface.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

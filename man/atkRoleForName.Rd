@@ -7,5 +7,6 @@
 \value{[\code{\link{AtkRole}}]  the \code{\link{AtkRole}} enumerated type corresponding to the specified
 name,
          or \code{ATK_ROLE_INVALID} if no matching role is found.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

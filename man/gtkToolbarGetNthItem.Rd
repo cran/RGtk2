@@ -11,5 +11,6 @@ toolbar does not contain an \code{n}'th item.}
 \details{  Since  2.4}
 \value{[\code{\link{GtkToolItem}}]  The \code{n}'th \code{\link{GtkToolItem}} on \code{toolbar}, or \code{NULL} if there
 isn't an \code{n}'th item.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

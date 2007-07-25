@@ -13,5 +13,6 @@
 \item{\code{dith}}{[\code{\link{GdkRgbDither}}] A \code{\link{GdkRgbDither}} value, selecting the desired dither mode.}
 \item{\code{buf}}{[raw] The pixel data, represented as 8-bit gray values.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

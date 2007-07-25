@@ -9,5 +9,6 @@ needs reorganization. }
 \details{This function is only useful for container implementations and
 never should be called by an application.  }
 \value{[logical]  \code{TRUE} if the widget is mapped with the parent.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

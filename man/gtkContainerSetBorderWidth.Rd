@@ -5,8 +5,8 @@
 \usage{gtkContainerSetBorderWidth(object, border.width)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkContainer}}]  a \code{\link{GtkContainer}}}
-\item{\code{border.width}}{[numeric]  amount of blank space to leave \emph{outside} the container.
-  Valid values are in the range 0-65535 pixels.}
+\item{\code{border.width}}{[numeric]  amount of blank space to leave \emph{outside} 
+  the container. Valid values are in the range 0-65535 pixels.}
 }
 \details{The border width of a container is the amount of space to leave
 around the outside of the container. The only exception to this is
@@ -15,5 +15,6 @@ they leave the space inside. The border is added on all sides of
 the container. To add space to only one side, one approach is to
 create a \code{\link{GtkAlignment}} widget, call \code{\link{gtkWidgetSetUsize}} to give
 it a size, and place it on the side of the container as a spacer.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

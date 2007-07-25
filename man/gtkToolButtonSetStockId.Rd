@@ -10,5 +10,6 @@ overridden by non-\code{NULL} "label" and "icon\_widget" properties.}
 \item{\code{stock.id}}{[character]  a name of a stock item, or \code{NULL}}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

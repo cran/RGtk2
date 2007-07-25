@@ -8,5 +8,6 @@
 \item{\code{gdk.image}}{[\code{\link{GdkImage}}]  a \code{\link{GdkImage}} or \code{NULL}}
 \item{\code{mask}}{[\code{\link{GdkBitmap}}]  a \code{\link{GdkBitmap}} or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

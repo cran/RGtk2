@@ -9,5 +9,6 @@ for anything down a level, etc.}
 \item{\code{iter}}{[\code{\link{GtkTreeIter}}]  A valid \code{\link{GtkTreeIter}}}
 }
 \value{[integer]  The depth of \code{iter}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

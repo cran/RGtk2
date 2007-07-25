@@ -16,5 +16,6 @@ Please see the documentation for those functions for an example of using
 \code{\link{gtkFileChooserSetCurrentName}} as well.  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

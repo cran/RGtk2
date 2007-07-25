@@ -8,5 +8,6 @@ global information about preview widgets.
 }
 \usage{gtkPreviewGetInfo()}
 \value{[\code{\link{GtkPreviewInfo}}] a \code{\link{GtkPreviewInfo}} structure.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

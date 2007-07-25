@@ -12,5 +12,6 @@ when the pixmap is insensitive. The default value is \code{TRUE}.
 \item{\code{build}}{[logical] set to \code{TRUE} if an extra pixmap should be automatically created to use
 when the pixmap is insensitive.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

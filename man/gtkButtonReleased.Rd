@@ -4,5 +4,6 @@
 \description{Emits a \code{\link{gtkButtonReleased}} signal to the given \code{\link{GtkButton}}.}
 \usage{gtkButtonReleased(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkButton}}] The \code{\link{GtkButton}} you want to send the signal to.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

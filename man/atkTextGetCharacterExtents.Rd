@@ -16,5 +16,6 @@ A list containing the following elements:
 \item{\code{width}}{[integer]  Pointer for the width of the bounding box}
 \item{\code{height}}{[integer]  Pointer for the height of the bounding box}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

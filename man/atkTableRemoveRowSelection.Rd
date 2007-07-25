@@ -9,5 +9,6 @@
 }
 \value{[logical]  a gboolean representing if the row was successfully removed from
 the selection, or 0 if value does not implement this interface.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

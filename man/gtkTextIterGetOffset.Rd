@@ -9,5 +9,6 @@ offset back into an iterator.}
 \usage{gtkTextIterGetOffset(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  an iterator}}
 \value{[integer]  a character offset}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

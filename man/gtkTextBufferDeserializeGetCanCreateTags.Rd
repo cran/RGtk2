@@ -10,5 +10,6 @@
 }
 \details{  Since  2.10}
 \value{[logical]  whether deserializing this format may create tags}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

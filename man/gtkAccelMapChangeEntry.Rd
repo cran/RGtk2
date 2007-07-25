@@ -15,5 +15,6 @@ changes are indicated by a \code{TRUE} return value.}
 \item{\code{replace}}{[logical]      \code{TRUE} if other accelerators may be deleted upon conflicts}
 }
 \value{[logical]      \code{TRUE} if the accelerator could be changed, \code{FALSE} otherwise}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

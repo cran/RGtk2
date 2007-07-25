@@ -21,7 +21,7 @@ fields.
   Since 2.2
 
 }}}
-\section{Signals}{\describe{\item{\code{display-opened(display.manager, display, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (display.manager, display, user.data)}}{
 The ::display\_opened signal is emitted when a display is opened.  
 
   Since  2.2
@@ -39,6 +39,7 @@ The ::display\_opened signal is emitted when a display is opened.
 The default display for GDK.
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk/GdkDisplayManager.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

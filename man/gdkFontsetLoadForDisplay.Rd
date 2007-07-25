@@ -16,5 +16,6 @@ You should make no assumptions about the initial reference count.
 
   Since  2.2}
 \value{[\code{\link{GdkFont}}]  a \code{\link{GdkFont}}, or \code{NULL} if the fontset could not be loaded.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

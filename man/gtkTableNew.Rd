@@ -13,5 +13,6 @@ must both be in the range 0 .. 65535.}
 containing the largest widget.}
 }
 \value{[\code{\link{GtkWidget}}] A pointer to the the newly created table widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,5 +14,6 @@ will only be used with that text direction.}
 }
 \details{\code{\link{GtkIconSet}} prefers non-wildcarded sources (exact matches) over
 wildcarded sources, and will use an exact match when possible.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

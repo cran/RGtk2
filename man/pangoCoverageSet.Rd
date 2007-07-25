@@ -8,5 +8,6 @@
 \item{\code{index}}{[integer]  the index to modify}
 \item{\code{level}}{[\code{\link{PangoCoverageLevel}}]  the new level for \code{index.}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ the markup text isn't scanned for accelerators.}
 \item{\code{length}}{[integer]  length of marked-up text in bytes, or -1 if \code{markup} is
 nul-terminated}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

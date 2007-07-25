@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkFontSelection}}] a \code{\link{GtkFontSelection}}.}
 \item{\code{text}}{[character] the text to display in the preview area.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -4,5 +4,6 @@
 \description{Sets the "verbose" flag. This is generally only useful for debugging.}
 \usage{gdkRgbSetVerbose(verbose)}
 \arguments{\item{\code{verbose}}{[logical] \code{TRUE} if verbose messages are desired.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

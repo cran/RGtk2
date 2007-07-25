@@ -5,5 +5,6 @@
 \usage{pangoTabArrayCopy(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoTabArray}}]  \code{\link{PangoTabArray}} to copy}}
 \value{[\code{\link{PangoTabArray}}]  the newly allocated \code{\link{PangoTabArray}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

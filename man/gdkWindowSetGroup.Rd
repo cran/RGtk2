@@ -15,5 +15,6 @@ all windows that belong to a single application. It may for example
 allow users to minimize/unminimize all windows belonging to an
 application at once. You should only set a non-default group window
 if your application pretends to be multiple applications.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ deinitialized once.}
 \usage{pangoRendererActivate(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoRenderer}}]  a \code{\link{PangoRenderer}}}}
 \details{  Since  1.8}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -16,5 +16,6 @@ A list containing the following elements:
 \item{retval}{[list]  A \code{list} containing a \code{\link{GtkTreePath}} for each selected row.}
 \item{\code{model}}{[\code{\link{GtkTreeModel}}]  A pointer to set to the \code{\link{GtkTreeModel}}, or NULL.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

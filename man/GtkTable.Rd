@@ -29,7 +29,7 @@
                      +----\link{GtkContainer}
                            +----GtkTable}}
 \section{Interfaces}{GtkTable implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkTable}} functions allow the programmer to arrange widgets in rows and
 columns, making it easy to align many widgets next to each other,
 horizontally and vertically.
@@ -137,6 +137,7 @@ The amount of space between two consecutive rows.  Default value: 0
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkTable.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

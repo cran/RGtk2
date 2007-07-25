@@ -10,5 +10,6 @@ A list containing the following elements:
 \item{\code{width}}{[numeric]  the return location for the maximal cursor width}
 \item{\code{height}}{[numeric]  the return location for the maximal cursor height}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

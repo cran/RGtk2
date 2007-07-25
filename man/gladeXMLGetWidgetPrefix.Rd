@@ -12,5 +12,6 @@ after loading.}
 }
 \value{[list]  A list of the widget that match \code{name} as the start of their
 name, or \code{NULL} if none exists.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

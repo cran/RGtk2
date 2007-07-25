@@ -30,5 +30,6 @@ A list containing the following elements:
               to the layout and are in \code{integer}.}
 \item{\code{n.ranges}}{[integer]  The number of ranges stored in \code{ranges}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

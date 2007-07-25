@@ -11,5 +11,6 @@ emitted.
 \item{\code{object}}{[\code{\link{GtkList}}] the list widget}
 \item{\code{child}}{[\code{\link{GtkWidget}}] the child to select.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

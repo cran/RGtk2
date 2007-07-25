@@ -15,5 +15,6 @@ row\_inserted and row\_deleted signals.}
 \details{This function does not give you any degree of control over the order -- any
 reordering is allowed.  If more control is needed, you should probably
 handle drag and drop manually.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

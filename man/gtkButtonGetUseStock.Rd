@@ -7,5 +7,6 @@
 \value{[logical]  \code{TRUE} if the button label is used to
               select a stock item instead of being
               used directly as the label text.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

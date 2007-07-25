@@ -5,5 +5,6 @@
 \usage{cairoFontOptionsGetAntialias(options)}
 \arguments{\item{\code{options}}{[\code{\link{CairoFontOptions}}]  a \code{\link{CairoFontOptions}}}}
 \value{[\code{\link{CairoAntialias}}]  the antialiasing mode}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

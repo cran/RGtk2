@@ -14,5 +14,6 @@ A list containing the following elements:
          free the list of points with \code{gFree()}.}
 \item{\code{n.points}}{[integer]  location to store the number of points in \code{points}, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

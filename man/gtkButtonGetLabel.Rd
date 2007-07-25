@@ -9,5 +9,6 @@ use as a container.}
 \usage{gtkButtonGetLabel(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkButton}}]  a \code{\link{GtkButton}}}}
 \value{[character]  The text of the label widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

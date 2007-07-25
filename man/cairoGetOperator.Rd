@@ -5,5 +5,6 @@
 \usage{cairoGetOperator(cr)}
 \arguments{\item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}}
 \value{[\code{\link{CairoOperator}}]  the current compositing operator.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

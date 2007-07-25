@@ -24,5 +24,6 @@ the model. If the model changes before the \code{icon.view} is realized, the
 centered path will be modified to reflect this change.  
 
   Since  2.8}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

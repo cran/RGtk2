@@ -11,5 +11,6 @@ Sets the title for the specified column.
 \item{\code{column}}{[integer] The column whose title should be changed.}
 \item{\code{title}}{[character] A string to be the column's title.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

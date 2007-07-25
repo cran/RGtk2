@@ -11,5 +11,6 @@ already added it is not added again}
 }
 \value{[numeric]  a handler id which can be used in atk\_component\_remove\_focus\_handler
 or zero if the handler was already added.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

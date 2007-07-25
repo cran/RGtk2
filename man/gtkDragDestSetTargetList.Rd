@@ -9,5 +9,6 @@ The widget must first be made into a drag destination with
 \item{\code{object}}{[\code{\link{GtkWidget}}]  a \code{\link{GtkWidget}} that's a drag destination}
 \item{\code{target.list}}{[\code{\link{GtkTargetList}}]  list of droppable targets, or \code{NULL} for none}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ Sets the style of the \code{\link{GtkProgressBar}}.  The default style is
 \item{\code{object}}{[\code{\link{GtkProgressBar}}] a \code{\link{GtkProgressBar}}.}
 \item{\code{style}}{[\code{\link{GtkProgressBarStyle}}] a \code{\link{GtkProgressBarStyle}} value indicating the desired style.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

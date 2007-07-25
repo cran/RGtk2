@@ -11,5 +11,6 @@ ascening sort or GTK\_SORT\_DESCENDING for descending sort.
 \item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to affect.}
 \item{\code{sort.type}}{[\code{\link{GtkSortType}}] the \code{\link{GtkSortType}} to use}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

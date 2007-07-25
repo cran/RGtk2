@@ -11,5 +11,6 @@ Create a new \code{\link{GtkCTree}} widget.
 \item{\code{tree.column}}{[integer] Which columns has the tree graphic.}
 }
 \value{[\code{\link{GtkWidget}}] The new \code{\link{GtkCTree}} widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

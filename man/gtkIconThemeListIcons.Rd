@@ -15,5 +15,6 @@ but will typically include such values as "Applications" and
 \details{  Since  2.4}
 \value{[list]  a \code{list} list holding the names of all the
  icons in the theme.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

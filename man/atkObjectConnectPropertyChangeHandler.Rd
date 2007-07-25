@@ -9,5 +9,6 @@
 }
 \value{[numeric]  a \code{numeric} which is the handler id used in 
 \code{\link{atkObjectRemovePropertyChangeHandler}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

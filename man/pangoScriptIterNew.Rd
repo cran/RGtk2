@@ -12,5 +12,6 @@ Unicode into runs by text. No copy is made of \code{text}.x}
 \value{[\code{\link{PangoScriptIter}}]  the new script iterator, initialized
  to point at the first range in the text. If the string is
  empty, it will point at an empty range.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

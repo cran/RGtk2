@@ -10,5 +10,6 @@ for \code{tab.label}, then the page will have the label 'page N'.}
 \item{\code{tab.label}}{[\code{\link{GtkWidget}}]  the tab label widget to use, or \code{NULL} for default tab
             label.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

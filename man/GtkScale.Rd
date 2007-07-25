@@ -22,7 +22,7 @@
                                  +----\link{GtkHScale}
                                  +----\link{GtkVScale}}}
 \section{Interfaces}{GtkScale implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{A \code{\link{GtkScale}} is a slider control used to select a numeric value.
 To use it, you'll probably want to investigate the methods on 
 its base class, \code{\link{GtkRange}}, in addition to the methods for \code{\link{GtkScale}} itself.
@@ -46,7 +46,7 @@ slider. \cr
 }
 
 }}}
-\section{Signals}{\describe{\item{\code{format-value(scale, arg1, user.data)}}{
+\section{Signals}{\describe{\item{\code{The (scale, arg1, user.data)}}{
 Signal which allows you to change how the scale value is displayed.  Connect a
 signal handler which returns an allocated string representing \code{value}.
 That string will then be used to display the scale's value.
@@ -97,6 +97,7 @@ Space between value text and the slider/trough area.  Allowed values: >= 0  Defa
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkScale.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -11,5 +11,6 @@ intend to render the image to.}
 \item{\code{object}}{[\code{\link{GdkImage}}]  a \code{\link{GdkImage}}}
 \item{\code{colormap}}{[\code{\link{GdkColormap}}]  a \code{\link{GdkColormap}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

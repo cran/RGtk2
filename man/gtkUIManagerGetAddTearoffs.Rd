@@ -7,5 +7,6 @@ will have tearoff menu items.}
 \arguments{\item{\code{object}}{[\code{\link{GtkUIManager}}]  a \code{\link{GtkUIManager}}}}
 \details{  Since  2.4}
 \value{[logical]  whether tearoff menu items are added}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

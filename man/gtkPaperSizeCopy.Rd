@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkPaperSize}}]  a \code{\link{GtkPaperSize}}}}
 \details{  Since  2.10}
 \value{[\code{\link{GtkPaperSize}}]  a copy of \code{other}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

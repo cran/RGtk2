@@ -9,5 +9,6 @@
 \item{\code{position}}{[integer] the new position to place \code{child}.  Positions are numbered from 
 0 to n-1.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

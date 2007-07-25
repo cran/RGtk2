@@ -10,5 +10,6 @@ rendered according to the current font\_face, font\_size
 \item{\code{glyphs}}{[\code{\link{CairoGlyph}}]  list of glyphs to show}
 \item{\code{num.glyphs}}{[integer]  number of glyphs to show}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

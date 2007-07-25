@@ -6,5 +6,6 @@
 \arguments{\item{\code{color}}{[\code{\link{GdkColor}}]  A \code{\link{GdkColor}} to set the current color with.}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkWidget}}]  a new color button.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

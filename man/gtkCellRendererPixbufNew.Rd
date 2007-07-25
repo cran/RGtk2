@@ -10,5 +10,6 @@ in the model, thus rendering a different image in each row of the
 \code{\link{GtkTreeView}}.}
 \usage{gtkCellRendererPixbufNew()}
 \value{[\code{\link{GtkCellRenderer}}]  the new cell renderer}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

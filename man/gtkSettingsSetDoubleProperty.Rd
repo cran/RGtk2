@@ -10,5 +10,6 @@
 \item{\code{v.double}}{[numeric] }
 \item{\code{origin}}{[character] }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

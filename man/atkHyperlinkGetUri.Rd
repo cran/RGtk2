@@ -10,5 +10,6 @@ by \code{i} of \code{link.}. }
 }
 \details{Multiple anchors are primarily used by client-side image maps.  }
 \value{[character]  a string specifying the URI }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,5 +12,6 @@ each available compositing operator.}
 \details{XXX: I'd also like to direct the reader's attention to some
 (not-yet-written) section on cairo's imaging model. How would I do
 that if such a section existed? (cworth).  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

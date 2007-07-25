@@ -10,5 +10,6 @@ areas are not painted.)}
 \item{\code{cr}}{[\code{\link{Cairo}}]  a cairo context}
 \item{\code{pattern}}{[\code{\link{CairoPattern}}]  a \code{\link{CairoPattern}}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

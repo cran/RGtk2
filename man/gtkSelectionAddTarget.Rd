@@ -10,5 +10,6 @@ given widget and selection.}
 \item{\code{target}}{[\code{\link{GdkAtom}}]  target to add.}
 \item{\code{info}}{[numeric]  A unsigned integer which will be passed back to the application.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -5,5 +5,6 @@
 \usage{atkTextGetCharacterCount(object)}
 \arguments{\item{\code{object}}{[\code{\link{AtkText}}]  an \code{\link{AtkText}}}}
 \value{[integer]  the number of characters.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

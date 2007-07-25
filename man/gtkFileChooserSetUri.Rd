@@ -40,5 +40,6 @@ else
   Since  2.4}
 \value{[logical]  \code{TRUE} if both the folder could be changed and the URI was
 selected successfully, \code{FALSE} otherwise.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

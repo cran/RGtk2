@@ -9,5 +9,6 @@ Creates a new \code{\link{GtkListItem}} with a child label containing the given 
 \arguments{\item{\code{label}}{[character] the string to use for the child label.}}
 \value{[\code{\link{GtkWidget}}] a new \code{\link{GtkListItem}} with a child \code{\link{GtkLabel}} with the text set to
 \code{label}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

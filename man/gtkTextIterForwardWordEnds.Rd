@@ -8,5 +8,6 @@
 \item{\code{count}}{[integer]  number of times to move}
 }
 \value{[logical]  \code{TRUE} if \code{iter} moved and is not the end iterator }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

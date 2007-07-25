@@ -8,5 +8,6 @@ can be set with the \code{\link{gtkCListSetCompareFunc}} function.
 }
 \usage{gtkCListSort(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkCList}}] The \code{\link{GtkCList}} to sort.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

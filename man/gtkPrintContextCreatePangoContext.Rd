@@ -7,5 +7,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkPrintContext}}]  a \code{\link{GtkPrintContext}} }}
 \details{  Since  2.10}
 \value{[\code{\link{PangoContext}}]  a new Pango context for \code{context}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

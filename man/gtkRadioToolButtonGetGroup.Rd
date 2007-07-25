@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkRadioToolButton}}]  a \code{\link{GtkRadioToolButton}}}}
 \details{  Since  2.4}
 \value{[list]  The group \code{button} belongs to.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@
 \details{This function must be called to finish a custom print preview.  
 
   Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

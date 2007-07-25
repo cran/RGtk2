@@ -8,5 +8,6 @@ is allowed.}
 \item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}}}
 \item{\code{digits}}{[numeric]  the number of digits after the decimal point to be displayed for the spin button's value}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

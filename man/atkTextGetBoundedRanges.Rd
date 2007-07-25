@@ -15,5 +15,6 @@
   Since  ATK 1.3}
 \value{[\code{\link{AtkTextRange}}]  list of AtkTextRange. The last element of the list returned 
          by this function will be NULL.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

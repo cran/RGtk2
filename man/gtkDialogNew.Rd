@@ -5,5 +5,6 @@
 directly, but into the \code{vbox} and \code{action.area}, as described above. }
 \usage{gtkDialogNew(show = TRUE)}
 \value{[\code{\link{GtkWidget}}] a new \code{\link{GtkDialog}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

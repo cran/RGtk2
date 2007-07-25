@@ -17,5 +17,6 @@ by double-width characters.
 
   Since  1.4}
 \value{[logical]  \code{TRUE} if the family is monospace.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

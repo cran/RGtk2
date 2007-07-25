@@ -9,5 +9,6 @@
 }
 \details{  Since  2.10}
 \value{[\code{\link{GtkWidget}}]  The child widget, or \code{NULL} if \code{page.num} is out of bounds.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

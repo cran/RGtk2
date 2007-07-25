@@ -9,5 +9,6 @@ explanation of the size of a colormap.)
 }
 \usage{gdkColormapGetSystemSize()}
 \value{[integer]  the size of the system's default colormap.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

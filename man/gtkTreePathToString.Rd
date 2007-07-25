@@ -6,5 +6,6 @@ separated list of numbers.  For example, "4:10:0:3" would be an acceptable retur
 \usage{gtkTreePathToString(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreePath}}]  A \code{\link{GtkTreePath}}}}
 \value{[character]  A newly-allocated string.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

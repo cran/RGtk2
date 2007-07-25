@@ -17,5 +17,6 @@ glyphs.  To obtain a sequence of glyphs you have to understand a
 lot about internationalized text handling, which you don't want to
 understand; thus, use \code{\link{gdkDrawLayout}} instead of this function,
 \code{\link{gdkDrawLayout}} handles the details.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

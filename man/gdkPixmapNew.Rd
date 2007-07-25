@@ -13,5 +13,6 @@ for the new pixmap. Can be \code{NULL} if \code{depth} is specified,}
   pixmap will be equal to that of \code{drawable}.}
 }
 \value{[\code{\link{GdkPixmap}}] the \code{\link{GdkPixmap}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

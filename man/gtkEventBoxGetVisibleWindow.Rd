@@ -7,5 +7,6 @@ See \code{\link{gtkEventBoxSetVisibleWindow}} for details.}
 \arguments{\item{\code{object}}{[\code{\link{GtkEventBox}}]  a \code{\link{GtkEventBox}}}}
 \details{  Since  2.4}
 \value{[logical]  \code{TRUE} if the event box window is visible}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

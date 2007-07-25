@@ -15,5 +15,6 @@ A list containing the following elements:
 \item{\code{width}}{[integer]  \code{integer} to put width}
 \item{\code{height}}{[integer]  \code{integer} to put height}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

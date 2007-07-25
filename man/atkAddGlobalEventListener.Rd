@@ -9,5 +9,6 @@ when an event of type event\_type occurs.}
 \item{\code{event.type}}{[character]  the type of event for which notification is requested}
 }
 \value{[numeric]  added event listener id, or 0 on failure.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -12,5 +12,6 @@ A list containing the following elements:
 \item{\code{icon.name}}{[character]  place to store an icon name}
 \item{\code{size}}{[\code{\link{GtkIconSize}}]  place to store an icon size}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

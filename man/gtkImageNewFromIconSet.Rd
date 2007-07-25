@@ -17,5 +17,6 @@ override the icon you ship with your application.}
 icon set; you still need to unref it if you own references.
 \code{\link{GtkImage}} will add its own reference rather than adopting yours.  }
 \value{[\code{\link{GtkWidget}}]  a new \code{\link{GtkImage}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

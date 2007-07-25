@@ -7,5 +7,6 @@ is not useful for applications and should not be used.}
 \arguments{\item{\code{module.file}}{[character]  name of a theme engine}}
 \value{[character]  The filename,
   otherwise \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

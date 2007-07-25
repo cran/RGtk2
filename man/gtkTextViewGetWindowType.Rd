@@ -11,5 +11,6 @@ see which window it was.}
 \item{\code{window}}{[\code{\link{GdkWindow}}]  a window type}
 }
 \value{[\code{\link{GtkTextWindowType}}]  the window type.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

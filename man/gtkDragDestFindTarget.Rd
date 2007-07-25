@@ -16,5 +16,6 @@ passes the correct target list to this function.}
    gtk\_drag\_dest\_get\_target\_list (\code{widget}).}
 }
 \value{[\code{\link{GdkAtom}}]  first target that the source offers and the dest can accept, or \code{GDK_NONE}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@ Returns the \code{\link{GtkMenu}} associated with the \code{\link{GtkOptionMenu}
 \usage{gtkOptionMenuGetMenu(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkOptionMenu}}] a \code{\link{GtkOptionMenu}}.}}
 \value{[\code{\link{GtkWidget}}] the \code{\link{GtkMenu}} associated with the \code{\link{GtkOptionMenu}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

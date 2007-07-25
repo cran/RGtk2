@@ -27,5 +27,6 @@ arguments. Use the \code{gtkSignalFunc()} to cast the function to \code{GtkSigna
 
   }
 \value{[\code{\link{GtkWidget}}]  the new toolbar element as a \code{\link{GtkWidget}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

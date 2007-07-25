@@ -17,5 +17,6 @@
 \item{\code{width}}{[integer]  the width of the box}
 \item{\code{height}}{[integer]  the height of the box}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

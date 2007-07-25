@@ -12,5 +12,6 @@ Sets the style for the specified cell.
 \item{\code{column}}{[integer] The column of the cell.}
 \item{\code{style}}{[\code{\link{GtkStyle}}] A pointer to a \code{\link{GtkStyle}} structure.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

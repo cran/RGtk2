@@ -7,5 +7,6 @@
 \details{  Since  2.6}
 \value{[character]  the icon name displayed as logo. If you want to keep a reference
   to it, you have to call \code{gStrdup()} on it.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

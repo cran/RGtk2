@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}}}
 \value{[logical]  \code{TRUE} if the layout does not break paragraphs at
 paragraph separator characters, \code{FALSE} otherwise.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

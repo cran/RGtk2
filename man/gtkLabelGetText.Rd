@@ -8,5 +8,6 @@ indicating mnemonics or Pango markup. (See \code{\link{gtkLabelGetLabel}})}
 \arguments{\item{\code{object}}{[\code{\link{GtkLabel}}]  a \code{\link{GtkLabel}}}}
 \value{[character]  the text in the label widget. This is the internal
   string used by the label, and must not be modified.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -13,5 +13,6 @@ Shift the given cell the given amounts in pixels.
 \item{\code{vertical}}{[integer] }
 \item{\code{horizontal}}{[integer] }
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

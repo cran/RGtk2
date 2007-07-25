@@ -14,7 +14,7 @@
                      +----\link{GtkSeparator}
                            +----GtkHSeparator}}
 \section{Interfaces}{GtkHSeparator implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkHSeparator}} widget is a horizontal separator, used to group the
 widgets within a window. It displays a horizontal line with a shadow to
 make it appear sunken into the interface.
@@ -30,6 +30,7 @@ should be accessed using the functions below.
 
 }}}
 \section{Convenient Construction}{\code{gtkHSeparator} is the equivalent of \code{\link{gtkHSeparatorNew}}.}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkHSeparator.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

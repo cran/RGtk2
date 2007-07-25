@@ -5,5 +5,6 @@
 \usage{pangoContextGetLanguage(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoContext}}]  a \code{\link{PangoContext}}}}
 \value{[\code{\link{PangoLanguage}}]  the global language tag.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

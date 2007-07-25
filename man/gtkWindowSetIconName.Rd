@@ -12,5 +12,6 @@ the docs for \code{\link{GtkIconTheme}} for more details. }
 property which is mentioned in the ICCCM.  
 
   Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

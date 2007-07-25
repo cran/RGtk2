@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkTreeView}}]  A \code{\link{GtkTreeView}}.}
 \item{\code{active}}{[logical]  \code{TRUE} if the columns are clickable.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

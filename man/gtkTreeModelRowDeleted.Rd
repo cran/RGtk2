@@ -10,5 +10,6 @@ valid location anymore.}
 \item{\code{object}}{[\code{\link{GtkTreeModel}}]  A \code{\link{GtkTreeModel}}}
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  A \code{\link{GtkTreePath}} pointing to the previous location of the deleted row.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

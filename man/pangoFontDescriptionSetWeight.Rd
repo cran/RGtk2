@@ -10,5 +10,6 @@ numeric values are possible.}
 \item{\code{object}}{[\code{\link{PangoFontDescription}}]  a \code{\link{PangoFontDescription}}}
 \item{\code{weight}}{[\code{\link{PangoWeight}}]  the weight for the font description.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

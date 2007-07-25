@@ -7,5 +7,6 @@ once used for changing the colormap and visual on the fly.
 \strong{WARNING: \code{gtk_preview_reset} is deprecated and should not be used in newly-written code.}
 }
 \usage{gtkPreviewReset()}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

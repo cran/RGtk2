@@ -8,5 +8,6 @@ The curve type is set to \code{GTK_CURVE_TYPE_FREE}.}
 \item{\code{object}}{[\code{\link{GtkCurve}}] a \code{\link{GtkCurve}}.}
 \item{\code{vector}}{[numeric] the points on the curve.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

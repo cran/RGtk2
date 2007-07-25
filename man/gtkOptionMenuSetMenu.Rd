@@ -12,5 +12,6 @@ use of tearoff menu items, submenus, and accelerators.
 \item{\code{object}}{[\code{\link{GtkOptionMenu}}] a \code{\link{GtkOptionMenu}}.}
 \item{\code{menu}}{[\code{\link{GtkWidget}}] the \code{\link{GtkMenu}} to associate with the \code{\link{GtkOptionMenu}}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

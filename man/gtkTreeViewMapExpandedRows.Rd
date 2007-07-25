@@ -8,5 +8,6 @@
 \item{\code{func}}{[\code{\link{GtkTreeViewMappingFunc}}]  A function to be called}
 \item{\code{data}}{[R object]  User data to be passed to the function.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,5 +14,6 @@ this is to call this function immediately after creating the
 surface.  
 
   Since  1.2}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

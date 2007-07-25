@@ -17,7 +17,8 @@ an expose event needs to be sent to the child, intersecting
 the event's area with the child area, and sending the event.
   
 In most cases, a container can simply either simply inherit the
-::expose implementation from \code{\link{GtkContainer}}, or, do some drawing 
+\code{::expose} implementation from \code{\link{GtkContainer}}, or, do some drawing 
 and then chain to the ::expose implementation from \code{\link{GtkContainer}}.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

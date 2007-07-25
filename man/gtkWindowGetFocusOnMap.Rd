@@ -7,5 +7,6 @@
 \details{  Since  2.6}
 \value{[logical]  \code{TRUE} if window should receive the input focus when
 mapped.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

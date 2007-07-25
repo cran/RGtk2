@@ -11,5 +11,6 @@ if not.}
 \item{\code{column}}{[integer]  A \code{integer} which is the column containing the visible information.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

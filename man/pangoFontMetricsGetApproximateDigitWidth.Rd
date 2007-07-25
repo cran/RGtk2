@@ -10,5 +10,6 @@ is generally somewhat more accurate than the result of
 \usage{pangoFontMetricsGetApproximateDigitWidth(object)}
 \arguments{\item{\code{object}}{[\code{\link{PangoFontMetrics}}]  a \code{\link{PangoFontMetrics}} structure}}
 \value{[integer]  the digit width, in Pango units. (1 point == \code{PANGO_SCALE} Pango units.)}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

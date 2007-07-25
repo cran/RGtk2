@@ -10,5 +10,6 @@ to \code{\link{gtkFrameNew}}.)}
 \value{[character]  the text in the label, or \code{NULL} if there
               was no label widget or the lable widget was not
               a \code{\link{GtkLabel}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

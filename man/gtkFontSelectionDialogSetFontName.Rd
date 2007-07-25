@@ -8,5 +8,6 @@
 \item{\code{fontname}}{[character] a fontname.}
 }
 \value{[logical] \code{TRUE} if the font was found.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

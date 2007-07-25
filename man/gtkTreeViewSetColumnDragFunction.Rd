@@ -16,5 +16,6 @@ dropped everywhere.}
 \item{\code{func}}{[\code{\link{GtkTreeViewColumnDropFunc}}]  A function to determine which columns are reorderable, or \code{NULL}.}
 \item{\code{user.data}}{[R object]  User data to be passed to \code{func}, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

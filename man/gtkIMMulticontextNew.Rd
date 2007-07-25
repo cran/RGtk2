@@ -4,5 +4,6 @@
 \description{Creates a new \code{\link{GtkIMMulticontext}}.}
 \usage{gtkIMMulticontextNew()}
 \value{[\code{\link{GtkIMContext}}]  a new \code{\link{GtkIMMulticontext}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

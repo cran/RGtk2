@@ -9,5 +9,6 @@ containing \code{child}.}
 \item{\code{child}}{[\code{\link{GtkWidget}}]  the page}
 \item{\code{tab.text}}{[character]  the label text}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

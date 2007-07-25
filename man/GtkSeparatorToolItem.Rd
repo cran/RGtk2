@@ -18,7 +18,7 @@
                                  +----\link{GtkToolItem}
                                        +----GtkSeparatorToolItem}}
 \section{Interfaces}{GtkSeparatorToolItem implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{  A \code{GtkSeparatorItem} is a \code{\link{GtkToolItem}} that separates groups of other
   \code{GtkToolItems}. Depending on the theme, a \code{\link{GtkSeparatorToolItem}} will
   often look like a vertical line on horizontally docked toolbars.
@@ -39,6 +39,7 @@ should only be accessed through the functions described below.
 Whether the separator is drawn, or just blank.  Default value: TRUE
 
 }}}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkSeparatorToolItem.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

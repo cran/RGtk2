@@ -5,5 +5,6 @@
 \usage{gladeGetWidgetName(widget)}
 \arguments{\item{\code{widget}}{[\code{\link{GtkWidget}}]  the widget}}
 \value{[char]  the name of the widget.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

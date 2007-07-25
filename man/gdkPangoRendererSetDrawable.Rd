@@ -8,5 +8,6 @@
 \item{\code{drawable}}{[\code{\link{GdkDrawable}}]  the new target drawable, or \code{NULL}}
 }
 \details{  Since  2.6}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

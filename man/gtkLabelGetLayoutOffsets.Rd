@@ -16,5 +16,6 @@ A list containing the following elements:
 \item{\code{x}}{[integer]  location to store X offset of layout, or \code{NULL}}
 \item{\code{y}}{[integer]  location to store Y offset of layout, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

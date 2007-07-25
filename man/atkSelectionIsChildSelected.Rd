@@ -13,5 +13,6 @@ use type checking/interface checking functions or the
 }
 \value{[logical]  a gboolean representing the specified child is selected, or 0
 if \code{selection} does not implement this interface.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@ environment variable for more details.}
 \usage{gtkRcGetImModuleFile()}
 \value{[character]  a newly-allocated string containing the name of the file
 listing the IM modules available for loading}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

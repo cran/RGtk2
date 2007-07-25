@@ -10,5 +10,6 @@ are supported. }
 GDK_TYPE_PIXBUF);} will create a new \code{\link{GtkTreeStore}} with three columns, of type
 \code{integer}, \code{string} and \code{\link{GdkPixbuf}} respectively.  }
 \value{[\code{\link{GtkTreeStore}}]  a new \code{\link{GtkTreeStore}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

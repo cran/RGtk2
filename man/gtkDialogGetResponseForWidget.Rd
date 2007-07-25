@@ -11,5 +11,6 @@ of a dialog.}
 \details{  Since  2.8}
 \value{[integer]  the response id of \code{widget}, or \code{GTK_RESPONSE_NONE}
  if \code{widget} doesn't have a response id set.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

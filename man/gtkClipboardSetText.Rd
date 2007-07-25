@@ -12,5 +12,6 @@ the requested format.}
 \item{\code{len}}{[integer]        length of \code{text}, in bytes, or -1, in which case
             the length will be determined with \code{\code{strlen()}}.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

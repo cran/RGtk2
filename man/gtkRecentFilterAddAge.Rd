@@ -9,5 +9,6 @@ of days elapsed since they were last modified.}
 \item{\code{days}}{[integer]  number of days}
 }
 \details{  Since  2.10}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

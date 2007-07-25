@@ -5,5 +5,6 @@
 \usage{gtkListStoreNewv(value)}
 \arguments{\item{\code{value}}{[\code{\link{GType}}]  a list of \code{\link{GType}} types for the columns, from first to last}}
 \value{[\code{\link{GtkListStore}}]  a new \code{\link{GtkListStore}}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

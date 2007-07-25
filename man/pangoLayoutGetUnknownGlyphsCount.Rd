@@ -8,5 +8,6 @@ than zero otherwise.}
 \arguments{\item{\code{object}}{[\code{\link{PangoLayout}}]  a \code{\link{PangoLayout}}}}
 \details{  Since  1.16}
 \value{[integer]  The number of unknown glyphs in \code{layout}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

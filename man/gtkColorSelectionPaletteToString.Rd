@@ -5,5 +5,6 @@
 \usage{gtkColorSelectionPaletteToString(colors)}
 \arguments{\item{\code{colors}}{[\code{\link{GdkColor}}]  a list of colors.}}
 \value{[character]  allocated string encoding the palette.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

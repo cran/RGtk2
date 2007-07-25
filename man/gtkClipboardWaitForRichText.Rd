@@ -20,5 +20,6 @@ A list containing the following elements:
 \item{\code{format}}{[\code{\link{GdkAtom}}]  return location for the format of the returned data}
 \item{\code{length}}{[numeric]  return location for the length of the returned data}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkEntry}}]  a \code{\link{GtkEntry}}}}
 \details{  Since  2.4}
 \value{[numeric]  the alignment}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

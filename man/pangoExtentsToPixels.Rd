@@ -21,5 +21,6 @@ resulting device-space rectangle to completely contain the original
 rectangle, pass it in as \code{ink.rect}.  
 
   Since  1.16}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

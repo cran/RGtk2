@@ -12,5 +12,6 @@
 \details{Note that for adjustments which are used in a \code{\link{GtkScrollbar}}, the effective
 range of allowed values goes from \code{adjustment->lower} to
 \code{adjustment->upper - adjustment->page_size}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

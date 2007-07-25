@@ -14,5 +14,6 @@ should be drawn)
 \item{\code{string}}{[character]  the string to measure}
 }
 \value{[integer]  the width of the string in pixels.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

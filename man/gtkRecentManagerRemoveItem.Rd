@@ -16,5 +16,6 @@ A list containing the following elements:
   removed by the recently used resources list, and \code{FALSE} otherwise.}
 \item{\code{error}}{[\code{\link{GError}}]  return location for a \code{\link{GError}}, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

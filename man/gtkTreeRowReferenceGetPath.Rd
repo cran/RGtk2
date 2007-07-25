@@ -6,5 +6,6 @@ path pointed to is no longer valid.}
 \usage{gtkTreeRowReferenceGetPath(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTreeRowReference}}]  A \code{\link{GtkTreeRowReference}}}}
 \value{[\code{\link{GtkTreePath}}]  A current path, or \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

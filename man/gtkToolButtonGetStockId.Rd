@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkToolButton}}]  a \code{\link{GtkToolButton}}}}
 \details{  Since  2.4}
 \value{[character]  the name of the stock item for \code{button}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

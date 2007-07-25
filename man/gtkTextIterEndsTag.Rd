@@ -13,5 +13,6 @@ that the \code{\link{gtkTextIterEndsTag}} returns \code{TRUE} if \code{iter} is 
 \item{\code{tag}}{[\code{\link{GtkTextTag}}]  a \code{\link{GtkTextTag}}, or \code{NULL}}
 }
 \value{[logical]  whether \code{iter} is the end of a range tagged with \code{tag}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

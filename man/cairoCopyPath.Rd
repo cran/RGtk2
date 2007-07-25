@@ -20,5 +20,6 @@ In either case, \code{path->status} will be set to
 \code{CAIRO_STATUS_NO_MEMORY} (regardless of what the error status in
 \code{cr} might have been).  }
 \value{[\code{\link{CairoPath}}]  the copy of the current path.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

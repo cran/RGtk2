@@ -8,5 +8,6 @@
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  path to a row in the \code{tree.view}}
 }
 \value{[logical]  \code{TRUE} if the row was collapsed.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

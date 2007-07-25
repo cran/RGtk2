@@ -5,5 +5,6 @@
 the given widget at the current cursor position.}
 \usage{gtkEditablePasteClipboard(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkEditable}}] a \code{\link{GtkEditable}} widget.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

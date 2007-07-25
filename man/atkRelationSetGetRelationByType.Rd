@@ -8,5 +8,6 @@
 \item{\code{relationship}}{[\code{\link{AtkRelationType}}]  an \code{\link{AtkRelationType}}}
 }
 \value{[\code{\link{AtkRelation}}]  an \code{\link{AtkRelation}}, which is a relation matching the specified type.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

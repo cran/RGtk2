@@ -29,5 +29,6 @@ Note that transient windows (those who have been set transient for another
 window using \code{\link{gtkWindowSetTransientFor}}) will inherit their
 icon from their transient parent. So there's no need to explicitly
 set the icon on transient windows.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -14,5 +14,6 @@ A list containing the following elements:
         should be freed with \code{gFree()}.}
 \item{\code{n.sizes}}{[integer]  location to store the number of elements in \code{sizes}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

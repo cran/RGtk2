@@ -20,7 +20,7 @@
                            +----\link{GtkLabel}
                                  +----GtkAccelLabel}}
 \section{Interfaces}{GtkAccelLabel implements
- AtkImplementorIface.}
+ \code{\link{GtkBuildable}} and  AtkImplementorIface.}
 \section{Detailed Description}{The \code{\link{GtkAccelLabel}} widget is a subclass of \code{\link{GtkLabel}} that also displays an
 accelerator key on the right of the label text, e.g. 'Ctl+S'.
 It is commonly used in menus to show the keyboard short-cuts for commands.
@@ -80,6 +80,7 @@ The widget to be monitored for accelerator changes.
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gtk/GtkAccelLabel.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -19,6 +19,7 @@
     load small images in general.  Applications that need progressive
     loading can use the \code{\link{GdkPixbufLoader}} functionality instead.
   }
+\section{encoding}{UTF-8}
 \references{\url{http://developer.gnome.org/doc/API/2.0/gdk-pixbuf/gdk-pixbuf-file-loading.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \seealso{\code{\link{GdkPixbufLoader}}}

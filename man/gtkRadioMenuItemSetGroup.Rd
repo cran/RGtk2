@@ -7,5 +7,6 @@
 \item{\code{object}}{[\code{\link{GtkRadioMenuItem}}] a \code{\link{GtkRadioMenuItem}}.}
 \item{\code{group}}{[list] the new group.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

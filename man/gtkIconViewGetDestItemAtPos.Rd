@@ -15,5 +15,6 @@ A list containing the following elements:
 \item{\code{path}}{[\code{\link{GtkTreePath}}]  Return location for the path of the item, or \code{NULL}.}
 \item{\code{pos}}{[\code{\link{GtkIconViewDropPosition}}]  Return location for the drop position, or \code{NULL}}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

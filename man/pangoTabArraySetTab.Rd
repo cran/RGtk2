@@ -11,5 +11,6 @@ implementation.}
 \item{\code{alignment}}{[\code{\link{PangoTabAlign}}]  tab alignment}
 \item{\code{location}}{[integer]  tab location in Pango units}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

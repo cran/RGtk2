@@ -12,5 +12,6 @@ if gravity of the context as returned by \code{\link{pangoContextGetGravity}}
 is set \code{PANGO_GRAVITY_EAST} or \code{PANGO_GRAVITY_WEST}.  
 
   Since  1.16}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -8,5 +8,6 @@ bouncing block for each call to \code{\link{gtkProgressBarPulse}}.}
 \item{\code{object}}{[\code{\link{GtkProgressBar}}]  a \code{\link{GtkProgressBar}}}
 \item{\code{fraction}}{[numeric]  fraction between 0.0 and 1.0}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

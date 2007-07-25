@@ -14,5 +14,6 @@ A list containing the following elements:
 \item{\code{sort.column.id}}{[integer]  The sort column id to be filled in}
 \item{\code{order}}{[\code{\link{GtkSortType}}]  The \code{\link{GtkSortType}} to be filled in}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

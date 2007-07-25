@@ -10,5 +10,6 @@ symbols in the application and connects the signals.}
 \arguments{\item{\code{object}}{[\code{\link{GladeXML}}]  the GladeXML object.}}
 \details{Note that this function will not work correctly if gmodule is not
 supported on the platform.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

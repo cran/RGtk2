@@ -8,5 +8,6 @@ toggled on.}
 \usage{gtkTextIterGetVisibleLineOffset(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkTextIter}}]  a \code{\link{GtkTextIter}}}}
 \value{[integer]  offset in visible characters from the start of the line }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

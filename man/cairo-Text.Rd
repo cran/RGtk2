@@ -69,6 +69,7 @@ Specifies variants of a font face based on their weight.
 
 }
 }}
+\section{encoding}{UTF-8}
 \references{\url{http://www.cairographics.org/manual/cairo-Text.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

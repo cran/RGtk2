@@ -13,5 +13,6 @@ suitable to the function of the window in your application.}
   
 \code{\link{gtkDialogNewWithButtons}} and other convenience functions in GTK+
 will sometimes call \code{\link{gtkWindowSetTypeHint}} on your behalf.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -6,5 +6,6 @@ end of \code{\link{gtkInit}}.}
 \usage{gtkRcAddDefaultFile(filename)}
 \arguments{\item{\code{filename}}{[character]  the pathname to the file. If \code{filename} is not absolute, it
    is searched in the current directory.}}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

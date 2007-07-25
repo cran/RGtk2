@@ -9,5 +9,6 @@
 ith selection as opposed to the ith child).}
 }
 \value{[logical]  TRUE if success, FALSE otherwise.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

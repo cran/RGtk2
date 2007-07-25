@@ -30,5 +30,6 @@ image to a rendered version of the full image, or for when the offsets to a
 base position change, as in scrolling.  The dither matrix has to be shifted
 for consistent visual results.  If you do not have any of these cases, the
 dither offsets can be both zero.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

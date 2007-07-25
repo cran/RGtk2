@@ -6,5 +6,6 @@
 \arguments{\item{\code{hint}}{[\code{\link{PangoGravityHint}}]  the gravity hint value.}}
 \details{  Since  1.16}
 \value{[\code{\link{PangoAttribute}}]  the newly allocated \code{\link{PangoAttribute}}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

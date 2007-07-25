@@ -7,5 +7,6 @@ exceeded. See \code{\link{gtkSpinButtonSetWrap}}.}
 \usage{gtkSpinButtonGetWrap(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkSpinButton}}]  a \code{\link{GtkSpinButton}}}}
 \value{[logical]  \code{TRUE} if the spin button wraps around}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

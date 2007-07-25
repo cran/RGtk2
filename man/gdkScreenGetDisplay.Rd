@@ -6,5 +6,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GdkScreen}}]  a \code{\link{GdkScreen}}}}
 \details{  Since  2.2}
 \value{[\code{\link{GdkDisplay}}]  the display to which \code{screen} belongs}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -23,5 +23,6 @@ replacing the previous contents.}
 \details{Try to use \code{\link{gdkPixbufScaleSimple}} first, this function is
 the industrial-strength power tool you can fall back to if
 \code{\link{gdkPixbufScaleSimple}} isn't powerful enough.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

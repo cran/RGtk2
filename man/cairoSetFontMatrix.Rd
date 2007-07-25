@@ -13,5 +13,6 @@ or stretch it unequally along the two axes}
 \item{\code{matrix}}{[\code{\link{CairoMatrix}}]  a \code{\link{CairoMatrix}} describing a transform to be applied to
 the current font.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

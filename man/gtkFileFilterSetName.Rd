@@ -11,5 +11,6 @@ there is a selectable list of filters.}
   to remove any existing name.}
 }
 \details{  Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

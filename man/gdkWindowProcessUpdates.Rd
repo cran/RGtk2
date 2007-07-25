@@ -14,5 +14,6 @@ this is useful to produce nicer scrolling behavior, for example.}
 \item{\code{object}}{[\code{\link{GdkWindow}}]  a \code{\link{GdkWindow}}}
 \item{\code{update.children}}{[logical]  whether to also process updates for child windows}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -7,5 +7,6 @@
 \arguments{\item{\code{object}}{[\code{\link{GtkToolButton}}]  a \code{\link{GtkToolButton}}}}
 \details{  Since  2.4}
 \value{[\code{\link{GtkWidget}}]  The widget used as icon on \code{button}, or \code{NULL}.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

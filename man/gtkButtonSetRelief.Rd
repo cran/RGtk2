@@ -9,5 +9,6 @@ The default style is, as one can guess, GTK\_RELIEF\_NORMAL.}
 \item{\code{object}}{[\code{\link{GtkButton}}] The \code{\link{GtkButton}} you want to set relief styles of.}
 \item{\code{newstyle}}{[\code{\link{GtkReliefStyle}}] The GtkReliefStyle as described above.}
 }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

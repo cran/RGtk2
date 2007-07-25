@@ -9,5 +9,6 @@ for caveats.}
 \details{  Since  2.8}
 \value{[\code{\link{GdkVisual}}]  a visual to use for windows with an alpha channel
   or \code{NULL} if the capability is not available.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

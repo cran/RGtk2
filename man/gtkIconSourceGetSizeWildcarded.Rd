@@ -5,5 +5,6 @@
 \usage{gtkIconSourceGetSizeWildcarded(object)}
 \arguments{\item{\code{object}}{[\code{\link{GtkIconSource}}]  a \code{\link{GtkIconSource}}}}
 \value{[logical]  \code{TRUE} if this icon source is a base for any icon size variant}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@ URL link in an about dialog.}
 }
 \details{  Since  2.6}
 \value{[\code{\link{GtkAboutDialogActivateLinkFunc}}]  the previous URL hook.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -10,5 +10,6 @@
 \details{This will also clear any previously set labels.  
 
   Since  2.4}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

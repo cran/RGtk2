@@ -13,5 +13,6 @@ the cleared area.}
 }
 \details{This function has a stupid name because it dates back to the mists
 time, pre-GDK-1.0.  }
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

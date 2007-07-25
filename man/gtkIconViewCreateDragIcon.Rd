@@ -10,5 +10,6 @@ This image is used for a drag icon.}
 }
 \details{  Since  2.8}
 \value{[\code{\link{GdkPixmap}}]  a newly-allocated pixmap of the drag icon.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

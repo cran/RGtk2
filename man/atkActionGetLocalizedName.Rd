@@ -9,5 +9,6 @@
 }
 \value{[character] a name string, or \code{NULL}
 if \code{action} does not implement this interface.}
+\section{encoding}{UTF-8}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}
