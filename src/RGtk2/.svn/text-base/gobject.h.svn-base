@@ -334,7 +334,7 @@ gchar ** asCStringArray(USER_OBJECT_ svec);
 #define asCRaw(s_raw) (GET_LENGTH(s_raw) ? RAW(s_raw)[0] : 0)
 #define asCNumeric(s_num) (GET_LENGTH(s_num) ? REAL(s_num)[0] : 0)
 
-gchar * asCString(USER_OBJECT_ s_str);
+const gchar * asCString(USER_OBJECT_ s_str);
 gchar asCCharacter(USER_OBJECT_ s_char);
 
 #define asRLogical ScalarLogical
@@ -405,6 +405,7 @@ USER_OBJECT_ asRGSListWithSink(GSList *gslist, const gchar* type);
 /********** User Function wrappers ********/
 
 void S_GCompareFunc(gconstpointer s_a, gconstpointer s_b);
+gboolean S_GSourceFunc(gpointer data);
 
 /********** GClosure callbacks ***********/
 
