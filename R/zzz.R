@@ -26,8 +26,11 @@ function(libname, pkgname)
  #    eventLoop(REventLoop("R_Gtk2EventLoop"))
  #    runEventLoop()
  #} else 
- if(!(gtkInit(args)))
-   print("Note: R session is headless; GTK+ not initialized")
+ if(!(gtkInit(args))) {
+   message("R session is headless; GTK+ not initialized.")
+   if (length(grep("darwin", R.version$platform)))
+     message("Please try running R inside an X11 terminal.")
+ }
 }
 
 .install_system_dependencies <- function()
@@ -57,7 +60,7 @@ function(libname, pkgname)
   install_system_dep <- function(dep_name, dep_url, dep_web, installer)
   {
     if (!interactive()) {
-      cat("Please install ", dep_name, " from ", dep_url)
+      message("Please install ", dep_name, " from ", dep_url)
       return()
     }
     choice <- menu(paste(c("Install", "Do not install"), dep_name), T, 
@@ -68,7 +71,7 @@ function(libname, pkgname)
         stop("Failed to download ", dep_name)
       installer(path)
     }
-    print(paste("Learn more about", dep_name, "at", dep_web))
+    message("Learn more about ", dep_name, " at ", dep_web)
   }
   
   install_all <- function() {
@@ -85,5 +88,7 @@ function(libname, pkgname)
     install_system_dep("GTK+", config$gtk_url, gtk_web, config$installer)
   }
   
-  print("PLEASE RESTART R BEFORE TRYING TO LOAD THE PACKAGE AGAIN")
+  install_all()
+  
+  message("PLEASE RESTART R BEFORE TRYING TO LOAD THE PACKAGE AGAIN")
 }
