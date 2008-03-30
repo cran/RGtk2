@@ -26,12 +26,10 @@ function(libname, pkgname)
  #    eventLoop(REventLoop("R_Gtk2EventLoop"))
  #    runEventLoop()
  #} else
- if (interactive()) {
-   if(!(gtkInit(args))) {
-     message("R session is headless; GTK+ not initialized.")
-     if (length(grep("darwin", R.version$platform)))
-       message("Please try running R inside an X11 terminal.")
-   }
+ if(!(gtkInit(args))) {
+   message("R session is headless; GTK+ not initialized.")
+   if (length(grep("darwin", R.version$platform)))
+     message("Please try running R inside an X11 terminal.")
  }
 }
 
