@@ -49,7 +49,7 @@ R_gtkInit(long *rargc, char **rargv, Rboolean *success)
   {
     InputHandler *h;
     if (!GDK_DISPLAY())
-      error("GDK display not found - please make sure X11 is running");
+      error("No displays found. Please ensure R is running from an X11 terminal.");
     h = addInputHandler(R_InputHandlers, ConnectionNumber(GDK_DISPLAY()),
           R_gtk_eventHandler, -1);
   }

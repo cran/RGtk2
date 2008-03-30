@@ -18296,7 +18296,7 @@ S_gtk_check_version(USER_OBJECT_ s_required_major, USER_OBJECT_ s_required_minor
   guint required_minor = ((guint)asCNumeric(s_required_minor));
   guint required_micro = ((guint)asCNumeric(s_required_micro));
 
-  gchar* ans;
+  const gchar* ans;
 
   ans = gtk_check_version(required_major, required_minor, required_micro);
 
