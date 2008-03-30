@@ -18301,7 +18301,6 @@ S_gtk_check_version(USER_OBJECT_ s_required_major, USER_OBJECT_ s_required_minor
   ans = gtk_check_version(required_major, required_minor, required_micro);
 
   _result = asRString(ans);
-    CLEANUP(g_free, ans);;
 
   return(_result);
 }
