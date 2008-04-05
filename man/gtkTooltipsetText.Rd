@@ -1,9 +1,9 @@
-\alias{gtkTooltipsetText}
-\name{gtkTooltipsetText}
-\title{gtkTooltipsetText}
+\alias{gtkTooltipSetText}
+\name{gtkTooltipSetText}
+\title{gtkTooltipSetText}
 \description{Sets the text of the tooltip to be \code{text}. If \code{text} is \code{NULL}, the label
-will be hidden. See also \code{\link{gtkTooltipsetMarkup}}.}
-\usage{gtkTooltipsetText(object, text)}
+will be hidden. See also \code{\link{gtkTooltipSetMarkup}}.}
+\usage{gtkTooltipSetText(object, text)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkTooltip}}]  a \code{\link{GtkTooltip}}}
 \item{\code{text}}{[character]  a text string or \code{NULL}}

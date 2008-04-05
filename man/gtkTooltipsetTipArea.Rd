@@ -1,11 +1,11 @@
-\alias{gtkTooltipsetTipArea}
-\name{gtkTooltipsetTipArea}
-\title{gtkTooltipsetTipArea}
+\alias{gtkTooltipSetTipArea}
+\name{gtkTooltipSetTipArea}
+\title{gtkTooltipSetTipArea}
 \description{Sets the area of the widget, where the contents of this tooltip apply,
 to be \code{rect} (in widget coordinates).  This is especially useful for
 properly setting tooltips on \code{\link{GtkTreeView}} rows and cells, \code{GtkIconViews},
 etc.}
-\usage{gtkTooltipsetTipArea(object, area)}
+\usage{gtkTooltipSetTipArea(object, area)}
 \arguments{
 \item{\code{object}}{[\code{\link{GtkTooltip}}]  a \code{\link{GtkTooltip}}}
 \item{\code{area}}{[\code{\link{GdkRectangle}}]  a \code{\link{GdkRectangle}}}

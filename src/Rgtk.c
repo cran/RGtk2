@@ -3,15 +3,8 @@
 #include "RGtk2/libglade.h"
 #endif
 
-/* This is an simple version of the event handler for windows.
-   It mimicks what we do in Rggobi, namely hijacking the hook into the
-   event loop that Tk uses.
-   This currently doesn't handle timed tasks.
-   More to come later on an overhaul of the R event loop.
- */
 #ifdef G_OS_WIN32
-#include <sys/types.h>
-extern  __declspec(dllimport) void (* R_tcldo)();
+#include <windows.h>
 #else
 #include "R_ext/eventloop.h"
 #include <gdk/gdkx.h>
@@ -24,11 +17,38 @@ R_gtk_eventHandler(void *userData)
     gtk_main_iteration();
 }
 
-void
-R_gtk_handle_events()
-{
-  R_gtk_eventHandler(NULL);
+#ifdef G_OS_WIN32
+
+/* On Windows, run the GTK+ event loop in a separate thread, synchronizing
+   through the Windows event loop on the main thread.
+   This currently doesn't handle timed tasks.
+   More to come later on an overhaul of the R event loop.
+*/
+
+/* should exist win2k/xp and later, but mingw does not have it */
+#define HWND_MESSAGE                ((HWND)-3)
+
+#define RGTK2_ITERATE WM_USER + 101
+
+DWORD WINAPI R_gtk_thread_proc(LPVOID lpParam) {
+  while(1) {
+    if (gtk_events_pending())
+      PostMessage((HWND)lpParam, RGTK2_ITERATE, 0, 0);
+    Sleep(20);
+  }
+  return 0;
 }
+
+LRESULT CALLBACK
+R_gtk_win_proc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
+{
+  if (message == RGTK2_ITERATE) {
+    R_gtk_eventHandler(NULL);
+    return 1;
+  }
+  return DefWindowProc(hwnd, message, wParam, lParam);
+}
+#endif
 
 void
 R_gtkInit(long *rargc, char **rargv, Rboolean *success)
@@ -56,7 +76,18 @@ R_gtkInit(long *rargc, char **rargv, Rboolean *success)
           R_gtk_eventHandler, -1);
   }
 #else
-  R_tcldo = R_gtk_handle_events;
+  /* Create a dummy window for receiving messages */
+  LPCTSTR class = "RGtk2";
+  HINSTANCE instance = GetModuleHandle(NULL);
+  WNDCLASS wndclass = { 0, R_gtk_win_proc, 0, 0, instance, NULL, 0, 0, NULL,
+                        class };
+  RegisterClass(&wndclass);
+  HWND win = CreateWindow(class, NULL, 0, 1, 1, 1, 1, HWND_MESSAGE,
+                          NULL, instance, NULL);
+
+  /* Create a thread that will post messages to our window on this thread */
+  HANDLE thread = CreateThread(NULL, 0, R_gtk_thread_proc, win, 0, NULL);
+  SetThreadPriority(thread, THREAD_PRIORITY_IDLE);
 #endif
 
   R_GTK_TYPE_PARAM_SEXP;
