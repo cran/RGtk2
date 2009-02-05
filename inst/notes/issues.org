@@ -21,19 +21,37 @@
    * R wrappers for callbacks so that return values are coerced
 * Introspection
 ** Compiled vs runtime
-    Run-time introspection would only be interesting if it bridged        
-dynamic environments. For a compiled library, a compiled binding will
-be faster and about as convenient. It's not clear if GObject is the
-best bridge between R and environments like Python, Java, etc. Those
-should probably be interfaced on a case by case basis. GObject is
-really for OOP in C.
+Run-time introspection has two advantages:
+  * Bridging dynamic environments
+  * Simplifies bindings (no code generation)
+
+It's not clear if GObject is the best bridge between R and
+environments like Python, Java, etc. Those should probably be
+interfaced on a case by case basis. GObject is really for OOP in
+C. Simpler bindings would be nice, but the code generator is already
+working fine.
+
+But sometimes code generation is preferable. For example, the enums
+and flags are available at run-time, but we generate code that defines
+them in R anyway, as it makes for a more natural API. The same would
+be true for functions, even if we could dynamically invoke them, we
+would still want them defined in the package namespace. If code is
+being generated, it's best to do it at build/compile time. Maybe the
+field access could be simplified, as we would no longer need the
+otherwise useless accessor functions.
+
+But that is probably not worth depending on the largely undistributed
+gir-repository library and its bothersome dependency, libffi.
+
 *** Runtime considerations
 **** Methods and fields
-Syntax tricks like the '$' and '[' operators could allow us to bind methods and fields at runtime
+Syntax tricks like the '$' and '[' operators could allow us to bind
+methods and fields at runtime
 **** Constructors 
 gObjectNew...
 **** Ordinary functions
-Relatively few in number, could be explicitly bound at runtime    
+Could use the '$' syntax on static objects named after the
+library/module, like Gtk$init()    
 
 ** IDL
 It is already possible to construct bindings from various IDLs: 
@@ -44,13 +62,14 @@ us to maintain our own copies. Library developers do not provide DEFS
 files; however, PyGTK and friends do provide a good starting point.
 Parsing DEFS files requires RSPython, which is a big dependency.
 
-GIDL: output by gen-introspect from the Vala project. The limitation
-is that developers will not specify their interfaces directly in XML.
-Header file scraping does not produce a full specification, so there
-needs to be a systematic way for storing annotations on top of the
-format. Recent GIDL development seems to be moving this way. No
-repository of GIDL files exists, but it is slowly gaining steam
-(PyBank seems to be returning from the dead). Vala will output GIDL.
+**DEAD** GIDL: output by gen-introspect from the Vala project. The
+limitation is that developers will not specify their interfaces
+directly in XML.  Header file scraping does not produce a full
+specification, so there needs to be a systematic way for storing
+annotations on top of the format. Recent GIDL development seems to be
+moving this way. No repository of GIDL files exists, but it is slowly
+gaining steam (PyBank seems to be returning from the dead). Vala will
+output GIDL.
 
 VAPI: interface specification in the Vala language. Vala compiler
 outputs it directly, and for existing C libraries it may be
@@ -59,6 +78,17 @@ files exist, covering pretty much every library around GNOME. However,
 VAPI is not meant to be a common standard - it's just for Vala.
 Currently, all GIDL becomes VAPI, but if the Vala project were to die,
 it would be a pain to convert GIDL to VAPI.
+
+GIR: Replaces GIDL. Output by valac in addition to VAPI
+files. Incorporates special gtk-doc annotations for
+customization. Repository exists (gir-repository in Gnome svn) with
+many useful libraries. As XML, easy for any tool to read, including
+the XML package in R with its nice XPath support.
+
+GI Typelib: Compiled binary form of GIR. C library exists for loading
+and manipulating. Conceivably could load into R with readBin(), but
+would be tough. Faster than GIR as parsing is not required, but the
+speed would really only matter for runtime bindings. 
 
 pIDL: GOB-like metalanguage for GObject building in C with support for
 autogeneration of language bindings. The IDL is more human accessible
@@ -82,23 +112,31 @@ there is already a pipeline for creating VAPI from metadata and raw
 GIDL scraped from header files. This does not exist for GIDL itself.
 However, parsing VAPI would require a binding to the Vala compiler,
 which is not API stable. GIDL only requires the XML package, and will
-last at least as long as the Vala project, which is currently the only
-maintainer of the gobject-introspection infrastructure. 
+last at least as long as the Vala project.
 
-The main problem with GIDL is that as XML, it is not efficiently
-human-writeable. The introspection project is working on generating
-GIDL from annotations in source code comments. This works for those
-libraries whose developers put the effort into writing such comments
-(i.e. this would only apply to GObject-based libraries, at maximum).
-For the rest, there needs to be an easy way for a third party to
-author a bindings description. VAPI could fill this role. The missing
-piece is a translator from Vala/VAPI to GIDL.
+The main problem with GIDL (besides being dead) is that as XML, it is
+not efficiently human-writeable. The GIR format is generated in a
+similar way to GIDL, except with annotations embedded within gtk-doc
+comments. This works for those libraries whose developers put the
+effort into writing such comments (i.e. this would only apply to
+GObject-based libraries, at maximum).  For the rest, there needs to be
+an easy way for a third party to author a bindings description. VAPI
+could fill this role. The missing piece is a translator from Vala/VAPI
+to GIR.
+
+The compiled typelib form of GIR is more efficient in space and time,
+but for compiled bindings, this matters less. Using GIR directly skips
+the compile step. More importantly, the binary format is more
+difficult to parse than GIR, except through the C library. Let's keep
+the generation code pure R and use GIR.
 
 * Unsupported
-Use the following code, with RGtk2 and your favorite "defs" loaded to find undefined
-R functions:
+Use the following code, with RGtk2 and your favorite "defs" loaded to
+find undefined R functions:
 
-invisible(sapply(names(defs$functions), function(name) { rName <- toCapPhraseName(name, TRUE, names(defs$objects)); if (!exists(rName)) print(rName) }))
+invisible(sapply(names(defs$functions), function(name) { rName <-
+toCapPhraseName(name, TRUE, names(defs$objects)); if (!exists(rName))
+print(rName) }))
 
 [2] "gtkAccelGroupQuery"
 [3] "gtkCListSetCompareFunc"
@@ -128,24 +166,36 @@ invisible(sapply(names(defs$functions), function(name) { rName <- toCapPhraseNam
 [2] "pangoReorderItems"
 
 These 25 functions fall into 3 categories:
-1) va_list (6): RGtk2 has no use for the functions taking va_list. Never supported.
-2) undocumented/extremely low-level (10): The R programmer should not need these things. Never supported.
-3) callbacks sans user data (9): need to record callbacks in an attribute on the R object then have one closure that calls the rest or if the callback scope is a function call something similar could be done as long as the calls aren't nested... May be supported, but probably not. See the dynamic variables package by Luke Tierney for possible solution.
+1) va_list (6): RGtk2 has no use for the functions taking
+   va_list. Never supported.
+2) undocumented/extremely low-level (10): The R programmer should not
+   need these things. Never supported.
+3) callbacks sans user data (9): need to record callbacks in an
+   attribute on the R object then have one closure that calls the rest
+   or if the callback scope is a function call something similar could
+   be done as long as the calls aren't nested... May be supported, but
+   probably not. See the dynamic variables package by Luke Tierney for
+   possible solution.
 	
 * Problems with defs files (as provided by pygtk)
   * GtkFileInfo/GtkFileSystem etc are not public
   * gtk_init_abi_* is not part of the public api
   * gtk_ctree_base_nodes has been removed from gtk
   * gtk_icon_view_new_with_model should be marked as constructor
-  * gdk_color_new, gdk_rectangle_new, gdk_pixbuf_new_from_array are not actual functions
+  * gdk_color_new, gdk_rectangle_new, gdk_pixbuf_new_from_array are
+    not actual functions
   * gdk_atom_name is a function not a method, GdkAtom is not an object
   * Also, GdkRectangle is not an object and so should not have methods
   * gdk_pixbuf_get_from_drawable/image - should be functions not methods
-  * GtkBindingSet, though in the API docs, is not documented, and seems internal
-  * gtk_drag_get_souce_widget is in gdk.defs, but I feel that it belongs in gtk.defs
+  * GtkBindingSet, though in the API docs, is not documented, and
+    seems internal
+  * gtk_drag_get_souce_widget is in gdk.defs, but I feel that it
+    belongs in gtk.defs
   * GtkPrivateFlags is not documented and sounds, well, private
   * Lots of strange deprecated duplicates that we need to filter out
-  * Features added to pygtk (compliant to specs): in/out params, user functions, enum/flag values
-  * Hacked some type names, like G(S)List[type] to specify the component type and [] indicating array
+  * Features added to pygtk (compliant to specs): in/out params, user
+    functions, enum/flag values
+  * Hacked some type names, like G(S)List[type] to specify the
+    component type and [] indicating array
   * gdk_pixbuf_save_to_buffer is missing
   * THERES A LOT MORE MISSING 
