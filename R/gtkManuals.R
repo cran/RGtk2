@@ -451,17 +451,16 @@ function(object, data, max.seq.len, n.seqs)
         return(w)
 }
 
-# reason: for convenience give default for data length parameter
+# reason: for convenience give defaults for parameters
 gtkSelectionDataSet <-
-function(object, type, format, data, length = length(data))
+function(object, type = object[["target"]], format = 8L, data)
 {
         checkPtrType(object, "GtkSelectionData")
         type <- as.GdkAtom(type)
         format <- as.integer(format)
-        data <- as.list(as.integer(data))
-        length <- as.integer(length)
+        data <- as.list(as.raw(data)) # inefficient for large data
 
-        w <- .RGtkCall("S_gtk_selection_data_set", object, type, format, data, length)
+        w <- .RGtkCall("S_gtk_selection_data_set", object, type, format, data)
 
         return(invisible(w))
 }
@@ -633,11 +632,11 @@ gtkRadioToolButtonNewWithStockFromWidget(group[[1]], stock.id, show)
 
 # getting child widgets by index
 "[[.GtkContainer" <-
-function(x, field)
+function(x, field, where = parent.frame())
 {
   if(is.numeric(field))
     return(x$getChildren()[[field]])
-  else NextMethod("[[")
+  else NextMethod("[[", where = where)
 }
 
 # EXPERIMENTAL TREE MODEL ACCESS
