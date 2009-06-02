@@ -600,6 +600,32 @@ function(object, cell.renderer, ...)
         return(invisible(w))
 }
 
+## x and y are in-out parameters
+gtkTreeViewGetTooltipContext <-
+  function(object, x, y, keyboard.tip)
+{
+  checkPtrType(object, "GtkTreeView")
+  x <- as.integer(x)
+  y <- as.integer(y)
+  keyboard.tip <- as.logical(keyboard.tip)
+
+  w <- .RGtkCall("S_gtk_tree_view_get_tooltip_context", object, x, y, keyboard.tip, PACKAGE = "RGtk2")
+
+  return(w)
+}
+gtkIconViewGetTooltipContext <-
+  function(object, x, y, keyboard.tip)
+{
+  checkPtrType(object, "GtkIconView")
+  x <- as.integer(x)
+  y <- as.integer(y)
+  keyboard.tip <- as.logical(keyboard.tip)
+
+  w <- .RGtkCall("S_gtk_icon_view_get_tooltip_context", object, x, y, keyboard.tip, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
 # reason: unfortunately, the 'group' must be an exact pointer match so 
 # we delegate to 'gtkRadioButtonNewFromWidget' with the first element.
 gtkRadioButtonNew <-
