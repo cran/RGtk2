@@ -388,6 +388,7 @@ GError *asCGError(USER_OBJECT_ s_error);
 
 /******* GObject structure conversion *********/
 int R_setGValueFromSValue(GValue *val, USER_OBJECT_ sval);
+USER_OBJECT_ R_setGValueForProperty(GValue *value, GObjectClass *class, const gchar *property_name, USER_OBJECT_ s_value);
 GValue* createGValueFromSValue(USER_OBJECT_ sval);
 gboolean initGValueFromSValue(USER_OBJECT_ sval, GValue *raw);
 gboolean initGValueFromVector(USER_OBJECT_ sval, gint n, GValue *raw);
@@ -472,10 +473,11 @@ USER_OBJECT_ retByVal(USER_OBJECT_ retval, ...);
 /* generic callback stuff */
 
 typedef struct {
-    USER_OBJECT_ function;
-    USER_OBJECT_ data;
-    Rboolean     useData;
-	Rboolean	 userDataFirst;
+  USER_OBJECT_ function;
+  USER_OBJECT_ data;
+  Rboolean     useData;
+  Rboolean     userDataFirst;
+  gpointer     extra; /* some C-level user data */
 } R_CallbackData;
 
 R_CallbackData *R_createCBData(USER_OBJECT_ s_func, USER_OBJECT_ s_data);
@@ -498,6 +500,15 @@ USER_OBJECT_ R_getGObjectProps(USER_OBJECT_ sobj, USER_OBJECT_ argNames);
 /* easy way to free strings (or anything on the GLib stack) in G(S)Lists */
 void GSListFreeStrings(GSList *gslist);
 void GListFreeStrings(GList *glist);
+
+void transformDoubleString(const GValue *src, GValue *dst);
+
+/* GSeekType enum runtime type info support (needed by GIO) */
+
+#define G_TYPE_SEEK_TYPE (g_seek_type_get_type ())
+GType g_seek_type_get_type (void) G_GNUC_CONST;
+#define G_TYPE_IO_CONDITION (g_io_condition_get_type ())
+GType g_io_condition_get_type (void) G_GNUC_CONST;
 
 /* do this by name, so that it is resolved at runtime, simplifying header dependencies */
 #if GLIB_CHECK_VERSION(2,10,0)

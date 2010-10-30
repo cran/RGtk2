@@ -1,10 +1,10 @@
-\alias{cairo-Font-Options}
+\alias{cairo-font-options}
 \alias{CairoFontOptions}
 \alias{cairoFontOptions}
 \alias{CairoSubpixelOrder}
 \alias{CairoHintStyle}
 \alias{CairoHintMetrics}
-\name{cairo-Font-Options}
+\name{cairo-font-options}
 \title{cairo_font_options_t}
 \description{How a font should be rendered}
 \section{Methods and Functions}{
@@ -31,19 +31,19 @@ output on a particular display.}
 An opaque structure holding all options that are used when
 rendering fonts.
   
-Individual features of a \verb{\link{CairoFontOptions}} can be set or
+Individual features of a \code{\link{CairoFontOptions}} can be set or
 accessed using functions named
 cairo_font_options_set_\emph{feature_name} and
 cairo_font_options_get_\emph{feature_name}, like
 \code{\link{cairoFontOptionsSetAntialias}} and
 \code{\link{cairoFontOptionsGetAntialias}}.
   
-New features may be added to a \verb{\link{CairoFontOptions}} in the
+New features may be added to a \code{\link{CairoFontOptions}} in the
 future.  For this reason, \code{\link{cairoFontOptionsCopy}},
 \code{\link{cairoFontOptionsEqual}}, \code{\link{cairoFontOptionsMerge}}, and
 \code{cairoFontOptionsHash()} should be used to copy, check
 for equality, merge, or compute a hash value of
-\verb{\link{CairoFontOptions}} objects.  
+\code{\link{CairoFontOptions}} objects.  
 
 }}}
 \section{Convenient Construction}{\code{cairoFontOptions} is the equivalent of \code{\link{cairoFontOptionsCreate}}.}
@@ -107,6 +107,6 @@ will be laid out differently at different zoom factors.
 
 }
 }}
-\references{\url{http://www.cairographics.org/manual/cairo-Font-Options.html}}
+\references{\url{http://www.cairographics.org/manual/cairo-font-options.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

@@ -1,5 +1,5 @@
-\alias{cairo-Transformations}
-\name{cairo-Transformations}
+\alias{cairo-transformations}
+\name{cairo-transformations}
 \title{Transformations}
 \description{Manipulating the current transformation matrix}
 \section{Methods and Functions}{
@@ -20,6 +20,6 @@ two-dimensional affine transformation that maps all coordinates and other
 drawing instruments from the \dfn{user space} into the
 surface's canonical coordinate system, also known as the \dfn{device
 space}.}
-\references{\url{http://www.cairographics.org/manual/cairo-Transformations.html}}
+\references{\url{http://www.cairographics.org/manual/cairo-transformations.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

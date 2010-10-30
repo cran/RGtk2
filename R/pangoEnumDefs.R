@@ -133,7 +133,11 @@ PangoWeight<-c("ultralight" = 200,
 	"semibold" = 600,
 	"bold" = 700,
 	"ultrabold" = 800,
-	"heavy" = 900)
+	"heavy" = 900,
+	"book" = 380,
+	"ultraheavy" = 1000,
+	"thin" = 100,
+	"medium" = 500)
 storage.mode(PangoWeight) <- 'integer'
 class(PangoWeight) <- 'enums' 
 
@@ -191,6 +195,28 @@ PangoGravityHint<-c("natural" = 0,
 	"line" = 2)
 storage.mode(PangoGravityHint) <- 'integer'
 class(PangoGravityHint) <- 'enums' 
+
+PangoBidiType<-c("l" = 0,
+	"lre" = 1,
+	"lro" = 2,
+	"r" = 3,
+	"al" = 4,
+	"rle" = 5,
+	"rlo" = 6,
+	"pdf" = 7,
+	"en" = 8,
+	"es" = 9,
+	"et" = 10,
+	"an" = 11,
+	"cs" = 12,
+	"nsm" = 13,
+	"bn" = 14,
+	"b" = 15,
+	"s" = 16,
+	"ws" = 17,
+	"on" = 18)
+storage.mode(PangoBidiType) <- 'integer'
+class(PangoBidiType) <- 'enums' 
 
 PangoFontMask<-c("family" = 1,
 	"style" = 2,

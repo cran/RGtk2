@@ -1640,4 +1640,115 @@ S_gdk_notify_startup_complete_with_id(USER_OBJECT_ s_id);
   USER_OBJECT_
 S_gdk_pixbuf_apply_embedded_orientation(USER_OBJECT_ s_object); 
 
+  USER_OBJECT_
+S_gdk_app_launch_context_get_type(void); 
+
+  USER_OBJECT_
+S_gdk_app_launch_context_new(void); 
+
+  USER_OBJECT_
+S_gdk_app_launch_context_set_display(USER_OBJECT_ s_object, USER_OBJECT_ s_display); 
+
+  USER_OBJECT_
+S_gdk_app_launch_context_set_screen(USER_OBJECT_ s_object, USER_OBJECT_ s_screen); 
+
+  USER_OBJECT_
+S_gdk_app_launch_context_set_desktop(USER_OBJECT_ s_object, USER_OBJECT_ s_desktop); 
+
+  USER_OBJECT_
+S_gdk_app_launch_context_set_timestamp(USER_OBJECT_ s_object, USER_OBJECT_ s_timestamp); 
+
+  USER_OBJECT_
+S_gdk_app_launch_context_set_icon(USER_OBJECT_ s_object, USER_OBJECT_ s_icon); 
+
+  USER_OBJECT_
+S_gdk_app_launch_context_set_icon_name(USER_OBJECT_ s_object, USER_OBJECT_ s_icon_name); 
+
+  USER_OBJECT_
+S_gdk_screen_get_monitor_width_mm(USER_OBJECT_ s_object, USER_OBJECT_ s_monitor_num); 
+
+  USER_OBJECT_
+S_gdk_screen_get_monitor_height_mm(USER_OBJECT_ s_object, USER_OBJECT_ s_monitor_num); 
+
+  USER_OBJECT_
+S_gdk_screen_get_monitor_plug_name(USER_OBJECT_ s_object, USER_OBJECT_ s_monitor_num); 
+
+  USER_OBJECT_
+S_gdk_window_redirect_to_drawable(USER_OBJECT_ s_object, USER_OBJECT_ s_drawable, USER_OBJECT_ s_src_x, USER_OBJECT_ s_src_y, USER_OBJECT_ s_dest_x, USER_OBJECT_ s_dest_y, USER_OBJECT_ s_width, USER_OBJECT_ s_height); 
+
+  USER_OBJECT_
+S_gdk_window_remove_redirection(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_pixbuf_new_from_stream(USER_OBJECT_ s_stream, USER_OBJECT_ s_cancellable); 
+
+  USER_OBJECT_
+S_gdk_pixbuf_new_from_stream_at_scale(USER_OBJECT_ s_stream, USER_OBJECT_ s_width, USER_OBJECT_ s_height, USER_OBJECT_ s_preserve_aspect_ratio, USER_OBJECT_ s_cancellable); 
+
+  USER_OBJECT_
+S_gdk_test_render_sync(USER_OBJECT_ s_window); 
+
+  USER_OBJECT_
+S_gdk_test_simulate_key(USER_OBJECT_ s_window, USER_OBJECT_ s_x, USER_OBJECT_ s_y, USER_OBJECT_ s_keyval, USER_OBJECT_ s_modifiers, USER_OBJECT_ s_key_pressrelease); 
+
+  USER_OBJECT_
+S_gdk_test_simulate_button(USER_OBJECT_ s_window, USER_OBJECT_ s_x, USER_OBJECT_ s_y, USER_OBJECT_ s_button, USER_OBJECT_ s_modifiers, USER_OBJECT_ s_button_pressrelease); 
+
+  USER_OBJECT_
+S_gdk_pixbuf_save_to_stream(USER_OBJECT_ s_object, USER_OBJECT_ s_stream, USER_OBJECT_ s_type, USER_OBJECT_ s_cancellable); 
+
+  USER_OBJECT_
+S_gdk_keymap_get_caps_lock_state(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_cairo_reset_clip(USER_OBJECT_ s_cr, USER_OBJECT_ s_drawable); 
+
+  USER_OBJECT_
+S_gdk_offscreen_window_get_pixmap(USER_OBJECT_ s_window); 
+
+  USER_OBJECT_
+S_gdk_offscreen_window_set_embedder(USER_OBJECT_ s_window, USER_OBJECT_ s_embedder); 
+
+  USER_OBJECT_
+S_gdk_offscreen_window_get_embedder(USER_OBJECT_ s_window); 
+
+  USER_OBJECT_
+S_gdk_region_rect_equal(USER_OBJECT_ s_object, USER_OBJECT_ s_rectangle); 
+
+  USER_OBJECT_
+S_gdk_window_ensure_native(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_window_flush(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_window_geometry_changed(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_window_get_cursor(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_window_restack(USER_OBJECT_ s_object, USER_OBJECT_ s_sibling, USER_OBJECT_ s_above); 
+
+  USER_OBJECT_
+S_gdk_window_is_destroyed(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_window_get_root_coords(USER_OBJECT_ s_object, USER_OBJECT_ s_x, USER_OBJECT_ s_y); 
+
+  USER_OBJECT_
+S_gdk_pixbuf_simple_anim_set_loop(USER_OBJECT_ s_object, USER_OBJECT_ s_loop); 
+
+  USER_OBJECT_
+S_gdk_pixbuf_simple_anim_get_loop(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_keymap_add_virtual_modifiers(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_keymap_map_virtual_modifiers(USER_OBJECT_ s_object); 
+
+  USER_OBJECT_
+S_gdk_screen_get_primary_monitor(USER_OBJECT_ s_object); 
+
 #endif

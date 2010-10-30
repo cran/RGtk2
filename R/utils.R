@@ -40,6 +40,21 @@ function(obj, fun)
 	else lapply(obj, fun)
 }
 
+handleError <- function(x, .errwarn) {
+  if (isTRUE(getOption("RGtk2::newErrorHandling"))) {
+    if (!is.null(x$error)) { # have an error, throw it
+      x$error$call <- sys.call(-1)
+      stop(x$error)
+    } else { # otherwise act as if the error was never there
+      x$error <- NULL
+      if (length(x) == 1L)
+        x <- x[[1]]
+    }
+  } else if (.errwarn && !is.null(x$error)) 
+    warning(simpleWarning(x$error[["message"]], sys.call(-1)))
+  x
+}
+
 .RGtkCall <-
 function(name, ..., PACKAGE = "RGtk2")
 {
@@ -140,6 +155,25 @@ function(x, y)
 	
   ans
 }
+
+print.enum <- function(x, ...) {
+  cat(class(x)[1], ": ", names(x), " (", x[[1]], ")\n", sep = "")
+}
+print.flag <- function(x, ...) {
+  flags <- get(class(x)[1])
+  values <- names(flags)[sapply(flags, `&`, x) > 0]
+  cat(class(x)[1], ": ", paste(values, collapse = ", "), "\n", sep = "")
+}
+
+print.enums <- function(x, ...) {
+  cat("An enumeration with values:\n")
+  print(unclass(x))
+}
+print.flags <- function(x, ...) {
+  cat("A flag enumeration with values:\n")
+  print(unclass(x))
+}
+
 
 # file shortcuts
 imagefile <- function(name)

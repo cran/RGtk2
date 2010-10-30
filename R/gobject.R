@@ -23,7 +23,7 @@ as.GType <- function(x)
   type
 }
 
-interface.GObject <-
+interface <-
 function(obj)
 {
  attr(obj, "interfaces")
@@ -93,9 +93,13 @@ function(obj, signal, f, data = NULL, after = FALSE, user.data.first = FALSE)
     stop(paste("Callback action must be an expression, a call or a function, but instead is of type", typeof(f), ". Did you forget to use quote()"))
   }
 
-  .Call("R_connectGSignalHandler", obj, f, as.character(signal), data, useData, 
-    as.logical(after), as.logical(user.data.first), PACKAGE = "RGtk2")
+  invisible(.Call("R_connectGSignalHandler", obj, f, as.character(signal), data,
+                  useData, as.logical(after), as.logical(user.data.first),
+                  PACKAGE = "RGtk2"))
 }
+
+print.CallbackID <- function(x, ...)
+  cat("Connection to '", names(x), "': ", x, "\n", sep = "")
 
 gSignalHandlerDisconnect <-
 function(obj, id)
@@ -131,11 +135,11 @@ function(obj)
 {
   checkPtrType(obj, "GObject")
   type <- class(obj)[1]
-  els <- .gTypeGetSignals(type)
+  els <- gTypeGetSignals(type)
   els
 }
 
-.gTypeGetSignals <-
+gTypeGetSignals <-
 function(type)
 {
   if(is.character(type))

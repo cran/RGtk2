@@ -33,6 +33,8 @@ function(libname, pkgname)
    if (length(grep("darwin", R.version$platform)))
      message("Please try running R inside an X11 terminal.")
  }
+
+ .initClasses()
 }
 
 .install_system_dependencies <- function()
@@ -47,11 +49,9 @@ function(libname, pkgname)
   
   darwin_config <- list(
     source = F,
-    gtk_url = "http://r.research.att.com/gtk2-runtime.dmg", 
+    gtk_url = "http://r.research.att.com/libs/GTK_2.18.5-X11.pkg", 
     installer = function(path) {
-      system(paste("hdiutil attach ", path, sep=""))
-      system("open '/Volumes/GTK+ 2.14.3 run-time/gtk2-runtime.pkg'")
-      system("hdiutil detach '/Volumes/GTK+ 2.14.3 run-time'")
+      system(paste("open", path))
     }
   )
   

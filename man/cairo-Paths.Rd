@@ -1,7 +1,7 @@
-\alias{cairo-Paths}
+\alias{cairo-paths}
 \alias{CairoPath}
 \alias{CairoPathDataType}
-\name{cairo-Paths}
+\name{cairo-paths}
 \title{Paths}
 \description{Creating paths and manipulating path data}
 \section{Methods and Functions}{
@@ -34,26 +34,26 @@ the return value for \code{\link{cairoCopyPath}} and
 \code{\link{cairoCopyPathFlat}} as well the input value for
 \code{\link{cairoAppendPath}}.
   
-See \verb{\link{CairoPathData}} for hints on how to iterate over the
+See \code{\link{CairoPathData}} for hints on how to iterate over the
 actual data within the path.
   
 The num_data member gives the number of elements in the data
 array. This number is larger than the number of independent path
-portions (defined in \verb{\link{CairoPathDataType}}), since the data
+portions (defined in \code{\link{CairoPathDataType}}), since the data
 includes both headers and coordinates for each portion.  
 \strong{\verb{CairoPath} is a \link{transparent-type}.}
 
 \describe{
-\item{\verb{status}}{[\verb{\link{CairoStatus}}]  the current error status}
-\item{\verb{data}}{[\verb{\link{CairoPathData}}]  the elements in the path}
+\item{\verb{status}}{[\code{\link{CairoStatus}}]  the current error status}
+\item{\verb{data}}{[\code{\link{CairoPathData}}]  the elements in the path}
 \item{\verb{numData}}{[integer]  the number of elements in the data list}
 }
 
 }}}
 \section{Enums and Flags}{\describe{\item{\verb{CairoPathDataType}}{
-\verb{\link{CairoPathData}} is used to describe the type of one portion
-of a path when represented as a \verb{\link{CairoPath}}.
-See \verb{\link{CairoPathData}} for details.  
+\code{\link{CairoPathData}} is used to describe the type of one portion
+of a path when represented as a \code{\link{CairoPath}}.
+See \code{\link{CairoPathData}} for details.  
 
 \describe{
 \item{\verb{move-to}}{ A move-to operation}
@@ -63,6 +63,6 @@ See \verb{\link{CairoPathData}} for details.
 }
 
 }}}
-\references{\url{http://www.cairographics.org/manual/cairo-Paths.html}}
+\references{\url{http://www.cairographics.org/manual/cairo-paths.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}

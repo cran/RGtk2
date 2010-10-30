@@ -129,6 +129,7 @@ R_gtkInit(long *rargc, char **rargv, Rboolean *success)
 
     /* Experimental timer-based piping to a file descriptor */
 #ifdef G_THREADS_ENABLED
+#ifndef FREEBSD
     if (!pipe(fds)) {
       ifd = fds[0];
       ofd = fds[1];
@@ -138,6 +139,7 @@ R_gtkInit(long *rargc, char **rargv, Rboolean *success)
       R_CStackLimit = -1;
     } else g_warning("Failed to establish pipe; ",
                      "disabling timer-based event handling");
+#endif
 #endif
   }
 #else
@@ -159,6 +161,9 @@ R_gtkInit(long *rargc, char **rargv, Rboolean *success)
 #endif // Windows
 
   R_GTK_TYPE_PARAM_SEXP;
+  
+  g_value_register_transform_func(G_TYPE_DOUBLE, G_TYPE_STRING,
+                                  transformDoubleString);
   
   *success = TRUE;
 }

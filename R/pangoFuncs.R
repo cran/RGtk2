@@ -502,8 +502,7 @@ function(markup.text, length = -1, accel.marker = 0, .errwarn = TRUE)
 
   w <- .RGtkCall("S_pango_parse_markup", markup.text, length, accel.marker, PACKAGE = "RGtk2")
 
-  if(.errwarn && !is.null(w$error))
-    warning(w$error[["message"]])
+  w <- handleError(w, .errwarn)
 
   return(w)
 } 
@@ -3676,6 +3675,207 @@ function(object)
   checkPtrType(object, "PangoContext")
 
   w <- .RGtkCall("S_pango_cairo_context_get_shape_renderer", object, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoLanguageGetDefault <-
+function()
+{
+  
+
+  w <- .RGtkCall("S_pango_language_get_default", PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoLanguageGetSampleString <-
+function(object)
+{
+  checkPtrType(object, "PangoLanguage")
+
+  w <- .RGtkCall("S_pango_language_get_sample_string", object, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoBidiTypeForUnichar <-
+function(ch)
+{
+  ch <- as.numeric(ch)
+
+  w <- .RGtkCall("S_pango_bidi_type_for_unichar", ch, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoAttrTypeGetName <-
+function(type)
+{
+  
+
+  w <- .RGtkCall("S_pango_attr_type_get_name", type, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoCairoCreateContext <-
+function(cr)
+{
+  checkPtrType(cr, "Cairo")
+
+  w <- .RGtkCall("S_pango_cairo_create_context", cr, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoCairoFontMapSetDefault <-
+function(fontmap)
+{
+  checkPtrType(fontmap, "PangoCairoFontMap")
+
+  w <- .RGtkCall("S_pango_cairo_font_map_set_default", fontmap, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoCairoShowGlyphItem <-
+function(cr, text, glyph.item)
+{
+  checkPtrType(cr, "Cairo")
+  text <- as.character(text)
+  checkPtrType(glyph.item, "PangoGlyphItem")
+
+  w <- .RGtkCall("S_pango_cairo_show_glyph_item", cr, text, glyph.item, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoRendererDrawGlyphItem <-
+function(object, text, glyph.item, x, y)
+{
+  checkPtrType(object, "PangoRenderer")
+  text <- as.character(text)
+  checkPtrType(glyph.item, "PangoGlyphItem")
+  x <- as.integer(x)
+  y <- as.integer(y)
+
+  w <- .RGtkCall("S_pango_renderer_draw_glyph_item", object, text, glyph.item, x, y, PACKAGE = "RGtk2")
+
+  return(invisible(w))
+} 
+
+
+pangoFontMapCreateContext <-
+function(object)
+{
+  checkPtrType(object, "PangoFontMap")
+
+  w <- .RGtkCall("S_pango_font_map_create_context", object, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoGlyphItemIterInitStart <-
+function(object, glyph.item, text)
+{
+  checkPtrType(object, "PangoGlyphItemIter")
+  checkPtrType(glyph.item, "PangoGlyphItem")
+  text <- as.character(text)
+
+  w <- .RGtkCall("S_pango_glyph_item_iter_init_start", object, glyph.item, text, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoGlyphItemIterInitEnd <-
+function(object, glyph.item, text)
+{
+  checkPtrType(object, "PangoGlyphItemIter")
+  checkPtrType(glyph.item, "PangoGlyphItem")
+  text <- as.character(text)
+
+  w <- .RGtkCall("S_pango_glyph_item_iter_init_end", object, glyph.item, text, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoGlyphItemIterNextCluster <-
+function(object)
+{
+  checkPtrType(object, "PangoGlyphItemIter")
+
+  w <- .RGtkCall("S_pango_glyph_item_iter_next_cluster", object, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoGlyphItemIterPrevCluster <-
+function(object)
+{
+  checkPtrType(object, "PangoGlyphItemIter")
+
+  w <- .RGtkCall("S_pango_glyph_item_iter_prev_cluster", object, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoLanguageGetScripts <-
+function(object)
+{
+  checkPtrType(object, "PangoLanguage")
+
+  w <- .RGtkCall("S_pango_language_get_scripts", object, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoLayoutGetBaseline <-
+function(object)
+{
+  checkPtrType(object, "PangoLayout")
+
+  w <- .RGtkCall("S_pango_layout_get_baseline", object, PACKAGE = "RGtk2")
+
+  return(w)
+} 
+
+
+pangoGlyphItemGetLogicalWidths <-
+function(glyph.item, text)
+{
+  checkPtrType(glyph.item, "PangoGlyphItem")
+  text <- as.character(text)
+
+  w <- .RGtkCall("S_pango_glyph_item_get_logical_widths", glyph.item, text, PACKAGE = "RGtk2")
+
+  return(invisible(w))
+} 
+
+
+pangoGravityGetForScriptAndWidth <-
+function(script, wide, base.gravity, hint)
+{
+  
+  wide <- as.logical(wide)
+  
+  
+
+  w <- .RGtkCall("S_pango_gravity_get_for_script_and_width", script, wide, base.gravity, hint, PACKAGE = "RGtk2")
 
   return(w)
 } 

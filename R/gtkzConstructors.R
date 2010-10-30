@@ -109,7 +109,16 @@ function(model, show = TRUE)
   }
 }
 
-gtkComboBoxEntry <- gtkComboBoxEntryNew
+gtkComboBoxEntry <-
+function(model, text.column, show = TRUE)
+{
+  if (!missing(model)) {
+    gtkComboBoxEntryNewWithModel(model, text.column, show)
+  }
+  else {
+    gtkComboBoxEntryNew(show)
+  }
+}
 
 gtkCTree <-
 function(columns = 1, tree.column = 0, titles, show = TRUE)
@@ -244,19 +253,14 @@ function(model = NULL, show = TRUE)
 }
 
 gtkImage <-
-function(mask = NULL, size, pixmap = NULL, image = NULL, filename, pixbuf = NULL, stock.id, icon.set, animation, show = TRUE)
+function(size, mask = NULL, pixmap = NULL, image = NULL, filename, pixbuf = NULL, stock.id, icon.set, animation, icon, show = TRUE)
 {
-  if (!missing(icon.set)) {
-    gtkImageNewFromIconSet(icon.set, size, show)
+  if (!missing(pixmap)) {
+    gtkImageNewFromPixmap(pixmap, mask, show)
   }
   else {
     if (!missing(mask)) {
-      if (!missing(pixmap)) {
-        gtkImageNewFromPixmap(pixmap, mask, show)
-      }
-      else {
-        gtkImageNewFromImage(image, mask, show)
-      }
+      gtkImageNewFromImage(image, mask, show)
     }
     else {
       if (!missing(filename)) {
@@ -271,11 +275,21 @@ function(mask = NULL, size, pixmap = NULL, image = NULL, filename, pixbuf = NULL
             gtkImageNewFromStock(stock.id, size, show)
           }
           else {
-            if (!missing(animation)) {
-              gtkImageNewFromAnimation(animation, show)
+            if (!missing(size)) {
+              if (!missing(icon.set)) {
+                gtkImageNewFromIconSet(icon.set, size, show)
+              }
+              else {
+                gtkImageNewFromGicon(icon, size, show)
+              }
             }
             else {
-              gtkImageNew(show)
+              if (!missing(animation)) {
+                gtkImageNewFromAnimation(animation, show)
+              }
+              else {
+                gtkImageNew(show)
+              }
             }
           }
         }
@@ -499,7 +513,16 @@ gtkToggleToolButton <- gtkToggleToolButtonNew
 
 gtkToolbar <- gtkToolbarNew
 
-gtkToolButton <- gtkToolButtonNew
+gtkToolButton <-
+function(icon.widget = NULL, label = NULL, stock.id, show = TRUE)
+{
+  if (!missing(icon.widget)) {
+    gtkToolButtonNew(icon.widget, label, show)
+  }
+  else {
+    gtkToolButtonNewFromStock(stock.id, show)
+  }
+}
 
 gtkToolItem <- gtkToolItemNew
 
@@ -589,7 +612,16 @@ gtkRecentFilter <- gtkRecentFilterNew
 
 gtkRecentManager <- gtkRecentManagerNew
 
-gtkStatusIcon <- gtkStatusIconNew
+gtkStatusIcon <-
+function(icon)
+{
+  if (!missing(icon)) {
+    gtkStatusIconNewFromGicon(icon)
+  }
+  else {
+    gtkStatusIconNew()
+  }
+}
 
 gtkRecentChooserMenu <- gtkRecentChooserMenuNewForManager
 
@@ -608,4 +640,29 @@ gtkRecentAction <- gtkRecentActionNew
 gtkScaleButton <- gtkScaleButtonNew
 
 gtkVolumeButton <- gtkVolumeButtonNew
+
+gtkMountOperation <- gtkMountOperationNew
+
+gtkEntryBuffer <- gtkEntryBufferNew
+
+gtkInfoBar <-
+function(first.button.text, ..., show = TRUE)
+{
+  if (!missing(show)) {
+    gtkInfoBarNew(show)
+  }
+  else {
+    gtkInfoBarNewWithButtons(first.button.text, ...)
+  }
+}
+
+gtkToolItemGroup <- gtkToolItemGroupNew
+
+gtkToolPalette <- gtkToolPaletteNew
+
+gtkCellRendererSpinner <- gtkCellRendererSpinnerNew
+
+gtkOffscreenWindow <- gtkOffscreenWindowNew
+
+gtkSpinner <- gtkSpinnerNew
 
