@@ -40,15 +40,15 @@ function(libname, pkgname)
 .install_system_dependencies <- function()
 {
   windows_config <- list(
-    source = F,
-    gtk_url = "http://downloads.sourceforge.net/gladewin32/gtk-2.12.9-win32-2.exe",
+    source = FALSE,
+    gtk_url = "http://downloads.sourceforge.net/gtk-win/gtk2-runtime-2.22.0-2010-10-21-ash.exe?download",
     installer = function(path) {
       shell(path)
     }
   )
   
   darwin_config <- list(
-    source = F,
+    source = FALSE,
     gtk_url = "http://r.research.att.com/libs/GTK_2.18.5-X11.pkg", 
     installer = function(path) {
       system(paste("open", path))
@@ -68,7 +68,7 @@ function(libname, pkgname)
     choice <- menu(paste(c("Install", "Do not install"), dep_name), T, 
       paste("Need", dep_name, "? (Restart R after installing)"))
     if (choice == 1) {
-      path <- file.path(tempdir(), basename(dep_url))
+      path <- file.path(tempdir(), basename(sub("\\?.*", "", dep_url)))
       if (download.file(dep_url, path, mode="wb") > 0)
         stop("Failed to download ", dep_name)
       installer(path)

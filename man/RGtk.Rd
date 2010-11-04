@@ -29,9 +29,6 @@ such as \code{\link{GtkButton}} or \code{\link{GtkTextView}}.}
 \item{\link{Cairo}}{Cairo is a 2D graphics library with support for multiple output 
 devices. Currently supported output targets include the X Window System, win32, 
 and image buffers.}
-\item{\link{Libglade}}{Libglade loads and parses XML descriptions of user interfaces 
-at runtime. It also provides functions that can be used to connect signal handlers 
-to parts of the interface.}
 }
 
 RGtk2 also partially binds some lower-level libraries in order to support the bindings 
