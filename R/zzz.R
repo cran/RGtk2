@@ -77,7 +77,7 @@ function(libname, pkgname)
   }
   
   install_all <- function() {
-    if (.Platform$OS.type == "windows")
+    if (.Platform$OS.type == "windows" && .Platform$r_arch == "i386")
       config <- windows_config
     else if (length(grep("darwin", R.version$platform))) 
       config <- darwin_config

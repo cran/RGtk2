@@ -43,6 +43,11 @@ As described above, RGtk2 binds many libraries beyond GTK+ itself. Thus, it can
 serve many purposes besides GUI construction. For example, \link{GDKPixbuf} 
 and \link{Cairo} allow the R user to produce arbitary high-quality graphics.
 }
+\references{
+  Michael Lawrence, Duncan Temple Lang (2010). RGtk2: A Graphical User
+  Interface Toolkit for R. Journal of Statistical Software, 37(8),
+  1-52. \url{http://www.jstatsoft.org/v37/i08/}.
+}
 \author{Michael Lawrence, with excerpts from library documentation}
 \keyword{interface}
 

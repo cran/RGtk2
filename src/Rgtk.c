@@ -161,6 +161,10 @@ R_gtkInit(long *rargc, char **rargv, Rboolean *success)
   
   g_value_register_transform_func(G_TYPE_DOUBLE, G_TYPE_STRING,
                                   transformDoubleString);
+  g_value_register_transform_func(G_TYPE_INT, G_TYPE_STRING,
+                                  transformIntString);
+  g_value_register_transform_func(G_TYPE_BOOLEAN, G_TYPE_STRING,
+                                  transformBooleanString);
   
   *success = TRUE;
 }
