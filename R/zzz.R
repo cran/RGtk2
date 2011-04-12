@@ -8,9 +8,14 @@ function()
 function(libname, pkgname)
 {
  options(depwarn = TRUE, gdkFlush = TRUE)
- 
- dll <- try(library.dynam("RGtk2", pkgname, libname),
-            silent = getOption("verbose"))
+
+ if (.Platform$OS.type == "windows") {
+   dllpath <- Sys.getenv("RGTK2_GTK2_PATH")
+   dll <- try(library.dynam("RGtk2", pkgname, libname),
+              silent = getOption("verbose"), DLLpath = dllpath)
+ }
+ else dll <- try(library.dynam("RGtk2", pkgname, libname),
+                 silent = getOption("verbose"))
  if (is.character(dll)) {
    message("Failed to load RGtk2 dynamic library, attempting to install it.")
    .install_system_dependencies()
