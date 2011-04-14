@@ -11,8 +11,8 @@ function(libname, pkgname)
 
  if (.Platform$OS.type == "windows") {
    dllpath <- Sys.getenv("RGTK2_GTK2_PATH")
-   dll <- try(library.dynam("RGtk2", pkgname, libname),
-              silent = getOption("verbose"), DLLpath = dllpath)
+   dll <- try(library.dynam("RGtk2", pkgname, libname, DLLpath = dllpath),
+              silent = getOption("verbose"))
  }
  else dll <- try(library.dynam("RGtk2", pkgname, libname),
                  silent = getOption("verbose"))
