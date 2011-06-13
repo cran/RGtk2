@@ -11,6 +11,8 @@ function(libname, pkgname)
 
  if (.Platform$OS.type == "windows") {
    dllpath <- Sys.getenv("RGTK2_GTK2_PATH")
+   if (!nzchar(dllpath))
+     dllpath <- file.path(.windows_gtk_path, "bin")
    dll <- try(library.dynam("RGtk2", pkgname, libname, DLLpath = dllpath),
               silent = getOption("verbose"))
  }
@@ -42,15 +44,22 @@ function(libname, pkgname)
  .initClasses()
 }
 
+.windows_gtk_path <- file.path(system.file(package = "RGtk2"), "gtk",
+                               .Platform$r_arch)
+
 .install_system_dependencies <- function()
 {
-  windows_config <- list(
-    source = FALSE,
-    gtk_url = "http://downloads.sourceforge.net/gtk-win/gtk2-runtime-2.22.0-2010-10-21-ash.exe?download",
-    installer = function(path) {
-      shell(path)
-    }
-  )
+  windows32_config <-
+    list(
+         source = FALSE,
+         gtk_url = "http://ftp.gnome.org/pub/gnome/binaries/win32/gtk+/2.22/gtk+-bundle_2.22.1-20101227_win32.zip",
+         installer = function(path) {
+           unzip(path, exdir = .windows_gtk_path)
+         }
+         )
+
+  windows64_config <- windows32_config
+  windows64_config$gtk_url <- "http://ftp.gnome.org/pub/gnome/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101227_win64.zip"
   
   darwin_config <- list(
     source = FALSE,
@@ -82,9 +91,11 @@ function(libname, pkgname)
   }
   
   install_all <- function() {
-    if (.Platform$OS.type == "windows" && .Platform$r_arch == "i386")
-      config <- windows_config
-    else if (length(grep("darwin", R.version$platform))) 
+    if (.Platform$OS.type == "windows") {
+      if (.Platform$r_arch == "i386")
+        config <- windows32_config
+      else config <- windows64_config
+    } else if (length(grep("darwin", R.version$platform))) 
       config <- darwin_config
     else config <- unix_config
     
@@ -97,6 +108,7 @@ function(libname, pkgname)
   
   install_all()
   
-  message("If the package still does not load, please ensure that GTK+ is installed and that it is on your PATH environment variable")
+  message("If the package still does not load, please ensure that GTK+ is",
+          " installed and that it is on your PATH environment variable")
   message("IN ANY CASE, RESTART R BEFORE TRYING TO LOAD THE PACKAGE AGAIN")
 }
