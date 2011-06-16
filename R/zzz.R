@@ -59,7 +59,7 @@ function(libname, pkgname)
          )
 
   windows64_config <- windows32_config
-  windows64_config$gtk_url <- "http://ftp.gnome.org/pub/gnome/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101227_win64.zip"
+  windows64_config$gtk_url <- "http://ftp.gnome.org/pub/gnome/binaries/win64/gtk+/2.22/gtk+-bundle_2.22.1-20101229_win64.zip"
   
   darwin_config <- list(
     source = FALSE,

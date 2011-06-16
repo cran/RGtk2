@@ -1,5 +1,5 @@
 Package: RGtk2
-Version: 2.20.13
+Version: 2.20.14
 Title: R bindings for Gtk 2.8.0 and above
 Author: Michael Lawrence <michafla@gene.com> and Duncan Temple Lang
         <duncan@wald.ucdavis.edu>
@@ -12,6 +12,6 @@ Description: Facilities in the R language for programming graphical
 License: GPL
 URL: http://www.ggobi.org/rgtk2, http://www.omegahat.org
 Encoding: UTF-8
-Packaged: 2011-06-13 03:02:24 UTC; larman
+Packaged: 2011-06-16 17:16:03 UTC; larman
 Repository: CRAN
-Date/Publication: 2011-06-15 17:50:31
+Date/Publication: 2011-06-18 05:22:48
