@@ -54,6 +54,7 @@ function(libname, pkgname)
          source = FALSE,
          gtk_url = "http://ftp.gnome.org/pub/gnome/binaries/win32/gtk+/2.22/gtk+-bundle_2.22.1-20101227_win32.zip",
          installer = function(path) {
+           dir.create(.windows_gtk_path)
            unzip(path, exdir = .windows_gtk_path)
          }
          )
