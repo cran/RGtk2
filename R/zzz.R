@@ -12,7 +12,7 @@ function(libname, pkgname)
  if (.Platform$OS.type == "windows") {
    dllpath <- Sys.getenv("RGTK2_GTK2_PATH")
    if (!nzchar(dllpath))
-     dllpath <- file.path(.windows_gtk_path, "bin")
+     dllpath <- file.path(.windows_gtk_path(), "bin")
    dll <- try(library.dynam("RGtk2", pkgname, libname, DLLpath = dllpath),
               silent = getOption("verbose"))
  }
@@ -44,8 +44,8 @@ function(libname, pkgname)
  .initClasses()
 }
 
-.windows_gtk_path <- file.path(system.file(package = "RGtk2"), "gtk",
-                               .Platform$r_arch)
+.windows_gtk_path <- function()
+  file.path(system.file(package = "RGtk2"), "gtk", .Platform$r_arch)
 
 .install_system_dependencies <- function()
 {
@@ -54,8 +54,10 @@ function(libname, pkgname)
          source = FALSE,
          gtk_url = "http://ftp.gnome.org/pub/gnome/binaries/win32/gtk+/2.22/gtk+-bundle_2.22.1-20101227_win32.zip",
          installer = function(path) {
-           dir.create(.windows_gtk_path)
-           unzip(path, exdir = .windows_gtk_path)
+           gtk_path <- .windows_gtk_path()
+           ## unzip does this, but we want to see any warnings
+           dir.create(gtk_path, recursive = TRUE) 
+           unzip(path, exdir = gtk_path)
          }
          )
 
