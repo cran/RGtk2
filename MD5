@@ -1,4 +1,4 @@
-b88110c4eebd41a71715d152019b2e06 *DESCRIPTION
+0f663ab060084fabc1cf6231320ac4fa *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 15a0095ecd8d36a76e39db6ca413eeac *INSTALL.html
 400e4f47fd4795b9ae8fd217b9c38628 *NAMESPACE
@@ -16,7 +16,7 @@ d0f440c038c8859822f23bec81b9b560 *R/atkzConstructors.R
 c7ea9e39a4a74512a0b6d66229425e3f *R/cairoCoerce.R
 5fef8966c2160ea21138f131e534995c *R/cairoEnumDefs.R
 8f028272e8fec85b1e565cb570d0baa5 *R/cairoFuncs.R
-6c08b57caf15c49c47657aaa3470a558 *R/cairoManuals.R
+368c2d820d2bdcf6bbe571389d9789f4 *R/cairoManuals.R
 d41d8cd98f00b204e9800998ecf8427e *R/cairoVirtuals.R
 152066a9e13aee028c2fb8c9a100cb66 *R/cairozConstructors.R
 79b8f268f880c9c969e0ef3037b7fe9e *R/classes.R
@@ -42,7 +42,7 @@ ad7a6940b2af3895bab00b989a377622 *R/glib.R
 27b8b5df000aecbec44374d63f93ee16 *R/gtkCoerce.R
 3bb931d3bcb9482a973d0afafd96ea98 *R/gtkEnumDefs.R
 d10379d31dfa4fde81b641824cd618a9 *R/gtkFuncs.R
-9d5002030dbd8245cb06b774f1430c65 *R/gtkManuals.R
+70b4bd0b8f8909038c9a7111c619ebdd *R/gtkManuals.R
 ad069ca8798109121d0525343d5666f4 *R/gtkUtils.R
 9e65450048512a8ea001ad432d13eb97 *R/gtkVirtuals.R
 e60c566d8ca8dac25bc965136201474c *R/gtkzConstructors.R
@@ -50,7 +50,7 @@ e60c566d8ca8dac25bc965136201474c *R/gtkzConstructors.R
 51c598d252e1aab2944dd60679b2b135 *R/pangoCoerce.R
 93de45042196df0585f0a189508e2066 *R/pangoEnumDefs.R
 843e6d6a4f0c48b67763414d80e99409 *R/pangoFuncs.R
-60543f80fb738e6e68620f9fb3b58b77 *R/pangoManuals.R
+d61fb9a0410388aef5b9c4b27177e52a *R/pangoManuals.R
 8014398df188dad01765feef819afd37 *R/pangoVirtuals.R
 a0fad6a0894926adfda4044de3332ef0 *R/pangozConstructors.R
 279ba37f2f7814d0ee3709ccb9615cbf *R/stock.R
@@ -99,7 +99,7 @@ b441085bbc1fe62461f3c90fbaba4d2b *demo/sizeGroups.R
 55d040be84c0d427c05e64cd2e7c81a3 *demo/treeStore.R
 75ee920816be3e5dd1a5407a360ef391 *inst/CITATION
 714726a7730dfd83cca6974f1d04ffc7 *inst/doc/overview2.lyx
-e011adb597876e5dc314ac921912e030 *inst/doc/overview2.pdf
+5a594dac90dabc928940ecad328dedb5 *inst/doc/overview2.pdf
 fec8757579ffd40bcf031e1e68919cde *inst/doc/tutorial.sgml
 0ae04d2d38e5d6b975ca475423efa088 *inst/examples/GAppInfo.R
 c2c11bdd6b672784a392a53639881b93 *inst/examples/GAsyncResult.R
@@ -1011,7 +1011,7 @@ caddacb3fa6c84a23cce5a69dbfbf862 *man/cairoVersion.Rd
 b49a471608d0ff73f89c5b2781c280a3 *man/cairoVersionString.Rd
 d34c49853a7cb215c1e1b35146abb6f0 *man/cairoWriteFunc.Rd
 36ee66474c0a102a872f954599547155 *man/chap-drawing-model.Rd
-29f7237d308cc4dc11dcccfb17e38efe *man/checkGTK.Rd
+24b5257e0f00e7d50e012cd91b0f00d0 *man/checkGTK.Rd
 a36e38abc1584e0605c9680c3cfa540d *man/children.Rd
 60b757481d5f0b5ec8f6aa776c6f8894 *man/classes.Rd
 7312e0c6ce76211e0eb3429e5973457d *man/coercion.Rd
@@ -5885,7 +5885,7 @@ e812b442bd3acebdaa68a9c4cff30797 *man/typeMacros.Rd
 b4e8bc2b046f50aac82270a7b6439191 *man/utils.Rd
 8e8ab81c44a2b3e832319cee1aee5813 *man/virtuals.Rd
 6bfd5f52910775681ce8f3b83b38f678 *man/windowSize.Rd
-7dcd2da44d08e4694dbbf6f20311b7fe *src/Makevars
+fcff4d86c029caa51daaf6bba63e49ab *src/Makevars
 cb3ec7dce96f21601f3d5ae3418e249d *src/Makevars.in
 84623062f0338203d55ceef13b9bde37 *src/Makevars.win
 09beb4bc8d6aed950a01c21e49c5d88a *src/RGtk2/RSCommon.h
