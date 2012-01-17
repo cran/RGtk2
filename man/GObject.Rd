@@ -28,13 +28,13 @@ It provides facilities for object construction, properties, and signals.
 }
 \usage{
 gObjectGet(obj, ..., drop = T)
-"[.GObject"(obj, value, ...)
+\method{[}{GObject}(obj, value, ...)
 gObjectSet(obj, ...)
-"[<-.GObject"(obj, propNames, value)
-"[[.GObject"(obj, member, where = parent.frame())
-"[[<-.GObject"(obj, member, value)
-"$.GObject"(x, member)
-"$<-.GObject"(obj, member, value)
+\method{[}{GObject}(obj, propNames) <- value
+\method{[[}{GObject}(obj, member, where = parent.frame())
+\method{[[}{GObject}(obj, member) <- value
+\method{$}{GObject}(x, member)
+\method{$}{GObject}(obj, member) <- value
 gObject(type, ...)
 gObjectNew(type, ...)
 gObjectSetData(obj, key, data = NULL) 
@@ -42,7 +42,7 @@ gObjectGetData(obj, key)
 gObjectGetSignals(obj)
 gObjectGetPropInfo(obj, parents = TRUE, collapse = TRUE)
 gTypeGetPropInfo(type)
-names.GObject(x)
+\method{names}{GObject}(x)
 interface(obj)
 gObjectParentClass(obj)
 }

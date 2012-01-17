@@ -18,13 +18,13 @@ rGtkDataFrame(frame = data.frame())
 rGtkDataFrameNew(frame = data.frame())
 rGtkDataFrameAppendColumns(x, ...)
 rGtkDataFrameAppendRows(x, ...)
-as.data.frame.RGtkDataFrame(x, ...)
+\method{as.data.frame}{RGtkDataFrame}(x, ...)
 rGtkDataFrameSetFrame(x, frame = data.frame())
-"[.RGtkDataFrame"(x, i, j, drop = T)
-"[<-.RGtkDataFrame"(x, i, j, value)
-dim.RGtkDataFrame(x, ...)
-dimnames.RGtkDataFrame(x, ...)
-"dimnames<-.RGtkDataFrame"(x, value)
+\method{[}{RGtkDataFrame}(x, i, j, drop = T)
+\method{[}{RGtkDataFrame}(x, i, j) <- value
+\method{dim}{RGtkDataFrame}(x, ...)
+\method{dimnames}{RGtkDataFrame}(x, ...)
+\method{dimnames}{RGtkDataFrame}(x) <- value
 }
 \arguments{
 \item{frame}{The frame to use as the backing store of the model}

@@ -578,25 +578,23 @@ function(x, name, value)
 .getAutoElementByName <-
 function(obj, name, op = "Get", error = TRUE, where = parent.frame())
 {
- sym <- paste(tolower(substring(class(obj), 1, 1)), substring(class(obj), 2), op,
-    toupper(substring(name, 1, 1)), substring(name, 2),sep="")
-    #print(sym)
- which <- sapply(sym, exists, where)
+  sym <- paste("S_", class(obj), op,
+               toupper(substring(name, 1, 1)), substring(name, 2), sep = "")
+  sym <- Find(function(x) is.loaded(x, PACKAGE = "RGtk2"), sym)
+  
+  if(is.null(sym)) {
+    message <- paste("Could not", op, "field", name, "for classes",
+                     paste(class(obj), collapse=", "))
+    if(error)
+      stop(message)
+    else {
+      v <- paste(message)
+      class(v) <- "try-error"
+      return(v)
+    }
+  }
 
- if(!any(which)) {
-   message <- paste("Could not", op, "field", name,"for classes", paste(class(obj), collapse=", "))
-   if(error)
-     stop(message)
-   else {
-     v <- paste(message)
-     class(v) <- "try-error"
-     return(v)
-   }
- }
-
- fun <- get(sym[which][1], where, mode = "function")
-
- fun
+  function(obj) .Call(sym, obj, PACKAGE = "RGtk2")
 }
 
 # This attempts to coerce an R object to an RGClosure that is understood on the C side

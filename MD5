@@ -1,4 +1,4 @@
-0f663ab060084fabc1cf6231320ac4fa *DESCRIPTION
+14ab105479a421c4c18d6f72a588ecd9 *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 15a0095ecd8d36a76e39db6ca413eeac *INSTALL.html
 400e4f47fd4795b9ae8fd217b9c38628 *NAMESPACE
@@ -24,7 +24,7 @@ c5696910239bf8ea7b6addcfa3a5a29f *R/coerce.R
 0b9816536f4ce95da350be8c6fe71747 *R/gdkAccessors.R
 72a1df5d7c21a1c1d1327eaa1325f558 *R/gdkAtoms.R
 8f26fc2c508c48963dea2dcc65753b6c *R/gdkCoerce.R
-8b78b968ae19bb85862e3b31159d8593 *R/gdkEnumDefs.R
+4f5fcaf63dbd0e34acce9d272ab8af5f *R/gdkEnumDefs.R
 58d9710226476c969cd57ad555aa8802 *R/gdkFuncs.R
 750264ffd04a4b492ac27193795a67ac *R/gdkKeySyms.R
 b572f72552b7c1cbee06c1aff2700398 *R/gdkManuals.R
@@ -37,12 +37,12 @@ c7bfc6562fa5a675659aa049cf7a161d *R/gioManuals.R
 b15a9f7857b89d4421646e55318fd6db *R/gioVirtuals.R
 992a7f8a756f6153b6dbbc3f29d39236 *R/giozConstructors.R
 ad7a6940b2af3895bab00b989a377622 *R/glib.R
-4c9b9c0b4c2bcfcb2031d7314a928a57 *R/gobject.R
+c641da97d64217e86e2fcb11085ca424 *R/gobject.R
 03be464737306269740b1ea26ac433a6 *R/gtkAccessors.R
 27b8b5df000aecbec44374d63f93ee16 *R/gtkCoerce.R
 3bb931d3bcb9482a973d0afafd96ea98 *R/gtkEnumDefs.R
 d10379d31dfa4fde81b641824cd618a9 *R/gtkFuncs.R
-70b4bd0b8f8909038c9a7111c619ebdd *R/gtkManuals.R
+548f092702ca38c2938d459e868f69ba *R/gtkManuals.R
 ad069ca8798109121d0525343d5666f4 *R/gtkUtils.R
 9e65450048512a8ea001ad432d13eb97 *R/gtkVirtuals.R
 e60c566d8ca8dac25bc965136201474c *R/gtkzConstructors.R
@@ -56,10 +56,9 @@ a0fad6a0894926adfda4044de3332ef0 *R/pangozConstructors.R
 279ba37f2f7814d0ee3709ccb9615cbf *R/stock.R
 030919bfbd3a19d19b48ef842c7d2fcf *R/utils.R
 f07b5c95a6d858bb80954f521d72cf0e *R/zcompat.R
-728b4c7c13eb3aa5c5b28ccffbca19b9 *R/zzz.R
+124d0d7678b60aadb7353efed6d72c34 *R/zzz.R
 b10167ee5f1852ca8e5231356b3b737e *README
 7b32933b5b016a8364fbc4dc22e4c99c *README.html
-c21cce2b76f2e22d655962e176d33c7c *aclocal.m4
 d7f4262aabd84b9e7b0c9e80ef0fb979 *configure
 c6a71c1d4d3a863cf45417f4fff30fd9 *configure.in
 68b329da9893e34099c7d8ad5cb9c940 *configure.win
@@ -74,7 +73,7 @@ ced768803f9751aaf2d1ebf1c9262b79 *demo/clipboard.R
 73b75804d10071feefb90c27f27ad65c *demo/colorSelector.R
 cef1c9012f10d7611a2095db03466ebd *demo/compositeplot.R
 73c0ffa03da7242dc2b35f2a39d6c0a4 *demo/dnd.R
-c60d23e1f035999c26a6de9a422f5fb9 *demo/drawingArea.R
+8b5736460b4e2b1b73ef7871401b9aa1 *demo/drawingArea.R
 bcb42d3c08f42f3f14c8a8d2fcb0d694 *demo/editableCells.R
 4966e813e039f37f0d5fe07ae1516e5c *demo/entryCompletion.R
 230086fe5ba69476c3cf6247a7e72667 *demo/expander.R
@@ -99,7 +98,7 @@ b441085bbc1fe62461f3c90fbaba4d2b *demo/sizeGroups.R
 55d040be84c0d427c05e64cd2e7c81a3 *demo/treeStore.R
 75ee920816be3e5dd1a5407a360ef391 *inst/CITATION
 714726a7730dfd83cca6974f1d04ffc7 *inst/doc/overview2.lyx
-5a594dac90dabc928940ecad328dedb5 *inst/doc/overview2.pdf
+418b86dec2c5b0ebf285edf22dc10be2 *inst/doc/overview2.pdf
 fec8757579ffd40bcf031e1e68919cde *inst/doc/tutorial.sgml
 0ae04d2d38e5d6b975ca475423efa088 *inst/examples/GAppInfo.R
 c2c11bdd6b672784a392a53639881b93 *inst/examples/GAsyncResult.R
@@ -343,7 +342,7 @@ ae6b577f70929a48933826a61ead4e4b *man/GMemoryOutputStream.Rd
 623f13a15c9c0627aa4d1af2237755fa *man/GMountOperation.Rd
 e0ec8ce2929ff8f696812c4f6514721f *man/GNetworkAddress.Rd
 4a66afb722b526863abd5c105b554a5a *man/GNetworkService.Rd
-c80f83573a4039ae90e545a9a870ea90 *man/GObject.Rd
+c3a1cd0a8c8d823b06c10a15af5e79fd *man/GObject.Rd
 a3513520752c987290aa1393fac46232 *man/GOutputStream.Rd
 1d510753f966e9043abca3977507d0d2 *man/GParamSpec.Rd
 cbb0c39f4b48a4900dd6a2a62acc1b65 *man/GResolver.Rd
@@ -554,9 +553,9 @@ eb0496cc96286a1c9cc4ecd90be19255 *man/GtkWindow.Rd
 d88a66ba222bd8d7f7f92035f6ed3cc8 *man/GtkWindowGroup.Rd
 977bd7b4b86d5a2ef64a6abba32861a1 *man/Pango.Rd
 3c7d793a28635e7de8863a344cb3ec60 *man/RGtk.Rd
-fcc794265726ee5a6bfb3d90436cbe35 *man/RGtkDataFrame.Rd
-e1530bf1ee5d5a17e5e7a1d2e5ef6ab3 *man/RGtkObject.Rd
-757857bf9404a16f63897bfec36973e8 *man/argInfo.Rd
+be751eac809c9d6c6d529e328e5e3885 *man/RGtkDataFrame.Rd
+5c5c484153916751ee666d60972cfbce *man/RGtkObject.Rd
+d6a7e98cf6dd98274649b6480c1c7da8 *man/argInfo.Rd
 02df0ed38cdcbdb62240b509e7133c2e *man/assertions.Rd
 e9d256bf03c7dc7136c4793349db9f7c *man/atk-AtkMisc.Rd
 8f79bc7eccb2e27ec3793aab10547477 *man/atk-AtkState.Rd
@@ -1018,7 +1017,7 @@ a36e38abc1584e0605c9680c3cfa540d *man/children.Rd
 b6c0cd566591782292324554e9c7c56e *man/containers.Rd
 a5ba28dd6468cbd9139277390c9dcf60 *man/custom-tree-models.Rd
 58ce306eba6dbb7d1ebb9ddd787a2f44 *man/deprecated.Rd
-e7a508e26948ab5069e6c3d68a8065d8 *man/enums-and-flags.Rd
+5512424bca6017698e393521f5eb80ec *man/enums-and-flags.Rd
 3a40bcb788ca0e160f806357cb86e251 *man/findWidgetByType.Rd
 84768e2d623a40002e8875fb31b41bfe *man/gAppInfoAddSupportsType.Rd
 be388f51f203c32edafb7c0ad364204f *man/gAppInfoCanDelete.Rd
@@ -5885,7 +5884,7 @@ e812b442bd3acebdaa68a9c4cff30797 *man/typeMacros.Rd
 b4e8bc2b046f50aac82270a7b6439191 *man/utils.Rd
 8e8ab81c44a2b3e832319cee1aee5813 *man/virtuals.Rd
 6bfd5f52910775681ce8f3b83b38f678 *man/windowSize.Rd
-fcff4d86c029caa51daaf6bba63e49ab *src/Makevars
+9803180d139838fc83136e97e4f2fa7e *src/Makevars
 cb3ec7dce96f21601f3d5ae3418e249d *src/Makevars.in
 84623062f0338203d55ceef13b9bde37 *src/Makevars.win
 09beb4bc8d6aed950a01c21e49c5d88a *src/RGtk2/RSCommon.h
@@ -5982,7 +5981,7 @@ eb5a5a088ef069d6aab6a75bd6d06e26 *src/gioFuncs.c
 765804c15451e7275c9a2d63f016e1c2 *src/gioManuals.c
 76acc456467ce17ee1612833bae366dc *src/gioUserFuncs.c
 214e159f1a72db6817cd6a643f5a70f3 *src/glib.c
-8317dde25dc871bea5c6505141c85f46 *src/gobject.c
+4e1ac7d9413fb6d6fc5d190bf705002f *src/gobject.c
 fc359d759a8a501959a9b185bad69051 *src/gtkAccessors.c
 c01d26c997c7bdcc8a10c615a471a197 *src/gtkClasses.c
 e25037c1c8f3ba7dbca2db2f9d5fd7b7 *src/gtkConversion.c
