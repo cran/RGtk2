@@ -1,4 +1,4 @@
-0188676ee5a362163e1f677ca8a320f9 *DESCRIPTION
+e32712dc9d79c0ca68064582ab1ce770 *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 15a0095ecd8d36a76e39db6ca413eeac *INSTALL.html
 400e4f47fd4795b9ae8fd217b9c38628 *NAMESPACE
@@ -37,7 +37,7 @@ c7bfc6562fa5a675659aa049cf7a161d *R/gioManuals.R
 b15a9f7857b89d4421646e55318fd6db *R/gioVirtuals.R
 992a7f8a756f6153b6dbbc3f29d39236 *R/giozConstructors.R
 ad7a6940b2af3895bab00b989a377622 *R/glib.R
-5eeb886116aceb1aa6f8fa6aeacedd06 *R/gobject.R
+46332058efe52062ade3569b8c6799e0 *R/gobject.R
 03be464737306269740b1ea26ac433a6 *R/gtkAccessors.R
 27b8b5df000aecbec44374d63f93ee16 *R/gtkCoerce.R
 3bb931d3bcb9482a973d0afafd96ea98 *R/gtkEnumDefs.R
@@ -98,7 +98,7 @@ b441085bbc1fe62461f3c90fbaba4d2b *demo/sizeGroups.R
 55d040be84c0d427c05e64cd2e7c81a3 *demo/treeStore.R
 75ee920816be3e5dd1a5407a360ef391 *inst/CITATION
 714726a7730dfd83cca6974f1d04ffc7 *inst/doc/overview2.lyx
-b1685a84e354668d7134c5b08c7519f8 *inst/doc/overview2.pdf
+2128cd803974818554880665af4b726f *inst/doc/overview2.pdf
 fec8757579ffd40bcf031e1e68919cde *inst/doc/tutorial.sgml
 0ae04d2d38e5d6b975ca475423efa088 *inst/examples/GAppInfo.R
 c2c11bdd6b672784a392a53639881b93 *inst/examples/GAsyncResult.R
