@@ -1,4 +1,4 @@
-e32712dc9d79c0ca68064582ab1ce770 *DESCRIPTION
+94ad61024a68cd50902da25bbf1154cd *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 15a0095ecd8d36a76e39db6ca413eeac *INSTALL.html
 400e4f47fd4795b9ae8fd217b9c38628 *NAMESPACE
@@ -5911,7 +5911,7 @@ d938effd52452fd040c1743967bdd23b *src/RGtk2/gioClasses.h
 0d9c345ec36198c3eaf7b8cb680be6f8 *src/RGtk2/gioImports.c
 944e15380081dbde3b8811eb173498c8 *src/RGtk2/gioUserFuncImports.c
 504353d55557763c3f2ad30774c84a61 *src/RGtk2/gioUserFuncs.h
-2c7277a28730d438ade8283b5eddbe94 *src/RGtk2/gobject.h
+b14f609e9e7622f5286dd18ad5228522 *src/RGtk2/gobject.h
 f99668cdf6beefc3aba174bd8d04bd82 *src/RGtk2/gobjectImports.c
 f05f24df2c84db075ef6b18cc39474f8 *src/RGtk2/gtk.h
 4661a79e85cbaa159f9dd179e1862e0a *src/RGtk2/gtkClassImports.c
