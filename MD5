@@ -1,4 +1,4 @@
-94ad61024a68cd50902da25bbf1154cd *DESCRIPTION
+d1fd64a0501c05b277ee1aa7bc142f22 *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 15a0095ecd8d36a76e39db6ca413eeac *INSTALL.html
 400e4f47fd4795b9ae8fd217b9c38628 *NAMESPACE
@@ -98,7 +98,7 @@ b441085bbc1fe62461f3c90fbaba4d2b *demo/sizeGroups.R
 55d040be84c0d427c05e64cd2e7c81a3 *demo/treeStore.R
 75ee920816be3e5dd1a5407a360ef391 *inst/CITATION
 714726a7730dfd83cca6974f1d04ffc7 *inst/doc/overview2.lyx
-2128cd803974818554880665af4b726f *inst/doc/overview2.pdf
+2b8aac1a23b276d9b1b2f8e113500912 *inst/doc/overview2.pdf
 fec8757579ffd40bcf031e1e68919cde *inst/doc/tutorial.sgml
 0ae04d2d38e5d6b975ca475423efa088 *inst/examples/GAppInfo.R
 c2c11bdd6b672784a392a53639881b93 *inst/examples/GAsyncResult.R
@@ -5884,7 +5884,7 @@ e812b442bd3acebdaa68a9c4cff30797 *man/typeMacros.Rd
 b4e8bc2b046f50aac82270a7b6439191 *man/utils.Rd
 8e8ab81c44a2b3e832319cee1aee5813 *man/virtuals.Rd
 6bfd5f52910775681ce8f3b83b38f678 *man/windowSize.Rd
-a02a3d8b06ff72851907f62777b36eec *src/Makevars
+03104516e2fbd3866878e725b11f3b11 *src/Makevars
 cb3ec7dce96f21601f3d5ae3418e249d *src/Makevars.in
 84623062f0338203d55ceef13b9bde37 *src/Makevars.win
 09beb4bc8d6aed950a01c21e49c5d88a *src/RGtk2/RSCommon.h
@@ -5911,7 +5911,7 @@ d938effd52452fd040c1743967bdd23b *src/RGtk2/gioClasses.h
 0d9c345ec36198c3eaf7b8cb680be6f8 *src/RGtk2/gioImports.c
 944e15380081dbde3b8811eb173498c8 *src/RGtk2/gioUserFuncImports.c
 504353d55557763c3f2ad30774c84a61 *src/RGtk2/gioUserFuncs.h
-b14f609e9e7622f5286dd18ad5228522 *src/RGtk2/gobject.h
+2c7277a28730d438ade8283b5eddbe94 *src/RGtk2/gobject.h
 f99668cdf6beefc3aba174bd8d04bd82 *src/RGtk2/gobjectImports.c
 f05f24df2c84db075ef6b18cc39474f8 *src/RGtk2/gtk.h
 4661a79e85cbaa159f9dd179e1862e0a *src/RGtk2/gtkClassImports.c
@@ -5981,7 +5981,7 @@ adaa01ef9d7cba0d35b2d92ad9b4c699 *src/gioAccessors.c
 765804c15451e7275c9a2d63f016e1c2 *src/gioManuals.c
 76acc456467ce17ee1612833bae366dc *src/gioUserFuncs.c
 43a78b94313b4820219b81ee38850355 *src/glib.c
-5272490cc9a619a5aac5ef25faf8166e *src/gobject.c
+98c483940ebefd290b612cf77c0796ca *src/gobject.c
 fc359d759a8a501959a9b185bad69051 *src/gtkAccessors.c
 3546e8a998ae9c61de21f5309d38d1f8 *src/gtkClasses.c
 e25037c1c8f3ba7dbca2db2f9d5fd7b7 *src/gtkConversion.c

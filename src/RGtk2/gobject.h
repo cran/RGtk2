@@ -4,7 +4,6 @@
 #define RGTK2_GOBJECT_H
 
 #include "RSCommon.h"
-#include <R_ext/PrtUtil.h>
 #include <glib.h>
 #include <glib-object.h>
 
