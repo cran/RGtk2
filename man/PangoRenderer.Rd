@@ -1,7 +1,6 @@
-\alias{pango-pango-renderer}
 \alias{PangoRenderer}
 \alias{PangoRenderPart}
-\name{pango-pango-renderer}
+\name{PangoRenderer}
 \title{PangoRenderer}
 \description{Rendering driver base class}
 \section{Methods and Functions}{
@@ -24,13 +23,9 @@
 \code{\link{pangoRendererGetLayoutLine}(renderer)}\cr
 
 }
-\section{Hierarchy}{\preformatted{
-GObject
+\section{Hierarchy}{\preformatted{GObject
    +----PangoRenderer
-         +----PangoXftRenderer
-GEnum
-   +----PangoRenderPart
-}}
+         +----PangoXftRenderer}}
 \section{Detailed Description}{\code{\link{PangoRenderer}} is a base class that contains the necessary logic for
 rendering a \code{\link{PangoLayout}} or \code{\link{PangoLayoutLine}}. By subclassing
 \code{\link{PangoRenderer}} and overriding operations such as \code{draw.glyphs} and
@@ -39,26 +34,26 @@ destinations can be created.}
 \section{Structures}{\describe{\item{\verb{PangoRenderer}}{
 \code{\link{PangoRenderer}} is a base class for objects that are used to
 render Pango objects such as \code{\link{PangoGlyphString}} and
-\code{\link{PangoLayout}}.
+\code{\link{PangoLayout}}.  
   Since 1.8
 
-\describe{\item{\code{matrix}}{the current transformation matrix for the Renderer; may
-be \code{NULL}, which should be treated the same as the identity matrix.}}
+\describe{\item{\code{matrix}}{[\code{\link{PangoMatrix}}]  the current transformation matrix for the Renderer; may
+   be \code{NULL}, which should be treated the same as the identity matrix.}}
 
 }}}
 \section{Enums and Flags}{\describe{\item{\verb{PangoRenderPart}}{
 \code{\link{PangoRenderPart}} defines different items to render for such
-purposes as setting colors.
+purposes as setting colors.  
   Since 1.8
 
 \describe{
-\item{\verb{foreground}}{the text itself}
-\item{\verb{background}}{the area behind the text}
-\item{\verb{underline}}{underlines}
-\item{\verb{strikethrough}}{strikethrough lines}
+\item{\verb{foreground}}{ the text itself}
+\item{\verb{background}}{ the area behind the text}
+\item{\verb{underline}}{ underlines}
+\item{\verb{strikethrough}}{ strikethrough lines}
 }
 
 }}}
-\references{\url{http://library.gnome.org/devel//pango/pango-pango-renderer.html}}
+\references{\url{http://library.gnome.org/devel//pango/PangoRenderer.html}}
 \author{Derived by RGtkGen from GTK+ documentation}
 \keyword{internal}
