@@ -1,4 +1,4 @@
-8836983b087f9e2c4f0a2206b8169d2e *DESCRIPTION
+477c0069bd2e89755d8d89cd1708c889 *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 400e4f47fd4795b9ae8fd217b9c38628 *NAMESPACE
 2dc37bfa2f39a78bd08a4ba8549e28ab *R/RGtk.R
@@ -59,7 +59,7 @@ e73e1b6da931e8740cc00bd268aa85f8 *R/zzz.R
 b10167ee5f1852ca8e5231356b3b737e *README
 5b41a31b13ddd6bcf77c547569f90880 *cleanup
 d7f4262aabd84b9e7b0c9e80ef0fb979 *configure
-c6a71c1d4d3a863cf45417f4fff30fd9 *configure.in
+aaa692d48a2ace3567bb8eecb80d191c *configure.in
 68b329da9893e34099c7d8ad5cb9c940 *configure.win
 21fa21d4f0c2035b79426ea25eddd527 *demo/00Index
 ec9d1daf1caa1cd1125f1df06ef069b0 *demo/alphaSlider.R
@@ -97,7 +97,7 @@ b441085bbc1fe62461f3c90fbaba4d2b *demo/sizeGroups.R
 55d040be84c0d427c05e64cd2e7c81a3 *demo/treeStore.R
 75ee920816be3e5dd1a5407a360ef391 *inst/CITATION
 714726a7730dfd83cca6974f1d04ffc7 *inst/doc/overview2.lyx
-b48dc8dc87dfb2334f8a3d9ebcd572f5 *inst/doc/overview2.pdf
+0b0350fe62f54c2ecd47dbc1391c6e8c *inst/doc/overview2.pdf
 fec8757579ffd40bcf031e1e68919cde *inst/doc/tutorial.sgml
 0ae04d2d38e5d6b975ca475423efa088 *inst/examples/GAppInfo.R
 c2c11bdd6b672784a392a53639881b93 *inst/examples/GAsyncResult.R
@@ -5982,7 +5982,7 @@ adaa01ef9d7cba0d35b2d92ad9b4c699 *src/gioAccessors.c
 084c971a7a0fe880982dcd73b2335694 *src/gioConversion.c
 3ff43ac825dedd8bebf0728f66b60fdd *src/gioFuncs.c
 202620820d981b166ce1859a64bee47b *src/gioFuncs.h
-765804c15451e7275c9a2d63f016e1c2 *src/gioManuals.c
+a5a0342c49b4af1b6c2fd33c7b5e2430 *src/gioManuals.c
 76acc456467ce17ee1612833bae366dc *src/gioUserFuncs.c
 43a78b94313b4820219b81ee38850355 *src/glib.c
 70e7417c9344d73aa0aa903832c6d995 *src/gobject.c
@@ -6000,5 +6000,5 @@ c85aede9e67d863608c9788c677fc8fd *src/pangoFuncs.c
 07efca43b90372e74f22d112b6069386 *src/pangoFuncs.h
 545bcff3099468ee62f66583bb8cf436 *src/pangoManuals.c
 3b62f34c7428700bd2b837c6ab2e7b0d *src/pangoUserFuncs.c
-e7858ca80b604e9df02187ded128765b *src/utils.c
+dd7e33488445aaa89a2446c145d1a7d7 *src/utils.c
 243186e89f77aa6a251a083d9384eb3a *src/zcompat.c

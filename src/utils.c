@@ -197,7 +197,7 @@ getNumericType(USER_OBJECT_ s)
   /* Get the numeric type code for an R object */
   /*return asRNumeric(TYPEOF(s));*/
   /* Instead, get the numeric type for an R type name */
-  asRNumeric(str2type(asCString(s)));
+  return asRNumeric(str2type(asCString(s)));
 }
 
 /* Provide bindtextdomain() for the libintl linked to RGtk2.
