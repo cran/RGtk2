@@ -1,4 +1,4 @@
-477c0069bd2e89755d8d89cd1708c889 *DESCRIPTION
+814a82bdbdcfe587722cac008d7e658b *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 400e4f47fd4795b9ae8fd217b9c38628 *NAMESPACE
 2dc37bfa2f39a78bd08a4ba8549e28ab *R/RGtk.R
@@ -14,7 +14,7 @@ d0f440c038c8859822f23bec81b9b560 *R/atkzConstructors.R
 66d7cd8d328d53fceb94f2d0586aa6d0 *R/cairoAccessors.R
 c7ea9e39a4a74512a0b6d66229425e3f *R/cairoCoerce.R
 5fef8966c2160ea21138f131e534995c *R/cairoEnumDefs.R
-8f028272e8fec85b1e565cb570d0baa5 *R/cairoFuncs.R
+b82c3e55d61dcb1107552e2ba35698de *R/cairoFuncs.R
 368c2d820d2bdcf6bbe571389d9789f4 *R/cairoManuals.R
 d41d8cd98f00b204e9800998ecf8427e *R/cairoVirtuals.R
 152066a9e13aee028c2fb8c9a100cb66 *R/cairozConstructors.R
@@ -31,12 +31,12 @@ b572f72552b7c1cbee06c1aff2700398 *R/gdkManuals.R
 e0139239532e377868ea76505fa60fec *R/gdkzConstructors.R
 8a0d047c48495b1ccb8feaf24f60b60d *R/gioAccessors.R
 29f30227567d4784ff86d4a68fe6cfc3 *R/gioEnumDefs.R
-9c5ba7007c9f2051b00bd607dc8a599b *R/gioFuncs.R
+c645b8efda6dfacbf47ae0396ec3e019 *R/gioFuncs.R
 c7bfc6562fa5a675659aa049cf7a161d *R/gioManuals.R
 b15a9f7857b89d4421646e55318fd6db *R/gioVirtuals.R
 992a7f8a756f6153b6dbbc3f29d39236 *R/giozConstructors.R
-ad7a6940b2af3895bab00b989a377622 *R/glib.R
-46332058efe52062ade3569b8c6799e0 *R/gobject.R
+2bd5fbbcc94164ad5088dd21b0ea6a7b *R/glib.R
+135fab1a29d3280d6abadc109743f4fc *R/gobject.R
 03be464737306269740b1ea26ac433a6 *R/gtkAccessors.R
 27b8b5df000aecbec44374d63f93ee16 *R/gtkCoerce.R
 3bb931d3bcb9482a973d0afafd96ea98 *R/gtkEnumDefs.R
@@ -53,7 +53,7 @@ d61fb9a0410388aef5b9c4b27177e52a *R/pangoManuals.R
 8014398df188dad01765feef819afd37 *R/pangoVirtuals.R
 a0fad6a0894926adfda4044de3332ef0 *R/pangozConstructors.R
 279ba37f2f7814d0ee3709ccb9615cbf *R/stock.R
-43e659be6a4eadc8b4936c2f4f009f2f *R/utils.R
+dd1c6e6a3702c0e3624072899df84cf2 *R/utils.R
 f07b5c95a6d858bb80954f521d72cf0e *R/zcompat.R
 e73e1b6da931e8740cc00bd268aa85f8 *R/zzz.R
 b10167ee5f1852ca8e5231356b3b737e *README
@@ -97,7 +97,7 @@ b441085bbc1fe62461f3c90fbaba4d2b *demo/sizeGroups.R
 55d040be84c0d427c05e64cd2e7c81a3 *demo/treeStore.R
 75ee920816be3e5dd1a5407a360ef391 *inst/CITATION
 714726a7730dfd83cca6974f1d04ffc7 *inst/doc/overview2.lyx
-0b0350fe62f54c2ecd47dbc1391c6e8c *inst/doc/overview2.pdf
+7c8c05bdd0c3de7ad24481d4a9e7708d *inst/doc/overview2.pdf
 fec8757579ffd40bcf031e1e68919cde *inst/doc/tutorial.sgml
 0ae04d2d38e5d6b975ca475423efa088 *inst/examples/GAppInfo.R
 c2c11bdd6b672784a392a53639881b93 *inst/examples/GAsyncResult.R
@@ -236,7 +236,7 @@ e8d5b1b1f3c624932c2876d57084907c *inst/images/gnome-gsame.png
 2aab4522e368372ae5169005648a2365 *inst/images/gtk-logo-rgb.gif
 334a4bf0b5e0876c20c6a14e9bef7957 *inst/images/rgtk-logo.gif
 09beb4bc8d6aed950a01c21e49c5d88a *inst/include/RGtk2/RSCommon.h
-7ea66885dc63fb876353508be053d297 *inst/include/RGtk2/atk.h
+5ed3fabb308d222515889c2fbb6bf711 *inst/include/RGtk2/atk.h
 6a4fda25a1814406acfb43490bcb0f51 *inst/include/RGtk2/atkClassImports.c
 aa44d9fec9b123a795fb1e3931ee8567 *inst/include/RGtk2/atkClasses.h
 70ea91fc12c917ef102d38bfd60f7e07 *inst/include/RGtk2/atkImports.c
@@ -987,7 +987,7 @@ eeec1b0aec9faa9fcbd9ef6990bd2c62 *man/cairoSurfaceShowPage.Rd
 58ab501c53d9b6bee791accc5f11303f *man/cairoSurfaceStatus.Rd
 0b5e87ae3c28860fdf9e052e03057b31 *man/cairoSurfaceWriteToPng.Rd
 b922b625c8f45d2a4261ed21ef4926d2 *man/cairoSurfaceWriteToPngStream.Rd
-48c59472edb4650562a1ca6aef728d49 *man/cairoSvgGetVersions.Rd
+d1cabbe59f0f3856ea3f5b7947ebb5f1 *man/cairoSvgGetVersions.Rd
 5054a87b85a873a1aef9ad9a2abbe89e *man/cairoSvgSurfaceCreate.Rd
 aab32c35e5d6d0de10565f06919d0a41 *man/cairoSvgSurfaceCreateForStream.Rd
 b2ffc5337f17d69671bede9311206c63 *man/cairoSvgSurfaceRestrictToVersion.Rd
@@ -1229,7 +1229,7 @@ dec53b1b13e22489a4c81683ef859a22 *man/gFileInfoDup.Rd
 2438b20a4075a3cac3675e2dd4bed56b *man/gFileInfoGetAttributeAsString.Rd
 bf9635a18aeb21b4eb0186eaddd69609 *man/gFileInfoGetAttributeBoolean.Rd
 f4ba0986558b1296ec1b97da7de81521 *man/gFileInfoGetAttributeByteString.Rd
-dc25940f989b422d0f3d1648a92c1370 *man/gFileInfoGetAttributeData.Rd
+0a8afb40924d6b47eb51549fbbb7571a *man/gFileInfoGetAttributeData.Rd
 1acd49d217d2d046e108a4d5fb12f3bc *man/gFileInfoGetAttributeInt32.Rd
 148a84b222f71f1fb99e06e3fbfa0a79 *man/gFileInfoGetAttributeInt64.Rd
 b92fc520ce91cc9265c9e8262f64ee4f *man/gFileInfoGetAttributeObject.Rd
@@ -5892,7 +5892,7 @@ b4e8bc2b046f50aac82270a7b6439191 *man/utils.Rd
 cb3ec7dce96f21601f3d5ae3418e249d *src/Makevars.in
 84623062f0338203d55ceef13b9bde37 *src/Makevars.win
 09beb4bc8d6aed950a01c21e49c5d88a *src/RGtk2/RSCommon.h
-7ea66885dc63fb876353508be053d297 *src/RGtk2/atk.h
+5ed3fabb308d222515889c2fbb6bf711 *src/RGtk2/atk.h
 6a4fda25a1814406acfb43490bcb0f51 *src/RGtk2/atkClassImports.c
 aa44d9fec9b123a795fb1e3931ee8567 *src/RGtk2/atkClasses.h
 70ea91fc12c917ef102d38bfd60f7e07 *src/RGtk2/atkImports.c
@@ -5929,11 +5929,11 @@ e6a4bed0811b462e8d001c6d1091ce2e *src/RGtk2/pangoClasses.h
 aeb8e21f1c975e9b172b4c7998cb8a37 *src/RGtk2/pangoImports.c
 868c5aa86cc8b4d9ace56c2b1a935c07 *src/RGtk2/pangoUserFuncImports.c
 c433677ffe98b358908e2decf4217a5a *src/RGtk2/pangoUserFuncs.h
-c3f9b9ddf9d526cf8728cf22a0e71b66 *src/RGtkDataFrame.c
+504e857bfd21b09aba9fe1c4f49c159a *src/RGtkDataFrame.c
 59beca14c7de7fd476896b57e5e273c2 *src/RGtkDataFrame.h
 09beb4bc8d6aed950a01c21e49c5d88a *src/RSCommon.h
 5f9805bd0bf2130719b0fb278ba5ca33 *src/Reventloop.h
-00e6640a8188928f96fa04c48e107db9 *src/Rgtk.c
+ffe6e60879ec3783dbce551176d2cfca *src/Rgtk.c
 9a704c24dd510c995d37aa986d01d107 *src/atkAccessors.c
 3bfa0f1d25fa22a6cf5a9005f54a9337 *src/atkClasses.c
 714101b55106b03a7ad88a37909d3a00 *src/atkConversion.c
@@ -5945,8 +5945,8 @@ d945216a24e757dfd8d3d8e3fe3d42e3 *src/atkUserFuncs.c
 f083c93871b0f55bc55f112be1831450 *src/cairo-enums.h
 c6aea93cced359e44531e7202e634654 *src/cairoAccessors.c
 b76d0fabd799450dfac881ad4104c4b5 *src/cairoConversion.c
-115481fa8f7607871a049c476feea724 *src/cairoFuncs.c
-9168e69302d0c830f14906f9301f9a5b *src/cairoFuncs.h
+6cfd4a5cc28e5b75a6ef9a416291766a *src/cairoFuncs.c
+29cb1b52fdb97c8d172e5793eabdbaf1 *src/cairoFuncs.h
 63b777c8d84c716b6e03ac778b43424c *src/cairoManuals.c
 32249f38e9ee009aa917e4aa192175e1 *src/cairoUserFuncs.c
 509ce80eaeba422b5e5332e8276d6759 *src/classes.c
@@ -5980,11 +5980,11 @@ c7a211c7dbb48aaab1d6fb169889e5ca *src/gdkUserFuncs.c
 adaa01ef9d7cba0d35b2d92ad9b4c699 *src/gioAccessors.c
 33e01f2a9c3d75a95d25df0de7e4ca0b *src/gioClasses.c
 084c971a7a0fe880982dcd73b2335694 *src/gioConversion.c
-3ff43ac825dedd8bebf0728f66b60fdd *src/gioFuncs.c
-202620820d981b166ce1859a64bee47b *src/gioFuncs.h
+9a159056a5a3b33cc002bc06f410dc36 *src/gioFuncs.c
+0b116ce2240a91c51b146a608fdb246d *src/gioFuncs.h
 a5a0342c49b4af1b6c2fd33c7b5e2430 *src/gioManuals.c
 76acc456467ce17ee1612833bae366dc *src/gioUserFuncs.c
-43a78b94313b4820219b81ee38850355 *src/glib.c
+5ba02bcd19e43c2a70cb118499252924 *src/glib.c
 70e7417c9344d73aa0aa903832c6d995 *src/gobject.c
 fc359d759a8a501959a9b185bad69051 *src/gtkAccessors.c
 3546e8a998ae9c61de21f5309d38d1f8 *src/gtkClasses.c
@@ -6000,5 +6000,5 @@ c85aede9e67d863608c9788c677fc8fd *src/pangoFuncs.c
 07efca43b90372e74f22d112b6069386 *src/pangoFuncs.h
 545bcff3099468ee62f66583bb8cf436 *src/pangoManuals.c
 3b62f34c7428700bd2b837c6ab2e7b0d *src/pangoUserFuncs.c
-dd7e33488445aaa89a2446c145d1a7d7 *src/utils.c
+a561ac043cde365a1aefeb55e73b93d1 *src/utils.c
 243186e89f77aa6a251a083d9384eb3a *src/zcompat.c

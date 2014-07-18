@@ -185,12 +185,6 @@ void R_freeCBData(R_CallbackData *cbdata) {
     g_free(cbdata);
 }
 
-/* Convert an externalptr to a numeric type (for comparisons) */
-USER_OBJECT_
-convertPtrToNumeric(USER_OBJECT_ extptr) {
-	return(asRNumeric((double) (long) getPtrValue(extptr)));
-}
-
 USER_OBJECT_
 getNumericType(USER_OBJECT_ s)
 {

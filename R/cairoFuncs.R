@@ -2096,7 +2096,7 @@ function(filename, width.in.points, height.in.points)
 
 
 cairoPdfSurfaceCreateForStream <-
-function(write.func, closure, width.in.points, height.in.points)
+function(write.func, closure = NULL, width.in.points, height.in.points)
 {
   write.func <- as.function(write.func)
   
@@ -2136,7 +2136,7 @@ function(filename, width.in.points, height.in.points)
 
 
 cairoPsSurfaceCreateForStream <-
-function(write.func, closure, width.in.points, height.in.points)
+function(write.func, closure = NULL, width.in.points, height.in.points)
 {
   write.func <- as.function(write.func)
   
@@ -2210,7 +2210,7 @@ function(filename, width.in.points, height.in.points)
 
 
 cairoSvgSurfaceCreateForStream <-
-function(write.func, closure, width.in.points, height.in.points)
+function(write.func, closure = NULL, width.in.points, height.in.points)
 {
   write.func <- as.function(write.func)
   
@@ -2236,14 +2236,13 @@ function(surface, version)
 
 
 cairoSvgGetVersions <-
-function(versions, num.versions)
+function()
 {
   
-  num.versions <- as.list(as.integer(num.versions))
 
-  w <- .RGtkCall("S_cairo_svg_get_versions", versions, num.versions, PACKAGE = "RGtk2")
+  w <- .RGtkCall("S_cairo_svg_get_versions", PACKAGE = "RGtk2")
 
-  return(w)
+  return(invisible(w))
 } 
 
 

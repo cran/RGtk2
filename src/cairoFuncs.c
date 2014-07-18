@@ -1101,6 +1101,7 @@ S_cairo_glyph_extents(USER_OBJECT_ s_cr, USER_OBJECT_ s_glyphs)
 
 
   _result = retByVal(_result, "extents", toRPointerWithFinalizer(extents, "CairoTextExtents", (RPointerFinalizer) g_free), NULL);
+    CLEANUP(cairo_glyph_free, ((cairo_glyph_t*)glyphs));;
   ;
 
   return(_result);
@@ -1133,6 +1134,7 @@ S_cairo_glyph_path(USER_OBJECT_ s_cr, USER_OBJECT_ s_glyphs)
 
   cairo_glyph_path(cr, glyphs, num_glyphs);
 
+    CLEANUP(cairo_glyph_free, ((cairo_glyph_t*)glyphs));;
 
   return(_result);
 }
@@ -3113,7 +3115,7 @@ S_cairo_pdf_surface_create(USER_OBJECT_ s_filename, USER_OBJECT_ s_width_in_poin
 
   ans = cairo_pdf_surface_create(filename, width_in_points, height_in_points);
 
-  _result = toRPointerWithCairoRef(ans, "CairoSurface", cairo_surface);
+  _result = toRPointerWithFinalizer(ans, "CairoSurface", (RPointerFinalizer) cairo_surface_destroy);
 #else
   error("cairo_pdf_surface_create exists only in cairo >= 1.2.0");
 #endif
@@ -3136,7 +3138,7 @@ S_cairo_pdf_surface_create_for_stream(USER_OBJECT_ s_write_func, USER_OBJECT_ s_
 
   ans = cairo_pdf_surface_create_for_stream(write_func, closure, width_in_points, height_in_points);
 
-  _result = toRPointerWithCairoRef(ans, "CairoSurface", cairo_surface);
+  _result = toRPointerWithFinalizer(ans, "CairoSurface", (RPointerFinalizer) cairo_surface_destroy);
   R_freeCBData(closure);
 #else
   error("cairo_pdf_surface_create_for_stream exists only in cairo >= 1.2.0");
@@ -3179,7 +3181,7 @@ S_cairo_ps_surface_create(USER_OBJECT_ s_filename, USER_OBJECT_ s_width_in_point
 
   ans = cairo_ps_surface_create(filename, width_in_points, height_in_points);
 
-  _result = toRPointerWithCairoRef(ans, "CairoSurface", cairo_surface);
+  _result = toRPointerWithFinalizer(ans, "CairoSurface", (RPointerFinalizer) cairo_surface_destroy);
 #else
   error("cairo_ps_surface_create exists only in cairo >= 1.2.0");
 #endif
@@ -3202,7 +3204,7 @@ S_cairo_ps_surface_create_for_stream(USER_OBJECT_ s_write_func, USER_OBJECT_ s_c
 
   ans = cairo_ps_surface_create_for_stream(write_func, closure, width_in_points, height_in_points);
 
-  _result = toRPointerWithCairoRef(ans, "CairoSurface", cairo_surface);
+  _result = toRPointerWithFinalizer(ans, "CairoSurface", (RPointerFinalizer) cairo_surface_destroy);
   R_freeCBData(closure);
 #else
   error("cairo_ps_surface_create_for_stream exists only in cairo >= 1.2.0");
@@ -3300,7 +3302,7 @@ S_cairo_svg_surface_create(USER_OBJECT_ s_filename, USER_OBJECT_ s_width_in_poin
 
   ans = cairo_svg_surface_create(filename, width_in_points, height_in_points);
 
-  _result = toRPointerWithCairoRef(ans, "CairoSurface", cairo_surface);
+  _result = toRPointerWithFinalizer(ans, "CairoSurface", (RPointerFinalizer) cairo_surface_destroy);
 #else
   error("cairo_svg_surface_create exists only in cairo >= 1.2.0");
 #endif
@@ -3323,7 +3325,7 @@ S_cairo_svg_surface_create_for_stream(USER_OBJECT_ s_write_func, USER_OBJECT_ s_
 
   ans = cairo_svg_surface_create_for_stream(write_func, closure, width_in_points, height_in_points);
 
-  _result = toRPointerWithCairoRef(ans, "CairoSurface", cairo_surface);
+  _result = toRPointerWithFinalizer(ans, "CairoSurface", (RPointerFinalizer) cairo_surface_destroy);
   R_freeCBData(closure);
 #else
   error("cairo_svg_surface_create_for_stream exists only in cairo >= 1.2.0");
@@ -3353,16 +3355,20 @@ S_cairo_svg_surface_restrict_to_version(USER_OBJECT_ s_surface, USER_OBJECT_ s_v
  
 
 USER_OBJECT_
-S_cairo_svg_get_versions(USER_OBJECT_ s_versions, USER_OBJECT_ s_num_versions)
+S_cairo_svg_get_versions(void)
 {
   USER_OBJECT_ _result = NULL_USER_OBJECT;
 #if CAIRO_CHECK_VERSION(1, 2, 0)
-  cairo_svg_version_t const** versions = ((cairo_svg_version_t const**)asCEnum(s_versions, CAIRO_TYPE_SVG_VERSION));
-  int* num_versions = ((int*)asCArray(s_num_versions, int, asCInteger));
+
+  cairo_svg_version_t const* versions = NULL;
+  int num_versions;
+
+  cairo_svg_get_versions(&versions, &num_versions);
 
 
-  cairo_svg_get_versions(versions, num_versions);
-
+  _result = retByVal(_result, "versions", asREnumArrayWithSize(versions, CAIRO_TYPE_SVG_VERSION, num_versions), "num.versions", asRInteger(num_versions), NULL);
+    CLEANUP(g_free, versions);;
+  ;
 #else
   error("cairo_svg_get_versions exists only in cairo >= 1.2.0");
 #endif
@@ -4136,6 +4142,8 @@ S_cairo_show_text_glyphs(USER_OBJECT_ s_cr, USER_OBJECT_ s_utf8, USER_OBJECT_ s_
 
   cairo_show_text_glyphs(cr, utf8, utf8_len, glyphs, num_glyphs, clusters, num_clusters, cluster_flags);
 
+    CLEANUP(cairo_glyph_free, ((cairo_glyph_t*)glyphs));;
+    CLEANUP(cairo_text_cluster_free, ((cairo_text_cluster_t*)clusters));;
 #else
   error("cairo_show_text_glyphs exists only in cairo >= 1.8.0");
 #endif
