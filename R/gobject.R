@@ -511,7 +511,7 @@ function(obj, name, where)
 
 "==.RGtkObject" <-
 function(x, y) {
-  identical(unclass(x), unclass(y))
+  identical(x, y)
 }
 
 # Fields
