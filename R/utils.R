@@ -42,6 +42,10 @@ function(obj, fun)
 
 handleError <- function(x, .errwarn) {
   if (isTRUE(getOption("RGtk2::newErrorHandling"))) {
+    if (!.errwarn) {
+        warning("passing '.errwarn' is deprecated; set option ",
+                "'RGtk2::newErrorHandling' to FALSE to keep it working")
+    }  
     if (!is.null(x$error)) { # have an error, throw it
       x$error$call <- sys.call(-1)
       stop(x$error)
@@ -174,6 +178,16 @@ print.flags <- function(x, ...) {
   print(unclass(x))
 }
 
+`[.enums` <- function(x, name) {
+    if (!is.character(name)) {
+        stop("Enum values must be strings")
+    }
+    if (!all(name %in% names(x))) {
+        stop("invalid enum value(s): ", paste(name, collapse=", "),
+             " (valid: ", paste(names(x), collapse=", "), ")")
+    }
+    NextMethod()
+}
 
 # file shortcuts
 imagefile <- function(name)
@@ -204,4 +218,9 @@ function(name)
 rgtk2_bindtextdomain <- function(domain, dirname = NULL) {
   base::bindtextdomain(domain, dirname)
   .External("RGtk2_bindtextdomain", domain, dirname, PACKAGE = "RGtk2")
+}
+
+.isTRUEorFALSE <- function(x)
+{
+    is.logical(x) && length(x) == 1L && !is.na(x)
 }

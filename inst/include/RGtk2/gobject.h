@@ -362,8 +362,10 @@ USER_OBJECT_ toRPointerWithFinalizer(gconstpointer val, const gchar *typeName,
   RPointerFinalizer finalizer);
 #define toRPointer(val, name) toRPointerWithFinalizer(val, name, NULL)
 USER_OBJECT_ toRPointerWithRef(gconstpointer val, const gchar *type);
+USER_OBJECT_ toRPointerFn(DL_FUNC val, const gchar *typeName);
 
 #define getPtrValue(sval) (sval == NULL_USER_OBJECT ? NULL : R_ExternalPtrAddr(sval))
+#define getPtrValueFn(sval) (sval == NULL_USER_OBJECT ? NULL : R_ExternalPtrAddrFn(sval))
 gpointer getPtrValueWithRef(USER_OBJECT_ sval);
 
 
@@ -465,8 +467,9 @@ __extension__ \
 #define S_G_OBJECT_ADD_ENV(s_object, user_object) \
 __extension__ \
 ({ \
-    USER_OBJECT_ user_obj = user_object; \
+    USER_OBJECT_ user_obj = PROTECT(user_object);			\
     setAttrib(user_obj, install(".private"), S_G_OBJECT_GET_INSTANCE_ENV(s_object)); \
+    UNPROTECT(1); \
     user_obj; \
 })
 

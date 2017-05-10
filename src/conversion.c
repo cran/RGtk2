@@ -124,9 +124,20 @@ void RGtk_finalizer(USER_OBJECT_ extptr) {
     void *ptr = getPtrValue(extptr);
     /*Rprintf("finalizing a %s\n", asCString(GET_CLASS(extptr)));*/
     if (ptr) {
-        ((RPointerFinalizer)getPtrValue(R_ExternalPtrTag(extptr)))(ptr);
+        ((RPointerFinalizer)getPtrValueFn(R_ExternalPtrTag(extptr)))(ptr);
         R_ClearExternalPtr(extptr);
     }
+}
+
+USER_OBJECT_
+toRPointerFn(DL_FUNC val, const gchar *typeName) {
+    USER_OBJECT_ ans;
+    if(!val)
+	return(NULL_USER_OBJECT);
+    PROTECT(ans = R_MakeExternalPtrFn(val, NULL_USER_OBJECT, NULL_USER_OBJECT));
+    SET_CLASS(ans, asRString(typeName));
+    UNPROTECT(1);
+    return ans;
 }
 
 USER_OBJECT_
@@ -142,7 +153,7 @@ toRPointerWithFinalizer(gconstpointer val, const gchar *typeName, RPointerFinali
        return(NULL_USER_OBJECT);
 
     if (finalizer) {
-        PROTECT(r_finalizer = R_MakeExternalPtr(finalizer, NULL_USER_OBJECT, NULL_USER_OBJECT));
+        PROTECT(r_finalizer = R_MakeExternalPtrFn((DL_FUNC)finalizer, NULL_USER_OBJECT, NULL_USER_OBJECT));
     }
     PROTECT(ans = R_MakeExternalPtr((gpointer)val, r_finalizer, NULL_USER_OBJECT));
     if (finalizer) {
@@ -154,7 +165,9 @@ toRPointerWithFinalizer(gconstpointer val, const gchar *typeName, RPointerFinali
         if (G_TYPE_IS_INSTANTIATABLE(type) || G_TYPE_IS_INTERFACE(type))
             type = G_TYPE_FROM_INSTANCE(val);
         if (G_TYPE_IS_DERIVED(type)) {
-            setAttrib(ans, install("interfaces"), R_internal_getInterfaces(type));
+            setAttrib(ans, install("interfaces"),
+		      PROTECT(R_internal_getInterfaces(type)));
+	    UNPROTECT(1);
             PROTECT(klass = R_internal_getGTypeAncestors(type));
         }
     }
@@ -223,23 +236,26 @@ asCEnum(USER_OBJECT_ s_enum, GType etype)
     gint eval = 0;
 
     if (IS_INTEGER(s_enum) || IS_NUMERIC(s_enum)) {
-        eval = IS_NUMERIC(s_enum) ? (gint)asCNumeric(s_enum) :
-          asCInteger(s_enum);
+        eval = asCInteger(s_enum);
         evalue = g_enum_get_value(eclass, eval);
+        if (evalue == NULL) {
+          PROBLEM "Could not map to enum value %d", asCInteger(s_enum)
+            ERROR;
+        }
     } else if (IS_CHARACTER(s_enum)) {
         const gchar* ename = asCString(s_enum);
         evalue = g_enum_get_value_by_name(eclass, ename);
-        if (!evalue)
+        if (evalue == NULL)
             evalue = g_enum_get_value_by_nick(eclass, ename);
-        if (!evalue)
+        if (evalue == NULL)
             evalue = g_enum_get_value(eclass, atoi(ename));
+        if (evalue == NULL) {
+          PROBLEM "Could not parse enum value %s", asCString(s_enum)
+            ERROR;
+        }
     }
 
-    if (!evalue) {
-        PROBLEM "Could not parse enum value %s", asCString(s_enum)
-        ERROR;
-    } else eval = evalue->value;
-
+    eval = evalue->value;
     return(eval);
 }
 
