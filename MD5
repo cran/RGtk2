@@ -1,6 +1,6 @@
-b73043204ddf78a710255ba54d35eeaa *DESCRIPTION
+40f0a38a8b1226c4888e69a0d6b8e367 *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
-5de416b9bed497449f72b416148e168d *NAMESPACE
+61bd8bcbc6533205f8c3b3b6dd5d95bd *NAMESPACE
 2dc37bfa2f39a78bd08a4ba8549e28ab *R/RGtk.R
 20945497d0feb99d6a723f21ba9f8e48 *R/RGtkDataFrame.R
 dd8b2c99d754651af1bcb1b2d7eabee1 *R/aaa.R
@@ -37,7 +37,7 @@ c7bfc6562fa5a675659aa049cf7a161d *R/gioManuals.R
 b15a9f7857b89d4421646e55318fd6db *R/gioVirtuals.R
 992a7f8a756f6153b6dbbc3f29d39236 *R/giozConstructors.R
 2bd5fbbcc94164ad5088dd21b0ea6a7b *R/glib.R
-135fab1a29d3280d6abadc109743f4fc *R/gobject.R
+512e9e652910ffef25bc30f8106691a6 *R/gobject.R
 03be464737306269740b1ea26ac433a6 *R/gtkAccessors.R
 27b8b5df000aecbec44374d63f93ee16 *R/gtkCoerce.R
 3bb931d3bcb9482a973d0afafd96ea98 *R/gtkEnumDefs.R
@@ -99,7 +99,7 @@ b441085bbc1fe62461f3c90fbaba4d2b *demo/sizeGroups.R
 55d040be84c0d427c05e64cd2e7c81a3 *demo/treeStore.R
 75ee920816be3e5dd1a5407a360ef391 *inst/CITATION
 714726a7730dfd83cca6974f1d04ffc7 *inst/doc/overview2.lyx
-4d7d7b1fae41e7fcaab1875dff0afa0c *inst/doc/overview2.pdf
+395a1fa4e27edd9e35b8df99ab647fb8 *inst/doc/overview2.pdf
 fec8757579ffd40bcf031e1e68919cde *inst/doc/tutorial.sgml
 0ae04d2d38e5d6b975ca475423efa088 *inst/examples/GAppInfo.R
 c2c11bdd6b672784a392a53639881b93 *inst/examples/GAsyncResult.R
@@ -5989,7 +5989,7 @@ ea7d3ad70e251d661c9c4a2f9a6b7685 *src/gioClasses.c
 a5a0342c49b4af1b6c2fd33c7b5e2430 *src/gioManuals.c
 76acc456467ce17ee1612833bae366dc *src/gioUserFuncs.c
 5ba02bcd19e43c2a70cb118499252924 *src/glib.c
-f111d61f88be4eb786b827e12d6bc32d *src/gobject.c
+32f8d333daf27cdc29bcaff18a2a456a *src/gobject.c
 fc359d759a8a501959a9b185bad69051 *src/gtkAccessors.c
 e13287036dddb6b02d97587c934e41ed *src/gtkClasses.c
 e25037c1c8f3ba7dbca2db2f9d5fd7b7 *src/gtkConversion.c
