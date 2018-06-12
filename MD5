@@ -1,4 +1,4 @@
-40f0a38a8b1226c4888e69a0d6b8e367 *DESCRIPTION
+993802f0c347bad4d79a5a69302058ea *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 61bd8bcbc6533205f8c3b3b6dd5d95bd *NAMESPACE
 2dc37bfa2f39a78bd08a4ba8549e28ab *R/RGtk.R
@@ -58,7 +58,7 @@ a0fad6a0894926adfda4044de3332ef0 *R/pangozConstructors.R
 f07b5c95a6d858bb80954f521d72cf0e *R/zcompat.R
 4242664170d7449cb66f7b0cb78d0dc9 *R/zzz.R
 14e60c8d9529681b52293dad3bdbdf71 *README
-5b41a31b13ddd6bcf77c547569f90880 *cleanup
+ba3caf48933f8c648233c7cf67566f2f *cleanup
 d7f4262aabd84b9e7b0c9e80ef0fb979 *configure
 aaa692d48a2ace3567bb8eecb80d191c *configure.in
 68b329da9893e34099c7d8ad5cb9c940 *configure.win
@@ -99,7 +99,7 @@ b441085bbc1fe62461f3c90fbaba4d2b *demo/sizeGroups.R
 55d040be84c0d427c05e64cd2e7c81a3 *demo/treeStore.R
 75ee920816be3e5dd1a5407a360ef391 *inst/CITATION
 714726a7730dfd83cca6974f1d04ffc7 *inst/doc/overview2.lyx
-395a1fa4e27edd9e35b8df99ab647fb8 *inst/doc/overview2.pdf
+418bed52b9cd1b55113c64a671ad9870 *inst/doc/overview2.pdf
 fec8757579ffd40bcf031e1e68919cde *inst/doc/tutorial.sgml
 0ae04d2d38e5d6b975ca475423efa088 *inst/examples/GAppInfo.R
 c2c11bdd6b672784a392a53639881b93 *inst/examples/GAsyncResult.R
@@ -5936,7 +5936,7 @@ c433677ffe98b358908e2decf4217a5a *src/RGtk2/pangoUserFuncs.h
 59beca14c7de7fd476896b57e5e273c2 *src/RGtkDataFrame.h
 09beb4bc8d6aed950a01c21e49c5d88a *src/RSCommon.h
 5f9805bd0bf2130719b0fb278ba5ca33 *src/Reventloop.h
-57179c108361f995f31c99b28dbb83d4 *src/Rgtk.c
+924e2c4c71212ed867f9830e153be5d4 *src/Rgtk.c
 9a704c24dd510c995d37aa986d01d107 *src/atkAccessors.c
 0eced8d6fc085d9f2efac55ca94c1b17 *src/atkClasses.c
 714101b55106b03a7ad88a37909d3a00 *src/atkConversion.c

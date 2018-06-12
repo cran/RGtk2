@@ -1,5 +1,5 @@
 Package: RGtk2
-Version: 2.20.34
+Version: 2.20.35
 Title: R Bindings for Gtk 2.8.0 and Above
 Author: Michael Lawrence <michafla@gene.com> and Duncan Temple Lang <duncan@wald.ucdavis.edu>
 Depends: R (>= 3.4.0)
@@ -13,6 +13,6 @@ License: GPL
 URL: http://www.ggobi.org/rgtk2, http://www.omegahat.net
 Encoding: UTF-8
 NeedsCompilation: yes
-Packaged: 2017-08-13 23:18:45 UTC; larman
+Packaged: 2018-06-11 00:10:47 UTC; larman
 Repository: CRAN
-Date/Publication: 2018-01-25 22:20:23 UTC
+Date/Publication: 2018-06-12 15:59:48 UTC
