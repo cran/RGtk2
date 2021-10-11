@@ -1,4 +1,4 @@
-fcc7e6bb219a89f17c9b3ca7939865ce *DESCRIPTION
+a1a0edf61e271331163130840730a182 *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 61bd8bcbc6533205f8c3b3b6dd5d95bd *NAMESPACE
 2dc37bfa2f39a78bd08a4ba8549e28ab *R/RGtk.R
@@ -5892,8 +5892,8 @@ e812b442bd3acebdaa68a9c4cff30797 *man/typeMacros.Rd
 b4e8bc2b046f50aac82270a7b6439191 *man/utils.Rd
 8e8ab81c44a2b3e832319cee1aee5813 *man/virtuals.Rd
 6bfd5f52910775681ce8f3b83b38f678 *man/windowSize.Rd
-09642cf61bb2440e12e80def9e21581b *src/Makevars.in
-84623062f0338203d55ceef13b9bde37 *src/Makevars.win
+e7ad2b12c9936d2244a2966d5531231a *src/Makevars.in
+067e7337b591dbcd3d84dd79e13d766a *src/Makevars.win
 09beb4bc8d6aed950a01c21e49c5d88a *src/RGtk2/RSCommon.h
 5ed3fabb308d222515889c2fbb6bf711 *src/RGtk2/atk.h
 6a4fda25a1814406acfb43490bcb0f51 *src/RGtk2/atkClassImports.c

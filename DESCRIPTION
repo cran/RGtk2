@@ -1,18 +1,18 @@
 Package: RGtk2
-Version: 2.20.36
+Version: 2.20.36.1
 Title: R Bindings for Gtk 2.8.0 and Above
 Author: Michael Lawrence <michafla@gene.com> and Duncan Temple Lang <duncan@wald.ucdavis.edu>
 Depends: R (>= 3.4.0)
 Imports: methods
 SystemRequirements: Cairo (>= 1.0.0), ATK (>= 1.10.0), Pango (>=
         1.10.0), GTK+ (>= 2.8.0), GLib (>= 2.8.0)
-Maintainer: Michael Lawrence <michafla@gene.com>
+Maintainer: ORPHANED
 Description: Facilities in the R language for programming
   graphical interfaces using Gtk, the Gimp Tool Kit.
 License: GPL
 URL: http://www.ggobi.org/rgtk2, http://www.omegahat.net
 Encoding: UTF-8
 NeedsCompilation: yes
-Packaged: 2019-03-03 23:20:52 UTC; larman
+Packaged: 2021-10-11 11:14:11 UTC; ripley
 Repository: CRAN
-Date/Publication: 2019-03-08 15:32:41 UTC
+Date/Publication: 2021-10-11 12:12:21 UTC
