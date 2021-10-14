@@ -1,4 +1,4 @@
-a1a0edf61e271331163130840730a182 *DESCRIPTION
+71cd878d257a3d7292c7cc3f0228891b *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 61bd8bcbc6533205f8c3b3b6dd5d95bd *NAMESPACE
 2dc37bfa2f39a78bd08a4ba8549e28ab *R/RGtk.R
@@ -60,7 +60,7 @@ f07b5c95a6d858bb80954f521d72cf0e *R/zcompat.R
 14e60c8d9529681b52293dad3bdbdf71 *README
 ba3caf48933f8c648233c7cf67566f2f *cleanup
 d7f4262aabd84b9e7b0c9e80ef0fb979 *configure
-aaa692d48a2ace3567bb8eecb80d191c *configure.in
+46bf3c9bedb18de1a938c2b01f32ec08 *configure.ac
 68b329da9893e34099c7d8ad5cb9c940 *configure.win
 ed1d75c61fe28ac67503437cab165b23 *demo/00Index
 ec9d1daf1caa1cd1125f1df06ef069b0 *demo/alphaSlider.R
