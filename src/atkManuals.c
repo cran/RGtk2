@@ -22,6 +22,7 @@ S_atk_editable_text_insert_text(USER_OBJECT_ s_object, USER_OBJECT_ s_string, US
 }
 
 /* This function is not provided in the win32 build of the library */
+/*
 #ifdef WIN32
 void
 atk_text_free_ranges (AtkTextRange **ranges)
@@ -43,3 +44,4 @@ atk_text_free_ranges (AtkTextRange **ranges)
     }
 }
 #endif
+*/

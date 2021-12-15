@@ -1798,7 +1798,7 @@ g_seek_type_get_type (void)
   return etype;
 }
 
-
+/*
 GType
 g_io_condition_get_type (void)
 {
@@ -1820,6 +1820,7 @@ g_io_condition_get_type (void)
 
   return etype;
 }
+*/
 
 /* Pointer comparison for ==.RGtkObject */
 

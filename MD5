@@ -1,4 +1,4 @@
-71cd878d257a3d7292c7cc3f0228891b *DESCRIPTION
+9f794668be42dc3469eb0f8244470570 *DESCRIPTION
 b4f88defc0ed38bb8f1e8c0718b5c8bf *INSTALL
 61bd8bcbc6533205f8c3b3b6dd5d95bd *NAMESPACE
 2dc37bfa2f39a78bd08a4ba8549e28ab *R/RGtk.R
@@ -5893,6 +5893,7 @@ b4e8bc2b046f50aac82270a7b6439191 *man/utils.Rd
 8e8ab81c44a2b3e832319cee1aee5813 *man/virtuals.Rd
 6bfd5f52910775681ce8f3b83b38f678 *man/windowSize.Rd
 e7ad2b12c9936d2244a2966d5531231a *src/Makevars.in
+fbe80275dce0e8d45728440a8d9d6f70 *src/Makevars.ucrt
 067e7337b591dbcd3d84dd79e13d766a *src/Makevars.win
 09beb4bc8d6aed950a01c21e49c5d88a *src/RGtk2/RSCommon.h
 5ed3fabb308d222515889c2fbb6bf711 *src/RGtk2/atk.h
@@ -5942,7 +5943,7 @@ d19534224f865ce77bb1614550e58653 *src/atkClasses.c
 714101b55106b03a7ad88a37909d3a00 *src/atkConversion.c
 6f5ea970ec7bba8fa336d9598ca35347 *src/atkFuncs.c
 7d156a0dace9bf89a43511403746a23f *src/atkFuncs.h
-b0fcd831d5d93d264c7f678523007933 *src/atkManuals.c
+139f00477642ece02757cca004bda67d *src/atkManuals.c
 d945216a24e757dfd8d3d8e3fe3d42e3 *src/atkUserFuncs.c
 2a4564efad4c42786e3238fd58d5f6d1 *src/cairo-enums.c
 f083c93871b0f55bc55f112be1831450 *src/cairo-enums.h
@@ -5989,7 +5990,7 @@ adaa01ef9d7cba0d35b2d92ad9b4c699 *src/gioAccessors.c
 f88f63ad66788dc782062adc150789fb *src/gioManuals.c
 76acc456467ce17ee1612833bae366dc *src/gioUserFuncs.c
 51b23072391d227147f7a93584b57308 *src/glib.c
-e273afe19f815b197a5ab3a21774b464 *src/gobject.c
+45f0edbc74e0da95b714c99cdf05b015 *src/gobject.c
 fc359d759a8a501959a9b185bad69051 *src/gtkAccessors.c
 a06bdd3a4cb4f44138f260c16ec5f6d4 *src/gtkClasses.c
 e25037c1c8f3ba7dbca2db2f9d5fd7b7 *src/gtkConversion.c
